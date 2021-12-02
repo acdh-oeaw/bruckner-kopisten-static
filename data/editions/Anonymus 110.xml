@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main" level="a">Anonymus 100</title>
+                <title level="m">Die Wiener Kopisten der Werke Anton Bruckners</title>
+                <author>
+                    <name>Paul Hawkshaw</name>
+                    <name>Clemens Gubsch</name>
+                </author>
+                <respStmt>
+                    <resp>Automatische Konvertierung nach TEI P5</resp>
+                    <name xml:id="cg">Clemens Gubsch</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
+                    <name corresp="#cg">Clemens Gubsch</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2020-11-01</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Die Wiener Kopisten der Werke Anton Bruckners</publisher>
+                <idno type="BrucknerKopisten">d1e6989</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term>Anonymus</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="#cg" status="created">Erstellt und geprüft</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="content-d1e25f4">
+                <listPerson>
+                    <person>
+                        <persName type="main">Anonymus 110</persName>
+                        <idno type="google-sheet">110</idno>
+                        <floruit from="1881" to="1883">1881–1883</floruit>
+                        <residence/>
+                        <affiliation xml:lang="de"/>
+                        <affiliation xml:lang="eng"/>
+                        <index>
+                            <term sortKey="1" xml:lang="de">Primärquellen</term>
+                            <term sortKey="1" xml:lang="eng">Primary Sources</term>
+                        </index>
+                    </person>
+                </listPerson>
+                <p decls="desc" xml:lang="de">
+                    <lb/>Das Schreibprofil des Kopisten Anonymus 110 konnte dem Kopisten Anonymus 024 zugeordnet werden. Die entstprechenden Abschriften werden unter diesem Namen geführt.
+                </p>
+                <p decls="desc" xml:lang="eng">
+                    <lb/>The writing profile of the copyist Anonymus 110 could be assigned to the copyist Anonymus 024. The respective copies are listed under this name.
+                </p>
+                <table>
+                    <head>Abschriften</head>
+                    <row xml:lang="de" role="label">
+                        <cell>Datierung des Werkes</cell>
+                        <cell>Signatur</cell>
+                        <cell>Werktitel</cell>
+                        <cell>WAB-Nummer</cell>
+                        <cell>Art der Kopie</cell>
+                        <cell>erschlossene Datierung der Kopie</cell>
+                        <cell>Folios in der Hand des Kopisten</cell>
+                        <cell>Datierung der Kopie/Unterschrift</cell>
+                    </row>
+                    <row xml:lang="eng" role="label">
+                        <cell>Date of Composition</cell>
+                        <cell>Library Call Number</cell>
+                        <cell>Work Title</cell>
+                        <cell>WAB Number</cell>
+                        <cell>Manuscript Description</cell>
+                        <cell>date conjectural</cell>
+                        <cell>Folios in the Copyist’s Hand</cell>
+                        <cell>Copyist’s Signature or Date</cell>
+                    </row>
+                </table>
+                <list>
+                    <head xml:lang="de">Beispiele entnommen aus: <ref/>
+                    </head>
+                    <head xml:lang="eng">Examples taken from: <ref/>
+                    </head>
+                    <item>
+                        <title xml:lang="de">Notenschlüssel</title>
+                        <title xml:lang="eng">Clefs</title>
+                        <figure/>
+                    </item>
+                    <item>
+                        <title xml:lang="de">Akzidentien</title>
+                        <title xml:lang="eng">Accidentals</title>
+                        <figure/>
+                    </item>
+                    <item>
+                        <title xml:lang="de">Taktvorzeichnung</title>
+                        <title xml:lang="eng">Time Signatures</title>
+                        <figure/>
+                    </item>
+                    <item>
+                        <title xml:lang="de">Pausen</title>
+                        <title xml:lang="eng">Rests</title>
+                        <figure/>
+                    </item>
+                    <item>
+                        <title xml:lang="de">Noten</title>
+                        <title xml:lang="eng">Notes</title>
+                        <figure/>
+                    </item>
+                    <item>
+                        <title xml:lang="de">Dynamik</title>
+                        <title xml:lang="eng">Dynamics</title>
+                        <figure/>
+                    </item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

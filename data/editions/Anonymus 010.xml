@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Anonymus 010</title>
+            <title level="m">Die Wiener Kopisten der Werke Anton Bruckners</title>
+            <author>
+               <name>Paul Hawkshaw</name>
+               <name>Clemens Gubsch</name>
+            </author>
+            <respStmt>
+               <resp>Automatische Konvertierung nach TEI P5</resp>
+               <name xml:id="cg">Clemens Gubsch</name>
+            </respStmt>
+            <respStmt>
+               <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
+               <name corresp="#cg">Clemens Gubsch</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2020-11-01</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Die Wiener Kopisten der Werke Anton Bruckners</publisher>
+            <idno type="BrucknerKopisten">d1e1906</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term>Anonymus</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change who="#cg" status="created">Erstellt und geprüft</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="content-d1e1906">
+            <listPerson>
+               <person>
+                  <persName subtype="W" type="main">Anonymus 010</persName>
+                  <idno type="google-sheet">010</idno>
+                  <floruit from="1876" to="1878">1876–1878</floruit>
+                  <residence/>
+                  <affiliation xml:lang="de">Wiener Kopisten</affiliation>
+                  <affiliation xml:lang="eng">Vienna copyist</affiliation>
+                  <index>
+                     <term sortKey="1" xml:lang="de">Primärquellen</term>
+                     <term sortKey="1" xml:lang="eng">Primary Sources</term>
+                  </index>
+               </person>
+            </listPerson>
+            <p decls="desc" xml:lang="de">
+               <lb/>Die Kopisten Anonymus 009 und 010 waren vermutlich in den Jahren 1877–1878 oder kurz danach für Bruckner tätig.
+               Sie übertrugen die Änderungen, die Bruckner im Jahr 1877 an der 2. Symphonie vornahm, in die Partiturabschrift und den Stimmensatz. 
+               Ebenso waren beide Kopisten an der Partiturabschrift zur Messe in f-Moll (A-WnMus.Hs.6015), die wiederum Bruckners Überarbeitungen aus dem Jahr 1877 enthält, beteiligt.<ref xml:id="footnote-ref015" target="#footnote015" type="noteAnchor">1</ref>
+               Da die weiteren, auf 1881 zu datierenden Überarbeitungen der Messe nachträglich hinzugefügt werden mussten, liegt es nahe, dass diese Partiturabschrift vor 1881 entstand. 
+               <note xml:id="footnote015" type="footnote" anchored="true" n="1">Paul Hawkshaw, An anatomy of change: Anton Bruckner’s revisions to the Mass in F Minor, in: „Bruckner Studies“, hg. Timothy L. Jackson and Paul Hawkshaw. (Cambridge, 1997), S. 4.</note>
+            </p>
+            <p decls="desc" xml:lang="eng">
+               <lb/>Anonymus 009 and 010 probably worked for Bruckner in 1877–1878 or shortly after.
+               They adapted a copy score and parts of the Second Symphony to Bruckner’s changes of
+               1877 and shared the preparation of A-WnMus.Hs.6015, a copy of the Mass in F-minor
+               that also contains Bruckner’s revisions of 1877.<ref xml:id="footnote-ref016" target="#footnote016" type="noteAnchor">1</ref> The
+               Mass score must have dated from before 1881 because the composer’s revisions from
+               that year had to be added to it.
+               <note xml:id="footnote016" type="footnote" anchored="true" n="1">Paul Hawkshaw, “An anatomy of change: Anton Bruckner’s revisions to the Mass in F Minor.” In <hi rend="italic">Bruckner Studies</hi>, ed. Timothy L. Jackson and Paul Hawkshaw. (Cambridge, 1997), p. 4.</note>
+            </p>
+            <table>
+               <head>Abschriften</head>
+               <row xml:lang="de" role="label">
+                  <cell>Datierung des Werkes</cell>
+                  <cell>Signatur</cell>
+                  <cell>Werktitel</cell>
+                  <cell>WAB-Nummer</cell>
+                  <cell>Art der Kopie</cell>
+                  <cell>erschlossene Datierung der Kopie</cell>
+                  <cell>Folios in der Hand des Kopisten</cell>
+                  <cell>Datierung der Kopie/Unterschrift</cell>
+               </row>
+               <row xml:lang="eng" role="label">
+                  <cell>Date of Composition</cell>
+                  <cell>Library Call Number</cell>
+                  <cell>Work Title</cell>
+                  <cell>WAB Number</cell>
+                  <cell>Manuscript Description</cell>
+                  <cell>date conjectural</cell>
+                  <cell>Folios in the Copyist’s Hand</cell>
+                  <cell>Copyist’s Signature or Date</cell>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1868-09-09">09.09.1868</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.6015">A-WnMus.Hs.6015</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9401">Messe in f-Moll</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-028">028</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur mit aut. Eintragungen</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie">
+                     <date from="1877" to="1878" notAfter="1881">1877–1878; vor 1881</date>
+                  </cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">41r–84v; 91r–103r</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1871-10-11" to="1872-09-11">11.10.1871–11.09.1872</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-SF19-14">A-SF19-14</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9846">2. Symphonie</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-102">102</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Streicher-Stimmen (Revisionen)</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie">
+                     <date from="1877" to="1878">1877–1878</date>
+                  </cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">6v, Z. 9; 9r; 17v; 20v, Z. 1–5; 22v,
+                     Z. 2, T 2–22v, Z. 9; 26v, Z. 3–4; 32r, Z. 4–8: 34r, Z. 10; 39v; 42v, Z. 6–10:
+                     45r, Z. 5–9; 49v Z. 4–5; 54v, Z. 6–10; 62v; 66r, Z. 1–4; 68r, Z. 5–9; 72v, Z.
+                     3–4; 78r, Z. 2–7; 85v; 90v; 94v, Z. 1–2; 100r, Z. 3–6; 107v, Z. 7–10; 110r, Z.
+                     7–10; 112v; 116r, Z. 1–3; 121r, Z. 1–6; 127v, verso Seite der Einlage;130r. Z.
+                     4–8; 135v, Z. 8; 141r, Z.1–8; 147r, Z. 2–10; 150v, Z. 1–10; 152r, Z. 6–9; 156r,
+                     Z. 1–2; 161r, Z. 1–7; 161v, Z. 1–2; 167v, Z. 3–7; 170r, Z. 8–10; 173r; 177r, Z.
+                     1–2; 181r, Z. 1–9; 188r, Z. 2–8; 191r, Z. 4–7; 191v, Z. 5–10; 196r, Z. 3–4;
+                     201r, Z. 4–6; 210v, Z. 2–3; 217r, Z. 3–4; 222r, Z. 3–5; 227v, Z. 1–7; 237r, Z.
+                     3–4; 242r, Z. 5–7; 251v, Z. 2–3; 258r, Z. 4–5; 263r, L nn 3–8; 268v, Z. 2–8;
+                     271v, Z. 2–3; 278r, Z. 2–3; 282v, Z. 4–7; 288v; 291v, Z. 7–8; 298r, Z. 6–7;
+                     302v, Z. 4–6; 307v, Z. 4–7; 310v, Z. 2–6; 315r, Z. 4–5; 319v, Z. 6–8; 327r, Z.
+                     5–9; 333v, Z. 6–7; 337v, Z. 4–6; 342r, Z. 7–10; 345r, Z. 5–8; 351r, Z. 4–5;
+                     355r, Z. 8–10; 360v, Z. 2–5; 364r, Z. 1–4;</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1871-10-11" to="1872-09-11">11.10.1871–11.09.1872</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.6034">A-WnMus.Hs.6034</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9846">2. Symphonie</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-102">102</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur mit aut. Eintragungen</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie">
+                     <date from="1877" to="1878">1877–1878</date>
+                  </cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">27r–28v; 50r–51v; 60r–61v; 70r–75v;
+                     79r–79v; 92r–92v; 129r–129v; 134r–136v; 139r–140v; 142r–142v; 160r–171r</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+            </table>
+            <list>
+               <head xml:lang="de">Beispiele entnommen aus: <ref target="Anonymus-010_A-WnMus.Hs.6015-041r.jpg">A-WnMus.Hs.6015</ref> und <ref target="Anonymus-010_A-WnMus.Hs.6034-027r.jpg">A-WnMus.Hs.6034</ref>
+               </head>
+               <head xml:lang="eng">Examples taken from: <ref target="Anonymus-010_A-WnMus.Hs.6015-041r.jpg">A-WnMus.Hs.6015</ref> and <ref target="Anonymus-010_A-WnMus.Hs.6034-027r.jpg">A-WnMus.Hs.6034-027</ref>
+               </head>
+               <item>
+                  <title xml:lang="de">Notenschlüssel</title>
+                  <title xml:lang="eng">Clefs</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_010/Anonymus-010_A-WnMus.Hs.6015_A-Clefs_C.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_010/Anonymus-010_A-WnMus.Hs.6015_A-Clefs_F.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_010/Anonymus-010_A-WnMus.Hs.6015_A-Clefs_G.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Akzidentien</title>
+                  <title xml:lang="eng">Accidentals</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_010/Anonymus-010_A-WnMus.Hs.6015_B-Accidentals_Flat.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_010/Anonymus-010_A-WnMus.Hs.6015_B-Accidentals_Natural.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_010/Anonymus-010_A-WnMus.Hs.6015_B-Accidentals_Sharp.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_010/Anonymus-010_A-WnMus.Hs.6034_B-Accidentals_Flat.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_010/Anonymus-010_A-WnMus.Hs.6034_B-Accidentals_Natural.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_010/Anonymus-010_A-WnMus.Hs.6034_B-Accidentals_Sharp.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Taktvorzeichnung</title>
+                  <title xml:lang="eng">Time Signatures</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_010/Anonymus-010_A-WnMus.Hs.6015_C-Time-Signatures_C.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Pausen</title>
+                  <title xml:lang="eng">Rests</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_010/Anonymus-010_A-WnMus.Hs.6015_D-Rests_Viertel.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_010/Anonymus-010_A-WnMus.Hs.6034_D-Rests_Achtel.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_010/Anonymus-010_A-WnMus.Hs.6034_D-Rests_Viertel.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Noten</title>
+                  <title xml:lang="eng">Notes</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_010/Anonymus-010_A-WnMus.Hs.6015_E-Notes_Achtel.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_010/Anonymus-010_A-WnMus.Hs.6015_E-Notes_Ganze.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_010/Anonymus-010_A-WnMus.Hs.6015_E-Notes_Halbe.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_010/Anonymus-010_A-WnMus.Hs.6015_E-Notes_Sechzehntel.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_010/Anonymus-010_A-WnMus.Hs.6015_E-Notes_Viertel.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_010/Anonymus-010_A-WnMus.Hs.6034_E-Notes_Achtel.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_010/Anonymus-010_A-WnMus.Hs.6034_E-Notes_Halbe.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_010/Anonymus-010_A-WnMus.Hs.6034_E-Notes_Viertel.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Dynamik</title>
+                  <title xml:lang="eng">Dynamics</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_010/Anonymus-010_A-WnMus.Hs.6015_F-Dynamics_Cresc.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_010/Anonymus-010_A-WnMus.Hs.6015_F-Dynamics_Dim.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_010/Anonymus-010_A-WnMus.Hs.6015_F-Dynamics_Fortissimo.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_010/Anonymus-010_A-WnMus.Hs.6015_F-Dynamics_Mezzoforte.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_010/Anonymus-010_A-WnMus.Hs.6015_F-Dynamics_Piano.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_010/Anonymus-010_A-WnMus.Hs.6034_F-Dynamics_Cresc.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_010/Anonymus-010_A-WnMus.Hs.6034_F-Dynamics_Crescendo.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_010/Anonymus-010_A-WnMus.Hs.6034_F-Dynamics_Dim.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_010/Anonymus-010_A-WnMus.Hs.6034_F-Dynamics_Forte.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_010/Anonymus-010_A-WnMus.Hs.6034_F-Dynamics_Fortissimo.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_010/Anonymus-010_A-WnMus.Hs.6034_F-Dynamics_Pianissimo.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_010/Anonymus-010_A-WnMus.Hs.6034_F-Dynamics_Piano.png"/>
+                  </figure>
+               </item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

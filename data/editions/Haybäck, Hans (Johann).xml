@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Haybäck, Johann</title>
+            <title level="m">Die Wiener Kopisten der Werke Anton Bruckners</title>
+            <author>
+               <name>Paul Hawkshaw</name>
+               <name>Clemens Gubsch</name>
+            </author>
+            <respStmt>
+               <resp>Automatische Konvertierung nach TEI P5</resp>
+               <name xml:id="cg">Clemens Gubsch</name>
+            </respStmt>
+            <respStmt>
+               <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
+               <name corresp="#cg">Clemens Gubsch</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2020-11-01</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Die Wiener Kopisten der Werke Anton Bruckners</publisher>
+            <idno type="BrucknerKopisten">d1e25107</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term>Bekannter Kopist</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change who="#cg" status="created">Erstellt und geprüft</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="content-d1e25107">
+            <listPerson>
+               <person>
+                  <persName type="main">Haybäck, Johann</persName>
+                  <persName type="call">Haybäck, Hans </persName>
+                  <persName>
+                     <surname>Haybäck</surname>
+                     <forename>Johann</forename>
+                  </persName>
+                  <idno type="google-sheet">Haybäck, Johann</idno>
+                  <idno type="GND"/>
+                  <residence>St. Florian</residence>
+                  <affiliation xml:lang="de">St. Florianer Kopisten</affiliation>
+                  <affiliation xml:lang="eng">St. Florian copyists</affiliation>
+                  <index>
+                     <term sortKey="2" xml:lang="de">Sekundärquellen</term>
+                     <term sortKey="2" xml:lang="eng">Secondary Sources</term>
+                  </index>
+               </person>
+            </listPerson>
+            <p decls="desc" xml:lang="de">
+               <lb/>Fol. 1<hi rend="sup">r</hi>, Z. 9 des Stimmensatzes (A-SF20-63) der Libera me,
+               Domini-Vertonung weist eine Bleistift-Eintragung von fremder Hand auf: „Handschrift
+               H. Haybäcks“, die zur Identifizierung herangezogen wurde.<ref xml:id="footnote-ref063" target="#footnote063" type="noteAnchor">1</ref> Haybäck
+               (1863–1899) war von 1882 bis 1906 Lehrer in St. Florian und darüber hinaus bis zu
+               seinem Tod 1933 als Stiftsorganist in St. Florian tätig. <lb/>Neben seiner
+               Organistentätigkeit, wirkte der eng mit Bruckner befreundete Haybäck auch als Tenor
+               und Cellist in der Kapelle des Stifts mit. <lb/>Siehe Berhard Deubler. <lb/>Für
+               weitere St. Florianer Kopisten siehe <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>. 
+               <note xml:id="footnote063" type="footnote" anchored="true" n="1">Es handelt sich
+                  wahrscheinlich um Johann Haybäck, der unter dem Rufnamen Hans bekannt war. An
+                  dieser Stelle sei Friedrich Buchmayr (Stiftsbibliothek, St. Florian) herzlich für
+                  die Zuordnung gedankt.</note>
+            </p>
+            <p decls="desc" xml:lang="eng">
+               <lb/>Fol. 1<hi rend="sup">r</hi>, ln. 9 of the Libera me, Domini parts (A-SF20-63) has an
+               anonymous pencil annotation in a foreign hand: “Handschrift H. Haybäcks”.<ref xml:id="footnote-ref064" target="#footnote064" type="noteAnchor">1</ref>
+               Haybäck lived from 1863 to 1933 and was a teacher in St. Florian from 1882 until
+               1906. From then until his death in 1933 he served as monastery organist. 
+               <lb/>He was a good friend of Bruckner and sang tenor and played cello in the monastery
+               <hi rend="italic">Musikkapelle</hi>. <lb/>See also Bernhard Deubler. 
+               <lb/>For more copyists from St. Florian, see <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Table 3</ref>.
+               <note xml:id="footnote064" type="footnote" anchored="true" n="1">The author is grateful to Dr. Friedrich Buchmayr, librarian in
+                  St. Florian, who informed him that the reference was probably to Hans Haybäck,
+                  formally known as “Johann”.</note>
+            </p>
+            <p decls="link" xml:lang="de"/>
+            <p decls="link" xml:lang="eng"/>
+            <table>
+               <head>Abschriften</head>
+               <row xml:lang="de" role="label">
+                  <cell>Datierung des Werkes</cell>
+                  <cell>Signatur</cell>
+                  <cell>Werktitel</cell>
+                  <cell>WAB-Nummer</cell>
+                  <cell>Art der Kopie</cell>
+                  <cell>erschlossene Datierung der Kopie</cell>
+                  <cell>Folios in der Hand des Kopisten</cell>
+                  <cell>Datierung der Kopie/Unterschrift</cell>
+               </row>
+               <row xml:lang="eng" role="label">
+                  <cell>Date of Composition</cell>
+                  <cell>Library Call Number</cell>
+                  <cell>Work Title</cell>
+                  <cell>WAB Number</cell>
+                  <cell>Manuscript Description</cell>
+                  <cell>date conjectural</cell>
+                  <cell>Folios in the Copyist’s Hand</cell>
+                  <cell>Copyist’s Signature or Date</cell>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1854-03-24" to="1854-03-28">24.03.1854–28.03.1854</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-SF20-63">A-SF20-63</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9261">Libera me,
+                        Domine</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-022">022</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern">Fol 2v weist ein Aufführungs[?]-Datum auf: den
+                     30/VI./1907.</cell>
+               </row>
+            </table>
+            <list>
+               <head xml:lang="de">Beispiele entnommen aus: <ref target="Haybäck_Johann_A-SF20-63-1v.jpg">A-SF20-63</ref>
+               </head>
+               <head xml:lang="eng">Examples taken from: <ref target="Haybäck_Johann_A-SF20-63-1v.jpg">A-SF20-63</ref>
+               </head>
+               <item>
+                  <title xml:lang="de">Notenschlüssel</title>
+                  <title xml:lang="eng">Clefs</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/named/H/Haybäck_Johann/Haybäck_Johann_A-SF20-63_A-Clefs_F.png"/>
+                     <graphic scale="33" url="../../101_samples/named/H/Haybäck_Johann/Haybäck_Johann_A-SF20-63_A-Clefs_G.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Akzidentien</title>
+                  <title xml:lang="eng">Accidentals</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/named/H/Haybäck_Johann/Haybäck_Johann_A-SF20-63_B-Accidentals_Flat.png"/>
+                     <graphic scale="33" url="../../101_samples/named/H/Haybäck_Johann/Haybäck_Johann_A-SF20-63_B-Accidentals_Natural.png"/>
+                     <graphic scale="33" url="../../101_samples/named/H/Haybäck_Johann/Haybäck_Johann_A-SF20-63_B-Accidentals_Sharp.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Taktvorzeichnung</title>
+                  <title xml:lang="eng">Time Signatures</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/named/H/Haybäck_Johann/Haybäck_Johann_A-SF20-63_C-Time-Signatures_C.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Pausen</title>
+                  <title xml:lang="eng">Rests</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/named/H/Haybäck_Johann/Haybäck_Johann_A-SF20-63_D-Rests_Viertel.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Noten</title>
+                  <title xml:lang="eng">Notes</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/named/H/Haybäck_Johann/Haybäck_Johann_A-SF20-63_E-Notes_Achtel.png"/>
+                     <graphic scale="33" url="../../101_samples/named/H/Haybäck_Johann/Haybäck_Johann_A-SF20-63_E-Notes_Ganze.png"/>
+                     <graphic scale="33" url="../../101_samples/named/H/Haybäck_Johann/Haybäck_Johann_A-SF20-63_E-Notes_Halbe.png"/>
+                     <graphic scale="33" url="../../101_samples/named/H/Haybäck_Johann/Haybäck_Johann_A-SF20-63_E-Notes_Viertel.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Dynamik</title>
+                  <title xml:lang="eng">Dynamics</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/named/H/Haybäck_Johann/Haybäck_Johann_A-SF20-63_F-Dynamics_Forte.png"/>
+                     <graphic scale="33" url="../../101_samples/named/H/Haybäck_Johann/Haybäck_Johann_A-SF20-63_F-Dynamics_Fortissimo.png"/>
+                     <graphic scale="33" url="../../101_samples/named/H/Haybäck_Johann/Haybäck_Johann_A-SF20-63_F-Dynamics_Piano.png"/>
+                  </figure>
+               </item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

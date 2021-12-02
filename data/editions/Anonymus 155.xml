@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main" level="a">Anonymus 155</title>
+                <title level="m">Die Wiener Kopisten der Werke Anton Bruckners</title>
+                <author>
+                    <name>Paul Hawkshaw</name>
+                    <name>Clemens Gubsch</name>
+                </author>
+                <respStmt>
+                    <resp>Automatische Konvertierung nach TEI P5</resp>
+                    <name xml:id="cg">Clemens Gubsch</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
+                    <name corresp="#cg">Clemens Gubsch</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2020-11-01</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Die Wiener Kopisten der Werke Anton Bruckners</publisher>
+                <idno type="BrucknerKopisten">d1e360459</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term>Anonymus</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="#cg" status="created">Erstellt und geprüft</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="content-d1e360459">
+                <listPerson>
+                    <person>
+                        <persName subtype="W" type="main">Anonymus 155</persName>
+                        <idno type="google-sheet">155</idno>
+                        <floruit from="1869" to="1869">1869</floruit>
+                        <residence/>
+                        <affiliation xml:lang="de">Wiener Kopisten</affiliation>
+                        <affiliation xml:lang="eng">Vienna copyist</affiliation>
+                        <index>
+                            <term sortKey="1" xml:lang="de">Primärquellen</term>
+                            <term sortKey="1" xml:lang="eng">Primary Sources</term>
+                        </index>
+                    </person>
+                </listPerson>
+                <p decls="desc" xml:lang="de">
+                    <lb/>Der Kopist Anonymus 155 fertigte Stimmen des Stimmensatzes zur Messe in e-Moll an, der bei der Uraufführung am 29. September 1869 verwendet wurde (siehe auch Franz Schimatschek und Anonymus 001). Die Zurodnung des Kopisten zu den Wiener Kopisten erfolgte aufgrund der Annahme, dass die Stimmen erst mit der Übersiedlung Bruckners nach Wien angefertigt wurden. 
+                    <lb/>Für weitere Kopisten aus Linz siehe <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>.
+                </p>
+                <p decls="desc" xml:lang="eng">
+                    <lb/>Anonymus 155 contributed to the original set of parts that was used for the first performance of the Mass in E minor in Linz on 29 September 1869 (see also Franz Schimatschek and Anonymus 001). Anonymus 155 has been identified with a (W) on the assumption that the parts were prepared after the composer had moved to Vienna.
+                    <lb/>For more copyists from Linz, see <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Table 3</ref>. 
+                </p>
+                <p decls="link" xml:lang="de"/>
+                <p decls="link" xml:lang="eng"/>
+                <table>
+                    <head>Abschriften</head>
+                    <row xml:lang="de" role="label">
+                        <cell>Datierung des Werkes</cell>
+                        <cell>Signatur</cell>
+                        <cell>Werktitel</cell>
+                        <cell>WAB-Nummer</cell>
+                        <cell>Art der Kopie</cell>
+                        <cell>erschlossene Datierung der Kopie</cell>
+                        <cell>Folios in der Hand des Kopisten</cell>
+                        <cell>Datierung der Kopie/Unterschrift</cell>
+                    </row>
+                    <row xml:lang="eng" role="label">
+                        <cell>Date of Composition</cell>
+                        <cell>Library Call Number</cell>
+                        <cell>Work Title</cell>
+                        <cell>WAB Number</cell>
+                        <cell>Manuscript Description</cell>
+                        <cell>date conjectural</cell>
+                        <cell>Folios in the Copyist’s Hand</cell>
+                        <cell>Copyist’s Signature or Date</cell>
+                    </row>
+                    <row role="data">
+                        <cell role="Datierung">
+                            <date when="1866-11-25">25.11.1866</date>
+                        </cell>
+                        <cell role="Signatur">
+                            <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-LId478_7_29">A-LId478_7_29</ref>
+                        </cell>
+                        <cell role="Werktitel">
+                            <ref target="http://www.bruckner-online.at/ABLO_d1e9393">Messe in e-Moll</ref>
+                        </cell>
+                        <cell role="WAB-Nummer">
+                            <ref target="http://www.bruckner-online.at/wab-027">027</ref>
+                        </cell>
+                        <cell role="Art_der_Kopie">Stimmen</cell>
+                        <cell role="erschlossene_Datierung_der_Kopie">
+                            <date when="1869">1869</date>
+                        </cell>
+                        <cell role="Folios_in_der_Hand_des_Kopisten">25r–32r (Ten 2, St. 7); 37r–44r (Ten 2, St. 8); 45r–52r (Ten 2, St. 9); 53r–60r (Ten 2, St. 10), 61v–68r (Ten 2, St. 11); 69v–76r (Ten 2, St. 12)</cell>
+                        <cell role="Datierung_der_Kopie/Unterschrift"/>
+                        <cell role="Kommentar_intern">Es handelt sich um die 1. Fassung der Messe</cell>
+                    </row>
+                </table>
+                <list>
+                    <head xml:lang="de">Beispiele entnommen aus: <ref target="Anonymus-155_A-LId478_7_29-01r.jpg">A-LId478_7_29</ref>
+                    </head>
+                    <head xml:lang="eng">Examples taken from: <ref target="Anonymus-155_A-LId478_7_29-01r.jpg">A-LId478_7_29</ref>
+                    </head>
+                    <item>
+                        <title xml:lang="de">Notenschlüssel</title>
+                        <title xml:lang="eng">Clefs</title>
+                        <figure>
+                        </figure>
+                    </item>
+                    <item>
+                        <title xml:lang="de">Akzidentien</title>
+                        <title xml:lang="eng">Accidentals</title>
+                        <figure>
+                        </figure>
+                    </item>
+                    <item>
+                        <title xml:lang="de">Taktvorzeichnung</title>
+                        <title xml:lang="eng">Time Signatures</title>
+                        <figure>
+                        </figure>
+                    </item>
+                    <item>
+                        <title xml:lang="de">Pausen</title>
+                        <title xml:lang="eng">Rests</title>
+                        <figure>
+                        </figure>
+                    </item>
+                    <item>
+                        <title xml:lang="de">Noten</title>
+                        <title xml:lang="eng">Notes</title>
+                        <figure>
+                        </figure>
+                    </item>
+                    <item>
+                        <title xml:lang="de">Dynamik</title>
+                        <title xml:lang="eng">Dynamics</title>
+                        <figure>
+                        </figure>
+                    </item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

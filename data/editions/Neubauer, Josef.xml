@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Neubauer, Josef</title>
+            <title level="m">Die Wiener Kopisten der Werke Anton Bruckners</title>
+            <author>
+               <name>Paul Hawkshaw</name>
+               <name>Clemens Gubsch</name>
+            </author>
+            <respStmt>
+               <resp>Automatische Konvertierung nach TEI P5</resp>
+               <name xml:id="cg">Clemens Gubsch</name>
+            </respStmt>
+            <respStmt>
+               <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
+               <name corresp="#cg">Clemens Gubsch</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2020-11-01</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Die Wiener Kopisten der Werke Anton Bruckners</publisher>
+            <idno type="BrucknerKopisten">d1e30784</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term>Bekannter Kopist</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change who="#cg" status="created">Erstellt und geprüft</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="content-d1e30784">
+            <listPerson>
+               <person>
+                  <persName type="main">Neubauer, Josef</persName>
+                  <persName>
+                     <surname>Neubauer</surname>
+                     <forename>Josef</forename>
+                  </persName>
+                  <idno type="google-sheet">Neubauer, Josef</idno>
+                  <idno type="GND"/>
+                  <residence/>
+                  <affiliation xml:lang="de"/>
+                  <affiliation xml:lang="eng"/>
+                  <index>
+                     <term sortKey="2" xml:lang="de">Sekundärquellen</term>
+                     <term sortKey="2" xml:lang="eng">Secondary Sources</term>
+                  </index>
+               </person>
+            </listPerson>
+            <p decls="desc" xml:lang="de">
+               <lb/>Josef Neubauer dirigierte die Wiener Erstaufführung von Bruckners e-Moll-Messe
+               in der Votivkirche am 17.03.1899.<ref xml:id="footnote-ref075" target="#footnote075" type="noteAnchor">1</ref> Als Dirigent des <ref target="http://www.bruckner-online.at/ABLO_d1e7015">
+                  <hi rend="italic">Wiener Männergesang-Verein</hi></ref> ist es nicht verwunderlich, dass er
+               ausschließlich Bruckners Vokalmusik kopierte. Seine Handschrift konnte anhand seiner heute verschollenen
+               Partiturabschrift (A-WnMus.Hs.19763) des Tafellieds (WAB 059c) identifiziert werden,
+               die signiert und auf den 11. November 1897 datiert ist. 
+               <note xml:id="footnote075" type="footnote" anchored="true" n="1">Göllerich-Auer,
+                  Bd. 4/4, S. 33.</note>
+            </p>
+            <p decls="desc" xml:lang="eng">
+               <lb/>Josef Neubauer conducted the first Viennese performance of Bruckner’s Mass in E
+               minor in the Votivkirche on 17 March 1899.<ref xml:id="footnote-ref076" target="#footnote076" type="noteAnchor">1</ref> As conductor of the <ref target="http://www.bruckner-online.at/ABLO_d1e7015">
+                  <hi rend="italic">Wiener
+                     Männergesang-Verein</hi>
+               </ref>, it is not surprising that all his copies are of
+               Bruckner’s vocal music. His handwriting has been identified on the basis of his copy, now lost,
+               (A-WnMus.Hs.19763) of the composer’s Tafellied (WAB 059c), which he signed and dated
+               11 November 1897. <note xml:id="footnote076" type="footnote" anchored="true" n="1">Göllerich-Auer, Bd. 4/4, p. 33.</note>
+            </p>
+            <p decls="link" xml:lang="de"/>
+            <p decls="link" xml:lang="eng"/>
+            <table>
+               <head>Abschriften</head>
+               <row xml:lang="de" role="label">
+                  <cell>Datierung des Werkes</cell>
+                  <cell>Signatur</cell>
+                  <cell>Werktitel</cell>
+                  <cell>WAB-Nummer</cell>
+                  <cell>Art der Kopie</cell>
+                  <cell>erschlossene Datierung der Kopie</cell>
+                  <cell>Folios in der Hand des Kopisten</cell>
+                  <cell>Datierung der Kopie/Unterschrift</cell>
+               </row>
+               <row xml:lang="eng" role="label">
+                  <cell>Date of Composition</cell>
+                  <cell>Library Call Number</cell>
+                  <cell>Work Title</cell>
+                  <cell>WAB Number</cell>
+                  <cell>Manuscript Description</cell>
+                  <cell>date conjectural</cell>
+                  <cell>Folios in the Copyist’s Hand</cell>
+                  <cell>Copyist’s Signature or Date</cell>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1842">1842</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19696">A-WnMus.Hs.19696</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9376">Messe in C-Dur
+                        (Windhaager Messe)</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-025">025</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur (Benedictus)</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie">
+                     <date>[?]</date>
+                  </cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern">MC2</cell>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1844">1844</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19698">A-WnMus.Hs.19698</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9365">Choralmesse Christus
+                        factus est</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-009">009</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie">
+                     <date>[?]</date>
+                  </cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern">CFE1</cell>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1848">[1848]</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19723">A-WnMus.Hs.19723</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e8749">In jener letzten der
+                        Nächte</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-017">017</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie">
+                     <date>[?]</date>
+                  </cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern">PL2</cell>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1854">[1854?]</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19775">A-WnMus.Hs.19775</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e8819">Des Höchsten Preis,
+                        des Vaterlandes Ruhm</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-095">095</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie">
+                     <date>[?]</date>
+                  </cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1862-01">Januar 1862</date>
+                  </cell>
+                  <cell role="Signatur">A-WnMus.Hs.19741</cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e8515">Der Abendhimmel</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-055">055</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie">
+                     <date>[?]</date>
+                  </cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern">nicht in Bruckner online</cell>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1862-04-25">25.04.1862</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19734">A-WnMus.Hs.19734</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e8949">Festkantate</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-016">016</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partiturfragment</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie">
+                     <date>[?]</date>
+                  </cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1865-01-08">08.01.1865</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.34242">A-WnMus.Hs.34242</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e10098">Trauungs-Chor</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-049">049</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie">
+                     <date>[?]</date>
+                  </cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1876-12-31">31.12.1876</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.33157">A-WnMus.Hs.33157</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9094">Das hohe Lied</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-074">074</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie">
+                     <date>[?]</date>
+                  </cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1877-10-19">19.10.1877</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19765">A-WnMus.Hs.19765</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e10114">Trösterin Musik</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-081">081</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie">
+                     <date>[?]</date>
+                  </cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern">NTM4 in Bonline</cell>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1892-04-29">29.04.1892</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.3187">A-WnMus.Hs.3187</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e8827">Der deutsche
+                        Gesang</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-063">063</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie">
+                     <date>[?]</date>
+                  </cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern">DG2 in Bruckner online</cell>
+               </row>
+            </table>
+            <list>
+               <head xml:lang="de">Beispiele entnommen aus: <ref target="Neubauer_Josef_A-WnMus.Hs.19698-01v.jpg">A-WnMus.Hs.19698</ref> und
+                     <ref target="Neubauer_Josef_A-WnMus.Hs.19734-01r.jpg">A-WnMus.Hs.19734</ref>
+               </head>
+               <head xml:lang="eng">Examples taken from: <ref target="Neubauer_Josef_A-WnMus.Hs.19698-01v.jpg">A-WnMus.Hs.19698</ref> and
+                     <ref target="Neubauer_Josef_A-WnMus.Hs.19734-01r.jpg">A-WnMus.Hs.19734</ref>
+               </head>
+               <item>
+                  <title xml:lang="de">Notenschlüssel</title>
+                  <title xml:lang="eng">Clefs</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19698_A-Clefs_F.png"/>
+                     <graphic scale="33" url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19698_A-Clefs_G.png"/>
+                     <graphic scale="33" url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19734_A-Clefs_F.png"/>
+                     <graphic scale="33" url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19734_A-Clefs_G.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Akzidentien</title>
+                  <title xml:lang="eng">Accidentals</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19698_B-Accidentals_Flat.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19698_B-Accidentals_Natural_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19698_B-Accidentals_Natural_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19698_B-Accidentals_Sharp.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19734_B-Accidentals_Flat.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19734_B-Accidentals_Natural.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19734_B-Accidentals_Sharp.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Taktvorzeichnung</title>
+                  <title xml:lang="eng">Time Signatures</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19698_C-Time-Signatures_C.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19734_C-Time-Signatures_C.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Pausen</title>
+                  <title xml:lang="eng">Rests</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19698_D-Rests_Viertel.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Noten</title>
+                  <title xml:lang="eng">Notes</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19698_E-Notes_Achtel.png"/>
+                     <graphic scale="33" url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19698_E-Notes_Ganze.png"/>
+                     <graphic scale="33" url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19698_E-Notes_Halbe.png"/>
+                     <graphic scale="33" url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19698_E-Notes_Viertel.png"/>
+                     <graphic scale="33" url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19734_E-Notes_Achtel.png"/>
+                     <graphic scale="33" url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19734_E-Notes_Ganze.png"/>
+                     <graphic scale="33" url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19734_E-Notes_Halbe.png"/>
+                     <graphic scale="33" url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19734_E-Notes_Viertel.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Dynamik</title>
+                  <title xml:lang="eng">Dynamics</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19734_F-Dynamics_Cresc.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19734_F-Dynamics_Decresc.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19734_F-Dynamics_Mezzoforte.png"/>
+                     <graphic scale="33" url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19734_F-Dynamics_Piano.png"/>
+                  </figure>
+               </item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

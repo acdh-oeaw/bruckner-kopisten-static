@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Schalk, Josef</title>
+            <title level="m">Die Wiener Kopisten der Werke Anton Bruckners</title>
+            <author>
+               <name>Paul Hawkshaw</name>
+               <name>Clemens Gubsch</name>
+            </author>
+            <respStmt>
+               <resp>Automatische Konvertierung nach TEI P5</resp>
+               <name xml:id="cg">Clemens Gubsch</name>
+            </respStmt>
+            <respStmt>
+               <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
+               <name corresp="#cg">Clemens Gubsch</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2020-11-01</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Die Wiener Kopisten der Werke Anton Bruckners</publisher>
+            <idno type="BrucknerKopisten">d1e33170</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term>Bekannter Kopist</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change who="#cg" status="created">Erstellt und geprüft</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="content-d1e33170">
+            <listPerson>
+               <person>
+                  <persName type="main">Schalk, Josef</persName>
+                  <persName>
+                     <surname>Schalk</surname>
+                     <forename>Josef</forename>
+                  </persName>
+                  <idno type="google-sheet">Schalk, Josef</idno>
+                  <idno type="GND">118835580</idno>
+                  <floruit from="1880" to="1880" notBefore="1880" xml:lang="de">1880 und später</floruit>
+                  <floruit from="1880" to="1880" notBefore="1880" xml:lang="eng">1880 and later</floruit>
+                  <residence/>
+                  <affiliation xml:lang="de"/>
+                  <affiliation xml:lang="eng"/>
+                  <index>
+                     <term sortKey="1" xml:lang="de">Primärquellen</term>
+                     <term sortKey="1" xml:lang="eng">Primary Sources</term>
+                  </index>
+               </person>
+            </listPerson>
+            <p decls="desc" xml:lang="de"/>
+            <p decls="desc" xml:lang="eng"/>
+            <p decls="link" xml:lang="de">Eine detaillierte Biographie findet sich im entsprechenden
+               Artikel des ABLO: <ref target="http://www.bruckner-online.at/ABLO_d1e4883">siehe
+                  ABLO</ref>
+            </p>
+            <p decls="link" xml:lang="eng"/>
+            <table>
+               <head>Abschriften</head>
+               <row xml:lang="de" role="label">
+                  <cell>Datierung des Werkes</cell>
+                  <cell>Signatur</cell>
+                  <cell>Werktitel</cell>
+                  <cell>WAB-Nummer</cell>
+                  <cell>Art der Kopie</cell>
+                  <cell>erschlossene Datierung der Kopie</cell>
+                  <cell>Folios in der Hand des Kopisten</cell>
+                  <cell>Datierung der Kopie/Unterschrift</cell>
+               </row>
+               <row xml:lang="eng" role="label">
+                  <cell>Date of Composition</cell>
+                  <cell>Library Call Number</cell>
+                  <cell>Work Title</cell>
+                  <cell>WAB Number</cell>
+                  <cell>Manuscript Description</cell>
+                  <cell>date conjectural</cell>
+                  <cell>Folios in the Copyist’s Hand</cell>
+                  <cell>Copyist’s Signature or Date</cell>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1868-09-09">09.09.1868</date>
+                  </cell>
+                  <cell role="Signatur">A-Wgm I 28050a</cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9401">Messe in f-Moll</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-028">028</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Stimmen (Kyrie und Gloria)</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie">
+                     <date from="1888" to="1890">1888–1890</date>
+                  </cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">Hn. 4: 3r, Z. 10–Ende (ausserhalb 3v,
+                     Z. 7–11)</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1868-09-09">09.09.1868</date>
+                  </cell>
+                  <cell role="Signatur">A-Wgm I 28050b</cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9401">Messe in f-Moll</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-028">028</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Stimmen (Fragment)</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie">
+                     <date from="1888" to="1890">1888–1890</date>
+                  </cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1873-02-23" to="1873-12-31">23.02.1873–31.12.1873</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.28429">A-WnMus.Hs.28429</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9862">3. Symphonie, 1.
+                        Satz</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-103">103</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Klavierauszug (4hdg.) mit aut. Eintragungen,
+                     Fragment</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1874-01-02" to="1874-11-22">02.01.1874–22.11.1874</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref>Privatbesitz 12-1</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9878">4. Symphonie</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-104">104</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie">
+                     <date from="1887" to="1888">1887–1888</date>
+                  </cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">2. Satz</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1874-01-02" to="1874-11-22">02.01.1874–22.11.1874</date>
+                  </cell>
+                  <cell role="Signatur">A-Wgm XIII 27609/1, Fasz. A</cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9878">4. Symphonie</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-104">104</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Stimmen</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">Korrekturen</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern">Schalk corrected some of these parts.</cell>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1878-12" to="1879-07-12">von Dezember 1878 bis 12.07.1879</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-SF20-73">A-SF20-73</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9805">Streichquintett</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-112">112</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Stimmen mit aut. Eintragungen</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">15v; 30v; 44v; 58v; 67r</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern">SQ5</cell>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1884-06" to="1887-08-10">Juni 1884–10.08.1887</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnF18.Schalk.453">A-WnF18.Schalk.453</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9943">8. Symphonie, 1. und
+                        2. Satz</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-108">108</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Klavierauszug (4hdg.)</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift">1r; 15r</cell>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1884-06" to="1887-08-10">Juni 1884–10.08.1887</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.28419">A-WnMus.Hs.28419</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9943">8. Symphonie</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-108">108</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Skizzen und Partiturfragment</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">22v, Z. 21–24; 28v–30r</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1887-09-21" to="1894-07-02">21.09.1887-02.07.1894</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.28420">A-WnMus.Hs.28420</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9740">9. Symphonie, 1.–3.
+                        Satz</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-109">109</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Klavierauszug (4hdg., 3. Satz fragmentarisch)</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+            </table>
+            <list>
+               <head xml:lang="de">Beispiele entnommen aus: <ref target="Schalk_Josef_A-WnMus.Hs.28420-01.jpg">A-WnMus.Hs.28420</ref> und <ref target="Schalk_Josef_A-WnMus.Hs.28429-01r.jpg">A-WnMus.Hs.28429</ref>
+               </head>
+               <head xml:lang="eng">Examples taken from: <ref target="Schalk_Josef_A-WnMus.Hs.28420-01.jpg">A-WnMus.Hs.28420</ref> and <ref target="Schalk_Josef_A-WnMus.Hs.28429-01r.jpg">A-WnMus.Hs.28429</ref>
+               </head>
+               <item>
+                  <title xml:lang="de">Notenschlüssel</title>
+                  <title xml:lang="eng">Clefs</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/named/S/Schalk_Josef/Schalk_Josef_A-WnMus.Hs.28420_A-Clefs_F.png"/>
+                     <graphic scale="33" url="../../101_samples/named/S/Schalk_Josef/Schalk_Josef_A-WnMus.Hs.28420_A-Clefs_G.png"/>
+                     <graphic scale="33" url="../../101_samples/named/S/Schalk_Josef/Schalk_Josef_A-WnMus.Hs.28429_A-Clefs_F.png"/>
+                     <graphic scale="33" url="../../101_samples/named/S/Schalk_Josef/Schalk_Josef_A-WnMus.Hs.28429_A-Clefs_G.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Akzidentien</title>
+                  <title xml:lang="eng">Accidentals</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/named/S/Schalk_Josef/Schalk_Josef_A-WnMus.Hs.28420_B-Accidentals_Flat.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Schalk_Josef/Schalk_Josef_A-WnMus.Hs.28420_B-Accidentals_Natural.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Schalk_Josef/Schalk_Josef_A-WnMus.Hs.28420_B-Accidentals_Sharp.png"/>
+                     <graphic scale="33" url="../../101_samples/named/S/Schalk_Josef/Schalk_Josef_A-WnMus.Hs.28429_B-Accidentals_Flat.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Schalk_Josef/Schalk_Josef_A-WnMus.Hs.28429_B-Accidentals_Natural.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Schalk_Josef/Schalk_Josef_A-WnMus.Hs.28429_B-Accidentals_Sharp.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Taktvorzeichnung</title>
+                  <title xml:lang="eng">Time Signatures</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Schalk_Josef/Schalk_Josef_A-WnMus.Hs.28420_C-Time-Signatures_C.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Pausen</title>
+                  <title xml:lang="eng">Rests</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/named/S/Schalk_Josef/Schalk_Josef_A-WnMus.Hs.28420_D-Rests_Achtel_1.png"/>
+                     <graphic scale="33" url="../../101_samples/named/S/Schalk_Josef/Schalk_Josef_A-WnMus.Hs.28420_D-Rests_Achtel_2.png"/>
+                     <graphic scale="33" url="../../101_samples/named/S/Schalk_Josef/Schalk_Josef_A-WnMus.Hs.28420_D-Rests_Viertel.png"/>
+                     <graphic scale="33" url="../../101_samples/named/S/Schalk_Josef/Schalk_Josef_A-WnMus.Hs.28429_D-Rests_Achtel.png"/>
+                     <graphic scale="33" url="../../101_samples/named/S/Schalk_Josef/Schalk_Josef_A-WnMus.Hs.28429_D-Rests_Viertel_1.png"/>
+                     <graphic scale="33" url="../../101_samples/named/S/Schalk_Josef/Schalk_Josef_A-WnMus.Hs.28429_D-Rests_Viertel_2.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Noten</title>
+                  <title xml:lang="eng">Notes</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/named/S/Schalk_Josef/Schalk_Josef_A-WnMus.Hs.28420_E-Notes_Achtel.png"/>
+                     <graphic scale="33" url="../../101_samples/named/S/Schalk_Josef/Schalk_Josef_A-WnMus.Hs.28420_E-Notes_Ganze.png"/>
+                     <graphic scale="33" url="../../101_samples/named/S/Schalk_Josef/Schalk_Josef_A-WnMus.Hs.28420_E-Notes_Halbe.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Schalk_Josef/Schalk_Josef_A-WnMus.Hs.28420_E-Notes_Sechzehntel.png"/>
+                     <graphic scale="33" url="../../101_samples/named/S/Schalk_Josef/Schalk_Josef_A-WnMus.Hs.28420_E-Notes_Viertel.png"/>
+                     <graphic scale="33" url="../../101_samples/named/S/Schalk_Josef/Schalk_Josef_A-WnMus.Hs.28429_E-Notes_Achtel.png"/>
+                     <graphic scale="33" url="../../101_samples/named/S/Schalk_Josef/Schalk_Josef_A-WnMus.Hs.28429_E-Notes_Ganze.png"/>
+                     <graphic scale="33" url="../../101_samples/named/S/Schalk_Josef/Schalk_Josef_A-WnMus.Hs.28429_E-Notes_Halbe.png"/>
+                     <graphic scale="33" url="../../101_samples/named/S/Schalk_Josef/Schalk_Josef_A-WnMus.Hs.28429_E-Notes_Viertel.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Dynamik</title>
+                  <title xml:lang="eng">Dynamics</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/named/S/Schalk_Josef/Schalk_Josef_A-WnMus.Hs.28420_F-Dynamics_Cresc.png"/>
+                     <graphic scale="33" url="../../101_samples/named/S/Schalk_Josef/Schalk_Josef_A-WnMus.Hs.28420_F-Dynamics_Dim.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Schalk_Josef/Schalk_Josef_A-WnMus.Hs.28420_F-Dynamics_Fortissimo.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Schalk_Josef/Schalk_Josef_A-WnMus.Hs.28420_F-Dynamics_Mezzoforte.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Schalk_Josef/Schalk_Josef_A-WnMus.Hs.28420_F-Dynamics_Pianissimo.png"/>
+                     <graphic scale="33" url="../../101_samples/named/S/Schalk_Josef/Schalk_Josef_A-WnMus.Hs.28420_F-Dynamics_Piano.png"/>
+                  </figure>
+               </item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

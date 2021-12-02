@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Kopist Cervenko</title>
+            <title level="m">Die Wiener Kopisten der Werke Anton Bruckners</title>
+            <author>
+               <name>Paul Hawkshaw</name>
+               <name>Clemens Gubsch</name>
+            </author>
+            <respStmt>
+               <resp>Automatische Konvertierung nach TEI P5</resp>
+               <name xml:id="cg">Clemens Gubsch</name>
+            </respStmt>
+            <respStmt>
+               <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
+               <name corresp="#cg">Clemens Gubsch</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2020-11-01</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Die Wiener Kopisten der Werke Anton Bruckners</publisher>
+            <idno type="BrucknerKopisten">d1e26812</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term>Bekannter Kopist</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change who="#cg" status="created">Erstellt und geprüft</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="content-d1e26812">
+            <listPerson>
+               <person>
+                  <persName type="main">Kopist Cervenko</persName>
+                  <persName>
+                     <surname>Cervenko</surname>
+                     <forename/>
+                  </persName>
+                  <idno type="google-sheet">Kopist, Cervenko</idno>
+                  <idno type="GND"/>
+                  <floruit from="1872" to="1873">1872–1873</floruit>
+                  <residence>Linz</residence>
+                  <affiliation xml:lang="de">Linzer Kopisten</affiliation>
+                  <affiliation xml:lang="eng">Linz copyists</affiliation>
+                  <index>
+                     <term sortKey="1" xml:lang="de">Primärquellen</term>
+                     <term sortKey="1" xml:lang="eng">Primary Sources</term>
+                  </index>
+               </person>
+            </listPerson>
+            <p decls="desc" xml:lang="de">
+               <lb/>Cervenko kopierte einen großen Teil der Violin2-Stimmen aus dem Stimmensatz
+               (A-SF19-14) zur 2. Symphonie. Da eine der Violin2-Stimmen Korrekturen von Johann
+               Carda enthält, ist einerseits anzunehmen, dass diese Stimme aus dem ursprünglichen
+               Stimmensatz stammt und andererseits, dass beide Kopisten wahrscheinlichh in Linz
+               zusammenarbeiteten. 
+               <lb/>Für weitere Kopisten aus Linz siehe <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>.</p>
+            <p decls="desc" xml:lang="eng">
+               <lb/>Cervenko copied most of what is now Vl 2/3 and 2/4 of the St. Florian parts of
+               the 2nd Symphony. Because his Vl 2/3 part was revised by Carda, it must have belonged
+               to the original set, and it is safe to surmise that, he worked with Carda in Linz.
+               <lb/>For more copyists from Linz, see <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Table 3</ref>. </p>
+            <p decls="link" xml:lang="de"/>
+            <p decls="link" xml:lang="eng"/>
+            <table>
+               <head>Abschriften</head>
+               <row xml:lang="de" role="label">
+                  <cell>Datierung des Werkes</cell>
+                  <cell>Signatur</cell>
+                  <cell>Werktitel</cell>
+                  <cell>WAB-Nummer</cell>
+                  <cell>Art der Kopie</cell>
+                  <cell>erschlossene Datierung der Kopie</cell>
+                  <cell>Folios in der Hand des Kopisten</cell>
+                  <cell>Datierung der Kopie/Unterschrift</cell>
+               </row>
+               <row xml:lang="eng" role="label">
+                  <cell>Date of Composition</cell>
+                  <cell>Library Call Number</cell>
+                  <cell>Work Title</cell>
+                  <cell>WAB Number</cell>
+                  <cell>Manuscript Description</cell>
+                  <cell>date conjectural</cell>
+                  <cell>Folios in the Copyist’s Hand</cell>
+                  <cell>Copyist’s Signature or Date</cell>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1871-10-11" to="1872-09-11">11.10.1871–11.09.1872</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-SF19-14">A-SF19-14</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9846">2. Symphonie</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-102">102</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Stimmen</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie">
+                     <date from="1872" to="1873">1872–1873</date>
+                  </cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">76r–78r, Z. 1; 78r, Z. 8–84v;
+                     86r–88r, Z. 7; 88v–90r; 100r, Z. 2; 100r, Z. 7–106v, Z. 6; 107r–110r, Z. 6;
+                     110v–112r</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift">90r; 112r</cell>
+                  <cell role="Kommentar_intern"/>
+               </row>
+            </table>
+            <list>
+               <head xml:lang="de">Beispiele entnommen aus: <ref target="Kopist_Cervenko_A-SF19-14-108v.jpg">A-SF19-14</ref>
+               </head>
+               <head xml:lang="eng">Examples taken from: <ref target="Kopist_Cervenko_A-SF19-14-108v.jpg">A-SF19-14</ref>
+               </head>
+               <item>
+                  <title xml:lang="de">Notenschlüssel</title>
+                  <title xml:lang="eng">Clefs</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_A-Clefs_G_1.png"/>
+                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_A-Clefs_G_2.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Akzidentien</title>
+                  <title xml:lang="eng">Accidentals</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_B-Accidentals_Flat_1.png"/>
+                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_B-Accidentals_Flat_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_B-Accidentals_Natural_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_B-Accidentals_Natural_2.png"/>
+                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_B-Accidentals_Sharp_1.png"/>
+                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_B-Accidentals_Sharp_2.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Taktvorzeichnung</title>
+                  <title xml:lang="eng">Time Signatures</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_C-Time-Signatures_C.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Pausen</title>
+                  <title xml:lang="eng">Rests</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_D-Rests_Achtel_1.png"/>
+                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_D-Rests_Achtel_2.png"/>
+                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_D-Rests_Ganze.png"/>
+                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_D-Rests_Viertel_1.png"/>
+                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_D-Rests_Viertel_2.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Noten</title>
+                  <title xml:lang="eng">Notes</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_E-Notes_Achtel_1.png"/>
+                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_E-Notes_Achtel_2.png"/>
+                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_E-Notes_Ganze.png"/>
+                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_E-Notes_Halbe_1.png"/>
+                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_E-Notes_Halbe_2.png"/>
+                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_E-Notes_Sechzehntel.png"/>
+                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_E-Notes_Viertel_1.png"/>
+                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_E-Notes_Viertel_2.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Dynamik</title>
+                  <title xml:lang="eng">Dynamics</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_F-Dynamics_Crescendo_1.png"/>
+                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_F-Dynamics_Crescendo_2.png"/>
+                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_F-Dynamics_Diminuendo.png"/>
+                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_F-Dynamics_Dolce.png"/>
+                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_F-Dynamics_Pianissimo.png"/>
+                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_F-Dynamics_Piano.png"/>
+                  </figure>
+               </item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

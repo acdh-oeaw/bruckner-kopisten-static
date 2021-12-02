@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Auer, Max</title>
+            <title level="m">Die Wiener Kopisten der Werke Anton Bruckners</title>
+            <author>
+               <name>Paul Hawkshaw</name>
+               <name>Clemens Gubsch</name>
+            </author>
+            <respStmt>
+               <resp>Automatische Konvertierung nach TEI P5</resp>
+               <name xml:id="cg">Clemens Gubsch</name>
+            </respStmt>
+            <respStmt>
+               <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
+               <name corresp="#cg">Clemens Gubsch</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2020-11-01</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Die Wiener Kopisten der Werke Anton Bruckners</publisher>
+            <idno type="BrucknerKopisten">d1e21754</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term>Bekannter Kopist</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change who="#cg" status="created">Erstellt und geprüft</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="content-d1e21754">
+            <listPerson>
+               <person>
+                  <persName type="main">Auer, Max</persName>
+                  <persName>
+                     <surname>Auer</surname>
+                     <forename>Max</forename>
+                  </persName>
+                  <idno type="google-sheet">Auer, Max</idno>
+                  <idno type="GND">130102865</idno>
+                  <residence>Vöcklabruck</residence>
+                  <affiliation xml:lang="de"/>
+                  <affiliation xml:lang="eng"/>
+                  <index>
+                     <term sortKey="2" xml:lang="de">Sekundärquellen</term>
+                     <term sortKey="2" xml:lang="eng">Secondary Sources</term>
+                  </index>
+               </person>
+            </listPerson>
+            <p decls="desc" xml:lang="de"/>
+            <p decls="link" xml:lang="de">Eine detaillierte Biographie findet sich im entsprechenden
+               Artikel des ABLO: <ref target="http://www.bruckner-online.at/ABLO_d1e255">siehe
+                  ABLO</ref>
+            </p>
+            <table>
+               <head>Abschriften</head>
+               <row xml:lang="de" role="label">
+                  <cell>Datierung des Werkes</cell>
+                  <cell>Signatur</cell>
+                  <cell>Werktitel</cell>
+                  <cell>WAB-Nummer</cell>
+                  <cell>Art der Kopie</cell>
+                  <cell>erschlossene Datierung der Kopie</cell>
+                  <cell>Folios in der Hand des Kopisten</cell>
+                  <cell>Datierung der Kopie/Unterschrift</cell>
+               </row>
+               <row xml:lang="eng" role="label">
+                  <cell>Date of Composition</cell>
+                  <cell>Library Call Number</cell>
+                  <cell>Work Title</cell>
+                  <cell>WAB Number</cell>
+                  <cell>Manuscript Description</cell>
+                  <cell>date conjectural</cell>
+                  <cell>Folios in the Copyist’s Hand</cell>
+                  <cell>Copyist’s Signature or Date</cell>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1843" to="1845">1843–1845</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.33195">A-WnMus.Hs.33195</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9254 d1e9246">Libera me,
+                        Domine</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-021">021</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur und Stimme (Org.)</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift">1v</cell>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1843">1843</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19712">A-WnMus.Hs.19712</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9999">Pange lingua</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-032">032</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date notAfter="1845-09">spätestens September 1845</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19706">A-WnMus.Hs.19706</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e8658">Zwei Asperges</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-003">003</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1862-11-16">16.11.1862</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19679">A-WnMus.Hs.19679</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9325">Marsch in d-Moll</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-096">096</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Klavierauszug</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">1r-2r</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift">1r</cell>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1862-11-16">16.11.1862</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19679">A-WnMus.Hs.19679</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9514">Drei
+                        Orchesterstücke</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-097">097</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Klavierauszug</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">3r-4v</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift">3r</cell>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1862-11-16">16.11.1862</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19681">A-WnMus.Hs.19681</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9514">Drei
+                        Orchesterstücke</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-097">097</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Klavierauszug</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">5r-6v</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift">1r; 3r</cell>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1863-05-26">26.05.1863</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19668">A-WnMus.Hs.19668</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9813">Symphonie in
+                        f-Moll</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-099">099</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Klavierauszug, 3. Satz</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">13r–14v</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1866-06-07">07.06.1866</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.3159">A-WnMus.Hs.3159</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e8531">Abendklänge</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-110">110</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Klavierauszug</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">2r</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift">2r</cell>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date notAfter="1868">vor 1868</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19784">A-WnMus.Hs.19784</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9341">Mein Herz und deine
+                        Stimme</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-079">079</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift">3v</cell>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1874-01-02" to="1874-11-22">02.01.1874–22.11.1874</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19673">A-WnMus.Hs.19673</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9878">4. Symphonie, 3. und
+                        4. Satz</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-104">104</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Klavierauszug (4hdg.) Fragment</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1879-12-21">21.12.1879</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19684">A-WnMus.Hs.19684</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9143">Intermezzo</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-113">113</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Klavierauszug zu 2 Hdn.</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift">3v</cell>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1881-09-23" to="1883-09-05">23.09.1881–05.09.1883</date>
+                  </cell>
+                  <cell role="Signatur">A-WnF31.Auer 181</cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9927">7. Symphonie</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-107">107</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Klavierauszug (2hdg.)</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1884-03-07">07.03.1884</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19699">A-WnMus.Hs.19699</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e10043">Te Deum</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-045">045</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Bearbeitung für Kl. zu 2 Hd. mit Chor; Fragment</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1884-11-14">14.11.1884</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19715">A-WnMus.Hs.19715</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9716">Salvum fac populum
+                        tuum</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-040">040</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1895-05-24">24.05.1895–</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19677">A-WnMus.Hs.19677</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9740">9. Symphonie, 4.
+                        Satz</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-109">109</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Skizzen</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+            </table>
+            <list>
+               <head xml:lang="de">Beispiele entnommen aus: <ref target="Auer_Max_A-WnMus.Hs.19706-01r.jpg">A-WnMus.Hs.19706</ref> und <ref target="Auer_Max_A-WnMus.Hs.19784-01r.jpg">A-WnMus.Hs.19784</ref>
+               </head>
+               <head xml:lang="eng">Examples taken from: <ref target="Auer_Max_A-WnMus.Hs.19706-01r.jpg">A-WnMus.Hs.19706</ref> und <ref target="Auer_Max_A-WnMus.Hs.19784-01r.jpg">A-WnMus.Hs.19784</ref>
+               </head>
+               <item>
+                  <title xml:lang="de">Notenschlüssel</title>
+                  <title xml:lang="eng">Clefs</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/named/A/Auer_Max/Auer_Max_A-WnMus.Hs.19706_A-Clefs_C_1.png"/>
+                     <graphic scale="33" url="../../101_samples/named/A/Auer_Max/Auer_Max_A-WnMus.Hs.19706_A-Clefs_C_2.png"/>
+                     <graphic scale="33" url="../../101_samples/named/A/Auer_Max/Auer_Max_A-WnMus.Hs.19706_A-Clefs_F_1.png"/>
+                     <graphic scale="33" url="../../101_samples/named/A/Auer_Max/Auer_Max_A-WnMus.Hs.19706_A-Clefs_F_2.png"/>
+                     <graphic scale="33" url="../../101_samples/named/A/Auer_Max/Auer_Max_A-WnMus.Hs.19784_A-Clefs_G_1.png"/>
+                     <graphic scale="33" url="../../101_samples/named/A/Auer_Max/Auer_Max_A-WnMus.Hs.19784_A-Clefs_G_2.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Akzidentien</title>
+                  <title xml:lang="eng">Accidentals</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/named/A/Auer_Max/Auer_Max_A-WnMus.Hs.19706_B-Accidentals_Flat_1.png"/>
+                     <graphic scale="33" url="../../101_samples/named/A/Auer_Max/Auer_Max_A-WnMus.Hs.19706_B-Accidentals_Flat_2.png"/>
+                     <graphic scale="33" url="../../101_samples/named/A/Auer_Max/Auer_Max_A-WnMus.Hs.19706_B-Accidentals_Sharp_1.png"/>
+                     <graphic scale="33" url="../../101_samples/named/A/Auer_Max/Auer_Max_A-WnMus.Hs.19706_B-Accidentals_Sharp_2.png"/>
+                     <graphic scale="33" url="../../101_samples/named/A/Auer_Max/Auer_Max_A-WnMus.Hs.19784_B-Accidentals_Natural.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Taktvorzeichnung</title>
+                  <title xml:lang="eng">Time Signatures</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/named/A/Auer_Max/Auer_Max_A-WnMus.Hs.19706_C-Time-Signatures_C_1.png"/>
+                     <graphic scale="33" url="../../101_samples/named/A/Auer_Max/Auer_Max_A-WnMus.Hs.19784_C-Time-Signatures_C_2.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Pausen</title>
+                  <title xml:lang="eng">Rests</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/named/A/Auer_Max/Auer_Max_A-WnMus.Hs.19706_D-Rests_Viertel_1.png"/>
+                     <graphic scale="33" url="../../101_samples/named/A/Auer_Max/Auer_Max_A-WnMus.Hs.19706_D-Rests_Viertel_2.png"/>
+                     <graphic scale="33" url="../../101_samples/named/A/Auer_Max/Auer_Max_A-WnMus.Hs.19784_D-Rests_Achtel_1.png"/>
+                     <graphic scale="33" url="../../101_samples/named/A/Auer_Max/Auer_Max_A-WnMus.Hs.19784_D-Rests_Achtel_2.png"/>
+                     <graphic scale="33" url="../../101_samples/named/A/Auer_Max/Auer_Max_A-WnMus.Hs.19784_D-Rests_Ganze.png"/>
+                     <graphic scale="33" url="../../101_samples/named/A/Auer_Max/Auer_Max_A-WnMus.Hs.19784_D-Rests_Halbe.png"/>
+                     
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Noten</title>
+                  <title xml:lang="eng">Notes</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/named/A/Auer_Max/Auer_Max_A-WnMus.Hs.19784_E-Notes_Achtel.png"/>
+                     <graphic scale="33" url="../../101_samples/named/A/Auer_Max/Auer_Max_A-WnMus.Hs.19784_E-Notes_Ganze_1.png"/>
+                     <graphic scale="33" url="../../101_samples/named/A/Auer_Max/Auer_Max_A-WnMus.Hs.19784_E-Notes_Ganze_2.png"/>
+                     <graphic scale="33" url="../../101_samples/named/A/Auer_Max/Auer_Max_A-WnMus.Hs.19784_E-Notes_Halbe_1.png"/>
+                     <graphic scale="33" url="../../101_samples/named/A/Auer_Max/Auer_Max_A-WnMus.Hs.19784_E-Notes_Halbe_2.png"/>
+                     <graphic scale="33" url="../../101_samples/named/A/Auer_Max/Auer_Max_A-WnMus.Hs.19706_E-Notes_Viertel_1.png"/>
+                     <graphic scale="33" url="../../101_samples/named/A/Auer_Max/Auer_Max_A-WnMus.Hs.19706_E-Notes_Viertel_2.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Dynamik</title>
+                  <title xml:lang="eng">Dynamics</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/named/A/Auer_Max/Auer_Max_A-WnMus.Hs.19784_F-Dynamics_Crescendo_1"/>
+                     <graphic scale="33" url="../../101_samples/named/A/Auer_Max/Auer_Max_A-WnMus.Hs.19784_F-Dynamics_Crescendo_2"/>
+                     <graphic scale="33" url="../../101_samples/named/A/Auer_Max/Auer_Max_A-WnMus.Hs.19784_F-Dynamics_Decrescendo"/>
+                     <graphic scale="33" url="../../101_samples/named/A/Auer_Max/Auer_Max_A-WnMus.Hs.19784_F-Dynamics_Forte"/>
+                     <graphic scale="33" url="../../101_samples/named/A/Auer_Max/Auer_Max_A-WnMus.Hs.19784_F-Dynamics_Fortissimo"/>
+                     <graphic scale="33" url="../../101_samples/named/A/Auer_Max/Auer_Max_A-WnMus.Hs.19784_F-Dynamics_Mezzoforte"/>
+                     <graphic scale="33" url="../../101_samples/named/A/Auer_Max/Auer_Max_A-WnMus.Hs.19784_F-Dynamics_Piano"/>
+                     <graphic scale="33" url="../../101_samples/named/A/Auer_Max/Auer_Max_A-WnMus.Hs.19784_F-Dynamics_Sforzato"/>
+                  </figure>
+               </item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

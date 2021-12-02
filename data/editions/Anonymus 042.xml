@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Anonymus 042</title>
+            <title level="m">Die Wiener Kopisten der Werke Anton Bruckners</title>
+            <author>
+               <name>Paul Hawkshaw</name>
+               <name>Clemens Gubsch</name>
+            </author>
+            <respStmt>
+               <resp>Automatische Konvertierung nach TEI P5</resp>
+               <name xml:id="cg">Clemens Gubsch</name>
+            </respStmt>
+            <respStmt>
+               <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
+               <name corresp="#cg">Clemens Gubsch</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2020-11-01</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Die Wiener Kopisten der Werke Anton Bruckners</publisher>
+            <idno type="BrucknerKopisten">d1e6862</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term>Anonymus</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change who="#cg" status="created">Erstellt und geprüft</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="content-d1e6862">
+            <listPerson>
+               <person>
+                  <persName subtype="W" type="main">Anonymus 042</persName>
+                  <idno type="google-sheet">042</idno>
+                  <floruit from="1869" to="1873">1869–1873</floruit>
+                  <residence/>
+                  <affiliation xml:lang="de">Wiener Kopisten</affiliation>
+                  <affiliation xml:lang="eng">Vienna copyist</affiliation>
+                  <index>
+                     <term sortKey="1" xml:lang="de">Primärquellen</term>
+                     <term sortKey="1" xml:lang="eng">Primary Sources</term>
+                  </index>
+               </person>
+            </listPerson>
+            <p decls="desc" xml:lang="de">
+               <lb/>Der Kopist Anonymus 042 fertigte lediglich einen Bogen für das Kyrie der Messe in f-Moll an. Da dieser Bogen mit der Lesart von 1873 wieder aus der Partitur genommen wurde, lässt sich der Bogen auf die Zeit zwischen der Fertigstellung der autographen Partitur am 09.09.1868 und 1873 datieren.
+            </p>
+            <p decls="desc" xml:lang="eng">
+               <lb/>Anonymus 042 prepared a bifolio of the Kyrie of the Mass in F minor. Because it was replaced by the reading of 1873, it must have been copied between that year and 9 September 1868, when Bruckner finished the autograph score.</p>
+            <table>
+               <head>Abschriften</head>
+               <row xml:lang="de" role="label">
+                  <cell>Datierung des Werkes</cell>
+                  <cell>Signatur</cell>
+                  <cell>Werktitel</cell>
+                  <cell>WAB-Nummer</cell>
+                  <cell>Art der Kopie</cell>
+                  <cell>erschlossene Datierung der Kopie</cell>
+                  <cell>Folios in der Hand des Kopisten</cell>
+                  <cell>Datierung der Kopie/Unterschrift</cell>
+               </row>
+               <row xml:lang="eng" role="label">
+                  <cell>Date of Composition</cell>
+                  <cell>Library Call Number</cell>
+                  <cell>Work Title</cell>
+                  <cell>WAB Number</cell>
+                  <cell>Manuscript Description</cell>
+                  <cell>date conjectural</cell>
+                  <cell>Folios in the Copyist’s Hand</cell>
+                  <cell>Copyist’s Signature or Date</cell>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1868-09-09">09.09.1868</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.2106">A-WnMus.Hs.2106</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9401">Messe in f-Moll</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-028">028</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur mit aut. Eintragungen</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie">
+                     <date from="1869" to="1873">1869–1873</date>
+                  </cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">125r–126v</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern">Copied between 1869 and 1873. Revisionsbericht, S.
+                     13</cell>
+               </row>
+            </table>
+            <list>
+               <head xml:lang="de">Beispiele entnommen aus: <ref target="Anonymus-042_A-WnMus.Hs.2106-125r.jpg">A-WnMus.Hs.2106</ref>
+               </head>
+               <head xml:lang="eng">Examples taken from: <ref target="Anonymus-042_A-WnMus.Hs.2106-125r.jpg">A-WnMus.Hs.2106</ref>
+               </head>
+               <item>
+                  <title xml:lang="de">Notenschlüssel</title>
+                  <title xml:lang="eng">Clefs</title>
+                  <figure/>
+               </item>
+               <item>
+                  <title xml:lang="de">Akzidentien</title>
+                  <title xml:lang="eng">Accidentals</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_026-050/Anonymus_042/Anonymus-042_A-WnMus.Hs.2106_B-Accidentals_Flat.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_026-050/Anonymus_042/Anonymus-042_A-WnMus.Hs.2106_B-Accidentals_Natural.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Taktvorzeichnung</title>
+                  <title xml:lang="eng">Time Signatures</title>
+                  <figure/>
+               </item>
+               <item>
+                  <title xml:lang="de">Pausen</title>
+                  <title xml:lang="eng">Rests</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_026-050/Anonymus_042/Anonymus-042_A-WnMus.Hs.2106_D-Rests_Achtel.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_026-050/Anonymus_042/Anonymus-042_A-WnMus.Hs.2106_D-Rests_Viertel.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Noten</title>
+                  <title xml:lang="eng">Notes</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_026-050/Anonymus_042/Anonymus-042_A-WnMus.Hs.2106_E-Notes_Achtel.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_026-050/Anonymus_042/Anonymus-042_A-WnMus.Hs.2106_E-Notes_Ganze.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_026-050/Anonymus_042/Anonymus-042_A-WnMus.Hs.2106_E-Notes_Halbe.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_026-050/Anonymus_042/Anonymus-042_A-WnMus.Hs.2106_E-Notes_Sechzehntel.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_026-050/Anonymus_042/Anonymus-042_A-WnMus.Hs.2106_E-Notes_Viertel.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Dynamik</title>
+                  <title xml:lang="eng">Dynamics</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_026-050/Anonymus_042/Anonymus-042_A-WnMus.Hs.2106_F-Dynamics_Dim.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_026-050/Anonymus_042/Anonymus-042_A-WnMus.Hs.2106_F-Dynamics_Forte.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_026-050/Anonymus_042/Anonymus-042_A-WnMus.Hs.2106_F-Dynamics_Mezzoforte.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_026-050/Anonymus_042/Anonymus-042_A-WnMus.Hs.2106_F-Dynamics_Pianissimo.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_026-050/Anonymus_042/Anonymus-042_A-WnMus.Hs.2106_F-Dynamics_Piano.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_026-050/Anonymus_042/Anonymus-042_A-WnMus.Hs.2106_F-Dynamics_Poco a poco crescendo.png"/>
+                  </figure>
+               </item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

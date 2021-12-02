@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Anonymus 160</title>
+            <title level="m">Die Wiener Kopisten der Werke Anton Bruckners</title>
+            <author>
+               <name>Paul Hawkshaw</name>
+               <name>Clemens Gubsch</name>
+            </author>
+            <respStmt>
+               <resp>Automatische Konvertierung nach TEI P5</resp>
+               <name xml:id="cg">Clemens Gubsch</name>
+            </respStmt>
+            <respStmt>
+               <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
+               <name corresp="#cg">Clemens Gubsch</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2020-11-01</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Die Wiener Kopisten der Werke Anton Bruckners</publisher>
+            <idno type="BrucknerKopisten">d1e465850</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term>Anonymus</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change who="#cg" status="created">Erstellt und geprüft</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+          <div xml:id="content-d1e465850">
+            <listPerson>
+               <person>
+                  <persName subtype="W" type="main">Anonymus 160</persName>
+                  <idno type="google-sheet">160</idno>
+                  <residence/>
+                  <affiliation xml:lang="de">Wiener Kopisten</affiliation>
+                  <affiliation xml:lang="eng">Vienna copyist</affiliation>
+                  <index>
+                     <term sortKey="2" xml:lang="de">Sekundärquellen</term>
+                     <term sortKey="2" xml:lang="eng">Secondary Sources</term>
+                  </index>
+               </person>
+            </listPerson>
+            <p decls="desc" xml:lang="de">
+                <lb/>Die vom Kopisten Anonymus 160 angefertigte Partitur der Orchesterfassung von <hi rend="italic">Das hohe Lied</hi> befand sich im Besitz des Akademischen Gesangsvereins „Barden“ in Wien und ist heute nicht mehr auffindbar.
+                <lb/>Die Identifizierung der Hand basiert auf einer Fotokopie im Nachlassfond der Bruckner-Gesamtausgabe (A-WnF60.BRGA).
+            </p>
+            <p decls="desc" xml:lang="eng">
+                <lb/>This copyist’s score of the orchestral version of <hi rend="italic">Das hohe Lied</hi> was in the possession of the <hi rend="italic">Academic Singing Society “Barden”</hi> in Vienna and cannot now be found.
+                <lb/>The identification of the hand is based on a photocopy in the Fonds of the Bruckner Collected Works Edition in A-Wn.
+            </p>
+                <table>
+               <head>Abschriften</head>
+               <row xml:lang="de" role="label">
+                  <cell>Datierung des Werkes</cell>
+                  <cell>Signatur</cell>
+                  <cell>Werktitel</cell>
+                  <cell>WAB-Nummer</cell>
+                  <cell>Art der Kopie</cell>
+                  <cell>erschlossene Datierung der Kopie</cell>
+                  <cell>Folios in der Hand des Kopisten</cell>
+                  <cell>Datierung der Kopie/Unterschrift</cell>
+               </row>
+               <row xml:lang="eng" role="label">
+                  <cell>Date of Composition</cell>
+                  <cell>Library Call Number</cell>
+                  <cell>Work Title</cell>
+                  <cell>WAB Number</cell>
+                  <cell>Manuscript Description</cell>
+                  <cell>date conjectural</cell>
+                  <cell>Folios in the Copyist’s Hand</cell>
+                  <cell>Copyist’s Signature or Date</cell>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1876-12-31">31.12.1876</date>
+                  </cell>
+                  <cell role="Signatur">
+                      <ref>A-WnF60.BRGA.140</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9094">Das hohe Lied</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-074">074</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie">
+                     <date when="1879">1879</date>
+                  </cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern">HL 2 in Bruckner online</cell>
+               </row>
+            </table>
+              
+              <!--Beispiele fehlen noch-->
+            <list>
+               <head xml:lang="de">Beispiele entnommen aus: <ref target="Anonymus-024_A-WnMus.Hs.6074-232v.jpg">A-WnMus.Hs.6074</ref> und <ref target="Anonymus-024_A-WnMus.Hs.19770-02r-Partitur.jpg">A-WnMus.Hs.19770</ref>.
+               </head>
+               <head xml:lang="eng">Examples taken from: <ref target="Anonymus-024_A-WnMus.Hs.6074-232v.jpg">A-WnMus.Hs.6074</ref> and <ref target="Anonymus-024_A-WnMus.Hs.19770-02r-Partitur.jpg">A-WnMus.Hs.19770</ref>.
+               </head>
+               <item>
+                  <title xml:lang="de">Notenschlüssel</title>
+                  <title xml:lang="eng">Clefs</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_024/Anonymus-024_A-WnMus.Hs.6074_A-Clefs_G.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_024/Anonymus-024_A-WnMus.Hs.19770_A-Clefs_F.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Akzidentien</title>
+                  <title xml:lang="eng">Accidentals</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_024/Anonymus-024_A-WnMus.Hs.6074_B-Accidentals_Flat.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_024/Anonymus-024_A-WnMus.Hs.6074_B-Accidentals_Natural.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_024/Anonymus-024_A-WnMus.Hs.6074_B-Accidentals_Sharp.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Taktvorzeichnung</title>
+                  <title xml:lang="eng">Time Signatures</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_024/Anonymus-024_A-WnMus.Hs.6074_C-Time-Signatures_C.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Pausen</title>
+                  <title xml:lang="eng">Rests</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_024/Anonymus-024_A-WnMus.Hs.6074_D-Rests_Achtel.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_024/Anonymus-024_A-WnMus.Hs.6074_D-Rests_Viertel1.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_024/Anonymus-024_A-WnMus.Hs.19770_D-Rests_Viertel2.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Noten</title>
+                  <title xml:lang="eng">Notes</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_024/Anonymus-024_A-WnMus.Hs.6074_E-Notes_Achtel.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_024/Anonymus-024_A-WnMus.Hs.6074_E-Notes_Halbe.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_024/Anonymus-024_A-WnMus.Hs.6074_E-Notes_Viertel.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Dynamik</title>
+                  <title xml:lang="eng">Dynamics</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_024/Anonymus-024_A-WnMus.Hs.6074_F-Dynamics_Cresc.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_024/Anonymus-024_A-WnMus.Hs.6074_F-Dynamics_Dimin.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_024/Anonymus-024_A-WnMus.Hs.6074_F-Dynamics_Fortissimo.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_024/Anonymus-024_A-WnMus.Hs.6074_F-Dynamics_Mezzoforte.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_024/Anonymus-024_A-WnMus.Hs.6074_F-Dynamics_Pianissimo.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_024/Anonymus-024_A-WnMus.Hs.6074_F-Dynamics_Piano.png"/>
+                  </figure>
+               </item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

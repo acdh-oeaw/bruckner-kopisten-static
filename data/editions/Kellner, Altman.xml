@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Kellner, Altman</title>
+            <title level="m">Die Wiener Kopisten der Werke Anton Bruckners</title>
+            <author>
+               <name>Paul Hawkshaw</name>
+               <name>Clemens Gubsch</name>
+            </author>
+            <respStmt>
+               <resp>Automatische Konvertierung nach TEI P5</resp>
+               <name xml:id="cg">Clemens Gubsch</name>
+            </respStmt>
+            <respStmt>
+               <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
+               <name corresp="#cg">Clemens Gubsch</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2020-11-01</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Die Wiener Kopisten der Werke Anton Bruckners</publisher>
+            <idno type="BrucknerKopisten">d1e26378</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term>Bekannter Kopist</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change who="#cg" status="created">Erstellt und geprüft</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="content-d1e26378">
+            <listPerson>
+               <person>
+                  <persName type="main">Kellner, Altman</persName>
+                  <persName>
+                     <surname>Kellner</surname>
+                     <forename>Altman</forename>
+                  </persName>
+                  <idno type="google-sheet">Kellner, Altman</idno>
+                  <idno type="GND">136145493</idno>
+                  <residence>Kremsmünster</residence>
+                  <affiliation xml:lang="de">Kremsmünster Kopisten</affiliation>
+                  <affiliation xml:lang="eng">Kremsmünster copists</affiliation>
+                  <index>
+                     <term sortKey="2" xml:lang="de">Sekundärquellen</term>
+                     <term sortKey="2" xml:lang="eng">Secondary Sources</term>
+                  </index>
+               </person>
+            </listPerson>
+            <p decls="desc" xml:lang="de"/>
+            <p decls="desc" xml:lang="eng"/>
+            <p decls="link" xml:lang="de">Eine detaillierte Biographie findet sich im entsprechenden
+               Artikel des ÖML: <ref target="https://www.musiklexikon.ac.at/ml/musik_K/Kellner_Altman.xml">siehe
+                  ÖML</ref>
+            </p>
+            <p decls="link" xml:lang="eng"/>
+            <table>
+               <head>Abschriften</head>
+               <row xml:lang="de" role="label">
+                  <cell>Datierung des Werkes</cell>
+                  <cell>Signatur</cell>
+                  <cell>Werktitel</cell>
+                  <cell>WAB-Nummer</cell>
+                  <cell>Art der Kopie</cell>
+                  <cell>erschlossene Datierung der Kopie</cell>
+                  <cell>Folios in der Hand des Kopisten</cell>
+                  <cell>Datierung der Kopie/Unterschrift</cell>
+               </row>
+               <row xml:lang="eng" role="label">
+                  <cell>Date of Composition</cell>
+                  <cell>Library Call Number</cell>
+                  <cell>Work Title</cell>
+                  <cell>WAB Number</cell>
+                  <cell>Manuscript Description</cell>
+                  <cell>date conjectural</cell>
+                  <cell>Folios in the Copyist’s Hand</cell>
+                  <cell>Copyist’s Signature or Date</cell>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1848" to="1849-03-14">zwischen 1848 und 14.03.1849</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-KR-E5-118">A-KR-E5-118</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9671 d1e12972">Requiem</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-039">039</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">37r–37v</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1854">[1854?]</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19667">A-WnMus.Hs.19667</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e8819">Des Höchsten Preis,
+                        des Vaterlandes Ruhm</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-095">095</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">4v, Z. 11–16</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift">4v</cell>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1854-03-24" to="1854-03-28">24.03.1854–28.03.1854</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19667">A-WnMus.Hs.19667</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9261">Libera me,
+                        Domine</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-022">022</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Vokalpartitur der Bearbeitung von Karl Aigner</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">3r–4v, Z. 10</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1868-10-01" to="1868-12-31">Winter 1868</date>
+                  </cell>
+                  <cell role="Signatur">A-KR-M8.5d</cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9127">In Sanctum Angelum
+                        custodem</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-018">018</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Stimmen</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">4. Sop; 6. Alt; 8. Ten; 10
+                     Bass</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern">nicht in Bruckner online</cell>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date notAfter="1870-09-18">vor 18.09.1870</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19667">A-WnMus.Hs.19667</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9021">Heil Dir zum schönen
+                        Erstlingsfeste</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-061">061</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">1r–2v</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift">2v</cell>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date notAfter="1870-09-18">vor 18.09.1870</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19731">A-WnMus.Hs.19731</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9021">Heil Dir zum schönen
+                        Erstlingsfeste</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-061">061</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift">2v</cell>
+                  <cell role="Kommentar_intern"/>
+               </row>
+            </table>
+            <list>
+               <head xml:lang="de">Beispiele entnommen aus: <ref target="Kellner_Altman_A-WnMus.Hs.19667-01r.jpg">A-WnMus.Hs.19667</ref> und
+                     <ref target="Kellner_Altman_A-WnMus.Hs.19731-1r.jpg">A-WnMus.Hs.19731</ref>
+               </head>
+               <head xml:lang="eng">Examples taken from: <ref target="Kellner_Altman_A-WnMus.Hs.19667-01r.jpg">A-WnMus.Hs.19667</ref> and
+                     <ref target="Kellner_Altman_A-WnMus.Hs.19731-1r.jpg">A-WnMus.Hs.19731</ref>
+               </head>
+               <item>
+                  <title xml:lang="de">Notenschlüssel</title>
+                  <title xml:lang="eng">Clefs</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/named/K/Kellner_Altman/Kellner_Altman_A-WnMus.Hs.19667_A-Clefs_F.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/Kellner_Altman/Kellner_Altman_A-WnMus.Hs.19667_A-Clefs_G.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/Kellner_Altman/Kellner_Altman_A-WnMus.Hs.19731_A-Clefs_F.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/Kellner_Altman/Kellner_Altman_A-WnMus.Hs.19731_A-Clefs_G.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Akzidentien</title>
+                  <title xml:lang="eng">Accidentals</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/Kellner_Altman/Kellner_Altman_A-WnMus.Hs.19667_B-Accidentals_Flat.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/Kellner_Altman/Kellner_Altman_A-WnMus.Hs.19667_B-Accidentals_Natural_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/Kellner_Altman/Kellner_Altman_A-WnMus.Hs.19667_B-Accidentals_Natural_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/Kellner_Altman/Kellner_Altman_A-WnMus.Hs.19667_B-Accidentals_Sharp_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/Kellner_Altman/Kellner_Altman_A-WnMus.Hs.19667_B-Accidentals_Sharp_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/Kellner_Altman/Kellner_Altman_A-WnMus.Hs.19731_B-Accidentals_Natural.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/Kellner_Altman/Kellner_Altman_A-WnMus.Hs.19731_B-Accidentals_Sharp.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Taktvorzeichnung</title>
+                  <title xml:lang="eng">Time Signatures</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/Kellner_Altman/Kellner_Altman_A-WnMus.Hs.19667_C-Time-Signatures_3_4.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/Kellner_Altman/Kellner_Altman_A-WnMus.Hs.19667_C-Time-Signatures_3_4_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/Kellner_Altman/Kellner_Altman_A-WnMus.Hs.19667_C-Time-Signatures_C.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/Kellner_Altman/Kellner_Altman_A-WnMus.Hs.19731_C-Time-Signatures_3_4.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/Kellner_Altman/Kellner_Altman_A-WnMus.Hs.19731_C-Time-Signatures_C.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Pausen</title>
+                  <title xml:lang="eng">Rests</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/named/K/Kellner_Altman/Kellner_Altman_A-WnMus.Hs.19667_D-Rests_Achtel_1.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/Kellner_Altman/Kellner_Altman_A-WnMus.Hs.19667_D-Rests_Achtel_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/Kellner_Altman/Kellner_Altman_A-WnMus.Hs.19667_D-Rests_Viertel_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/Kellner_Altman/Kellner_Altman_A-WnMus.Hs.19667_D-Rests_Viertel_2.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/Kellner_Altman/Kellner_Altman_A-WnMus.Hs.19731_D-Rests_Achtel.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/Kellner_Altman/Kellner_Altman_A-WnMus.Hs.19731_D-Rests_Viertel.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Noten</title>
+                  <title xml:lang="eng">Notes</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/named/K/Kellner_Altman/Kellner_Altman_A-WnMus.Hs.19667_E-Notes_Achtel.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/Kellner_Altman/Kellner_Altman_A-WnMus.Hs.19667_E-Notes_Achtel_2.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/Kellner_Altman/Kellner_Altman_A-WnMus.Hs.19667_E-Notes_Ganze_1.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/Kellner_Altman/Kellner_Altman_A-WnMus.Hs.19667_E-Notes_Ganze_2.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/Kellner_Altman/Kellner_Altman_A-WnMus.Hs.19667_E-Notes_Halbe_1.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/Kellner_Altman/Kellner_Altman_A-WnMus.Hs.19667_E-Notes_Halbe_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/Kellner_Altman/Kellner_Altman_A-WnMus.Hs.19667_E-Notes_Sechzehntel.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/Kellner_Altman/Kellner_Altman_A-WnMus.Hs.19667_E-Notes_Viertel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/Kellner_Altman/Kellner_Altman_A-WnMus.Hs.19667_E-Notes_Viertel_2.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/Kellner_Altman/Kellner_Altman_A-WnMus.Hs.19731_E-Notes_Achtel.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/Kellner_Altman/Kellner_Altman_A-WnMus.Hs.19731_E-Notes_Halbe.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/Kellner_Altman/Kellner_Altman_A-WnMus.Hs.19731_E-Notes_Sechzehntel.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/Kellner_Altman/Kellner_Altman_A-WnMus.Hs.19731_E-Notes_Viertel.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Dynamik</title>
+                  <title xml:lang="eng">Dynamics</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/named/K/Kellner_Altman/Kellner_Altman_A-WnMus.Hs.19731_F-Dynamics_Forte.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/Kellner_Altman/Kellner_Altman_A-WnMus.Hs.19731_F-Dynamics_Piano.png"/>
+                  </figure>
+               </item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

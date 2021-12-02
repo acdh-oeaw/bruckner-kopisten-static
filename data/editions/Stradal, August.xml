@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Stradal, August</title>
+            <title level="m">Die Wiener Kopisten der Werke Anton Bruckners</title>
+            <author>
+               <name>Paul Hawkshaw</name>
+               <name>Clemens Gubsch</name>
+            </author>
+            <respStmt>
+               <resp>Automatische Konvertierung nach TEI P5</resp>
+               <name xml:id="cg">Clemens Gubsch</name>
+            </respStmt>
+            <respStmt>
+               <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
+               <name corresp="#cg">Clemens Gubsch</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2020-11-01</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Die Wiener Kopisten der Werke Anton Bruckners</publisher>
+            <idno type="BrucknerKopisten">d1e35151</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term>Bekannter Kopist</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change who="#cg" status="created">Erstellt und geprüft</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="content-d1e35151">
+            <listPerson>
+               <person>
+                  <persName type="main">Stradal, August</persName>
+                  <persName>
+                     <surname>Stradal</surname>
+                     <forename>August</forename>
+                  </persName>
+                  <idno type="google-sheet">Stradal, August</idno>
+                  <idno type="GND">11730557X</idno>
+                  <floruit from="1883" to="1883" notBefore="1883" xml:lang="de">1883(?) und später</floruit>
+                  <floruit from="1883" to="1883" notBefore="1883" xml:lang="eng">1883(?) and later</floruit>
+                  <residence/>
+                  <affiliation xml:lang="de"/>
+                  <affiliation xml:lang="eng"/>
+                  <index>
+                     <term sortKey="2" xml:lang="de">Sekundärquellen</term>
+                     <term sortKey="2" xml:lang="eng">Secondary Sources</term>
+                  </index>
+               </person>
+            </listPerson>
+            <p decls="desc" xml:lang="de"/>
+            <p decls="desc" xml:lang="eng"/>
+            <p decls="link" xml:lang="de">Eine detaillierte Biographie findet sich im entsprechenden
+               Artikel des ABLO: <ref target="http://www.bruckner-online.at/ABLO_d1e3931">siehe
+                  ABLO</ref>
+            </p>
+            <p decls="link" xml:lang="eng"/>
+            <table>
+               <head>Abschriften</head>
+               <row xml:lang="de" role="label">
+                  <cell>Datierung des Werkes</cell>
+                  <cell>Signatur</cell>
+                  <cell>Werktitel</cell>
+                  <cell>WAB-Nummer</cell>
+                  <cell>Art der Kopie</cell>
+                  <cell>erschlossene Datierung der Kopie</cell>
+                  <cell>Folios in der Hand des Kopisten</cell>
+                  <cell>Datierung der Kopie/Unterschrift</cell>
+               </row>
+               <row xml:lang="eng" role="label">
+                  <cell>Date of Composition</cell>
+                  <cell>Library Call Number</cell>
+                  <cell>Work Title</cell>
+                  <cell>WAB Number</cell>
+                  <cell>Manuscript Description</cell>
+                  <cell>date conjectural</cell>
+                  <cell>Folios in the Copyist’s Hand</cell>
+                  <cell>Copyist’s Signature or Date</cell>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1865-08-12">12.08.1865</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19682">A-WnMus.Hs.19682</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9317">Marsch in Es-Dur</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-116">116</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Klavierauszug</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">5r-6v</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift">4r</cell>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1865-08-12">12.08.1865</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.39887">A-WnMus.Hs.39887</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9317">Marsch in Es-Dur</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-116">116</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Klavierauszug zu 2 Hdn.</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">4r, Ln 7-6r</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1868-09-09">09.09.1868</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.39885">A-WnMus.Hs.39885</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9401">Messe in f-moll</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-028">028</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Klavierauszug (2hdg., nur Benedictus)</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift">1r; 2r</cell>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1869-01-24" to="1869-09-12">24.01.1869–12.09.1869</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.28437">A-WnMus.Hs.28437</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9821">Symphonie in
+                        D-moll</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-100">100</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Klavierauszug zu 4 Hdn.</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift">1r; 2r</cell>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1871-10-11" to="1872-09-11">11.10.1871–11.09.1872</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.6095">A-WnMus.Hs.6095</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9846">2. Symphonie, 1., 2.
+                        und 4. Satz</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-102">102</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Klavierauszug (2hdg.) Fragment</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">1r–13v</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift">1r</cell>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1873-02-23" to="1873-12-31">23.02.1873–31.12.1873</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.6096">A-WnMus.Hs.6096</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9862">3. Symphonie, 2.
+                        Satz</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-103">103</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Klavierauszug (2hdg.) Fragment</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">1r–10r</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift">1r; 2r</cell>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1887-09-21" to="1894-07-02">21.09.1887-02.07.1894</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.33208">A-WnMus.Hs.33208</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9740">9. Symphonie, 2. Satz
+                        (Scherzo)</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-109">109</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Klavierauszug (2hdg.)</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">1r–10v</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift">1r; 2r</cell>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1895-05-24">24.05.1895–</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.28240">A-WnMus.Hs.28240</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9740">9. Symphonie, 4.
+                        Satz</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-109">109</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partiturfragment</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">2r–2v</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+            </table>
+            <list>
+               <head xml:lang="de">Beispiele entnommen aus: <ref target="Stradal_August_A-WnMus.Hs.6095-02r.jpg">A-WnMus.Hs.6095</ref> und <ref target="Stradal_August_A-WnMus.Hs.39885-03.jpg">A-WnMus.Hs.39885</ref>
+               </head>
+               <head xml:lang="eng">Examples taken from: <ref target="Stradal_August_A-WnMus.Hs.6095-02r.jpg">A-WnMus.Hs.6095</ref> and <ref target="Stradal_August_A-WnMus.Hs.39885-03.jpg">A-WnMus.Hs.39885</ref>
+               </head>
+               <item>
+                  <title xml:lang="de">Notenschlüssel</title>
+                  <title xml:lang="eng">Clefs</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/named/S/Stradal_August/Stradal_August_A-WnMus.Hs.39885_A-Clefs_F.png"/>
+                     <graphic scale="33" url="../../101_samples/named/S/Stradal_August/Stradal_August_A-WnMus.Hs.39885_A-Clefs_G.png"/>
+                     <graphic scale="33" url="../../101_samples/named/S/Stradal_August/Stradal_August_A-WnMus.Hs.6095_A-Clefs_F.png"/>
+                     <graphic scale="33" url="../../101_samples/named/S/Stradal_August/Stradal_August_A-WnMus.Hs.6095_A-Clefs_G.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Akzidentien</title>
+                  <title xml:lang="eng">Accidentals</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Stradal_August/Stradal_August_A-WnMus.Hs.39885_B-Accidentals_Flat.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Stradal_August/Stradal_August_A-WnMus.Hs.39885_B-Accidentals_Natural_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Stradal_August/Stradal_August_A-WnMus.Hs.39885_B-Accidentals_Natural_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Stradal_August/Stradal_August_A-WnMus.Hs.39885_B-Accidentals_Sharp.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Stradal_August/Stradal_August_A-WnMus.Hs.6095_B-Accidentals_Flat.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Stradal_August/Stradal_August_A-WnMus.Hs.6095_B-Accidentals_Natural.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Stradal_August/Stradal_August_A-WnMus.Hs.6095_B-Accidentals_Sharp.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Taktvorzeichnung</title>
+                  <title xml:lang="eng">Time Signatures</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Stradal_August/Stradal_August_A-WnMus.Hs.39885_C-Time-Signatures_C.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Pausen</title>
+                  <title xml:lang="eng">Rests</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Stradal_August/Stradal_August_A-WnMus.Hs.39885_D-Rests_Sechzehntel.png"/>
+                     <graphic scale="33" url="../../101_samples/named/S/Stradal_August/Stradal_August_A-WnMus.Hs.39885_D-Rests_Viertel.png"/>
+                     <graphic scale="33" url="../../101_samples/named/S/Stradal_August/Stradal_August_A-WnMus.Hs.6095_D-Rests_Achtel.png"/>
+                     <graphic scale="33" url="../../101_samples/named/S/Stradal_August/Stradal_August_A-WnMus.Hs.6095_D-Rests_Viertel.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Noten</title>
+                  <title xml:lang="eng">Notes</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/named/S/Stradal_August/Stradal_August_A-WnMus.Hs.39885_E-Notes_Achtel.png"/>
+                     <graphic scale="33" url="../../101_samples/named/S/Stradal_August/Stradal_August_A-WnMus.Hs.39885_E-Notes_Halbe.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Stradal_August/Stradal_August_A-WnMus.Hs.39885_E-Notes_Sechzehntel.png"/>
+                     <graphic scale="33" url="../../101_samples/named/S/Stradal_August/Stradal_August_A-WnMus.Hs.39885_E-Notes_Viertel.png"/>
+                     <graphic scale="33" url="../../101_samples/named/S/Stradal_August/Stradal_August_A-WnMus.Hs.6095_E-Notes_Achtel.png"/>
+                     <graphic scale="33" url="../../101_samples/named/S/Stradal_August/Stradal_August_A-WnMus.Hs.6095_E-Notes_Ganze.png"/>
+                     <graphic scale="33" url="../../101_samples/named/S/Stradal_August/Stradal_August_A-WnMus.Hs.6095_E-Notes_Halbe.png"/>
+                     <graphic scale="33" url="../../101_samples/named/S/Stradal_August/Stradal_August_A-WnMus.Hs.6095_E-Notes_Viertel.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Dynamik</title>
+                  <title xml:lang="eng">Dynamics</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/named/S/Stradal_August/Stradal_August_A-WnMus.Hs.39885_F-Dynamics_Cresc.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Stradal_August/Stradal_August_A-WnMus.Hs.39885_F-Dynamics_Cresc_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Stradal_August/Stradal_August_A-WnMus.Hs.39885_F-Dynamics_Decresc.png"/>
+                     <graphic scale="33" url="../../101_samples/named/S/Stradal_August/Stradal_August_A-WnMus.Hs.39885_F-Dynamics_Dim.png"/>
+                     <graphic scale="33" url="../../101_samples/named/S/Stradal_August/Stradal_August_A-WnMus.Hs.39885_F-Dynamics_Forte.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Stradal_August/Stradal_August_A-WnMus.Hs.39885_F-Dynamics_Fortissimo.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Stradal_August/Stradal_August_A-WnMus.Hs.39885_F-Dynamics_Mezzoforte.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Stradal_August/Stradal_August_A-WnMus.Hs.39885_F-Dynamics_Pianissimo.png"/>
+                     <graphic scale="33" url="../../101_samples/named/S/Stradal_August/Stradal_August_A-WnMus.Hs.39885_F-Dynamics_Piano.png"/>
+                     <graphic scale="33" url="../../101_samples/named/S/Stradal_August/Stradal_August_A-WnMus.Hs.6095_F-Dynamics_Cresc.png"/>
+                     <graphic scale="33" url="../../101_samples/named/S/Stradal_August/Stradal_August_A-WnMus.Hs.6095_F-Dynamics_Dim.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Stradal_August/Stradal_August_A-WnMus.Hs.6095_F-Dynamics_Mezzoforte.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Stradal_August/Stradal_August_A-WnMus.Hs.6095_F-Dynamics_Pianissimo.png"/>
+                  </figure>
+               </item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

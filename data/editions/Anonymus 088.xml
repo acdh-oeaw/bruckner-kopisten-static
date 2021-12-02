@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Anonymus 088</title>
+            <title level="m">Die Wiener Kopisten der Werke Anton Bruckners</title>
+            <author>
+               <name>Paul Hawkshaw</name>
+               <name>Clemens Gubsch</name>
+            </author>
+            <respStmt>
+               <resp>Automatische Konvertierung nach TEI P5</resp>
+               <name xml:id="cg">Clemens Gubsch</name>
+            </respStmt>
+            <respStmt>
+               <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
+               <name corresp="#cg">Clemens Gubsch</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2020-11-01</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Die Wiener Kopisten der Werke Anton Bruckners</publisher>
+            <idno type="BrucknerKopisten">d1e12663</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term>Anonymus</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change who="#cg" status="created">Erstellt und geprüft</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="content-d1e12663">
+            <listPerson>
+               <person>
+                  <persName type="main" subtype="W">Anonymus 088</persName>
+                  <idno type="google-sheet">088</idno>
+                  <floruit from="1884" to="1885">1884–1885</floruit>
+                  <residence>Linz</residence>
+                  <affiliation xml:lang="de">Linzer Kopisten</affiliation>
+                  <affiliation xml:lang="eng">Linz copyists</affiliation>
+                  <index>
+                     <term sortKey="1" xml:lang="de">Primärquellen</term>
+                     <term sortKey="1" xml:lang="eng">Primary Sources</term>
+                  </index>
+               </person>
+            </listPerson>
+            <p decls="desc" xml:lang="de">
+               <lb/>Die Kopisten Anonymus 021, 088, 092, Hofmeister und Franz Rossi korrigierten den Stimmensatz der für die Uraufführung der 2. Fassung der e-Moll-Messe am 4. Oktober 1885 in Linz verwendet wurde und fertigten zusätzliche Stimmen und Stimmeinlagen an. Anonymus 88 fertigte auch die im Domchorarchiv aufbewahrten Stimmensätze zum Ave Maria und zum Ecce Sacerdos Magnus – die beide am gleichen Tag wie die Messe in e-Moll aufgeführt wurden – an. 
+               <lb/>Für weitere Kopisten aus Linz siehe <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>.</p>
+            <p decls="desc" xml:lang="eng">
+               <lb/>Anonymus 021, Anonymus 088, Anonymus 092, Hofmeister and Franz Rossi corrected and made additional parts for the first performance of the second version of the Mass in E minor in Linz on 4 October 1885. Anonymus 88 also contributed to the sets of parts in the Linz Cathedral Archive for the Ave Maria (WAB 6) and Ecce Sacerdos Magnus, both of which were performed on the same occasion. 
+               <lb/>For more copyists from Linz, see <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Table 3</ref>.</p>
+            <table>
+               <head>Abschriften</head>
+               <row xml:lang="de" role="label">
+                  <cell>Datierung des Werkes</cell>
+                  <cell>Signatur</cell>
+                  <cell>Werktitel</cell>
+                  <cell>WAB-Nummer</cell>
+                  <cell>Art der Kopie</cell>
+                  <cell>erschlossene Datierung der Kopie</cell>
+                  <cell>Folios in der Hand des Kopisten</cell>
+                  <cell>Datierung der Kopie/Unterschrift</cell>
+               </row>
+               <row xml:lang="eng" role="label">
+                  <cell>Date of Composition</cell>
+                  <cell>Library Call Number</cell>
+                  <cell>Work Title</cell>
+                  <cell>WAB Number</cell>
+                  <cell>Manuscript Description</cell>
+                  <cell>date conjectural</cell>
+                  <cell>Folios in the Copyist’s Hand</cell>
+                  <cell>Copyist’s Signature or Date</cell>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date notAfter="1861-05-12">vor 12.05.1861</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-LId466_6_29">A-LId466_6_29</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e8719">Ave Maria</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-006">006</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Stimmen</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">9r–29r</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern">AVM7</cell>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1866-11-25">25.11.1866</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-LId473_6_29">A-LId473_6_29</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9393">Messe in e-Moll</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-027">027</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Stimmen</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">68r–71v (Sop. 1, St. 19, Cadd); 155r–158v (Sop. 2, St. 19, Cadd)</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern">Es handelt sich um die 2. Fassung der Messe</cell>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1866-11-25">25.11.1866</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-LId477_7_29">A-LId477_7_29</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9393">Messe in e-Moll</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-027">027</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Stimmen</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">56r–59v (Alt 1, St. 14, Cadd); 80r–83v (Alt 1, St. 16 Cadd); 92r–95v (Alt 2, St. 1, Cadd)</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern">Es handelt sich um die 2. Fassung der Messe</cell>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1885-04-20" to="1885-04-28">20.04.1885–28.04.1885</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-LId469_6_29">A-LId469_6_29</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e8868">Ecce sacerdos
+                        magnus</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-013">013</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Stimmen</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">9r–10r; 15r–19v; 22r–28v; 31r–38v;
+                     41r–41v; 43r–45r</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+            </table>
+            <list>
+               <head xml:lang="de">Beispiele entnommen aus: <ref target="Anonymus-088_A-LId466_6_29-09r.jpg">A-LId466_6_29</ref>
+               </head>
+               <head xml:lang="eng">Examples taken from: <ref target="Anonymus-088_A-LId466_6_29-09r.jpg">A-LId466_6_29</ref>
+               </head>
+               <item>
+                  <title xml:lang="de">Notenschlüssel</title>
+                  <title xml:lang="eng">Clefs</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_088/Anonymus-088_A-LId466_6_29_A-Clefs_G.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Akzidentien</title>
+                  <title xml:lang="eng">Accidentals</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_088/Anonymus-088_A-LId466_6_29_B-Accidentals_Flat.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_088/Anonymus-088_A-LId466_6_29_B-Accidentals_Natural.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_088/Anonymus-088_A-LId466_6_29_B-Accidentals_Sharp.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Taktvorzeichnung</title>
+                  <title xml:lang="eng">Time Signatures</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_088/Anonymus-088_A-LId466_6_29_C-Time-Signatures_C.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Pausen</title>
+                  <title xml:lang="eng">Rests</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_088/Anonymus-088_A-LId466_6_29_D-Rests_Viertel.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Noten</title>
+                  <title xml:lang="eng">Notes</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_088/Anonymus-088_A-LId466_6_29_E-Notes_Achtel.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_088/Anonymus-088_A-LId466_6_29_E-Notes_Ganze.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_088/Anonymus-088_A-LId466_6_29_E-Notes_Halbe.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_088/Anonymus-088_A-LId466_6_29_E-Notes_Viertel.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Dynamik</title>
+                  <title xml:lang="eng">Dynamics</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_088/Anonymus-088_A-LId466_6_29_F-Dynamics_Crescendo_Decrescendo.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_088/Anonymus-088_A-LId466_6_29_F-Dynamics_Dim.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_088/Anonymus-088_A-LId466_6_29_F-Dynamics_Forte.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_088/Anonymus-088_A-LId466_6_29_F-Dynamics_Fortissimo.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_088/Anonymus-088_A-LId466_6_29_F-Dynamics_Mezzoforte.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_088/Anonymus-088_A-LId466_6_29_F-Dynamics_Piano.png"/>
+                  </figure>
+               </item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

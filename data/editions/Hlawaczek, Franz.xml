@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Hlawaczek, Franz</title>
+            <title level="m">Die Wiener Kopisten der
+               Werke Anton Bruckners</title>
+            <author>
+               <name>Paul Hawkshaw</name>
+               <name>Clemens Gubsch</name>
+            </author>
+            <respStmt>
+               <resp>Automatische Konvertierung nach TEI P5</resp>
+               <name xml:id="cg">Clemens Gubsch</name>
+            </respStmt>
+            <respStmt>
+               <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
+               <name corresp="#cg">Clemens Gubsch</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2020-11-01</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Die Wiener Kopisten der Werke Anton Bruckners</publisher>
+            <idno type="BrucknerKopisten">d1e25269</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term>Bekannter Kopist</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change who="#cg" status="created">Erstellt und geprüft</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="content-d1e25269">
+            <listPerson>
+               <person>
+                  <persName type="main">Hlawaczek, Franz</persName>
+                  <persName>
+                     <surname>Hlawaczek</surname>
+                     <forename>Franz</forename>
+                  </persName>
+                  <idno type="google-sheet">Hlawaczek, Franz</idno>
+                  <idno type="GND"/>
+                  <floruit from="1864" to="1882" cert="medium">1864–1882(?)</floruit>
+                  <residence>Wien</residence>
+                  <affiliation xml:lang="de">Wiener Kopisten</affiliation>
+                  <affiliation xml:lang="eng">Vienna copyists</affiliation>
+                  <index>
+                     <term sortKey="1" xml:lang="de">Primärquellen</term>
+                     <term sortKey="1" xml:lang="eng">Primary Sources</term>
+                  </index>
+               </person>
+            </listPerson>
+            <p decls="desc" xml:lang="de">
+               <lb/>Wie durch Johannes Behr ausführlich dargestellt, arbeitete Franz Hlawaczek als
+               Kopist intensiv sowohl für Franz Schubert als auch für Johannes Brahms.<ref xml:id="footnote-ref064a"
+                  target="#footnote064-a" type="noteAnchor">1</ref> Ebensowenig besteht kein Zweifel
+               daran, dass die hier aufgelisteten Abschriften ebenfalls von Hlawaczek angefertigt
+               wurden. Der Umstand, dass Hlawaczek in Wien lebte und für Bruckner vorwiegend während
+               dessen Wiener Jahren arbeitete, wirft die Frage auf, wie es dazu kam, dass der Kopist
+               zwei Partiturabschriften des Herbstliedes (WAB 073) bereits im Jahre 1864 für den
+               Komponisten anfertigte. Dabei weist fol. 11<hi rend="sup">r</hi> der Abschrift
+               A-LIsakaWAB73 [a] eine autographe Unterschrift und Datierung Bruckners auf: „Anton
+               Brucknerm[anu]p[ropria] 19. März 1864“. Möglicherweise lassen sich diese frühen
+               Abschriften auf die Vermittlung durch Rudolf Weinwurm zurückführen, der in Wien
+               lebend, Hlawaczek mit der Abschrift beauftragte. Belegt durch Briefe, lässt sich
+               annehmen, dass Bruckner während den 1860er Jahren vermehrt seine neusten
+               Kompositionen an Weinwurm sandte.<ref xml:id="footnote-ref064b" target="#footnote064-b" type="noteAnchor"
+                  >2</ref>
+               <lb/>Die Zuordnung der Mittelsätze der verschollenen Stichvorlage zur 6. Symphonie
+               zum Schreibprofil Hlawaczeks erfolgte auf der Grundlage der Photokopien, die in der
+               Musiksammlung der ÖNB unter der Signatur A-Wn PhA2284 aufbewahrt werden.
+               <note xml:id="footnote064-a" type="footnote" anchored="true" n="1">Johannes Behr, Kopist
+                  für Schubert und Brahms: Franz Hlawaczek, in: „Brahms Schubert-Rezeption im Wiener
+                  Kontext. Bericht über das internationale Symposium Wien 2013”, Stuttgart (2017),
+                  S. 107–134.</note>
+               <note xml:id="footnote064-b" type="footnote" anchored="true" n="2">Siehe dazu
+                  beispielsweise Bruckners Brief an Rudolf Weinwurm vom 21. Januar 1865. Vgl.
+                  Harrandt, Briefe I, S. 54f.</note>
+            </p>
+            <p decls="desc" xml:lang="eng">
+               <lb/>Johannes Behr has discussed Franz Hlawaczek’s relationship with Franz Schubert
+               and Johannes Brahms extensively.<ref xml:id="footnote-ref064c" target="#footnote064-c" type="noteAnchor"
+                  >1</ref> There is no question the same copyist prepared the Bruckner manuscripts
+               listed here. The fact that Hlawaczek lived in Vienna and worked for Bruckner
+               primarily during his Viennese years raises the question of how the copyist came to
+               prepare two scores of Herbstlied (WAB 073) probably in 1864. Fol. 11<hi rend="sup"
+                  >r</hi> of A-LIsakaWAB73 [a] is signed and dated by the composer: “Anton
+               Brucknermp 19. März 1864”. One possible explanation is that it was not the composer,
+               but his Viennese friend Rudolf Weinwurm who hired Hlawaczek. During the 1860s,
+               Bruckner is known to have sent Weinwurm his latest compositions.<ref xml:id="footnote-ref064d"
+                  target="#footnote064-d" type="noteAnchor">2</ref>
+               <lb/>The middle movements of the lost Sixth Symphony manuscript has been attributed to
+               Hlawaczek on the basis of A-Wn PhA2284 which contains photocopies of a few pages from
+               each movement.
+               <note xml:id="footnote064-c" type="footnote" anchored="true" n="1">Johannes Behr, Kopist für Schubert und
+                  Brahms: Franz Hlawaczek. In “Brahms Schubert-Rezeption im Wiener Kontext. Bericht
+                  über das internationale Symposium Wien 2013”, (Stuttgart: 2017), pp.
+                  107–134.</note>
+               <note xml:id="footnote064-d" type="footnote" anchored="true" n="2">See for example
+                  his letter to Weinwurm of 21 January 1865. Harrandt, Briefe, 1:54f.</note>
+            </p>
+            <p decls="link" xml:lang="de">Eine detaillierte Biographie findet sich im entsprechenden
+               Artikel des ABLO: <ref target="http://www.bruckner-online.at/ABLO_d1e1903">siehe
+                  ABLO</ref>
+            </p>
+            <p decls="link" xml:lang="eng"/>
+            <table>
+               <head>Abschriften</head>
+               <row xml:lang="de" role="label">
+                  <cell>Datierung des Werkes</cell>
+                  <cell>Signatur</cell>
+                  <cell>Werktitel</cell>
+                  <cell>WAB-Nummer</cell>
+                  <cell>Art der Kopie</cell>
+                  <cell>erschlossene Datierung der Kopie</cell>
+                  <cell>Folios in der Hand des Kopisten</cell>
+                  <cell>Datierung der Kopie/Unterschrift</cell>
+               </row>
+               <row xml:lang="eng" role="label">
+                  <cell>Date of Composition</cell>
+                  <cell>Library Call Number</cell>
+                  <cell>Work Title</cell>
+                  <cell>WAB Number</cell>
+                  <cell>Manuscript Description</cell>
+                  <cell>date conjectural</cell>
+                  <cell>Folios in the Copyist’s Hand</cell>
+                  <cell>Copyist’s Signature or Date</cell>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date notAfter="1864-03-19">vor 19.03.1864</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-LIsakaWAB73"
+                        >A-LIsakaWAB73 [a]</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9054">Herbstlied</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-073">073</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur mit aut. Eintragungen</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie">
+                     <date when="1864">1864 [?]</date>
+                  </cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date notAfter="1864-03-19">vor 19.03.1864</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-LIsakaWAB73"
+                        >A-LIsakaWAB73 [b]</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9054">Herbstlied</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-073">073</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie">
+                     <date when="1864">1864 [?]</date>
+                  </cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten"/>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1868-09-09">09.09.1868</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref>A-WnMus.Hs.6075</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9401">Messe in f-Moll</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-028">028</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Stimmen</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie">
+                     <date when="1869">1869</date>
+                  </cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">1r–13v; 66r–78r; 133r–145r;
+                     198r–210r; 263r–271v; 277r–279v; 287v; 298r–300v; 308v; 319r–321v; 329r;
+                     338r–339v, Z. 6; 347r; 356r–357v, Z. 7; 382r–390v; 395r–396v; 415r–416v;
+                     440r–445v; 470r–473v; 481r–484v; 495v, Z. 1–6; 508v, Z. 1–6; 551r–555r;
+                     561r–567r; 568r–618r</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1874-01-02" to="1874-11-22">02.01.1874–22.11.1874</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19476"
+                        >A-WnMus.Hs.19476</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9878">4. Symphonie</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-104">104</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">aut. Partitur</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">101v–102v</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1874-01-02" to="1874-11-22">02.01.1874–22.11.1874</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=US-NYcuMN_98-8029"
+                        >US-NYcuMN_98-8029</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9878">4. Symphonie</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-104">104</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur mit aut. Eintragungen</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">79r–98v; 100r–116v</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1879-09-24" to="1881-09-03">24.09.1879–03.09.1881</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.34612"
+                        >A-WnMus.Hs.34612</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9910">6. Symphonie</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-106">106</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur mit aut. Eintragungen</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">1r–38r; 75r–106r</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1879-09-24" to="1881-09-03">24.09.1879–03.09.1881</date>
+                  </cell>
+                  <cell role="Signatur">Privatbesitz 12-2 (verschollen)</cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9910">6. Symphonie, 2. und 3. Satz</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-106">106</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur mit aut. Eintragungen</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">Die exakte Blattzählung lässt sich anhand der Kopien nicht feststellen.</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"></cell>
+               </row>
+            </table>
+            <list>
+               <head xml:lang="de">Beispiele entnommen aus: <ref
+                     target="Hlawaczek_Franz_A-WnMus.Hs.34612-001r.jpg">A-WnMus.Hs.34612</ref>
+               </head>
+               <head xml:lang="eng">Examples taken from: <ref
+                     target="Hlawaczek_Franz_A-WnMus.Hs.34612-001r.jpg">A-WnMus.Hs.34612</ref>
+               </head>
+               <item>
+                  <title xml:lang="de">Notenschlüssel</title>
+                  <title xml:lang="eng">Clefs</title>
+                  <figure>
+                     <graphic scale="33"
+                        url="../../101_samples/named/H/Hlawaczek_Franz/Hlawaczek_Franz_A-WnMus.Hs.34612_A-Clefs_C_1.png"/>
+                     <graphic scale="33"
+                        url="../../101_samples/named/H/Hlawaczek_Franz/Hlawaczek_Franz_A-WnMus.Hs.34612_A-Clefs_C_2.png"/>
+                     <graphic scale="33"
+                        url="../../101_samples/named/H/Hlawaczek_Franz/Hlawaczek_Franz_A-WnMus.Hs.34612_A-Clefs_F_1.png"/>
+                     <graphic scale="33"
+                        url="../../101_samples/named/H/Hlawaczek_Franz/Hlawaczek_Franz_A-WnMus.Hs.34612_A-Clefs_F_2.png"/>
+                     <graphic scale="33"
+                        url="../../101_samples/named/H/Hlawaczek_Franz/Hlawaczek_Franz_A-WnMus.Hs.34612_A-Clefs_G_1.png"/>
+                     <graphic scale="33"
+                        url="../../101_samples/named/H/Hlawaczek_Franz/Hlawaczek_Franz_A-WnMus.Hs.34612_A-Clefs_G_2.png"
+                     />
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Akzidentien</title>
+                  <title xml:lang="eng">Accidentals</title>
+                  <figure>
+                     <graphic scale="33"
+                        url="../../101_samples/named/H/Hlawaczek_Franz/Hlawaczek_Franz_A-WnMus.Hs.34612_B-Accidentals_Flat_1.png"/>
+                     <graphic scale="33"
+                        url="../../101_samples/named/H/Hlawaczek_Franz/Hlawaczek_Franz_A-WnMus.Hs.34612_B-Accidentals_Flat_2.png"/>
+                     <graphic scale="33"
+                        url="../../101_samples/named/H/Hlawaczek_Franz/Hlawaczek_Franz_A-WnMus.Hs.34612_B-Accidentals_Natural_1.png"/>
+                     <graphic scale="33"
+                        url="../../101_samples/named/H/Hlawaczek_Franz/Hlawaczek_Franz_A-WnMus.Hs.34612_B-Accidentals_Natural_2.png"/>
+                     <graphic scale="33"
+                        url="../../101_samples/named/H/Hlawaczek_Franz/Hlawaczek_Franz_A-WnMus.Hs.34612_B-Accidentals_Sharp_1.png"/>
+                     <graphic scale="33"
+                        url="../../101_samples/named/H/Hlawaczek_Franz/Hlawaczek_Franz_A-WnMus.Hs.34612_B-Accidentals_Sharp_2.png"
+                     />
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Taktvorzeichnung</title>
+                  <title xml:lang="eng">Time Signatures</title>
+                  <figure>
+                     <graphic scale="33"
+                        url="../../101_samples/named/H/Hlawaczek_Franz/Hlawaczek_Franz_A-WnMus.Hs.34612_C-Time-Signatures_C.png"
+                     />
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Pausen</title>
+                  <title xml:lang="eng">Rests</title>
+                  <figure>
+                     <graphic scale="33"
+                        url="../../101_samples/named/H/Hlawaczek_Franz/Hlawaczek_Franz_A-WnMus.Hs.34612_D-Rests_Achtel_1.png"/>
+                     <graphic scale="33"
+                        url="../../101_samples/named/H/Hlawaczek_Franz/Hlawaczek_Franz_A-WnMus.Hs.34612_D-Rests_Achtel_2.png"/>
+                     <graphic scale="33"
+                        url="../../101_samples/named/H/Hlawaczek_Franz/Hlawaczek_Franz_A-WnMus.Hs.34612_D-Rests_Ganze.png"/>
+                     <graphic scale="33"
+                        url="../../101_samples/named/H/Hlawaczek_Franz/Hlawaczek_Franz_A-WnMus.Hs.34612_D-Rests_Sechzehntel_1.png"/>
+                     <graphic scale="33"
+                        url="../../101_samples/named/H/Hlawaczek_Franz/Hlawaczek_Franz_A-WnMus.Hs.34612_D-Rests_Sechzehntel_2.png"/>
+                     <graphic scale="33"
+                        url="../../101_samples/named/H/Hlawaczek_Franz/Hlawaczek_Franz_A-WnMus.Hs.34612_D-Rests_Viertel_1.png"/>
+                     <graphic scale="33"
+                        url="../../101_samples/named/H/Hlawaczek_Franz/Hlawaczek_Franz_A-WnMus.Hs.34612_D-Rests_Viertel_2.png"
+                     />
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Noten</title>
+                  <title xml:lang="eng">Notes</title>
+                  <figure>
+                     <graphic scale="33"
+                        url="../../101_samples/named/H/Hlawaczek_Franz/Hlawaczek_Franz_A-WnMus.Hs.34612_E-Notes_Achtel.png"/>
+                     <graphic scale="33"
+                        url="../../101_samples/named/H/Hlawaczek_Franz/Hlawaczek_Franz_A-WnMus.Hs.34612_E-Notes_Ganze.png"/>
+                     <graphic scale="33"
+                        url="../../101_samples/named/H/Hlawaczek_Franz/Hlawaczek_Franz_A-WnMus.Hs.34612_E-Notes_Halbe_1.png"/>
+                     <graphic scale="33"
+                        url="../../101_samples/named/H/Hlawaczek_Franz/Hlawaczek_Franz_A-WnMus.Hs.34612_E-Notes_Halbe_2.png"/>
+                     <graphic scale="33"
+                        url="../../101_samples/named/H/Hlawaczek_Franz/Hlawaczek_Franz_A-WnMus.Hs.34612_E-Notes_Viertel_1.png"/>
+                     <graphic scale="33"
+                        url="../../101_samples/named/H/Hlawaczek_Franz/Hlawaczek_Franz_A-WnMus.Hs.34612_E-Notes_Viertel_2.png"
+                     />
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Dynamik</title>
+                  <title xml:lang="eng">Dynamics</title>
+                  <figure>
+                     <graphic scale="33"
+                        url="../../101_samples/named/H/Hlawaczek_Franz/Hlawaczek_Franz_A-WnMus.Hs.34612_F-Dynamics_Crescendo.png"/>
+                     <graphic scale="33"
+                        url="../../101_samples/named/H/Hlawaczek_Franz/Hlawaczek_Franz_A-WnMus.Hs.34612_F-Dynamics_Decrescendo.png"/>
+                     <graphic scale="33"
+                        url="../../101_samples/named/H/Hlawaczek_Franz/Hlawaczek_Franz_A-WnMus.Hs.34612_F-Dynamics_Dim_1.png"/>
+                     <graphic scale="33"
+                        url="../../101_samples/named/H/Hlawaczek_Franz/Hlawaczek_Franz_A-WnMus.Hs.34612_F-Dynamics_Dim_2.png"/>
+                     <graphic scale="33"
+                        url="../../101_samples/named/H/Hlawaczek_Franz/Hlawaczek_Franz_A-WnMus.Hs.34612_F-Dynamics_Forte_1.png"/>
+                     <graphic scale="33"
+                        url="../../101_samples/named/H/Hlawaczek_Franz/Hlawaczek_Franz_A-WnMus.Hs.34612_F-Dynamics_Forte_2.png"/>
+                     <graphic scale="33"
+                        url="../../101_samples/named/H/Hlawaczek_Franz/Hlawaczek_Franz_A-WnMus.Hs.34612_F-Dynamics_Fortissimo_1.png"/>
+                     <graphic scale="33"
+                        url="../../101_samples/named/H/Hlawaczek_Franz/Hlawaczek_Franz_A-WnMus.Hs.34612_F-Dynamics_Fortissimo_2.png"/>
+                     <graphic scale="33"
+                        url="../../101_samples/named/H/Hlawaczek_Franz/Hlawaczek_Franz_A-WnMus.Hs.34612_F-Dynamics_Mezzoforte.png"
+                     />
+                  </figure>
+               </item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

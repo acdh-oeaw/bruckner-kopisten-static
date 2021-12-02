@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Paur, Karl</title>
+            <title level="m">Die Wiener Kopisten der Werke Anton Bruckners</title>
+            <author>
+               <name>Paul Hawkshaw</name>
+               <name>Clemens Gubsch</name>
+            </author>
+            <respStmt>
+               <resp>Automatische Konvertierung nach TEI P5</resp>
+               <name xml:id="cg">Clemens Gubsch</name>
+            </respStmt>
+            <respStmt>
+               <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
+               <name corresp="#cg">Clemens Gubsch</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2020-11-01</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Die Wiener Kopisten der Werke Anton Bruckners</publisher>
+            <idno type="BrucknerKopisten">d1e31901</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term>Bekannter Kopist</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change who="#cg" status="created">Erstellt und geprüft</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="content-d1e31901">
+            <listPerson>
+               <person>
+                  <persName type="main">Paur, Karl</persName>
+                  <persName>
+                     <surname>Paur</surname>
+                     <forename>Karl</forename>
+                  </persName>
+                  <idno type="google-sheet">Paur, Karl</idno>
+                  <idno type="GND"/>
+                  <residence/>
+                  <affiliation xml:lang="de"/>
+                  <affiliation xml:lang="eng"/>
+                  <index>
+                     <term sortKey="2" xml:lang="de">Sekundärquellen</term>
+                     <term sortKey="2" xml:lang="eng">Secondary Sources</term>
+                  </index>
+               </person>
+            </listPerson>
+            <p decls="desc" xml:lang="de">
+               <lb/>Paur fertigte einen Klavierauszug (zu vier Händen) zum 1. Satz der 8. Symphonie
+               (2. Fassung) an. Von der heute in Privatbesitz befindlichen Bearbeitung sind
+               lediglich die T. 1-390 erhalten. Christ vermerkte auf dem Titelblatt: „1. Satz. |
+               Anton Bruckner | 8. Sinfonie 1. Satz | Cmoll | Clavierauszug von Karl Paur | Zu 4
+               Händen | 1890.”. Es wird daher angenommen, dass Paur als Bearbeiter die betreffende
+               Handschrift angefertigt hat. Karl Paur studierte zwischen 1884 und 1887 am
+               Konservatorium Harmonielehre, Kontrapunkt und Orgel bei Bruckner. </p>
+            <p decls="desc" xml:lang="eng">
+               <lb/>Paur made a piano 4-hand arrangement of the first movement of the second version
+               of the Eighth Symphony. Only mm 1-390 survive with Viktor Christ’s copy of the
+               symphony that is now in private possession. Christ wrote an annotation on the cover:
+               “1. Satz. | Anton Bruckner | 8. Sinfonie 1. Satz | Cmoll | Clavierauszug von Karl
+               Paur | Zu 4 Händen | 1890.”. The assumption is that the arranger wrote the manuscript
+               in question. He may have been the Karl Paur who studied harmony, counterpoint and
+               organ with Bruckner at the conservatory between 1884 and 1887. </p>
+            <p decls="link" xml:lang="de"/>
+            <p decls="link" xml:lang="eng"/>
+            <table>
+               <head>Abschriften</head>
+               <row xml:lang="de" role="label">
+                  <cell>Datierung des Werkes</cell>
+                  <cell>Signatur</cell>
+                  <cell>Werktitel</cell>
+                  <cell>WAB-Nummer</cell>
+                  <cell>Art der Kopie</cell>
+                  <cell>erschlossene Datierung der Kopie</cell>
+                  <cell>Folios in der Hand des Kopisten</cell>
+                  <cell>Datierung der Kopie/Unterschrift</cell>
+               </row>
+               <row xml:lang="eng" role="label">
+                  <cell>Date of Composition</cell>
+                  <cell>Library Call Number</cell>
+                  <cell>Work Title</cell>
+                  <cell>WAB Number</cell>
+                  <cell>Manuscript Description</cell>
+                  <cell>date conjectural</cell>
+                  <cell>Folios in the Copyist’s Hand</cell>
+                  <cell>Copyist’s Signature or Date</cell>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1884-06" to="1887-08-10">Juni 1884–10.08.1887</date>
+                  </cell>
+                  <cell role="Signatur">A-Wprivatbesitz_08-05</cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9943">8. Symphonie, 1.
+                        Satz</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-108">108</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Klavierauszug (4hdg.) Fragment</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+            </table>
+            <list>
+               <head xml:lang="de">Beispiele entnommen aus: <ref/>
+               </head>
+               <head xml:lang="eng">Examples taken from: <ref/>
+               </head>
+               <item>
+                  <title xml:lang="de">Notenschlüssel</title>
+                  <title xml:lang="eng">Clefs</title>
+                  <figure/>
+               </item>
+               <item>
+                  <title xml:lang="de">Akzidentien</title>
+                  <title xml:lang="eng">Accidentals</title>
+                  <figure/>
+               </item>
+               <item>
+                  <title xml:lang="de">Taktvorzeichnung</title>
+                  <title xml:lang="eng">Time Signatures</title>
+                  <figure/>
+               </item>
+               <item>
+                  <title xml:lang="de">Pausen</title>
+                  <title xml:lang="eng">Rests</title>
+                  <figure/>
+               </item>
+               <item>
+                  <title xml:lang="de">Noten</title>
+                  <title xml:lang="eng">Notes</title>
+                  <figure/>
+               </item>
+               <item>
+                  <title xml:lang="de">Dynamik</title>
+                  <title xml:lang="eng">Dynamics</title>
+                  <figure/>
+               </item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

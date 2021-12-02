@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Anonymus 078</title>
+            <title level="m">Die Wiener Kopisten der Werke Anton Bruckners</title>
+            <author>
+               <name>Paul Hawkshaw</name>
+               <name>Clemens Gubsch</name>
+            </author>
+            <respStmt>
+               <resp>Automatische Konvertierung nach TEI P5</resp>
+               <name xml:id="cg">Clemens Gubsch</name>
+            </respStmt>
+            <respStmt>
+               <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
+               <name corresp="#cg">Clemens Gubsch</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2020-11-01</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Die Wiener Kopisten der Werke Anton Bruckners</publisher>
+            <idno type="BrucknerKopisten">d1e11262</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term>Anonymus</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change who="#cg" status="created">Erstellt und geprüft</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="content-d1e11262">
+            <listPerson>
+               <person>
+                  <persName subtype="W" type="main">Anonymus 078</persName>
+                  <idno type="google-sheet">078</idno>
+                  <floruit from="1895" to="1896">1895–1896</floruit>
+                  <residence/>
+                  <affiliation xml:lang="de">Wiener Kopisten</affiliation>
+                  <affiliation xml:lang="eng">Vienna copyist</affiliation>
+                  <index>
+                     <term sortKey="1" xml:lang="de">Primärquellen</term>
+                     <term sortKey="1" xml:lang="eng">Primary Sources</term>
+                  </index>
+               </person>
+            </listPerson>
+            <p decls="desc" xml:lang="de">
+               <lb/>Die Kopisten Anonymus 077 und 078 präparierten Partiturbögen (mit Instrumentenvorsatz, Schlüsselung, Akzidenzien und Taktstriche) für die Skizzen zum 4. Satz der 9. Symphonie.
+               <lb/>Siehe auch Kopist Anonymus 013 und Cyrill Hynais.</p>
+            <p decls="desc" xml:lang="eng">
+               <lb/>Anonymus 077 and 078 prepared bifolios with instrument names, clefs, time and key signatures and bar lines for Bruckner’s sketches for finale of the Ninth Symphony.
+               <lb/>See also Anonymus 013 and Cyrill Hynais.</p>
+            <table>
+               <head>Abschriften</head>
+               <row xml:lang="de" role="label">
+                  <cell>Datierung des Werkes</cell>
+                  <cell>Signatur</cell>
+                  <cell>Werktitel</cell>
+                  <cell>WAB-Nummer</cell>
+                  <cell>Art der Kopie</cell>
+                  <cell>erschlossene Datierung der Kopie</cell>
+                  <cell>Folios in der Hand des Kopisten</cell>
+                  <cell>Datierung der Kopie/Unterschrift</cell>
+               </row>
+               <row xml:lang="eng" role="label">
+                  <cell>Date of Composition</cell>
+                  <cell>Library Call Number</cell>
+                  <cell>Work Title</cell>
+                  <cell>WAB Number</cell>
+                  <cell>Manuscript Description</cell>
+                  <cell>date conjectural</cell>
+                  <cell>Folios in the Copyist’s Hand</cell>
+                  <cell>Copyist’s Signature or Date</cell>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1895-05-24">24.05.1895–</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.6085">A-WnMus.Hs.6085</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9740">9. Symphonie, 4.
+                        Satz</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-109">109</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Eintragungen in aut. Skizzen</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie">
+                     <date from="1895" to="1896">1895–1896</date>
+                  </cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">1r–18v; 25r–32v</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1895-05-24">24.05.1895–</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.6087">A-WnMus.Hs.6087</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9740">9. Symphonie, 4.
+                        Satz</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-109">109</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Eintragungen in aut. Skizzen</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie">
+                     <date from="1895" to="1896">1895–1896</date>
+                  </cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">13r–18v; 21r–22v; 27r–30v; 41r–42v;
+                     49r–62v</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1895-05-24">24.05.1895–</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WstMHc3791">A-WstMHc3791</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9740">9. Symphonie, 4.
+                        Satz</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-109">109</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Eintragungen in aut. Skizzen</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie">
+                     <date from="1895" to="1896">1895–1896</date>
+                  </cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">5r–8v</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+            </table>
+            <list>
+               <head xml:lang="de">Beispiele entnommen aus: <ref target="Anonymus-078_A-WnMus.Hs.6085-1-01r.jpg">A-WnMus.Hs.6085-1</ref>
+               </head>
+               <head xml:lang="eng">Examples taken from: <ref target="Anonymus-078_A-WnMus.Hs.6085-1-01r.jpg">A-WnMus.Hs.6085-1</ref>
+               </head>
+               <item>
+                  <title xml:lang="de">Notenschlüssel</title>
+                  <title xml:lang="eng">Clefs</title>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_078/Anonymus-078_A-WnMus.Hs.6085_A-Clefs_C.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_078/Anonymus-078_A-WnMus.Hs.6085_A-Clefs_F.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_078/Anonymus-078_A-WnMus.Hs.6085_A-Clefs_G.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Akzidentien</title>
+                  <title xml:lang="eng">Accidentals</title>
+                  <figure/>
+               </item>
+               <item>
+                  <title xml:lang="de">Taktvorzeichnung</title>
+                  <title xml:lang="eng">Time Signatures</title>
+                  <figure/>
+               </item>
+               <item>
+                  <title xml:lang="de">Pausen</title>
+                  <title xml:lang="eng">Rests</title>
+                  <figure/>
+               </item>
+               <item>
+                  <title xml:lang="de">Noten</title>
+                  <title xml:lang="eng">Notes</title>
+                  <figure/>
+               </item>
+               <item>
+                  <title xml:lang="de">Dynamik</title>
+                  <title xml:lang="eng">Dynamics</title>
+                  <figure/>
+               </item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>
