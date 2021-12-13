@@ -70,6 +70,10 @@ div.dataTables_filter {
     color: white;
 }
 
+a {
+    color: #88dbdf;
+}
+
 p {
     display: block;
 }
