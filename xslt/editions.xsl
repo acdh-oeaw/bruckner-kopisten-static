@@ -44,6 +44,8 @@
                     <xsl:call-template name="html_footer"/>
                 </div>
             </body>
+            <script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script>   
+            <script type="text/javascript" src="js/dt.js"></script>  
             <script>
                 $(document).ready(function () {
                     createDataTable('editions-table')
@@ -119,7 +121,7 @@
         <div class="col-md-12">
             <div class="card" style="margin-top:-.5em;border-top:none!important;">
                 <div class="card-header">
-                    <xsl:apply-templates select="//tei:head"/>
+                    <h3><xsl:value-of select="./tei:head[@xml:lang='de']"/> | <xsl:value-of select="./tei:head[@xml:lang='eng']"/></h3>  
                 </div>
                 <div class="card-footer">
                     <ul><xsl:apply-templates select="//tei:item"/></ul>
@@ -128,9 +130,7 @@
         </div>        
     </xsl:template>
     <xsl:template match="tei:head">
-        <xsl:if test="@xml:lang='de'">
-            <h3><xsl:apply-templates/></h3>
-        </xsl:if>        
+   
     </xsl:template>
     <xsl:template match="tei:item">        
         <li style="margin:2em;">
@@ -144,11 +144,11 @@
     <xsl:template match="tei:figure">
         <xsl:param name="iiif-ext" select="'full/full/0/default.jpg'"/>     
         <xsl:for-each select="./tei:graphic">
-            <xsl:variable name="source" select="data(substring-after(@url, '../..'))"/>
+            <xsl:variable name="source" select="data(tokenize(@url, '/'))"/>
             <div class="img-notes">
                 <img class="tei-xml-images">
                     <xsl:attribute name="src">
-                        <xsl:value-of select="concat('../../bruckner-kopisten-data', $source)"/>
+                        <xsl:value-of select="concat('https://iiif.acdh.oeaw.ac.at/bruckner-kopisten/', replace($source[last()], '.png', '/full/full/0/default.jpg'))"/>
                     </xsl:attribute>
                 </img>
             </div>
