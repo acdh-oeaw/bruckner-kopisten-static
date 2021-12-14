@@ -15,7 +15,7 @@
                 <div class="row">
                     <div class="footer-widget col-lg-1 col-md-2 col-sm-2 col-xs-6  ml-auto  text-center ">
                         <div class="textwidget custom-html-widget">
-                            <a href="/"><img src="https://fundament.acdh.oeaw.ac.at/common-assets/images/acdh_logo.svg" class="image" alt="ACDH Logo" style="max-width: 100%; height: auto;" title="ACDH Logo"/></a>
+                            <a href="https://www.oeaw.ac.at/acdh"><img src="https://fundament.acdh.oeaw.ac.at/common-assets/images/acdh_logo.svg" class="image" alt="ACDH Logo" style="max-width: 100%; height: auto;" title="ACDH Logo"/></a>
                         </div>
                     </div>
                     <!-- .footer-widget -->
@@ -42,43 +42,20 @@
                     </div>
                     <div class="footer-widget col-lg-4 col-md-3 col-sm-4">
                         <h6 class="font-weight-bold">PROJECT PARTNERS</h6>
-                        <div class="container">
+                        <div class="container" style="margin-top: 1em;">
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-sm-12">
                                     <div class="flex-md-row mb-4 align-items-center">
-                                        <a href="https://acdh.oeaw.ac.at"><img class="card-img-right flex-auto d-md-block" src="https://fundament.acdh.oeaw.ac.at/common-assets/images/acdh_logo.svg" alt="ACDH Logo" style="max-width: 60px; height: auto;" title="ACDH Logo" /></a>
-                                        <div class="card-body d-flex flex-column align-items-start">
-                                            <p class="card-text mb-auto">Austrian Center for Digital Humanities and Cultural Heritage</p>
-                                        </div>
-                                    </div>
-                                </div> 
-                                <div class="col-lg-6 col-md-6 col-sm-12">
-                                    <div class="flex-md-row mb-4 align-items-center">
-                                        <a href="https://acdh.oeaw.ac.at"><img class="card-img-right flex-auto d-md-block" src="https://fundament.acdh.oeaw.ac.at/common-assets/images/acdh_logo.svg" alt="ACDH Logo" style="max-width: 60px; height: auto;" title="ACDH Logo" /></a>
-                                        <div class="card-body d-flex flex-column align-items-start">
-                                            <p class="card-text mb-auto">Austrian Center for Digital Humanities and Cultural Heritage</p>
-                                        </div>
-                                    </div>
-                                </div> 
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-6 col-md-6 col-sm-12">
-                                    <div class="flex-md-row mb-4 align-items-center">
-                                        <a href="https://acdh.oeaw.ac.at"><img class="card-img-right flex-auto d-md-block" src="https://fundament.acdh.oeaw.ac.at/common-assets/images/acdh_logo.svg" alt="ACDH Logo" style="max-width: 60px; height: auto;" title="ACDH Logo" /></a>
-                                        <div class="card-body d-flex flex-column align-items-start">
-                                            <p class="card-text mb-auto">Austrian Center for Digital Humanities and Cultural Heritage</p>
-                                        </div>
+                                        <a href="https://www.fwf.ac.at"><img class="card-img-right flex-auto d-md-block" src="https://www.fwf.ac.at/fileadmin/files/Images/News_Presse/Presse/Logo/fwf-logo_var2.jpg" alt="FWF Logo" style="max-width: 140px; height: auto;" title="FWF Logo"/></a>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-12">
                                     <div class="flex-md-row mb-4 align-items-center">
-                                        <a href="https://acdh.oeaw.ac.at"><img class="card-img-right flex-auto d-md-block" src="https://fundament.acdh.oeaw.ac.at/common-assets/images/acdh_logo.svg" alt="ACDH Logo" style="max-width: 60px; height: auto;" title="ACDH Logo" /></a>
-                                        <div class="card-body d-flex flex-column align-items-start">
-                                            <p class="card-text mb-auto">Austrian Center for Digital Humanities and Cultural Heritage</p>
-                                        </div>
+                                        <a href="https://www.onb.ac.at/"><img class="card-img-right flex-auto d-md-block" src="img/nationalbibliothek_logo_250x80_k.png" alt="ONB Logo" style="max-width: 140px; height: auto;" title="ONB Logo"/></a>
                                     </div>
-                                </div> 
+                                </div>                                 
                             </div>
+                            
                         </div>
                     </div>
                     <!-- .footer-widget -->                       
@@ -116,10 +93,6 @@
             © Copyright OEAW | <a href="https://www.oeaw.ac.at/die-oeaw/impressum/">Impressum/Imprint</a>
         </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/openseadragon.min.js"></script>
-        <!-- ############ Popper JS ############ -->    
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-        <!-- ########## Bootstrap cdn 4.6 ######### -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>  
         <script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script>   
         <script type="text/javascript" src="js/dt.js"></script>      
     </xsl:template>

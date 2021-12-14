@@ -23,7 +23,7 @@
                                 <a title="Papers" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Projekt <span class="caret"></span></a>
                                 <ul class=" dropdown-menu" role="menu">
                                     <li class="nav-item dropdown-submenu">
-                                        <a title="Auden-Musulin Correspondence" href="about.html" class="nav-link">Über das Projekt</a>
+                                        <a title="Über das Projekt" href="about.html" class="nav-link">Über das Projekt</a>
                                     </li>
                                 </ul>                                
                             </li>
