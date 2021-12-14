@@ -133,7 +133,7 @@
         </xsl:if>        
     </xsl:template>
     <xsl:template match="tei:item">        
-        <li>
+        <li style="margin:2em;">
             <h5><xsl:value-of select="./tei:title[@xml:lang='de']"/> | <xsl:value-of select="./tei:title[@xml:lang='eng']"/></h5>  
             <xsl:apply-templates/>
         </li>
@@ -144,11 +144,14 @@
     <xsl:template match="tei:figure">
         <xsl:param name="iiif-ext" select="'full/full/0/default.jpg'"/>     
         <xsl:for-each select="./tei:graphic">
-            <img class="tei-xml-images">
-                <xsl:attribute name="src">
-                    <xsl:value-of select="concat(@url , $iiif-ext)"/>
-                </xsl:attribute>
-            </img>
+            <xsl:variable name="source" select="data(substring-after(@url, '../..'))"/>
+            <div class="img-notes">
+                <img class="tei-xml-images">
+                    <xsl:attribute name="src">
+                        <xsl:value-of select="concat('../../bruckner-kopisten-data', $source)"/>
+                    </xsl:attribute>
+                </img>
+            </div>
         </xsl:for-each>        
     </xsl:template>    
     <xsl:template match="tei:lb">
