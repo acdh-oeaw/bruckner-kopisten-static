@@ -6,5 +6,5 @@
     <xsl:param name="project_short_title">Bruckner Kopisten Online</xsl:param>
     <xsl:param name="github_url">https://github.com/acdh-oeaw/bruckner-kopisten-static</xsl:param>
     <xsl:param name="html_title">Bruckner Kopisten Online</xsl:param>
-    <xsl:param name="project_logo">dist/fundament/images/fundament_logo.svg</xsl:param>
+    <xsl:param name="project_logo">img/Bruckner_Logo_KK_web.png</xsl:param>
 </xsl:stylesheet>

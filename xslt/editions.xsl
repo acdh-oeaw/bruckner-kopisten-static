@@ -98,22 +98,63 @@
                     </div>
                 </div>
             </div>
+            <div class="col-md-8">
+                <div class="row">
+                    <xsl:if test="//tei:p[parent::tei:div][@xml:lang='de']">
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h3>Beschreibung</h3>
+                                </div>
+                                <div class="card-body">
+                                    <xsl:for-each select="//tei:p[parent::tei:div][@xml:lang='de']">
+                                        <span class="text">
+                                            <xsl:apply-templates/>
+                                        </span>
+                                    </xsl:for-each>                                
+                                </div>
+                                <div class="card-footer">
+                                    <ul><xsl:apply-templates select="//tei:note"/></ul>   
+                                </div>
+                            </div>            
+                        </div>
+                    </xsl:if>   
+                    <xsl:if test="//tei:p[parent::tei:div][@xml:lang='en']">
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h3>Beschreibung</h3>
+                                </div>
+                                <div class="card-body">
+                                    <xsl:for-each select="//tei:p[parent::tei:div][@xml:lang='en']">
+                                        <span class="text">
+                                            <xsl:apply-templates/>
+                                        </span>
+                                    </xsl:for-each>                                
+                                </div>
+                                <div class="card-footer">
+                                    <ul><xsl:apply-templates select="//tei:note"/></ul>                                    
+                                </div>
+                            </div>            
+                        </div>
+                    </xsl:if>
+                </div> 
+            </div>
         </xsl:for-each>            
         
     </xsl:template>
     <xsl:template match="tei:p">
-        <div class="col-md-2">
-            <div class="card">
-                <div class="card-header">
-                    <h3>Beschreibung</h3>
-                </div>
-                <div class="card-body">
-                    <p>
-                        <xsl:apply-templates/>
-                    </p>
-                </div>
-            </div>            
-        </div>        
+        
+    </xsl:template>
+    <xsl:template match="tei:note">
+        <li>
+            <a href="#{replace(@xml:id, 'footnote', 'footnote-ref')}">
+                <span style="margin-right:.2em;"><xsl:value-of select="@n"/></span>  
+            </a>            
+            <span class="note" id="{@xml:id}">
+                <xsl:apply-templates/>
+            </span>      
+        </li>
     </xsl:template>
     <xsl:template match="tei:list">
         <div class="col-md-12">
