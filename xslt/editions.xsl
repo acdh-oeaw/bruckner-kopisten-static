@@ -14,6 +14,7 @@
     <xsl:import href="partials/tei-ref.xsl"/>
     <xsl:import href="partials/tei-table.xsl"/>
     <xsl:import href="partials/dataTable-base.xsl"/>
+    
     <xsl:template match="/">
         <xsl:variable name="doc_title">
             <xsl:value-of select=".//tei:title[@type='main'][1]/text()"/>
@@ -38,99 +39,107 @@
                     <xsl:call-template name="nav_bar"/>
                     
                     <div class="container-fluid">                        
-                        <div class="card">
-                            <!--<div class="card-header">
-                                <h1><xsl:value-of select="$doc_title"/></h1>
-                            </div>-->
-                            <div class="card-body">                                
-                                <xsl:apply-templates select=".//tei:body"/>
-                            </div>
-                        </div>                       
+                        <xsl:apply-templates select=".//tei:body"/>                 
                     </div>
                     <xsl:call-template name="html_footer"/>
                 </div>
             </body>
             <script>
                 $(document).ready(function () {
-                    $('#editions-table').DataTable({
-                        "language": {
-                            "url": "https://cdn.datatables.net/plug-ins/1.10.19/i18n/German.json"
-                        },
-                        dom: 'fpBirtp',
-                        buttons:['copy', 'excel', 'pdf'],
-                        "lengthMenu":[25, 50, 75, 100, "All"],
-                        responsive: true,
-                        orderCellsTop: true,
-                        "pageLength": 25,
-                        keepConditions: true
-                    });
+                    createDataTable('editions-table')
                 });
             </script>            
         </html>
     </xsl:template>
 
     <xsl:template match="tei:div">
-        <div id="{@xml:id}"><xsl:apply-templates/></div>
-    </xsl:template>
-    <xsl:template match="tei:listPerson">
-        <div class="row">
-            <xsl:for-each select="./tei:person">
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-header">
-                            <h3><xsl:value-of select="./tei:persName"/></h3>
-                        </div>
-                        <div class="card-body">
-                            <dl>
-                                <xsl:for-each select="child::*[not(self::tei:persName or self::tei:index)]">
-                                    <dt><strong><xsl:value-of select="name()"/></strong></dt>
-                                    <dd><xsl:apply-templates/></dd>
-                                </xsl:for-each>
-                            </dl>
-                        </div>
-                        <div class="card-footer">
-                            <xsl:for-each select="./tei:index/tei:term">
-                                <span class="badge bg-primary text-light" style="margin-right:.2em;">
-                                    <xsl:apply-templates/>
-                                </span>
-                            </xsl:for-each>
-                        </div>
-                    </div>
-                </div>
-            </xsl:for-each>            
+        <div class="row" id="{@xml:id}">
+            <xsl:apply-templates>
+                <xsl:with-param name="table-id" select="'editions-table'"/>
+            </xsl:apply-templates>
         </div>
     </xsl:template>
-    <xsl:template match="tei:p">
-        <p class="card-body">
-            <xsl:apply-templates/>
-        </p>
-    </xsl:template>
-    <xsl:template match="tei:list">
-        <div class="row">
-            <div class="col-md-12">
+    <xsl:template match="tei:listPerson">
+        <xsl:for-each select="./tei:person">
+            <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
-                        <xsl:apply-templates select="//tei:head"/>
+                        <h3><xsl:value-of select="./tei:persName[1]"/></h3>
+                    </div>
+                    <div class="card-body">
+                        <table class="table">
+                            <xsl:for-each select="child::*[not(self::tei:persName or self::tei:index)]">
+                                <xsl:choose>
+                                    <xsl:when test="@xml:lang = 'de'">
+                                        <tr>
+                                            <th><strong><xsl:value-of select="name()"/></strong></th>
+                                            <td><xsl:apply-templates/></td>
+                                        </tr>
+                                    </xsl:when>
+                                    <xsl:when test="@xml:lang = 'en'">
+                                        
+                                    </xsl:when>
+                                    <xsl:when test="not(@xml:lang)">
+                                        <tr>
+                                            <th><strong><xsl:value-of select="name()"/></strong></th>
+                                            <td><xsl:apply-templates/></td>
+                                        </tr>
+                                    </xsl:when>
+                                </xsl:choose>                                    
+                            </xsl:for-each>
+                        </table>
                     </div>
                     <div class="card-footer">
-                        <ul><xsl:apply-templates select="//tei:item"/></ul>
+                        <xsl:for-each select="./tei:index/tei:term[@xml:lang='de']">
+                            <span class="badge text-light" style="margin-right:.2em;">
+                                <xsl:apply-templates/>
+                            </span>
+                        </xsl:for-each>
                     </div>
                 </div>
             </div>
-        </div>
+        </xsl:for-each>            
+        
+    </xsl:template>
+    <xsl:template match="tei:p">
+        <div class="col-md-2">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Beschreibung</h3>
+                </div>
+                <div class="card-body">
+                    <p>
+                        <xsl:apply-templates/>
+                    </p>
+                </div>
+            </div>            
+        </div>        
+    </xsl:template>
+    <xsl:template match="tei:list">
+        <div class="col-md-12">
+            <div class="card" style="margin-top:-.5em;border-top:none!important;">
+                <div class="card-header">
+                    <xsl:apply-templates select="//tei:head"/>
+                </div>
+                <div class="card-footer">
+                    <ul><xsl:apply-templates select="//tei:item"/></ul>
+                </div>
+            </div>
+        </div>        
     </xsl:template>
     <xsl:template match="tei:head">
         <xsl:if test="@xml:lang='de'">
             <h3><xsl:apply-templates/></h3>
         </xsl:if>        
     </xsl:template>
-    <xsl:template match="tei:item">
-        <li><xsl:apply-templates/></li>
+    <xsl:template match="tei:item">        
+        <li>
+            <h5><xsl:value-of select="./tei:title[@xml:lang='de']"/> | <xsl:value-of select="./tei:title[@xml:lang='eng']"/></h5>  
+            <xsl:apply-templates/>
+        </li>
     </xsl:template>
     <xsl:template match="tei:title">
-        <xsl:if test="@xml:lang='de'">
-            <h5><xsl:apply-templates/></h5>
-        </xsl:if>       
+        
     </xsl:template>
     <xsl:template match="tei:figure">
         <xsl:param name="iiif-ext" select="'full/full/0/default.jpg'"/>     

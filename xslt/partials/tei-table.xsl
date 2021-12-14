@@ -12,59 +12,75 @@
         </desc>    
     </doc>
           
-    <xsl:template match="tei:table">
-        <xsl:choose>
-            <xsl:when test="./tei:row[@role='label' and @xml:lang='de']">
-                <div class="table-responsive">
-                    <table class="table table-striped table-hover" id="editions-table">                        
-                        <thead>
-                            <xsl:for-each select="./tei:row[@role='label' and @xml:lang='de']">                                
-                                <tr>
-                                    <xsl:apply-templates/>
-                                </tr>                                                                                     
-                            </xsl:for-each>
-                        </thead>
-                        <tbody>
-                            <xsl:for-each select="./tei:row[@role='data']">                        
-                                <tr>
-                                    <xsl:apply-templates/>
-                                </tr>                                                                             
-                            </xsl:for-each>
-                        </tbody>
-                    </table>
+    <xsl:template match="tei:table" name="table">
+        <xsl:param name="table-id"/>
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <xsl:if test="./tei:head">
+                        <h3><xsl:value-of select="./tei:head"/></h3>
+                    </xsl:if>
                 </div>
-            </xsl:when>
-            <xsl:otherwise>
-                <div class="table-responsive">
-                    <table class="table table-striped table-hover display" id="editions-table">                        
-                        <tbody>
-                            <xsl:for-each select="./tei:row">                        
-                                <tr>
-                                    <xsl:apply-templates/>
-                                </tr>                                                                             
-                            </xsl:for-each>
-                        </tbody>
-                    </table>   
+                <div class="card-body">
+                    <xsl:choose>
+                        <xsl:when test="./tei:row[@role='label' and @xml:lang='de']">
+                            <div class="table-responsive">
+                                <table class="table table-striped table-hover" id="{$table-id}" style="width:100%;">                        
+                                    <thead>
+                                        <xsl:for-each select="./tei:row[@role='label' and @xml:lang='de']">                                
+                                            <tr>
+                                                <xsl:apply-templates/>
+                                                <th>Kommentar</th>
+                                            </tr>                                                                                     
+                                        </xsl:for-each>
+                                    </thead>
+                                    <tbody>
+                                        <xsl:for-each select="./tei:row[@role='data']">                        
+                                            <tr>
+                                                <xsl:apply-templates/>
+                                            </tr>                                                                             
+                                        </xsl:for-each>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <div class="table-responsive">
+                                <xsl:if test="./tei:head">
+                                    <h3><xsl:value-of select="./tei:head"/></h3>
+                                </xsl:if>
+                                <table class="table table-striped table-hover display" id="{$table-id}" style="width:100%;">                        
+                                    <tbody>
+                                        <xsl:for-each select="./tei:row">                        
+                                            <tr>
+                                                <xsl:apply-templates/>
+                                            </tr>                                                                             
+                                        </xsl:for-each>
+                                    </tbody>
+                                </table>   
+                            </div>
+                        </xsl:otherwise>
+                    </xsl:choose>
                 </div>
-            </xsl:otherwise>
-        </xsl:choose>
+            </div> 
+        </div>
     </xsl:template>
     <xsl:template match="tei:cell">        
         <xsl:choose>
-            <xsl:when test="@role='label'">
-                <xsl:for-each select=".">
-                    <th><xsl:apply-templates/></th>
-                </xsl:for-each>
+            <xsl:when test="@role='label'">                
+                <th><xsl:apply-templates/></th>                
             </xsl:when>
-            <xsl:when test="@role='data'">
-                <xsl:for-each select=".">
-                    <td><xsl:apply-templates/></td>
-                </xsl:for-each>               
+            <xsl:when test="@role='data'">                
+                <td><xsl:apply-templates/></td>                               
             </xsl:when>
-            <xsl:otherwise>
-                <xsl:for-each select=".">
-                    <td><xsl:apply-templates/></td>                    
-                </xsl:for-each>
+            <xsl:when test="parent::tei:row[@role='label' and @xml:lang='de']">                
+                <th><xsl:apply-templates/></th>                
+            </xsl:when>
+            <xsl:when test="parent::tei:row[@role='data']">                
+                <td><xsl:apply-templates/></td>                               
+            </xsl:when>
+            <xsl:otherwise>                
+                <td><xsl:apply-templates/></td>                  
             </xsl:otherwise>
         </xsl:choose>                       
     </xsl:template> 
