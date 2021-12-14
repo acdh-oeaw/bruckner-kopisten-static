@@ -90,7 +90,7 @@
                         </table>
                     </div>
                     <div class="card-footer">
-                        <xsl:for-each select="./tei:index/tei:term[@xml:lang='de']">
+                        <xsl:for-each select="./tei:index/tei:term">
                             <span class="badge text-light" style="margin-right:.2em;">
                                 <xsl:apply-templates/>
                             </span>
@@ -157,25 +157,51 @@
         </li>
     </xsl:template>
     <xsl:template match="tei:list">
-        <div class="col-md-12">
-            <div class="card" style="margin-top:-.5em;border-top:none!important;">
-                <div class="card-header">
-                    <h3><xsl:value-of select="./tei:head[@xml:lang='de']"/> | <xsl:value-of select="./tei:head[@xml:lang='eng']"/></h3>  
+        <xsl:choose>
+            <xsl:when test="parent::tei:p">
+                <ul style="margin-top:.5em;"><xsl:apply-templates/></ul>
+            </xsl:when>
+            <xsl:otherwise>
+                <div class="col-md-12">
+                    <div class="card" style="margin-top:-.5em;border-top:none!important;">
+                        <div class="card-header">
+                            <h5><xsl:value-of select="./tei:head[@xml:lang='de']"/> | <xsl:value-of select="./tei:head[@xml:lang='eng']"/></h5>  
+                        </div>
+                        <div class="card-footer">
+                            <ul><xsl:apply-templates select="//tei:item"/></ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="card-footer">
-                    <ul><xsl:apply-templates select="//tei:item"/></ul>
-                </div>
-            </div>
-        </div>        
+            </xsl:otherwise>
+        </xsl:choose>                
     </xsl:template>
     <xsl:template match="tei:head">
    
     </xsl:template>
-    <xsl:template match="tei:item">        
-        <li style="margin:2em;">
-            <h5><xsl:value-of select="./tei:title[@xml:lang='de']"/> | <xsl:value-of select="./tei:title[@xml:lang='eng']"/></h5>  
-            <xsl:apply-templates/>
-        </li>
+    <xsl:template match="tei:hi">
+        <xsl:choose>
+            <xsl:when test="@rend='sup'">
+                <span style="vertical-align:super;"><small><xsl:apply-templates/></small></span>
+            </xsl:when>
+            <xsl:otherwise>
+                <span><xsl:apply-templates/></span>
+            </xsl:otherwise>
+        </xsl:choose>        
+    </xsl:template>
+    <xsl:template match="tei:item">   
+        <xsl:choose>
+            <xsl:when test="ancestor::tei:p">
+                <li style="list-style: decimal;">
+                    <xsl:apply-templates/>
+                </li>
+            </xsl:when>
+            <xsl:otherwise>
+                <li style="margin:2em;">
+                    <h6><xsl:value-of select="./tei:title[@xml:lang='de']"/> | <xsl:value-of select="./tei:title[@xml:lang='eng']"/></h6>
+                    <xsl:apply-templates/>
+                </li>
+            </xsl:otherwise>
+        </xsl:choose>        
     </xsl:template>
     <xsl:template match="tei:title">
         

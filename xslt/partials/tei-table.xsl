@@ -28,8 +28,8 @@
                                 <table class="table table-striped table-hover" id="{$table-id}" style="width:100%;">                        
                                     <thead>
                                         <xsl:for-each select="./tei:row[@role='label' and @xml:lang='de']">                                
-                                            <tr>
-                                                <xsl:apply-templates/>
+                                            <tr>                
+                                                <xsl:apply-templates/>                                    
                                                 <th>Kommentar</th>
                                             </tr>                                                                                     
                                         </xsl:for-each>
@@ -74,7 +74,14 @@
                 <td><xsl:apply-templates/></td>                               
             </xsl:when>
             <xsl:when test="parent::tei:row[@role='label' and @xml:lang='de']">                
-                <th><xsl:apply-templates/></th>                
+                <th>
+                    <xsl:apply-templates/>
+                </th>                
+            </xsl:when>
+            <xsl:when test="parent::tei:row[@role='label' and @xml:lang='eng']">                
+                <th>
+                    <xsl:apply-templates/>
+                </th>      
             </xsl:when>
             <xsl:when test="parent::tei:row[@role='data']">                
                 <td><xsl:apply-templates/></td>                               
