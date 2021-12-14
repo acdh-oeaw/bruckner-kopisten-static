@@ -13,7 +13,7 @@ div.dataTables_filter {
 }
 
 .navbar {
-    border-bottom: 5px solid #88dbdf !important;
+    border-bottom: 5px solid #ab1923 !important;
 }
 
 .dataTables_info {
@@ -41,12 +41,13 @@ div.dataTables_filter {
 }
 
 .card {
-    margin-top: 1em;
+    margin-top: 3em;
+    border-top: 3px solid #ab1923; 
     box-shadow: 4px 4px 9px 0 rgba(0, 0, 0, .1);
 }
 
 .index-card {
-    border-top: 5px solid #88dbdf; 
+    border-top: 5px solid #ab1923; 
     transition: transform .2s;
 }
 
@@ -71,11 +72,15 @@ div.dataTables_filter {
 }
 
 a {
-    color: #88dbdf;
+    color: #ab1923;
 }
 
 p {
     display: block;
+}
+
+.badge {
+    background-color: #ab1923;
 }
 
 .carousel-indicators {
