@@ -33,6 +33,22 @@
                     <xsl:apply-templates/>                                
                 </a>               
             </xsl:when>
+            <xsl:when test="@corresp">
+                <xsl:variable name="cp" select="tokenize(@target, '/')"/>
+                <a>
+                    <xsl:attribute name="href">
+                        <xsl:value-of select="
+                            lower-case(
+                                replace(
+                                    replace(
+                                        replace($cp[last()], '\s', '-')
+                                    , ',', '')
+                                , '.xml', '.html')
+                            )"/>
+                    </xsl:attribute>
+                    <xsl:apply-templates/>                                
+                </a>  
+            </xsl:when>
             <xsl:when test="@type='noteAnchor'">        
                 <small>
                     <a id="{@xml:id}" style="vertical-align:super;">

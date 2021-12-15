@@ -18,7 +18,11 @@
             <div class="card">
                 <div class="card-header">
                     <xsl:if test="./tei:head">
-                        <h3><xsl:value-of select="./tei:head"/></h3>
+                        <h3>
+                            <xsl:value-of select="./tei:head[1]"/>
+                            <br/>
+                            <xsl:value-of select="./tei:head[2]"/>
+                        </h3>
                     </xsl:if>
                 </div>
                 <div class="card-body">
@@ -29,8 +33,10 @@
                                     <thead>
                                         <xsl:for-each select="./tei:row[@role='label' and @xml:lang='de']">                                
                                             <tr>                
-                                                <xsl:apply-templates/>                                    
-                                                <th>Kommentar</th>
+                                                <xsl:apply-templates/>   
+                                                <xsl:if test="ancestor::tei:div[@xml:id]">
+                                                    <th>Kommentar</th> 
+                                                </xsl:if>                                                
                                             </tr>                                                                                     
                                         </xsl:for-each>
                                     </thead>
