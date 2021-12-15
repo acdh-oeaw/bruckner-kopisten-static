@@ -35,18 +35,40 @@
             </xsl:when>
             <xsl:when test="@corresp">
                 <xsl:variable name="cp" select="tokenize(@target, '/')"/>
-                <a>
-                    <xsl:attribute name="href">
-                        <xsl:value-of select="
-                            lower-case(
+                <xsl:variable name="cp-clean" select="                    
+                    replace(
+                        replace(
+                            replace(
                                 replace(
                                     replace(
-                                        replace($cp[last()], '\s', '-')
-                                    , ',', '')
-                                , '.xml', '.html')
-                            )"/>
-                    </xsl:attribute>
-                    <xsl:apply-templates/>                 
+                                        replace(
+                                            replace(
+                                                translate($cp[last()] ,' ', '-') 
+                                                ,'.xml', '.html')
+                                            , ',', '')
+                                        ,'ß', 'ss')
+                                    , '[éè]', 'e')
+                                , 'ä', 'a')
+                            , 'ö', 'o')
+                        , 'ü', 'u')                      
+                    "/>
+                <a>
+                    <xsl:choose>
+                        <xsl:when test="contains($cp-clean,'Kopist')">
+                            <xsl:variable name="kopist" select="data(translate($cp-clean,'.', ''))"/>
+                            <xsl:variable name="kopist3" select="data(replace($kopist,'html', '.html'))"/>
+                            <xsl:attribute name="href">
+                                <xsl:value-of select="translate($kopist3, '&#xA0;', '-') => lower-case()"/>
+                            </xsl:attribute>
+                            <xsl:apply-templates/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:attribute name="href">
+                                <xsl:value-of select="lower-case($cp-clean)"/>
+                            </xsl:attribute>
+                            <xsl:apply-templates/>
+                        </xsl:otherwise>
+                    </xsl:choose>                                 
                 </a>
                 <xsl:if test="following-sibling::tei:ref and ancestor::tei:table">
                     <xsl:text> / </xsl:text>
