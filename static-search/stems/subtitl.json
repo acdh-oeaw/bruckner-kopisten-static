@@ -1,1 +1,1 @@
-{"stem":"subtitl","instances":[{"docId":"index","docUri":"index.html","score":4,"contexts":[{"form":"Subtitle","weight":"2","pos":41,"context":"Example <mark>Subtitle<\/mark> Slide 2","fid":"audenIndexCarousel"},{"form":"Subtitle","weight":"2","pos":58,"context":"Example <mark>Subtitle<\/mark> Slide 3","fid":"audenIndexCarousel"}]}]}
+{"stem":"subtitl","instances":[{"docId":"index","docUri":"index.html","score":2,"contexts":[{"form":"Subtitle","weight":"2","pos":45,"context":"Example <mark>Subtitle<\/mark> Slide 2","fid":"audenIndexCarousel"}]}]}
