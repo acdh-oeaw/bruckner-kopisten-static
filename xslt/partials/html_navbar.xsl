@@ -7,8 +7,8 @@
     <xsl:template match="/" name="nav_bar">
         <div class="wrapper-fluid wrapper-navbar sticky-navbar" id="wrapper-navbar" >
             <a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a>
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container" >
+            <nav class="navbar navbar-expand-lg navbar-light" style="margin-right:0!important;">
+                <div class="container">
                     <!-- Your site title as branding in the menu -->
                     <a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="{$project_logo}" class="img-fluid" title="{$project_short_title}" alt="{$project_short_title}" itemprop="logo" /></a><!-- end custom logo -->
                     <a class="navbar-brand site-title-with-logo" rel="home" href="index.html" title="{$project_short_title}" itemprop="url"><!--<xsl:value-of select="$project_short_title"/>--></a>
@@ -18,7 +18,7 @@
                     </button>
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                         <!-- Your menu goes here -->
-                        <ul id="main-menu" class="navbar-nav">
+                        <ul id="main-menu" class="navbar-nav" style="margin-right:0!important;">
                             <li class="nav-item dropdown">
                                 <a title="Papers" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Projekt <span class="caret"></span></a>
                                 <ul class=" dropdown-menu" role="menu">
@@ -48,12 +48,12 @@
                             </li>                            
                             <li class="nav-item"><a title="Datenbanksuche" href="search.html" class="nav-link">Datenbanksuche</a></li>
                         </ul>                        
-                        <!--<form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search">
+                        <form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search">
                             <input class="form-control navbar-search" id="s" name="q" type="text" placeholder="Search" value="" autocomplete="off" />
                             <button type="submit" class="navbar-search-icon">
                                 <i data-feather="search"></i>
                             </button>
-                        </form>-->
+                        </form>
                     </div>
                     <!-- .collapse navbar-collapse -->
                 </div>
