@@ -63,7 +63,7 @@
                 <xsl:variable name="tg" select="tokenize(@target, '/')"/>
                 <a>
                     <xsl:attribute name="href">
-                        <xsl:value-of select="$tg[last()]"/>
+                        <xsl:value-of select="replace($tg[last()], '.xml', '.html')"/>
                     </xsl:attribute>
                     <xsl:apply-templates/>                                
                 </a>               
