@@ -1,0 +1,778 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+      <meta name="mobile-web-app-capable" content="yes" />
+      <meta name="apple-mobile-web-app-capable" content="yes" />
+      <meta name="apple-mobile-web-app-title" content="" />
+      <link rel="profile" href="http://gmpg.org/xfn/11" />
+      <title></title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" id="fundament-styles" href="dist/fundament/css/fundament.min.css" type="text/css" />
+      <link rel="stylesheet" href="css/style.css" type="text/css" />
+      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script src="https://unpkg.com/arche-api@1.2.0/lib/arche-api.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.10.24/af-2.3.5/b-1.7.0/b-html5-1.7.0/b-print-1.7.0/r-2.2.7/sp-1.2.2/sl-1.3.3/datatables.min.css"></link><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.10.24/af-2.3.5/b-1.7.0/b-html5-1.7.0/b-print-1.7.0/r-2.2.7/sp-1.2.2/sl-1.3.3/datatables.min.js"></script><style></style>
+   </head>
+   <body class="page">
+      <div class="hfeed site" id="page">
+         <div class="wrapper-fluid wrapper-navbar sticky-navbar" id="wrapper-navbar"><a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a><nav class="navbar navbar-expand-lg navbar-light">
+               <div class="container"><a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="img/Bruckner_Logo_KK_web.png" class="img-fluid" title="Bruckner Kopisten Online" alt="Bruckner Kopisten Online" itemprop="logo" /></a><a class="navbar-brand site-title-with-logo" rel="home" href="index.html" title="Bruckner Kopisten Online" itemprop="url"></a><span style="margin-left:-1.7em;" class="badge bg-light text-dark">in development</span><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                     <ul id="main-menu" class="navbar-nav">
+                        <li class="nav-item dropdown"><a title="Papers" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Projekt <span class="caret"></span></a><ul class=" dropdown-menu" role="menu">
+                              <li class="nav-item dropdown-submenu"><a title="Über das Projekt" href="about.html" class="nav-link">Über das Projekt</a></li>
+                           </ul>
+                        </li>
+                        <li class="nav-item dropdown"><a title="Indexes" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Kopisten <span class="caret"></span></a><ul class=" dropdown-menu" role="menu">
+                              <li class="nav-item dropdown-submenu"><a title="Kopisten der Primärquellen" href="Tabelle_1.html" class="nav-link">Kopisten der Primärquellen</a></li>
+                              <li class="nav-item dropdown-submenu"><a title="Kopisten der Sekundärquellen" href="Tabelle_2.html" class="nav-link">Kopisten der Sekundärquellen</a></li>
+                              <li class="nav-item dropdown-submenu"><a title="Kopisten der Werke Bruckners außerhalb                                             Wiens" href="Tabelle_3.html" class="nav-link">Kopisten der Werke Bruckners außerhalb
+                                    Wiens</a></li>
+                              <li class="nav-item dropdown-submenu"><a title="Kopisten gesamt" href="toc.html" class="nav-link">Kopisten gesamt</a></li>
+                           </ul>
+                        </li>
+                        <li class="nav-item"><a title="Datenbanksuche" href="search.html" class="nav-link">Datenbanksuche</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </nav>
+         </div>
+         <div class="container-fluid">
+            
+            <div class="row">
+               
+               <div class="col-md-12">
+                  <div class="card">
+                     <div class="card-header">
+                        <h2>Tabelle 2 – Kopisten der Sekundärquellen<br />Table 2 – Copyists of Secundary Sources</h2>
+                     </div>
+                     <div class="card-body">
+                        <ul>
+                           <li style="margin:1em;">
+                              <a href="an-der-lan-hochbrunn-hartmann-von.html">
+                                 An der Lan-Hochbrunn, Hartmann von
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-015.html">
+                                 Anonymus 015
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-017.html">
+                                 Anonymus 017
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-018.html">
+                                 Anonymus 018
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-019.html">
+                                 Anonymus 019
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-020.html">
+                                 Anonymus 020
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-022.html">
+                                 Anonymus 022
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-023.html">
+                                 Anonymus 023
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-027.html">
+                                 Anonymus 027
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-028.html">
+                                 Anonymus 028
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-029.html">
+                                 Anonymus 029
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-030.html">
+                                 Anonymus 030
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-031.html">
+                                 Anonymus 031
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-032.html">
+                                 Anonymus 032
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-033.html">
+                                 Anonymus 033
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-034.html">
+                                 Anonymus 034
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-035.html">
+                                 Anonymus 035
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-036.html">
+                                 Anonymus 036
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-037.html">
+                                 Anonymus 037
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-038.html">
+                                 Anonymus 038
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-040.html">
+                                 Anonymus 040
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-041.html">
+                                 Anonymus 041
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-056.html">
+                                 Anonymus 056
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-070.html">
+                                 Anonymus 070
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-076.html">
+                                 Anonymus 076
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-079.html">
+                                 Anonymus 079
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-080.html">
+                                 Anonymus 080
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-081.html">
+                                 Anonymus 081
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-082.html">
+                                 Anonymus 082
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-083.html">
+                                 Anonymus 083
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-085.html">
+                                 Anonymus 085
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-086.html">
+                                 Anonymus 086
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-087.html">
+                                 Anonymus 087
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-088.html">
+                                 Anonymus 088
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-089.html">
+                                 Anonymus 089
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-090.html">
+                                 Anonymus 090
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-091.html">
+                                 Anonymus 091
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-092.html">
+                                 Anonymus 092
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-093.html">
+                                 Anonymus 093
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-094.html">
+                                 Anonymus 094
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-095.html">
+                                 Anonymus 095
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-096.html">
+                                 Anonymus 096
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-097.html">
+                                 Anonymus 097
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-098.html">
+                                 Anonymus 098
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-099.html">
+                                 Anonymus 099
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-100.html">
+                                 Anonymus 100
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-101.html">
+                                 Anonymus 101
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-102.html">
+                                 Anonymus 102
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-103.html">
+                                 Anonymus 103
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-104.html">
+                                 Anonymus 104
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-105.html">
+                                 Anonymus 105
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-107.html">
+                                 Anonymus 107
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-113.html">
+                                 Anonymus 113
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-114.html">
+                                 Anonymus 114
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-115.html">
+                                 Anonymus 115
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-116.html">
+                                 Anonymus 116
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-118.html">
+                                 Anonymus 118
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-119.html">
+                                 Anonymus 119
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-120.html">
+                                 Anonymus 120
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-121.html">
+                                 Anonymus 121
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-122.html">
+                                 Anonymus 122
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-123.html">
+                                 Anonymus 123
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-124.html">
+                                 Anonymus 124
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-125.html">
+                                 Anonymus 125
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-127.html">
+                                 Anonymus 127
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-128.html">
+                                 Anonymus 128
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-129.html">
+                                 Anonymus 129
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-130.html">
+                                 Anonymus 130
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-131.html">
+                                 Anonymus 131
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-132.html">
+                                 Anonymus 132
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-133.html">
+                                 Anonymus 133
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-134.html">
+                                 Anonymus 134
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-135.html">
+                                 Anonymus 135
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-136.html">
+                                 Anonymus 136
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-137.html">
+                                 Anonymus 137
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-138.html">
+                                 Anonymus 138
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-139.html">
+                                 Anonymus 139
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-140.html">
+                                 Anonymus 140
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-143.html">
+                                 Anonymus 143
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-144.html">
+                                 Anonymus 144
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-145.html">
+                                 Anonymus 145
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-146.html">
+                                 Anonymus 146
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-147.html">
+                                 Anonymus 147
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-148.html">
+                                 Anonymus 148
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-149.html">
+                                 Anonymus 149
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-150.html">
+                                 Anonymus 150
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="anonymus-153.html">
+                                 Anonymus 153
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="auer-max.html">
+                                 Auer, Max
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="bauer-arthur.html">
+                                 Bauer, Arthur
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="burgstaller-johann-baptist.html">
+                                 Burgstaller, Johann Baptist
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="burkhart-franz.html">
+                                 Burkhart, Franz
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="edlbacher-max.html">
+                                 Edlbacher, Max
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="feyrer-benno.html">
+                                 Feyrer, Benno
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="goetz-fr%C3%A9d%C3%A8ric.html">
+                                 Goetz, Frédèric
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="gruber-josef.html">
+                                 Gruber, Josef
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="gr%C3%A4flinger-franz.html">
+                                 Gräflinger, Franz
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="hayb%C3%A4ck-johann.html">
+                                 Haybäck, Johann
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="hofmeister-karl.html">
+                                 Hofmeister, Karl
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="jari-franz.html">
+                                 Jari, Franz
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="karmazin-jaroslav.html">
+                                 Karmazin, Jaroslav
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="kellner-altman.html">
+                                 Kellner, Altman
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="kerschbaum-maximilian.html">
+                                 Kerschbaum, Maximilian
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="kopist-firker.html">
+                                 Kopist Firker
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="kopist-fischer.html">
+                                 Kopist Fischer
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="kopist-g.%C2%A0a..html">
+                                 Kopist G. A.
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="kopist-h.%C2%A0i..html">
+                                 Kopist H. I.
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="kopist-j.%C2%A0h..html">
+                                 Kopist J. H.
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="kopist-j.%C2%A0k..html">
+                                 Kopist J. K.
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="kopist-kroupa.html">
+                                 Kopist Kroupa
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="kopist-zeller.html">
+                                 Kopist Zeller
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="lehofer-august.html">
+                                 Lehofer, August
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="m%C3%BCller-franz-xaver.html">
+                                 Müller, Franz Xaver
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="neubauer-josef.html">
+                                 Neubauer, Josef
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="neuhofer-franz.html">
+                                 Neuhofer, Franz
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="pank-kamillo.html">
+                                 Pank, Kamillo
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="paur-karl.html">
+                                 Paur, Karl
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="petschnig-emil.html">
+                                 Petschnig, Emil
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="peyerl-rudolf.html">
+                                 Peyerl, Rudolf
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="pf%C3%A4ndtner-albert.html">
+                                 Pfändtner, Albert
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="poppel-friedrich.html">
+                                 Poppel, Friedrich
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="rossi-franz.html">
+                                 Rossi, Franz
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="rott-hans.html">
+                                 Rott, Hans
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="schmid-ernst-fritz.html">
+                                 Schmid, Ernst Fritz
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="schmidinger-cajetan.html">
+                                 Schmidinger, Cajetan
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="seiberl-josef.html">
+                                 Seiberl, Josef
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="stolz-ernst.html">
+                                 Stolz, Ernst
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="stradal-august.html">
+                                 Stradal, August
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="traumihler-ignaz.html">
+                                 Traumihler, Ignaz
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="trittinger-adolf.html">
+                                 Trittinger, Adolf
+                                 </a>
+                              </li>
+                           <li style="margin:1em;">
+                              <a href="weinwurm-rudolf.html">
+                                 Weinwurm, Rudolf
+                                 </a>
+                              </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               </div>
+            </div>
+         <div class="wrapper fundament-default-footer" id="wrapper-footer-full" style="margin-top: 4em;">
+            <div class="container" id="footer-full-content" tabindex="-1">
+               <div class="footer-separator">
+                  CONTACT
+                  </div>
+               <div class="row">
+                  <div class="footer-widget col-lg-1 col-md-2 col-sm-2 col-xs-6  ml-auto  text-center ">
+                     <div class="textwidget custom-html-widget"><a href="https://www.oeaw.ac.at/acdh"><img src="https://fundament.acdh.oeaw.ac.at/common-assets/images/acdh_logo.svg" class="image" alt="ACDH Logo" style="max-width: 100%; height: auto;" title="ACDH Logo" /></a></div>
+                  </div>
+                  <div class="footer-widget col-lg-4 col-md-3 col-sm-3">
+                     <div class="textwidget custom-html-widget">
+                        <p>
+                           ACDH-CH OEAW
+                           <br />
+                           Austrian Centre for Digital Humanities and Cultural Heritage
+                           <br />
+                           Austrian Academy of Sciences
+                           </p>
+                        <p>
+                           Sonnenfelsgasse 19
+                           <br />
+                           1010 Vienna
+                           </p>
+                        <p>
+                           T: +43 1 51581-2200
+                           <br />
+                           E: <a href="mailto:acdh@oeaw.ac.at">acdh@oeaw.ac.at</a></p>
+                     </div>
+                  </div>
+                  <div class="footer-widget col-lg-4 col-md-3 col-sm-4">
+                     <h6 class="font-weight-bold">PROJECT PARTNERS</h6>
+                     <div class="container" style="margin-top: 1em;">
+                        <div class="row">
+                           <div class="col-lg-6 col-md-6 col-sm-12">
+                              <div class="flex-md-row mb-4 align-items-center"><a href="https://www.fwf.ac.at"><img class="card-img-right flex-auto d-md-block" src="https://www.fwf.ac.at/fileadmin/files/Images/News_Presse/Presse/Logo/fwf-logo_var2.jpg" alt="FWF Logo" style="max-width: 140px; height: auto;" title="FWF Logo" /></a></div>
+                           </div>
+                           <div class="col-lg-6 col-md-6 col-sm-12">
+                              <div class="flex-md-row mb-4 align-items-center"><a href="https://www.onb.ac.at/"><img class="card-img-right flex-auto d-md-block" src="img/nationalbibliothek_logo_250x80_k.png" alt="ONB Logo" style="max-width: 140px; height: auto;" title="ONB Logo" /></a></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="footer-widget col-lg-3 col-md-4 col-sm-3 ml-auto">
+                     <div class="row">
+                        <div class="textwidget custom-html-widget">
+                           <h6 class="font-weight-bold">HELPDESK</h6>
+                           <p>ACDH-CH runs a helpdesk offering advice for questions related to various digital humanities
+                              topics.</p>
+                           <p><a class="helpdesk-button" href="mailto:acdh-helpdesk@oeaw.ac.at">ASK US!</a></p>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="footer-widget col-lg-3 col-md-4 col-sm-3 ml-auto" style="margin-left:0 !important;">
+                           <div class="textwidget custom-html-widget">
+                              <p style="margin-bottom:0 !important;">Social: </p>
+                           </div>
+                           <div class="row">
+                              <div class="textwidget custom-html-widget col-md-4"><a id="github-logo" title="GitHub" href="https://github.com/acdh-oeaw/bruckner-kopisten-static" class="nav-link" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                                       <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-4.466 19.59c-.405.078-.534-.171-.534-.384v-2.195c0-.747-.262-1.233-.55-1.481 1.782-.198 3.654-.875 3.654-3.947 0-.874-.312-1.588-.823-2.147.082-.202.356-1.016-.079-2.117 0 0-.671-.215-2.198.82-.64-.18-1.324-.267-2.004-.271-.68.003-1.364.091-2.003.269-1.528-1.035-2.2-.82-2.2-.82-.434 1.102-.16 1.915-.077 2.118-.512.56-.824 1.273-.824 2.147 0 3.064 1.867 3.751 3.645 3.954-.229.2-.436.552-.508 1.07-.457.204-1.614.557-2.328-.666 0 0-.423-.768-1.227-.825 0 0-.78-.01-.055.487 0 0 .525.246.889 1.17 0 0 .463 1.428 2.688.944v1.489c0 .211-.129.459-.528.385-3.18-1.057-5.472-4.056-5.472-7.59 0-4.419 3.582-8 8-8s8 3.581 8 8c0 3.533-2.289 6.531-5.466 7.59z"></path></svg></a></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="footer-imprint-bar" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;">
+            © Copyright OEAW | <a href="https://www.oeaw.ac.at/die-oeaw/impressum/">Impressum/Imprint</a></div><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script></div>
+   </body><script>
+                $(document).ready(function () {
+                    createDataTable('tabellen-table')
+                });
+            </script></html>

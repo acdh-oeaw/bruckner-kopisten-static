@@ -1,1 +1,1 @@
-{"stem":"term","instances":[{"docId":"search","docUri":"search.html","score":1,"contexts":[{"form":"terms","weight":"1","pos":16,"context":"Stemming of <mark>terms<\/mark> (e.g. ‘wait’ will also retrieve ‘waiting’, ‘waits’,...","fid":"searchInfoModal"}]}]}
+{"stem":"term","instances":[{"docId":"search","docUri":"search.html","score":1,"contexts":[{"form":"terms","weight":"1","pos":24,"context":"Stemming of <mark>terms<\/mark> (e.g. ‘wait’ will also retrieve ‘waiting’, ‘waits’,...","fid":"searchInfoModal"}]}]}
