@@ -80,10 +80,7 @@
         </li>
     </xsl:template>
     <xsl:template match="tei:persName">
-        <xsl:apply-templates/>
-        <xsl:if test="position() != last() and ancestor::tei:table">
-            <xsl:text> / </xsl:text>
-        </xsl:if>
+        <xsl:apply-templates/>    
     </xsl:template>
     
 </xsl:stylesheet>

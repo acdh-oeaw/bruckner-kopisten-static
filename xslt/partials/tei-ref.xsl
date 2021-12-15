@@ -46,8 +46,11 @@
                                 , '.xml', '.html')
                             )"/>
                     </xsl:attribute>
-                    <xsl:apply-templates/>                                
-                </a>  
+                    <xsl:apply-templates/>                 
+                </a>
+                <xsl:if test="following-sibling::tei:ref and ancestor::tei:table">
+                    <xsl:text> / </xsl:text>
+                </xsl:if>
             </xsl:when>
             <xsl:when test="@type='noteAnchor'">        
                 <small>
