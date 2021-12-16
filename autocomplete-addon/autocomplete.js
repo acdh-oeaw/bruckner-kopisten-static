@@ -219,9 +219,9 @@ function getValueMany(input) {
 // filters staticSearch data against search input
 // used within getValueSingle() and getValueMany()
 function filterAndSort(data, input) {
+    //console.log(data)
     var stemsuggestions = Object.entries(data).filter(function(stem) {
-        // console.log(stem);
-        return stem[0].startsWith(input);            
+        return stem[0].startsWith(input);
     });
 
     // console.log(stemsuggestions.length);
@@ -260,6 +260,10 @@ function getItemMany() {
 // creates the actual download based on filepaths provided by a prior created txt file than contains all staticSearch json filepaths
 // returns an object
 async function download(filepath) {
+    const filenamesArr = {
+        "value": {},
+        "date": {}
+    };
     const stemsObj = {
         "value": {},
         "date": {}
@@ -267,41 +271,44 @@ async function download(filepath) {
     try {
         openFile(filepath, (rs) => {
             var filenames = rs.split('\n');
-            filenames.forEach(function(fpath) { 
-                if (fpath.length > 1) {
-                    try {      
-                        openFile(fpath, (file) => {
-                            var response = JSON.parse(file);
-                            var stem = response.stem;
-                            var inst = response.instances;
-                            var instances = [];
-                            inst.forEach((instance) => {
-                                instances.push(instance.score);   
-                            });
-                            if (instances.length > 1) {
-                                var scoreSum = 0;
-                                instances.forEach((score) => {
-                                    scoreSum += score;
-                                });
-                                stemsObj.value[stem] = scoreSum;
-                            } else {
-                                stemsObj.value[stem] = instances[0];
-                            }              
-                        });
+            filenames.forEach(function(fpath) {
+                var f = fpath.split('/')[2].replace('.json','');
+                filenamesArr.value[f] = 1;
+                // if (fpath.length > 1) {
+                //     try {      
+                //         openFile(fpath, (file) => {
+                //             var response = JSON.parse(file);
+                //             var stem = response.stem;
+                //             var inst = response.instances;
+                //             var instances = [];
+                //             inst.forEach((instance) => {
+                //                 instances.push(instance.score);   
+                //             });
+                //             if (instances.length > 1) {
+                //                 var scoreSum = 0;
+                //                 instances.forEach((score) => {
+                //                     scoreSum += score;
+                //                 });
+                //                 stemsObj.value[stem] = scoreSum;
+                //             } else {
+                //                 stemsObj.value[stem] = instances[0];
+                //             }              
+                //         });
                         
-                    } catch (error) {
-                        console.log(`Error in downloading data found: ${error}`);
-                        console.log(`Verify correct filepath: ${filepath}`);
-                        console.log(`Check config.txt to set the correct project directory: ${directory}`);
-                    }   
-                }
+                //     } catch (error) {
+                //         console.log(`Error in downloading data found: ${error}`);
+                //         console.log(`Verify correct filepath: ${filepath}`);
+                //         console.log(`Check config.txt to set the correct project directory: ${directory}`);
+                //     }   
+                // }
             });
         });
+        // console.log(filenamesArr);
         const date = new Date();
         date.setDate(date.getDate() + 7);
         // console.log(date);
-        stemsObj.date["dateExpiry"] = date;
-        return stemsObj;
+        filenamesArr.date["dateExpiry"] = date;
+        return filenamesArr;
 
     } catch (error) {
         console.log(`Error in downloading data found: ${error}`);
