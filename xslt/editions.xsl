@@ -68,11 +68,21 @@
                     </div>
                     <div class="card-body">
                         <table class="table">
-                            <xsl:for-each select="child::*[not(self::tei:persName or self::tei:index)]">
+                            <xsl:for-each select="child::*[not(self::tei:persName or self::tei:index or self::tei:idno)]">
                                 <xsl:choose>
-                                    <xsl:when test="@xml:lang = 'de'">
+                                    <xsl:when test="@xml:lang = 'de' or not(@xml:lang)">
                                         <tr>
-                                            <th><strong><xsl:value-of select="name()"/></strong></th>
+                                            <th><strong>
+                                                <xsl:if test="name() = 'residence'">
+                                                    <xsl:text>Residenz</xsl:text>
+                                                </xsl:if>
+                                                <xsl:if test="name() = 'affiliation'">
+                                                    <xsl:text>Zuordnung zu</xsl:text>
+                                                </xsl:if>
+                                                <xsl:if test="name() = 'floruit'">
+                                                    <xsl:text>Normdaten</xsl:text>
+                                                </xsl:if>
+                                            </strong></th>
                                             <td><xsl:apply-templates/></td>
                                         </tr>
                                     </xsl:when>
@@ -114,26 +124,52 @@
                                     </xsl:for-each>                                
                                 </div>
                                 <div class="card-footer">
-                                    <ul><xsl:apply-templates select="//tei:note"/></ul>   
+                                    <ul>
+                                        <xsl:for-each select="//tei:note[parent::tei:p[@xml:lang='de']]">
+                                            <li>
+                                                <a href="#{replace(@xml:id, 'footnote', 'footnote-ref')}">
+                                                    <span style="margin-right:.2em;vertical-align:super;">
+                                                        <small><xsl:value-of select="@n"/></small>
+                                                    </span>  
+                                                </a>            
+                                                <span class="note" id="{@xml:id}">
+                                                    <xsl:apply-templates/>
+                                                </span>      
+                                            </li>
+                                        </xsl:for-each>
+                                    </ul>   
                                 </div>
                             </div>            
                         </div>
                     </xsl:if>   
-                    <xsl:if test="//tei:p[parent::tei:div][@xml:lang='en']">
+                    <xsl:if test="//tei:p[parent::tei:div][@xml:lang='eng']">
                         <div class="col-md-6">
                             <div class="card">
                                 <div class="card-header">
-                                    <h3>Beschreibung</h3>
+                                    <h3>Description</h3>
                                 </div>
                                 <div class="card-body">
-                                    <xsl:for-each select="//tei:p[parent::tei:div][@xml:lang='en']">
+                                    <xsl:for-each select="//tei:p[parent::tei:div][@xml:lang='eng']">
                                         <span class="text">
                                             <xsl:apply-templates/>
                                         </span>
                                     </xsl:for-each>                                
                                 </div>
                                 <div class="card-footer">
-                                    <ul><xsl:apply-templates select="//tei:note"/></ul>                                    
+                                    <ul>
+                                        <xsl:for-each select="//tei:note[parent::tei:p[@xml:lang='eng']]">
+                                            <li>
+                                                <a href="#{replace(@xml:id, 'footnote', 'footnote-ref')}">
+                                                    <span style="margin-right:.2em;vertical-align:super;">
+                                                        <small><xsl:value-of select="@n"/></small>
+                                                    </span>  
+                                                </a>            
+                                                <span class="note" id="{@xml:id}">
+                                                    <xsl:apply-templates/>
+                                                </span>      
+                                            </li>
+                                        </xsl:for-each>
+                                    </ul>                                    
                                 </div>
                             </div>            
                         </div>
@@ -147,14 +183,7 @@
         
     </xsl:template>
     <xsl:template match="tei:note">
-        <li>
-            <a href="#{replace(@xml:id, 'footnote', 'footnote-ref')}">
-                <span style="margin-right:.2em;"><xsl:value-of select="@n"/></span>  
-            </a>            
-            <span class="note" id="{@xml:id}">
-                <xsl:apply-templates/>
-            </span>      
-        </li>
+        
     </xsl:template>
     <xsl:template match="tei:list">
         <xsl:choose>
