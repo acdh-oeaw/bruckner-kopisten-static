@@ -33,7 +33,8 @@
                                     <thead>
                                         <tr>
                                             <th scope="col">Titel</th>
-                                            <th scope="col">Dateinname</th>
+                                            <th scope="col">Quelle</th>
+                                            <th scope="col">Zuordnung</th>                                            
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -51,8 +52,17 @@
                                                     </a>
                                                 </td>
                                                 <td>
-                                                    <xsl:value-of select="tokenize($full_path, '/')[last()]"/>
-                                                </td>  
+                                                    <xsl:if test=".//tei:index/tei:term/text()">
+                                                        <xsl:value-of select=".//tei:index/tei:term[@xml:lang='de']/text()"/> | 
+                                                        <xsl:value-of select=".//tei:index/tei:term[@xml:lang='eng']/text()"/>    
+                                                    </xsl:if>                                                    
+                                                </td>
+                                                <td>
+                                                    <xsl:if test=".//tei:affiliation/text()">
+                                                        <xsl:value-of select=".//tei:affiliation[@xml:lang='de']/text()"/> | 
+                                                        <xsl:value-of select=".//tei:affiliation[@xml:lang='eng']/text()"/>   
+                                                    </xsl:if>                                                    
+                                                </td>
                                             </tr>
                                         </xsl:for-each>
                                     </tbody>
