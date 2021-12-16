@@ -90,7 +90,7 @@
                 </th>      
             </xsl:when>
             <xsl:when test="parent::tei:row[@role='data']">                
-                <td><xsl:apply-templates/></td>                               
+                <td class="{@role}"><xsl:apply-templates/></td>                               
             </xsl:when>
             <xsl:otherwise>                
                 <td><xsl:apply-templates/></td>                  

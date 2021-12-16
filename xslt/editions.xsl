@@ -38,9 +38,10 @@
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
                     
-                    <div class="container-fluid">                        
+                    <div class="container-fluid">  
                         <xsl:apply-templates select=".//tei:body"/>                 
-                    </div>
+                    </div>                   
+                    
                     <xsl:call-template name="html_footer"/>
                 </div>
             </body>
@@ -53,7 +54,7 @@
     </xsl:template>
 
     <xsl:template match="tei:div">
-        <div class="row" id="{@xml:id}">
+        <div class="row kopisten-content" id="{@xml:id}">
             <xsl:apply-templates>
                 <xsl:with-param name="table-id" select="'editions-table'"/>
             </xsl:apply-templates>
@@ -64,7 +65,7 @@
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
-                        <h3><xsl:value-of select="./tei:persName[1]"/></h3>
+                        <h3><span class="text"><xsl:value-of select="./tei:persName[1]"/></span></h3>
                     </div>
                     <div class="card-body">
                         <table class="table">
@@ -74,34 +75,28 @@
                                         <tr>
                                             <th><strong>
                                                 <xsl:if test="name() = 'residence'">
-                                                    <xsl:text>Residenz</xsl:text>
+                                                    <span class="text"><xsl:text>Residenz</xsl:text></span>
                                                 </xsl:if>
                                                 <xsl:if test="name() = 'affiliation'">
-                                                    <xsl:text>Zuordnung zu</xsl:text>
+                                                    <span class="text"><xsl:text>Zuordnung zu</xsl:text></span>
                                                 </xsl:if>
                                                 <xsl:if test="name() = 'floruit'">
-                                                    <xsl:text>Normdaten</xsl:text>
+                                                    <span class="text"><xsl:text>Normdaten</xsl:text></span>
                                                 </xsl:if>
                                             </strong></th>
-                                            <td><xsl:apply-templates/></td>
+                                            <td><span class="text"><xsl:apply-templates/></span></td>
                                         </tr>
                                     </xsl:when>
                                     <xsl:when test="@xml:lang = 'en'">
                                         
-                                    </xsl:when>
-                                    <xsl:when test="not(@xml:lang)">
-                                        <tr>
-                                            <th><strong><xsl:value-of select="name()"/></strong></th>
-                                            <td><xsl:apply-templates/></td>
-                                        </tr>
-                                    </xsl:when>
+                                    </xsl:when>                                    
                                 </xsl:choose>                                    
                             </xsl:for-each>
                         </table>
                     </div>
                     <div class="card-footer">
                         <xsl:for-each select="./tei:index/tei:term">
-                            <span class="badge text-light" style="margin-right:.2em;">
+                            <span class="badge text-light text" style="margin-right:.2em;">
                                 <xsl:apply-templates/>
                             </span>
                         </xsl:for-each>
