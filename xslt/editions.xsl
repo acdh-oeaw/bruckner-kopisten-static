@@ -110,7 +110,7 @@
             </div>
             <div class="col-md-8">
                 <div class="row">
-                    <xsl:if test="//tei:p[parent::tei:div][@xml:lang='de']">
+                    <xsl:if test="//tei:p[parent::tei:div][@xml:lang='de']/text()">
                         <div class="col-md-6">
                             <div class="card">
                                 <div class="card-header">
@@ -142,7 +142,7 @@
                             </div>            
                         </div>
                     </xsl:if>   
-                    <xsl:if test="//tei:p[parent::tei:div][@xml:lang='eng']">
+                    <xsl:if test="//tei:p[parent::tei:div][@xml:lang='eng']/text()">
                         <div class="col-md-6">
                             <div class="card">
                                 <div class="card-header">
