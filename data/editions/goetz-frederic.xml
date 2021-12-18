@@ -221,5 +221,16 @@
             </list>
          </div>
       </body>
+      <back>
+         <listPlace>
+            <place xml:id="place_9">
+               <placeName>Straßburg</placeName>
+               <location>
+                  <geo>48.583610000000 7.748060000000</geo>
+               </location>
+               <idno subtype="geonames" type="URL">https://www.geonames.org/6441375</idno>
+            </place>
+         </listPlace>
+      </back>
    </text>
 </TEI>

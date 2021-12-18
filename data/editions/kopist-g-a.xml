@@ -173,5 +173,16 @@
             </list>
          </div>
       </body>
+      <back>
+         <listPlace>
+            <place xml:id="place_3">
+               <placeName>Kremsmünster</placeName>
+               <location>
+                  <geo>48.052900000000 14.129190000000</geo>
+               </location>
+               <idno subtype="geonames" type="URL">https://www.geonames.org/2773538</idno>
+            </place>
+         </listPlace>
+      </back>
    </text>
 </TEI>

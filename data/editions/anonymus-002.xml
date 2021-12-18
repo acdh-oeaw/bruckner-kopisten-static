@@ -589,5 +589,16 @@
             </list>
          </div>
       </body>
+      <back>
+         <listPlace>
+            <place xml:id="place_2">
+               <placeName>Linz</placeName>
+               <location>
+                  <geo>48.306390000000 14.286110000000</geo>
+               </location>
+               <idno subtype="geonames" type="URL">https://www.geonames.org/2772400</idno>
+            </place>
+         </listPlace>
+      </back>
    </text>
 </TEI>

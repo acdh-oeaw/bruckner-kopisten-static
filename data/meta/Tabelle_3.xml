@@ -514,5 +514,72 @@
             </table>
          </div>
       </body>
+     <back>
+       <listPlace>
+         <place xml:id="place_1">
+           <placeName>St. Florian</placeName>
+           <location>
+             <geo>48.205680000000 14.378360000000</geo>
+           </location>
+           <idno subtype="geonames" type="URL">https://www.geonames.org/2771867</idno>
+         </place>
+         <place xml:id="place_2">
+           <placeName>Linz</placeName>
+           <location>
+             <geo>48.306390000000 14.286110000000</geo>
+           </location>
+           <idno subtype="geonames" type="URL">https://www.geonames.org/2772400</idno>
+         </place>
+         <place xml:id="place_3">
+           <placeName>Kremsmünster</placeName>
+           <location>
+             <geo>48.052900000000 14.129190000000</geo>
+           </location>
+           <idno subtype="geonames" type="URL">https://www.geonames.org/2773538</idno>
+         </place>
+         <place xml:id="place_4">
+           <placeName>Steyr</placeName>
+           <location>
+             <geo>48.033330000000 14.416670000000</geo>
+           </location>
+           <idno subtype="geonames" type="URL">https://www.geonames.org/2764347</idno>
+         </place>
+         <place xml:id="place_5">
+           <placeName>Klosterneuburg</placeName>
+           <location>
+             <geo>48.305210000000 16.325220000000</geo>
+           </location>
+           <idno subtype="geonames" type="URL">https://www.geonames.org/2773913</idno>
+         </place>
+         <place xml:id="place_6">
+           <placeName>Vöcklabruck</placeName>
+           <location>
+             <geo>48.003130000000 13.657720000000</geo>
+           </location>
+           <idno subtype="geonames" type="URL">https://www.geonames.org/2762342</idno>
+         </place>
+         <place xml:id="place_7">
+           <placeName>Salzburg</placeName>
+           <location>
+             <geo>48.800670000000 14.045320000000</geo>
+           </location>
+           <idno subtype="geonames" type="URL">https://www.geonames.org/2766818</idno>
+         </place>
+         <place xml:id="place_8">
+           <placeName>Traun</placeName>
+           <location>
+             <geo>48.220860000000 14.238330000000</geo>
+           </location>
+           <idno subtype="geonames" type="URL">https://www.geonames.org/2763423</idno>
+         </place>
+         <place xml:id="place_9">
+           <placeName>Straßburg</placeName>
+           <location>
+             <geo>48.583610000000 7.748060000000</geo>
+           </location>
+           <idno subtype="geonames" type="URL">https://www.geonames.org/6441375</idno>
+         </place>
+       </listPlace>
+     </back>
    </text>
 </TEI>

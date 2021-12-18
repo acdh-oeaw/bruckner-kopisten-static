@@ -169,6 +169,17 @@
                 </list>
             </div>
         </body>
+        <back>
+            <listPlace>
+                <place xml:id="place_1">
+                    <placeName>St. Florian</placeName>
+                    <location>
+                        <geo>48.205680000000 14.378360000000</geo>
+                    </location>
+                    <idno subtype="geonames" type="URL">https://www.geonames.org/2771867</idno>
+                </place>
+            </listPlace>
+        </back>
     </text>
 </TEI>
 

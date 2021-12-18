@@ -333,5 +333,16 @@
             </list>
          </div>
       </body>
+      <back>
+         <listPlace>
+            <place xml:id="place_8">
+               <placeName>Traun</placeName>
+               <location>
+                  <geo>48.220860000000 14.238330000000</geo>
+               </location>
+               <idno subtype="geonames" type="URL">https://www.geonames.org/2763423</idno>
+            </place>
+         </listPlace>
+      </back>
    </text>
 </TEI>

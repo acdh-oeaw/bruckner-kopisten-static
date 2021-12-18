@@ -180,5 +180,16 @@
             </list>
          </div>
       </body>
+      <back>
+         <listPlace>
+            <place xml:id="place_5">
+               <placeName>Klosterneuburg</placeName>
+               <location>
+                  <geo>48.305210000000 16.325220000000</geo>
+               </location>
+               <idno subtype="geonames" type="URL">https://www.geonames.org/2773913</idno>
+            </place>
+         </listPlace>
+      </back>
    </text>
 </TEI>

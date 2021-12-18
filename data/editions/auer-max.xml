@@ -463,5 +463,16 @@
             </list>
          </div>
       </body>
+      <back>
+         <listPlace>
+            <place xml:id="place_6">
+               <placeName>Vöcklabruck</placeName>
+               <location>
+                  <geo>48.003130000000 13.657720000000</geo>
+               </location>
+               <idno subtype="geonames" type="URL">https://www.geonames.org/2762342</idno>
+            </place>
+         </listPlace>
+      </back>
    </text>
 </TEI>
