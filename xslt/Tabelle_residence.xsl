@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:teidocx="http://www.tei-c.org/ns/teidocx/1.0"
+    xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:rng="http://relaxng.org/ns/structure/1.0"
+    xmlns:t="http://www.tei-c.org/ns/1.0" xmlns:teix="http://www.tei-c.org/ns/Examples"
+    xmlns:html="http://www.w3.org/1999/xhtml" xmlns:m="http://www.w3.org/1998/Math/MathML"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xi="http://www.w3.org/2001/XInclude"
+    exclude-result-prefixes="#all" version="2.0">
+    <xsl:output encoding="UTF-8" indent="yes"/>
+
+
+    <xsl:template match="node() | @*" mode="inFile">
+        <xsl:copy>
+            <xsl:apply-templates mode="inFile" select="node() | @*"/>
+        </xsl:copy>
+    </xsl:template>
+    <xsl:template match="t:TEI" exclude-result-prefixes="#all">
+        <xsl:variable name="Person" 
+            select="collection('../data/editions?select=*.xml;recurse=yes')/t:TEI/t:text/t:body/t:div"/>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title xmlns:xi="http://www.w3.org/2001/XInclude" level="m">Die Wiener
+                            Kopisten der Werke Anton Bruckners</title>
+                        <title type="sub" level="a">Tabelle 3 – Kopisten außerhalb Wiens</title>
+                        <author xmlns:xi="http://www.w3.org/2001/XInclude">
+                            <name>Paul Hawkshaw</name>
+                            <name>Clemens Gubsch</name>
+                        </author>
+                        <respStmt xmlns:xi="http://www.w3.org/2001/XInclude">
+                            <resp>Automatische Konvertierung nach TEI P5</resp>
+                            <name xml:id="cg">Clemens Gubsch</name>
+                        </respStmt>
+                        <respStmt xmlns:xi="http://www.w3.org/2001/XInclude">
+                            <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
+                            <name corresp="#cg">Clemens Gubsch</name>
+                        </respStmt>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>
+                            <date>2020-11-01</date>
+                        </edition>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher xmlns:xi="http://www.w3.org/2001/XInclude">XXX Project Name
+                            XXX</publisher>
+                        <idno xmlns:xi="http://www.w3.org/2001/XInclude" type="BrucknerKopisten"/>
+                    </publicationStmt>
+                    <sourceDesc xmlns:xi="http://www.w3.org/2001/XInclude">
+                        <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc xmlns:xi="http://www.w3.org/2001/XInclude">
+                    <textClass>
+                        <keywords>
+                            <term>Tabelle</term>
+                        </keywords>
+                    </textClass>
+                </profileDesc>
+                <revisionDesc>
+                    <listChange>
+                        <change who="#cg" status="created">Erstellt und geprüft</change>
+                    </listChange>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div>
+                        <table>
+                            <head xml:lang="de">Tabelle 3 – Kopisten der Werke Bruckners außerhalb
+                                Wiens</head>
+                            <head xml:lang="eng">Table 3 – Copyists of Bruckner’s Music Who Worked
+                                outside Vienna</head>
+                            <row xml:lang="de" role="label">
+                                <cell>Ort</cell>
+                                <cell>Kopisten</cell>
+                            </row>
+                            <row xml:lang="eng" role="label">
+                                <cell>Location</cell>
+                                <cell>Copyist</cell>
+                            </row>
+                            
+                            <xsl:for-each-group select="$Person" group-by="t:listPerson/t:person/t:residence">
+                                <xsl:variable name="placeID" select="concat('place_', generate-id())"/>
+                                <xsl:choose>
+                                    <xsl:when
+                                        test="not(current()/t:listPerson/t:person/t:residence = '')">
+
+                                        <xsl:if test="not(contains(., 'Wien'))">
+                                            <row role="data">
+                                                <cell role="Ort">                                                    
+                                                    <rs type="place" ref="#place_1">
+                                                        <xsl:choose>
+                                                            <xsl:when test="current()/t:listPerson/t:person/t:residence/text() = 'St. Florian'">
+                                                                <xsl:attribute name="ref">
+                                                                    <xsl:text>#place_1</xsl:text>
+                                                                </xsl:attribute>
+                                                            </xsl:when>
+                                                            <xsl:when test="current()/t:listPerson/t:person/t:residence/text() = 'Linz'">
+                                                                <xsl:attribute name="ref">
+                                                                    <xsl:text>#place_2</xsl:text>
+                                                                </xsl:attribute>
+                                                            </xsl:when>
+                                                            <xsl:when test="current()/t:listPerson/t:person/t:residence/text() = 'Kremsmünster'">
+                                                                <xsl:attribute name="ref">
+                                                                    <xsl:text>#place_3</xsl:text>
+                                                                </xsl:attribute>
+                                                            </xsl:when>
+                                                            <xsl:when test="current()/t:listPerson/t:person/t:residence/text() = 'Steyr'">
+                                                                <xsl:attribute name="ref">
+                                                                    <xsl:text>#place_4</xsl:text>
+                                                                </xsl:attribute>
+                                                            </xsl:when>
+                                                            <xsl:when test="current()/t:listPerson/t:person/t:residence/text() = 'Klosterneuburg'">
+                                                                <xsl:attribute name="ref">
+                                                                    <xsl:text>#place_5</xsl:text>
+                                                                </xsl:attribute>
+                                                            </xsl:when>
+                                                            <xsl:when test="current()/t:listPerson/t:person/t:residence/text() = 'Vöcklabruck'">
+                                                                <xsl:attribute name="ref">
+                                                                    <xsl:text>#place_6</xsl:text>
+                                                                </xsl:attribute>
+                                                            </xsl:when>
+                                                            <xsl:when test="current()/t:listPerson/t:person/t:residence/text() = 'Salzburg'">
+                                                                <xsl:attribute name="ref">
+                                                                    <xsl:text>#place_7</xsl:text>
+                                                                </xsl:attribute>
+                                                            </xsl:when>
+                                                            <xsl:when test="current()/t:listPerson/t:person/t:residence/text() = 'Traun'">
+                                                                <xsl:attribute name="ref">
+                                                                    <xsl:text>#place_8</xsl:text>
+                                                                </xsl:attribute>
+                                                            </xsl:when>
+                                                            <xsl:when test="current()/t:listPerson/t:person/t:residence/text() = 'Straßburg'">
+                                                                <xsl:attribute name="ref">
+                                                                    <xsl:text>#place_9</xsl:text>
+                                                                </xsl:attribute>
+                                                            </xsl:when>
+                                                            <xsl:otherwise>
+                                                                
+                                                            </xsl:otherwise>
+                                                        </xsl:choose>
+                                                        <xsl:value-of select="current()/t:listPerson/t:person/t:residence"/>
+                                                    </rs>                                                                                                      
+                                                </cell>
+                                                <cell role="Kopisten">
+
+                                                  <xsl:for-each select="current-group()/t:listPerson/t:person/t:persName[@type = 'main']">
+                                                  <xsl:element name="ref">
+                                                      <xsl:attribute name="corresp">
+                                                  <xsl:value-of select="//t:div/@xml:id"/>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="target">
+                                                  <xsl:value-of
+                                                  select="concat('../101_data/101_tei-structured/', ., '.xml')"
+                                                  />
+                                                  </xsl:attribute>
+                                                  <xsl:copy-of select="."/>
+                                                  </xsl:element>
+                                                  </xsl:for-each>
+
+                                                </cell>
+                                            </row>
+                                        </xsl:if>
+
+                                    </xsl:when>
+                                </xsl:choose>
+
+                            </xsl:for-each-group>
+                        </table>
+                    </div>
+                </body>
+                <back>
+                    <listPlace>
+                        <place xml:id="place_1">
+                            <placeName>St. Florian</placeName>
+                            <location>
+                                <geo>48.205680000000 14.378360000000</geo>
+                            </location>
+                            <idno subtype="geonames" type="URL">https://www.geonames.org/2771867</idno>
+                        </place>
+                        <place xml:id="place_2">
+                            <placeName>Linz</placeName>
+                            <location>
+                                <geo>48.306390000000 14.286110000000</geo>
+                            </location>
+                            <idno subtype="geonames" type="URL">https://www.geonames.org/2772400</idno>
+                        </place>
+                        <place xml:id="place_3">
+                            <placeName>Kremsmünster</placeName>
+                            <location>
+                                <geo>48.052900000000 14.129190000000</geo>
+                            </location>
+                            <idno subtype="geonames" type="URL">https://www.geonames.org/2773538</idno>
+                        </place>
+                        <place xml:id="place_4">
+                            <placeName>Steyr</placeName>
+                            <location>
+                                <geo>48.033330000000 14.416670000000</geo>
+                            </location>
+                            <idno subtype="geonames" type="URL">https://www.geonames.org/2764347</idno>
+                        </place>
+                        <place xml:id="place_5">
+                            <placeName>Klosterneuburg</placeName>
+                            <location>
+                                <geo>48.305210000000 16.325220000000</geo>
+                            </location>
+                            <idno subtype="geonames" type="URL">https://www.geonames.org/2773913</idno>
+                        </place>
+                        <place xml:id="place_6">
+                            <placeName>Vöcklabruck</placeName>
+                            <location>
+                                <geo>48.003130000000 13.657720000000</geo>
+                            </location>
+                            <idno subtype="geonames" type="URL">https://www.geonames.org/2762342</idno>
+                        </place>
+                        <place xml:id="place_7">
+                            <placeName>Salzburg</placeName>
+                            <location>
+                                <geo>48.800670000000 14.045320000000</geo>
+                            </location>
+                            <idno subtype="geonames" type="URL">https://www.geonames.org/2766818</idno>
+                        </place>
+                        <place xml:id="place_8">
+                            <placeName>Traun</placeName>
+                            <location>
+                                <geo>48.220860000000 14.238330000000</geo>
+                            </location>
+                            <idno subtype="geonames" type="URL">https://www.geonames.org/2763423</idno>
+                        </place>
+                        <place xml:id="place_9">
+                            <placeName>Straßburg</placeName>
+                            <location>
+                                <geo>48.583610000000 7.748060000000</geo>
+                            </location>
+                            <idno subtype="geonames" type="URL">https://www.geonames.org/6441375</idno>
+                        </place>
+                    </listPlace>
+                </back>
+            </text>
+        </TEI>
+    </xsl:template>
+
+</xsl:stylesheet>
