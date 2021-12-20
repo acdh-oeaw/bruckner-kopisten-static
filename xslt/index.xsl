@@ -83,7 +83,7 @@
                             <div class="col-md-4">
                                 <a href="Tabelle_1.html" class="index-link">                                   
                                     <div class="card index-card">
-                                        <div class="card-body">
+                                        <div class="card-body" style="padding:0;">
                                             <img src="img/wien_2.jpg" class="d-block w-100" alt="..."/>
                                         </div>
                                         <div class="card-header">                                            
@@ -97,7 +97,7 @@
                             <div class="col-md-4">
                                 <a href="Tabelle_2.html" class="index-link">                                                     
                                     <div class="card index-card">
-                                        <div class="card-body">
+                                        <div class="card-body" style="padding:0;">
                                             <img src="img/kitzler-1.jpg" class="d-block w-100" alt="..."/>
                                         </div>
                                         <div class="card-header">                                            
@@ -111,7 +111,7 @@
                             <div class="col-md-4">
                                 <a href="Tabelle_3.html" class="index-link">  
                                     <div class="card index-card">
-                                        <div class="card-body">
+                                        <div class="card-body" style="padding:0;">
                                             <img src="img/Drucke_2.jpg" class="d-block w-100" alt="..."/>
                                         </div>
                                         <div class="card-header">                                            
