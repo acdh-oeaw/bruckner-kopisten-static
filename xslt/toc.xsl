@@ -9,6 +9,7 @@
     <xsl:import href="./partials/html_navbar.xsl"/>
     <xsl:import href="./partials/html_head.xsl"/>
     <xsl:import href="partials/html_footer.xsl"/>
+    <xsl:import href="partials/tei-geo.xsl"/>
     <xsl:template match="/">
         <xsl:variable name="doc_title" select="'Inhaltsverzeichnis'"/>
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
@@ -26,15 +27,19 @@
                     <div class="container-fluid">
                         <div class="card">
                             <div class="card-header">
-                                <h1>Table of Contents</h1>
+                                <h1>Kopisten Gesamt</h1>
                             </div>
-                            <div class="card-body">
+                            <div class="card-footer">
+                                <xsl:call-template name="add_map_container"/>
+                            </div>
+                            <div class="card-body">                                
                                 <table class="table table-striped display" id="tocTable" style="width:100%">
                                     <thead>
                                         <tr>
                                             <th scope="col">Titel</th>
                                             <th scope="col">Quelle</th>
-                                            <th scope="col">Zuordnung</th>                                            
+                                            <th scope="col">Zuordnung</th>
+                                            <th scope="col">Erwähnte Orte</th>                                              
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -63,6 +68,27 @@
                                                         <xsl:value-of select=".//tei:affiliation[@xml:lang='eng']/text()"/>   
                                                     </xsl:if>                                                    
                                                 </td>
+                                                <td>                                                    
+                                                    <xsl:if test=".//tei:listPlace">
+                                                        <xsl:variable name="latLong" select="tokenize(.//tei:listPlace/tei:place/tei:location/tei:geo/text(), ' ')"/>
+                                                        <xsl:variable name="lat" select="$latLong[1]"/>
+                                                        <xsl:variable name="long" select="$latLong[2]"/>
+                                                        <xsl:variable name="place" select=".//tei:listPlace/tei:place/tei:placeName/text()"/>
+                                                        <xsl:attribute name="lat">
+                                                            <xsl:value-of select="$lat"/>
+                                                        </xsl:attribute>
+                                                        <xsl:attribute name="long">
+                                                            <xsl:value-of select="$long"/>
+                                                        </xsl:attribute>
+                                                        <xsl:attribute name="subtitle">
+                                                            <xsl:value-of select="$place"/>
+                                                        </xsl:attribute>
+                                                        <xsl:attribute name="class">
+                                                            <xsl:text>map-coordinates</xsl:text>
+                                                        </xsl:attribute>
+                                                        <xsl:value-of select="$place"/> 
+                                                    </xsl:if>                                                    
+                                                </td>
                                             </tr>
                                         </xsl:for-each>
                                     </tbody>
@@ -72,10 +98,14 @@
                     </div>
                     
                     <xsl:call-template name="html_footer"/>
+                    <script src="js/one_leaflet_refactored.js"/>
                     <script>
                         $(document).ready(function () {
+                            leafletDatatable('tocTable')
+                        }); 
+                        $(document).ready(function () {
                             createDataTable('tocTable')
-                        });
+                        });                                               
                     </script>
                 </div>
             </body>

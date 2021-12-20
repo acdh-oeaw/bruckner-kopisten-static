@@ -12,6 +12,8 @@
     <xsl:import href="partials/tei-ref.xsl"/>
     <xsl:import href="partials/dataTable-base.xsl"/>
     <xsl:import href="partials/tei-table.xsl"/>
+    <xsl:import href="partials/tei-rs.xsl"/>
+    <xsl:import href="partials/tei-geo.xsl"/>
     
     <xsl:template match="/">
         <xsl:variable name="doc_title">
@@ -33,17 +35,26 @@
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
                     
-                    <div class="container-fluid">                        
+                    <div class="container-fluid">
+                        <div class="card" style="margin-bottom:-3em;padding:0!important;">
+                            <div class="card-footer" style="padding:0!important;">
+                                <xsl:call-template name="add_map_container"/>
+                            </div>
+                        </div>
                         <xsl:apply-templates select=".//tei:body"/>                 
                     </div>
                     <xsl:call-template name="html_footer"/>
                 </div>
             </body>
+            <script src="js/one_leaflet_refactored.js"/>
             <script>
                 $(document).ready(function () {
-                    createDataTable('tabellen-table')
-                });
-            </script>            
+                    leafletDatatable('tocTable')
+                }); 
+                $(document).ready(function () {
+                    createDataTable('tocTable')
+                });                                               
+            </script>          
         </html>
     </xsl:template>
 
@@ -60,10 +71,11 @@
             <div class="card">
                 <div class="card-header">
                     <h2>
-                        <xsl:value-of select="./tei:head[@xml:lang='de']"/>
-                        <br/>
+                        <xsl:value-of select="./tei:head[@xml:lang='de']"/>                        
+                    </h2>
+                    <h3>                       
                         <xsl:value-of select="./tei:head[@xml:lang='eng']"/>
-                    </h2>  
+                    </h3> 
                 </div>
                 <div class="card-body">
                     <ul><xsl:apply-templates select="//tei:item"/></ul>

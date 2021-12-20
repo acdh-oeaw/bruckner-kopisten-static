@@ -18,11 +18,12 @@
             <div class="card">
                 <div class="card-header">
                     <xsl:if test="./tei:head">
-                        <h3>
-                            <xsl:value-of select="./tei:head[1]"/>
-                            <br/>
+                        <h2>
+                            <xsl:value-of select="./tei:head[1]"/>                            
+                        </h2>
+                        <h4>                            
                             <xsl:value-of select="./tei:head[2]"/>
-                        </h3>
+                        </h4>
                     </xsl:if>
                 </div>
                 <div class="card-body">
@@ -43,7 +44,7 @@
                                     <tbody>
                                         <xsl:for-each select="./tei:row[@role='data']">                        
                                             <tr>
-                                                <xsl:apply-templates/>
+                                                <xsl:apply-templates/>                                                
                                             </tr>                                                                             
                                         </xsl:for-each>
                                     </tbody>
@@ -89,7 +90,7 @@
                     <xsl:apply-templates/>
                 </th>      
             </xsl:when>
-            <xsl:when test="parent::tei:row[@role='data']">                
+            <xsl:when test="parent::tei:row[@role='data']">               
                 <td class="{@role}"><xsl:apply-templates/></td>                               
             </xsl:when>
             <xsl:otherwise>                

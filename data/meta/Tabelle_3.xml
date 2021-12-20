@@ -63,7 +63,7 @@
                   <cell>Copyist</cell>
                </row>
                <row role="data">
-                  <cell role="Ort">St. Florian</cell>
+                  <cell role="Ort"><rs type="place" ref="#place_1">St. Florian</rs></cell>
                   <cell role="Kopisten">
                      <ref corresp="content-d1e21087"
                           target="../101_data/101_tei-structured/Aigner, Karl.xml">
@@ -236,7 +236,7 @@
                   </cell>
                </row>
                <row role="data">
-                  <cell role="Ort">Linz</cell>
+                  <cell role="Ort"><rs type="place" ref="#place_2">Linz</rs></cell>
                   <cell role="Kopisten">
                      <ref corresp="content-d1e16"
                           target="../101_data/101_tei-structured/Anonymus 001.xml">
@@ -365,7 +365,7 @@
                   </cell>
                </row>
                <row role="data">
-                  <cell role="Ort">Kremsmünster</cell>
+                  <cell role="Ort"><rs type="place" ref="#place_3">Kremsmünster</rs></cell>
                   <cell role="Kopisten">
                      <ref corresp="content-d1e4395"
                           target="../101_data/101_tei-structured/Anonymus 022.xml">
@@ -422,7 +422,7 @@
                   </cell>
                </row>
                <row role="data">
-                  <cell role="Ort">Klosterneuburg</cell>
+                  <cell role="Ort"><rs type="place" ref="#place_5">Klosterneuburg</rs></cell>
                   <cell role="Kopisten">
                      <ref corresp="content-d1e16043"
                           target="../101_data/101_tei-structured/Anonymus 115.xml">
@@ -439,7 +439,7 @@
                   </cell>
                </row>
                <row role="data">
-                  <cell role="Ort">Steyr</cell>
+                  <cell role="Ort"><rs type="place" ref="#place_4">Steyr</rs></cell>
                   <cell role="Kopisten">
                      <ref corresp="content-d1e16523"
                           target="../101_data/101_tei-structured/Anonymus 120.xml">
@@ -464,7 +464,7 @@
                   </cell>
                </row>
                <row role="data">
-                  <cell role="Ort">Salzburg</cell>
+                  <cell role="Ort"><rs type="place" ref="#place_7">Salzburg</rs></cell>
                   <cell role="Kopisten">
                      <ref corresp="content-d1e18128"
                           target="../101_data/101_tei-structured/Anonymus 132.xml">
@@ -477,7 +477,7 @@
                   </cell>
                </row>
                <row role="data">
-                  <cell role="Ort">Vöcklabruck</cell>
+                  <cell role="Ort"><rs type="place" ref="#place_6">Vöcklabruck</rs></cell>
                   <cell role="Kopisten">
                      <ref corresp="content-d1e18367"
                           target="../101_data/101_tei-structured/Anonymus 134.xml">
@@ -494,7 +494,7 @@
                   </cell>
                </row>
                <row role="data">
-                  <cell role="Ort">Straßburg</cell>
+                  <cell role="Ort"><rs type="place" ref="#place_9">Straßburg</rs></cell>
                   <cell role="Kopisten">
                      <ref corresp="content-d1e24379"
                           target="../101_data/101_tei-structured/Goetz, Frédèric.xml">
@@ -503,7 +503,7 @@
                   </cell>
                </row>
                <row role="data">
-                  <cell role="Ort">Traun</cell>
+                  <cell role="Ort"><rs type="place" ref="#place_8">Traun</rs></cell>
                   <cell role="Kopisten">
                      <ref corresp="content-d1e34569"
                           target="../101_data/101_tei-structured/Schmidinger, Cajetan.xml">
