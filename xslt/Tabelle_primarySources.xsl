@@ -80,7 +80,7 @@
                                                     replace(
                                                         replace(
                                                             replace(
-                                                                translate(./t:listPerson/t:person/t:persName[@type = 'main'][last()] ,' ', '-') 
+                                                                translate(./t:listPerson/t:person/t:persName[@type = 'main'] ,' ', '-') 
                                                             , ',', '')
                                                         ,'ß', 'ss')
                                                     , '[éè]', 'e')
