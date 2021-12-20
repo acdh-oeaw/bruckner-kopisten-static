@@ -11,7 +11,10 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       <link rel="stylesheet" id="fundament-styles" href="dist/fundament/css/fundament.min.css" type="text/css" />
       <link rel="stylesheet" href="css/style.css" type="text/css" />
-      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script src="https://unpkg.com/arche-api@1.2.0/lib/arche-api.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.10.24/af-2.3.5/b-1.7.0/b-html5-1.7.0/b-print-1.7.0/r-2.2.7/sp-1.2.2/sl-1.3.3/datatables.min.css"></link><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.10.24/af-2.3.5/b-1.7.0/b-html5-1.7.0/b-print-1.7.0/r-2.2.7/sp-1.2.2/sl-1.3.3/datatables.min.js"></script><style></style>
+      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" />
+      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+      <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
+      <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script src="https://unpkg.com/arche-api@1.2.0/lib/arche-api.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.10.24/af-2.3.5/b-1.7.0/b-html5-1.7.0/b-print-1.7.0/r-2.2.7/sp-1.2.2/sl-1.3.3/datatables.min.css"></link><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.10.24/af-2.3.5/b-1.7.0/b-html5-1.7.0/b-print-1.7.0/r-2.2.7/sp-1.2.2/sl-1.3.3/datatables.min.js"></script><style></style>
    </head>
    <body class="page">
       <div class="hfeed site" id="page">
@@ -38,15 +41,21 @@
             </nav>
          </div>
          <div class="container-fluid">
+            <div class="card" style="margin-bottom:-3em;padding:0!important;">
+               <div class="card-footer" style="padding:0!important;">
+                  <div class="container" id="leaflet-map-one" style="display:none;"></div>
+               </div>
+            </div>
             
             <div class="row">
                
                <div class="col-md-12">
                   <div class="card">
                      <div class="card-header">
-                        <h3>Tabelle 3 – Kopisten der Werke Bruckners außerhalb
-                           Wiens<br />Table 3 – Copyists of Bruckner’s Music Who Worked
-                           outside Vienna</h3>
+                        <h2>Tabelle 3 – Kopisten der Werke Bruckners außerhalb
+                           Wiens</h2>
+                        <h4>Table 3 – Copyists of Bruckner’s Music Who Worked
+                           outside Vienna</h4>
                      </div>
                      <div class="card-body">
                         <div class="table-responsive">
@@ -62,7 +71,7 @@
                               <tbody>
                                  <tr>
                                     
-                                    <td class="Ort">St. Florian</td>
+                                    <td class="Ort"><a target="_blank" href="https://www.geonames.org/2771867" title="Lat: 48.205680000000 Long: 14.378360000000" lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates"><span class="place-org">St. Florian</span></a></td>
                                     
                                     <td class="Kopisten">
                                        <a href="aigner-karl.html">
@@ -195,7 +204,7 @@
                                     </tr>
                                  <tr>
                                     
-                                    <td class="Ort">Linz</td>
+                                    <td class="Ort"><a target="_blank" href="https://www.geonames.org/2772400" title="Lat: 48.306390000000 Long: 14.286110000000" lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates"><span class="place-org">Linz</span></a></td>
                                     
                                     <td class="Kopisten">
                                        <a href="anonymus-001.html">
@@ -295,7 +304,7 @@
                                     </tr>
                                  <tr>
                                     
-                                    <td class="Ort">Kremsmünster</td>
+                                    <td class="Ort"><a target="_blank" href="https://www.geonames.org/2773538" title="Lat: 48.052900000000 Long: 14.129190000000" lat="48.052900000000" long="14.129190000000" subtitle="Kremsmünster" class="map-coordinates"><span class="place-org">Kremsmünster</span></a></td>
                                     
                                     <td class="Kopisten">
                                        <a href="anonymus-022.html">
@@ -341,7 +350,7 @@
                                     </tr>
                                  <tr>
                                     
-                                    <td class="Ort">Klosterneuburg</td>
+                                    <td class="Ort"><a target="_blank" href="https://www.geonames.org/2773913" title="Lat: 48.305210000000 Long: 16.325220000000" lat="48.305210000000" long="16.325220000000" subtitle="Klosterneuburg" class="map-coordinates"><span class="place-org">Klosterneuburg</span></a></td>
                                     
                                     <td class="Kopisten">
                                        <a href="anonymus-115.html">
@@ -357,7 +366,7 @@
                                     </tr>
                                  <tr>
                                     
-                                    <td class="Ort">Steyr</td>
+                                    <td class="Ort"><a target="_blank" href="https://www.geonames.org/2764347" title="Lat: 48.033330000000 Long: 14.416670000000" lat="48.033330000000" long="14.416670000000" subtitle="Steyr" class="map-coordinates"><span class="place-org">Steyr</span></a></td>
                                     
                                     <td class="Kopisten">
                                        <a href="anonymus-120.html">
@@ -379,7 +388,7 @@
                                     </tr>
                                  <tr>
                                     
-                                    <td class="Ort">Salzburg</td>
+                                    <td class="Ort"><a target="_blank" href="https://www.geonames.org/2766818" title="Lat: 48.800670000000 Long: 14.045320000000" lat="48.800670000000" long="14.045320000000" subtitle="Salzburg" class="map-coordinates"><span class="place-org">Salzburg</span></a></td>
                                     
                                     <td class="Kopisten">
                                        <a href="anonymus-132.html">
@@ -392,7 +401,7 @@
                                     </tr>
                                  <tr>
                                     
-                                    <td class="Ort">Vöcklabruck</td>
+                                    <td class="Ort"><a target="_blank" href="https://www.geonames.org/2762342" title="Lat: 48.003130000000 Long: 13.657720000000" lat="48.003130000000" long="13.657720000000" subtitle="Vöcklabruck" class="map-coordinates"><span class="place-org">Vöcklabruck</span></a></td>
                                     
                                     <td class="Kopisten">
                                        <a href="anonymus-134.html">
@@ -408,7 +417,7 @@
                                     </tr>
                                  <tr>
                                     
-                                    <td class="Ort">Straßburg</td>
+                                    <td class="Ort"><a target="_blank" href="https://www.geonames.org/6441375" title="Lat: 48.583610000000 Long: 7.748060000000" lat="48.583610000000" long="7.748060000000" subtitle="Straßburg" class="map-coordinates"><span class="place-org">Straßburg</span></a></td>
                                     
                                     <td class="Kopisten">
                                        <a href="goetz-frederic.html">
@@ -418,7 +427,7 @@
                                     </tr>
                                  <tr>
                                     
-                                    <td class="Ort">Traun</td>
+                                    <td class="Ort"><a target="_blank" href="https://www.geonames.org/2763423" title="Lat: 48.220860000000 Long: 14.238330000000" lat="48.220860000000" long="14.238330000000" subtitle="Traun" class="map-coordinates"><span class="place-org">Traun</span></a></td>
                                     
                                     <td class="Kopisten">
                                        <a href="schmidinger-cajetan.html">
@@ -501,9 +510,12 @@
             </div>
          </div>
          <div class="footer-imprint-bar" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;">
-            © Copyright OEAW | <a href="https://www.oeaw.ac.at/die-oeaw/impressum/">Impressum/Imprint</a></div><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script></div>
-   </body><script>
+            © Copyright OEAW | <a href="https://www.oeaw.ac.at/die-oeaw/impressum/">Impressum/Imprint</a></div><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script></div>
+   </body><script src="js/one_leaflet_refactored.js"></script><script>
                 $(document).ready(function () {
-                    createDataTable('tabellen-table')
-                });
+                    leafletDatatable('tocTable')
+                }); 
+                $(document).ready(function () {
+                    createDataTable('tocTable')
+                });                                               
             </script></html>

@@ -11,7 +11,10 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       <link rel="stylesheet" id="fundament-styles" href="dist/fundament/css/fundament.min.css" type="text/css" />
       <link rel="stylesheet" href="css/style.css" type="text/css" />
-      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script src="https://unpkg.com/arche-api@1.2.0/lib/arche-api.min.js"></script></head>
+      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" />
+      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+      <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
+      <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script src="https://unpkg.com/arche-api@1.2.0/lib/arche-api.min.js"></script></head>
    <body class="page">
       <div class="hfeed site" id="page">
          <div class="wrapper-fluid wrapper-navbar sticky-navbar" id="wrapper-navbar"><a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a><nav class="navbar navbar-expand-lg navbar-light" style="margin-right:0!important;">
@@ -39,7 +42,10 @@
          <div class="container-fluid">
             <div class="card">
                <div class="card-header">
-                  <h1>Table of Contents</h1>
+                  <h1>Kopisten Gesamt</h1>
+               </div>
+               <div class="card-footer">
+                  <div class="container" id="leaflet-map-one" style="display:none;"></div>
                </div>
                <div class="card-body">
                   <table class="table table-striped display" id="tocTable" style="width:100%">
@@ -48,6 +54,7 @@
                            <th scope="col">Titel</th>
                            <th scope="col">Quelle</th>
                            <th scope="col">Zuordnung</th>
+                           <th scope="col">Erwähnte Orte</th>
                         </tr>
                      </thead>
                      <tbody>
@@ -57,6 +64,7 @@
                               Primary Sources</td>
                            <td>Linzer Kopisten | 
                               Linz copyist</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-006.html">Anonymus 006</a></td>
@@ -64,11 +72,13 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-019.html">Anonymus 019</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -76,17 +86,20 @@
                            <td>Primärquellen | 
                               Primary Sources</td>
                            <td></td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
                         </tr>
                         <tr>
                            <td><a href="schalk-franz.html">Schalk, Franz</a></td>
                            <td>Primärquellen | 
                               Primary Sources</td>
                            <td></td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="pank-kamillo.html">Pank, Kamillo</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -95,6 +108,7 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-124.html">Anonymus 124</a></td>
@@ -102,9 +116,11 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-060.html">Anonymus 060</a></td>
+                           <td></td>
                            <td></td>
                            <td></td>
                         </tr>
@@ -114,18 +130,21 @@
                               Primary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="kopist-e-m.html">Kopist E. M.</a></td>
                            <td></td>
                            <td>Klosterneuburger Kopisten | 
                               </td>
+                           <td lat="48.305210000000" long="16.325220000000" subtitle="Klosterneuburg" class="map-coordinates">Klosterneuburg</td>
                         </tr>
                         <tr>
                            <td><a href="seiberl-josef.html">Seiberl, Josef</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
                            <td></td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-054.html">Anonymus 054</a></td>
@@ -133,6 +152,7 @@
                               Primary Sources</td>
                            <td>Linzer Kopisten | 
                               Linzer copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="jari-franz.html">Jari, Franz</a></td>
@@ -140,11 +160,13 @@
                               Secondary Sources</td>
                            <td>Kremsmünster Kopisten | 
                               Kremsmünster copyists</td>
+                           <td lat="48.052900000000" long="14.129190000000" subtitle="Kremsmünster" class="map-coordinates">Kremsmünster</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-143.html">Anonymus 143</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -153,6 +175,7 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-093.html">Anonymus 093</a></td>
@@ -160,6 +183,7 @@
                               Secondary Sources</td>
                            <td>Linzer Kopisten | 
                               Linz copyists</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-078.html">Anonymus 078</a></td>
@@ -167,12 +191,14 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="schmidinger-cajetan.html">Schmidinger, Cajetan</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
                            <td></td>
+                           <td lat="48.220860000000" long="14.238330000000" subtitle="Traun" class="map-coordinates">Traun</td>
                         </tr>
                         <tr>
                            <td><a href="kopist-j-k.html">Kopist J. K.</a></td>
@@ -180,17 +206,20 @@
                               Secondary Sources</td>
                            <td>Kremsmünster Kopisten | 
                               Kremsmünster copyists</td>
+                           <td lat="48.052900000000" long="14.129190000000" subtitle="Kremsmünster" class="map-coordinates">Kremsmünster</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-070.html">Anonymus 070</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
                            <td></td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-034.html">Anonymus 034</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -199,11 +228,13 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
                         </tr>
                         <tr>
                            <td><a href="eckstein-friedrich.html">Eckstein, Friedrich</a></td>
                            <td>Primärquellen | 
                               Primary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -212,6 +243,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyists</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-109.html">Anonymus 109</a></td>
@@ -219,11 +251,13 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-032.html">Anonymus 032</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -231,6 +265,7 @@
                            <td>Primärquellen | 
                               Primary Sources</td>
                            <td></td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-123.html">Anonymus 123</a></td>
@@ -238,6 +273,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
                         </tr>
                         <tr>
                            <td><a href="bayer-juliane.html">Bayer, Juliane</a></td>
@@ -245,6 +281,7 @@
                               Secondary Sources</td>
                            <td>Steyrer Kopisten | 
                               Steyr copyists</td>
+                           <td lat="48.033330000000" long="14.416670000000" subtitle="Steyr" class="map-coordinates">Steyr</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-159.html">Anonymus 159</a></td>
@@ -252,6 +289,7 @@
                               Primary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-052.html">Anonymus 052</a></td>
@@ -259,6 +297,7 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-013.html">Anonymus 013</a></td>
@@ -266,6 +305,7 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="kopist-cervenko.html">Kopist Cervenko</a></td>
@@ -273,11 +313,13 @@
                               Primary Sources</td>
                            <td>Linzer Kopisten | 
                               Linz copyists</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-139.html">Anonymus 139</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -286,18 +328,21 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="gruber-josef.html">Gruber, Josef</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
                            <td></td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-115.html">Anonymus 115</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
                            <td></td>
+                           <td lat="48.305210000000" long="16.325220000000" subtitle="Klosterneuburg" class="map-coordinates">Klosterneuburg</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-095.html">Anonymus 095</a></td>
@@ -305,11 +350,13 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-144.html">Anonymus 144</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -318,12 +365,14 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-132.html">Anonymus 132</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
                            <td></td>
+                           <td lat="48.800670000000" long="14.045320000000" subtitle="Salzburg" class="map-coordinates">Salzburg</td>
                         </tr>
                         <tr>
                            <td><a href="kopist-h-i.html">Kopist H. I.</a></td>
@@ -331,6 +380,7 @@
                               Secondary Sources</td>
                            <td>Klosterneuburgerer Kopisten | 
                               Klosterneuburg copyists</td>
+                           <td lat="48.305210000000" long="16.325220000000" subtitle="Klosterneuburg" class="map-coordinates">Klosterneuburg</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-074.html">Anonymus 074</a></td>
@@ -338,11 +388,13 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="maass-karl.html">Maaß, Karl</a></td>
                            <td></td>
                            <td></td>
+                           <td lat="48.003130000000" long="13.657720000000" subtitle="Vöcklabruck" class="map-coordinates">Vöcklabruck</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-150.html">Anonymus 150</a></td>
@@ -350,11 +402,13 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-027.html">Anonymus 027</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -363,11 +417,13 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="kremser-eduard.html">Kremser, Eduard</a></td>
                            <td>Primärquellen | 
                               Primary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -375,11 +431,13 @@
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
                            <td></td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="deubler-bernhard.html">Deubler, Bernhard</a></td>
                            <td>Primärquellen | 
                               Primary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -388,11 +446,13 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-116.html">Anonymus 116</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -401,11 +461,13 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyists</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="neubauer-josef.html">Neubauer, Josef</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -414,6 +476,7 @@
                               Primary Sources</td>
                            <td>Kremsmünsterer Kopisten | 
                               Kremsmünster copyists</td>
+                           <td lat="48.052900000000" long="14.129190000000" subtitle="Kremsmünster" class="map-coordinates">Kremsmünster</td>
                         </tr>
                         <tr>
                            <td><a href="nittmann-franz.html">Nittmann, Franz</a></td>
@@ -421,11 +484,13 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyists</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-140.html">Anonymus 140</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -434,11 +499,13 @@
                               Secondary Sources</td>
                            <td>Linzer Kopisten | 
                               Linz copyists</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-041.html">Anonymus 041</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -447,11 +514,13 @@
                               Secondary Sources</td>
                            <td>Linzer Kopisten | 
                               Linz copyists</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-030.html">Anonymus 030</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -460,6 +529,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-057.html">Anonymus 057</a></td>
@@ -467,11 +537,13 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="paur-karl.html">Paur, Karl</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -480,11 +552,13 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
                         </tr>
                         <tr>
                            <td><a href="kopist-firker.html">Kopist Firker</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -493,6 +567,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-104.html">Anonymus 104</a></td>
@@ -500,11 +575,13 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
                         </tr>
                         <tr>
                            <td><a href="rott-hans.html">Rott, Hans</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -513,6 +590,7 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-023.html">Anonymus 023</a></td>
@@ -520,6 +598,7 @@
                               Secondary Sources</td>
                            <td>Kremsmünsterer Kopisten | 
                               Kremsmünster copyists</td>
+                           <td lat="48.052900000000" long="14.129190000000" subtitle="Kremsmünster" class="map-coordinates">Kremsmünster</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-122.html">Anonymus 122</a></td>
@@ -527,6 +606,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-069.html">Anonymus 069</a></td>
@@ -534,6 +614,7 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-112.html">Anonymus 112</a></td>
@@ -541,6 +622,7 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-002.html">Anonymus 002</a></td>
@@ -548,6 +630,7 @@
                               Primary Sources</td>
                            <td>Linzer Kopisten | 
                               Linz copyist</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-025.html">Anonymus 025</a></td>
@@ -555,6 +638,7 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-105.html">Anonymus 105</a></td>
@@ -562,6 +646,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-084.html">Anonymus 084</a></td>
@@ -569,6 +654,7 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-103.html">Anonymus 103</a></td>
@@ -576,6 +662,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
                         </tr>
                         <tr>
                            <td><a href="kerschbaum-maximilian.html">Kerschbaum, Maximilian</a></td>
@@ -583,17 +670,20 @@
                               Secondary Sources</td>
                            <td>Kremsmünsterer Kopisten | 
                               Kremsmünster copyists</td>
+                           <td lat="48.052900000000" long="14.129190000000" subtitle="Kremsmünster" class="map-coordinates">Kremsmünster</td>
                         </tr>
                         <tr>
                            <td><a href="feyrer-benno.html">Feyrer, Benno</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
                            <td></td>
+                           <td lat="48.052900000000" long="14.129190000000" subtitle="Kremsmünster" class="map-coordinates">Kremsmünster</td>
                         </tr>
                         <tr>
                            <td><a href="peyerl-rudolf.html">Peyerl, Rudolf</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -602,6 +692,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-096.html">Anonymus 096</a></td>
@@ -609,12 +700,14 @@
                               Secondary Sources</td>
                            <td>Kremsmünsterer Kopisten | 
                               Kremsmünster copyists</td>
+                           <td lat="48.052900000000" long="14.129190000000" subtitle="Kremsmünster" class="map-coordinates">Kremsmünster</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-134.html">Anonymus 134</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
                            <td></td>
+                           <td lat="48.003130000000" long="13.657720000000" subtitle="Vöcklabruck" class="map-coordinates">Vöcklabruck</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-061.html">Anonymus 061</a></td>
@@ -622,6 +715,7 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="kellner-altman.html">Kellner, Altman</a></td>
@@ -629,6 +723,7 @@
                               Secondary Sources</td>
                            <td>Kremsmünster Kopisten | 
                               Kremsmünster copists</td>
+                           <td lat="48.052900000000" long="14.129190000000" subtitle="Kremsmünster" class="map-coordinates">Kremsmünster</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-085.html">Anonymus 085</a></td>
@@ -636,6 +731,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
                         </tr>
                         <tr>
                            <td><a href="noll-johann.html">Noll, Johann</a></td>
@@ -643,11 +739,13 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyists</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-037.html">Anonymus 037</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -656,23 +754,27 @@
                               Secondary Sources</td>
                            <td>Steyrer Kopisten | 
                               Steyr copyists</td>
+                           <td lat="48.033330000000" long="14.416670000000" subtitle="Steyr" class="map-coordinates">Steyr</td>
                         </tr>
                         <tr>
                            <td><a href="gollerich-august.html">Göllerich, August</a></td>
                            <td>Primärquellen | 
                               Primary Sources</td>
                            <td></td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
                         </tr>
                         <tr>
                            <td><a href="hofmeyr-leopold.html">Hofmeyr, Leopold</a></td>
                            <td>Primärquellen | 
                               Primary Sources</td>
                            <td></td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-089.html">Anonymus 089</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -681,6 +783,7 @@
                               Primary Sources</td>
                            <td>Linzer Kopisten | 
                               Linz copyists</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-079.html">Anonymus 079</a></td>
@@ -688,11 +791,13 @@
                               Secondary Sources</td>
                            <td>Linzer Kopisten | 
                               Linz copyists</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-138.html">Anonymus 138</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -700,17 +805,20 @@
                            <td>Primärquellen | 
                               Primary Sources</td>
                            <td></td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="schalk-josef.html">Schalk, Josef</a></td>
                            <td>Primärquellen | 
                               Primary Sources</td>
                            <td></td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-076.html">Anonymus 076</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -719,17 +827,20 @@
                               Secondary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-086.html">Anonymus 086</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
                            <td></td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-036.html">Anonymus 036</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -738,6 +849,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-001.html">Anonymus 001</a></td>
@@ -745,6 +857,7 @@
                               Primary Sources</td>
                            <td>Linzer Kopisten | 
                               Linz copyist</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-127.html">Anonymus 127</a></td>
@@ -752,6 +865,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
                         </tr>
                         <tr>
                            <td><a href="kopist-m-sch.html">Kopist M. Sch.</a></td>
@@ -759,12 +873,14 @@
                               Primary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copiysts</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
                         </tr>
                         <tr>
                            <td><a href="lehofer-august.html">Lehofer, August</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
                            <td></td>
+                           <td lat="48.052900000000" long="14.129190000000" subtitle="Kremsmünster" class="map-coordinates">Kremsmünster</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-131.html">Anonymus 131</a></td>
@@ -772,11 +888,13 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-040.html">Anonymus 040</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -785,9 +903,11 @@
                               Secondary Sources</td>
                            <td>Linzer Kopisten | 
                               Linz copyists</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-059.html">Anonymus 059</a></td>
+                           <td></td>
                            <td></td>
                            <td></td>
                         </tr>
@@ -797,9 +917,11 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-007.html">Anonymus 007</a></td>
+                           <td></td>
                            <td></td>
                            <td></td>
                         </tr>
@@ -808,11 +930,13 @@
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
                            <td></td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-028.html">Anonymus 028</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -821,17 +945,20 @@
                               Primary Sources</td>
                            <td>Linzer Kopisten | 
                               Linz copyists</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
                         </tr>
                         <tr>
                            <td><a href="christ-viktor.html">Christ, Viktor</a></td>
                            <td>Primärquellen | 
                               Primary Sources</td>
                            <td></td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-114.html">Anonymus 114</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -840,6 +967,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-066.html">Anonymus 066</a></td>
@@ -847,17 +975,20 @@
                               Primary Sources</td>
                            <td>Linzer Kopisten | 
                               Linz copyist</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
                         </tr>
                         <tr>
                            <td><a href="kopist-fischer.html">Kopist Fischer</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
                            <td></td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="edlbacher-max.html">Edlbacher, Max</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -866,6 +997,7 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-099.html">Anonymus 099</a></td>
@@ -873,17 +1005,20 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
                         </tr>
                         <tr>
                            <td><a href="bayer-franz-xaver.html">Bayer, Franz Xaver</a></td>
                            <td>Primärquellen | 
                               Primary Sources</td>
                            <td></td>
+                           <td lat="48.033330000000" long="14.416670000000" subtitle="Steyr" class="map-coordinates">Steyr</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-017.html">Anonymus 017</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -892,6 +1027,7 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-043.html">Anonymus 043</a></td>
@@ -899,6 +1035,7 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-088.html">Anonymus 088</a></td>
@@ -906,11 +1043,13 @@
                               Primary Sources</td>
                            <td>Linzer Kopisten | 
                               Linz copyists</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
                         </tr>
                         <tr>
                            <td><a href="hynais-cyrill.html">Hynais, Cyrill</a></td>
                            <td>Primärquellen | 
                               Primary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -919,6 +1058,7 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-157.html">Anonymus 157</a></td>
@@ -926,6 +1066,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-111.html">Anonymus 111</a></td>
@@ -933,12 +1074,14 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="graflinger-franz.html">Gräflinger, Franz</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
                            <td></td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-035.html">Anonymus 035</a></td>
@@ -946,11 +1089,13 @@
                               Secondary Sources</td>
                            <td>Kremsmünsterer Kopisten | 
                               Kremsmünster copyists</td>
+                           <td lat="48.052900000000" long="14.129190000000" subtitle="Kremsmünster" class="map-coordinates">Kremsmünster</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-149.html">Anonymus 149</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -959,6 +1104,7 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="stolz-ernst.html">Stolz, Ernst</a></td>
@@ -966,6 +1112,7 @@
                               Secondary Sources</td>
                            <td>Kremsmünsterer Kopisten | 
                               Kremsmünster copiysts</td>
+                           <td lat="48.052900000000" long="14.129190000000" subtitle="Kremsmünster" class="map-coordinates">Kremsmünster</td>
                         </tr>
                         <tr>
                            <td><a href="kopist-g-a.html">Kopist G. A.</a></td>
@@ -973,6 +1120,7 @@
                               Secondary Sources</td>
                            <td>Kremsmünster Kopisten | 
                               Kremsmünster copyists</td>
+                           <td lat="48.052900000000" long="14.129190000000" subtitle="Kremsmünster" class="map-coordinates">Kremsmünster</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-051.html">Anonymus 051</a></td>
@@ -980,6 +1128,7 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-100.html">Anonymus 100</a></td>
@@ -987,6 +1136,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-016.html">Anonymus 016</a></td>
@@ -994,6 +1144,7 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-073.html">Anonymus 073</a></td>
@@ -1001,6 +1152,7 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-010.html">Anonymus 010</a></td>
@@ -1008,6 +1160,7 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-161.html">Anonymus 161</a></td>
@@ -1015,11 +1168,13 @@
                               Secondary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="laska-josef.html">Laska, Josef</a></td>
                            <td>Primärquellen | 
                               Primary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -1028,15 +1183,18 @@
                               Secondary Sources</td>
                            <td>Steyrer Kopisten | 
                               Steyr copyists</td>
+                           <td lat="48.033330000000" long="14.416670000000" subtitle="Steyr" class="map-coordinates">Steyr</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-125.html">Anonymus 125</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
                            <td></td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-068.html">Anonymus 068</a></td>
+                           <td></td>
                            <td></td>
                            <td></td>
                         </tr>
@@ -1045,12 +1203,14 @@
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
                            <td></td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-133.html">Anonymus 133</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
                            <td></td>
+                           <td lat="48.800670000000" long="14.045320000000" subtitle="Salzburg" class="map-coordinates">Salzburg</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-022.html">Anonymus 022</a></td>
@@ -1058,6 +1218,7 @@
                               Secondary Sources</td>
                            <td>Kremsmünsterer Kopisten | 
                               Kremsmünster copyists</td>
+                           <td lat="48.052900000000" long="14.129190000000" subtitle="Kremsmünster" class="map-coordinates">Kremsmünster</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-009.html">Anonymus 009</a></td>
@@ -1065,6 +1226,7 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-012.html">Anonymus 012</a></td>
@@ -1072,11 +1234,13 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="kopist-j-h.html">Kopist J. H.</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -1085,9 +1249,11 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-026.html">Anonymus 026</a></td>
+                           <td></td>
                            <td></td>
                            <td></td>
                         </tr>
@@ -1097,12 +1263,14 @@
                               Primary Sources</td>
                            <td>Linzer Kopisten | 
                               Linz copyists</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
                         </tr>
                         <tr>
                            <td><a href="auer-max.html">Auer, Max</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
                            <td></td>
+                           <td lat="48.003130000000" long="13.657720000000" subtitle="Vöcklabruck" class="map-coordinates">Vöcklabruck</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-082.html">Anonymus 082</a></td>
@@ -1110,6 +1278,7 @@
                               Secondary Sources</td>
                            <td>Linzer Kopisten | 
                               Linz copyists</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-129.html">Anonymus 129</a></td>
@@ -1117,6 +1286,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-080.html">Anonymus 080</a></td>
@@ -1124,17 +1294,20 @@
                               Secondary Sources</td>
                            <td>Linzer Kopisten | 
                               Linz copyists</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
                         </tr>
                         <tr>
                            <td><a href="traumihler-ignaz.html">Traumihler, Ignaz</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
                            <td></td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-110.html">Anonymus 100</a></td>
                            <td>Primärquellen | 
                               Primary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -1142,11 +1315,13 @@
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
                            <td></td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="schmid-ernst-fritz.html">Schmid, Ernst Fritz</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -1154,12 +1329,14 @@
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
                            <td></td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="goetz-frederic.html">Goetz, Frédèric</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
                            <td></td>
+                           <td lat="48.583610000000" long="7.748060000000" subtitle="Straßburg" class="map-coordinates">Straßburg</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-048.html">Anonymus 048</a></td>
@@ -1167,6 +1344,7 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-102.html">Anonymus 102</a></td>
@@ -1174,6 +1352,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-094.html">Anonymus 094</a></td>
@@ -1181,6 +1360,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
                         </tr>
                         <tr>
                            <td><a href="tenschert-josef.html">Tenschert, Josef</a></td>
@@ -1188,11 +1368,13 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyists</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="trittinger-adolf.html">Trittinger, Adolf</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -1201,11 +1383,13 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="berger-alfons.html">Berger, Alfons</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -1214,6 +1398,7 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-158.html">Anonymus 158</a></td>
@@ -1221,6 +1406,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
                         </tr>
                         <tr>
                            <td><a href="carda-johann.html">Carda, Johann</a></td>
@@ -1228,6 +1414,7 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyists</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-024.html">Anonymus 024</a></td>
@@ -1235,11 +1422,13 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-090.html">Anonymus 090</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -1247,11 +1436,13 @@
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
                            <td></td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-018.html">Anonymus 018</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -1260,6 +1451,7 @@
                               Primary Sources</td>
                            <td>Linzer Kopisten | 
                               Linz copyists</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-108.html">Anonymus 108</a></td>
@@ -1267,6 +1459,7 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-004.html">Anonymus 004</a></td>
@@ -1274,6 +1467,7 @@
                               Primary Sources</td>
                            <td>Linzer Kopisten | 
                               Linz copyist</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
                         </tr>
                         <tr>
                            <td><a href="rossi-franz.html">Rossi, Franz</a></td>
@@ -1281,6 +1475,7 @@
                               Primary Sources</td>
                            <td>Linzer Kopisten | 
                               Linz copyists</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-151.html">Anonymus 151</a></td>
@@ -1288,6 +1483,7 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-152.html">Anonymus 152</a></td>
@@ -1295,6 +1491,7 @@
                               Secondary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-136.html">Anonymus 136</a></td>
@@ -1302,17 +1499,20 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-119.html">Anonymus 119</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
                            <td></td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="neuhofer-franz.html">Neuhofer, Franz</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -1321,6 +1521,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-077.html">Anonymus 077</a></td>
@@ -1328,11 +1529,13 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="an-der-lan-hochbrunn-hartmann-von.html">An der Lan-Hochbrunn, Hartmann von</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -1341,9 +1544,11 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-039.html">Anonymus 039</a></td>
+                           <td></td>
                            <td></td>
                            <td></td>
                         </tr>
@@ -1353,6 +1558,7 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-056.html">Anonymus 056</a></td>
@@ -1360,17 +1566,20 @@
                               Secondary Sources</td>
                            <td>Linzer Kopisten | 
                               Linz copyists</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-038.html">Anonymus 038</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
                            <td></td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-145.html">Anonymus 145</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -1379,6 +1588,7 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-042.html">Anonymus 042</a></td>
@@ -1386,6 +1596,7 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-128.html">Anonymus 128</a></td>
@@ -1393,6 +1604,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
                         </tr>
                         <tr>
                            <td><a href="kopist-zeller.html">Kopist Zeller</a></td>
@@ -1400,11 +1612,13 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyists</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-055.html">Anonymus 055</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -1413,6 +1627,7 @@
                               Primary Sources</td>
                            <td>Steyrer Kopisten | 
                               Steyr copyists</td>
+                           <td lat="48.033330000000" long="14.416670000000" subtitle="Steyr" class="map-coordinates">Steyr</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-046.html">Anonymus 046</a></td>
@@ -1420,6 +1635,7 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-155.html">Anonymus 155</a></td>
@@ -1427,12 +1643,14 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="bauer-arthur.html">Bauer, Arthur</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
                            <td></td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-053.html">Anonymus 053</a></td>
@@ -1440,6 +1658,7 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-126.html">Anonymus 126</a></td>
@@ -1447,17 +1666,20 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-029.html">Anonymus 029</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
                            <td></td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-107.html">Anonymus 107</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -1466,6 +1688,7 @@
                               Secondary Sources</td>
                            <td>Linzer Kopisten | 
                               Linz copyists</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-058.html">Anonymus 058</a></td>
@@ -1473,6 +1696,7 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-003.html">Anonymus 003</a></td>
@@ -1480,6 +1704,7 @@
                               Primary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-005.html">Anonymus 005</a></td>
@@ -1487,11 +1712,13 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-031.html">Anonymus 031</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -1500,11 +1727,13 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-113.html">Anonymus 113</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -1513,12 +1742,14 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-015.html">Anonymus 015</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
                            <td></td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-045.html">Anonymus 045</a></td>
@@ -1526,11 +1757,13 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="weinwurm-rudolf.html">Weinwurm, Rudolf</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -1538,17 +1771,20 @@
                            <td>Primärquellen | 
                               Primary Sources</td>
                            <td></td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="burgstaller-johann-baptist.html">Burgstaller, Johann Baptist</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
                            <td></td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
                         </tr>
                         <tr>
                            <td><a href="lowe-ferdinand.html">Löwe, Ferdinand</a></td>
                            <td>Primärquellen | 
                               Primary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                         <tr>
@@ -1557,6 +1793,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copiysts</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-050.html">Anonymus 050</a></td>
@@ -1564,6 +1801,7 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
+                           <td></td>
                         </tr>
                         <tr>
                            <td><a href="anonymus-083.html">Anonymus 083</a></td>
@@ -1571,11 +1809,13 @@
                               Secondary Sources</td>
                            <td>Linzer Kopisten | 
                               Linz copyists</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
                         </tr>
                         <tr>
                            <td><a href="stradal-august.html">Stradal, August</a></td>
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
+                           <td></td>
                            <td></td>
                         </tr>
                      </tbody>
@@ -1650,10 +1890,13 @@
             </div>
          </div>
          <div class="footer-imprint-bar" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;">
-            © Copyright OEAW | <a href="https://www.oeaw.ac.at/die-oeaw/impressum/">Impressum/Imprint</a></div><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script><script>
+            © Copyright OEAW | <a href="https://www.oeaw.ac.at/die-oeaw/impressum/">Impressum/Imprint</a></div><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script><script src="js/one_leaflet_refactored.js"></script><script>
+                        $(document).ready(function () {
+                            leafletDatatable('tocTable')
+                        }); 
                         $(document).ready(function () {
                             createDataTable('tocTable')
-                        });
+                        });                                               
                     </script></div>
    </body>
 </html>
