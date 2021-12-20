@@ -36,11 +36,13 @@
                     <xsl:call-template name="nav_bar"/>
                     
                     <div class="container-fluid">
-                        <div class="card" style="margin-bottom:-3em;padding:0!important;">
-                            <div class="card-footer" style="padding:0!important;">
-                                <xsl:call-template name="add_map_container"/>
+                        <xsl:if test="//tei:listPlace">
+                            <div class="card" style="margin-bottom:-3em;padding:0!important;">
+                                <div class="card-footer" style="padding:0!important;">
+                                    <xsl:call-template name="add_map_container"/>
+                                </div>
                             </div>
-                        </div>
+                        </xsl:if>                        
                         <xsl:apply-templates select=".//tei:body"/>                 
                     </div>
                     <xsl:call-template name="html_footer"/>

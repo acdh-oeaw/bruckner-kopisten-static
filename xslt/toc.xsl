@@ -39,7 +39,7 @@
                                             <th scope="col">Titel</th>
                                             <th scope="col">Quelle</th>
                                             <th scope="col">Zuordnung</th>
-                                            <th scope="col">Erwähnte Orte</th>                                              
+                                            <th scope="col">Orte</th>                                              
                                         </tr>
                                     </thead>
                                     <tbody>
