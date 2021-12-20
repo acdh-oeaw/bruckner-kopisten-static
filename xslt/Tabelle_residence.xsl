@@ -148,17 +148,32 @@
                                                 <cell role="Kopisten">
 
                                                   <xsl:for-each select="current-group()/t:listPerson/t:person/t:persName[@type = 'main']">
-                                                  <xsl:element name="ref">
-                                                      <xsl:attribute name="corresp">
-                                                  <xsl:value-of select="//t:div/@xml:id"/>
-                                                  </xsl:attribute>
-                                                  <xsl:attribute name="target">
-                                                  <xsl:value-of
-                                                  select="concat('../101_data/101_tei-structured/', ., '.xml')"
-                                                  />
-                                                  </xsl:attribute>
-                                                  <xsl:copy-of select="."/>
-                                                  </xsl:element>
+                                                      <xsl:variable name="cp-cleaning1" select="                    
+                                                          replace(
+                                                            replace(
+                                                                replace(
+                                                                    replace(
+                                                                        replace(
+                                                                            replace(
+                                                                                translate(. ,' ', '-') 
+                                                                                , ',', '')
+                                                                            ,'ß', 'ss')
+                                                                        , '[éè]', 'e')
+                                                                    , 'ä', 'a')
+                                                                , 'ö', 'o')
+                                                            , 'ü', 'u')                      
+                                                          "/>
+                                                      <xsl:variable name="cp-cleaning2" select="data(translate($cp-cleaning1,'.', ''))"/>
+                                                      <xsl:variable name="cp-clean" select="translate($cp-cleaning2, '&#xA0;', '-') => lower-case()"/>
+                                                        <xsl:element name="ref">
+                                                             <xsl:attribute name="corresp">
+                                                                 <xsl:value-of select="//t:div/@xml:id"/>
+                                                             </xsl:attribute>
+                                                             <xsl:attribute name="target">
+                                                                 <xsl:value-of select="concat('data/editions/', $cp-clean, '.xml')"/>
+                                                             </xsl:attribute>
+                                                             <xsl:copy-of select="."/>
+                                                       </xsl:element>
                                                   </xsl:for-each>
 
                                                 </cell>

@@ -67,172 +67,131 @@
                      <rs type="place" ref="#place_1">St. Florian</rs>
                   </cell>
                   <cell role="Kopisten">
-                     <ref corresp="content-d1e35716"
-                          target="../101_data/101_tei-structured/Traumihler, Ignaz.xml">
+                     <ref corresp="content-d1e35716" target="data/editions/traumihler-ignaz.xml">
                         <persName type="main">Traumihler, Ignaz</persName>
                      </ref>
-                     <ref corresp="content-d1e14523"
-                          target="../101_data/101_tei-structured/Anonymus 102.xml">
+                     <ref corresp="content-d1e14523" target="data/editions/anonymus-102.xml">
                         <persName type="main">Anonymus 102</persName>
                      </ref>
-                     <ref corresp="content-d1e13609"
-                          target="../101_data/101_tei-structured/Anonymus 095.xml">
+                     <ref corresp="content-d1e13609" target="data/editions/anonymus-095.xml">
                         <persName type="main">Anonymus 095</persName>
                      </ref>
-                     <ref corresp="content-d1e179176"
-                          target="../101_data/101_tei-structured/Anonymus 157.xml">
+                     <ref corresp="content-d1e179176" target="data/editions/anonymus-157.xml">
                         <persName type="main">Anonymus 157</persName>
                      </ref>
-                     <ref corresp="content-d1e20845"
-                          target="../101_data/101_tei-structured/Anonymus 153.xml">
+                     <ref corresp="content-d1e20845" target="data/editions/anonymus-153.xml">
                         <persName subtype="W" type="main">Anonymus 153</persName>
                      </ref>
-                     <ref corresp="content-d1e1f17"
-                          target="../101_data/101_tei-structured/Anonymus 158.xml">
+                     <ref corresp="content-d1e1f17" target="data/editions/anonymus-158.xml">
                         <persName type="main">Anonymus 158</persName>
                      </ref>
-                     <ref corresp="content-d1e16916"
-                          target="../101_data/101_tei-structured/Anonymus 123.xml">
+                     <ref corresp="content-d1e16916" target="data/editions/anonymus-123.xml">
                         <persName type="main">Anonymus 123</persName>
                      </ref>
-                     <ref corresp="content-d1e14133"
-                          target="../101_data/101_tei-structured/Anonymus 099.xml">
+                     <ref corresp="content-d1e14133" target="data/editions/anonymus-099.xml">
                         <persName type="main">Anonymus 099</persName>
                      </ref>
-                     <ref corresp="content-d1e17494"
-                          target="../101_data/101_tei-structured/Anonymus 127.xml">
+                     <ref corresp="content-d1e17494" target="data/editions/anonymus-127.xml">
                         <persName type="main">Anonymus 127</persName>
                      </ref>
-                     <ref corresp="content-d1e17048"
-                          target="../101_data/101_tei-structured/Anonymus 124.xml">
+                     <ref corresp="content-d1e17048" target="data/editions/anonymus-124.xml">
                         <persName type="main">Anonymus 124</persName>
                      </ref>
-                     <ref corresp="content-d1e13874"
-                          target="../101_data/101_tei-structured/Anonymus 097.xml">
+                     <ref corresp="content-d1e13874" target="data/editions/anonymus-097.xml">
                         <persName type="main">Anonymus 097</persName>
                      </ref>
-                     <ref corresp="content-d1e14391"
-                          target="../101_data/101_tei-structured/Anonymus 101.xml">
+                     <ref corresp="content-d1e14391" target="data/editions/anonymus-101.xml">
                         <persName type="main">Anonymus 101</persName>
                      </ref>
-                     <ref corresp="content-d1e14927"
-                          target="../101_data/101_tei-structured/Anonymus 105.xml">
+                     <ref corresp="content-d1e14927" target="data/editions/anonymus-105.xml">
                         <persName type="main">Anonymus 105</persName>
                      </ref>
-                     <ref corresp="content-d1e13477"
-                          target="../101_data/101_tei-structured/Anonymus 094.xml">
+                     <ref corresp="content-d1e13477" target="data/editions/anonymus-094.xml">
                         <persName type="main">Anonymus 094</persName>
                      </ref>
-                     <ref corresp="content-d1e14658"
-                          target="../101_data/101_tei-structured/Anonymus 103.xml">
+                     <ref corresp="content-d1e14658" target="data/editions/anonymus-103.xml">
                         <persName type="main">Anonymus 103</persName>
                      </ref>
-                     <ref corresp="content-d1e17620"
-                          target="../101_data/101_tei-structured/Anonymus 128.xml">
+                     <ref corresp="content-d1e17620" target="data/editions/anonymus-128.xml">
                         <persName type="main">Anonymus 128</persName>
                      </ref>
-                     <ref corresp="content-d1e3963"
-                          target="../101_data/101_tei-structured/Anonymus 020.xml">
+                     <ref corresp="content-d1e3963" target="data/editions/anonymus-020.xml">
                         <persName type="main">Anonymus 020</persName>
                      </ref>
-                     <ref corresp="content-d1e16784"
-                          target="../101_data/101_tei-structured/Anonymus 122.xml">
+                     <ref corresp="content-d1e16784" target="data/editions/anonymus-122.xml">
                         <persName type="main">Anonymus 122</persName>
                      </ref>
-                     <ref corresp="content-d1e18780"
-                          target="../101_data/101_tei-structured/Anonymus 137.xml">
+                     <ref corresp="content-d1e18780" target="data/editions/anonymus-137.xml">
                         <persName type="main">Anonymus 137</persName>
                      </ref>
-                     <ref corresp="content-d1e765512"
-                          target="../101_data/101_tei-structured/Anonymus 159.xml">
+                     <ref corresp="content-d1e765512" target="data/editions/anonymus-159.xml">
                         <persName subtype="SF" type="main">Anonymus 159</persName>
                      </ref>
-                     <ref corresp="content-d1e179176"
-                          target="../101_data/101_tei-structured/Anonymus 156.xml">
+                     <ref corresp="content-d1e179176" target="data/editions/anonymus-156.xml">
                         <persName type="main">Anonymus 156</persName>
                      </ref>
-                     <ref corresp="content-d1e18645"
-                          target="../101_data/101_tei-structured/Anonymus 136.xml">
+                     <ref corresp="content-d1e18645" target="data/editions/anonymus-136.xml">
                         <persName type="main">Anonymus 136</persName>
                      </ref>
-                     <ref corresp="content-d1e12273"
-                          target="../101_data/101_tei-structured/Anonymus 085.xml">
+                     <ref corresp="content-d1e12273" target="data/editions/anonymus-085.xml">
                         <persName type="main">Anonymus 085</persName>
                      </ref>
-                     <ref corresp="content-d1e19938"
-                          target="../101_data/101_tei-structured/Anonymus 146.xml">
+                     <ref corresp="content-d1e19938" target="data/editions/anonymus-146.xml">
                         <persName type="main">Anonymus 146</persName>
                      </ref>
-                     <ref corresp="content-d1e20073"
-                          target="../101_data/101_tei-structured/Anonymus 147.xml">
+                     <ref corresp="content-d1e20073" target="data/editions/anonymus-147.xml">
                         <persName type="main">Anonymus 147</persName>
                      </ref>
-                     <ref corresp="content-d1e24955"
-                          target="../101_data/101_tei-structured/Gruber, Josef.xml">
+                     <ref corresp="content-d1e24955" target="data/editions/gruber-josef.xml">
                         <persName type="main">Gruber, Josef</persName>
                      </ref>
-                     <ref corresp="content-d1e16280"
-                          target="../101_data/101_tei-structured/Anonymus 118.xml">
+                     <ref corresp="content-d1e16280" target="data/editions/anonymus-118.xml">
                         <persName type="main">Anonymus 118</persName>
                      </ref>
-                     <ref corresp="content-d1e16655"
-                          target="../101_data/101_tei-structured/Anonymus 121.xml">
+                     <ref corresp="content-d1e16655" target="data/editions/anonymus-121.xml">
                         <persName type="main">Anonymus 121</persName>
                      </ref>
-                     <ref corresp="content-d1e17998"
-                          target="../101_data/101_tei-structured/Anonymus 131.xml">
+                     <ref corresp="content-d1e17998" target="data/editions/anonymus-131.xml">
                         <persName type="main">Anonymus 131</persName>
                      </ref>
-                     <ref corresp="content-d1e29169"
-                          target="../101_data/101_tei-structured/Kopist M. Sch..xml">
+                     <ref corresp="content-d1e29169" target="data/editions/kopist-m-sch.xml">
                         <persName full="abb" type="main">Kopist M. Sch.</persName>
                      </ref>
-                     <ref corresp="content-d1e21087"
-                          target="../101_data/101_tei-structured/Aigner, Karl.xml">
+                     <ref corresp="content-d1e21087" target="data/editions/aigner-karl.xml">
                         <persName type="main">Aigner, Karl</persName>
                      </ref>
-                     <ref corresp="content-d1e20455"
-                          target="../101_data/101_tei-structured/Anonymus 150.xml">
+                     <ref corresp="content-d1e20455" target="data/editions/anonymus-150.xml">
                         <persName type="main">Anonymus 150</persName>
                      </ref>
-                     <ref corresp="content-d1e14794"
-                          target="../101_data/101_tei-structured/Anonymus 104.xml">
+                     <ref corresp="content-d1e14794" target="data/editions/anonymus-104.xml">
                         <persName type="main">Anonymus 104</persName>
                      </ref>
-                     <ref corresp="content-d1e29336"
-                          target="../101_data/101_tei-structured/Kopist Zeller.xml">
+                     <ref corresp="content-d1e29336" target="data/editions/kopist-zeller.xml">
                         <persName full="abb" type="main">Kopist Zeller</persName>
                      </ref>
-                     <ref corresp="content-d1e34840"
-                          target="../101_data/101_tei-structured/Seiberl, Josef.xml">
+                     <ref corresp="content-d1e34840" target="data/editions/seiberl-josef.xml">
                         <persName type="main">Seiberl, Josef</persName>
                      </ref>
-                     <ref corresp="content-d1e17873"
-                          target="../101_data/101_tei-structured/Anonymus 130.xml">
+                     <ref corresp="content-d1e17873" target="data/editions/anonymus-130.xml">
                         <persName type="main">Anonymus 130</persName>
                      </ref>
-                     <ref corresp="content-d1e17746"
-                          target="../101_data/101_tei-structured/Anonymus 129.xml">
+                     <ref corresp="content-d1e17746" target="data/editions/anonymus-129.xml">
                         <persName type="main">Anonymus 129</persName>
                      </ref>
-                     <ref corresp="content-d1e25107"
-                          target="../101_data/101_tei-structured/Haybäck, Johann.xml">
+                     <ref corresp="content-d1e25107" target="data/editions/hayback-johann.xml">
                         <persName type="main">Haybäck, Johann</persName>
                      </ref>
                      <ref corresp="content-d1e30575"
-                          target="../101_data/101_tei-structured/Müller, Franz Xaver.xml">
+                          target="data/editions/muller-franz-xaver.xml">
                         <persName type="main">Müller, Franz Xaver</persName>
                      </ref>
-                     <ref corresp="content-d1e14003"
-                          target="../101_data/101_tei-structured/Anonymus 098.xml">
+                     <ref corresp="content-d1e14003" target="data/editions/anonymus-098.xml">
                         <persName type="main">Anonymus 098</persName>
                      </ref>
-                     <ref corresp="content-d1e14264"
-                          target="../101_data/101_tei-structured/Anonymus 100.xml">
+                     <ref corresp="content-d1e14264" target="data/editions/anonymus-100.xml">
                         <persName type="main">Anonymus 100</persName>
                      </ref>
-                     <ref corresp="content-d1e926"
-                          target="../101_data/101_tei-structured/Anonymus 003.xml">
+                     <ref corresp="content-d1e926" target="data/editions/anonymus-003.xml">
                         <persName subtype="SF" type="main">Anonymus 003</persName>
                      </ref>
                   </cell>
@@ -242,16 +201,13 @@
                      <rs type="place" ref="#place_5">Klosterneuburg</rs>
                   </cell>
                   <cell role="Kopisten">
-                     <ref corresp="content-d1e26964"
-                          target="../101_data/101_tei-structured/Kopist E. M..xml">
+                     <ref corresp="content-d1e26964" target="data/editions/kopist-e-m.xml">
                         <persName full="abb" type="main">Kopist E. M.</persName>
                      </ref>
-                     <ref corresp="content-d1e16043"
-                          target="../101_data/101_tei-structured/Anonymus 115.xml">
+                     <ref corresp="content-d1e16043" target="data/editions/anonymus-115.xml">
                         <persName type="main">Anonymus 115</persName>
                      </ref>
-                     <ref corresp="content-d1e27544"
-                          target="../101_data/101_tei-structured/Kopist H. I..xml">
+                     <ref corresp="content-d1e27544" target="data/editions/kopist-h-i.xml">
                         <persName full="abb" type="main">Kopist H. I.</persName>
                      </ref>
                   </cell>
@@ -261,56 +217,44 @@
                      <rs type="place" ref="#place_3">Kremsmünster</rs>
                   </cell>
                   <cell role="Kopisten">
-                     <ref corresp="content-d1e24182"
-                          target="../101_data/101_tei-structured/Feyrer, Benno.xml">
+                     <ref corresp="content-d1e24182" target="data/editions/feyrer-benno.xml">
                         <persName type="main">Feyrer, Benno</persName>
                      </ref>
-                     <ref corresp="content-d1e6182"
-                          target="../101_data/101_tei-structured/Anonymus 035.xml">
+                     <ref corresp="content-d1e6182" target="data/editions/anonymus-035.xml">
                         <persName type="main">Anonymus 035</persName>
                      </ref>
-                     <ref corresp="content-d1e4395"
-                          target="../101_data/101_tei-structured/Anonymus 022.xml">
+                     <ref corresp="content-d1e4395" target="data/editions/anonymus-022.xml">
                         <persName type="main">Anonymus 022</persName>
                      </ref>
-                     <ref corresp="content-d1e26099"
-                          target="../101_data/101_tei-structured/Jari, Franz.xml">
+                     <ref corresp="content-d1e26099" target="data/editions/jari-franz.xml">
                         <persName type="main">Jari, Franz</persName>
                      </ref>
                      <ref corresp="content-d1e26638"
-                          target="../101_data/101_tei-structured/Kerschbaum, Maximilian.xml">
+                          target="data/editions/kerschbaum-maximilian.xml">
                         <persName type="main">Kerschbaum, Maximilian</persName>
                      </ref>
-                     <ref corresp="content-d1e4525"
-                          target="../101_data/101_tei-structured/Anonymus 023.xml">
+                     <ref corresp="content-d1e4525" target="data/editions/anonymus-023.xml">
                         <persName type="main">Anonymus 023</persName>
                      </ref>
-                     <ref corresp="content-d1e28854"
-                          target="../101_data/101_tei-structured/Kopist J. K..xml">
+                     <ref corresp="content-d1e28854" target="data/editions/kopist-j-k.xml">
                         <persName full="abb" type="main">Kopist J. K.</persName>
                      </ref>
-                     <ref corresp="content-d1e26378"
-                          target="../101_data/101_tei-structured/Kellner, Altman.xml">
+                     <ref corresp="content-d1e26378" target="data/editions/kellner-altman.xml">
                         <persName type="main">Kellner, Altman</persName>
                      </ref>
-                     <ref corresp="content-d1e35027"
-                          target="../101_data/101_tei-structured/Stolz, Ernst.xml">
+                     <ref corresp="content-d1e35027" target="data/editions/stolz-ernst.xml">
                         <persName type="main">Stolz, Ernst</persName>
                      </ref>
-                     <ref corresp="content-d1e29719"
-                          target="../101_data/101_tei-structured/Lehofer, August.xml">
+                     <ref corresp="content-d1e29719" target="data/editions/lehofer-august.xml">
                         <persName type="main">Lehofer, August</persName>
                      </ref>
-                     <ref corresp="content-d1e13742"
-                          target="../101_data/101_tei-structured/Anonymus 096.xml">
+                     <ref corresp="content-d1e13742" target="data/editions/anonymus-096.xml">
                         <persName type="main">Anonymus 096</persName>
                      </ref>
-                     <ref corresp="content-d1e27401"
-                          target="../101_data/101_tei-structured/Kopist G. A..xml">
+                     <ref corresp="content-d1e27401" target="data/editions/kopist-g-a.xml">
                         <persName full="abb" type="main">Kopist G. A.</persName>
                      </ref>
-                     <ref corresp="content-d1e29840"
-                          target="../101_data/101_tei-structured/Loidol, Oddo.xml">
+                     <ref corresp="content-d1e29840" target="data/editions/loidol-oddo.xml">
                         <persName type="main">Loidol, Oddo</persName>
                      </ref>
                   </cell>
@@ -320,24 +264,19 @@
                      <rs type="place" ref="#place_4">Steyr</rs>
                   </cell>
                   <cell role="Kopisten">
-                     <ref corresp="content-d1e22559"
-                          target="../101_data/101_tei-structured/Bayer, Juliane.xml">
+                     <ref corresp="content-d1e22559" target="data/editions/bayer-juliane.xml">
                         <persName type="main">Bayer, Juliane</persName>
                      </ref>
-                     <ref corresp="content-d1e16523"
-                          target="../101_data/101_tei-structured/Anonymus 120.xml">
+                     <ref corresp="content-d1e16523" target="data/editions/anonymus-120.xml">
                         <persName subtype="W" type="main">Anonymus 120</persName>
                      </ref>
-                     <ref corresp="content-d1e32263"
-                          target="../101_data/101_tei-structured/Pfändtner, Albert.xml">
+                     <ref corresp="content-d1e32263" target="data/editions/pfandtner-albert.xml">
                         <persName type="main">Pfändtner, Albert</persName>
                      </ref>
-                     <ref corresp="content-d1e22322"
-                          target="../101_data/101_tei-structured/Bayer, Franz Xaver.xml">
+                     <ref corresp="content-d1e22322" target="data/editions/bayer-franz-xaver.xml">
                         <persName type="main">Bayer, Franz Xaver</persName>
                      </ref>
-                     <ref corresp="content-d1e26241"
-                          target="../101_data/101_tei-structured/Karmazin, Jaroslav.xml">
+                     <ref corresp="content-d1e26241" target="data/editions/karmazin-jaroslav.xml">
                         <persName type="main">Karmazin, Jaroslav</persName>
                      </ref>
                   </cell>
@@ -348,7 +287,7 @@
                   </cell>
                   <cell role="Kopisten">
                      <ref corresp="content-d1e34569"
-                          target="../101_data/101_tei-structured/Schmidinger, Cajetan.xml">
+                          target="data/editions/schmidinger-cajetan.xml">
                         <persName type="main">Schmidinger, Cajetan</persName>
                      </ref>
                   </cell>
@@ -358,8 +297,7 @@
                      <rs type="place" ref="#place_9">Straßburg</rs>
                   </cell>
                   <cell role="Kopisten">
-                     <ref corresp="content-d1e24379"
-                          target="../101_data/101_tei-structured/Goetz, Frédèric.xml">
+                     <ref corresp="content-d1e24379" target="data/editions/goetz-frederic.xml">
                         <persName type="main">Goetz, Frédèric</persName>
                      </ref>
                   </cell>
@@ -369,16 +307,13 @@
                      <rs type="place" ref="#place_6">Vöcklabruck</rs>
                   </cell>
                   <cell role="Kopisten">
-                     <ref corresp="content-d1e21754"
-                          target="../101_data/101_tei-structured/Auer, Max.xml">
+                     <ref corresp="content-d1e21754" target="data/editions/auer-max.xml">
                         <persName type="main">Auer, Max</persName>
                      </ref>
-                     <ref corresp="content-d1e18367"
-                          target="../101_data/101_tei-structured/Anonymus 134.xml">
+                     <ref corresp="content-d1e18367" target="data/editions/anonymus-134.xml">
                         <persName type="main">Anonymus 134</persName>
                      </ref>
-                     <ref corresp="content-d1e30163"
-                          target="../101_data/101_tei-structured/Maaß, Karl.xml">
+                     <ref corresp="content-d1e30163" target="data/editions/maass-karl.xml">
                         <persName type="main">Maaß, Karl</persName>
                      </ref>
                   </cell>
@@ -388,12 +323,10 @@
                      <rs type="place" ref="#place_7">Salzburg</rs>
                   </cell>
                   <cell role="Kopisten">
-                     <ref corresp="content-d1e18247"
-                          target="../101_data/101_tei-structured/Anonymus 133.xml">
+                     <ref corresp="content-d1e18247" target="data/editions/anonymus-133.xml">
                         <persName type="main">Anonymus 133</persName>
                      </ref>
-                     <ref corresp="content-d1e18128"
-                          target="../101_data/101_tei-structured/Anonymus 132.xml">
+                     <ref corresp="content-d1e18128" target="data/editions/anonymus-132.xml">
                         <persName type="main">Anonymus 132</persName>
                      </ref>
                   </cell>

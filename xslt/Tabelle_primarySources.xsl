@@ -73,7 +73,23 @@
                         <head xml:lang="eng">Table 1 – Copyists of Primary Sources</head>
                             <xsl:for-each select="$Person">
                                 <xsl:if test="./t:listPerson/t:person/t:index/t:term[1] = 'Primärquellen'">
-                                    
+                                    <xsl:variable name="cp-cleaning1" select="                    
+                                        replace(
+                                            replace(
+                                                replace(
+                                                    replace(
+                                                        replace(
+                                                            replace(
+                                                                translate(./t:listPerson/t:person/t:persName[@type = 'main'][last()] ,' ', '-') 
+                                                            , ',', '')
+                                                        ,'ß', 'ss')
+                                                    , '[éè]', 'e')
+                                                , 'ä', 'a')
+                                            , 'ö', 'o')
+                                        , 'ü', 'u')                      
+                                        "/>
+                                    <xsl:variable name="cp-cleaning2" select="data(translate($cp-cleaning1,'.', ''))"/>
+                                    <xsl:variable name="cp-clean" select="translate($cp-cleaning2, '&#xA0;', '-') => lower-case()"/>
                                     <xsl:element name="item">
                                         <xsl:element name="ref">
                                             <xsl:attribute name="corresp">
@@ -81,7 +97,7 @@
                                             </xsl:attribute>
                                             <xsl:attribute name="target">
                                                 <xsl:value-of
-                                                    select="concat('../101_data/101_tei-structured/', ./t:listPerson/t:person/t:persName[@type = 'main'], '.xml')"/>
+                                                    select="concat('data/editions/', $cp-clean, '.xml')"/>
                                             </xsl:attribute>
                                             <xsl:copy-of select="./t:listPerson/t:person/t:persName[@type = 'main']"/>
                                         </xsl:element>
