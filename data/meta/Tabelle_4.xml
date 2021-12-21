@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="m">Die Wiener Kopisten der Werke Anton Bruckners</title>
+            <title type="sub" level="a">Tabelle 4 – Zeitraum der Kopiertätigkeit der Kopisten zu Bruckners Lebzeiten.</title>
+            <author>
+               <name>Paul Hawkshaw</name>
+               <name>Clemens Gubsch</name>
+            </author>
+            <respStmt>
+               <resp>Automatische Konvertierung nach TEI P5</resp>
+               <name xml:id="cg">Clemens Gubsch</name>
+            </respStmt>
+            <respStmt>
+               <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
+               <name corresp="#cg">Clemens Gubsch</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2020-11-01</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>XXX Project Name XXX</publisher>
+            <idno type="BrucknerKopisten"/>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term>Tabelle</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change who="#cg" status="created">Erstellt und geprüft</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <table>
+               <head xml:lang="de">Tabelle 4 – Zeitraum der Kopiertätigkeit der Kopisten zu Bruckners Lebzeiten</head>
+               <head xml:lang="eng">Table 4 – Copyists Who Prepared Manuscripts of Bruckner’s Music during his Lifetime and the Approximate Dates of their Copies</head>
+               <row xml:lang="de" role="label">
+                  <cell>Zeitraum</cell>
+                  <cell>Kopisten</cell>
+               </row>
+               <row xml:lang="eng" role="label">
+                  <cell>Period</cell>
+                  <cell>Copyist</cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1849" to="1850">1849–1850</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e784512" target="data/editions/kopist-f-k.xml">
+                        <persName type="main">Kopist F. K.</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1850" to="1850">1850</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e29169" target="data/editions/kopist-m-sch.xml">
+                        <persName full="abb" type="main">Kopist M. Sch.</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1852" to="1856">1852–ca. 1856</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e926" target="data/editions/anonymus-003.xml">
+                        <persName subtype="SF" type="main">Anonymus 003</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1852" to="1870">1852–1870</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e33463"
+                          target="data/editions/schimatschek-franz.xml">
+                        <persName type="main">Schimatschek, Franz</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1854" to="1854">ca. 1854</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e765512" target="data/editions/anonymus-159.xml">
+                        <persName subtype="SF" type="main">Anonymus 159</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1854" to="1884">1854–1884</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e35716" target="data/editions/traumihler-ignaz.xml">
+                        <persName type="main">Traumihler, Ignaz</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1855" to="1877">1855–1877</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e34840" target="data/editions/seiberl-josef.xml">
+                        <persName type="main">Seiberl, Josef</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1861" to="1869">1861–1869</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e16" target="data/editions/anonymus-001.xml">
+                        <persName subtype="L" type="main">Anonymus 001</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1862" to="1885" xml:lang="de">1862–1863, 1866–1870 und 1878–1885</date>
+                  </cell>
+                  <cell>
+                     <date from="1862" to="1885" xml:lang="eng">1862–1863, 1866–1870 and 1878–1885</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e317" target="data/editions/anonymus-002.xml">
+                        <persName subtype="L" type="main">Anonymus 002</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1864" to="1864">1864</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e19422" target="data/editions/anonymus-142.xml">
+                        <persName subtype="L" type="main">Anonymus 142</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1864" to="1882">1864–1882(?)</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e25269" target="data/editions/hlawaczek-franz.xml">
+                        <persName type="main">Hlawaczek, Franz</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1867-09" to="1867-10-04">1867</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e32547" target="data/editions/posch-emil.xml">
+                        <persName type="main">Posch, Emil</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1868" to="1868">1868(?)</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e1125" target="data/editions/anonymus-004.xml">
+                        <persName subtype="L" type="main">Anonymus 004</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1868" to="1868">1868</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e1269" target="data/editions/anonymus-005.xml">
+                        <persName subtype="W" type="main">Anonymus 005</persName>
+                     </ref>
+                     <ref corresp="content-d1e1374" target="data/editions/anonymus-006.xml">
+                        <persName subtype="W" type="main">Anonymus 006</persName>
+                     </ref>
+                     <ref corresp="content-d1e1480" target="data/editions/anonymus-008.xml">
+                        <persName subtype="W" type="main">Anonymus 008</persName>
+                     </ref>
+                     <ref corresp="content-d1e9673" target="data/editions/anonymus-066.xml">
+                        <persName subtype="L" type="main">Anonymus 066</persName>
+                     </ref>
+                     <ref corresp="content-d1e31268" target="data/editions/nittmann-franz.xml">
+                        <persName type="main">Nittmann, Franz</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1868" to="1868" xml:lang="de">1868 oder danach</date>
+                  </cell>
+                  <cell>
+                     <date from="1868" to="1868" xml:lang="eng">1868 or after</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e2897" target="data/editions/anonymus-014.xml">
+                        <persName subtype="W" type="main">Anonymus 014</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1868" to="1873">1868, 1872–1873</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e35453" target="data/editions/tenschert-josef.xml">
+                        <persName type="main">Tenschert, Josef</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1869" to="1869">1869</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e360459" target="data/editions/anonymus-155.xml">
+                        <persName subtype="W" type="main">Anonymus 155</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1869" to="1873">1869–1873</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e6862" target="data/editions/anonymus-042.xml">
+                        <persName subtype="W" type="main">Anonymus 042</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1870" to="1870">ca. 1870</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e4395" target="data/editions/anonymus-022.xml">
+                        <persName type="main">Anonymus 022</persName>
+                     </ref>
+                     <ref corresp="content-d1e4525" target="data/editions/anonymus-023.xml">
+                        <persName type="main">Anonymus 023</persName>
+                     </ref>
+                     <ref corresp="content-d1e26099" target="data/editions/jari-franz.xml">
+                        <persName type="main">Jari, Franz</persName>
+                     </ref>
+                     <ref corresp="content-d1e26638"
+                          target="data/editions/kerschbaum-maximilian.xml">
+                        <persName type="main">Kerschbaum, Maximilian</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1872" to="1873">1872–1873</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e8242" target="data/editions/anonymus-054.xml">
+                        <persName subtype="W" type="main">Anonymus 054</persName>
+                     </ref>
+                     <ref corresp="content-d1e26812" target="data/editions/kopist-cervenko.xml">
+                        <persName type="main">Kopist Cervenko</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1872" to="1874">1872–1874</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e23123" target="data/editions/carda-johann.xml">
+                        <persName type="main">Carda, Johann</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1875" to="1876-10" xml:lang="de">1875–vor Okt. 1876</date>
+                  </cell>
+                  <cell>
+                     <date from="1875" to="1876-10" xml:lang="eng">1875–before Oct. 1876</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e8737" target="data/editions/anonymus-058.xml">
+                        <persName subtype="W" type="main">Anonymus 058</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1875" to="1877">1875–1877</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e9499" target="data/editions/anonymus-065.xml">
+                        <persName subtype="W" type="main">Anonymus 065</persName>
+                     </ref>
+                     <ref corresp="content-d1e9810" target="data/editions/anonymus-067.xml">
+                        <persName subtype="W" type="main">Anonymus 067</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1876" to="1876" xml:lang="de">vor 1876</date>
+                  </cell>
+                  <cell>
+                     <date from="1876" to="1876" xml:lang="eng">before 1876</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e2109" target="data/editions/anonymus-011.xml">
+                        <persName subtype="W" type="main">Anonymus 011</persName>
+                     </ref>
+                     <ref corresp="content-d1e2239" target="data/editions/anonymus-012.xml">
+                        <persName subtype="W" type="main">Anonymus 012</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1876" to="1876">1876</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e8888" target="data/editions/anonymus-060.xml">
+                        <persName subtype="W" type="main">Anonymus 060</persName>
+                     </ref>
+                     <ref corresp="content-d1e9014" target="data/editions/anonymus-061.xml">
+                        <persName subtype="W" type="main">Anonymus 061</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1876" to="1877">1876–1877</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e20588" target="data/editions/anonymus-151.xml">
+                        <persName subtype="W" type="main">Anonymus 151</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1876" to="1878">1876–1878</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e1608" target="data/editions/anonymus-009.xml">
+                        <persName subtype="W" type="main">Anonymus 009</persName>
+                     </ref>
+                     <ref corresp="content-d1e1906" target="data/editions/anonymus-010.xml">
+                        <persName subtype="W" type="main">Anonymus 010</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1877" to="1884" xml:lang="de">nach 1877–vor 1884</date>
+                  </cell>
+                  <cell>
+                     <date from="1877" to="1884" xml:lang="eng">after 1877–before 1884</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e8611" target="data/editions/anonymus-057.xml">
+                        <persName subtype="W" type="main">Anonymus 057</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1878" to="1878" xml:lang="de">1878 oder später</date>
+                  </cell>
+                  <cell>
+                     <date from="1878" to="1878" xml:lang="eng">1878 or later</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e10216" target="data/editions/anonymus-071.xml">
+                        <persName subtype="W" type="main">Anonymus 071</persName>
+                     </ref>
+                     <ref corresp="content-d1e36004" target="data/editions/weinwurm-rudolf.xml">
+                        <persName type="main">Weinwurm, Rudolf</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1878" to="1878">ca. 1878</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e32861" target="data/editions/rott-hans.xml">
+                        <persName type="main">Rott, Hans</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1878" to="1880">1878–1880</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e4650" target="data/editions/anonymus-024.xml">
+                        <persName subtype="W" type="main">Anonymus 024</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1879" to="1879">1879</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e15681" target="data/editions/anonymus-112.xml">
+                        <persName subtype="W" type="main">Anonymus 112</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1879" to="1879" xml:lang="de">1879 oder später</date>
+                  </cell>
+                  <cell>
+                     <date from="1879" to="1879" xml:lang="eng">1879 or later</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e23917"
+                          target="data/editions/eckstein-friedrich.xml">
+                        <persName type="main">Eckstein, Friedrich</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1880" to="1880" xml:lang="de">1880 oder später</date>
+                  </cell>
+                  <cell>
+                     <date from="1880" to="1880" xml:lang="eng">1880 or later</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e5045" target="data/editions/anonymus-025.xml">
+                        <persName subtype="W" type="main">Anonymus 025</persName>
+                     </ref>
+                     <ref corresp="content-d1e9974" target="data/editions/anonymus-069.xml">
+                        <persName subtype="W" type="main">Anonymus 069</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1880" to="1880">1880</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e15063" target="data/editions/anonymus-106.xml">
+                        <persName subtype="W" type="main">Anonymus 106</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1880" to="1880" xml:lang="de">1880 und später</date>
+                  </cell>
+                  <cell>
+                     <date from="1880" to="1880" xml:lang="eng">1880 and later</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e33170" target="data/editions/schalk-josef.xml">
+                        <persName type="main">Schalk, Josef</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1881" to="1883">1881–1883</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e25f4" target="data/editions/anonymus-110.xml">
+                        <persName type="main">Anonymus 110</persName>
+                     </ref>
+                     <ref corresp="content-d1e31389" target="data/editions/noll-johann.xml">
+                        <persName type="main">Noll, Johann</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1881" to="1884">1881–1884</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e15437" target="data/editions/anonymus-109.xml">
+                        <persName subtype="W" type="main">Anonymus 109</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1881" to="1889">1881(?)–1889(?)</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e32990" target="data/editions/schalk-franz.xml">
+                        <persName type="main">Schalk, Franz</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1882" to="1882">1882</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e12143" target="data/editions/anonymus-084.xml">
+                        <persName subtype="W" type="main">Anonymus 084</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1882" to="1884">1882–1884</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e29840" target="data/editions/loidol-oddo.xml">
+                        <persName type="main">Loidol, Oddo</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1883" to="1883" xml:lang="de">1883(?) und später</date>
+                  </cell>
+                  <cell>
+                     <date from="1883" to="1883" xml:lang="eng">1883(?) and later</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e35151" target="data/editions/stradal-august.xml">
+                        <persName type="main">Stradal, August</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1884" to="1884">ca. 1884</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e15563" target="data/editions/anonymus-111.xml">
+                        <persName subtype="W" type="main">Anonymus 111</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1884" to="1884">1884</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e17302" target="data/editions/anonymus-126.xml">
+                        <persName subtype="W" type="main">Anonymus 126</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1884" to="1884" xml:lang="de">1884 und später</date>
+                  </cell>
+                  <cell>
+                     <date from="1884" to="1884" xml:lang="eng">1884 and later</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e24522" target="data/editions/gollerich-august.xml">
+                        <persName type="main">Göllerich, August</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1884" to="1885">1884–1885</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e4143" target="data/editions/anonymus-021.xml">
+                        <persName subtype="W" type="main">Anonymus 021</persName>
+                     </ref>
+                     <ref corresp="content-d1e12663" target="data/editions/anonymus-088.xml">
+                        <persName type="main" subtype="W">Anonymus 088</persName>
+                     </ref>
+                     <ref corresp="content-d1e13176" target="data/editions/anonymus-092.xml">
+                        <persName type="main" subtype="W">Anonymus 092</persName>
+                     </ref>
+                     <ref corresp="content-d1e25520" target="data/editions/hofmeister-karl.xml">
+                        <persName type="main">Hofmeister, Karl</persName>
+                     </ref>
+                     <ref corresp="content-d1e32673" target="data/editions/rossi-franz.xml">
+                        <persName type="main">Rossi, Franz</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1884" to="1887">1884–1887</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e3181" target="data/editions/anonymus-016.xml">
+                        <persName subtype="W" type="main">Anonymus 016</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1885" to="1885" xml:lang="de">1885(?) und später</date>
+                  </cell>
+                  <cell>
+                     <date from="1885" to="1885" xml:lang="eng">1885(?) and later</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e21087" target="data/editions/aigner-karl.xml">
+                        <persName type="main">Aigner, Karl</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1886" to="1886" xml:lang="de">1886(?) und später</date>
+                  </cell>
+                  <cell>
+                     <date from="1886" to="1886" xml:lang="eng">1886(?) and later</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e30017" target="data/editions/lowe-ferdinand.xml">
+                        <persName type="main">Löwe, Ferdinand</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1886" to="1887">1886–1887</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e10677" target="data/editions/anonymus-074.xml">
+                        <persName subtype="W" type="main">Anonymus 074</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1886" to="1891">1886–1891</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e10344" target="data/editions/anonymus-072.xml">
+                        <persName subtype="W" type="main">Anonymus 072</persName>
+                     </ref>
+                     <ref corresp="content-d1e25659" target="data/editions/hofmeyr-leopold.xml">
+                        <persName type="main">Hofmeyr, Leopold</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1886" to="1894">1886–1894</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e2391" target="data/editions/anonymus-013.xml">
+                        <persName subtype="W" type="main">Anonymus 013</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1888" to="1888">1888</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e6989" target="data/editions/anonymus-043.xml">
+                        <persName subtype="W" type="main">Anonymus 043</persName>
+                     </ref>
+                     <ref corresp="content-d1e23771" target="data/editions/deubler-bernhard.xml">
+                        <persName type="main">Deubler, Bernhard</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1888" to="1888">1888(?)</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e10814" target="data/editions/anonymus-075.xml">
+                        <persName subtype="W" type="main">Anonymus 075</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1889" to="1889">1889</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e9115" target="data/editions/anonymus-062.xml">
+                        <persName subtype="W" type="main">Anonymus 062</persName>
+                     </ref>
+                     <ref corresp="content-d1e9244" target="data/editions/anonymus-063.xml">
+                        <persName subtype="W" type="main">Anonymus 063</persName>
+                     </ref>
+                     <ref corresp="content-d1e9376" target="data/editions/anonymus-064.xml">
+                        <persName subtype="W" type="main">Anonymus 064</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1890" to="1890">1890</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e7102" target="data/editions/anonymus-044.xml">
+                        <persName subtype="W" type="main">Anonymus 044</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1890" to="1891">1890–1891</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e23564" target="data/editions/christ-viktor.xml">
+                        <persName type="main">Christ, Viktor</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1891" to="1893">1891–1893</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e10525" target="data/editions/anonymus-073.xml">
+                        <persName subtype="W" type="main">Anonymus 073</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1891" to="1895">1891–1895</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e25992" target="data/editions/hynais-cyrill.xml">
+                        <persName type="main">Hynais, Cyrill</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1892" to="1892">1892</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e7216" target="data/editions/anonymus-045.xml">
+                        <persName subtype="W" type="main">Anonymus 045</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1892" to="1895">1892–1895</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e22322" target="data/editions/bayer-franz-xaver.xml">
+                        <persName type="main">Bayer, Franz Xaver</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1892" to="1896">1896</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e19285" target="data/editions/anonymus-141.xml">
+                        <persName subtype="W" type="main">Anonymus 141</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1893" to="1893">1893</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e7329" target="data/editions/anonymus-046.xml">
+                        <persName subtype="W" type="main">Anonymus 046</persName>
+                     </ref>
+                     <ref corresp="content-d1e7576" target="data/editions/anonymus-048.xml">
+                        <persName subtype="W" type="main">Anonymus 048</persName>
+                     </ref>
+                     <ref corresp="content-d1e7687" target="data/editions/anonymus-049.xml">
+                        <persName subtype="W" type="main">Anonymus 049</persName>
+                     </ref>
+                     <ref corresp="content-d1e7798" target="data/editions/anonymus-050.xml">
+                        <persName subtype="W" type="main">Anonymus 050</persName>
+                     </ref>
+                     <ref corresp="content-d1e7909" target="data/editions/anonymus-051.xml">
+                        <persName subtype="W" type="main">Anonymus 051</persName>
+                     </ref>
+                     <ref corresp="content-d1e8020" target="data/editions/anonymus-052.xml">
+                        <persName subtype="W" type="main">Anonymus 052</persName>
+                     </ref>
+                     <ref corresp="content-d1e8131" target="data/editions/anonymus-053.xml">
+                        <persName subtype="W" type="main">Anonymus 053</persName>
+                     </ref>
+                     <ref corresp="content-d1e15326" target="data/editions/anonymus-108.xml">
+                        <persName subtype="W" type="main">Anonymus 108</persName>
+                     </ref>
+                     <ref corresp="content-d1e32404" target="data/editions/poppel-friedrich.xml">
+                        <persName type="main">Poppel, Friedrich</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1895" to="1895">1895</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e32263" target="data/editions/pfandtner-albert.xml">
+                        <persName type="main">Pfändtner, Albert</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1895" to="1896">1895–1896</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e11068" target="data/editions/anonymus-077.xml">
+                        <persName subtype="W" type="main">Anonymus 077</persName>
+                     </ref>
+                     <ref corresp="content-d1e11262" target="data/editions/anonymus-078.xml">
+                        <persName subtype="W" type="main">Anonymus 078</persName>
+                     </ref>
+                  </cell>
+               </row>
+            </table>
+         </div>
+      </body>
+   </text>
+</TEI>

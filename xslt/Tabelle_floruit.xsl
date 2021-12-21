@@ -87,42 +87,48 @@
                                                 <xsl:when test="current()/t:listPerson/t:person/t:floruit/@xml:lang">
                                                     <xsl:if test="current()/t:listPerson/t:person/t:floruit/@xml:lang='de'">
                                                     <xsl:element name="cell">
-                                                        <xsl:attribute name="from">
-                                                            <xsl:value-of select="current()/t:listPerson/t:person/t:floruit[@xml:lang='de']/@from"/>
-                                                        </xsl:attribute>
-                                                        <xsl:attribute name="to">
-                                                            <xsl:value-of select="current()/t:listPerson/t:person/t:floruit[@xml:lang='de']/@to"/>
-                                                        </xsl:attribute>    
-                                                        <xsl:attribute name="xml:lang">
-                                                            <xsl:text>de</xsl:text>
-                                                        </xsl:attribute>
-                                                        <xsl:value-of select="current()/t:listPerson/t:person/t:floruit[@xml:lang='de']"/>
-                                                    </xsl:element>
+                                                        <xsl:element name="date">
+                                                            <xsl:attribute name="from">
+                                                                <xsl:value-of select="current()/t:listPerson/t:person/t:floruit[@xml:lang='de']/@from"/>
+                                                            </xsl:attribute>
+                                                            <xsl:attribute name="to">
+                                                                <xsl:value-of select="current()/t:listPerson/t:person/t:floruit[@xml:lang='de']/@to"/>
+                                                            </xsl:attribute>    
+                                                            <xsl:attribute name="xml:lang">
+                                                                <xsl:text>de</xsl:text>
+                                                            </xsl:attribute>
+                                                            <xsl:value-of select="current()/t:listPerson/t:person/t:floruit[@xml:lang='de']"/>
+                                                            </xsl:element>
+                                                        </xsl:element>
                                                     </xsl:if>
                                                     <xsl:if test="current()/t:listPerson/t:person/t:floruit/@xml:lang='eng'">
                                                         <xsl:element name="cell">
-                                                            <xsl:attribute name="from">
-                                                                <xsl:value-of select="current()/t:listPerson/t:person/t:floruit[@xml:lang='eng']/@from"/>
-                                                            </xsl:attribute>
-                                                            <xsl:attribute name="to">
-                                                                <xsl:value-of select="current()/t:listPerson/t:person/t:floruit[@xml:lang='eng']/@to"/>
-                                                            </xsl:attribute>    
-                                                            <xsl:attribute name="xml:lang">
-                                                                <xsl:text>eng</xsl:text>
-                                                            </xsl:attribute>
-                                                            <xsl:value-of select="current()/t:listPerson/t:person/t:floruit[@xml:lang='eng']"/>
+                                                            <xsl:element name="date">
+                                                                 <xsl:attribute name="from">
+                                                                     <xsl:value-of select="current()/t:listPerson/t:person/t:floruit[@xml:lang='eng']/@from"/>
+                                                                 </xsl:attribute>
+                                                                 <xsl:attribute name="to">
+                                                                     <xsl:value-of select="current()/t:listPerson/t:person/t:floruit[@xml:lang='eng']/@to"/>
+                                                                 </xsl:attribute>    
+                                                                 <xsl:attribute name="xml:lang">
+                                                                     <xsl:text>eng</xsl:text>
+                                                                 </xsl:attribute>
+                                                                 <xsl:value-of select="current()/t:listPerson/t:person/t:floruit[@xml:lang='eng']"/>
+                                                             </xsl:element>
                                                         </xsl:element>
                                                     </xsl:if>
                                                 </xsl:when>
                                                 <xsl:otherwise>
                                                     <xsl:element name="cell">
-                                                        <xsl:attribute name="from">
-                                                            <xsl:value-of select="current()/t:listPerson/t:person/t:floruit/@from"/>
-                                                        </xsl:attribute>
-                                                        <xsl:attribute name="to">
-                                                            <xsl:value-of select="current()/t:listPerson/t:person/t:floruit/@to"/>
-                                                        </xsl:attribute>    
-                                                        <xsl:value-of select="current()/t:listPerson/t:person/t:floruit"/>
+                                                        <xsl:element name="date">
+                                                            <xsl:attribute name="from">
+                                                                <xsl:value-of select="current()/t:listPerson/t:person/t:floruit/@from"/>
+                                                            </xsl:attribute>
+                                                            <xsl:attribute name="to">
+                                                                <xsl:value-of select="current()/t:listPerson/t:person/t:floruit/@to"/>
+                                                            </xsl:attribute>    
+                                                            <xsl:value-of select="current()/t:listPerson/t:person/t:floruit"/>
+                                                        </xsl:element>
                                                     </xsl:element>
                                                 </xsl:otherwise>
                                             </xsl:choose>
