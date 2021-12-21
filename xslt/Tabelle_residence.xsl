@@ -240,7 +240,7 @@
                         <place xml:id="place_7">
                             <placeName>Salzburg</placeName>
                             <location>
-                                <geo>48.800670000000 14.045320000000</geo>
+                                <geo>47.800670000000 13.045320000000</geo>
                             </location>
                             <idno subtype="geonames" type="URL">https://www.geonames.org/2766818</idno>
                         </place>
