@@ -10,6 +10,14 @@
     <xsl:output encoding="UTF-8" indent="yes"/>
 
 
+    <xsl:function name="m:sort-by-place">
+        <xsl:param name="eingabeliste"/>
+        <xsl:perform-sort select="$eingabeliste">
+            <xsl:sort select="//t:residence"/>
+        </xsl:perform-sort>
+    </xsl:function> 
+    
+
     <xsl:template match="node() | @*" mode="inFile">
         <xsl:copy>
             <xsl:apply-templates mode="inFile" select="node() | @*"/>
@@ -82,7 +90,7 @@
                                 <cell>Copyist</cell>
                             </row>
                             
-                            <xsl:for-each-group select="$Person" group-by="t:listPerson/t:person/t:residence">
+                            <xsl:for-each-group select="m:sort-by-place($Person)" group-by="t:listPerson/t:person/t:residence">
                                 <xsl:variable name="placeID" select="concat('place_', generate-id())"/>
                                 <xsl:choose>
                                     <xsl:when
