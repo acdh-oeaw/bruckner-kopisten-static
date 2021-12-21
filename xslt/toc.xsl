@@ -25,12 +25,14 @@
                     <xsl:call-template name="nav_bar"/>
                     
                     <div class="container-fluid">
+                        <div class="card" style="margin-bottom:-3em;padding:0!important;">
+                            <div class="card-footer" style="padding:0!important;">
+                                <xsl:call-template name="add_map_container"/>
+                            </div>
+                        </div>                        
                         <div class="card">
                             <div class="card-header">
                                 <h1>Kopisten Gesamt</h1>
-                            </div>
-                            <div class="card-footer">
-                                <xsl:call-template name="add_map_container"/>
                             </div>
                             <div class="card-body">                                
                                 <table class="table table-striped display" id="tocTable" style="width:100%">
@@ -39,7 +41,7 @@
                                             <th scope="col">Titel</th>
                                             <th scope="col">Quelle</th>
                                             <th scope="col">Zuordnung</th>
-                                            <th scope="col">Orte</th>                                              
+                                            <th scope="col">Ort</th>                                              
                                         </tr>
                                     </thead>
                                     <tbody>
