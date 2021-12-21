@@ -9,6 +9,12 @@
     exclude-result-prefixes="#all" version="2.0">
     <xsl:output encoding="UTF-8" indent="yes"/>
     
+    <xsl:function name="m:sort-by-name">
+        <xsl:param name="eingabeliste"/>
+        <xsl:perform-sort select="$eingabeliste">
+            <xsl:sort select="not(contains(//t:persName[@type='main'], 'Anonymus'))" order="descending"/>
+        </xsl:perform-sort>
+    </xsl:function> 
     
     <xsl:template match="node() | @*" mode="inFile">
         <xsl:copy>
@@ -22,17 +28,17 @@
             <teiHeader>
                 <fileDesc>
                     <titleStmt>
-                        <title xmlns:xi="http://www.w3.org/2001/XInclude" level="m">Die Wiener Kopisten der Werke Anton Bruckners</title>
+                        <title level="m">Die Wiener Kopisten der Werke Anton Bruckners</title>
                         <title type="sub" level="a">Tabelle 2 – Kopisten der Sekundärquellen</title>
-                        <author xmlns:xi="http://www.w3.org/2001/XInclude">
+                        <author>
                             <name>Paul Hawkshaw</name>
                             <name>Clemens Gubsch</name>
                         </author>
-                        <respStmt xmlns:xi="http://www.w3.org/2001/XInclude">
+                        <respStmt>
                             <resp>Automatische Konvertierung nach TEI P5</resp>
                             <name xml:id="cg">Clemens Gubsch</name>
                         </respStmt>
-                        <respStmt xmlns:xi="http://www.w3.org/2001/XInclude">
+                        <respStmt>
                             <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
                             <name corresp="#cg">Clemens Gubsch</name>
                         </respStmt>
@@ -43,15 +49,14 @@
                         </edition>
                     </editionStmt>
                     <publicationStmt>
-                        <publisher xmlns:xi="http://www.w3.org/2001/XInclude">XXX Project Name
-                            XXX</publisher>
-                        <idno xmlns:xi="http://www.w3.org/2001/XInclude" type="BrucknerKopisten"/>
+                        <publisher>XXX Project Name XXX</publisher>
+                        <idno type="BrucknerKopisten"/>
                     </publicationStmt>
-                    <sourceDesc xmlns:xi="http://www.w3.org/2001/XInclude">
+                    <sourceDesc>
                         <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
                     </sourceDesc>
                 </fileDesc>
-                <profileDesc xmlns:xi="http://www.w3.org/2001/XInclude">
+                <profileDesc>
                     <textClass>
                         <keywords>
                             <term>Table</term>
@@ -70,7 +75,7 @@
                         <list>
                             <head xml:lang="de">Tabelle 2 – Kopisten der Sekundärquellen</head>
                             <head xml:lang="eng">Table 2 – Copyists of Secundary Sources</head>
-                            <xsl:for-each select="$Person">
+                            <xsl:for-each select="m:sort-by-name($Person)">
                                 <xsl:if test="./t:listPerson/t:person/t:index/t:term[1] = 'Sekundärquellen'">
                                     <xsl:variable name="cp-cleaning1" select="                    
                                         replace(
