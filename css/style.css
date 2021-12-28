@@ -1,7 +1,7 @@
 /* Datatables, provided by https://github.com/babslgam*/
 
 div.dataTables_filter {
-  text-align:left !important;
+  text-align: left !important;
 }
 
 li {
@@ -251,6 +251,8 @@ fieldset.ssFieldset > span > input {
     background-color: rgba(38, 35, 37, 0.3);
     border-radius: .25rem;
 }
+
+/* Footer */
 
 #github-logo {
     width: 10%;
