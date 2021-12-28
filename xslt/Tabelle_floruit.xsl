@@ -87,6 +87,9 @@
                                                 <xsl:when test="current()/t:listPerson/t:person/t:floruit/@xml:lang">
                                                     <xsl:if test="current()/t:listPerson/t:person/t:floruit/@xml:lang='de'">
                                                     <xsl:element name="cell">
+                                                        <xsl:attribute name="xml:lang">
+                                                            <xsl:text>de</xsl:text>
+                                                        </xsl:attribute>
                                                         <xsl:element name="date">
                                                             <xsl:attribute name="from">
                                                                 <xsl:value-of select="current()/t:listPerson/t:person/t:floruit[@xml:lang='de']/@from"/>
@@ -103,6 +106,9 @@
                                                     </xsl:if>
                                                     <xsl:if test="current()/t:listPerson/t:person/t:floruit/@xml:lang='eng'">
                                                         <xsl:element name="cell">
+                                                            <xsl:attribute name="xml:lang">
+                                                                <xsl:text>eng</xsl:text>
+                                                            </xsl:attribute>
                                                             <xsl:element name="date">
                                                                  <xsl:attribute name="from">
                                                                      <xsl:value-of select="current()/t:listPerson/t:person/t:floruit[@xml:lang='eng']/@from"/>

@@ -90,9 +90,20 @@
                     <xsl:apply-templates/>
                 </th>      
             </xsl:when>
-            <xsl:when test="parent::tei:row[@role='data']">               
-                <td class="{@role}"><xsl:apply-templates/></td>                               
-            </xsl:when>
+            <xsl:when test="parent::tei:row[@role='data']"> 
+                <xsl:choose>
+                    <xsl:when test="@xml:lang='de'">
+                        <td class="{@role}"><xsl:apply-templates/></td>
+                    </xsl:when>
+                    <xsl:when test="not(@xml:lang)">
+                        <td class="{@role}"><xsl:apply-templates/></td>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        
+                    </xsl:otherwise>
+                </xsl:choose>
+                                               
+            </xsl:when>            
             <xsl:otherwise>                
                 <td><xsl:apply-templates/></td>                  
             </xsl:otherwise>

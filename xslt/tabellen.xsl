@@ -95,6 +95,6 @@
     </xsl:template>
     <xsl:template match="tei:persName">
         <xsl:apply-templates/>    
-    </xsl:template>
+    </xsl:template>    
     
 </xsl:stylesheet>
