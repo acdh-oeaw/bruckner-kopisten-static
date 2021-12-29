@@ -30,7 +30,7 @@
                 </xsl:call-template>
             </head>
             
-            <body class="page" onload="createDataTable('tocTable', 20, {$start});leafletDatatable('tocTable');">
+            <body class="page" onload="leafletDatatable('tocTable');createDataTable('tocTable', 20, {$start});">
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
                     
@@ -59,7 +59,10 @@
                                         <xsl:for-each select="collection('../data/editions')//tei:TEI">
                                             <xsl:variable name="full_path">
                                                 <xsl:value-of select="document-uri(/)"/>
-                                            </xsl:variable>
+                                            </xsl:variable>    
+                                            <xsl:variable name="personN">                                               
+                                                <xsl:value-of select=".//tei:title[@type='main'][1]/text()"/>
+                                            </xsl:variable> 
                                             <tr>
                                                 <td>                               
                                                     <xsl:value-of select=".//tei:title[@type='main'][1]/text()"/>
@@ -77,7 +80,7 @@
                                                     </xsl:if>                                                    
                                                 </td>
                                                 <td>                                                    
-                                                    <xsl:if test=".//tei:listPlace">
+                                                    <xsl:if test=".//tei:listPlace">                                                        
                                                         <xsl:variable name="latLong" select="tokenize(.//tei:listPlace/tei:place/tei:location/tei:geo/text(), ' ')"/>
                                                         <xsl:variable name="lat" select="$latLong[1]"/>
                                                         <xsl:variable name="long" select="$latLong[2]"/>
@@ -89,7 +92,7 @@
                                                             <xsl:value-of select="$long"/>
                                                         </xsl:attribute>
                                                         <xsl:attribute name="subtitle">
-                                                            <xsl:value-of select="$place"/>
+                                                            <xsl:value-of select="concat($place, ': ', $personN)"/>
                                                         </xsl:attribute>
                                                         <xsl:attribute name="class">
                                                             <xsl:text>map-coordinates</xsl:text>

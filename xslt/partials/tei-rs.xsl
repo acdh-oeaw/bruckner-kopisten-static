@@ -22,10 +22,22 @@
         <xsl:variable name="refId">
             <xsl:value-of select="substring-after(data(@ref), '#')"/>
         </xsl:variable>
+        <xsl:variable name="personTitle">
+            <xsl:for-each select="parent::tei:cell/following-sibling::tei:cell/tei:ref">                   
+                <xsl:choose>
+                    <xsl:when test="position() != last()">
+                        <xsl:value-of select="concat(., '-')"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="."/>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:for-each>                        
+        </xsl:variable>
         <xsl:choose>
             <xsl:when test="@type='place' or @type='org'">                
                 <xsl:choose>
-                    <xsl:when test="//id($refId)//tei:idno">
+                    <xsl:when test="//id($refId)//tei:idno">                        
                         <xsl:apply-templates/>
                         <a target="_blank" style="margin-left:.5em;">                 
                             <xsl:attribute name="href">
@@ -48,7 +60,7 @@
                                     <xsl:value-of select="$coords-formated"/>
                                 </xsl:attribute>
                                 <xsl:attribute name="subtitle">                                
-                                    <xsl:value-of select="//id($refId)/tei:placeName"/>
+                                    <xsl:value-of select="concat(//id($refId)/tei:placeName, ': ', $personTitle)"/>
                                 </xsl:attribute> 
                                 <xsl:attribute name="class">                                
                                     <xsl:value-of select="'map-coordinates'"/>

@@ -25,7 +25,17 @@
                     <xsl:value-of select="0"/>
                 </xsl:otherwise>
             </xsl:choose>            
-        </xsl:variable> 
+        </xsl:variable>
+        <xsl:variable name="dt-script">
+            <xsl:choose>
+                <xsl:when test="starts-with(.//tei:title[@type='sub'][1]/text(), 'Tabelle 3')">
+                    <xsl:value-of select="concat('leafletDatatable(`tabellen-table`);createDataTable(`tabellen-table`, 20, ' , $start, ');')"/>                        
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="concat('createDataTable(`tabellen-table`, 20, ' , $start, ');')"/>
+                </xsl:otherwise>
+            </xsl:choose>            
+        </xsl:variable>
         <xsl:variable name="doc_title">
             <xsl:value-of select=".//tei:title[@type='sub'][1]/text()"/>
         </xsl:variable>
@@ -41,7 +51,7 @@
                 </style>
             </head>                  
             
-            <body class="page" onload="createDataTable('tabellen-table', 20, {$start});leafletDatatable('tabellen-table');">
+            <body class="page" onload="{$dt-script}">
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
                     
