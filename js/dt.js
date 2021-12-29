@@ -12,19 +12,23 @@ function hideSearchInputs(containerElement, columns) {
     }
 }
 
-function createDataTable(containerElement, order, pageLength) {
+function createDataTable(containerElement, pageLength) {
     
     $(`#${containerElement} thead tr`)
         .clone(true)
         .addClass('filters')
         .appendTo(`#${containerElement} thead`);
-
+    if (pageLength != null) {
+        pl = pageLength;
+    } else {
+        pl = 50;
+    }
     var table = $(`#${containerElement}`).DataTable({
         dom: "'<'row controlwrapper'<'col-sm-4'f><'col-sm-4'i><'col-sm-4 exportbuttons'Br>>'" +
             "'<'row'<'col-sm-12't>>'" +
             "'<'row'<'col-sm-6 offset-sm-6'p>>'",
         responsive: true,
-        pageLength: 50,
+        "pageLength": pl,    
         buttons: [{
             extend: 'copyHtml5',
             text: '<i class="far fa-copy"/>',
@@ -52,7 +56,7 @@ function createDataTable(containerElement, order, pageLength) {
                 $(node).removeClass('btn-secondary')
             }
         }],
-        order: order,
+        // order: order,
         orderCellsTop: true,
         fixedHeader: true,
         initComplete: function () {
