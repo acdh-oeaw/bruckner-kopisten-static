@@ -15,7 +15,7 @@
       <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
       <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
       <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script src="https://unpkg.com/arche-api@1.2.0/lib/arche-api.min.js"></script></head>
-   <body class="page" onload="createDataTable('tocTable', 20, 0);leafletDatatable('tocTable');">
+   <body class="page" onload="leafletDatatable('tocTable');createDataTable('tocTable', 20, 0);">
       <div class="hfeed site" id="page">
          <div class="wrapper-fluid wrapper-navbar sticky-navbar" id="wrapper-navbar"><a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a><nav class="navbar navbar-expand-lg navbar-light" style="margin-right:0!important;">
                <div class="container"><a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="img/Bruckner_Logo_KK_web.png" class="img-fluid" title="Bruckner Kopisten Online" alt="Bruckner Kopisten Online" itemprop="logo" /></a><a class="navbar-brand site-title-with-logo" rel="home" href="index.html" title="Bruckner Kopisten Online" itemprop="url"></a><span style="margin-left:-1.7em;" class="badge bg-light text-dark">in development</span><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
@@ -68,7 +68,7 @@
                               Primary Sources</td>
                            <td>Linzer Kopisten | 
                               Linz copyist</td>
-                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz: Anonymus 141" class="map-coordinates">Linz</td>
                            <td><a href="anonymus-141.html" title="anonymus-141.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -99,7 +99,7 @@
                            <td>Primärquellen | 
                               Primary Sources</td>
                            <td></td>
-                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz: Hofmeister, Karl" class="map-coordinates">Linz</td>
                            <td><a href="hofmeister-karl.html" title="hofmeister-karl.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -141,7 +141,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
-                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian: Anonymus 124" class="map-coordinates">St. Florian</td>
                            <td><a href="anonymus-124.html" title="anonymus-124.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -171,7 +171,7 @@
                            <td></td>
                            <td>Klosterneuburger Kopisten | 
                               </td>
-                           <td lat="48.305210000000" long="16.325220000000" subtitle="Klosterneuburg" class="map-coordinates">Klosterneuburg</td>
+                           <td lat="48.305210000000" long="16.325220000000" subtitle="Klosterneuburg: Kopist E. M." class="map-coordinates">Klosterneuburg</td>
                            <td><a href="kopist-e-m.html" title="kopist-e-m.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -181,7 +181,7 @@
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
                            <td></td>
-                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian: Seiberl, Josef" class="map-coordinates">St. Florian</td>
                            <td><a href="seiberl-josef.html" title="seiberl-josef.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -203,7 +203,7 @@
                               Secondary Sources</td>
                            <td>Kremsmünster Kopisten | 
                               Kremsmünster copyists</td>
-                           <td lat="48.052900000000" long="14.129190000000" subtitle="Kremsmünster" class="map-coordinates">Kremsmünster</td>
+                           <td lat="48.052900000000" long="14.129190000000" subtitle="Kremsmünster: Jari, Franz" class="map-coordinates">Kremsmünster</td>
                            <td><a href="jari-franz.html" title="jari-franz.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -235,7 +235,7 @@
                               Secondary Sources</td>
                            <td>Linzer Kopisten | 
                               Linz copyists</td>
-                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz: Anonymus 093" class="map-coordinates">Linz</td>
                            <td><a href="anonymus-093.html" title="anonymus-093.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -256,7 +256,7 @@
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
                            <td></td>
-                           <td lat="48.220860000000" long="14.238330000000" subtitle="Traun" class="map-coordinates">Traun</td>
+                           <td lat="48.220860000000" long="14.238330000000" subtitle="Traun: Schmidinger, Cajetan" class="map-coordinates">Traun</td>
                            <td><a href="schmidinger-cajetan.html" title="schmidinger-cajetan.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -267,7 +267,7 @@
                               Secondary Sources</td>
                            <td>Kremsmünster Kopisten | 
                               Kremsmünster copyists</td>
-                           <td lat="48.052900000000" long="14.129190000000" subtitle="Kremsmünster" class="map-coordinates">Kremsmünster</td>
+                           <td lat="48.052900000000" long="14.129190000000" subtitle="Kremsmünster: Kopist J. K." class="map-coordinates">Kremsmünster</td>
                            <td><a href="kopist-j-k.html" title="kopist-j-k.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -298,7 +298,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
-                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian: Anonymus 097" class="map-coordinates">St. Florian</td>
                            <td><a href="anonymus-097.html" title="anonymus-097.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -319,7 +319,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyists</td>
-                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian: Haybäck, Johann" class="map-coordinates">St. Florian</td>
                            <td><a href="hayback-hans-johann.html" title="hayback-hans-johann.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -350,7 +350,7 @@
                            <td>Primärquellen | 
                               Primary Sources</td>
                            <td></td>
-                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian: Aigner, Karl" class="map-coordinates">St. Florian</td>
                            <td><a href="aigner-karl.html" title="aigner-karl.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -361,7 +361,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
-                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian: Anonymus 123" class="map-coordinates">St. Florian</td>
                            <td><a href="anonymus-123.html" title="anonymus-123.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -372,7 +372,7 @@
                               Secondary Sources</td>
                            <td>Steyrer Kopisten | 
                               Steyr copyists</td>
-                           <td lat="48.033330000000" long="14.416670000000" subtitle="Steyr" class="map-coordinates">Steyr</td>
+                           <td lat="48.033330000000" long="14.416670000000" subtitle="Steyr: Bayer, Juliane" class="map-coordinates">Steyr</td>
                            <td><a href="bayer-juliane.html" title="bayer-juliane.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -383,7 +383,7 @@
                               Primary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
-                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian: Anonymus 159" class="map-coordinates">St. Florian</td>
                            <td><a href="anonymus-159.html" title="anonymus-159.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -416,7 +416,7 @@
                               Primary Sources</td>
                            <td>Linzer Kopisten | 
                               Linz copyists</td>
-                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz: Kopist Cervenko" class="map-coordinates">Linz</td>
                            <td><a href="kopist-cervenko.html" title="kopist-cervenko.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -447,7 +447,7 @@
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
                            <td></td>
-                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian: Gruber, Josef" class="map-coordinates">St. Florian</td>
                            <td><a href="gruber-josef.html" title="gruber-josef.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -457,7 +457,7 @@
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
                            <td></td>
-                           <td lat="48.305210000000" long="16.325220000000" subtitle="Klosterneuburg" class="map-coordinates">Klosterneuburg</td>
+                           <td lat="48.305210000000" long="16.325220000000" subtitle="Klosterneuburg: Anonymus 115" class="map-coordinates">Klosterneuburg</td>
                            <td><a href="anonymus-115.html" title="anonymus-115.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -468,7 +468,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
-                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian: Anonymus 095" class="map-coordinates">St. Florian</td>
                            <td><a href="anonymus-095.html" title="anonymus-095.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -489,7 +489,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
-                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian: Anonymus 130" class="map-coordinates">St. Florian</td>
                            <td><a href="anonymus-130.html" title="anonymus-130.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -499,7 +499,7 @@
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
                            <td></td>
-                           <td lat="47.800670000000" long="13.045320000000" subtitle="Salzburg" class="map-coordinates">Salzburg</td>
+                           <td lat="47.800670000000" long="13.045320000000" subtitle="Salzburg: Anonymus 132" class="map-coordinates">Salzburg</td>
                            <td><a href="anonymus-132.html" title="anonymus-132.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -510,7 +510,7 @@
                               Secondary Sources</td>
                            <td>Klosterneuburgerer Kopisten | 
                               Klosterneuburg copyists</td>
-                           <td lat="48.305210000000" long="16.325220000000" subtitle="Klosterneuburg" class="map-coordinates">Klosterneuburg</td>
+                           <td lat="48.305210000000" long="16.325220000000" subtitle="Klosterneuburg: Kopist H. I." class="map-coordinates">Klosterneuburg</td>
                            <td><a href="kopist-h-i.html" title="kopist-h-i.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -530,7 +530,7 @@
                            <td>Maaß, Karl</td>
                            <td></td>
                            <td></td>
-                           <td lat="48.003130000000" long="13.657720000000" subtitle="Vöcklabruck" class="map-coordinates">Vöcklabruck</td>
+                           <td lat="48.003130000000" long="13.657720000000" subtitle="Vöcklabruck: Maaß, Karl" class="map-coordinates">Vöcklabruck</td>
                            <td><a href="maass-karl.html" title="maass-karl.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -541,7 +541,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
-                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian: Anonymus 150" class="map-coordinates">St. Florian</td>
                            <td><a href="anonymus-150.html" title="anonymus-150.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -645,7 +645,7 @@
                               Primary Sources</td>
                            <td>Kremsmünsterer Kopisten | 
                               Kremsmünster copyists</td>
-                           <td lat="48.052900000000" long="14.129190000000" subtitle="Kremsmünster" class="map-coordinates">Kremsmünster</td>
+                           <td lat="48.052900000000" long="14.129190000000" subtitle="Kremsmünster: Loidol, Oddo" class="map-coordinates">Kremsmünster</td>
                            <td><a href="loidol-oddo.html" title="loidol-oddo.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -677,7 +677,7 @@
                               Secondary Sources</td>
                            <td>Linzer Kopisten | 
                               Linz copyists</td>
-                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz: Anonymus 135" class="map-coordinates">Linz</td>
                            <td><a href="anonymus-135.html" title="anonymus-135.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -698,7 +698,7 @@
                               Secondary Sources</td>
                            <td>Linzer Kopisten | 
                               Linz copyists</td>
-                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz: Anonymus 087" class="map-coordinates">Linz</td>
                            <td><a href="anonymus-087.html" title="anonymus-087.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -719,7 +719,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
-                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian: Anonymus 147" class="map-coordinates">St. Florian</td>
                            <td><a href="anonymus-147.html" title="anonymus-147.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -751,7 +751,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
-                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian: Anonymus 156" class="map-coordinates">St. Florian</td>
                            <td><a href="anonymus-156.html" title="anonymus-156.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -772,7 +772,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
-                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian: Anonymus 121" class="map-coordinates">St. Florian</td>
                            <td><a href="anonymus-121.html" title="anonymus-121.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -783,7 +783,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
-                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian: Anonymus 104" class="map-coordinates">St. Florian</td>
                            <td><a href="anonymus-104.html" title="anonymus-104.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -815,7 +815,7 @@
                               Secondary Sources</td>
                            <td>Kremsmünsterer Kopisten | 
                               Kremsmünster copyists</td>
-                           <td lat="48.052900000000" long="14.129190000000" subtitle="Kremsmünster" class="map-coordinates">Kremsmünster</td>
+                           <td lat="48.052900000000" long="14.129190000000" subtitle="Kremsmünster: Anonymus 023" class="map-coordinates">Kremsmünster</td>
                            <td><a href="anonymus-023.html" title="anonymus-023.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -826,7 +826,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
-                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian: Anonymus 122" class="map-coordinates">St. Florian</td>
                            <td><a href="anonymus-122.html" title="anonymus-122.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -859,7 +859,7 @@
                               Primary Sources</td>
                            <td>Linzer Kopisten | 
                               Linz copyist</td>
-                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz: Anonymus 002" class="map-coordinates">Linz</td>
                            <td><a href="anonymus-002.html" title="anonymus-002.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -881,7 +881,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
-                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian: Anonymus 105" class="map-coordinates">St. Florian</td>
                            <td><a href="anonymus-105.html" title="anonymus-105.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -903,7 +903,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
-                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian: Anonymus 103" class="map-coordinates">St. Florian</td>
                            <td><a href="anonymus-103.html" title="anonymus-103.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -914,7 +914,7 @@
                               Secondary Sources</td>
                            <td>Kremsmünsterer Kopisten | 
                               Kremsmünster copyists</td>
-                           <td lat="48.052900000000" long="14.129190000000" subtitle="Kremsmünster" class="map-coordinates">Kremsmünster</td>
+                           <td lat="48.052900000000" long="14.129190000000" subtitle="Kremsmünster: Kerschbaum, Maximilian" class="map-coordinates">Kremsmünster</td>
                            <td><a href="kerschbaum-maximilian.html" title="kerschbaum-maximilian.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -924,7 +924,7 @@
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
                            <td></td>
-                           <td lat="48.052900000000" long="14.129190000000" subtitle="Kremsmünster" class="map-coordinates">Kremsmünster</td>
+                           <td lat="48.052900000000" long="14.129190000000" subtitle="Kremsmünster: Feyrer, Benno" class="map-coordinates">Kremsmünster</td>
                            <td><a href="feyrer-benno.html" title="feyrer-benno.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -945,7 +945,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
-                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian: Anonymus 153" class="map-coordinates">St. Florian</td>
                            <td><a href="anonymus-153.html" title="anonymus-153.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -956,7 +956,7 @@
                               Secondary Sources</td>
                            <td>Kremsmünsterer Kopisten | 
                               Kremsmünster copyists</td>
-                           <td lat="48.052900000000" long="14.129190000000" subtitle="Kremsmünster" class="map-coordinates">Kremsmünster</td>
+                           <td lat="48.052900000000" long="14.129190000000" subtitle="Kremsmünster: Anonymus 096" class="map-coordinates">Kremsmünster</td>
                            <td><a href="anonymus-096.html" title="anonymus-096.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -966,7 +966,7 @@
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
                            <td></td>
-                           <td lat="48.003130000000" long="13.657720000000" subtitle="Vöcklabruck" class="map-coordinates">Vöcklabruck</td>
+                           <td lat="48.003130000000" long="13.657720000000" subtitle="Vöcklabruck: Anonymus 134" class="map-coordinates">Vöcklabruck</td>
                            <td><a href="anonymus-134.html" title="anonymus-134.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -988,7 +988,7 @@
                               Secondary Sources</td>
                            <td>Kremsmünster Kopisten | 
                               Kremsmünster copists</td>
-                           <td lat="48.052900000000" long="14.129190000000" subtitle="Kremsmünster" class="map-coordinates">Kremsmünster</td>
+                           <td lat="48.052900000000" long="14.129190000000" subtitle="Kremsmünster: Kellner, Altman" class="map-coordinates">Kremsmünster</td>
                            <td><a href="kellner-altman.html" title="kellner-altman.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -999,7 +999,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
-                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian: Anonymus 085" class="map-coordinates">St. Florian</td>
                            <td><a href="anonymus-085.html" title="anonymus-085.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -1031,7 +1031,7 @@
                               Secondary Sources</td>
                            <td>Steyrer Kopisten | 
                               Steyr copyists</td>
-                           <td lat="48.033330000000" long="14.416670000000" subtitle="Steyr" class="map-coordinates">Steyr</td>
+                           <td lat="48.033330000000" long="14.416670000000" subtitle="Steyr: Pfändtner, Albert" class="map-coordinates">Steyr</td>
                            <td><a href="pfandtner-albert.html" title="pfandtner-albert.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -1041,7 +1041,7 @@
                            <td>Primärquellen | 
                               Primary Sources</td>
                            <td></td>
-                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz: Göllerich, August" class="map-coordinates">Linz</td>
                            <td><a href="gollerich-august.html" title="gollerich-august.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -1072,7 +1072,7 @@
                               Primary Sources</td>
                            <td>Linzer Kopisten | 
                               Linz copyists</td>
-                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz: Schimatschek, Franz" class="map-coordinates">Linz</td>
                            <td><a href="schimatschek-franz.html" title="schimatschek-franz.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -1083,7 +1083,7 @@
                               Secondary Sources</td>
                            <td>Linzer Kopisten | 
                               Linz copyists</td>
-                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz: Anonymus 079" class="map-coordinates">Linz</td>
                            <td><a href="anonymus-079.html" title="anonymus-079.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -1165,7 +1165,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
-                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian: Anonymus 098" class="map-coordinates">St. Florian</td>
                            <td><a href="anonymus-098.html" title="anonymus-098.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -1176,7 +1176,7 @@
                               Primary Sources</td>
                            <td>Linzer Kopisten | 
                               Linz copyist</td>
-                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz: Anonymus 001" class="map-coordinates">Linz</td>
                            <td><a href="anonymus-001.html" title="anonymus-001.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -1187,7 +1187,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
-                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian: Anonymus 127" class="map-coordinates">St. Florian</td>
                            <td><a href="anonymus-127.html" title="anonymus-127.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -1198,7 +1198,7 @@
                               Primary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copiysts</td>
-                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian: Kopist M. Sch." class="map-coordinates">St. Florian</td>
                            <td><a href="kopist-m-sch.html" title="kopist-m-sch.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -1208,7 +1208,7 @@
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
                            <td></td>
-                           <td lat="48.052900000000" long="14.129190000000" subtitle="Kremsmünster" class="map-coordinates">Kremsmünster</td>
+                           <td lat="48.052900000000" long="14.129190000000" subtitle="Kremsmünster: Lehofer, August" class="map-coordinates">Kremsmünster</td>
                            <td><a href="lehofer-august.html" title="lehofer-august.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -1219,7 +1219,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
-                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian: Anonymus 131" class="map-coordinates">St. Florian</td>
                            <td><a href="anonymus-131.html" title="anonymus-131.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -1240,7 +1240,7 @@
                               Secondary Sources</td>
                            <td>Linzer Kopisten | 
                               Linz copyists</td>
-                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz: Anonymus 081" class="map-coordinates">Linz</td>
                            <td><a href="anonymus-081.html" title="anonymus-081.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -1260,7 +1260,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
-                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian: Anonymus 020" class="map-coordinates">St. Florian</td>
                            <td><a href="anonymus-020.html" title="anonymus-020.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -1279,7 +1279,7 @@
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
                            <td></td>
-                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz: Anonymus 091" class="map-coordinates">Linz</td>
                            <td><a href="anonymus-091.html" title="anonymus-091.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -1300,7 +1300,7 @@
                               Primary Sources</td>
                            <td>Linzer Kopisten | 
                               Linz copyists</td>
-                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz: Anonymus 142" class="map-coordinates">Linz</td>
                            <td><a href="anonymus-142.html" title="anonymus-142.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -1331,7 +1331,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
-                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian: Anonymus 118" class="map-coordinates">St. Florian</td>
                            <td><a href="anonymus-118.html" title="anonymus-118.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -1342,7 +1342,7 @@
                               Primary Sources</td>
                            <td>Linzer Kopisten | 
                               Linz copyist</td>
-                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz: Anonymus 066" class="map-coordinates">Linz</td>
                            <td><a href="anonymus-066.html" title="anonymus-066.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -1373,7 +1373,7 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyist</td>
-                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz: Anonymus 021" class="map-coordinates">Linz</td>
                            <td><a href="anonymus-021.html" title="anonymus-021.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -1384,7 +1384,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
-                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian: Anonymus 099" class="map-coordinates">St. Florian</td>
                            <td><a href="anonymus-099.html" title="anonymus-099.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -1394,7 +1394,7 @@
                            <td>Primärquellen | 
                               Primary Sources</td>
                            <td></td>
-                           <td lat="48.033330000000" long="14.416670000000" subtitle="Steyr" class="map-coordinates">Steyr</td>
+                           <td lat="48.033330000000" long="14.416670000000" subtitle="Steyr: Bayer, Franz Xaver" class="map-coordinates">Steyr</td>
                            <td><a href="bayer-franz-xaver.html" title="bayer-franz-xaver.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -1437,7 +1437,7 @@
                               Primary Sources</td>
                            <td>Linzer Kopisten | 
                               Linz copyists</td>
-                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz: Anonymus 088" class="map-coordinates">Linz</td>
                            <td><a href="anonymus-088.html" title="anonymus-088.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -1469,7 +1469,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
-                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian: Anonymus 157" class="map-coordinates">St. Florian</td>
                            <td><a href="anonymus-157.html" title="anonymus-157.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -1490,7 +1490,7 @@
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
                            <td></td>
-                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz: Gräflinger, Franz" class="map-coordinates">Linz</td>
                            <td><a href="graflinger-franz.html" title="graflinger-franz.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -1501,7 +1501,7 @@
                               Secondary Sources</td>
                            <td>Kremsmünsterer Kopisten | 
                               Kremsmünster copyists</td>
-                           <td lat="48.052900000000" long="14.129190000000" subtitle="Kremsmünster" class="map-coordinates">Kremsmünster</td>
+                           <td lat="48.052900000000" long="14.129190000000" subtitle="Kremsmünster: Anonymus 035" class="map-coordinates">Kremsmünster</td>
                            <td><a href="anonymus-035.html" title="anonymus-035.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -1533,7 +1533,7 @@
                               Secondary Sources</td>
                            <td>Kremsmünsterer Kopisten | 
                               Kremsmünster copiysts</td>
-                           <td lat="48.052900000000" long="14.129190000000" subtitle="Kremsmünster" class="map-coordinates">Kremsmünster</td>
+                           <td lat="48.052900000000" long="14.129190000000" subtitle="Kremsmünster: Stolz, Ernst" class="map-coordinates">Kremsmünster</td>
                            <td><a href="stolz-ernst.html" title="stolz-ernst.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -1544,7 +1544,7 @@
                               Secondary Sources</td>
                            <td>Kremsmünster Kopisten | 
                               Kremsmünster copyists</td>
-                           <td lat="48.052900000000" long="14.129190000000" subtitle="Kremsmünster" class="map-coordinates">Kremsmünster</td>
+                           <td lat="48.052900000000" long="14.129190000000" subtitle="Kremsmünster: Kopist G. A." class="map-coordinates">Kremsmünster</td>
                            <td><a href="kopist-g-a.html" title="kopist-g-a.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -1566,7 +1566,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
-                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian: Anonymus 100" class="map-coordinates">St. Florian</td>
                            <td><a href="anonymus-100.html" title="anonymus-100.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -1631,7 +1631,7 @@
                               Secondary Sources</td>
                            <td>Steyrer Kopisten | 
                               Steyr copyists</td>
-                           <td lat="48.033330000000" long="14.416670000000" subtitle="Steyr" class="map-coordinates">Steyr</td>
+                           <td lat="48.033330000000" long="14.416670000000" subtitle="Steyr: Karmazin, Jaroslav" class="map-coordinates">Steyr</td>
                            <td><a href="karmazin-jaroslav.html" title="karmazin-jaroslav.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -1670,7 +1670,7 @@
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
                            <td></td>
-                           <td lat="47.800670000000" long="13.045320000000" subtitle="Salzburg" class="map-coordinates">Salzburg</td>
+                           <td lat="47.800670000000" long="13.045320000000" subtitle="Salzburg: Anonymus 133" class="map-coordinates">Salzburg</td>
                            <td><a href="anonymus-133.html" title="anonymus-133.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -1681,7 +1681,7 @@
                               Secondary Sources</td>
                            <td>Kremsmünsterer Kopisten | 
                               Kremsmünster copyists</td>
-                           <td lat="48.052900000000" long="14.129190000000" subtitle="Kremsmünster" class="map-coordinates">Kremsmünster</td>
+                           <td lat="48.052900000000" long="14.129190000000" subtitle="Kremsmünster: Anonymus 022" class="map-coordinates">Kremsmünster</td>
                            <td><a href="anonymus-022.html" title="anonymus-022.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -1744,7 +1744,7 @@
                               Primary Sources</td>
                            <td>Linzer Kopisten | 
                               Linz copyists</td>
-                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz: Posch, Emil" class="map-coordinates">Linz</td>
                            <td><a href="posch-emil.html" title="posch-emil.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -1754,7 +1754,7 @@
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
                            <td></td>
-                           <td lat="48.003130000000" long="13.657720000000" subtitle="Vöcklabruck" class="map-coordinates">Vöcklabruck</td>
+                           <td lat="48.003130000000" long="13.657720000000" subtitle="Vöcklabruck: Auer, Max" class="map-coordinates">Vöcklabruck</td>
                            <td><a href="auer-max.html" title="auer-max.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -1765,7 +1765,7 @@
                               Secondary Sources</td>
                            <td>Linzer Kopisten | 
                               Linz copyists</td>
-                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz: Anonymus 082" class="map-coordinates">Linz</td>
                            <td><a href="anonymus-082.html" title="anonymus-082.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -1776,7 +1776,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
-                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian: Anonymus 129" class="map-coordinates">St. Florian</td>
                            <td><a href="anonymus-129.html" title="anonymus-129.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -1787,7 +1787,7 @@
                               Secondary Sources</td>
                            <td>Linzer Kopisten | 
                               Linz copyists</td>
-                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz: Anonymus 080" class="map-coordinates">Linz</td>
                            <td><a href="anonymus-080.html" title="anonymus-080.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -1797,7 +1797,7 @@
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
                            <td></td>
-                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian: Traumihler, Ignaz" class="map-coordinates">St. Florian</td>
                            <td><a href="traumihler-ignaz.html" title="traumihler-ignaz.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -1847,7 +1847,7 @@
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
                            <td></td>
-                           <td lat="48.583610000000" long="7.748060000000" subtitle="Straßburg" class="map-coordinates">Straßburg</td>
+                           <td lat="48.583610000000" long="7.748060000000" subtitle="Straßburg: Goetz, Frédèric" class="map-coordinates">Straßburg</td>
                            <td><a href="goetz-frederic.html" title="goetz-frederic.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -1869,7 +1869,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
-                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian: Anonymus 102" class="map-coordinates">St. Florian</td>
                            <td><a href="anonymus-102.html" title="anonymus-102.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -1880,7 +1880,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
-                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian: Anonymus 094" class="map-coordinates">St. Florian</td>
                            <td><a href="anonymus-094.html" title="anonymus-094.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -1944,7 +1944,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
-                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian: Anonymus 158" class="map-coordinates">St. Florian</td>
                            <td><a href="anonymus-158.html" title="anonymus-158.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -1955,7 +1955,7 @@
                               Primary Sources</td>
                            <td>Wiener Kopisten | 
                               Vienna copyists</td>
-                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz: Carda, Johann" class="map-coordinates">Linz</td>
                            <td><a href="carda-johann.html" title="carda-johann.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -2007,7 +2007,7 @@
                               Primary Sources</td>
                            <td>Linzer Kopisten | 
                               Linz copyists</td>
-                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz: Anonymus 092" class="map-coordinates">Linz</td>
                            <td><a href="anonymus-092.html" title="anonymus-092.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -2029,7 +2029,7 @@
                               Primary Sources</td>
                            <td>Linzer Kopisten | 
                               Linz copyist</td>
-                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz: Anonymus 004" class="map-coordinates">Linz</td>
                            <td><a href="anonymus-004.html" title="anonymus-004.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -2040,7 +2040,7 @@
                               Primary Sources</td>
                            <td>Linzer Kopisten | 
                               Linz copyists</td>
-                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz: Rossi, Franz" class="map-coordinates">Linz</td>
                            <td><a href="rossi-franz.html" title="rossi-franz.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -2073,7 +2073,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
-                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian: Anonymus 136" class="map-coordinates">St. Florian</td>
                            <td><a href="anonymus-136.html" title="anonymus-136.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -2104,7 +2104,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
-                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian: Anonymus 146" class="map-coordinates">St. Florian</td>
                            <td><a href="anonymus-146.html" title="anonymus-146.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -2167,7 +2167,7 @@
                               Secondary Sources</td>
                            <td>Linzer Kopisten | 
                               Linz copyists</td>
-                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz: Anonymus 056" class="map-coordinates">Linz</td>
                            <td><a href="anonymus-056.html" title="anonymus-056.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -2220,7 +2220,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
-                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian: Anonymus 128" class="map-coordinates">St. Florian</td>
                            <td><a href="anonymus-128.html" title="anonymus-128.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -2231,7 +2231,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyists</td>
-                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian: Kopist Zeller" class="map-coordinates">St. Florian</td>
                            <td><a href="kopist-zeller.html" title="kopist-zeller.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -2252,7 +2252,7 @@
                               Primary Sources</td>
                            <td>Steyrer Kopisten | 
                               Steyr copyists</td>
-                           <td lat="48.033330000000" long="14.416670000000" subtitle="Steyr" class="map-coordinates">Steyr</td>
+                           <td lat="48.033330000000" long="14.416670000000" subtitle="Steyr: Anonymus 120" class="map-coordinates">Steyr</td>
                            <td><a href="anonymus-120.html" title="anonymus-120.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -2284,7 +2284,7 @@
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
                            <td></td>
-                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz: Bauer, Arthur" class="map-coordinates">Linz</td>
                            <td><a href="bauer-arthur.html" title="bauer-arthur.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -2337,7 +2337,7 @@
                               Secondary Sources</td>
                            <td>Linzer Kopisten | 
                               Linz copyists</td>
-                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz: Poppel, Friedrich" class="map-coordinates">Linz</td>
                            <td><a href="poppel-friedrich.html" title="poppel-friedrich.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -2359,7 +2359,7 @@
                               Primary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
-                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian: Anonymus 003" class="map-coordinates">St. Florian</td>
                            <td><a href="anonymus-003.html" title="anonymus-003.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -2391,7 +2391,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
-                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian: Anonymus 101" class="map-coordinates">St. Florian</td>
                            <td><a href="anonymus-101.html" title="anonymus-101.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -2412,7 +2412,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copyist</td>
-                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian: Anonymus 137" class="map-coordinates">St. Florian</td>
                            <td><a href="anonymus-137.html" title="anonymus-137.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -2422,7 +2422,7 @@
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
                            <td></td>
-                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz: Anonymus 015" class="map-coordinates">Linz</td>
                            <td><a href="anonymus-015.html" title="anonymus-015.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -2463,7 +2463,7 @@
                            <td>Sekundärquellen | 
                               Secondary Sources</td>
                            <td></td>
-                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz: Burgstaller, Johann Baptist" class="map-coordinates">Linz</td>
                            <td><a href="burgstaller-johann-baptist.html" title="burgstaller-johann-baptist.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -2484,7 +2484,7 @@
                               Secondary Sources</td>
                            <td>St. Florianer Kopisten | 
                               St. Florian copiysts</td>
-                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian" class="map-coordinates">St. Florian</td>
+                           <td lat="48.205680000000" long="14.378360000000" subtitle="St. Florian: Müller, Franz Xaver" class="map-coordinates">St. Florian</td>
                            <td><a href="muller-franz-xaver.html" title="muller-franz-xaver.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
@@ -2506,7 +2506,7 @@
                               Secondary Sources</td>
                            <td>Linzer Kopisten | 
                               Linz copyists</td>
-                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz" class="map-coordinates">Linz</td>
+                           <td lat="48.306390000000" long="14.286110000000" subtitle="Linz: Anonymus 083" class="map-coordinates">Linz</td>
                            <td><a href="anonymus-083.html" title="anonymus-083.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
                                     <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path></svg></a></td>
