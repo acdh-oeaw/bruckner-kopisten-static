@@ -12,10 +12,10 @@ function leafletDatatable(table) {
         zIndex: 1
     }).addTo(mymap);
     
-    //create labels for each coordinate existing lat long coordinate
+    // create labels for each coordinate existing lat long coordinate
     var markers = L.markerClusterGroup();
     var markersStart = L.markerClusterGroup();
-    var coordinatesStart = getCoordinates();
+    getCoordinates();
     mymap.addLayer(markers);
     try {
         mymap.fitBounds(markers.getBounds());
@@ -38,9 +38,9 @@ function leafletDatatable(table) {
     //     keepConditions: true
     // });
     
-    tableOne.on('search.dt', function(){
+    tableOne.on('search.dt', function() {
         markers.clearLayers();
-        var currentLayer = getCoordinates();
+        getCoordinates();
         mymap.addLayer(markers);
         try {
             mymap.fitBounds(markers.getBounds());
@@ -50,9 +50,9 @@ function leafletDatatable(table) {
 
     });
     
-    tableOne.on('page.dt', function(){
+    tableOne.on('page.dt', function() {
         markers.clearLayers();
-        var currentLayer = getCoordinates();
+        getCoordinates();
         mymap.addLayer(markers);
         try {
             mymap.fitBounds(markers.getBounds());
@@ -60,14 +60,32 @@ function leafletDatatable(table) {
             console.log(err);
         }
     });
-        
-    function getCoordinates(){
-        document.body.querySelectorAll('.map-coordinates').forEach(function(node){
+
+    // $("#tableReload").on('click', function() {
+    //     markers.clearLayers();
+    //     markers = markersStart;
+    //     console.log(markers);
+    //     mymap.addLayer(markers);
+    //     try {
+    //         mymap.fitBounds(markers.getBounds());
+    //     } catch (err) {
+    //         console.log(err);
+    //     }
+    // });
+     
+    var second = false;
+    function getCoordinates() {        
+        document.body.querySelectorAll('.map-coordinates').forEach(function(node) {
             var lat = node.getAttribute('lat');
             var long = node.getAttribute('long');
             var place = node.getAttribute('subtitle');
             markers.addLayer(L.marker([lat,long]).bindPopup(place));
-            markersStart.addLayer(L.marker([lat,long]).bindPopup(place));
-        });
+            if (second = false) {
+                markersStart.addLayer(L.marker([lat,long]).bindPopup(place));
+                // console.log("added second layer");
+            }
+        });       
+        second = true;
     };
 }
+

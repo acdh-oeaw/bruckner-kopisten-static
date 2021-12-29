@@ -42,6 +42,7 @@
                         </div>                        
                         <div class="card">
                             <div class="card-header">
+                                <!--<h1 id="tableReload">Reload</h1>-->
                                 <h1>Kopisten Gesamt</h1>
                             </div>
                             <div class="card-body">                                
