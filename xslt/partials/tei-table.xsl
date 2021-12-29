@@ -97,12 +97,11 @@
                     </xsl:when>
                     <xsl:when test="not(@xml:lang)">
                         <td class="{@role}"><xsl:apply-templates/></td>
-                    </xsl:when>
+                    </xsl:when>                    
                     <xsl:otherwise>
                         
                     </xsl:otherwise>
-                </xsl:choose>
-                                               
+                </xsl:choose>                                               
             </xsl:when>            
             <xsl:otherwise>                
                 <td><xsl:apply-templates/></td>                  
