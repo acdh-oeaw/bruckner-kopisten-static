@@ -14,10 +14,20 @@
     <xsl:import href="partials/tei-table.xsl"/>
     <xsl:import href="partials/tei-rs.xsl"/>
     <xsl:import href="partials/tei-geo.xsl"/>
-    
+
     <xsl:template match="/">
+        <xsl:variable name="start" as="xs:int">
+            <xsl:choose>
+                <xsl:when test="starts-with(.//tei:title[@type='sub'][1]/text(), 'Tabelle 4')">
+                    <xsl:value-of select="3"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="0"/>
+                </xsl:otherwise>
+            </xsl:choose>            
+        </xsl:variable> 
         <xsl:variable name="doc_title">
-            <xsl:value-of select=".//tei:title[@type='main'][1]/text()"/>
+            <xsl:value-of select=".//tei:title[@type='sub'][1]/text()"/>
         </xsl:variable>
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
         <html>
@@ -29,9 +39,9 @@
                 <style>
 
                 </style>
-            </head>            
+            </head>                  
             
-            <body class="page">
+            <body class="page" onload="createDataTable('tabellen-table', 20, {$start});leafletDatatable('tabellen-table');">
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
                     
@@ -49,14 +59,14 @@
                 </div>
             </body>
             <script src="js/one_leaflet_refactored.js"/>
-            <script>
-                $(document).ready(function () {
-                    leafletDatatable('tocTable')
-                }); 
-                $(document).ready(function () {
-                    createDataTable('tocTable', 20)
-                });                                               
-            </script>          
+            <xsl:choose>
+                <xsl:when test="starts-with(.//tei:title[@type='sub'][1]/text(), 'Tabelle 4')">
+                    <script type="text/javascript" src="js/dt-alphabet-filter-column3.js"></script>  
+                </xsl:when>
+                <xsl:otherwise>
+                    <script type="text/javascript" src="js/dt-alphabet-filter.js"></script>  
+                </xsl:otherwise>
+            </xsl:choose>                      
         </html>
     </xsl:template>
 
@@ -69,6 +79,7 @@
     </xsl:template>   
     
     <xsl:template match="tei:list">
+        <xsl:param name="table-id"/>
         <div class="col-md-12">
             <div class="card">
                 <div class="card-header">
@@ -80,7 +91,7 @@
                     </h3> 
                 </div>
                 <div class="card-body">
-                    <table class="table table-striped" id="tocTable">
+                    <table class="table table-striped" id="{$table-id}">
                         <thead>
                             <tr>
                                 <th>

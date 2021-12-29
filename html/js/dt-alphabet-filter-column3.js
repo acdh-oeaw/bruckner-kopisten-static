@@ -5,7 +5,7 @@ $.fn.dataTable.ext.search.push( function ( settings, searchData ) {
         return true;
     }
  
-    if ( searchData[0].charAt(0) === _alphabetSearch ) {
+    if ( searchData[3].charAt(0) === _alphabetSearch ) {
         return true;
     }
  
