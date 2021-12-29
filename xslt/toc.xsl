@@ -11,6 +11,16 @@
     <xsl:import href="partials/html_footer.xsl"/>
     <xsl:import href="partials/tei-geo.xsl"/>
     <xsl:template match="/">
+        <xsl:variable name="start" as="xs:int">
+            <xsl:choose>
+                <xsl:when test="starts-with(.//tei:title[@type='sub'][1]/text(), 'Tabelle 4')">
+                    <xsl:value-of select="3"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="0"/>
+                </xsl:otherwise>
+            </xsl:choose>            
+        </xsl:variable>
         <xsl:variable name="doc_title" select="'Inhaltsverzeichnis'"/>
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
         <html xmlns="http://www.w3.org/1999/xhtml">
@@ -20,7 +30,7 @@
                 </xsl:call-template>
             </head>
             
-            <body class="page">
+            <body class="page" onload="createDataTable('tocTable', 20, {$start});leafletDatatable('tocTable');">
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
                     
@@ -111,14 +121,14 @@
                     
                     <xsl:call-template name="html_footer"/>
                     <script src="js/one_leaflet_refactored.js"/>
-                    <script>
-                        $(document).ready(function () {
-                            leafletDatatable('tocTable')
-                        }); 
-                        $(document).ready(function () {
-                            createDataTable('tocTable')
-                        });                                               
-                    </script>
+                    <xsl:choose>
+                        <xsl:when test="starts-with(.//tei:title[@type='sub'][1]/text(), 'Tabelle 4')">
+                            <script type="text/javascript" src="js/dt-alphabet-filter-column3.js"></script>  
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <script type="text/javascript" src="js/dt-alphabet-filter.js"></script>  
+                        </xsl:otherwise>
+                    </xsl:choose>
                 </div>
             </body>
         </html>

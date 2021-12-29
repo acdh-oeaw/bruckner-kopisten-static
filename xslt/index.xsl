@@ -48,7 +48,7 @@
                                             <div class="carousel-caption d-none d-md-block" style="background-image: linear-gradient(rgba(38.0, 35.3, 37.6, 0.5), rgba(38.0, 35.3, 37.6, 0.5));">
                                                 <h1>Kopisten</h1>
                                                 <h2>Gesamtbestand</h2>
-                                                <p>Some representative placeholder content for the second slide.</p>
+                                                <!--<p>Some representative placeholder content for the second slide.</p>-->
                                                 <button class="btn btn-round">
                                                     <a href="toc.html">Weiterlesen</a>
                                                 </button>
@@ -58,9 +58,9 @@
                                             <img src="img/projekt.jpg" class="d-block w-100" alt="..."/>
                                             <div class="carousel-caption d-none d-md-block" style="background-image: linear-gradient(rgba(38.0, 35.3, 37.6, 0.5), rgba(38.0, 35.3, 37.6, 0.5));">
                                                 <h1>Über das Projekt</h1>
-                                                <h2>Example Subtitle Slide 2</h2>
+                                                <!--<h2>Example Subtitle Slide 2</h2>
                                                 <h5>Second slide label</h5>
-                                                <p>Some representative placeholder content for the second slide.</p>
+                                                <p>Some representative placeholder content for the second slide.</p>-->
                                                 <button class="btn btn-round">
                                                     <a href="about.html">Weiterlesen</a>
                                                 </button>
@@ -117,6 +117,20 @@
                                         <div class="card-header">                                            
                                             <p>
                                                 Kopisten der Werke Bruckners außerhalb Wiens
+                                            </p>                                            
+                                        </div>
+                                    </div>                                    
+                                </a>
+                            </div>
+                            <div class="col-md-4">
+                                <a href="Tabelle_4.html" class="index-link">  
+                                    <div class="card index-card">
+                                        <div class="card-body" style="padding:0;">
+                                            <img src="img/Drucke_2.jpg" class="d-block w-100" alt="..."/>
+                                        </div>
+                                        <div class="card-header">                                            
+                                            <p>
+                                                Zeitraum der Kopiertätigkeit der Kopisten zu Bruckners Lebzeiten
                                             </p>                                            
                                         </div>
                                     </div>                                    

@@ -125,6 +125,10 @@ div.alphabetInfo {
     color: white;
 }
 
+.btn-round a:hover {
+    color: #444;
+}
+
 a {
     color: #ab1923;
 }
