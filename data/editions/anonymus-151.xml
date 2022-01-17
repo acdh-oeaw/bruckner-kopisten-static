@@ -89,6 +89,23 @@
                </row>
                <row role="data">
                   <cell role="Datierung">
+                     <date from="1873-02-23" to="1873-12-31">23.02.1873–31.12.1873</date>
+                  </cell>
+                  <cell role="Signatur">A-Wgm XIII 26428</cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9862">3. Symphonie</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-103">103</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Stimmen mit aut. Eintragungen</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben, anschließend teilweise überklebt</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern">SIII03</cell>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
                      <date when="1876-12-31">31.12.1876</date>
                   </cell>
                   <cell role="Signatur">

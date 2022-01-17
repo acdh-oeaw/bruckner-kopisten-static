@@ -152,31 +152,11 @@
                   <cell role="Datierung_der_Kopie/Unterschrift">104v</cell>
                   <cell role="Kommentar_intern"/>
                </row>
-               <row role="data">
-                  <cell role="Datierung">
-                     <date from="1879-09-24" to="1881-09-03">24.09.1879–03.09.1881</date>
-                  </cell>
-                  <cell role="Signatur">A-Wgm XIII 37730</cell>
-                  <cell role="Werktitel">
-                     <ref target="http://www.bruckner-online.at/ABLO_d1e9910">6. Symphonie</ref>
-                  </cell>
-                  <cell role="WAB-Nummer">
-                     <ref target="http://www.bruckner-online.at/wab-106">106</ref>
-                  </cell>
-                  <cell role="Art_der_Kopie">Stimmen</cell>
-                  <cell role="erschlossene_Datierung_der_Kopie">
-                     <date from="1881" to="1883">1881–1883</date>
-                  </cell>
-                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
-                  <cell role="Datierung_der_Kopie/Unterschrift"/>
-                  <cell role="Kommentar_intern">This may not be Tenschert check when you see
-                     AWgm</cell>
-               </row>
             </table>
             <list>
-               <head xml:lang="de">Beispiele entnommen aus: <ref target="Tenschert_Josef_A-SF20-67-01v.jpg">A-SF20-67</ref> und <ref target="Tenschert_Josef_A-WnMus.Hs.6035-001v.jpg">A-WnMus.Hs.6035</ref>
+               <head xml:lang="de">Beispiele entnommen aus: <ref target="Tenschert_Josef_A-WnMus.Hs.6035-001v.jpg">A-WnMus.Hs.6035</ref>
                </head>
-               <head xml:lang="eng">Examples taken from: <ref target="Tenschert_Josef_A-SF20-67-01v.jpg">A-SF20-67</ref> and <ref target="Tenschert_Josef_A-WnMus.Hs.6035-001v.jpg">A-WnMus.Hs.6035</ref>
+               <head xml:lang="eng">Examples taken from: <ref target="Tenschert_Josef_A-WnMus.Hs.6035-001v.jpg">A-WnMus.Hs.6035</ref>
                </head>
                <item>
                   <title xml:lang="de">Notenschlüssel</title>

@@ -62,10 +62,10 @@
                     </person>
                 </listPerson>
                 <p decls="desc" xml:lang="de">
-                    <lb/>Das Schreibprofil des Kopisten Anonymus 110 konnte dem Kopisten Anonymus 024 zugeordnet werden. Die entstprechenden Abschriften werden unter diesem Namen geführt.
+                    <lb/>Der Kopisten Anonymus 110 fertigte für Bruckner den Stimmensatz zur 6. Symphonie an.
                 </p>
                 <p decls="desc" xml:lang="eng">
-                    <lb/>The writing profile of the copyist Anonymus 110 could be assigned to the copyist Anonymus 024. The respective copies are listed under this name.
+                    <lb/>The copyist Anonymus 110 prepared the set of parts for the 6th Symphony for Bruckner.
                 </p>
                 <table>
                     <head>Abschriften</head>
@@ -88,6 +88,46 @@
                         <cell>date conjectural</cell>
                         <cell>Folios in the Copyist’s Hand</cell>
                         <cell>Copyist’s Signature or Date</cell>
+                    </row>
+                    <row role="data">
+                        <cell role="Datierung">
+                            <date from="1879-09-24" to="1881-09-03">24.09.1879–03.09.1881</date>
+                        </cell>
+                        <cell role="Signatur">
+                            <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-SF20-67">A-SF20-67</ref>
+                        </cell>
+                        <cell role="Werktitel">
+                            <ref target="http://www.bruckner-online.at/ABLO_d1e9910">6. Symphonie</ref>
+                        </cell>
+                        <cell role="WAB-Nummer">
+                            <ref target="http://www.bruckner-online.at/wab-106">106</ref>
+                        </cell>
+                        <cell role="Art_der_Kopie">Stimmen</cell>
+                        <cell role="erschlossene_Datierung_der_Kopie">
+                            <date from="1881" to="1883">1881–1883</date>
+                        </cell>
+                        <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                        <cell role="Datierung_der_Kopie/Unterschrift"/>
+                        <cell role="Kommentar_intern"/>
+                    </row>
+                    <row role="data">
+                        <cell role="Datierung">
+                            <date from="1879-09-24" to="1881-09-03">24.09.1879–03.09.1881</date>
+                        </cell>
+                        <cell role="Signatur">A-Wgm XIII 37730</cell>
+                        <cell role="Werktitel">
+                            <ref target="http://www.bruckner-online.at/ABLO_d1e9910">6. Symphonie</ref>
+                        </cell>
+                        <cell role="WAB-Nummer">
+                            <ref target="http://www.bruckner-online.at/wab-106">106</ref>
+                        </cell>
+                        <cell role="Art_der_Kopie">Stimmen</cell>
+                        <cell role="erschlossene_Datierung_der_Kopie">
+                            <date from="1881" to="1883">1881–1883</date>
+                        </cell>
+                        <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                        <cell role="Datierung_der_Kopie/Unterschrift"/>
+                        <cell role="Kommentar_intern"/>
                     </row>
                 </table>
                 <list>

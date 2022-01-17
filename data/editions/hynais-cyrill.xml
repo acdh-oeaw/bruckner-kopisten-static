@@ -146,6 +146,23 @@
                </row>
                <row role="data">
                   <cell role="Datierung">
+                     <date from="1892-06-12" to="1892-06-29">12.06.1892–29.06.1892</date>
+                  </cell>
+                  <cell role="Signatur">A-Wgm III 27904 (H 29625)</cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9646">Psalm 150</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-038">038</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten"/>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
                      <date from="1887-09-21" to="1894-07-02">21.09.1887-02.07.1894</date>
                   </cell>
                   <cell role="Signatur">
