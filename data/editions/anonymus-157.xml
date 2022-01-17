@@ -108,62 +108,58 @@
                         <cell role="Kommentar_intern"/>
                     </row>
                 </table>
-                <!--Beispiele fehlen-->
                 <list>
-                    <head xml:lang="de">Beispiele entnommen aus: <ref target="Anonymus-092_A-LId469_6_29-11r-21.jpg">A-LId478_7_29</ref>
+                    <head xml:lang="de">Beispiele entnommen aus: <ref target="Anonymus-157_A-SF20-49-7r.jpg">A-SF20-49</ref>
                     </head>
-                    <head xml:lang="eng">Examples taken from: <ref target="Anonymus-092_A-LId469_6_29-11r-21.jpg">A-LId478_7_29</ref>
+                    <head xml:lang="eng">Examples taken from: <ref target="Anonymus-157_A-SF20-49-7r.jpg">A-SF20-49</ref>
                     </head>
                     <item>
                         <title xml:lang="de">Notenschlüssel</title>
                         <title xml:lang="eng">Clefs</title>
                         <figure>
-                            <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_092/Anonymus-092_A-LId469_6_29_A-Clefs_G.png"/>
+                            <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_157/Anonymus-157_A-SF20-49_A-Clefs_F.png"/>
                         </figure>
                     </item>
                     <item>
                         <title xml:lang="de">Akzidentien</title>
                         <title xml:lang="eng">Accidentals</title>
                         <figure>
-                            <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_092/Anonymus-092_A-LId469_6_29_B-Accidentals_Flat.png"/>
-                            <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_092/Anonymus-092_A-LId469_6_29_B-Accidentals_Natural.png"/>
-                            <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_092/Anonymus-092_A-LId469_6_29_B-Accidentals_Sharp.png"/>
+                            <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_157/Anonymus-157_A-SF20-49_B-Accidentals_Natural.png"/>
+                            <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_157/Anonymus-157_A-SF20-49_B-Accidentals_Sharp.png"/>
                         </figure>
                     </item>
                     <item>
                         <title xml:lang="de">Taktvorzeichnung</title>
                         <title xml:lang="eng">Time Signatures</title>
                         <figure>
-                            <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_092/Anonymus-092_A-LId469_6_29_C-Time-Signatures_C.png"/>
+                            <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_157/Anonymus-157_A-SF20-49_C-Time-Signatures_C.png"/>
                         </figure>
                     </item>
                     <item>
                         <title xml:lang="de">Pausen</title>
                         <title xml:lang="eng">Rests</title>
                         <figure>
-                            <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_092/Anonymus-092_A-LId469_6_29_D-Rests_Viertel.png"/>
+                            <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_157/Anonymus-157_A-SF20-49_D-Rests_Halbe.png"/>
                         </figure>
                     </item>
                     <item>
                         <title xml:lang="de">Noten</title>
                         <title xml:lang="eng">Notes</title>
                         <figure>
-                            <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_092/Anonymus-092_A-LId469_6_29_E-Notes_Achtel.png"/>
-                            <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_092/Anonymus-092_A-LId469_6_29_E-Notes_Ganze.png"/>
-                            <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_092/Anonymus-092_A-LId469_6_29_E-Notes_Halbe.png"/>
-                            <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_092/Anonymus-092_A-LId469_6_29_E-Notes_Viertel.png"/>
+                            <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_157/Anonymus-157_A-SF20-49_E-Notes_Ganze.png"/>
+                            <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_157/Anonymus-157_A-SF20-49_E-Notes_Halbe-1.png"/>
+                            <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_157/Anonymus-157_A-SF20-49_E-Notes_Halbe-2.png"/>
+                            <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_157/Anonymus-157_A-SF20-49_E-Notes_Viertel-1.png"/>
+                            <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_157/Anonymus-157_A-SF20-49_E-Notes_Viertel-2.png"/>
                         </figure>
                     </item>
                     <item>
                         <title xml:lang="de">Dynamik</title>
                         <title xml:lang="eng">Dynamics</title>
                         <figure>
-                            <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_092/Anonymus-092_A-LId469_6_29_F-Dynamics_Cresc.png"/>
-                            <graphic scale="33"
-                                url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_092/Anonymus-092_A-LId469_6_29_F-Dynamics_Crescendo_Decrescendo.png"/>
-                            <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_092/Anonymus-092_A-LId469_6_29_F-Dynamics_Dimin.png"/>
-                            <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_092/Anonymus-092_A-LId469_6_29_F-Dynamics_Forte.png"/>
-                            <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_092/Anonymus-092_A-LId469_6_29_F-Dynamics_Piano.png"/>
+                            <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_157/Anonymus-157_A-SF20-49_F-Dynamics_Fortissimo.png"/>
+                            <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_157/Anonymus-157_A-SF20-49_F-Dynamics_Piano-1.png"/>
+                            <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_157/Anonymus-157_A-SF20-49_F-Dynamics_Piano-2.png"/>
                         </figure>
                     </item>
                 </list>

@@ -164,7 +164,7 @@
                      <ref>Privatbesitz 12-1</ref>
                   </cell>
                   <cell role="Werktitel">
-                     <ref target="http://www.bruckner-online.at/ABLO_d1e9878">4. Symphonie</ref>
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9878">4. Symphonie, 2. Satz</ref>
                   </cell>
                   <cell role="WAB-Nummer">
                      <ref target="http://www.bruckner-online.at/wab-104">104</ref>
@@ -173,26 +173,9 @@
                   <cell role="erschlossene_Datierung_der_Kopie">
                      <date from="1887" to="1888">1887–1888</date>
                   </cell>
-                  <cell role="Folios_in_der_Hand_des_Kopisten">2. Satz</cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten"/>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
                   <cell role="Kommentar_intern"/>
-               </row>
-               <row role="data">
-                  <cell role="Datierung">
-                     <date from="1874-01-02" to="1874-11-22">02.01.1874–22.11.1874</date>
-                  </cell>
-                  <cell role="Signatur">A-Wgm XIII 27609/1, Fasz. A</cell>
-                  <cell role="Werktitel">
-                     <ref target="http://www.bruckner-online.at/ABLO_d1e9878">4. Symphonie</ref>
-                  </cell>
-                  <cell role="WAB-Nummer">
-                     <ref target="http://www.bruckner-online.at/wab-104">104</ref>
-                  </cell>
-                  <cell role="Art_der_Kopie">Stimmen</cell>
-                  <cell role="erschlossene_Datierung_der_Kopie"/>
-                  <cell role="Folios_in_der_Hand_des_Kopisten">Korrekturen</cell>
-                  <cell role="Datierung_der_Kopie/Unterschrift"/>
-                  <cell role="Kommentar_intern">Schalk corrected some of these parts.</cell>
                </row>
                <row role="data">
                   <cell role="Datierung">

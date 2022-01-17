@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main" level="a">Kremser, Eduard</title>
+            <title type="main" level="a">Anonymus 162</title>
             <title level="m">Die Wiener Kopisten der Werke Anton Bruckners</title>
             <author>
                <name>Paul Hawkshaw</name>
@@ -34,7 +34,7 @@
       <profileDesc>
          <textClass>
             <keywords>
-               <term>Bekannter Kopist</term>
+               <term>Anonymus</term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -49,16 +49,12 @@
          <div xml:id="content-d1e29482">
             <listPerson>
                <person>
-                  <persName type="main">Kremser, Eduard</persName>
-                  <persName>
-                     <surname>Kremser</surname>
-                     <forename>Eduard</forename>
-                  </persName>
-                  <idno type="google-sheet">Kremser, Eduard</idno>
-                  <idno type="GND">11652099X</idno>
-                  <residence/>
-                  <affiliation xml:lang="de"/>
-                  <affiliation xml:lang="eng"/>
+                  <persName subtype="L" type="main">Anonymus 162</persName>
+                  <idno type="google-sheet">162</idno>
+                  <floruit from="1866" to="1866" cert="medium">1866</floruit>
+                  <residence>Linz</residence>
+                  <affiliation xml:lang="de">Linzer Kopisten</affiliation>
+                  <affiliation xml:lang="eng">Linz copyist</affiliation>
                   <index>
                      <term sortKey="1" xml:lang="de">Primärquellen</term>
                      <term sortKey="1" xml:lang="eng">Primary Sources</term>
@@ -67,10 +63,7 @@
             </listPerson>
             <p decls="desc" xml:lang="de"/>
             <p decls="desc" xml:lang="eng"/>
-            <p decls="link" xml:lang="de">Eine detaillierte Biographie findet sich im entsprechenden
-               Artikel des ABLO: <ref target="http://www.bruckner-online.at/ABLO_d1e2390">siehe
-                  ABLO</ref>
-            </p>
+            <p decls="link" xml:lang="de"/>
             <p decls="link" xml:lang="eng"/>
             <table>
                <head>Abschriften</head>
@@ -109,7 +102,7 @@
                   <cell role="erschlossene_Datierung_der_Kopie"/>
                   <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
-                  <cell role="Kommentar_intern">noch nicht gesehen</cell>
+                  <cell role="Kommentar_intern">Kopie liegt vor</cell>
                </row>
             </table>
             <list>
@@ -150,5 +143,16 @@
             </list>
          </div>
       </body>
+      <back>
+         <listPlace>
+            <place xml:id="place_2">
+               <placeName>Linz</placeName>
+               <location>
+                  <geo>48.306390000000 14.286110000000</geo>
+               </location>
+               <idno subtype="geonames" type="URL">https://www.geonames.org/2772400</idno>
+            </place>
+         </listPlace>
+      </back>
    </text>
 </TEI>

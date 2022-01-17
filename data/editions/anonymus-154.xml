@@ -51,9 +51,9 @@
                <person>
                   <persName subtype="L" type="main">Anonymus 154</persName>
                   <idno type="google-sheet">154</idno>
-                  <residence/>
-                  <affiliation xml:lang="de"/>
-                  <affiliation xml:lang="eng"/>
+                  <residence>Linz</residence>
+                  <affiliation xml:lang="de">Linzer Kopisten</affiliation>
+                  <affiliation xml:lang="eng">Linz copyists</affiliation>
                   <index>
                      <term sortKey="1" xml:lang="de">Primärquellen</term>
                      <term sortKey="1" xml:lang="eng">Primary Sources</term>
@@ -108,6 +108,7 @@
                   <cell role="Kommentar_intern"/>
                </row>
             </table>
+            <!--Bilder vorläufig, Digitalisat bestellen-->
             <list>
                <head xml:lang="de">Beispiele entnommen aus: <ref target="Anonymus-154_A-WnF20Laska31-01.jpg">A-WnF20Laska31</ref>
                </head>
@@ -116,35 +117,72 @@
                <item>
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
-                  <figure/>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_154/Anonymus-154_A-WnF20.Laska.31_A-Clefs_G.png"/>
+                  </figure>
                </item>
                <item>
                   <title xml:lang="de">Akzidentien</title>
                   <title xml:lang="eng">Accidentals</title>
-                  <figure/>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_154/Anonymus-154_A-WnF20.Laska.31_B-Accidentals_Flat.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_154/Anonymus-154_A-WnF20.Laska.31_B-Accidentals_Natural.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_154/Anonymus-154_A-WnF20.Laska.31_B-Accidentals_Sharp.png"/>
+                  </figure>
                </item>
                <item>
                   <title xml:lang="de">Taktvorzeichnung</title>
                   <title xml:lang="eng">Time Signatures</title>
-                  <figure/>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_154/Anonymus-154_A-WnF20.Laska.31_C-Time-Signatures_C.png"/>
+                  </figure>
                </item>
                <item>
                   <title xml:lang="de">Pausen</title>
                   <title xml:lang="eng">Rests</title>
-                  <figure/>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_154/Anonymus-154_A-WnF20.Laska.31_D-Rests_Achtel-1.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_154/Anonymus-154_A-WnF20.Laska.31_D-Rests_Achtel-2.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_154/Anonymus-154_A-WnF20.Laska.31_D-Rests_Ganze.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_154/Anonymus-154_A-WnF20.Laska.31_D-Rests_Halbe.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_154/Anonymus-154_A-WnF20.Laska.31_D-Rests_Viertel.png"/>
+                  </figure>
                </item>
                <item>
                   <title xml:lang="de">Noten</title>
                   <title xml:lang="eng">Notes</title>
-                  <figure/>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_154/Anonymus-154_A-WnF20.Laska.31_E-Notes_Achtel-1.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_154/Anonymus-154_A-WnF20.Laska.31_E-Notes_Achtel-2.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_154/Anonymus-154_A-WnF20.Laska.31_E-Notes_Halbe-1.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_154/Anonymus-154_A-WnF20.Laska.31_E-Notes_Halbe-2.png.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_154/Anonymus-154_A-WnF20.Laska.31_E-Notes_Sechzehntel.png"/>
+                  </figure>
                </item>
                <item>
                   <title xml:lang="de">Dynamik</title>
                   <title xml:lang="eng">Dynamics</title>
-                  <figure/>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_154/Anonymus-154_A-WnF20.Laska.31_F-Dynamics_Crescendo.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_154/Anonymus-154_A-WnF20.Laska.31_F-Dynamics_Forte.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_154/Anonymus-154_A-WnF20.Laska.31_F-Dynamics_Mezzoforte.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_154/Anonymus-154_A-WnF20.Laska.31_F-Dynamics_Pianissimo.png"/>
+                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_154/Anonymus-154_A-WnF20.Laska.31_F-Dynamics_Piano.png"/>
+                  </figure>
                </item>
             </list>
          </div>
       </body>
+      <back>
+         <listPlace>
+            <place xml:id="place_2">
+               <placeName>Linz</placeName>
+               <location>
+                  <geo>48.306390000000 14.286110000000</geo>
+               </location>
+               <idno subtype="geonames" type="URL">https://www.geonames.org/2772400</idno>
+            </place>
+         </listPlace>
+      </back>
    </text>
 </TEI>
