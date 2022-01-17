@@ -168,6 +168,9 @@ static-search/stems/158.json
 static-search/stems/159.json
 static-search/stems/160.json
 static-search/stems/161.json
+static-search/stems/162.json
+static-search/stems/164.json
+static-search/stems/165.json
 static-search/stems/169.json
 static-search/stems/17.03.json
 static-search/stems/17.06.json
@@ -687,7 +690,6 @@ static-search/stems/eckstein.json
 static-search/stems/edit.json
 static-search/stems/editiert.json
 static-search/stems/edlbach.json
-static-search/stems/eduard.json
 static-search/stems/eee.json
 static-search/stems/effect.json
 static-search/stems/ehe.json
@@ -1067,7 +1069,6 @@ static-search/stems/kopistentätigkeit.json
 static-search/stems/korrektur.json
 static-search/stems/korrekturen.json
 static-search/stems/korrigierten.json
-static-search/stems/kremser.json
 static-search/stems/kremsmünster.json
 static-search/stems/kronstorf.json
 static-search/stems/kroupa.json
