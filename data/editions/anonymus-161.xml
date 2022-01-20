@@ -112,69 +112,41 @@
                         <cell role="Kommentar_intern">nicht in Bruckner online</cell>
                     </row>
                 </table>
-                <!--Beispiele fehlen noch-->
+                <!--Keine Beispiele aus Xerox-->
                 <list>
-                    <head xml:lang="de">Beispiele entnommen aus: <ref target="Anonymus-024_A-WnMus.Hs.6074-232v.jpg">A-WnMus.Hs.6074</ref> und <ref target="Anonymus-024_A-WnMus.Hs.19770-02r-Partitur.jpg">A-WnMus.Hs.19770</ref>.
+                    <head xml:lang="de">Beispiele entnommen aus: 
                     </head>
-                    <head xml:lang="eng">Examples taken from: <ref target="Anonymus-024_A-WnMus.Hs.6074-232v.jpg">A-WnMus.Hs.6074</ref> and <ref target="Anonymus-024_A-WnMus.Hs.19770-02r-Partitur.jpg">A-WnMus.Hs.19770</ref>.
+                    <head xml:lang="eng">Examples taken from:
                     </head>
                     <item>
                         <title xml:lang="de">Notenschlüssel</title>
                         <title xml:lang="eng">Clefs</title>
-                        <figure>
-                            <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_024/Anonymus-024_A-WnMus.Hs.6074_A-Clefs_G.png"/>
-                            <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_024/Anonymus-024_A-WnMus.Hs.19770_A-Clefs_F.png"/>
-                        </figure>
+                        <figure/>
                     </item>
                     <item>
                         <title xml:lang="de">Akzidentien</title>
                         <title xml:lang="eng">Accidentals</title>
-                        <figure>
-                            <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_024/Anonymus-024_A-WnMus.Hs.6074_B-Accidentals_Flat.png"/>
-                            <graphic scale="33"
-                                url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_024/Anonymus-024_A-WnMus.Hs.6074_B-Accidentals_Natural.png"/>
-                            <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_024/Anonymus-024_A-WnMus.Hs.6074_B-Accidentals_Sharp.png"/>
-                        </figure>
+                        <figure/>
                     </item>
                     <item>
                         <title xml:lang="de">Taktvorzeichnung</title>
                         <title xml:lang="eng">Time Signatures</title>
-                        <figure>
-                            <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_024/Anonymus-024_A-WnMus.Hs.6074_C-Time-Signatures_C.png"/>
-                        </figure>
+                        <figure/>
                     </item>
                     <item>
                         <title xml:lang="de">Pausen</title>
                         <title xml:lang="eng">Rests</title>
-                        <figure>
-                            <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_024/Anonymus-024_A-WnMus.Hs.6074_D-Rests_Achtel.png"/>
-                            <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_024/Anonymus-024_A-WnMus.Hs.6074_D-Rests_Viertel1.png"/>
-                            <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_024/Anonymus-024_A-WnMus.Hs.19770_D-Rests_Viertel2.png"/>
-                        </figure>
+                        <figure/>
                     </item>
                     <item>
                         <title xml:lang="de">Noten</title>
                         <title xml:lang="eng">Notes</title>
-                        <figure>
-                            <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_024/Anonymus-024_A-WnMus.Hs.6074_E-Notes_Achtel.png"/>
-                            <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_024/Anonymus-024_A-WnMus.Hs.6074_E-Notes_Halbe.png"/>
-                            <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_024/Anonymus-024_A-WnMus.Hs.6074_E-Notes_Viertel.png"/>
-                        </figure>
+                        <figure/>
                     </item>
                     <item>
                         <title xml:lang="de">Dynamik</title>
                         <title xml:lang="eng">Dynamics</title>
-                        <figure>
-                            <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_024/Anonymus-024_A-WnMus.Hs.6074_F-Dynamics_Cresc.png"/>
-                            <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_024/Anonymus-024_A-WnMus.Hs.6074_F-Dynamics_Dimin.png"/>
-                            <graphic scale="33"
-                                url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_024/Anonymus-024_A-WnMus.Hs.6074_F-Dynamics_Fortissimo.png"/>
-                            <graphic scale="33"
-                                url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_024/Anonymus-024_A-WnMus.Hs.6074_F-Dynamics_Mezzoforte.png"/>
-                            <graphic scale="33"
-                                url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_024/Anonymus-024_A-WnMus.Hs.6074_F-Dynamics_Pianissimo.png"/>
-                            <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_024/Anonymus-024_A-WnMus.Hs.6074_F-Dynamics_Piano.png"/>
-                        </figure>
+                        <figure/>
                     </item>
                 </list>
             </div>

@@ -258,6 +258,26 @@
                   <cell role="Datierung">
                      <date from="1879-09-24" to="1881-09-03">24.09.1879–03.09.1881</date>
                   </cell>
+                  <cell role="Signatur">A-Wgm XIII 37730</cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9910">6. Symphonie</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-106">106</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Stimmen</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">54r–69v (Va St. 1, 1. Satz); 88r–104r
+                     (Va St. 2, 2.–4. Satz); 114r–129r (Va St. 3, 2.–4. Satz); 139r–154r (Va St. 4,
+                     2.–4. Satz); 164r–179r (Va St. 5, 2.–4. Satz); 196r–204r (Va St. 6, 2.–4.
+                     Satz)</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1879-09-24" to="1881-09-03">24.09.1879–03.09.1881</date>
+                  </cell>
                   <cell role="Signatur">
                      <ref
                         target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.34612"

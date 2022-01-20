@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main" level="a">Anonymus 100</title>
+                <title type="main" level="a">Anonymus 166</title>
                 <title level="m">Die Wiener Kopisten der Werke Anton Bruckners</title>
                 <author>
                     <name>Paul Hawkshaw</name>
@@ -25,7 +25,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Die Wiener Kopisten der Werke Anton Bruckners</publisher>
-                <idno type="BrucknerKopisten">d1e6989</idno>
+                <idno type="BrucknerKopisten">d1e19926</idno>
             </publicationStmt>
             <sourceDesc>
                 <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
@@ -46,26 +46,36 @@
     </teiHeader>
     <text>
         <body>
-            <div xml:id="content-d1e25f4">
+            <div xml:id="content-d1e19926">
                 <listPerson>
                     <person>
-                        <persName type="main">Anonymus 110</persName>
-                        <idno type="google-sheet">110</idno>
-                        <floruit from="1881" to="1883">1881–1883</floruit>
+                        <persName subtype="SF" type="main">Anonymus 166</persName>
+                        <idno type="google-sheet">166</idno>
+                        <floruit when="1852">1852</floruit>
                         <residence/>
                         <affiliation xml:lang="de"/>
                         <affiliation xml:lang="eng"/>
                         <index>
-                            <term sortKey="1" xml:lang="de">Primärquellen</term>
-                            <term sortKey="1" xml:lang="eng">Primary Sources</term>
+                            <term sortKey="2" xml:lang="de">Sekundärquellen</term>
+                            <term sortKey="2" xml:lang="eng">Secondary Sources</term>
                         </index>
                     </person>
                 </listPerson>
                 <p decls="desc" xml:lang="de">
-                    <lb/>Der Kopisten Anonymus 110 fertigte für Bruckner den Stimmensatz zur 6. Symphonie an.
+                    <lb/>Der Kopist Anonymus 166 fertigte einen Stimmensatz der <hi rend="italic"
+                        >Zwei Totenlieder</hi> an. Mit Blick auf die Entstehung des Werkes und
+                    dessen Zweck – auf Wunsch Josef Seiberl (1824–1908), um die in Marienkirchen
+                    stattfindenen Beerdigungen musikalisch zu begleiten – ist anzunehmen, dass die
+                    Stimmen wohl bereits 1852 geschrieben wurden. Es ist jedoch nicht genau
+                    bestimmbar, ob Seiberl selbst, wie das Titelblatt andeutet, der Kopist ist.
                 </p>
                 <p decls="desc" xml:lang="eng">
-                    <lb/>The copyist Anonymus 110 prepared the set of parts for the 6th Symphony for Bruckner.
+                    <lb/>The copyist Anonymus 166 produced a set of parts of the <hi rend="italic"
+                        >Zwei Totenlieder</hi>. Considering the genesis of the work and its purpose – at the request of
+                    Josef Seiberl (1824-1908) to provide musical accompaniment for the funerals held
+                    in Marienkirchen – it can be assumed that the parts were probably written as
+                    early as 1852. However, it is not possible to determine exactly whether Seiberl
+                    himself is the copyist, as the title page suggests.
                 </p>
                 <table>
                     <head>Abschriften</head>
@@ -91,59 +101,27 @@
                     </row>
                     <row role="data">
                         <cell role="Datierung">
-                            <date from="1879-09-24" to="1881-09-03">24.09.1879–03.09.1881</date>
+                            <date when="1852">1852</date>
                         </cell>
-                        <cell role="Signatur">
-                            <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-SF20-67">A-SF20-67</ref>
-                        </cell>
+                        <cell role="Signatur">A-Wgm A 175a</cell>
                         <cell role="Werktitel">
-                            <ref target="http://www.bruckner-online.at/ABLO_d1e9910">6. Symphonie</ref>
+                            <ref target="http://www.bruckner-online.at/ABLO_d1e10067">Zwei
+                                Totenlieder</ref>
                         </cell>
                         <cell role="WAB-Nummer">
-                            <ref target="http://www.bruckner-online.at/wab-106">106</ref>
+                            <ref target="http://www.bruckner-online.at/wab-047">047</ref>
                         </cell>
                         <cell role="Art_der_Kopie">Stimmen</cell>
-                        <cell role="erschlossene_Datierung_der_Kopie">
-                            <date from="1881" to="1883">1881–1883</date>
-                        </cell>
-                        <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
-                        <cell role="Datierung_der_Kopie/Unterschrift"/>
-                        <cell role="Kommentar_intern"/>
-                    </row>
-                    <row role="data">
-                        <cell role="Datierung">
-                            <date from="1879-09-24" to="1881-09-03">24.09.1879–03.09.1881</date>
-                        </cell>
-                        <cell role="Signatur">A-Wgm XIII 37730</cell>
-                        <cell role="Werktitel">
-                            <ref target="http://www.bruckner-online.at/ABLO_d1e9910">6.
-                                Symphonie</ref>
-                        </cell>
-                        <cell role="WAB-Nummer">
-                            <ref target="http://www.bruckner-online.at/wab-106">106</ref>
-                        </cell>
-                        <cell role="Art_der_Kopie">Stimmen</cell>
-                        <cell role="erschlossene_Datierung_der_Kopie">
-                            <date from="1881" to="1883">1881–1883</date>
-                        </cell>
-                        <cell role="Folios_in_der_Hand_des_Kopisten">1r–26r (Vl. 1); 27–53r (Vl. 2);
-                            70r–78r (Va St. 1, 4. Satz); 79r–87v (Va St. 2, 1. Satz); 189r–195v (Va
-                            St. 6, 2.–3. Satz); 205r–228r (Vc.); 229r–250v (Kb.); 251r–266r (Fl. 1);
-                            261r–275r (Fl. 2); 276r–293r (Ob. 1); 294r–310r (Ob. 2); 311r–330r (Kl.
-                            1); 331r–349r (Kl. 2); [350r–362r (Fg. 1 =A-SF20-67)]; 363r–375r (Fg.
-                            2); 376r–391r (Hr. 1); 392r–407r (Hr. 2); 408r–420r (Hr. 3); 421r–433r
-                            (Hr. 4); 434r–443r (Trp. 1); 444r–453r (Trp. 2); 454r–463r (Trp. 3);
-                            464r–473r (Trp. 4); 474r–483r (Alt-Pos.); 484r–493r (T.-Pos.); 494r–504r
-                            (B.-Pos.); 505r–514r (Btb); 515r–521v (Pk)</cell>
+                        <cell role="erschlossene_Datierung_der_Kopie"/>
+                        <cell role="Folios_in_der_Hand_des_Kopisten">vollständig
+                            abgeschrieben</cell>
                         <cell role="Datierung_der_Kopie/Unterschrift"/>
                         <cell role="Kommentar_intern"/>
                     </row>
                 </table>
                 <list>
-                    <head xml:lang="de">Beispiele entnommen aus: <ref/>
-                    </head>
-                    <head xml:lang="eng">Examples taken from: <ref/>
-                    </head>
+                    <head xml:lang="de">Beispiele entnommen aus: </head>
+                    <head xml:lang="eng">Examples taken from: </head>
                     <item>
                         <title xml:lang="de">Notenschlüssel</title>
                         <title xml:lang="eng">Clefs</title>

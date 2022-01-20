@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main" level="a">Anonymus 100</title>
+                <title type="main" level="a">Anonymus 166</title>
                 <title level="m">Die Wiener Kopisten der Werke Anton Bruckners</title>
                 <author>
                     <name>Paul Hawkshaw</name>
@@ -25,7 +25,7 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>Die Wiener Kopisten der Werke Anton Bruckners</publisher>
-                <idno type="BrucknerKopisten">d1e6989</idno>
+                <idno type="BrucknerKopisten">d1e9998f</idno>
             </publicationStmt>
             <sourceDesc>
                 <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
@@ -46,26 +46,31 @@
     </teiHeader>
     <text>
         <body>
-            <div xml:id="content-d1e25f4">
+            <div xml:id="content-d1e9998f">
                 <listPerson>
                     <person>
-                        <persName type="main">Anonymus 110</persName>
-                        <idno type="google-sheet">110</idno>
-                        <floruit from="1881" to="1883">1881–1883</floruit>
+                        <persName subtype="W" type="main">Anonymus 167</persName>
+                        <idno type="google-sheet">167</idno>
                         <residence/>
                         <affiliation xml:lang="de"/>
                         <affiliation xml:lang="eng"/>
                         <index>
-                            <term sortKey="1" xml:lang="de">Primärquellen</term>
-                            <term sortKey="1" xml:lang="eng">Primary Sources</term>
+                            <term sortKey="2" xml:lang="de">Sekundärquellen</term>
+                            <term sortKey="2" xml:lang="eng">Secondary Sources</term>
                         </index>
                     </person>
                 </listPerson>
                 <p decls="desc" xml:lang="de">
-                    <lb/>Der Kopisten Anonymus 110 fertigte für Bruckner den Stimmensatz zur 6. Symphonie an.
+                    <lb/>Der Kopist Anonymus 167 fertigte lediglich die Kontrabass-Einlage für den
+                    Stimmensatz der 3. Symyphonie an. Es ist nicht klar, wann diese Einlage dem
+                    ursprünglichen Stimmensatz hinzugefügt wurde, aufgrund der Papierbeschaffenheit
+                    ist jedoch zu vermuten, dass dies im 20. Jahrhundert geschah. 
                 </p>
                 <p decls="desc" xml:lang="eng">
-                    <lb/>The copyist Anonymus 110 prepared the set of parts for the 6th Symphony for Bruckner.
+                    <lb/>The copyist Anonymus 167 only made the double bass insert for the set of
+                    parts of the 3rd symyphony. It is not clear when this insert was added to the
+                    original set of parts, but due to the condition of the paper it can be assumed
+                    that this was done in the 20th century. 
                 </p>
                 <table>
                     <head>Abschriften</head>
@@ -91,59 +96,26 @@
                     </row>
                     <row role="data">
                         <cell role="Datierung">
-                            <date from="1879-09-24" to="1881-09-03">24.09.1879–03.09.1881</date>
+                            <date from="1873-02-23" to="1873-12-31">23.02.1873–31.12.1873</date>
                         </cell>
-                        <cell role="Signatur">
-                            <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-SF20-67">A-SF20-67</ref>
-                        </cell>
+                        <cell role="Signatur">A-Wgm XIII 26428</cell>
                         <cell role="Werktitel">
-                            <ref target="http://www.bruckner-online.at/ABLO_d1e9910">6. Symphonie</ref>
-                        </cell>
-                        <cell role="WAB-Nummer">
-                            <ref target="http://www.bruckner-online.at/wab-106">106</ref>
-                        </cell>
-                        <cell role="Art_der_Kopie">Stimmen</cell>
-                        <cell role="erschlossene_Datierung_der_Kopie">
-                            <date from="1881" to="1883">1881–1883</date>
-                        </cell>
-                        <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
-                        <cell role="Datierung_der_Kopie/Unterschrift"/>
-                        <cell role="Kommentar_intern"/>
-                    </row>
-                    <row role="data">
-                        <cell role="Datierung">
-                            <date from="1879-09-24" to="1881-09-03">24.09.1879–03.09.1881</date>
-                        </cell>
-                        <cell role="Signatur">A-Wgm XIII 37730</cell>
-                        <cell role="Werktitel">
-                            <ref target="http://www.bruckner-online.at/ABLO_d1e9910">6.
+                            <ref target="http://www.bruckner-online.at/ABLO_d1e9862">3.
                                 Symphonie</ref>
                         </cell>
                         <cell role="WAB-Nummer">
-                            <ref target="http://www.bruckner-online.at/wab-106">106</ref>
+                            <ref target="http://www.bruckner-online.at/wab-103">103</ref>
                         </cell>
-                        <cell role="Art_der_Kopie">Stimmen</cell>
-                        <cell role="erschlossene_Datierung_der_Kopie">
-                            <date from="1881" to="1883">1881–1883</date>
-                        </cell>
-                        <cell role="Folios_in_der_Hand_des_Kopisten">1r–26r (Vl. 1); 27–53r (Vl. 2);
-                            70r–78r (Va St. 1, 4. Satz); 79r–87v (Va St. 2, 1. Satz); 189r–195v (Va
-                            St. 6, 2.–3. Satz); 205r–228r (Vc.); 229r–250v (Kb.); 251r–266r (Fl. 1);
-                            261r–275r (Fl. 2); 276r–293r (Ob. 1); 294r–310r (Ob. 2); 311r–330r (Kl.
-                            1); 331r–349r (Kl. 2); [350r–362r (Fg. 1 =A-SF20-67)]; 363r–375r (Fg.
-                            2); 376r–391r (Hr. 1); 392r–407r (Hr. 2); 408r–420r (Hr. 3); 421r–433r
-                            (Hr. 4); 434r–443r (Trp. 1); 444r–453r (Trp. 2); 454r–463r (Trp. 3);
-                            464r–473r (Trp. 4); 474r–483r (Alt-Pos.); 484r–493r (T.-Pos.); 494r–504r
-                            (B.-Pos.); 505r–514r (Btb); 515r–521v (Pk)</cell>
+                        <cell role="Art_der_Kopie">Stimmen mit aut. Eintragungen</cell>
+                        <cell role="erschlossene_Datierung_der_Kopie"/>
+                        <cell role="Folios_in_der_Hand_des_Kopisten">15r (Kontrabass-Einlage)</cell>
                         <cell role="Datierung_der_Kopie/Unterschrift"/>
-                        <cell role="Kommentar_intern"/>
+                        <cell role="Kommentar_intern">SIII05</cell>
                     </row>
                 </table>
                 <list>
-                    <head xml:lang="de">Beispiele entnommen aus: <ref/>
-                    </head>
-                    <head xml:lang="eng">Examples taken from: <ref/>
-                    </head>
+                    <head xml:lang="de">Beispiele entnommen aus: </head>
+                    <head xml:lang="eng">Examples taken from: </head>
                     <item>
                         <title xml:lang="de">Notenschlüssel</title>
                         <title xml:lang="eng">Clefs</title>
