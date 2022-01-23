@@ -46,8 +46,7 @@
                                         <div class="carousel-item">
                                             <img src="img/datenbank.jpg" class="d-block w-100" alt="..."/>
                                             <div class="carousel-caption d-none d-md-block" style="background-image: linear-gradient(rgba(38.0, 35.3, 37.6, 0.5), rgba(38.0, 35.3, 37.6, 0.5));">
-                                                <h1>Kopisten</h1>
-                                                <h2>Gesamtbestand</h2>
+                                                <h1>Gesamtbestand aller Kopisten</h1>
                                                 <!--<p>Some representative placeholder content for the second slide.</p>-->
                                                 <button class="btn btn-round">
                                                     <a href="toc.html">Weiterlesen</a>
