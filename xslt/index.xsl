@@ -84,11 +84,11 @@
                                 <a href="Tabelle_1.html" class="index-link">                                   
                                     <div class="card index-card">
                                         <div class="card-body" style="padding:0;">
-                                            <img src="img/wien_2.jpg" class="d-block w-100" alt="..."/>
+                                            <img src="img/Thumbnail_Primärquellen.jpg" class="d-block w-100" alt="..."/>
                                         </div>
                                         <div class="card-header">                                            
                                             <p>
-                                                Bruckner Kopsten der Primärquellen
+                                                Bruckner Kopisten der Primärquellen
                                             </p>                                            
                                         </div>
                                     </div>                                     
@@ -102,7 +102,7 @@
                                         </div>
                                         <div class="card-header">                                            
                                             <p>
-                                                Bruckner Kopsten der Sekundärquellen
+                                                Bruckner Kopisten der Sekundärquellen
                                             </p>                                            
                                         </div>
                                     </div>                                 
