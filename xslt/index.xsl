@@ -36,7 +36,7 @@
                                     </ol>
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
-                                            <img src="img/musikhandschriften_3.jpg" class="d-block w-100" alt="..."/>
+                                            <img src="img/Kopistenanzeigen.jpg" class="d-block w-100" alt="..."/>
                                             <div class="carousel-caption d-none d-md-block" style="background-image: linear-gradient(rgba(38.0, 35.3, 37.6, 0.5), rgba(38.0, 35.3, 37.6, 0.5));">
                                                 <h1><xsl:value-of select="$project_title"/></h1>
                                                 <h2><xsl:value-of select="$project_short_title"/></h2>
