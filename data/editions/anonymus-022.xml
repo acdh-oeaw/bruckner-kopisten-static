@@ -50,7 +50,7 @@
             <listPerson>
                <person>
                   <persName type="main">Anonymus 022</persName>
-                  <idno type="google-sheet">022</idno>
+                  <idno type="alphabetically_sorted">Anonymus 022</idno>
                   <floruit from="1870" to="1870">ca. 1870</floruit>
                   <residence>Kremsmünster</residence>
                   <affiliation xml:lang="de">Kremsmünsterer Kopisten</affiliation>
@@ -119,44 +119,58 @@
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_022/Anonymus-022_A-KR-G45-830_A-Clefs_C.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_022/Anonymus-022_A-KR-G45-830_A-Clefs_F.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_022/Anonymus-022_A-KR-G45-830_A-Clefs_G.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_022/Anonymus-022_A-KR-G45-830_A-Clefs_C.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_022/Anonymus-022_A-KR-G45-830_A-Clefs_F.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_022/Anonymus-022_A-KR-G45-830_A-Clefs_G.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Akzidentien</title>
                   <title xml:lang="eng">Accidentals</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_022/Anonymus-022_A-KR-G45-830_B-Accidentals_Flat.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_022/Anonymus-022_A-KR-G45-830_B-Accidentals_Natural.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_022/Anonymus-022_A-KR-G45-830_B-Accidentals_Sharp.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_022/Anonymus-022_A-KR-G45-830_B-Accidentals_Flat.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_022/Anonymus-022_A-KR-G45-830_B-Accidentals_Natural.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_022/Anonymus-022_A-KR-G45-830_B-Accidentals_Sharp.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Taktvorzeichnung</title>
                   <title xml:lang="eng">Time Signatures</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_022/Anonymus-022_A-KR-G45-830_C-Time-Signatures_3_4.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_022/Anonymus-022_A-KR-G45-830_C-Time-Signatures_C.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_022/Anonymus-022_A-KR-G45-830_C-Time-Signatures_3_4.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_022/Anonymus-022_A-KR-G45-830_C-Time-Signatures_C.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Pausen</title>
                   <title xml:lang="eng">Rests</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_022/Anonymus-022_A-KR-G45-830_D-Rests_Achtel.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_022/Anonymus-022_A-KR-G45-830_D-Rests_Viertel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_022/Anonymus-022_A-KR-G45-830_D-Rests_Achtel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_022/Anonymus-022_A-KR-G45-830_D-Rests_Viertel.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Noten</title>
                   <title xml:lang="eng">Notes</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_022/Anonymus-022_A-KR-G45-830_E-Notes_Achtel.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_022/Anonymus-022_A-KR-G45-830_E-Notes_Ganze.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_022/Anonymus-022_A-KR-G45-830_E-Notes_Halbe.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_022/Anonymus-022_A-KR-G45-830_E-Notes_Viertel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_022/Anonymus-022_A-KR-G45-830_E-Notes_Achtel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_022/Anonymus-022_A-KR-G45-830_E-Notes_Ganze.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_022/Anonymus-022_A-KR-G45-830_E-Notes_Halbe.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_022/Anonymus-022_A-KR-G45-830_E-Notes_Viertel.png"/>
                   </figure>
                </item>
                <item>
@@ -165,7 +179,8 @@
                   <figure>
                      <graphic scale="33"
                               url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_022/Anonymus-022_A-KR-G45-830_F-Dynamics_Crescendo_Decrescendo.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_022/Anonymus-022_A-KR-G45-830_F-Dynamics_Forte.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_022/Anonymus-022_A-KR-G45-830_F-Dynamics_Forte.png"/>
                   </figure>
                </item>
             </list>

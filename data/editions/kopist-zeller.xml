@@ -54,7 +54,7 @@
                      <surname>Zeller</surname>
                      <forename/>
                   </persName>
-                  <idno type="google-sheet">Kopist, Zeller</idno>
+                  <idno type="alphabetically_sorted">Zeller , Kopist</idno>
                   <idno type="GND"/>
                   <residence>St. Florian</residence>
                   <affiliation xml:lang="de">St. Florianer Kopisten</affiliation>
@@ -133,50 +133,64 @@
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/Z/Zeller_Kopist/Kopist_Zeller_A-SF20-64_A-Clefs_F.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/Z/Zeller_Kopist/Kopist_Zeller_A-SF20-64_A-Clefs_F.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Akzidentien</title>
                   <title xml:lang="eng">Accidentals</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/Z/Zeller_Kopist/Kopist_Zeller_A-SF20-64_B-Accidentals_Flat.png"/>
-                     <graphic scale="33" url="../../101_samples/named/Z/Zeller_Kopist/Kopist_Zeller_A-SF20-64_B-Accidentals_Natural.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/Z/Zeller_Kopist/Kopist_Zeller_A-SF20-64_B-Accidentals_Flat.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/Z/Zeller_Kopist/Kopist_Zeller_A-SF20-64_B-Accidentals_Natural.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Taktvorzeichnung</title>
                   <title xml:lang="eng">Time Signatures</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/Z/Zeller_Kopist/Kopist_Zeller_A-SF20-64_C-Time-Signatures_C.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/Z/Zeller_Kopist/Kopist_Zeller_A-SF20-64_C-Time-Signatures_C.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Pausen</title>
                   <title xml:lang="eng">Rests</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/Z/Zeller_Kopist/Kopist_Zeller_A-SF20-64_D-Rests_Viertel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/Z/Zeller_Kopist/Kopist_Zeller_A-SF20-64_D-Rests_Viertel.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Noten</title>
                   <title xml:lang="eng">Notes</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/Z/Zeller_Kopist/Kopist_Zeller_A-SF20-64_E-Notes_Achtel.png"/>
-                     <graphic scale="33" url="../../101_samples/named/Z/Zeller_Kopist/Kopist_Zeller_A-SF20-64_E-Notes_Ganze.png"/>
-                     <graphic scale="33" url="../../101_samples/named/Z/Zeller_Kopist/Kopist_Zeller_A-SF20-64_E-Notes_Halbe.png"/>
-                     <graphic scale="33" url="../../101_samples/named/Z/Zeller_Kopist/Kopist_Zeller_A-SF20-64_E-Notes_Sechzehntel.png"/>
-                     <graphic scale="33" url="../../101_samples/named/Z/Zeller_Kopist/Kopist_Zeller_A-SF20-64_E-Notes_Viertel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/Z/Zeller_Kopist/Kopist_Zeller_A-SF20-64_E-Notes_Achtel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/Z/Zeller_Kopist/Kopist_Zeller_A-SF20-64_E-Notes_Ganze.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/Z/Zeller_Kopist/Kopist_Zeller_A-SF20-64_E-Notes_Halbe.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/Z/Zeller_Kopist/Kopist_Zeller_A-SF20-64_E-Notes_Sechzehntel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/Z/Zeller_Kopist/Kopist_Zeller_A-SF20-64_E-Notes_Viertel.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Dynamik</title>
                   <title xml:lang="eng">Dynamics</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/Z/Zeller_Kopist/Kopist_Zeller_A-SF20-64_F-Dynamics_Cresc.png"/>
-                     <graphic scale="33" url="../../101_samples/named/Z/Zeller_Kopist/Kopist_Zeller_A-SF20-64_F-Dynamics_Forte.png"/>
-                     <graphic scale="33" url="../../101_samples/named/Z/Zeller_Kopist/Kopist_Zeller_A-SF20-64_F-Dynamics_Fortissimo.png"/>
-                     <graphic scale="33" url="../../101_samples/named/Z/Zeller_Kopist/Kopist_Zeller_A-SF20-64_F-Dynamics_Piano.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/Z/Zeller_Kopist/Kopist_Zeller_A-SF20-64_F-Dynamics_Cresc.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/Z/Zeller_Kopist/Kopist_Zeller_A-SF20-64_F-Dynamics_Forte.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/Z/Zeller_Kopist/Kopist_Zeller_A-SF20-64_F-Dynamics_Fortissimo.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/Z/Zeller_Kopist/Kopist_Zeller_A-SF20-64_F-Dynamics_Piano.png"/>
                   </figure>
                </item>
             </list>

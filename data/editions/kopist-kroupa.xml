@@ -54,7 +54,7 @@
                      <surname>Kroupa</surname>
                      <forename/>
                   </persName>
-                  <idno type="google-sheet">Kopist, Kroupa</idno>
+                  <idno type="alphabetically_sorted">Kroupa , Kopist</idno>
                   <idno type="GND"/>
                   <residence/>
                   <affiliation xml:lang="de"/>
@@ -166,11 +166,16 @@
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/K/Kroupa_Kopist/Kopist_Kroupa_A-WnMus.Hs.33185_A-Clefs_F.png"/>
-                     <graphic scale="33" url="../../101_samples/named/K/Kroupa_Kopist/Kopist_Kroupa_A-WnMus.Hs.33185_A-Clefs_G.png"/>
-                     <graphic scale="33" url="../../101_samples/named/K/Kroupa_Kopist/Kopist_Kroupa_A-WnMus.Hs.33196_A-Clefs_C.png"/>
-                     <graphic scale="33" url="../../101_samples/named/K/Kroupa_Kopist/Kopist_Kroupa_A-WnMus.Hs.33196_A-Clefs_F.png"/>
-                     <graphic scale="33" url="../../101_samples/named/K/Kroupa_Kopist/Kopist_Kroupa_A-WnMus.Hs.33196_A-Clefs_G.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/Kroupa_Kopist/Kopist_Kroupa_A-WnMus.Hs.33185_A-Clefs_F.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/Kroupa_Kopist/Kopist_Kroupa_A-WnMus.Hs.33185_A-Clefs_G.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/Kroupa_Kopist/Kopist_Kroupa_A-WnMus.Hs.33196_A-Clefs_C.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/Kroupa_Kopist/Kopist_Kroupa_A-WnMus.Hs.33196_A-Clefs_F.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/Kroupa_Kopist/Kopist_Kroupa_A-WnMus.Hs.33196_A-Clefs_G.png"/>
                   </figure>
                </item>
                <item>
@@ -201,20 +206,28 @@
                   <title xml:lang="de">Pausen</title>
                   <title xml:lang="eng">Rests</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/K/Kroupa_Kopist/Kopist_Kroupa_A-WnMus.Hs.33196_D-Rests_Viertel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/Kroupa_Kopist/Kopist_Kroupa_A-WnMus.Hs.33196_D-Rests_Viertel.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Noten</title>
                   <title xml:lang="eng">Notes</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/K/Kroupa_Kopist/Kopist_Kroupa_A-WnMus.Hs.33185_E-Notes_Ganze.png"/>
-                     <graphic scale="33" url="../../101_samples/named/K/Kroupa_Kopist/Kopist_Kroupa_A-WnMus.Hs.33185_E-Notes_Halbe.png"/>
-                     <graphic scale="33" url="../../101_samples/named/K/Kroupa_Kopist/Kopist_Kroupa_A-WnMus.Hs.33185_E-Notes_Viertel.png"/>
-                     <graphic scale="33" url="../../101_samples/named/K/Kroupa_Kopist/Kopist_Kroupa_A-WnMus.Hs.33196_E-Notes_Achtel.png"/>
-                     <graphic scale="33" url="../../101_samples/named/K/Kroupa_Kopist/Kopist_Kroupa_A-WnMus.Hs.33196_E-Notes_Ganze.png"/>
-                     <graphic scale="33" url="../../101_samples/named/K/Kroupa_Kopist/Kopist_Kroupa_A-WnMus.Hs.33196_E-Notes_Halbe.png"/>
-                     <graphic scale="33" url="../../101_samples/named/K/Kroupa_Kopist/Kopist_Kroupa_A-WnMus.Hs.33196_E-Notes_Viertel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/Kroupa_Kopist/Kopist_Kroupa_A-WnMus.Hs.33185_E-Notes_Ganze.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/Kroupa_Kopist/Kopist_Kroupa_A-WnMus.Hs.33185_E-Notes_Halbe.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/Kroupa_Kopist/Kopist_Kroupa_A-WnMus.Hs.33185_E-Notes_Viertel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/Kroupa_Kopist/Kopist_Kroupa_A-WnMus.Hs.33196_E-Notes_Achtel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/Kroupa_Kopist/Kopist_Kroupa_A-WnMus.Hs.33196_E-Notes_Ganze.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/Kroupa_Kopist/Kopist_Kroupa_A-WnMus.Hs.33196_E-Notes_Halbe.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/Kroupa_Kopist/Kopist_Kroupa_A-WnMus.Hs.33196_E-Notes_Viertel.png"/>
                   </figure>
                </item>
                <item>
@@ -223,12 +236,16 @@
                   <figure>
                      <graphic scale="33"
                               url="../../101_samples/named/K/Kroupa_Kopist/Kopist_Kroupa_A-WnMus.Hs.33185_F-Dynamics_Crescendo_Decrescendo.png"/>
-                     <graphic scale="33" url="../../101_samples/named/K/Kroupa_Kopist/Kopist_Kroupa_A-WnMus.Hs.33185_F-Dynamics_Forte.png"/>
-                     <graphic scale="33" url="../../101_samples/named/K/Kroupa_Kopist/Kopist_Kroupa_A-WnMus.Hs.33185_F-Dynamics_Piano.png"/>
-                     <graphic scale="33" url="../../101_samples/named/K/Kroupa_Kopist/Kopist_Kroupa_A-WnMus.Hs.33196_F-Dynamics_Cresc.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/Kroupa_Kopist/Kopist_Kroupa_A-WnMus.Hs.33185_F-Dynamics_Forte.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/Kroupa_Kopist/Kopist_Kroupa_A-WnMus.Hs.33185_F-Dynamics_Piano.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/Kroupa_Kopist/Kopist_Kroupa_A-WnMus.Hs.33196_F-Dynamics_Cresc.png"/>
                      <graphic scale="33"
                               url="../../101_samples/named/K/Kroupa_Kopist/Kopist_Kroupa_A-WnMus.Hs.33196_F-Dynamics_Fortissimo.png"/>
-                     <graphic scale="33" url="../../101_samples/named/K/Kroupa_Kopist/Kopist_Kroupa_A-WnMus.Hs.33196_F-Dynamics_Piano.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/Kroupa_Kopist/Kopist_Kroupa_A-WnMus.Hs.33196_F-Dynamics_Piano.png"/>
                   </figure>
                </item>
             </list>

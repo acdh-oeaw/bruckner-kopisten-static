@@ -55,7 +55,7 @@
                      <surname>Gräflinger</surname>
                      <forename>Franz</forename>
                   </persName>
-                  <idno type="google-sheet">Gräflinger, Franz</idno>
+                  <idno type="alphabetically_sorted">Gräflinger, Franz</idno>
                   <idno type="GND">116809841</idno>
                   <residence>Linz</residence>
                   <affiliation xml:lang="de"/>
@@ -105,9 +105,7 @@
                      <date when="1861-11-07">07.11.1861</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref
-                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19689"
-                        >A-WnMus.Hs.19689</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19689">A-WnMus.Hs.19689</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e8989">Fuge</ref>
@@ -124,25 +122,22 @@
                </row>
             </table>
             <list>
-               <head xml:lang="de">Beispiele entnommen aus: <ref
-                     target="Gräflinger_Franz_A-WnMus.Hs.19689-01v.jpg">A-WnMus.Hs.19689</ref>
+               <head xml:lang="de">Beispiele entnommen aus: <ref target="Gräflinger_Franz_A-WnMus.Hs.19689-01v.jpg">A-WnMus.Hs.19689</ref>
                </head>
-               <head xml:lang="eng">Examples taken from: <ref
-                     target="Gräflinger_Franz_A-WnMus.Hs.19689-01v.jpg">A-WnMus.Hs.19689</ref>
+               <head xml:lang="eng">Examples taken from: <ref target="Gräflinger_Franz_A-WnMus.Hs.19689-01v.jpg">A-WnMus.Hs.19689</ref>
                </head>
                <item>
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/G/Gräflinger_Franz/Gräflinger_Franz_A-WnMus.Hs.19689_A-Clefs_F_1.png"/>
+                              url="../../101_samples/named/G/Gräflinger_Franz/Gräflinger_Franz_A-WnMus.Hs.19689_A-Clefs_F_1.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/G/Gräflinger_Franz/Gräflinger_Franz_A-WnMus.Hs.19689_A-Clefs_F_2.png"/>
+                              url="../../101_samples/named/G/Gräflinger_Franz/Gräflinger_Franz_A-WnMus.Hs.19689_A-Clefs_F_2.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/G/Gräflinger_Franz/Gräflinger_Franz_A-WnMus.Hs.19689_A-Clefs_G_1.png"/>
+                              url="../../101_samples/named/G/Gräflinger_Franz/Gräflinger_Franz_A-WnMus.Hs.19689_A-Clefs_G_1.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/G/Gräflinger_Franz/Gräflinger_Franz_A-WnMus.Hs.19689_A-Clefs_G_2.png"
-                     />
+                              url="../../101_samples/named/G/Gräflinger_Franz/Gräflinger_Franz_A-WnMus.Hs.19689_A-Clefs_G_2.png"/>
                   </figure>
                </item>
                <item>
@@ -150,18 +145,17 @@
                   <title xml:lang="eng">Accidentals</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/G/Gräflinger_Franz/Gräflinger_Franz_A-WnMus.Hs.19689_B-Accidentals_Flat_1.png"/>
+                              url="../../101_samples/named/G/Gräflinger_Franz/Gräflinger_Franz_A-WnMus.Hs.19689_B-Accidentals_Flat_1.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/G/Gräflinger_Franz/Gräflinger_Franz_A-WnMus.Hs.19689_B-Accidentals_Flat_2.png"/>
+                              url="../../101_samples/named/G/Gräflinger_Franz/Gräflinger_Franz_A-WnMus.Hs.19689_B-Accidentals_Flat_2.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/G/Gräflinger_Franz/Gräflinger_Franz_A-WnMus.Hs.19689_B-Accidentals_Natural_1.png"/>
+                              url="../../101_samples/named/G/Gräflinger_Franz/Gräflinger_Franz_A-WnMus.Hs.19689_B-Accidentals_Natural_1.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/G/Gräflinger_Franz/Gräflinger_Franz_A-WnMus.Hs.19689_B-Accidentals_Natural_2.png"/>
+                              url="../../101_samples/named/G/Gräflinger_Franz/Gräflinger_Franz_A-WnMus.Hs.19689_B-Accidentals_Natural_2.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/G/Gräflinger_Franz/Gräflinger_Franz_A-WnMus.Hs.19689_B-Accidentals_Sharp_1.png"/>
+                              url="../../101_samples/named/G/Gräflinger_Franz/Gräflinger_Franz_A-WnMus.Hs.19689_B-Accidentals_Sharp_1.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/G/Gräflinger_Franz/Gräflinger_Franz_A-WnMus.Hs.19689_B-Accidentals_Sharp_2.png"
-                     />
+                              url="../../101_samples/named/G/Gräflinger_Franz/Gräflinger_Franz_A-WnMus.Hs.19689_B-Accidentals_Sharp_2.png"/>
                   </figure>
                </item>
                <item>
@@ -169,8 +163,7 @@
                   <title xml:lang="eng">Time Signatures</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/G/Gräflinger_Franz/Gräflinger_Franz_A-WnMus.Hs.19689_C-Time-Signatures_C.png"
-                     />
+                              url="../../101_samples/named/G/Gräflinger_Franz/Gräflinger_Franz_A-WnMus.Hs.19689_C-Time-Signatures_C.png"/>
                   </figure>
                </item>
                <item>
@@ -178,10 +171,9 @@
                   <title xml:lang="eng">Rests</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/G/Gräflinger_Franz/Gräflinger_Franz_A-WnMus.Hs.19689_D-Rests_Achtel_1.png"/>
+                              url="../../101_samples/named/G/Gräflinger_Franz/Gräflinger_Franz_A-WnMus.Hs.19689_D-Rests_Achtel_1.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/G/Gräflinger_Franz/Gräflinger_Franz_A-WnMus.Hs.19689_D-Rests_Achtel_2.png"
-                     />
+                              url="../../101_samples/named/G/Gräflinger_Franz/Gräflinger_Franz_A-WnMus.Hs.19689_D-Rests_Achtel_2.png"/>
                   </figure>
                </item>
                <item>
@@ -189,22 +181,21 @@
                   <title xml:lang="eng">Notes</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/G/Gräflinger_Franz/Gräflinger_Franz_A-WnMus.Hs.19689_E-Notes_Achtel_1.png"/>
+                              url="../../101_samples/named/G/Gräflinger_Franz/Gräflinger_Franz_A-WnMus.Hs.19689_E-Notes_Achtel_1.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/G/Gräflinger_Franz/Gräflinger_Franz_A-WnMus.Hs.19689_E-Notes_Achtel_2.png"/>
+                              url="../../101_samples/named/G/Gräflinger_Franz/Gräflinger_Franz_A-WnMus.Hs.19689_E-Notes_Achtel_2.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/G/Gräflinger_Franz/Gräflinger_Franz_A-WnMus.Hs.19689_E-Notes_Ganze_1.png"/>
+                              url="../../101_samples/named/G/Gräflinger_Franz/Gräflinger_Franz_A-WnMus.Hs.19689_E-Notes_Ganze_1.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/G/Gräflinger_Franz/Gräflinger_Franz_A-WnMus.Hs.19689_E-Notes_Ganze_2.png"/>
+                              url="../../101_samples/named/G/Gräflinger_Franz/Gräflinger_Franz_A-WnMus.Hs.19689_E-Notes_Ganze_2.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/G/Gräflinger_Franz/Gräflinger_Franz_A-WnMus.Hs.19689_E-Notes_Halbe_1.png"/>
+                              url="../../101_samples/named/G/Gräflinger_Franz/Gräflinger_Franz_A-WnMus.Hs.19689_E-Notes_Halbe_1.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/G/Gräflinger_Franz/Gräflinger_Franz_A-WnMus.Hs.19689_E-Notes_Halbe_2.png"/>
+                              url="../../101_samples/named/G/Gräflinger_Franz/Gräflinger_Franz_A-WnMus.Hs.19689_E-Notes_Halbe_2.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/G/Gräflinger_Franz/Gräflinger_Franz_A-WnMus.Hs.19689_E-Notes_Viertel_1.png"/>
+                              url="../../101_samples/named/G/Gräflinger_Franz/Gräflinger_Franz_A-WnMus.Hs.19689_E-Notes_Viertel_1.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/G/Gräflinger_Franz/Gräflinger_Franz_A-WnMus.Hs.19689_E-Notes_Viertel_2.png"
-                     />
+                              url="../../101_samples/named/G/Gräflinger_Franz/Gräflinger_Franz_A-WnMus.Hs.19689_E-Notes_Viertel_2.png"/>
                   </figure>
                </item>
                <item>

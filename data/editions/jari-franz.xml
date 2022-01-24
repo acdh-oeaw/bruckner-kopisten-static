@@ -55,7 +55,7 @@
                      <surname>Jari</surname>
                      <forename>Franz</forename>
                   </persName>
-                  <idno type="google-sheet">Jari, Franz</idno>
+                  <idno type="alphabetically_sorted">Jari, Franz</idno>
                   <idno type="GND"/>
                   <floruit from="1870" to="1870">ca. 1870</floruit>
                   <residence>Kremsmünster</residence>
@@ -69,8 +69,7 @@
             </listPerson>
             <p decls="desc" xml:lang="de">
                <lb/>Franz Jari, geboren am 5. April 1803, kam in den 1830er Jahren nach Kremsmünster
-               und blieb dort bis zu seinem Tod am 18. September 1870.<ref xml:id="footnote-ref065" target="#footnote065"
-                  type="noteAnchor">1</ref> Die Identifizierung seiner Handschrift erfolgte durch
+               und blieb dort bis zu seinem Tod am 18. September 1870.<ref xml:id="footnote-ref065" target="#footnote065" type="noteAnchor">1</ref> Die Identifizierung seiner Handschrift erfolgte durch
                eine Bleistift-Anmerkung von Altmann Kellner auf der verso-Seite der Violin1-Stimme
                des Stimmensatzes (A-KR-G45-830), dort heißt es: „Diese Stimmen hat der
                Stiftstrompeter Jari dazugeschrieben. Dieser Jari war ein Böhm und kam mit einer
@@ -84,8 +83,7 @@
             </p>
             <p decls="desc" xml:lang="eng">
                <lb/>Born on 5 April 1803, Franz Jari came to Kremsmünster in the 1830s and remained
-               there until his death on 18 September 1870.<ref xml:id="footnote-ref066" target="#footnote066"
-                  type="noteAnchor">1</ref> His handwriting has been identified on the basis of a
+               there until his death on 18 September 1870.<ref xml:id="footnote-ref066" target="#footnote066" type="noteAnchor">1</ref> His handwriting has been identified on the basis of a
                note by Altmann Kellner on the verso side of vl 1, part 13, of A-KR-G45-830:
                “Monastery trumpeter Jari contributed to these parts. Jari was Bohemian and came to
                Kremsmünster with a military band. He gave up his nomadic life and remained here as a
@@ -125,8 +123,7 @@
                      <date notAfter="1870-09-18">vor 18.09.1870</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-KR-G45-830"
-                        >A-KR-G45-830</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-KR-G45-830">A-KR-G45-830</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9021">Heil Dir zum schönen
@@ -143,18 +140,15 @@
                </row>
             </table>
             <list>
-               <head xml:lang="de">Beispiele entnommen aus: <ref
-                     target="Jari_Franz_A-KR-G45-830-01r.jpg">A-KR-G45-830</ref>
+               <head xml:lang="de">Beispiele entnommen aus: <ref target="Jari_Franz_A-KR-G45-830-01r.jpg">A-KR-G45-830</ref>
                </head>
-               <head xml:lang="eng">Examples taken from: <ref
-                     target="Jari_Franz_A-KR-G45-830-01r.jpg"/>A-KR-G45-830</head>
+               <head xml:lang="eng">Examples taken from: <ref target="Jari_Franz_A-KR-G45-830-01r.jpg"/>A-KR-G45-830</head>
                <item>
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/J/Jari_Franz/Jari_Franz_A-KR-G45-830_A-Clefs_G.png"
-                     />
+                              url="../../101_samples/named/J/Jari_Franz/Jari_Franz_A-KR-G45-830_A-Clefs_G.png"/>
                   </figure>
                </item>
                <item>
@@ -162,8 +156,7 @@
                   <title xml:lang="eng">Accidentals</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/J/Jari_Franz/Jari_Franz_A-KR-G45-830_B-Accidentals_Sharp.png"
-                     />
+                              url="../../101_samples/named/J/Jari_Franz/Jari_Franz_A-KR-G45-830_B-Accidentals_Sharp.png"/>
                   </figure>
                </item>
                <item>
@@ -171,8 +164,7 @@
                   <title xml:lang="eng">Time Signatures</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/J/Jari_Franz/Jari_Franz_A-KR-G45-830_C-Time-Signatures_C.png"
-                     />
+                              url="../../101_samples/named/J/Jari_Franz/Jari_Franz_A-KR-G45-830_C-Time-Signatures_C.png"/>
                   </figure>
                </item>
                <item>
@@ -180,10 +172,9 @@
                   <title xml:lang="eng">Rests</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/J/Jari_Franz/Jari_Franz_A-KR-G45-830_D-Rests_Achtel.png"/>
+                              url="../../101_samples/named/J/Jari_Franz/Jari_Franz_A-KR-G45-830_D-Rests_Achtel.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/J/Jari_Franz/Jari_Franz_A-KR-G45-830_D-Rests_Viertel.png"
-                     />
+                              url="../../101_samples/named/J/Jari_Franz/Jari_Franz_A-KR-G45-830_D-Rests_Viertel.png"/>
                   </figure>
                </item>
                <item>
@@ -191,12 +182,11 @@
                   <title xml:lang="eng">Notes</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/J/Jari_Franz/Jari_Franz_A-KR-G45-830_E-Notes_Ganze.png"/>
+                              url="../../101_samples/named/J/Jari_Franz/Jari_Franz_A-KR-G45-830_E-Notes_Ganze.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/J/Jari_Franz/Jari_Franz_A-KR-G45-830_E-Notes_Halbe.png"/>
+                              url="../../101_samples/named/J/Jari_Franz/Jari_Franz_A-KR-G45-830_E-Notes_Halbe.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/J/Jari_Franz/Jari_Franz_A-KR-G45-830_E-Notes_Viertel.png"
-                     />
+                              url="../../101_samples/named/J/Jari_Franz/Jari_Franz_A-KR-G45-830_E-Notes_Viertel.png"/>
                   </figure>
                </item>
                <item>
@@ -204,10 +194,9 @@
                   <title xml:lang="eng">Dynamics</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/J/Jari_Franz/Jari_Franz_A-KR-G45-830_F-Dynamics_Forte.png"/>
+                              url="../../101_samples/named/J/Jari_Franz/Jari_Franz_A-KR-G45-830_F-Dynamics_Forte.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/J/Jari_Franz/Jari_Franz_A-KR-G45-830_F-Dynamics_Piano.png"
-                     />
+                              url="../../101_samples/named/J/Jari_Franz/Jari_Franz_A-KR-G45-830_F-Dynamics_Piano.png"/>
                   </figure>
                </item>
             </list>

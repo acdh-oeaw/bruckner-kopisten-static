@@ -54,7 +54,7 @@
                      <surname>Weinwurm</surname>
                      <forename>Rudolf</forename>
                   </persName>
-                  <idno type="google-sheet">Weinwurm, Rudolf</idno>
+                  <idno type="alphabetically_sorted">Weinwurm, Rudolf</idno>
                   <idno type="GND">118766325</idno>
                   <floruit from="1878" to="1878" notBefore="1878" xml:lang="de">1878 oder später</floruit>
                   <floruit from="1878" to="1878" notBefore="1878" xml:lang="eng">1878 or later</floruit>
@@ -125,8 +125,10 @@
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.3186_A-Clefs_F.png"/>
-                     <graphic scale="33" url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.3186_A-Clefs_G.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.3186_A-Clefs_F.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.3186_A-Clefs_G.png"/>
                   </figure>
                </item>
                <item>
@@ -156,9 +158,12 @@
                   <title xml:lang="de">Noten</title>
                   <title xml:lang="eng">Notes</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.3186_E-Notes_Ganze.png"/>
-                     <graphic scale="33" url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.3186_E-Notes_Halbe.png"/>
-                     <graphic scale="33" url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.3186_E-Notes_Viertel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.3186_E-Notes_Ganze.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.3186_E-Notes_Halbe.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.3186_E-Notes_Viertel.png"/>
                   </figure>
                </item>
                <item>
@@ -167,8 +172,10 @@
                   <figure>
                      <graphic scale="33"
                               url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.3186_F-Dynamics_Decresc.png"/>
-                     <graphic scale="33" url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.3186_F-Dynamics_Forte.png"/>
-                     <graphic scale="33" url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.3186_F-Dynamics_Piano.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.3186_F-Dynamics_Forte.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.3186_F-Dynamics_Piano.png"/>
                   </figure>
                </item>
             </list>

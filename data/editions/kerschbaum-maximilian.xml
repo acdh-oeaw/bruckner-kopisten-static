@@ -54,7 +54,7 @@
                      <surname>Kerschbaum</surname>
                      <forename>Maximilian</forename>
                   </persName>
-                  <idno type="google-sheet">Kerschbaum, Maximilian</idno>
+                  <idno type="alphabetically_sorted">Kerschbaum, Maximilian</idno>
                   <idno type="GND">1037215273</idno>
                   <floruit from="1870" to="1870">ca. 1870</floruit>
                   <residence>Kremsmünster</residence>
@@ -163,8 +163,10 @@
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/K/Kerschbaum_Maximilian/Kerschbaum_Maximilian_A-KR-G45-830_A-Clefs_C.png"/>
-                     <graphic scale="33" url="../../101_samples/named/K/Kerschbaum_Maximilian/Kerschbaum_Maximilian_A-KR-G45-830_A-Clefs_G.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/Kerschbaum_Maximilian/Kerschbaum_Maximilian_A-KR-G45-830_A-Clefs_C.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/Kerschbaum_Maximilian/Kerschbaum_Maximilian_A-KR-G45-830_A-Clefs_G.png"/>
                   </figure>
                </item>
                <item>
@@ -205,13 +207,20 @@
                   <title xml:lang="de">Noten</title>
                   <title xml:lang="eng">Notes</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/K/Kerschbaum_Maximilian/Kerschbaum_Maximilian_A-KR-G45-830_E-Notes_Achtel1.png"/>
-                     <graphic scale="33" url="../../101_samples/named/K/Kerschbaum_Maximilian/Kerschbaum_Maximilian_A-KR-G45-830_E-Notes_Achtel2.png"/>
-                     <graphic scale="33" url="../../101_samples/named/K/Kerschbaum_Maximilian/Kerschbaum_Maximilian_A-KR-G45-830_E-Notes_Achtel3.png"/>
-                     <graphic scale="33" url="../../101_samples/named/K/Kerschbaum_Maximilian/Kerschbaum_Maximilian_A-KR-G45-830_E-Notes_Ganze.png"/>
-                     <graphic scale="33" url="../../101_samples/named/K/Kerschbaum_Maximilian/Kerschbaum_Maximilian_A-KR-G45-830_E-Notes_Halbe.png"/>
-                     <graphic scale="33" url="../../101_samples/named/K/Kerschbaum_Maximilian/Kerschbaum_Maximilian_A-KR-G45-830_E-Notes_Viertel1.png"/>
-                     <graphic scale="33" url="../../101_samples/named/K/Kerschbaum_Maximilian/Kerschbaum_Maximilian_A-KR-G45-830_E-Notes_Viertel2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/Kerschbaum_Maximilian/Kerschbaum_Maximilian_A-KR-G45-830_E-Notes_Achtel1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/Kerschbaum_Maximilian/Kerschbaum_Maximilian_A-KR-G45-830_E-Notes_Achtel2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/Kerschbaum_Maximilian/Kerschbaum_Maximilian_A-KR-G45-830_E-Notes_Achtel3.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/Kerschbaum_Maximilian/Kerschbaum_Maximilian_A-KR-G45-830_E-Notes_Ganze.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/Kerschbaum_Maximilian/Kerschbaum_Maximilian_A-KR-G45-830_E-Notes_Halbe.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/Kerschbaum_Maximilian/Kerschbaum_Maximilian_A-KR-G45-830_E-Notes_Viertel1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/Kerschbaum_Maximilian/Kerschbaum_Maximilian_A-KR-G45-830_E-Notes_Viertel2.png"/>
                   </figure>
                </item>
                <item>

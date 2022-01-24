@@ -1,147 +1,147 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title type="main" level="a">Anonymus 164</title>
-                <title level="m">Die Wiener Kopisten der Werke Anton Bruckners</title>
-                <author>
-                    <name>Paul Hawkshaw</name>
-                    <name>Clemens Gubsch</name>
-                </author>
-                <respStmt>
-                    <resp>Automatische Konvertierung nach TEI P5</resp>
-                    <name xml:id="cg">Clemens Gubsch</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
-                    <name corresp="#cg">Clemens Gubsch</name>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <edition>
-                    <date>2020-11-01</date>
-                </edition>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Die Wiener Kopisten der Werke Anton Bruckners</publisher>
-                <idno type="BrucknerKopisten">d1e18795</idno>
-            </publicationStmt>
-            <sourceDesc>
-                <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>Anonymus</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-            <listChange>
-                <change who="#cg" status="created">Erstellt und geprüft</change>
-            </listChange>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div xml:id="content-d1e18795">
-                <listPerson>
-                    <person>
-                        <persName subtype="W" type="main">Anonymus 164</persName>
-                        <idno type="google-sheet">164</idno>
-                        <residence>Wien</residence>
-                        <affiliation xml:lang="de">Wiener Kopisten</affiliation>
-                        <affiliation xml:lang="eng">Vienna copyist</affiliation>
-                        <index>
-                            <term sortKey="2" xml:lang="de">Sekundärquellen</term>
-                            <term sortKey="2" xml:lang="eng">Secondary Sources</term>
-                        </index>
-                    </person>
-                </listPerson>
-                <p decls="desc" xml:lang="de"/>
-                <p decls="desc" xml:lang="eng"/>
-                <p decls="link" xml:lang="de"/>
-                <p decls="link" xml:lang="eng"/>
-                <table>
-                    <head>Abschriften</head>
-                    <row xml:lang="de" role="label">
-                        <cell>Datierung des Werkes</cell>
-                        <cell>Signatur</cell>
-                        <cell>Werktitel</cell>
-                        <cell>WAB-Nummer</cell>
-                        <cell>Art der Kopie</cell>
-                        <cell>erschlossene Datierung der Kopie</cell>
-                        <cell>Folios in der Hand des Kopisten</cell>
-                        <cell>Datierung der Kopie/Unterschrift</cell>
-                    </row>
-                    <row xml:lang="eng" role="label">
-                        <cell>Date of Composition</cell>
-                        <cell>Library Call Number</cell>
-                        <cell>Work Title</cell>
-                        <cell>WAB Number</cell>
-                        <cell>Manuscript Description</cell>
-                        <cell>date conjectural</cell>
-                        <cell>Folios in the Copyist’s Hand</cell>
-                        <cell>Copyist’s Signature or Date</cell>
-                    </row>
-                    <row role="data">
-                        <cell role="Datierung">
-                            <date from="1892-12-04" to="1892-12-09">zwischen 04.12.1892 und
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Anonymus 164</title>
+            <title level="m">Die Wiener Kopisten der Werke Anton Bruckners</title>
+            <author>
+               <name>Paul Hawkshaw</name>
+               <name>Clemens Gubsch</name>
+            </author>
+            <respStmt>
+               <resp>Automatische Konvertierung nach TEI P5</resp>
+               <name xml:id="cg">Clemens Gubsch</name>
+            </respStmt>
+            <respStmt>
+               <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
+               <name corresp="#cg">Clemens Gubsch</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2020-11-01</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Die Wiener Kopisten der Werke Anton Bruckners</publisher>
+            <idno type="BrucknerKopisten">d1e18795</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term>Anonymus</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change who="#cg" status="created">Erstellt und geprüft</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="content-d1e18795">
+            <listPerson>
+               <person>
+                  <persName subtype="W" type="main">Anonymus 164</persName>
+                  <idno type="alphabetically_sorted">Anonymus 164</idno>
+                  <residence>Wien</residence>
+                  <affiliation xml:lang="de">Wiener Kopisten</affiliation>
+                  <affiliation xml:lang="eng">Vienna copyist</affiliation>
+                  <index>
+                     <term sortKey="2" xml:lang="de">Sekundärquellen</term>
+                     <term sortKey="2" xml:lang="eng">Secondary Sources</term>
+                  </index>
+               </person>
+            </listPerson>
+            <p decls="desc" xml:lang="de"/>
+            <p decls="desc" xml:lang="eng"/>
+            <p decls="link" xml:lang="de"/>
+            <p decls="link" xml:lang="eng"/>
+            <table>
+               <head>Abschriften</head>
+               <row xml:lang="de" role="label">
+                  <cell>Datierung des Werkes</cell>
+                  <cell>Signatur</cell>
+                  <cell>Werktitel</cell>
+                  <cell>WAB-Nummer</cell>
+                  <cell>Art der Kopie</cell>
+                  <cell>erschlossene Datierung der Kopie</cell>
+                  <cell>Folios in der Hand des Kopisten</cell>
+                  <cell>Datierung der Kopie/Unterschrift</cell>
+               </row>
+               <row xml:lang="eng" role="label">
+                  <cell>Date of Composition</cell>
+                  <cell>Library Call Number</cell>
+                  <cell>Work Title</cell>
+                  <cell>WAB Number</cell>
+                  <cell>Manuscript Description</cell>
+                  <cell>date conjectural</cell>
+                  <cell>Folios in the Copyist’s Hand</cell>
+                  <cell>Copyist’s Signature or Date</cell>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1892-12-04" to="1892-12-09">zwischen 04.12.1892 und
                                 09.12.1892</date>
-                        </cell>
-                        <cell role="Signatur">A-Wgm I 55310. (H 27551)</cell>
-                        <cell role="Werktitel">
-                            <ref target="http://www.bruckner-online.at/ABLO_d1e10162">Vexilla regis</ref>
-                        </cell>
-                        <cell role="WAB-Nummer">
-                            <ref target="http://www.bruckner-online.at/wab-051">051</ref>
-                        </cell>
-                        <cell role="Art_der_Kopie">Chorpartitur und Klavierauszug</cell>
-                        <cell role="erschlossene_Datierung_der_Kopie">
-                            <date when="1902">1902</date>
-                        </cell>
-                        <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
-                        <cell role="Datierung_der_Kopie/Unterschrift"/>
-                        <cell role="Kommentar_intern">Kopie vorhanden</cell>
-                    </row>
-                </table>
-                <list>
-                    <head xml:lang="de">Beispiele entnommen aus: </head>
-                    <head xml:lang="eng">Examples taken from: </head>
-                    <item>
-                        <title xml:lang="de">Notenschlüssel</title>
-                        <title xml:lang="eng">Clefs</title>
-                        <figure/>
-                    </item>
-                    <item>
-                        <title xml:lang="de">Akzidentien</title>
-                        <title xml:lang="eng">Accidentals</title>
-                        <figure/>
-                    </item>
-                    <item>
-                        <title xml:lang="de">Taktvorzeichnung</title>
-                        <title xml:lang="eng">Time Signatures</title>
-                        <figure/>
-                    </item>
-                    <item>
-                        <title xml:lang="de">Pausen</title>
-                        <title xml:lang="eng">Rests</title>
-                        <figure/>
-                    </item>
-                    <item>
-                        <title xml:lang="de">Noten</title>
-                        <title xml:lang="eng">Notes</title>
-                        <figure/>
-                    </item>
-                    <item>
-                        <title xml:lang="de">Dynamik</title>
-                        <title xml:lang="eng">Dynamics</title>
-                        <figure/>
-                    </item>
-                </list>
-            </div>
-        </body>
-    </text>
+                  </cell>
+                  <cell role="Signatur">A-Wgm I 55310. (H 27551)</cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e10162">Vexilla regis</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-051">051</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Chorpartitur und Klavierauszug</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie">
+                     <date when="1902">1902</date>
+                  </cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern">Kopie vorhanden</cell>
+               </row>
+            </table>
+            <list>
+               <head xml:lang="de">Beispiele entnommen aus: </head>
+               <head xml:lang="eng">Examples taken from: </head>
+               <item>
+                  <title xml:lang="de">Notenschlüssel</title>
+                  <title xml:lang="eng">Clefs</title>
+                  <figure/>
+               </item>
+               <item>
+                  <title xml:lang="de">Akzidentien</title>
+                  <title xml:lang="eng">Accidentals</title>
+                  <figure/>
+               </item>
+               <item>
+                  <title xml:lang="de">Taktvorzeichnung</title>
+                  <title xml:lang="eng">Time Signatures</title>
+                  <figure/>
+               </item>
+               <item>
+                  <title xml:lang="de">Pausen</title>
+                  <title xml:lang="eng">Rests</title>
+                  <figure/>
+               </item>
+               <item>
+                  <title xml:lang="de">Noten</title>
+                  <title xml:lang="eng">Notes</title>
+                  <figure/>
+               </item>
+               <item>
+                  <title xml:lang="de">Dynamik</title>
+                  <title xml:lang="eng">Dynamics</title>
+                  <figure/>
+               </item>
+            </list>
+         </div>
+      </body>
+   </text>
 </TEI>

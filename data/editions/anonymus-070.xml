@@ -50,7 +50,7 @@
             <listPerson>
                <person>
                   <persName type="main">Anonymus 070</persName>
-                  <idno type="google-sheet">070</idno>
+                  <idno type="alphabetically_sorted">Anonymus 070</idno>
                   <residence/>
                   <affiliation xml:lang="de"/>
                   <affiliation xml:lang="eng"/>
@@ -113,49 +113,62 @@
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_070/Anonymus-070_A-WnMus.Hs.19758_A-Clefs_F.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_070/Anonymus-070_A-WnMus.Hs.19758_A-Clefs_G.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_070/Anonymus-070_A-WnMus.Hs.19758_A-Clefs_F.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_070/Anonymus-070_A-WnMus.Hs.19758_A-Clefs_G.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Akzidentien</title>
                   <title xml:lang="eng">Accidentals</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_070/Anonymus-070_A-WnMus.Hs.19758_B-Accidentals_Flat.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_070/Anonymus-070_A-WnMus.Hs.19758_B-Accidentals_Natural.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_070/Anonymus-070_A-WnMus.Hs.19758_B-Accidentals_Sharp.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_070/Anonymus-070_A-WnMus.Hs.19758_B-Accidentals_Flat.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_070/Anonymus-070_A-WnMus.Hs.19758_B-Accidentals_Natural.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_070/Anonymus-070_A-WnMus.Hs.19758_B-Accidentals_Sharp.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Taktvorzeichnung</title>
                   <title xml:lang="eng">Time Signatures</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_070/Anonymus-070_A-WnMus.Hs.19758_C-Time-Signatures_C.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_070/Anonymus-070_A-WnMus.Hs.19758_C-Time-Signatures_C.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Pausen</title>
                   <title xml:lang="eng">Rests</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_070/Anonymus-070_A-WnMus.Hs.19758_D-Rests_Halbe.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_070/Anonymus-070_A-WnMus.Hs.19758_D-Rests_Viertel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_070/Anonymus-070_A-WnMus.Hs.19758_D-Rests_Halbe.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_070/Anonymus-070_A-WnMus.Hs.19758_D-Rests_Viertel.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Noten</title>
                   <title xml:lang="eng">Notes</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_070/Anonymus-070_A-WnMus.Hs.19758_E-Notes_Achtel.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_070/Anonymus-070_A-WnMus.Hs.19758_E-Notes_Ganze.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_070/Anonymus-070_A-WnMus.Hs.19758_E-Notes_Halbe.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_070/Anonymus-070_A-WnMus.Hs.19758_E-Notes_Viertel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_070/Anonymus-070_A-WnMus.Hs.19758_E-Notes_Achtel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_070/Anonymus-070_A-WnMus.Hs.19758_E-Notes_Ganze.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_070/Anonymus-070_A-WnMus.Hs.19758_E-Notes_Halbe.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_070/Anonymus-070_A-WnMus.Hs.19758_E-Notes_Viertel.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Dynamik</title>
                   <title xml:lang="eng">Dynamics</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_070/Anonymus-070_A-WnMus.Hs.19758_F-Dynamics_Fortissimo.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_070/Anonymus-070_A-WnMus.Hs.19758_F-Dynamics_Fortissimo.png"/>
                   </figure>
                </item>
             </list>

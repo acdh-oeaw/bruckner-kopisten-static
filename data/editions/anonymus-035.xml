@@ -50,7 +50,7 @@
             <listPerson>
                <person>
                   <persName type="main">Anonymus 035</persName>
-                  <idno type="google-sheet">035</idno>
+                  <idno type="alphabetically_sorted">Anonymus 035</idno>
                   <residence>Kremsmünster</residence>
                   <affiliation xml:lang="de">Kremsmünsterer Kopisten</affiliation>
                   <affiliation xml:lang="eng">Kremsmünster copyists</affiliation>

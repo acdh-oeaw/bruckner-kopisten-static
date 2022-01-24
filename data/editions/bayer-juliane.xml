@@ -54,7 +54,7 @@
                      <surname>Bayer</surname>
                      <forename>Juliane</forename>
                   </persName>
-                  <idno type="google-sheet">Bayer, Juliane</idno>
+                  <idno type="alphabetically_sorted">Bayer, Juliane</idno>
                   <idno type="GND"/>
                   <residence>Steyr</residence>
                   <affiliation xml:lang="de">Steyrer Kopisten</affiliation>
@@ -121,7 +121,8 @@
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/B/Bayer_Juliane/Bayer_Juliane_A-WnMus.Hs.2125-II_A-Clefs_G.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/B/Bayer_Juliane/Bayer_Juliane_A-WnMus.Hs.2125-II_A-Clefs_G.png"/>
                   </figure>
                </item>
                <item>
@@ -178,8 +179,10 @@
                               url="../../101_samples/named/B/Bayer_Juliane/Bayer_Juliane_A-WnMus.Hs.2125-II_E-Notes_Achtel_1.png"/>
                      <graphic scale="33"
                               url="../../101_samples/named/B/Bayer_Juliane/Bayer_Juliane_A-WnMus.Hs.2125-II_E-Notes_Achtel_2.png"/>
-                     <graphic scale="33" url="../../101_samples/named/B/Bayer_Juliane/Bayer_Juliane_A-WnMus.Hs.2125-II_E-Notes_Halbe_1.png"/>
-                     <graphic scale="33" url="../../101_samples/named/B/Bayer_Juliane/Bayer_Juliane_A-WnMus.Hs.2125-II_E-Notes_Halbe_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/B/Bayer_Juliane/Bayer_Juliane_A-WnMus.Hs.2125-II_E-Notes_Halbe_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/B/Bayer_Juliane/Bayer_Juliane_A-WnMus.Hs.2125-II_E-Notes_Halbe_2.png"/>
                      <graphic scale="33"
                               url="../../101_samples/named/B/Bayer_Juliane/Bayer_Juliane_A-WnMus.Hs.2125-II_E-Notes_Sechzehntel_1.png"/>
                      <graphic scale="33"

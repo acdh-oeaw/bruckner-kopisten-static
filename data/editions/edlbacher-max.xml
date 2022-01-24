@@ -54,7 +54,7 @@
                      <surname>Edlbacher</surname>
                      <forename>Max</forename>
                   </persName>
-                  <idno type="google-sheet">Edlbacher, Max</idno>
+                  <idno type="alphabetically_sorted">Edlbacher, Max</idno>
                   <idno type="GND">143666991</idno>
                   <residence/>
                   <affiliation xml:lang="de"/>
@@ -121,8 +121,10 @@
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/E/Edlbacher_Max/Edlbacher_Max_A-WnMus.Hs.19781_A-Clefs_F.png"/>
-                     <graphic scale="33" url="../../101_samples/named/E/Edlbacher_Max/Edlbacher_Max_A-WnMus.Hs.19781_A-Clefs_G.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/E/Edlbacher_Max/Edlbacher_Max_A-WnMus.Hs.19781_A-Clefs_F.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/E/Edlbacher_Max/Edlbacher_Max_A-WnMus.Hs.19781_A-Clefs_G.png"/>
                   </figure>
                </item>
                <item>
@@ -155,33 +157,44 @@
                   <title xml:lang="de">Pausen</title>
                   <title xml:lang="eng">Rests</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/E/Edlbacher_Max/Edlbacher_Max_A-WnMus.Hs.19781_D-Rests_Achtel_1.png"/>
-                     <graphic scale="33" url="../../101_samples/named/E/Edlbacher_Max/Edlbacher_Max_A-WnMus.Hs.19781_D-Rests_Achtel_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/E/Edlbacher_Max/Edlbacher_Max_A-WnMus.Hs.19781_D-Rests_Achtel_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/E/Edlbacher_Max/Edlbacher_Max_A-WnMus.Hs.19781_D-Rests_Achtel_2.png"/>
                      <graphic scale="33"
                               url="../../101_samples/named/E/Edlbacher_Max/Edlbacher_Max_A-WnMus.Hs.19781_D-Rests_Sechzehntel_1.png"/>
                      <graphic scale="33"
                               url="../../101_samples/named/E/Edlbacher_Max/Edlbacher_Max_A-WnMus.Hs.19781_D-Rests_Sechzehntel_2.png"/>
-                     <graphic scale="33" url="../../101_samples/named/E/Edlbacher_Max/Edlbacher_Max_A-WnMus.Hs.19781_D-Rests_Viertel_1.png"/>
-                     <graphic scale="33" url="../../101_samples/named/E/Edlbacher_Max/Edlbacher_Max_A-WnMus.Hs.19781_D-Rests_Viertel_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/E/Edlbacher_Max/Edlbacher_Max_A-WnMus.Hs.19781_D-Rests_Viertel_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/E/Edlbacher_Max/Edlbacher_Max_A-WnMus.Hs.19781_D-Rests_Viertel_2.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Noten</title>
                   <title xml:lang="eng">Notes</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/E/Edlbacher_Max/Edlbacher_Max_A-WnMus.Hs.19781_E-Notes_Achtel_1.png"/>
-                     <graphic scale="33" url="../../101_samples/named/E/Edlbacher_Max/Edlbacher_Max_A-WnMus.Hs.19781_E-Notes_Achtel_2.png"/>
-                     <graphic scale="33" url="../../101_samples/named/E/Edlbacher_Max/Edlbacher_Max_A-WnMus.Hs.19781_E-Notes_Halbe_1.png"/>
-                     <graphic scale="33" url="../../101_samples/named/E/Edlbacher_Max/Edlbacher_Max_A-WnMus.Hs.19781_E-Notes_Halbe_2.png"/>
-                     <graphic scale="33" url="../../101_samples/named/E/Edlbacher_Max/Edlbacher_Max_A-WnMus.Hs.19781_E-Notes_Viertel_1.png"/>
-                     <graphic scale="33" url="../../101_samples/named/E/Edlbacher_Max/Edlbacher_Max_A-WnMus.Hs.19781_E-Notes_Viertel_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/E/Edlbacher_Max/Edlbacher_Max_A-WnMus.Hs.19781_E-Notes_Achtel_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/E/Edlbacher_Max/Edlbacher_Max_A-WnMus.Hs.19781_E-Notes_Achtel_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/E/Edlbacher_Max/Edlbacher_Max_A-WnMus.Hs.19781_E-Notes_Halbe_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/E/Edlbacher_Max/Edlbacher_Max_A-WnMus.Hs.19781_E-Notes_Halbe_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/E/Edlbacher_Max/Edlbacher_Max_A-WnMus.Hs.19781_E-Notes_Viertel_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/E/Edlbacher_Max/Edlbacher_Max_A-WnMus.Hs.19781_E-Notes_Viertel_2.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Dynamik</title>
                   <title xml:lang="eng">Dynamics</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/E/Edlbacher_Max/Edlbacher_Max_A-WnMus.Hs.19781_F-Dynamics_Cresc.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/E/Edlbacher_Max/Edlbacher_Max_A-WnMus.Hs.19781_F-Dynamics_Cresc.png"/>
                      <graphic scale="33"
                               url="../../101_samples/named/E/Edlbacher_Max/Edlbacher_Max_A-WnMus.Hs.19781_F-Dynamics_Decresc.png"/>
                      <graphic scale="33"

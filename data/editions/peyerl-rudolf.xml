@@ -54,7 +54,7 @@
                      <surname>Peyerl</surname>
                      <forename>Rudolf</forename>
                   </persName>
-                  <idno type="google-sheet">Peyerl, Rudolf</idno>
+                  <idno type="alphabetically_sorted">Peyerl, Rudolf</idno>
                   <idno type="GND"/>
                   <residence/>
                   <affiliation xml:lang="de"/>
@@ -121,8 +121,10 @@
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/P/Peyerl_Rudolf/Peyerl_Rudolf_A-WnMus.Hs.19777_A-Clefs_F.png"/>
-                     <graphic scale="33" url="../../101_samples/named/P/Peyerl_Rudolf/Peyerl_Rudolf_A-WnMus.Hs.19777_A-Clefs_G.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/P/Peyerl_Rudolf/Peyerl_Rudolf_A-WnMus.Hs.19777_A-Clefs_F.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/P/Peyerl_Rudolf/Peyerl_Rudolf_A-WnMus.Hs.19777_A-Clefs_G.png"/>
                   </figure>
                </item>
                <item>
@@ -149,23 +151,28 @@
                   <title xml:lang="de">Pausen</title>
                   <title xml:lang="eng">Rests</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/P/Peyerl_Rudolf/Peyerl_Rudolf_A-WnMus.Hs.19777_D-Rests_Viertel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/P/Peyerl_Rudolf/Peyerl_Rudolf_A-WnMus.Hs.19777_D-Rests_Viertel.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Noten</title>
                   <title xml:lang="eng">Notes</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/P/Peyerl_Rudolf/Peyerl_Rudolf_A-WnMus.Hs.19777_E-Notes_Achtel.png"/>
-                     <graphic scale="33" url="../../101_samples/named/P/Peyerl_Rudolf/Peyerl_Rudolf_A-WnMus.Hs.19777_E-Notes_Halbe.png"/>
-                     <graphic scale="33" url="../../101_samples/named/P/Peyerl_Rudolf/Peyerl_Rudolf_A-WnMus.Hs.19777_E-Notes_Viertel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/P/Peyerl_Rudolf/Peyerl_Rudolf_A-WnMus.Hs.19777_E-Notes_Achtel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/P/Peyerl_Rudolf/Peyerl_Rudolf_A-WnMus.Hs.19777_E-Notes_Halbe.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/P/Peyerl_Rudolf/Peyerl_Rudolf_A-WnMus.Hs.19777_E-Notes_Viertel.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Dynamik</title>
                   <title xml:lang="eng">Dynamics</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/P/Peyerl_Rudolf/Peyerl_Rudolf_A-WnMus.Hs.19777_F-Dynamics_Cresc.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/P/Peyerl_Rudolf/Peyerl_Rudolf_A-WnMus.Hs.19777_F-Dynamics_Cresc.png"/>
                      <graphic scale="33"
                               url="../../101_samples/named/P/Peyerl_Rudolf/Peyerl_Rudolf_A-WnMus.Hs.19777_F-Dynamics_Cresc_2.png"/>
                      <graphic scale="33"
@@ -174,7 +181,8 @@
                               url="../../101_samples/named/P/Peyerl_Rudolf/Peyerl_Rudolf_A-WnMus.Hs.19777_F-Dynamics_Mezzoforte.png"/>
                      <graphic scale="33"
                               url="../../101_samples/named/P/Peyerl_Rudolf/Peyerl_Rudolf_A-WnMus.Hs.19777_F-Dynamics_Pianissimo.png"/>
-                     <graphic scale="33" url="../../101_samples/named/P/Peyerl_Rudolf/Peyerl_Rudolf_A-WnMus.Hs.19777_F-Dynamics_Piano.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/P/Peyerl_Rudolf/Peyerl_Rudolf_A-WnMus.Hs.19777_F-Dynamics_Piano.png"/>
                   </figure>
                </item>
             </list>

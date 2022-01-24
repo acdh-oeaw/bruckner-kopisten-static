@@ -50,7 +50,7 @@
             <listPerson>
                <person>
                   <persName subtype="W" type="main">Anonymus 060</persName>
-                  <idno type="google-sheet">060</idno>
+                  <idno type="alphabetically_sorted">Anonymus 060</idno>
                   <floruit from="1876" to="1876">1876</floruit>
                   <residence/>
                   <affiliation xml:lang="de"/>
@@ -100,8 +100,7 @@
                      <date when="1864-09-29">29.09.1864</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://data.onb.ac.at/rep/112EDE19" type="extern"
-                        >A-WnMus.Hs.6074</ref>
+                     <ref target="http://data.onb.ac.at/rep/112EDE19" type="extern">A-WnMus.Hs.6074</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9384">Messe in d-Moll</ref>

@@ -50,7 +50,7 @@
             <listPerson>
                <person>
                   <persName subtype="W" type="main">Anonymus 014</persName>
-                  <idno type="google-sheet">014</idno>
+                  <idno type="alphabetically_sorted">Anonymus 014</idno>
                   <floruit from="1868" to="1868" xml:lang="de">1868 oder danach</floruit>
                   <floruit from="1868" to="1868" xml:lang="eng">1868 or after</floruit>
                   <residence/>
@@ -120,8 +120,10 @@
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_014/Anonymus-014_A-WnMus.Hs.33193_A-Clefs_F.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_014/Anonymus-014_A-WnMus.Hs.33193_A-Clefs_G.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_014/Anonymus-014_A-WnMus.Hs.33193_A-Clefs_F.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_014/Anonymus-014_A-WnMus.Hs.33193_A-Clefs_G.png"/>
                   </figure>
                </item>
                <item>
@@ -151,18 +153,22 @@
                   <title xml:lang="de">Noten</title>
                   <title xml:lang="eng">Notes</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_014/Anonymus-014_A-WnMus.Hs.33193_E-Notes_Halbe.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_014/Anonymus-014_A-WnMus.Hs.33193_E-Notes_Viertel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_014/Anonymus-014_A-WnMus.Hs.33193_E-Notes_Halbe.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_014/Anonymus-014_A-WnMus.Hs.33193_E-Notes_Viertel.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Dynamik</title>
                   <title xml:lang="eng">Dynamics</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_014/Anonymus-014_A-WnMus.Hs.33193_F-Dynamics_Forte.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_014/Anonymus-014_A-WnMus.Hs.33193_F-Dynamics_Forte.png"/>
                      <graphic scale="33"
                               url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_014/Anonymus-014_A-WnMus.Hs.33193_F-Dynamics_Mezzoforte.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_014/Anonymus-014_A-WnMus.Hs.33193_F-Dynamics_Piano.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_014/Anonymus-014_A-WnMus.Hs.33193_F-Dynamics_Piano.png"/>
                   </figure>
                </item>
             </list>

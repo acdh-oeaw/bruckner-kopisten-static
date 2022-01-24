@@ -54,7 +54,7 @@
                      <surname>Petschnig</surname>
                      <forename>Emil</forename>
                   </persName>
-                  <idno type="google-sheet">Petschnig, Emil</idno>
+                  <idno type="alphabetically_sorted">Petschnig, Emil</idno>
                   <idno type="GND">130040789</idno>
                   <residence/>
                   <affiliation xml:lang="de"/>
@@ -123,8 +123,10 @@
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/P/Petschnig_Emil/Petschnig_Emil_A-WnMus.Hs.41004_A-Clefs_F.png"/>
-                     <graphic scale="33" url="../../101_samples/named/P/Petschnig_Emil/Petschnig_Emil_A-WnMus.Hs.41004_A-Clefs_G.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/P/Petschnig_Emil/Petschnig_Emil_A-WnMus.Hs.41004_A-Clefs_F.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/P/Petschnig_Emil/Petschnig_Emil_A-WnMus.Hs.41004_A-Clefs_G.png"/>
                   </figure>
                </item>
                <item>
@@ -153,32 +155,40 @@
                   <title xml:lang="de">Pausen</title>
                   <title xml:lang="eng">Rests</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/P/Petschnig_Emil/Petschnig_Emil_A-WnMus.Hs.41004_D-Rests_Achtel.png"/>
-                     <graphic scale="33" url="../../101_samples/named/P/Petschnig_Emil/Petschnig_Emil_A-WnMus.Hs.41004_D-Rests_Viertel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/P/Petschnig_Emil/Petschnig_Emil_A-WnMus.Hs.41004_D-Rests_Achtel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/P/Petschnig_Emil/Petschnig_Emil_A-WnMus.Hs.41004_D-Rests_Viertel.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Noten</title>
                   <title xml:lang="eng">Notes</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/P/Petschnig_Emil/Petschnig_Emil_A-WnMus.Hs.41004_E-Notes_Halbe.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/P/Petschnig_Emil/Petschnig_Emil_A-WnMus.Hs.41004_E-Notes_Halbe.png"/>
                      <graphic scale="33"
                               url="../../101_samples/named/P/Petschnig_Emil/Petschnig_Emil_A-WnMus.Hs.41004_E-Notes_Sechzehntel.png"/>
-                     <graphic scale="33" url="../../101_samples/named/P/Petschnig_Emil/Petschnig_Emil_A-WnMus.Hs.41004_E-Notes_Viertel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/P/Petschnig_Emil/Petschnig_Emil_A-WnMus.Hs.41004_E-Notes_Viertel.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Dynamik</title>
                   <title xml:lang="eng">Dynamics</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/P/Petschnig_Emil/Petschnig_Emil_A-WnMus.Hs.41004_F-Dynamics_Cresc.png"/>
-                     <graphic scale="33" url="../../101_samples/named/P/Petschnig_Emil/Petschnig_Emil_A-WnMus.Hs.41004_F-Dynamics_Dim.png"/>
-                     <graphic scale="33" url="../../101_samples/named/P/Petschnig_Emil/Petschnig_Emil_A-WnMus.Hs.41004_F-Dynamics_Forte.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/P/Petschnig_Emil/Petschnig_Emil_A-WnMus.Hs.41004_F-Dynamics_Cresc.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/P/Petschnig_Emil/Petschnig_Emil_A-WnMus.Hs.41004_F-Dynamics_Dim.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/P/Petschnig_Emil/Petschnig_Emil_A-WnMus.Hs.41004_F-Dynamics_Forte.png"/>
                      <graphic scale="33"
                               url="../../101_samples/named/P/Petschnig_Emil/Petschnig_Emil_A-WnMus.Hs.41004_F-Dynamics_Fortissimo.png"/>
                      <graphic scale="33"
                               url="../../101_samples/named/P/Petschnig_Emil/Petschnig_Emil_A-WnMus.Hs.41004_F-Dynamics_Pianissimo.png"/>
-                     <graphic scale="33" url="../../101_samples/named/P/Petschnig_Emil/Petschnig_Emil_A-WnMus.Hs.41004_F-Dynamics_Piano.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/P/Petschnig_Emil/Petschnig_Emil_A-WnMus.Hs.41004_F-Dynamics_Piano.png"/>
                   </figure>
                </item>
             </list>

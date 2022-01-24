@@ -54,7 +54,7 @@
                      <surname>Göllerich</surname>
                      <forename>August</forename>
                   </persName>
-                  <idno type="google-sheet">Göllerich, August</idno>
+                  <idno type="alphabetically_sorted">Göllerich, August</idno>
                   <idno type="GND">118695762</idno>
                   <floruit from="1884" to="1884" notBefore="1884" xml:lang="de">1884 und später</floruit>
                   <floruit from="1884" to="1884" notBefore="1884" xml:lang="eng">1884 and later</floruit>
@@ -282,10 +282,14 @@
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/G/Göllerich_August/Göllerich_August_A-WnMus.Hs.33156_A-Clefs_F_1.png"/>
-                     <graphic scale="33" url="../../101_samples/named/G/Göllerich_August/Göllerich_August_A-WnMus.Hs.33156_A-Clefs_F_2.png"/>
-                     <graphic scale="33" url="../../101_samples/named/G/Göllerich_August/Göllerich_August_A-WnMus.Hs.33156_A-Clefs_G_1.png"/>
-                     <graphic scale="33" url="../../101_samples/named/G/Göllerich_August/Göllerich_August_A-WnMus.Hs.33156_A-Clefs_G_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/G/Göllerich_August/Göllerich_August_A-WnMus.Hs.33156_A-Clefs_F_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/G/Göllerich_August/Göllerich_August_A-WnMus.Hs.33156_A-Clefs_F_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/G/Göllerich_August/Göllerich_August_A-WnMus.Hs.33156_A-Clefs_G_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/G/Göllerich_August/Göllerich_August_A-WnMus.Hs.33156_A-Clefs_G_2.png"/>
                   </figure>
                </item>
                <item>

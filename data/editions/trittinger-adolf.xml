@@ -54,7 +54,7 @@
                      <surname>Trittinger</surname>
                      <forename>Adolf</forename>
                   </persName>
-                  <idno type="google-sheet">Trittinger, Adolf</idno>
+                  <idno type="alphabetically_sorted">Trittinger, Adolf</idno>
                   <idno type="GND"/>
                   <residence/>
                   <affiliation xml:lang="de"/>
@@ -146,8 +146,10 @@
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/T/Trittinger_Adolf/Trittinger_Adolf_A-WnMus.Hs.19721_A-Clefs_F.png"/>
-                     <graphic scale="33" url="../../101_samples/named/T/Trittinger_Adolf/Trittinger_Adolf_A-WnMus.Hs.19721_A-Clefs_G.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/T/Trittinger_Adolf/Trittinger_Adolf_A-WnMus.Hs.19721_A-Clefs_F.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/T/Trittinger_Adolf/Trittinger_Adolf_A-WnMus.Hs.19721_A-Clefs_G.png"/>
                   </figure>
                </item>
                <item>

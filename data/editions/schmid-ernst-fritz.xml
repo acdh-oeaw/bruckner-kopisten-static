@@ -54,7 +54,7 @@
                      <surname>Schmid</surname>
                      <forename>Ernst Fritz</forename>
                   </persName>
-                  <idno type="google-sheet">Schmid, Ernst Fritz</idno>
+                  <idno type="alphabetically_sorted">Schmid, Ernst Fritz</idno>
                   <idno type="GND">124095739</idno>
                   <residence/>
                   <affiliation xml:lang="de"/>
@@ -138,8 +138,10 @@
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/S/Schmid_ErnstFritz/Schmid_ErnstFritz_A-WnMus.Hs.6078_A-Clefs_F.png"/>
-                     <graphic scale="33" url="../../101_samples/named/S/Schmid_ErnstFritz/Schmid_ErnstFritz_A-WnMus.Hs.6078_A-Clefs_G.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Schmid_ErnstFritz/Schmid_ErnstFritz_A-WnMus.Hs.6078_A-Clefs_F.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Schmid_ErnstFritz/Schmid_ErnstFritz_A-WnMus.Hs.6078_A-Clefs_G.png"/>
                   </figure>
                </item>
                <item>
@@ -166,7 +168,8 @@
                   <title xml:lang="de">Pausen</title>
                   <title xml:lang="eng">Rests</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/S/Schmid_ErnstFritz/Schmid_ErnstFritz_A-WnMus.Hs.6078_D-Rests_Achtel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Schmid_ErnstFritz/Schmid_ErnstFritz_A-WnMus.Hs.6078_D-Rests_Achtel.png"/>
                      <graphic scale="33"
                               url="../../101_samples/named/S/Schmid_ErnstFritz/Schmid_ErnstFritz_A-WnMus.Hs.6078_D-Rests_Viertel.png"/>
                   </figure>
@@ -175,9 +178,12 @@
                   <title xml:lang="de">Noten</title>
                   <title xml:lang="eng">Notes</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/S/Schmid_ErnstFritz/Schmid_ErnstFritz_A-WnMus.Hs.6078_E-Notes_Achtel.png"/>
-                     <graphic scale="33" url="../../101_samples/named/S/Schmid_ErnstFritz/Schmid_ErnstFritz_A-WnMus.Hs.6078_E-Notes_Ganze.png"/>
-                     <graphic scale="33" url="../../101_samples/named/S/Schmid_ErnstFritz/Schmid_ErnstFritz_A-WnMus.Hs.6078_E-Notes_Halbe.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Schmid_ErnstFritz/Schmid_ErnstFritz_A-WnMus.Hs.6078_E-Notes_Achtel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Schmid_ErnstFritz/Schmid_ErnstFritz_A-WnMus.Hs.6078_E-Notes_Ganze.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Schmid_ErnstFritz/Schmid_ErnstFritz_A-WnMus.Hs.6078_E-Notes_Halbe.png"/>
                      <graphic scale="33"
                               url="../../101_samples/named/S/Schmid_ErnstFritz/Schmid_ErnstFritz_A-WnMus.Hs.6078_E-Notes_Viertel.png"/>
                   </figure>
@@ -194,7 +200,8 @@
                               url="../../101_samples/named/S/Schmid_ErnstFritz/Schmid_ErnstFritz_A-WnMus.Hs.6078_F-Dynamics_Decresc.png"/>
                      <graphic scale="33"
                               url="../../101_samples/named/S/Schmid_ErnstFritz/Schmid_ErnstFritz_A-WnMus.Hs.6078_F-Dynamics_Decrescendo.png"/>
-                     <graphic scale="33" url="../../101_samples/named/S/Schmid_ErnstFritz/Schmid_ErnstFritz_A-WnMus.Hs.6078_F-Dynamics_Dim.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Schmid_ErnstFritz/Schmid_ErnstFritz_A-WnMus.Hs.6078_F-Dynamics_Dim.png"/>
                      <graphic scale="33"
                               url="../../101_samples/named/S/Schmid_ErnstFritz/Schmid_ErnstFritz_A-WnMus.Hs.6078_F-Dynamics_Forte.png"/>
                      <graphic scale="33"

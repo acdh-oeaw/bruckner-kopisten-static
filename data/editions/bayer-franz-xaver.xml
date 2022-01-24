@@ -54,7 +54,7 @@
                      <surname>Bayer</surname>
                      <forename>Franz Xaver</forename>
                   </persName>
-                  <idno type="google-sheet">Bayer, Franz Xaver</idno>
+                  <idno type="alphabetically_sorted">Bayer, Franz Xaver</idno>
                   <idno type="GND">130103608</idno>
                   <floruit from="1892" to="1895">1892–1895</floruit>
                   <residence>Steyr</residence>
@@ -188,8 +188,10 @@
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/B/Bayer_FranzXaver/Bayer_FranzXaver_A-WnMus.Hs.19711_A-Clefs_F.png"/>
-                     <graphic scale="33" url="../../101_samples/named/B/Bayer_FranzXaver/Bayer_FranzXaver_A-WnMus.Hs.19711_A-Clefs_G.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/B/Bayer_FranzXaver/Bayer_FranzXaver_A-WnMus.Hs.19711_A-Clefs_F.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/B/Bayer_FranzXaver/Bayer_FranzXaver_A-WnMus.Hs.19711_A-Clefs_G.png"/>
                   </figure>
                </item>
                <item>

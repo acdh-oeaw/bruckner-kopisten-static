@@ -54,7 +54,7 @@
                      <surname>Meißner</surname>
                      <forename>Anton</forename>
                   </persName>
-                  <idno type="google-sheet">Meißner, Anton</idno>
+                  <idno type="alphabetically_sorted">Meißner, Anton</idno>
                   <idno type="GND"/>
                   <residence/>
                   <affiliation xml:lang="de"/>
@@ -94,9 +94,7 @@
                   <cell>Folios in the Copyist’s Hand</cell>
                   <cell>Copyist’s Signature or Date</cell>
                </row>
-               
             </table>
-            
             <list>
                <head xml:lang="de">Beispiele entnommen aus: <ref/>
                </head>

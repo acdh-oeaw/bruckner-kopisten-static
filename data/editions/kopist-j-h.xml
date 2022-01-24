@@ -54,7 +54,7 @@
                      <surname>J.</surname>
                      <forename>H.</forename>
                   </persName>
-                  <idno type="google-sheet">Kopist, J. H.</idno>
+                  <idno type="alphabetically_sorted">J. H., Kopist</idno>
                   <idno type="GND"/>
                   <residence/>
                   <affiliation xml:lang="de"/>
@@ -1121,20 +1121,26 @@
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_A-Clefs_F.png"/>
-                     <graphic scale="33" url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_A-Clefs_G.png"/>
-                     <graphic scale="33" url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33198_A-Clefs_F.png"/>
-                     <graphic scale="33" url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33198_A-Clefs_G.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_A-Clefs_F.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_A-Clefs_G.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33198_A-Clefs_F.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33198_A-Clefs_G.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Akzidentien</title>
                   <title xml:lang="eng">Accidentals</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_B-Accidentals_Flat.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_B-Accidentals_Flat.png"/>
                      <graphic scale="33"
                               url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_B-Accidentals_Natural.png"/>
-                     <graphic scale="33" url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33198_B-Accidentals_Sharp.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33198_B-Accidentals_Sharp.png"/>
                   </figure>
                </item>
                <item>
@@ -1143,40 +1149,52 @@
                   <figure>
                      <graphic scale="33"
                               url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_C-Time-Signatures_3_4.png"/>
-                     <graphic scale="33" url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33198_C-Time-Signatures_C.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33198_C-Time-Signatures_C.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Pausen</title>
                   <title xml:lang="eng">Rests</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_D-Rests_Viertel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_D-Rests_Viertel.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Noten</title>
                   <title xml:lang="eng">Notes</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_E-Notes_Achtel.png"/>
-                     <graphic scale="33" url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_E-Notes_Achtel_2.png"/>
-                     <graphic scale="33" url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_E-Notes_Halbe.png"/>
-                     <graphic scale="33" url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_E-Notes_Sechzehntel.png"/>
-                     <graphic scale="33" url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_E-Notes_Viertel.png"/>
-                     <graphic scale="33" url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33198_E-Notes_Ganze.png"/>
-                     <graphic scale="33" url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33198_E-Notes_Halbe.png"/>
-                     <graphic scale="33" url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33198_E-Notes_Viertel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_E-Notes_Achtel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_E-Notes_Achtel_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_E-Notes_Halbe.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_E-Notes_Sechzehntel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_E-Notes_Viertel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33198_E-Notes_Ganze.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33198_E-Notes_Halbe.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33198_E-Notes_Viertel.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Dynamik</title>
                   <title xml:lang="eng">Dynamics</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_F-Dynamics_Forte.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_F-Dynamics_Forte.png"/>
                      <graphic scale="33"
                               url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_F-Dynamics_Fortissimo.png"/>
                      <graphic scale="33"
                               url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_F-Dynamics_Mezzoforte.png"/>
-                     <graphic scale="33" url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_F-Dynamics_Piano.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_F-Dynamics_Piano.png"/>
                   </figure>
                </item>
             </list>

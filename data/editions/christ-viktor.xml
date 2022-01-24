@@ -54,7 +54,7 @@
                      <surname>Christ</surname>
                      <forename>Viktor</forename>
                   </persName>
-                  <idno type="google-sheet">Christ, Viktor</idno>
+                  <idno type="alphabetically_sorted">Christ, Viktor</idno>
                   <idno type="GND"/>
                   <floruit from="1890" to="1891">1890–1891</floruit>
                   <residence/>
@@ -128,7 +128,7 @@
                   <cell role="erschlossene_Datierung_der_Kopie"/>
                   <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift">1r</cell>
-                  <cell role="Kommentar_intern"></cell>
+                  <cell role="Kommentar_intern"/>
                </row>
                <row role="data">
                   <cell role="Datierung">
@@ -183,7 +183,7 @@
                   <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift">1v; Ende des 1. Satzes; Adagio
                      Titelseite; Ende des Adagios; Finale Titelseite; Ende des Finales</cell>
-                  <cell role="Kommentar_intern"></cell>
+                  <cell role="Kommentar_intern"/>
                </row>
             </table>
             <list>

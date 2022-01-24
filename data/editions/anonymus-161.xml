@@ -1,155 +1,155 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title type="main" level="a">Anonymus 161</title>
-                <title level="m">Die Wiener Kopisten der Werke Anton Bruckners</title>
-                <author>
-                    <name>Paul Hawkshaw</name>
-                    <name>Clemens Gubsch</name>
-                </author>
-                <respStmt>
-                    <resp>Automatische Konvertierung nach TEI P5</resp>
-                    <name xml:id="cg">Clemens Gubsch</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
-                    <name corresp="#cg">Clemens Gubsch</name>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <edition>
-                    <date>2020-11-01</date>
-                </edition>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Die Wiener Kopisten der Werke Anton Bruckners</publisher>
-                <idno type="BrucknerKopisten">d1e465f0</idno>
-            </publicationStmt>
-            <sourceDesc>
-                <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>Anonymus</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-            <listChange>
-                <change who="#cg" status="created">Erstellt und geprüft</change>
-            </listChange>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div xml:id="content-d1e465f0">
-                <listPerson>
-                    <person>
-                        <persName subtype="W" type="main">Anonymus 161</persName>
-                        <idno type="google-sheet">161</idno>
-                        <residence/>
-                        <affiliation xml:lang="de">Wiener Kopisten</affiliation>
-                        <affiliation xml:lang="eng">Vienna copyist</affiliation>
-                        <index>
-                            <term sortKey="2" xml:lang="de">Sekundärquellen</term>
-                            <term sortKey="2" xml:lang="eng">Secondary Sources</term>
-                        </index>
-                    </person>
-                </listPerson>
-                <p decls="desc" xml:lang="de">
-                    <lb/>Die Abschrift der Partitur des <hi rend="italic">Tafellieds</hi>, die vom Kopisten Anonymus 161 angefertigt wurde, ist lediglich als Fotokopie zusammen mit einem Stimmensatz im Nachlassfond der Bruckner-Gesamtausgabe (A-WnF60.BRGA) überliefert.
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Anonymus 161</title>
+            <title level="m">Die Wiener Kopisten der Werke Anton Bruckners</title>
+            <author>
+               <name>Paul Hawkshaw</name>
+               <name>Clemens Gubsch</name>
+            </author>
+            <respStmt>
+               <resp>Automatische Konvertierung nach TEI P5</resp>
+               <name xml:id="cg">Clemens Gubsch</name>
+            </respStmt>
+            <respStmt>
+               <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
+               <name corresp="#cg">Clemens Gubsch</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2020-11-01</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Die Wiener Kopisten der Werke Anton Bruckners</publisher>
+            <idno type="BrucknerKopisten">d1e465f0</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term>Anonymus</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change who="#cg" status="created">Erstellt und geprüft</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="content-d1e465f0">
+            <listPerson>
+               <person>
+                  <persName subtype="W" type="main">Anonymus 161</persName>
+                  <idno type="alphabetically_sorted">Anonymus 161</idno>
+                  <residence/>
+                  <affiliation xml:lang="de">Wiener Kopisten</affiliation>
+                  <affiliation xml:lang="eng">Vienna copyist</affiliation>
+                  <index>
+                     <term sortKey="2" xml:lang="de">Sekundärquellen</term>
+                     <term sortKey="2" xml:lang="eng">Secondary Sources</term>
+                  </index>
+               </person>
+            </listPerson>
+            <p decls="desc" xml:lang="de">
+               <lb/>Die Abschrift der Partitur des <hi rend="italic">Tafellieds</hi>, die vom Kopisten Anonymus 161 angefertigt wurde, ist lediglich als Fotokopie zusammen mit einem Stimmensatz im Nachlassfond der Bruckner-Gesamtausgabe (A-WnF60.BRGA) überliefert.
                 </p>
-                <p decls="desc" xml:lang="eng">
-                    <lb/>A photocopy of a copy score of <hi rend="italic">Tafellied</hi> preserved with a set of parts in the Fonds of the Bruckner Collected Works Edition in A-Wn is in this hand.
+            <p decls="desc" xml:lang="eng">
+               <lb/>A photocopy of a copy score of <hi rend="italic">Tafellied</hi> preserved with a set of parts in the Fonds of the Bruckner Collected Works Edition in A-Wn is in this hand.
                 </p>
-                <table>
-                    <head>Abschriften</head>
-                    <row xml:lang="de" role="label">
-                        <cell>Datierung des Werkes</cell>
-                        <cell>Signatur</cell>
-                        <cell>Werktitel</cell>
-                        <cell>WAB-Nummer</cell>
-                        <cell>Art der Kopie</cell>
-                        <cell>erschlossene Datierung der Kopie</cell>
-                        <cell>Folios in der Hand des Kopisten</cell>
-                        <cell>Datierung der Kopie/Unterschrift</cell>
-                    </row>
-                    <row xml:lang="eng" role="label">
-                        <cell>Date of Composition</cell>
-                        <cell>Library Call Number</cell>
-                        <cell>Work Title</cell>
-                        <cell>WAB Number</cell>
-                        <cell>Manuscript Description</cell>
-                        <cell>date conjectural</cell>
-                        <cell>Folios in the Copyist’s Hand</cell>
-                        <cell>Copyist’s Signature or Date</cell>
-                    </row>
-                    <row role="data">
-                        <cell role="Datierung">
-                            <date notAfter="1843-09-19">vor 19.09.1843</date>
-                        </cell>
-                        <cell role="Signatur">
-                            <ref>A-WnF60.BRGA.142</ref>
-                        </cell>
-                        <cell role="Werktitel">
-                            <ref target="http://www.bruckner-online.at/ABLO_d1e8642">An dem Feste</ref> /
+            <table>
+               <head>Abschriften</head>
+               <row xml:lang="de" role="label">
+                  <cell>Datierung des Werkes</cell>
+                  <cell>Signatur</cell>
+                  <cell>Werktitel</cell>
+                  <cell>WAB-Nummer</cell>
+                  <cell>Art der Kopie</cell>
+                  <cell>erschlossene Datierung der Kopie</cell>
+                  <cell>Folios in der Hand des Kopisten</cell>
+                  <cell>Datierung der Kopie/Unterschrift</cell>
+               </row>
+               <row xml:lang="eng" role="label">
+                  <cell>Date of Composition</cell>
+                  <cell>Library Call Number</cell>
+                  <cell>Work Title</cell>
+                  <cell>WAB Number</cell>
+                  <cell>Manuscript Description</cell>
+                  <cell>date conjectural</cell>
+                  <cell>Folios in the Copyist’s Hand</cell>
+                  <cell>Copyist’s Signature or Date</cell>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date notAfter="1843-09-19">vor 19.09.1843</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref>A-WnF60.BRGA.142</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e8642">An dem Feste</ref> /
                             <ref target="http://www.bruckner-online.at/ABLO_d1e8957">Festlied</ref> /
                             <ref target="http://www.bruckner-online.at/ABLO_d1e9991">Tafellied</ref>
-                        </cell>
-                        <cell role="WAB-Nummer">
-                            <ref target="http://www.bruckner-online.at/wab-059">059</ref>
-                        </cell>
-                        <cell role="Art_der_Kopie">Partitur</cell>
-                        <cell role="erschlossene_Datierung_der_Kopie">
-                            <date when="1883">1883</date>
-                        </cell>
-                        <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
-                        <cell role="Datierung_der_Kopie/Unterschrift"/>
-                        <cell role="Kommentar_intern">nicht in Bruckner online</cell>
-                    </row>
-                </table>
-                <!--Keine Beispiele aus Xerox-->
-                <list>
-                    <head xml:lang="de">Beispiele entnommen aus: 
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-059">059</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie">
+                     <date when="1883">1883</date>
+                  </cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern">nicht in Bruckner online</cell>
+               </row>
+            </table>
+            <!--Keine Beispiele aus Xerox-->
+            <list>
+               <head xml:lang="de">Beispiele entnommen aus: 
                     </head>
-                    <head xml:lang="eng">Examples taken from:
+               <head xml:lang="eng">Examples taken from:
                     </head>
-                    <item>
-                        <title xml:lang="de">Notenschlüssel</title>
-                        <title xml:lang="eng">Clefs</title>
-                        <figure/>
-                    </item>
-                    <item>
-                        <title xml:lang="de">Akzidentien</title>
-                        <title xml:lang="eng">Accidentals</title>
-                        <figure/>
-                    </item>
-                    <item>
-                        <title xml:lang="de">Taktvorzeichnung</title>
-                        <title xml:lang="eng">Time Signatures</title>
-                        <figure/>
-                    </item>
-                    <item>
-                        <title xml:lang="de">Pausen</title>
-                        <title xml:lang="eng">Rests</title>
-                        <figure/>
-                    </item>
-                    <item>
-                        <title xml:lang="de">Noten</title>
-                        <title xml:lang="eng">Notes</title>
-                        <figure/>
-                    </item>
-                    <item>
-                        <title xml:lang="de">Dynamik</title>
-                        <title xml:lang="eng">Dynamics</title>
-                        <figure/>
-                    </item>
-                </list>
-            </div>
-        </body>
-    </text>
+               <item>
+                  <title xml:lang="de">Notenschlüssel</title>
+                  <title xml:lang="eng">Clefs</title>
+                  <figure/>
+               </item>
+               <item>
+                  <title xml:lang="de">Akzidentien</title>
+                  <title xml:lang="eng">Accidentals</title>
+                  <figure/>
+               </item>
+               <item>
+                  <title xml:lang="de">Taktvorzeichnung</title>
+                  <title xml:lang="eng">Time Signatures</title>
+                  <figure/>
+               </item>
+               <item>
+                  <title xml:lang="de">Pausen</title>
+                  <title xml:lang="eng">Rests</title>
+                  <figure/>
+               </item>
+               <item>
+                  <title xml:lang="de">Noten</title>
+                  <title xml:lang="eng">Notes</title>
+                  <figure/>
+               </item>
+               <item>
+                  <title xml:lang="de">Dynamik</title>
+                  <title xml:lang="eng">Dynamics</title>
+                  <figure/>
+               </item>
+            </list>
+         </div>
+      </body>
+   </text>
 </TEI>

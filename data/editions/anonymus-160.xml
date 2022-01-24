@@ -46,11 +46,11 @@
    </teiHeader>
    <text>
       <body>
-          <div xml:id="content-d1e465850">
+         <div xml:id="content-d1e465850">
             <listPerson>
                <person>
                   <persName subtype="W" type="main">Anonymus 160</persName>
-                  <idno type="google-sheet">160</idno>
+                  <idno type="alphabetically_sorted">Anonymus 160</idno>
                   <residence/>
                   <affiliation xml:lang="de">Wiener Kopisten</affiliation>
                   <affiliation xml:lang="eng">Vienna copyist</affiliation>
@@ -61,14 +61,14 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-                <lb/>Die vom Kopisten Anonymus 160 angefertigte Partitur der Orchesterfassung von <hi rend="italic">Das hohe Lied</hi> befand sich im Besitz des Akademischen Gesangsvereins „Barden“ in Wien und ist heute nicht mehr auffindbar.
+               <lb/>Die vom Kopisten Anonymus 160 angefertigte Partitur der Orchesterfassung von <hi rend="italic">Das hohe Lied</hi> befand sich im Besitz des Akademischen Gesangsvereins „Barden“ in Wien und ist heute nicht mehr auffindbar.
                 <lb/>Die Identifizierung der Hand basiert auf einer Fotokopie im Nachlassfond der Bruckner-Gesamtausgabe (A-WnF60.BRGA).
             </p>
             <p decls="desc" xml:lang="eng">
-                <lb/>This copyist’s score of the orchestral version of <hi rend="italic">Das hohe Lied</hi> was in the possession of the <hi rend="italic">Academic Singing Society “Barden”</hi> in Vienna and cannot now be found.
+               <lb/>This copyist’s score of the orchestral version of <hi rend="italic">Das hohe Lied</hi> was in the possession of the <hi rend="italic">Academic Singing Society “Barden”</hi> in Vienna and cannot now be found.
                 <lb/>The identification of the hand is based on a photocopy in the Fonds of the Bruckner Collected Works Edition in A-Wn.
             </p>
-                <table>
+            <table>
                <head>Abschriften</head>
                <row xml:lang="de" role="label">
                   <cell>Datierung des Werkes</cell>
@@ -95,7 +95,7 @@
                      <date when="1876-12-31">31.12.1876</date>
                   </cell>
                   <cell role="Signatur">
-                      <ref>A-WnF60.BRGA.140</ref>
+                     <ref>A-WnF60.BRGA.140</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9094">Das hohe Lied</ref>
@@ -112,43 +112,43 @@
                   <cell role="Kommentar_intern">HL 2 in Bruckner online</cell>
                </row>
             </table>
-              <!--Keine Beispiele aus Xerox-->
-             <list>
-                <head xml:lang="de">Beispiele entnommen aus: 
+            <!--Keine Beispiele aus Xerox-->
+            <list>
+               <head xml:lang="de">Beispiele entnommen aus: 
                 </head>
-                <head xml:lang="eng">Examples taken from:
+               <head xml:lang="eng">Examples taken from:
                 </head>
-                <item>
-                   <title xml:lang="de">Notenschlüssel</title>
-                   <title xml:lang="eng">Clefs</title>
-                   <figure/>
-                </item>
-                <item>
-                   <title xml:lang="de">Akzidentien</title>
-                   <title xml:lang="eng">Accidentals</title>
-                   <figure/>
-                </item>
-                <item>
-                   <title xml:lang="de">Taktvorzeichnung</title>
-                   <title xml:lang="eng">Time Signatures</title>
-                   <figure/>
-                </item>
-                <item>
-                   <title xml:lang="de">Pausen</title>
-                   <title xml:lang="eng">Rests</title>
-                   <figure/>
-                </item>
-                <item>
-                   <title xml:lang="de">Noten</title>
-                   <title xml:lang="eng">Notes</title>
-                   <figure/>
-                </item>
-                <item>
-                   <title xml:lang="de">Dynamik</title>
-                   <title xml:lang="eng">Dynamics</title>
-                   <figure/>
-                </item>
-             </list>
+               <item>
+                  <title xml:lang="de">Notenschlüssel</title>
+                  <title xml:lang="eng">Clefs</title>
+                  <figure/>
+               </item>
+               <item>
+                  <title xml:lang="de">Akzidentien</title>
+                  <title xml:lang="eng">Accidentals</title>
+                  <figure/>
+               </item>
+               <item>
+                  <title xml:lang="de">Taktvorzeichnung</title>
+                  <title xml:lang="eng">Time Signatures</title>
+                  <figure/>
+               </item>
+               <item>
+                  <title xml:lang="de">Pausen</title>
+                  <title xml:lang="eng">Rests</title>
+                  <figure/>
+               </item>
+               <item>
+                  <title xml:lang="de">Noten</title>
+                  <title xml:lang="eng">Notes</title>
+                  <figure/>
+               </item>
+               <item>
+                  <title xml:lang="de">Dynamik</title>
+                  <title xml:lang="eng">Dynamics</title>
+                  <figure/>
+               </item>
+            </list>
          </div>
       </body>
    </text>

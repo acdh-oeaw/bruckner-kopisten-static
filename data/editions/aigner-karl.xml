@@ -54,7 +54,7 @@
                      <surname>Aigner</surname>
                      <forename>Karl</forename>
                   </persName>
-                  <idno type="google-sheet">Aigner, Karl</idno>
+                  <idno type="alphabetically_sorted">Aigner, Karl</idno>
                   <floruit from="1885" to="1885" notBefore="1885" xml:lang="de">1885(?) und später</floruit>
                   <floruit from="1885" to="1885" notBefore="1885" xml:lang="eng">1885(?) and later</floruit>
                   <residence>St. Florian</residence>
@@ -66,7 +66,7 @@
                   </index>
                </person>
             </listPerson>
-            <p  decls="desc" xml:lang="de">Karl Aigner kopierte eine Vielzahl an Werken Bruckners und
+            <p decls="desc" xml:lang="de">Karl Aigner kopierte eine Vielzahl an Werken Bruckners und
                das zumeist in enger Absprache mit dem Komponisten. </p>
             <p decls="link" xml:lang="de">Eine detaillierte Biographie findet sich im entsprechenden
                Artikel des ABLO: <ref target="http://www.bruckner-online.at/ABLO_d1e91">siehe
@@ -519,70 +519,100 @@
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_A-Clefs_C.png"/>
-                     <graphic scale="33" url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_A-Clefs_F.png"/>
-                     <graphic scale="33" url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_A-Clefs_G.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_A-Clefs_C.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_A-Clefs_F.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_A-Clefs_G.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Akzidentien</title>
                   <title xml:lang="eng">Accidentals</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_B-Accidentals_Flat_1.png"/>
-                     <graphic scale="33" url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_B-Accidentals_Flat_2.png"/>
-                     <graphic scale="33" url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_B-Accidentals_Natural_1.png"/>
-                     <graphic scale="33" url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_B-Accidentals_Natural_2.png"/>
-                     <graphic scale="33" url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_B-Accidentals_Sharp_1.png"/>
-                     <graphic scale="33" url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_B-Accidentals_Sharp_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_B-Accidentals_Flat_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_B-Accidentals_Flat_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_B-Accidentals_Natural_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_B-Accidentals_Natural_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_B-Accidentals_Sharp_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_B-Accidentals_Sharp_2.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Taktvorzeichnung</title>
                   <title xml:lang="eng">Time Signatures</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_C-Time-Signatures_C_1.png"/>
-                     <graphic scale="33" url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_C-Time-Signatures_C_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_C-Time-Signatures_C_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_C-Time-Signatures_C_2.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Pausen</title>
                   <title xml:lang="eng">Rests</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_D-Rests_Achtel_1.png"/>
-                     <graphic scale="33" url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_D-Rests_Achtel_2.png"/>
-                     <graphic scale="33" url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_D-Rests_Viertel_1.png"/>
-                     <graphic scale="33" url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_D-Rests_Viertel_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_D-Rests_Achtel_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_D-Rests_Achtel_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_D-Rests_Viertel_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_D-Rests_Viertel_2.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Noten</title>
                   <title xml:lang="eng">Notes</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_E-Notes_Achtel_1.png"/>
-                     <graphic scale="33" url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_E-Notes_Achtel_2.png"/>
-                     <graphic scale="33" url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_E-Notes_Ganze_1.png"/>
-                     <graphic scale="33" url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_E-Notes_Ganze_2.png"/>
-                     <graphic scale="33" url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_E-Notes_Halbe_1.png"/>
-                     <graphic scale="33" url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_E-Notes_Halbe_2.png"/>
-                     <graphic scale="33" url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_E-Notes_Viertel_1.png"/>
-                     <graphic scale="33" url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_E-Notes_Viertel_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_E-Notes_Achtel_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_E-Notes_Achtel_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_E-Notes_Ganze_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_E-Notes_Ganze_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_E-Notes_Halbe_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_E-Notes_Halbe_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_E-Notes_Viertel_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_E-Notes_Viertel_2.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Dynamik</title>
                   <title xml:lang="eng">Dynamics</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_F-Dynamics_Decresc_1.png"/>
-                     <graphic scale="33" url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_F-Dynamics_Decresc_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_F-Dynamics_Decresc_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_F-Dynamics_Decresc_2.png"/>
                      <graphic scale="33"
                               url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_F-Dynamics_Decresc_Schrift_1.png"/>
                      <graphic scale="33"
                               url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_F-Dynamics_Decresc_Schrift_2.png"/>
-                     <graphic scale="33" url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_F-Dynamics_Forte.png"/>
-                     <graphic scale="33" url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_F-Dynamics_Mezzoforte_1.png"/>
-                     <graphic scale="33" url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_F-Dynamics_Mezzoforte_2.png"/>
-                     <graphic scale="33" url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_F-Dynamics_Piano_1.png"/>
-                     <graphic scale="33" url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_F-Dynamics_Piano_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_F-Dynamics_Forte.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_F-Dynamics_Mezzoforte_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_F-Dynamics_Mezzoforte_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_F-Dynamics_Piano_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Named/A/Aigner_Karl/Aigner_Karl_A-KR-C57-2_F-Dynamics_Piano_2.png"/>
                   </figure>
                </item>
             </list>

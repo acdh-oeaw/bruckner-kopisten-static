@@ -50,7 +50,7 @@
             <listPerson>
                <person>
                   <persName subtype="W" type="main">Anonymus 069</persName>
-                  <idno type="google-sheet">069</idno>
+                  <idno type="alphabetically_sorted">Anonymus 069</idno>
                   <floruit from="1880" to="1880" notBefore="1880" xml:lang="de">1880 oder später</floruit>
                   <floruit from="1880" to="1880" notBefore="1880" xml:lang="eng">1880 or later</floruit>
                   <residence/>
@@ -120,9 +120,12 @@
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_069/Anonymus-069_US-NYcuMN_98-8029_A-Clefs_C.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_069/Anonymus-069_US-NYcuMN_98-8029_A-Clefs_F.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_069/Anonymus-069_US-NYcuMN_98-8029_A-Clefs_G.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_069/Anonymus-069_US-NYcuMN_98-8029_A-Clefs_C.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_069/Anonymus-069_US-NYcuMN_98-8029_A-Clefs_F.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_069/Anonymus-069_US-NYcuMN_98-8029_A-Clefs_G.png"/>
                   </figure>
                </item>
                <item>
@@ -146,26 +149,34 @@
                   <title xml:lang="de">Pausen</title>
                   <title xml:lang="eng">Rests</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_069/Anonymus-069_US-NYcuMN_98-8029_D-Rests_Achtel.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_069/Anonymus-069_US-NYcuMN_98-8029_D-Rests_Viertel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_069/Anonymus-069_US-NYcuMN_98-8029_D-Rests_Achtel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_069/Anonymus-069_US-NYcuMN_98-8029_D-Rests_Viertel.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Noten</title>
                   <title xml:lang="eng">Notes</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_069/Anonymus-069_US-NYcuMN_98-8029_E-Notes_Achtel.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_069/Anonymus-069_US-NYcuMN_98-8029_E-Notes_Ganze.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_069/Anonymus-069_US-NYcuMN_98-8029_E-Notes_Halbe.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_069/Anonymus-069_US-NYcuMN_98-8029_E-Notes_Viertel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_069/Anonymus-069_US-NYcuMN_98-8029_E-Notes_Achtel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_069/Anonymus-069_US-NYcuMN_98-8029_E-Notes_Ganze.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_069/Anonymus-069_US-NYcuMN_98-8029_E-Notes_Halbe.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_069/Anonymus-069_US-NYcuMN_98-8029_E-Notes_Viertel.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Dynamik</title>
                   <title xml:lang="eng">Dynamics</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_069/Anonymus-069_US-NYcuMN_98-8029_F-Dynamics_Dim.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_069/Anonymus-069_US-NYcuMN_98-8029_F-Dynamics_Piano.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_069/Anonymus-069_US-NYcuMN_98-8029_F-Dynamics_Dim.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_069/Anonymus-069_US-NYcuMN_98-8029_F-Dynamics_Piano.png"/>
                   </figure>
                </item>
             </list>

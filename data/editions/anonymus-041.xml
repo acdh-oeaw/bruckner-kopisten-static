@@ -50,7 +50,7 @@
             <listPerson>
                <person>
                   <persName type="main">Anonymus 041</persName>
-                  <idno type="google-sheet">041</idno>
+                  <idno type="alphabetically_sorted">Anonymus 041</idno>
                   <residence/>
                   <affiliation xml:lang="de"/>
                   <affiliation xml:lang="eng"/>

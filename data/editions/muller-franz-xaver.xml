@@ -56,7 +56,7 @@
                      <surname>Müller</surname>
                      <forename>Franz Xaver</forename>
                   </persName>
-                  <idno type="google-sheet">Müller, Franz Xaver [=Anonymus 026]</idno>
+                  <idno type="alphabetically_sorted">Müller, Franz Xaver [=Anonymus 026]</idno>
                   <idno type="GND">12265644X</idno>
                   <residence>St. Florian</residence>
                   <affiliation xml:lang="de">St. Florianer Kopisten</affiliation>
@@ -106,8 +106,7 @@
                      <date when="1845">ca. 1845</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-SF20-46b"
-                        >A-SF20-46b</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-SF20-46b">A-SF20-46b</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9268">Das Lied vom deutschen
@@ -127,8 +126,7 @@
                      <date from="1848" to="1849-03-14">zwischen 1848 und 14.03.1849</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-SF20-53c"
-                        >A-SF20-53c</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-SF20-53c">A-SF20-53c</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9671 d1e12972">Requiem</ref>
@@ -147,8 +145,7 @@
                      <date from="1854-03-24" to="1854-03-28">24.03.1854–28.03.1854</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-SF20-64"
-                        >A-SF20-64</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-SF20-64">A-SF20-64</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9261">Libera me,
@@ -168,8 +165,7 @@
                      <date when="1861-11-07">07.11.1861</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-SF20-52c"
-                        >A-SF20-52c</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-SF20-52c">A-SF20-52c</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e8577">Afferentur regi</ref>
@@ -188,8 +184,7 @@
                      <date when="1878-03-30">30.03.1878</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-LId485_8_29"
-                        >A-LId485_8_29</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-LId485_8_29">A-LId485_8_29</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e10059">Tota pulchra es,
@@ -206,19 +201,16 @@
                </row>
             </table>
             <list>
-               <head xml:lang="de">Beispiele entnommen aus: <ref
-                     target="Müller_FranzXaver_A-SF20-64-29r.jpg">A-SF20-64</ref>
+               <head xml:lang="de">Beispiele entnommen aus: <ref target="Müller_FranzXaver_A-SF20-64-29r.jpg">A-SF20-64</ref>
                </head>
-               <head xml:lang="eng">Examples taken from: <ref
-                     target="Müller_FranzXaver_A-SF20-64-29r.jpg">A-SF20-64</ref>
+               <head xml:lang="eng">Examples taken from: <ref target="Müller_FranzXaver_A-SF20-64-29r.jpg">A-SF20-64</ref>
                </head>
                <item>
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/M/Müller_FranzXaver/Müller_FranzXaver_A-SF20-64_A-Clefs_G.png"
-                     />
+                              url="../../101_samples/named/M/Müller_FranzXaver/Müller_FranzXaver_A-SF20-64_A-Clefs_G.png"/>
                   </figure>
                </item>
                <item>
@@ -226,12 +218,11 @@
                   <title xml:lang="eng">Accidentals</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/M/Müller_FranzXaver/Müller_FranzXaver_A-SF20-64_B-Accidentals_Flat.png"/>
+                              url="../../101_samples/named/M/Müller_FranzXaver/Müller_FranzXaver_A-SF20-64_B-Accidentals_Flat.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/M/Müller_FranzXaver/Müller_FranzXaver_A-SF20-64_B-Accidentals_Natural.png"/>
+                              url="../../101_samples/named/M/Müller_FranzXaver/Müller_FranzXaver_A-SF20-64_B-Accidentals_Natural.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/M/Müller_FranzXaver/Müller_FranzXaver_A-SF20-64_B-Accidentals_Sharp.png"
-                     />
+                              url="../../101_samples/named/M/Müller_FranzXaver/Müller_FranzXaver_A-SF20-64_B-Accidentals_Sharp.png"/>
                   </figure>
                </item>
                <item>
@@ -239,8 +230,7 @@
                   <title xml:lang="eng">Time Signatures</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/M/Müller_FranzXaver/Müller_FranzXaver_A-SF20-64_C-Time-Signatures_C.png"
-                     />
+                              url="../../101_samples/named/M/Müller_FranzXaver/Müller_FranzXaver_A-SF20-64_C-Time-Signatures_C.png"/>
                   </figure>
                </item>
                <item>
@@ -248,8 +238,7 @@
                   <title xml:lang="eng">Rests</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/M/Müller_FranzXaver/Müller_FranzXaver_A-SF20-64_D-Rests_Viertel.png"
-                     />
+                              url="../../101_samples/named/M/Müller_FranzXaver/Müller_FranzXaver_A-SF20-64_D-Rests_Viertel.png"/>
                   </figure>
                </item>
                <item>
@@ -257,14 +246,13 @@
                   <title xml:lang="eng">Notes</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/M/Müller_FranzXaver/Müller_FranzXaver_A-SF20-64_E-Notes_Achtel.png"/>
+                              url="../../101_samples/named/M/Müller_FranzXaver/Müller_FranzXaver_A-SF20-64_E-Notes_Achtel.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/M/Müller_FranzXaver/Müller_FranzXaver_A-SF20-64_E-Notes_Ganze.png"/>
+                              url="../../101_samples/named/M/Müller_FranzXaver/Müller_FranzXaver_A-SF20-64_E-Notes_Ganze.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/M/Müller_FranzXaver/Müller_FranzXaver_A-SF20-64_E-Notes_Halbe.png"/>
+                              url="../../101_samples/named/M/Müller_FranzXaver/Müller_FranzXaver_A-SF20-64_E-Notes_Halbe.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/M/Müller_FranzXaver/Müller_FranzXaver_A-SF20-64_E-Notes_Viertel.png"
-                     />
+                              url="../../101_samples/named/M/Müller_FranzXaver/Müller_FranzXaver_A-SF20-64_E-Notes_Viertel.png"/>
                   </figure>
                </item>
                <item>
@@ -272,12 +260,11 @@
                   <title xml:lang="eng">Dynamics</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/M/Müller_FranzXaver/Müller_FranzXaver_A-SF20-64_F-Dynamics_Forte.png"/>
+                              url="../../101_samples/named/M/Müller_FranzXaver/Müller_FranzXaver_A-SF20-64_F-Dynamics_Forte.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/M/Müller_FranzXaver/Müller_FranzXaver_A-SF20-64_F-Dynamics_Fortissimo.png"/>
+                              url="../../101_samples/named/M/Müller_FranzXaver/Müller_FranzXaver_A-SF20-64_F-Dynamics_Fortissimo.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/M/Müller_FranzXaver/Müller_FranzXaver_A-SF20-64_F-Dynamics_Piano.png"
-                     />
+                              url="../../101_samples/named/M/Müller_FranzXaver/Müller_FranzXaver_A-SF20-64_F-Dynamics_Piano.png"/>
                   </figure>
                </item>
             </list>

@@ -54,7 +54,7 @@
                      <surname>Eckstein</surname>
                      <forename>Friedrich</forename>
                   </persName>
-                  <idno type="google-sheet">Eckstein, Friedrich</idno>
+                  <idno type="alphabetically_sorted">Eckstein, Friedrich</idno>
                   <idno type="GND">118853902</idno>
                   <floruit from="1879" to="1879" notBefore="1879" xml:lang="de">1879 oder später</floruit>
                   <floruit from="1879" to="1879" notBefore="1879" xml:lang="eng">1879 or later</floruit>
@@ -128,8 +128,10 @@
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/E/Eckstein_Friedrich/Eckstein_Friedrich_A-WnMus.Hs.2104_A-Clefs_F.png"/>
-                     <graphic scale="33" url="../../101_samples/named/E/Eckstein_Friedrich/Eckstein_Friedrich_A-WnMus.Hs.2104_A-Clefs_G.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/E/Eckstein_Friedrich/Eckstein_Friedrich_A-WnMus.Hs.2104_A-Clefs_F.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/E/Eckstein_Friedrich/Eckstein_Friedrich_A-WnMus.Hs.2104_A-Clefs_G.png"/>
                   </figure>
                </item>
                <item>
@@ -170,7 +172,8 @@
                   <figure>
                      <graphic scale="33"
                               url="../../101_samples/named/E/Eckstein_Friedrich/Eckstein_Friedrich_A-WnMus.Hs.2104_E-Notes_Achtel.png"/>
-                     <graphic scale="33" url="../../101_samples/named/E/Eckstein_Friedrich/Eckstein_Friedrich_A-WnMus.Hs.2104_E-Notes_Ganze.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/E/Eckstein_Friedrich/Eckstein_Friedrich_A-WnMus.Hs.2104_E-Notes_Ganze.png"/>
                      <graphic scale="33"
                               url="../../101_samples/named/E/Eckstein_Friedrich/Eckstein_Friedrich_A-WnMus.Hs.2104_E-Notes_Halbe_1.png"/>
                      <graphic scale="33"

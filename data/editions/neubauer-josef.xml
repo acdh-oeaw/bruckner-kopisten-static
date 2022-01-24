@@ -54,7 +54,7 @@
                      <surname>Neubauer</surname>
                      <forename>Josef</forename>
                   </persName>
-                  <idno type="google-sheet">Neubauer, Josef</idno>
+                  <idno type="alphabetically_sorted">Neubauer, Josef</idno>
                   <idno type="GND"/>
                   <residence/>
                   <affiliation xml:lang="de"/>
@@ -68,7 +68,8 @@
             <p decls="desc" xml:lang="de">
                <lb/>Josef Neubauer dirigierte die Wiener Erstaufführung von Bruckners e-Moll-Messe
                in der Votivkirche am 17.03.1899.<ref xml:id="footnote-ref075" target="#footnote075" type="noteAnchor">1</ref> Als Dirigent des <ref target="http://www.bruckner-online.at/ABLO_d1e7015">
-                  <hi rend="italic">Wiener Männergesang-Verein</hi></ref> ist es nicht verwunderlich, dass er
+                  <hi rend="italic">Wiener Männergesang-Verein</hi>
+               </ref> ist es nicht verwunderlich, dass er
                ausschließlich Bruckners Vokalmusik kopierte. Seine Handschrift konnte anhand seiner heute verschollenen
                Partiturabschrift (A-WnMus.Hs.19763) des Tafellieds (WAB 059c) identifiziert werden,
                die signiert und auf den 11. November 1897 datiert ist. 
@@ -334,10 +335,14 @@
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19698_A-Clefs_F.png"/>
-                     <graphic scale="33" url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19698_A-Clefs_G.png"/>
-                     <graphic scale="33" url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19734_A-Clefs_F.png"/>
-                     <graphic scale="33" url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19734_A-Clefs_G.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19698_A-Clefs_F.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19698_A-Clefs_G.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19734_A-Clefs_F.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19734_A-Clefs_G.png"/>
                   </figure>
                </item>
                <item>
@@ -374,33 +379,44 @@
                   <title xml:lang="de">Pausen</title>
                   <title xml:lang="eng">Rests</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19698_D-Rests_Viertel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19698_D-Rests_Viertel.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Noten</title>
                   <title xml:lang="eng">Notes</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19698_E-Notes_Achtel.png"/>
-                     <graphic scale="33" url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19698_E-Notes_Ganze.png"/>
-                     <graphic scale="33" url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19698_E-Notes_Halbe.png"/>
-                     <graphic scale="33" url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19698_E-Notes_Viertel.png"/>
-                     <graphic scale="33" url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19734_E-Notes_Achtel.png"/>
-                     <graphic scale="33" url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19734_E-Notes_Ganze.png"/>
-                     <graphic scale="33" url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19734_E-Notes_Halbe.png"/>
-                     <graphic scale="33" url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19734_E-Notes_Viertel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19698_E-Notes_Achtel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19698_E-Notes_Ganze.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19698_E-Notes_Halbe.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19698_E-Notes_Viertel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19734_E-Notes_Achtel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19734_E-Notes_Ganze.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19734_E-Notes_Halbe.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19734_E-Notes_Viertel.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Dynamik</title>
                   <title xml:lang="eng">Dynamics</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19734_F-Dynamics_Cresc.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19734_F-Dynamics_Cresc.png"/>
                      <graphic scale="33"
                               url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19734_F-Dynamics_Decresc.png"/>
                      <graphic scale="33"
                               url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19734_F-Dynamics_Mezzoforte.png"/>
-                     <graphic scale="33" url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19734_F-Dynamics_Piano.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Neubauer_Josef/Neubauer_Josef_A-WnMus.Hs.19734_F-Dynamics_Piano.png"/>
                   </figure>
                </item>
             </list>

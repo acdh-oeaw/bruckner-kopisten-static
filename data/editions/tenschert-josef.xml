@@ -54,7 +54,7 @@
                      <surname>Tenschert</surname>
                      <forename>Josef</forename>
                   </persName>
-                  <idno type="google-sheet">Tenschert, Josef</idno>
+                  <idno type="alphabetically_sorted">Tenschert, Josef</idno>
                   <idno type="GND"/>
                   <floruit from="1868" to="1873">1868, 1872–1873</floruit>
                   <residence>Wien</residence>
@@ -162,9 +162,12 @@
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_A-Clefs_C.png"/>
-                     <graphic scale="33" url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_A-Clefs_F.png"/>
-                     <graphic scale="33" url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_A-Clefs_G.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_A-Clefs_C.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_A-Clefs_F.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_A-Clefs_G.png"/>
                   </figure>
                </item>
                <item>
@@ -197,8 +200,10 @@
                   <title xml:lang="de">Pausen</title>
                   <title xml:lang="eng">Rests</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_D-Rests_Ganze.png"/>
-                     <graphic scale="33" url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_D-Rests_Halbe.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_D-Rests_Ganze.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_D-Rests_Halbe.png"/>
                      <graphic scale="33"
                               url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_D-Rests_Viertel_1.png"/>
                      <graphic scale="33"
@@ -209,12 +214,18 @@
                   <title xml:lang="de">Noten</title>
                   <title xml:lang="eng">Notes</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_E-Notes_Achtel_1.png"/>
-                     <graphic scale="33" url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_E-Notes_Achtel_2.png"/>
-                     <graphic scale="33" url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_E-Notes_Ganze_1.png"/>
-                     <graphic scale="33" url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_E-Notes_Ganze_2.png"/>
-                     <graphic scale="33" url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_E-Notes_Halbe_1.png"/>
-                     <graphic scale="33" url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_E-Notes_Halbe_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_E-Notes_Achtel_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_E-Notes_Achtel_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_E-Notes_Ganze_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_E-Notes_Ganze_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_E-Notes_Halbe_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_E-Notes_Halbe_2.png"/>
                      <graphic scale="33"
                               url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_E-Notes_Viertel_1.png"/>
                      <graphic scale="33"
@@ -229,7 +240,8 @@
                               url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_F-Dynamics_Crescendo_1.png"/>
                      <graphic scale="33"
                               url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_F-Dynamics_Crescendo_2.png"/>
-                     <graphic scale="33" url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_F-Dynamics_Piano.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_F-Dynamics_Piano.png"/>
                   </figure>
                </item>
             </list>

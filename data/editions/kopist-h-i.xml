@@ -54,7 +54,7 @@
                      <surname>I.</surname>
                      <forename>H.</forename>
                   </persName>
-                  <idno type="google-sheet">Kopist, H. I.</idno>
+                  <idno type="alphabetically_sorted">I. H., Kopist</idno>
                   <idno type="GND"/>
                   <residence>Klosterneuburg</residence>
                   <affiliation xml:lang="de">Klosterneuburgerer Kopisten</affiliation>
@@ -132,49 +132,62 @@
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/I/HI_Kopist/Kopist_H.I._A-KN198_4_A-Clefs_G.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/I/HI_Kopist/Kopist_H.I._A-KN198_4_A-Clefs_G.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Akzidentien</title>
                   <title xml:lang="eng">Accidentals</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/I/HI_Kopist/Kopist_H.I._A-KN198_4_B-Accidentals_Flat.png"/>
-                     <graphic scale="33" url="../../101_samples/named/I/HI_Kopist/Kopist_H.I._A-KN198_4_B-Accidentals_Natural.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/I/HI_Kopist/Kopist_H.I._A-KN198_4_B-Accidentals_Flat.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/I/HI_Kopist/Kopist_H.I._A-KN198_4_B-Accidentals_Natural.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Taktvorzeichnung</title>
                   <title xml:lang="eng">Time Signatures</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/I/HI_Kopist/Kopist_H.I._A-KN198_4_C-Time Signatures_C.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/I/HI_Kopist/Kopist_H.I._A-KN198_4_C-Time Signatures_C.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Pausen</title>
                   <title xml:lang="eng">Rests</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/I/HI_Kopist/Kopist_H.I._A-KN198_4_D-Rests_Halbe.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/I/HI_Kopist/Kopist_H.I._A-KN198_4_D-Rests_Halbe.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Noten</title>
                   <title xml:lang="eng">Notes</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/I/HI_Kopist/Kopist_H.I._A-KN198_4_E-Notes_Ganze.png"/>
-                     <graphic scale="33" url="../../101_samples/named/I/HI_Kopist/Kopist_H.I._A-KN198_4_E-Notes_Halbe.png"/>
-                     <graphic scale="33" url="../../101_samples/named/I/HI_Kopist/Kopist_H.I._A-KN198_4_E-Notes_Viertel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/I/HI_Kopist/Kopist_H.I._A-KN198_4_E-Notes_Ganze.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/I/HI_Kopist/Kopist_H.I._A-KN198_4_E-Notes_Halbe.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/I/HI_Kopist/Kopist_H.I._A-KN198_4_E-Notes_Viertel.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Dynamik</title>
                   <title xml:lang="eng">Dynamics</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/I/HI_Kopist/Kopist_H.I._A-KN198_4_F-Dynamics_Cresc.png"/>
-                     <graphic scale="33" url="../../101_samples/named/I/HI_Kopist/Kopist_H.I._A-KN198_4_F-Dynamics_Cresc_decresc.png"/>
-                     <graphic scale="33" url="../../101_samples/named/I/HI_Kopist/Kopist_H.I._A-KN198_4_F-Dynamics_Dim.png"/>
-                     <graphic scale="33" url="../../101_samples/named/I/HI_Kopist/Kopist_H.I._A-KN198_4_F-Dynamics_Forte.png"/>
-                     <graphic scale="33" url="../../101_samples/named/I/HI_Kopist/Kopist_H.I._A-KN198_4_F-Dynamics_Piano.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/I/HI_Kopist/Kopist_H.I._A-KN198_4_F-Dynamics_Cresc.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/I/HI_Kopist/Kopist_H.I._A-KN198_4_F-Dynamics_Cresc_decresc.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/I/HI_Kopist/Kopist_H.I._A-KN198_4_F-Dynamics_Dim.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/I/HI_Kopist/Kopist_H.I._A-KN198_4_F-Dynamics_Forte.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/I/HI_Kopist/Kopist_H.I._A-KN198_4_F-Dynamics_Piano.png"/>
                   </figure>
                </item>
             </list>

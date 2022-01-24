@@ -56,7 +56,7 @@
                      <surname>Carda</surname>
                      <forename>Johann</forename>
                   </persName>
-                  <idno type="google-sheet">Kopist, Carda</idno>
+                  <idno type="alphabetically_sorted">Carda Johann, Kopist</idno>
                   <idno type="GND"/>
                   <floruit from="1872" to="1874">1872–1874</floruit>
                   <residence>Linz</residence>
@@ -83,8 +83,7 @@
                soll.<ref xml:id="footnote-ref057" target="#footnote057" type="noteAnchor">3</ref> Da die Handschrift in der fraglichen Partitur
                (D-BHnallCo2) identisch mit den von Carda signierten Partituren bzw. Stimmen ist,
                lässt sich annehmen, dass sich Bruckner hier auf dieselbe Person bezieht. <lb/>Für
-               weitere Kopisten aus Linz siehe <ref target="../../100_Introduction/Tabelle_3.xml" type="table"
-                  >Tabelle 3</ref>. 
+               weitere Kopisten aus Linz siehe <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>. 
                <note xml:id="footnote055" type="footnote" anchored="true" n="1">Linzer Tages-Post, 13. Januar 1872,
                   S. 4, und 4. April 1874, S. 3.</note>
                <note xml:id="footnote056" type="footnote" anchored="true" n="2">Linzer Tages-Post, 31. März 1874, S. 3. Siehe auch
@@ -142,9 +141,7 @@
                      <date from="1871-10-11" to="1872-09-11">11.10.1871–11.09.1872</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref
-                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19474"
-                        >A-WnMus.Hs.19474</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19474">A-WnMus.Hs.19474</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9846">2. Symphonie</ref>
@@ -173,8 +170,7 @@
                      <date from="1871-10-11" to="1872-09-11">11.10.1871–11.09.1872</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-SF19-14"
-                        >A-SF19-14</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-SF19-14">A-SF19-14</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9846">2. Symphonie</ref>
@@ -221,9 +217,7 @@
                      <date from="1871-10-11" to="1872-09-11">11.10.1871–11.09.1872</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref
-                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.6059_1-3"
-                        >A-WnMus.Hs.6059</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.6059_1-3">A-WnMus.Hs.6059</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9846">2. Symphonie, 1., 2.
@@ -245,9 +239,7 @@
                      <date from="1871-10-11" to="1872-09-11">11.10.1871–11.09.1872</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref
-                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.6060"
-                        >A-WnMus.Hs.6060</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.6060">A-WnMus.Hs.6060</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9846">2. Symphonie, 4.
@@ -269,8 +261,7 @@
                      <date from="1871-10-11" to="1872-09-11">11.10.1871–11.09.1872</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-KR-C56-8"
-                        >A-KR-C56-8</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-KR-C56-8">A-KR-C56-8</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9846">2. Symphonie, 1., 3.
@@ -292,9 +283,7 @@
                      <date from="1871-10-11" to="1872-09-11">11.10.1871–11.09.1872</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref
-                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.6061"
-                        >A-WnMus.Hs.6061</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.6061">A-WnMus.Hs.6061</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9846">2. Symphonie, 2.
@@ -316,9 +305,7 @@
                      <date from="1871-10-11" to="1872-09-11">11.10.1871–11.09.1872</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref
-                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.6035"
-                        >A-WnMus.Hs.6035</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.6035">A-WnMus.Hs.6035</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9846">2. Symphonie</ref>
@@ -340,9 +327,7 @@
                      <date from="1871-10-11" to="1872-09-11">11.10.1871–11.09.1872</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref
-                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.6034"
-                        >A-WnMus.Hs.6034</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.6034">A-WnMus.Hs.6034</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9846">2. Symphonie</ref>
@@ -364,9 +349,7 @@
                      <date from="1873-02-23" to="1873-12-31">23.02.1873–31.12.1873</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref
-                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.6033_1-2"
-                        >A-WnMus.Hs.6033</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.6033_1-2">A-WnMus.Hs.6033</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9862">3. Symphonie</ref>
@@ -388,8 +371,7 @@
                      <date from="1873-02-23" to="1873-12-31">23.02.1873–31.12.1873</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=D-BHna-IICo2"
-                        >D-BHnaIICo2 [=A-WnF60.BRGA.286]</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=D-BHna-IICo2">D-BHnaIICo2 [=A-WnF60.BRGA.286]</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9862">3. Symphonie</ref>
@@ -407,33 +389,22 @@
                </row>
             </table>
             <list>
-               <head xml:lang="de">Beispiele entnommen aus: <ref
-                     target="Carda_Johann_A-SF19-14-01v.jpg">A-SF19-14</ref>, <ref
-                     target="Carda_Johann_A-WnMus.Hs.6034-001v.jpg">A-WnMus.Hs.6034</ref>, <ref
-                     target="Carda_Johann_A-WnMus.Hs.6059-2-14r.jpg">A-WnMus.Hs.6059</ref>, <ref
-                     target="Carda_Johann_A-WnMus.Hs.6060-01r.jpg">A-WnMus.Hs.6060</ref> und <ref
-                     target="Carda_Johann_A-WnMus.Hs.19474-054v.jpg">A-WnMus.Hs.19474</ref>
+               <head xml:lang="de">Beispiele entnommen aus: <ref target="Carda_Johann_A-SF19-14-01v.jpg">A-SF19-14</ref>, <ref target="Carda_Johann_A-WnMus.Hs.6034-001v.jpg">A-WnMus.Hs.6034</ref>, <ref target="Carda_Johann_A-WnMus.Hs.6059-2-14r.jpg">A-WnMus.Hs.6059</ref>, <ref target="Carda_Johann_A-WnMus.Hs.6060-01r.jpg">A-WnMus.Hs.6060</ref> und <ref target="Carda_Johann_A-WnMus.Hs.19474-054v.jpg">A-WnMus.Hs.19474</ref>
                </head>
-               <head xml:lang="eng">Examples taken from: <ref
-                     target="Carda_Johann_A-SF19-14-01v.jpg">A-SF19-14</ref>, <ref
-                     target="Carda_Johann_A-WnMus.Hs.6034-001v.jpg">A-WnMus.Hs.6034</ref>, <ref
-                     target="Carda_Johann_A-WnMus.Hs.6059-2-14r.jpg">A-WnMus.Hs.6059</ref>, <ref
-                     target="Carda_Johann_A-WnMus.Hs.6060-01r.jpg">A-WnMus.Hs.6060</ref> and <ref
-                     target="Carda_Johann_A-WnMus.Hs.19474-054v.jpg">A-WnMus.Hs.19474</ref>
+               <head xml:lang="eng">Examples taken from: <ref target="Carda_Johann_A-SF19-14-01v.jpg">A-SF19-14</ref>, <ref target="Carda_Johann_A-WnMus.Hs.6034-001v.jpg">A-WnMus.Hs.6034</ref>, <ref target="Carda_Johann_A-WnMus.Hs.6059-2-14r.jpg">A-WnMus.Hs.6059</ref>, <ref target="Carda_Johann_A-WnMus.Hs.6060-01r.jpg">A-WnMus.Hs.6060</ref> and <ref target="Carda_Johann_A-WnMus.Hs.19474-054v.jpg">A-WnMus.Hs.19474</ref>
                </head>
                <item>
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-SF19-14_A-Clefs_G.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-SF19-14_A-Clefs_G.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6034_A-Clefs_C.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6034_A-Clefs_C.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6034_A-Clefs_F.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6034_A-Clefs_F.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6034_A-Clefs_G.png"
-                     />
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6034_A-Clefs_G.png"/>
                   </figure>
                </item>
                <item>
@@ -441,34 +412,33 @@
                   <title xml:lang="eng">Accidentals</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-SF19-14_B-Accidentals_Flat.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-SF19-14_B-Accidentals_Flat.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-SF19-14_B-Accidentals_Natural.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-SF19-14_B-Accidentals_Natural.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-SF19-14_B-Accidentals_Sharp.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-SF19-14_B-Accidentals_Sharp.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.19474_B-Accidentals_Flat.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.19474_B-Accidentals_Flat.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.19474_B-Accidentals_Natural.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.19474_B-Accidentals_Natural.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6034_B-Accidentals_Flat.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6034_B-Accidentals_Flat.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6034_B-Accidentals_Natural.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6034_B-Accidentals_Natural.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6034_B-Accidentals_Sharp.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6034_B-Accidentals_Sharp.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6059-1_B-Accidentals_Flat.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6059-1_B-Accidentals_Flat.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6059-1_B-Accidentals_Natural.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6059-1_B-Accidentals_Natural.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6059-1_B-Accidentals_Sharp.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6059-1_B-Accidentals_Sharp.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6060_B-Accidentals_Flat.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6060_B-Accidentals_Flat.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6060_B-Accidentals_Natural.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6060_B-Accidentals_Natural.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6060_B-Accidentals_Sharp.png"
-                     />
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6060_B-Accidentals_Sharp.png"/>
                   </figure>
                </item>
                <item>
@@ -476,12 +446,11 @@
                   <title xml:lang="eng">Time Signatures</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-SF19-14_C-Time-Signatures_C.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-SF19-14_C-Time-Signatures_C.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6034_C-Time-Signatures_C_1.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6034_C-Time-Signatures_C_1.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6034_C-Time-Signatures_C_2.png"
-                     />
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6034_C-Time-Signatures_C_2.png"/>
                   </figure>
                </item>
                <item>
@@ -489,36 +458,35 @@
                   <title xml:lang="eng">Rests</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-SF19-14_D-Rests_Ganze.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-SF19-14_D-Rests_Ganze.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-SF19-14_D-Rests_Halbe.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-SF19-14_D-Rests_Halbe.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-SF19-14_D-Rests_Viertel.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-SF19-14_D-Rests_Viertel.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.19474_D-Rests_Ganze.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.19474_D-Rests_Ganze.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.19474_D-Rests_Halbe.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.19474_D-Rests_Halbe.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.19474_D-Rests_Viertel.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.19474_D-Rests_Viertel.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6034_D-Rests_Ganze.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6034_D-Rests_Ganze.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6034_D-Rests_Halbe.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6034_D-Rests_Halbe.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6034_D-Rests_Viertel.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6034_D-Rests_Viertel.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6059-1_D-Rests_Ganze.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6059-1_D-Rests_Ganze.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6059-1_D-Rests_Halbe.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6059-1_D-Rests_Halbe.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6059-1_D-Rests_Viertel.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6059-1_D-Rests_Viertel.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6060_D-Rests_Ganze.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6060_D-Rests_Ganze.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6060_D-Rests_Halbe.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6060_D-Rests_Halbe.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6060_D-Rests_Viertel.png"
-                     />
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6060_D-Rests_Viertel.png"/>
                   </figure>
                </item>
                <item>
@@ -526,48 +494,47 @@
                   <title xml:lang="eng">Notes</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-SF19-14_E-Notes_Achtel_1.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-SF19-14_E-Notes_Achtel_1.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-SF19-14_E-Notes_Achtel_2.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-SF19-14_E-Notes_Achtel_2.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-SF19-14_E-Notes_Ganze.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-SF19-14_E-Notes_Ganze.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-SF19-14_E-Notes_Halbe.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-SF19-14_E-Notes_Halbe.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-SF19-14_E-Notes_Viertel.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-SF19-14_E-Notes_Viertel.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.19474_E-Notes_Achtel_1.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.19474_E-Notes_Achtel_1.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.19474_E-Notes_Achtel_2.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.19474_E-Notes_Achtel_2.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.19474_E-Notes_Ganze.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.19474_E-Notes_Ganze.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.19474_E-Notes_Halbe.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.19474_E-Notes_Halbe.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.19474_E-Notes_Viertel.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.19474_E-Notes_Viertel.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6034_E-Notes_Achtel.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6034_E-Notes_Achtel.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6034_E-Notes_Halbe.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6034_E-Notes_Halbe.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6034_E-Notes_Viertel.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6034_E-Notes_Viertel.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6059-1_E-Notes_Achtel.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6059-1_E-Notes_Achtel.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6059-1_E-Notes_Ganze.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6059-1_E-Notes_Ganze.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6059-1_E-Notes_Halbe.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6059-1_E-Notes_Halbe.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6059-1_E-Notes_Viertel.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6059-1_E-Notes_Viertel.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6060_E-Notes_Achtel.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6060_E-Notes_Achtel.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6060_E-Notes_Ganze.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6060_E-Notes_Ganze.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6060_E-Notes_Halbe.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6060_E-Notes_Halbe.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6060_E-Notes_Viertel.png"
-                     />
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6060_E-Notes_Viertel.png"/>
                   </figure>
                </item>
                <item>
@@ -575,38 +542,37 @@
                   <title xml:lang="eng">Dynamics</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-SF19-14_F-Dynamics_Crescendo.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-SF19-14_F-Dynamics_Crescendo.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-SF19-14_F-Dynamics_Forte.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-SF19-14_F-Dynamics_Forte.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-SF19-14_F-Dynamics_Pianissimo.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-SF19-14_F-Dynamics_Pianissimo.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-SF19-14_F-Dynamics_Piano.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-SF19-14_F-Dynamics_Piano.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.19474_F-Dynamics_Crescendo.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.19474_F-Dynamics_Crescendo.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.19474_F-Dynamics_Decrescendo.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.19474_F-Dynamics_Decrescendo.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.19474_F-Dynamics_Pianissimo.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.19474_F-Dynamics_Pianissimo.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6034_F-Dynamics_Crescendo.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6034_F-Dynamics_Crescendo.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6034_F-Dynamics_Decrescendo.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6034_F-Dynamics_Decrescendo.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6034_F-Dynamics_Mezzoforte.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6034_F-Dynamics_Mezzoforte.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6034_F-Dynamics_Piano.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6034_F-Dynamics_Piano.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6059-1_F-Dynamics_Mezzoforte.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6059-1_F-Dynamics_Mezzoforte.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6059-1_F-Dynamics_Pianissimo.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6059-1_F-Dynamics_Pianissimo.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6059-1_F-Dynamics_Piano.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6059-1_F-Dynamics_Piano.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6060_F-Dynamics_Crescendo.png"/>
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6060_F-Dynamics_Crescendo.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6060_F-Dynamics_Piano.png"
-                     />
+                              url="../../101_samples/named/C/Carda_Johann/Carda_Johann_A-WnMus.Hs.6060_F-Dynamics_Piano.png"/>
                   </figure>
                </item>
             </list>

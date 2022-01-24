@@ -54,7 +54,7 @@
                      <surname>Cervenko</surname>
                      <forename/>
                   </persName>
-                  <idno type="google-sheet">Kopist, Cervenko</idno>
+                  <idno type="alphabetically_sorted">Cervenko , Kopist</idno>
                   <idno type="GND"/>
                   <floruit from="1872" to="1873">1872–1873</floruit>
                   <residence>Linz</residence>
@@ -135,66 +135,92 @@
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_A-Clefs_G_1.png"/>
-                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_A-Clefs_G_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_A-Clefs_G_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_A-Clefs_G_2.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Akzidentien</title>
                   <title xml:lang="eng">Accidentals</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_B-Accidentals_Flat_1.png"/>
-                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_B-Accidentals_Flat_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_B-Accidentals_Flat_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_B-Accidentals_Flat_2.png"/>
                      <graphic scale="33"
                               url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_B-Accidentals_Natural_1.png"/>
                      <graphic scale="33"
                               url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_B-Accidentals_Natural_2.png"/>
-                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_B-Accidentals_Sharp_1.png"/>
-                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_B-Accidentals_Sharp_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_B-Accidentals_Sharp_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_B-Accidentals_Sharp_2.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Taktvorzeichnung</title>
                   <title xml:lang="eng">Time Signatures</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_C-Time-Signatures_C.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_C-Time-Signatures_C.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Pausen</title>
                   <title xml:lang="eng">Rests</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_D-Rests_Achtel_1.png"/>
-                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_D-Rests_Achtel_2.png"/>
-                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_D-Rests_Ganze.png"/>
-                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_D-Rests_Viertel_1.png"/>
-                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_D-Rests_Viertel_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_D-Rests_Achtel_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_D-Rests_Achtel_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_D-Rests_Ganze.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_D-Rests_Viertel_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_D-Rests_Viertel_2.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Noten</title>
                   <title xml:lang="eng">Notes</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_E-Notes_Achtel_1.png"/>
-                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_E-Notes_Achtel_2.png"/>
-                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_E-Notes_Ganze.png"/>
-                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_E-Notes_Halbe_1.png"/>
-                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_E-Notes_Halbe_2.png"/>
-                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_E-Notes_Sechzehntel.png"/>
-                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_E-Notes_Viertel_1.png"/>
-                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_E-Notes_Viertel_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_E-Notes_Achtel_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_E-Notes_Achtel_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_E-Notes_Ganze.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_E-Notes_Halbe_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_E-Notes_Halbe_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_E-Notes_Sechzehntel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_E-Notes_Viertel_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_E-Notes_Viertel_2.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Dynamik</title>
                   <title xml:lang="eng">Dynamics</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_F-Dynamics_Crescendo_1.png"/>
-                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_F-Dynamics_Crescendo_2.png"/>
-                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_F-Dynamics_Diminuendo.png"/>
-                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_F-Dynamics_Dolce.png"/>
-                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_F-Dynamics_Pianissimo.png"/>
-                     <graphic scale="33" url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_F-Dynamics_Piano.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_F-Dynamics_Crescendo_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_F-Dynamics_Crescendo_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_F-Dynamics_Diminuendo.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_F-Dynamics_Dolce.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_F-Dynamics_Pianissimo.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/C/Cervenko_Kopist/Kopist_Cervenko_A-SF19-14_F-Dynamics_Piano.png"/>
                   </figure>
                </item>
             </list>

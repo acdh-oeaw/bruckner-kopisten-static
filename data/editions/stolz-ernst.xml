@@ -57,9 +57,10 @@
                   </persName>
                   <birth when-iso="1868-08-03">03.08.1868</birth>
                   <death when-iso="1945-09-04">04.09.1945</death>
-                  <idno type="google-sheet">Stolz, Ernst</idno>
+                  <idno type="alphabetically_sorted">Stolz, Ernst</idno>
                   <idno type="GND"/>
-                  <ptr type="matricula" target="https://data.matricula-online.eu/de/oesterreich/st-poelten/st-poelten-dom/01%252F15/?pg=23" />
+                  <ptr type="matricula"
+                       target="https://data.matricula-online.eu/de/oesterreich/st-poelten/st-poelten-dom/01%252F15/?pg=23"/>
                   <residence>Kremsmünster</residence>
                   <affiliation xml:lang="de">Kremsmünsterer Kopisten</affiliation>
                   <affiliation xml:lang="eng">Kremsmünster copiysts</affiliation>
@@ -74,15 +75,16 @@
                <lb/>Wann Stolz die Klavierstimmen zur Quarille (WAB 121) anfertigte, ist nicht zu belegen. Jedoch lässt sich neben der Selbstauskunft, dass Stolz den Primo (T. 1–17 im Finale) und den Secondo (T. 1–17 im Panthelon) ergänzte, anhand der Unterschrift erkennen, dass er bereits approbierter Arzt war, als die Abschrift angefertigt wurde. Sein Sohn, der ebenfalls den Namen Ernst Stolz trägt, war von 1907/08–1913 Schüler in Kremsmünster.<ref xml:id="footnote-ref707" target="#footnote707" type="noteAnchor">3</ref>
                <note xml:id="footnote705" type="footnote" anchored="true" n="1">Linzer Tages-Post, 12.6.1920, S. 3 (<ref target="http://anno.onb.ac.at/cgi-content/anno?aid=tpt&amp;datum=19200612&amp;seite=3&amp;zoom=33">ANNO-Link</ref>).</note>
                <note xml:id="footnote706" type="footnote" anchored="true" n="2">Wiener Zeitung, 26.4.1926, S. 3 (<ref target="http://anno.onb.ac.at/cgi-content/anno?aid=wrz&amp;datum=19260408&amp;seite=3&amp;zoom=33">ANNO-Link</ref>).</note>
-               <note xml:id="footnote707" type="footnote" anchored="true" n="3">Verzeichnis der Kremsmünsterer Studenten 1871–1938, hrsg. von der Direktion des Obergymnasiums der Benediktiner zu Kremsmünster, Wels Welsermühl 1938, S. 172. <ref target="https://digi.landesbibliothek.at/viewer/resolver?urn=urn:nbn:at:AT-OOeLB-2747181">siehe OOeLB</ref></note>
+               <note xml:id="footnote707" type="footnote" anchored="true" n="3">Verzeichnis der Kremsmünsterer Studenten 1871–1938, hrsg. von der Direktion des Obergymnasiums der Benediktiner zu Kremsmünster, Wels Welsermühl 1938, S. 172. <ref target="https://digi.landesbibliothek.at/viewer/resolver?urn=urn:nbn:at:AT-OOeLB-2747181">siehe OOeLB</ref>
+               </note>
             </p>
             <p decls="desc" xml:lang="eng">
                <lb/>Ernst Stolz (1868-1945) was a financial councillor in Vienna for many years before turning back to music upon his retirement. According to the notice of his retirement, Stolz was an outstanding organist and student of Bruckner.<ref xml:id="footnote-ref708" target="#footnote708" type="noteAnchor">1</ref> There is also evidence of performances together with Carl Führich and Louis Dité.<ref xml:id="footnote-ref709" target="#footnote709" type="noteAnchor">2</ref>
                <lb/>When Stolz made the piano parts for the Quarille (WAB 121) cannot be proven. However, in addition to the self-disclosure that Stolz completed the Primo (m. 1-17 of the Finale) and the Secondo (m. 1-17 of the Panthelon), it can be seen from the signature that he was already a licensed doctor when the copy was made. His son, also named Ernst Stolz, was a student in Kremsmünster from 1907/08–1913.<ref xml:id="footnote-ref710" target="#footnote710" type="noteAnchor">3</ref>
                <note xml:id="footnote708" type="footnote" anchored="true" n="1">Linzer Tages-Post, 12.6.1920, p. 3 (<ref target="http://anno.onb.ac.at/cgi-content/anno?aid=tpt&amp;datum=19200612&amp;seite=3&amp;zoom=33">ANNO-Link</ref>).</note>
                <note xml:id="footnote709" type="footnote" anchored="true" n="2">Wiener Zeitung, 26.4.1926, p. 3 (<ref target="http://anno.onb.ac.at/cgi-content/anno?aid=wrz&amp;datum=19260408&amp;seite=3&amp;zoom=33">ANNO-Link</ref>).</note>
-               <note xml:id="footnote710" type="footnote" anchored="true" n="1">Verzeichnis der Kremsmünsterer Studenten 1871–1938, hrsg. von der Direktion des Obergymnasiums der Benediktiner zu Kremsmünster, Wels Welsermühl 1938, p. 172.<ref target="https://digi.landesbibliothek.at/viewer/resolver?urn=urn:nbn:at:AT-OOeLB-2747181">siehe OOeLB</ref></note>
-               
+               <note xml:id="footnote710" type="footnote" anchored="true" n="1">Verzeichnis der Kremsmünsterer Studenten 1871–1938, hrsg. von der Direktion des Obergymnasiums der Benediktiner zu Kremsmünster, Wels Welsermühl 1938, p. 172.<ref target="https://digi.landesbibliothek.at/viewer/resolver?urn=urn:nbn:at:AT-OOeLB-2747181">siehe OOeLB</ref>
+               </note>
             </p>
             <p decls="link" xml:lang="de"/>
             <p decls="link" xml:lang="eng"/>
@@ -137,50 +139,64 @@
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/S/Stolz_Ernst/Stolz_Ernst_A-KR-C56-1b_A-Clefs_F.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Stolz_Ernst/Stolz_Ernst_A-KR-C56-1b_A-Clefs_F.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Akzidentien</title>
                   <title xml:lang="eng">Accidentals</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/S/Stolz_Ernst/Stolz_Ernst_A-KR-C56-1b_B-Accidentals_Flat.png"/>
-                     <graphic scale="33" url="../../101_samples/named/S/Stolz_Ernst/Stolz_Ernst_A-KR-C56-1b_B-Accidentals_Natural.png"/>
-                     <graphic scale="33" url="../../101_samples/named/S/Stolz_Ernst/Stolz_Ernst_A-KR-C56-1b_B-Accidentals_Sharp.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Stolz_Ernst/Stolz_Ernst_A-KR-C56-1b_B-Accidentals_Flat.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Stolz_Ernst/Stolz_Ernst_A-KR-C56-1b_B-Accidentals_Natural.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Stolz_Ernst/Stolz_Ernst_A-KR-C56-1b_B-Accidentals_Sharp.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Taktvorzeichnung</title>
                   <title xml:lang="eng">Time Signatures</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/S/Stolz_Ernst/Stolz_Ernst_A-KR-C56-1b_C-Time-Signatures_2_4.png"/>
-                     <graphic scale="33" url="../../101_samples/named/S/Stolz_Ernst/Stolz_Ernst_A-KR-C56-1b_C-Time-Signatures_6_8.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Stolz_Ernst/Stolz_Ernst_A-KR-C56-1b_C-Time-Signatures_2_4.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Stolz_Ernst/Stolz_Ernst_A-KR-C56-1b_C-Time-Signatures_6_8.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Pausen</title>
                   <title xml:lang="eng">Rests</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/S/Stolz_Ernst/Stolz_Ernst_A-KR-C56-1b_D-Rests_Achtel.png"/>
-                     <graphic scale="33" url="../../101_samples/named/S/Stolz_Ernst/Stolz_Ernst_A-KR-C56-1b_D-Rests_Viertel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Stolz_Ernst/Stolz_Ernst_A-KR-C56-1b_D-Rests_Achtel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Stolz_Ernst/Stolz_Ernst_A-KR-C56-1b_D-Rests_Viertel.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Noten</title>
                   <title xml:lang="eng">Notes</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/S/Stolz_Ernst/Stolz_Ernst_A-KR-C56-1b_E-Notes_Achtel.png"/>
-                     <graphic scale="33" url="../../101_samples/named/S/Stolz_Ernst/Stolz_Ernst_A-KR-C56-1b_E-Notes_Achtel_1.png"/>
-                     <graphic scale="33" url="../../101_samples/named/S/Stolz_Ernst/Stolz_Ernst_A-KR-C56-1b_E-Notes_Achtel_2.png"/>
-                     <graphic scale="33" url="../../101_samples/named/S/Stolz_Ernst/Stolz_Ernst_A-KR-C56-1b_E-Notes_Viertel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Stolz_Ernst/Stolz_Ernst_A-KR-C56-1b_E-Notes_Achtel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Stolz_Ernst/Stolz_Ernst_A-KR-C56-1b_E-Notes_Achtel_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Stolz_Ernst/Stolz_Ernst_A-KR-C56-1b_E-Notes_Achtel_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Stolz_Ernst/Stolz_Ernst_A-KR-C56-1b_E-Notes_Viertel.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Dynamik</title>
                   <title xml:lang="eng">Dynamics</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/S/Stolz_Ernst/Stolz_Ernst_A-KR-C56-1b_F-Dynamics_Forte.png"/>
-                     <graphic scale="33" url="../../101_samples/named/S/Stolz_Ernst/Stolz_Ernst_A-KR-C56-1b_F-Dynamics_Piano.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Stolz_Ernst/Stolz_Ernst_A-KR-C56-1b_F-Dynamics_Forte.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Stolz_Ernst/Stolz_Ernst_A-KR-C56-1b_F-Dynamics_Piano.png"/>
                   </figure>
                </item>
             </list>

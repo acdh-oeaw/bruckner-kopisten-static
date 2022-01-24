@@ -54,7 +54,7 @@
                      <surname>Hofmeister</surname>
                      <forename>Karl</forename>
                   </persName>
-                  <idno type="google-sheet">Hofmeister, Karl</idno>
+                  <idno type="alphabetically_sorted">Hofmeister, Karl</idno>
                   <idno type="GND"/>
                   <floruit from="1884" to="1885">1884–1885</floruit>
                   <residence>Linz</residence>
@@ -127,8 +127,10 @@
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/H/Hofmeister_Karl/Hofmeister_Karl_A-LId478_7_29_A-Clefs_F_1.png"/>
-                     <graphic scale="33" url="../../101_samples/named/H/Hofmeister_Karl/Hofmeister_Karl_A-LId478_7_29_A-Clefs_F_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/Hofmeister_Karl/Hofmeister_Karl_A-LId478_7_29_A-Clefs_F_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/Hofmeister_Karl/Hofmeister_Karl_A-LId478_7_29_A-Clefs_F_2.png"/>
                   </figure>
                </item>
                <item>
@@ -163,34 +165,46 @@
                   <title xml:lang="de">Pausen</title>
                   <title xml:lang="eng">Rests</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/H/Hofmeister_Karl/Hofmeister_Karl_A-LId478_7_29_D-Rests_Achtel.png"/>
-                     <graphic scale="33" url="../../101_samples/named/H/Hofmeister_Karl/Hofmeister_Karl_A-LId478_7_29_D-Rests_Viertel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/Hofmeister_Karl/Hofmeister_Karl_A-LId478_7_29_D-Rests_Achtel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/Hofmeister_Karl/Hofmeister_Karl_A-LId478_7_29_D-Rests_Viertel.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Noten</title>
                   <title xml:lang="eng">Notes</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/H/Hofmeister_Karl/Hofmeister_Karl_A-LId478_7_29_E-Notes_Achtel_1.png"/>
-                     <graphic scale="33" url="../../101_samples/named/H/Hofmeister_Karl/Hofmeister_Karl_A-LId478_7_29_E-Notes_Achtel_2.png"/>
-                     <graphic scale="33" url="../../101_samples/named/H/Hofmeister_Karl/Hofmeister_Karl_A-LId478_7_29_E-Notes_Ganze_1.png"/>
-                     <graphic scale="33" url="../../101_samples/named/H/Hofmeister_Karl/Hofmeister_Karl_A-LId478_7_29_E-Notes_Ganze_2.png"/>
-                     <graphic scale="33" url="../../101_samples/named/H/Hofmeister_Karl/Hofmeister_Karl_A-LId478_7_29_E-Notes_Halbe_1.png"/>
-                     <graphic scale="33" url="../../101_samples/named/H/Hofmeister_Karl/Hofmeister_Karl_A-LId478_7_29_E-Notes_Halbe_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/Hofmeister_Karl/Hofmeister_Karl_A-LId478_7_29_E-Notes_Achtel_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/Hofmeister_Karl/Hofmeister_Karl_A-LId478_7_29_E-Notes_Achtel_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/Hofmeister_Karl/Hofmeister_Karl_A-LId478_7_29_E-Notes_Ganze_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/Hofmeister_Karl/Hofmeister_Karl_A-LId478_7_29_E-Notes_Ganze_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/Hofmeister_Karl/Hofmeister_Karl_A-LId478_7_29_E-Notes_Halbe_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/Hofmeister_Karl/Hofmeister_Karl_A-LId478_7_29_E-Notes_Halbe_2.png"/>
                      <graphic scale="33"
                               url="../../101_samples/named/H/Hofmeister_Karl/Hofmeister_Karl_A-LId478_7_29_E-Notes_Sechzehntel_1.png"/>
                      <graphic scale="33"
                               url="../../101_samples/named/H/Hofmeister_Karl/Hofmeister_Karl_A-LId478_7_29_E-Notes_Sechzehntel_2.png"/>
-                     <graphic scale="33" url="../../101_samples/named/H/Hofmeister_Karl/Hofmeister_Karl_A-LId478_7_29_E-Notes_Viertel_1.png"/>
-                     <graphic scale="33" url="../../101_samples/named/H/Hofmeister_Karl/Hofmeister_Karl_A-LId478_7_29_E-Notes_Viertel_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/Hofmeister_Karl/Hofmeister_Karl_A-LId478_7_29_E-Notes_Viertel_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/Hofmeister_Karl/Hofmeister_Karl_A-LId478_7_29_E-Notes_Viertel_2.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Dynamik</title>
                   <title xml:lang="eng">Dynamics</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/H/Hofmeister_Karl/Hofmeister_Karl_A-LId478_7_29_F-Dynamics_Cresc.png"/>
-                     <graphic scale="33" url="../../101_samples/named/H/Hofmeister_Karl/Hofmeister_Karl_A-LId478_7_29_F-Dynamics_Dimin.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/Hofmeister_Karl/Hofmeister_Karl_A-LId478_7_29_F-Dynamics_Cresc.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/Hofmeister_Karl/Hofmeister_Karl_A-LId478_7_29_F-Dynamics_Dimin.png"/>
                      <graphic scale="33"
                               url="../../101_samples/named/H/Hofmeister_Karl/Hofmeister_Karl_A-LId478_7_29_F-Dynamics_Fortissimo_1.png"/>
                      <graphic scale="33"
@@ -201,7 +215,8 @@
                               url="../../101_samples/named/H/Hofmeister_Karl/Hofmeister_Karl_A-LId478_7_29_F-Dynamics_Pianissimo.png"/>
                      <graphic scale="33"
                               url="../../101_samples/named/H/Hofmeister_Karl/Hofmeister_Karl_A-LId478_7_29_F-Dynamics_Pianissimo_2.png"/>
-                     <graphic scale="33" url="../../101_samples/named/H/Hofmeister_Karl/Hofmeister_Karl_A-LId478_7_29_F-Dynamics_Piano.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/Hofmeister_Karl/Hofmeister_Karl_A-LId478_7_29_F-Dynamics_Piano.png"/>
                   </figure>
                </item>
             </list>

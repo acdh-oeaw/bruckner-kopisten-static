@@ -56,7 +56,7 @@
                      <surname>Nittmann</surname>
                      <forename>Franz</forename>
                   </persName>
-                  <idno type="google-sheet">Nittmann,Franz (olimAnonymus 007 (W)</idno>
+                  <idno type="alphabetically_sorted">Nittmann,Franz (olimAnonymus 007 (W)</idno>
                   <idno type="GND"/>
                   <floruit from="1868" to="1868">1868</floruit>
                   <residence/>
@@ -71,8 +71,7 @@
             <p decls="desc" xml:lang="de">
                <lb/>Nittmann war als Hornist am Wiener Hofoperntheater tätig und kopierte einen Teil
                des Stimmensatzes (A-WnMus.Hs.6075) zur Messe in f-Moll. Als Kopist war er ebenfalls für
-               Johannes Brahms tätig.<ref xml:id="footnote-ref077" target="#footnote077"
-                  type="noteAnchor">1</ref>
+               Johannes Brahms tätig.<ref xml:id="footnote-ref077" target="#footnote077" type="noteAnchor">1</ref>
                <note xml:id="footnote077" type="footnote" anchored="true" n="1">Die vorläufige
                   Identifizierung der Handschrift Nittmanns erfolgte durch Johannes Behr. Vgl. Behr,
                   "Hlawaczek", S. 129ff.</note>
@@ -80,8 +79,7 @@
             <p decls="desc" xml:lang="eng">
                <lb/>Nittmann worked as a horn player at the Wiener Hofoperntheater and copied parts
                of the set (A-WnMus.Hs.6075) for the Mass in F minor. He also worked as a copyist for
-                  Brahms.<ref xml:id="footnote-ref078" target="#footnote078" type="noteAnchor"
-                  >1</ref>
+                  Brahms.<ref xml:id="footnote-ref078" target="#footnote078" type="noteAnchor">1</ref>
                <note xml:id="footnote078" type="footnote" anchored="true" n="1">The preliminary
                   identification of Nittmann’s handwritting was made by Johannes Behr. Cf. Behr,
                   "Hlawaczek", p. 129ff.</note>
@@ -144,70 +142,104 @@
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_A-Clefs_C.png"/>
-                     <graphic scale="33" url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_A-Clefs_F.png"/>
-                     <graphic scale="33" url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_A-Clefs_G.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_A-Clefs_C.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_A-Clefs_F.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_A-Clefs_G.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Akzidentien</title>
                   <title xml:lang="eng">Accidentals</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_B-Accidentals_Flat.png"/>
-                     <graphic scale="33" url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_B-Accidentals_Flat2.png"/>
-                     <graphic scale="33" url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_B-Accidentals_Natural.png"/>
-                     <graphic scale="33" url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_B-Accidentals_Natural2.png"/>
-                     <graphic scale="33" url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_B-Accidentals_Sharp.png"/>
-                     <graphic scale="33" url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_B-Accidentals_Sharp2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_B-Accidentals_Flat.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_B-Accidentals_Flat2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_B-Accidentals_Natural.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_B-Accidentals_Natural2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_B-Accidentals_Sharp.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_B-Accidentals_Sharp2.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Taktvorzeichnung</title>
                   <title xml:lang="eng">Time Signatures</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_C-Time-Signatures_3_4.png"/>
-                     <graphic scale="33" url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_C-Time-Signatures_C.png"/>
-                     <graphic scale="33" url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_C-Time-Signatures_Cn.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_C-Time-Signatures_3_4.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_C-Time-Signatures_C.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_C-Time-Signatures_Cn.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Pausen</title>
                   <title xml:lang="eng">Rests</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_D-Rests_Achtel.png"/>
-                     <graphic scale="33" url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_D-Rests_Halbe.png"/>
-                     <graphic scale="33" url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_D-Rests_Viertel.png"/>
-                     <graphic scale="33" url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_D-Rests_Viertel2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_D-Rests_Achtel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_D-Rests_Halbe.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_D-Rests_Viertel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_D-Rests_Viertel2.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Noten</title>
                   <title xml:lang="eng">Notes</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_E-Notes_Achtel.png"/>
-                     <graphic scale="33" url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_E-Notes_Achtel2.png"/>
-                     <graphic scale="33" url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_E-Notes_Achtel3.png"/>
-                     <graphic scale="33" url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_E-Notes_Ganze.png"/>
-                     <graphic scale="33" url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_E-Notes_Ganze2.png"/>
-                     <graphic scale="33" url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_E-Notes_Halbe.png"/>
-                     <graphic scale="33" url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_E-Notes_Halbe2.png"/>
-                     <graphic scale="33" url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_E-Notes_Viertel1.png"/>
-                     <graphic scale="33" url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_E-Notes_Viertel2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_E-Notes_Achtel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_E-Notes_Achtel2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_E-Notes_Achtel3.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_E-Notes_Ganze.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_E-Notes_Ganze2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_E-Notes_Halbe.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_E-Notes_Halbe2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_E-Notes_Viertel1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_E-Notes_Viertel2.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Dynamik</title>
                   <title xml:lang="eng">Dynamics</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_F-Dynamics_Crescendo.png"/>
-                     <graphic scale="33" url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_F-Dynamics_Diminuendo.png"/>
-                     <graphic scale="33" url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_F-Dynamics_Forte.png"/>
-                     <graphic scale="33" url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_F-Dynamics_Fortissimo.png"/>
-                     <graphic scale="33" url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_F-Dynamics_Mezzoforte.png"/>
-                     <graphic scale="33" url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_F-Dynamics_Mezzoforte2.png"/>
-                     <graphic scale="33" url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_F-Dynamics_Pianissimo.png"/>
-                     <graphic scale="33" url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_F-Dynamics_Piano.png"/>
-                     <graphic scale="33" url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_F-Dynamics_Sforzato.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_F-Dynamics_Crescendo.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_F-Dynamics_Diminuendo.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_F-Dynamics_Forte.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_F-Dynamics_Fortissimo.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_F-Dynamics_Mezzoforte.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_F-Dynamics_Mezzoforte2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_F-Dynamics_Pianissimo.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_F-Dynamics_Piano.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/N/Nittmann_Franz/Nittmann_Franz_A-WnMus.Hs.6075_F-Dynamics_Sforzato.png"/>
                   </figure>
                </item>
             </list>

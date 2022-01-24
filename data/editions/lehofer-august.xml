@@ -56,9 +56,10 @@
                      <surname>Lehofer</surname>
                      <forename>August</forename>
                   </persName>
-                  <idno type="google-sheet">Lehofer, August</idno>
+                  <idno type="alphabetically_sorted">Lehofer, August</idno>
                   <idno type="GND">1041936389</idno>
-                  <ptr type="Matricula" target="https://data.matricula-online.eu/de/oesterreich/oberoesterreich/kronstorf/106%252F1875/?pg=13"/>
+                  <ptr type="Matricula"
+                       target="https://data.matricula-online.eu/de/oesterreich/oberoesterreich/kronstorf/106%252F1875/?pg=13"/>
                   <residence>Kremsmünster</residence>
                   <affiliation xml:lang="de"/>
                   <affiliation xml:lang="eng"/>
@@ -76,7 +77,8 @@
                1888/89–1896 Schüler in Kremsmünster und datierte die Partitur und Stimmen auf den 14.11.1892.<ref xml:id="footnote-ref702" target="#footnote702" type="noteAnchor">2</ref>
                <lb/>Für weitere Kopisten aus Kremsmünster siehe <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>. 
             <note xml:id="footnote701" type="footnote" anchored="true" n="1">Linzer Volksblatt, 20.6.1913, S. 5 (<ref target="https://anno.onb.ac.at/cgi-content/anno?aid=lvb&amp;datum=19130620&amp;query=%22lehofer%22&amp;ref=anno-search&amp;seite=5">ANNO-Link</ref>).</note>
-            <note xml:id="footnote702" type="footnote" anchored="true" n="2">Verzeichnis der Kremsmünsterer Studenten 1871–1938, hrsg. von der Direktion des Obergymnasiums der Benediktiner zu Kremsmünster, Wels Welsermühl 1938, S. 98. <ref target="https://digi.landesbibliothek.at/viewer/resolver?urn=urn:nbn:at:AT-OOeLB-2746445">siehe OOeLB</ref></note>
+               <note xml:id="footnote702" type="footnote" anchored="true" n="2">Verzeichnis der Kremsmünsterer Studenten 1871–1938, hrsg. von der Direktion des Obergymnasiums der Benediktiner zu Kremsmünster, Wels Welsermühl 1938, S. 98. <ref target="https://digi.landesbibliothek.at/viewer/resolver?urn=urn:nbn:at:AT-OOeLB-2746445">siehe OOeLB</ref>
+               </note>
             </p>
             <p decls="desc" xml:lang="eng">
                <lb/>Augustin Lehofer (*20.8.1875-†?) was a native of Kronstorf and the grandson of
@@ -85,12 +87,12 @@
                voice parts for the hymn “In Sanctum Angelum custodem” (WAB 018,1). Lehhofer was a
                student at Kremsmünster from 1888/89-1896 and dated his score and parts on
                   14.11.1892.<ref xml:id="footnote-ref704" target="#footnote704" type="noteAnchor">2</ref>
-               <lb/>For more copyists from Kremsmünster, see <ref
-                  target="../../100_Introduction/Tabelle_3.xml" type="table">Table 3</ref>.
+               <lb/>For more copyists from Kremsmünster, see <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Table 3</ref>.
             <note xml:id="footnote703" type="footnote" anchored="true" n="1">Linzer Volksblatt, 20.6.1913, p. 5. (<ref target="https://anno.onb.ac.at/cgi-content/anno?aid=lvb&amp;datum=19130620&amp;query=%22lehofer%22&amp;ref=anno-search&amp;seite=5">ANNO-Link</ref>).</note>
-            <note xml:id="footnote704" type="footnote" anchored="true" n="2">Verzeichnis der Kremsmünsterer Studenten 1871–1938, hrsg. von der Direktion des Obergymnasiums der Benediktiner zu Kremsmünster, Wels Welsermühl 1938, p. 98. <ref target="https://digi.landesbibliothek.at/viewer/resolver?urn=urn:nbn:at:AT-OOeLB-2746445">siehe OOeLB</ref></note>
+               <note xml:id="footnote704" type="footnote" anchored="true" n="2">Verzeichnis der Kremsmünsterer Studenten 1871–1938, hrsg. von der Direktion des Obergymnasiums der Benediktiner zu Kremsmünster, Wels Welsermühl 1938, p. 98. <ref target="https://digi.landesbibliothek.at/viewer/resolver?urn=urn:nbn:at:AT-OOeLB-2746445">siehe OOeLB</ref>
+               </note>
             </p>
-               <p decls="link" xml:lang="de"/>
+            <p decls="link" xml:lang="de"/>
             <p decls="link" xml:lang="eng"/>
             <table>
                <head>Abschriften</head>

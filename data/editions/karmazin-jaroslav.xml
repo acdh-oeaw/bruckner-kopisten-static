@@ -54,7 +54,7 @@
                      <surname>Karmazin</surname>
                      <forename>Jaroslav</forename>
                   </persName>
-                  <idno type="google-sheet">Karmazin, Jaroslav</idno>
+                  <idno type="alphabetically_sorted">Karmazin, Jaroslav</idno>
                   <idno type="GND"/>
                   <residence>Steyr</residence>
                   <affiliation xml:lang="de">Steyrer Kopisten</affiliation>
@@ -69,25 +69,23 @@
                <lb/>Karmazin, dessen Unterschrift teilweise als „Karmathin“ fehlinterpretiert werden kann, war Oboist, Sänger und Direktor der Steyrer Bürgermusikkapelle.<ref xml:id="footnote-ref067" target="#footnote067" type="noteAnchor">1</ref> Eine Ankündigung zu seinem 75. Hochzeitsjubiläums am 20. November 1947 beschreibt ihn als Ehrenkapellmeister der Bürgermusikkapelle und Ehrenmitglied des Steyrer Musikvereins und Kirchenchores. Der zu diesem Zeitpunkt 89-jährige blickt nach Angaben des Linzer Volksblattes auf eine siebzig Jahre andauernde Karriere als Berufsmusiker zurück.<ref xml:id="footnote-ref068" target="#footnote068" type="noteAnchor">2</ref>
                <lb/>Zusammen mit Franz Xaver Bayer, Juliane Bayer und Albert Pfandtner wirkte er an den Steyrer Stimmen für Bruckners Requiem mit.<ref xml:id="footnote-ref069" target="#footnote069" type="noteAnchor">3</ref>
                <lb/>Für weitere Kopisten aus Steyr siehe <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>. </p>
-               <note xml:id="footnote067" type="footnote" anchored="true" n="1">Linzer Tages-Post, 23. November 1894, S. 3.</note>
-               <note xml:id="footnote068" type="footnote" anchored="true" n="2">Linzer Volksblatt, 20. November 1947, S. 3.</note>
-               <note xml:id="footnote069" type="footnote" anchored="true" n="3">Vgl. Erich Wolfgang Partsch, Zur Steyrer Bruckner-Pflege nach 1945, in: „Bruckner-
+            <note xml:id="footnote067" type="footnote" anchored="true" n="1">Linzer Tages-Post, 23. November 1894, S. 3.</note>
+            <note xml:id="footnote068" type="footnote" anchored="true" n="2">Linzer Volksblatt, 20. November 1947, S. 3.</note>
+            <note xml:id="footnote069" type="footnote" anchored="true" n="3">Vgl. Erich Wolfgang Partsch, Zur Steyrer Bruckner-Pflege nach 1945, in: „Bruckner-
                Vorträge / Bruckner-Tagung Steyr 23.-25.10.2003 „Bruckner - vokal“, Bericht“, Wien (2009), S. 170</note>
             <p decls="desc" xml:lang="eng">
                <lb/>Karmazin, whose signature partly looks like “Karmathin” was an oboist, singer
                and Director of the <hi rend="italic">Steyr Bürgermusikkapelle</hi>.<ref xml:id="footnote-ref070" target="#footnote070" type="noteAnchor">1</ref> An announcement of his seventy-fifth wedding anniversary on 20
                November 1947 describes him as the honorary <hi rend="italic">Kapellmeister</hi> of
-               the <hi rend="italic">Bürgermusikkapelle</hi> and an honorary member of the Steyr <hi
-                  rend="italic">Musikverein</hi> and Church Choir. At the time he was eighty-nine
+               the <hi rend="italic">Bürgermusikkapelle</hi> and an honorary member of the Steyr <hi rend="italic">Musikverein</hi> and Church Choir. At the time he was eighty-nine
                years old and, according to the newspaper, had been a professional musician for the
                past seventy years.<ref xml:id="footnote-ref071" target="#footnote071" type="noteAnchor">2</ref>
                <lb/>Along with Franz Xaver Bayer, Juliane Bayer and Albert Pfandtner, he contributed
                to the Steyr parts for Bruckner’s Requiem.<ref xml:id="footnote-ref072" target="#footnote072" type="noteAnchor">3</ref>
-               <lb/>For more copyists from Steyr, see <ref target="../../100_Introduction/Tabelle_3.xml" type="table"
-                  >Table 3</ref>.</p>
-               <note xml:id="footnote070" type="footnote" anchored="true" n="1">Linzer Tages-Post, 23 November 1894, p. 3.</note>
-               <note xml:id="footnote071" type="footnote" anchored="true" n="2">Linzer Volksblatt, 20 November 1947, p. 3.</note>
-               <note xml:id="footnote072" type="footnote" anchored="true" n="3">Vgl. Erich Wolfgang Partsch, Zur Steyrer Bruckner-Pflege nach 1945. In: Bruckner-
+               <lb/>For more copyists from Steyr, see <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Table 3</ref>.</p>
+            <note xml:id="footnote070" type="footnote" anchored="true" n="1">Linzer Tages-Post, 23 November 1894, p. 3.</note>
+            <note xml:id="footnote071" type="footnote" anchored="true" n="2">Linzer Volksblatt, 20 November 1947, p. 3.</note>
+            <note xml:id="footnote072" type="footnote" anchored="true" n="3">Vgl. Erich Wolfgang Partsch, Zur Steyrer Bruckner-Pflege nach 1945. In: Bruckner-
                Vorträge / Bruckner-Tagung Steyr 23.-25.10.2003 “Bruckner - vokal”, Bericht 
                Wien 2009, p. 170</note>
             <p decls="link" xml:lang="de"/>
@@ -144,7 +142,8 @@
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/K/Karmazin_Jaroslav/Karmazin_Jaroslav_A-WnMus.Hs.2125-II_A-Clefs_G.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/Karmazin_Jaroslav/Karmazin_Jaroslav_A-WnMus.Hs.2125-II_A-Clefs_G.png"/>
                   </figure>
                </item>
                <item>

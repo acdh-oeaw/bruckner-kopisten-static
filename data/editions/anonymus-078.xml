@@ -50,7 +50,7 @@
             <listPerson>
                <person>
                   <persName subtype="W" type="main">Anonymus 078</persName>
-                  <idno type="google-sheet">078</idno>
+                  <idno type="alphabetically_sorted">Anonymus 078</idno>
                   <floruit from="1895" to="1896">1895–1896</floruit>
                   <residence/>
                   <affiliation xml:lang="de">Wiener Kopisten</affiliation>
@@ -166,9 +166,12 @@
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_078/Anonymus-078_A-WnMus.Hs.6085_A-Clefs_C.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_078/Anonymus-078_A-WnMus.Hs.6085_A-Clefs_F.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_078/Anonymus-078_A-WnMus.Hs.6085_A-Clefs_G.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_078/Anonymus-078_A-WnMus.Hs.6085_A-Clefs_C.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_078/Anonymus-078_A-WnMus.Hs.6085_A-Clefs_F.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_078/Anonymus-078_A-WnMus.Hs.6085_A-Clefs_G.png"/>
                   </figure>
                </item>
                <item>

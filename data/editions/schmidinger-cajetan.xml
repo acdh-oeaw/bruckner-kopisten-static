@@ -54,7 +54,7 @@
                      <surname>Schmidinger</surname>
                      <forename>Cajetan</forename>
                   </persName>
-                  <idno type="google-sheet">Schmidinger, Cajetan</idno>
+                  <idno type="alphabetically_sorted">Schmidinger, Cajetan</idno>
                   <idno type="GND">1108314929</idno>
                   <residence>Traun</residence>
                   <affiliation xml:lang="de"/>
@@ -249,10 +249,14 @@
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19717_A-Clefs_F.png"/>
-                     <graphic scale="33" url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19717_A-Clefs_G.png"/>
-                     <graphic scale="33" url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19750_A-Clefs_F.png"/>
-                     <graphic scale="33" url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19750_A-Clefs_G.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19717_A-Clefs_F.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19717_A-Clefs_G.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19750_A-Clefs_F.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19750_A-Clefs_G.png"/>
                   </figure>
                </item>
                <item>

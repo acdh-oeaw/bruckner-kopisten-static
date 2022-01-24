@@ -55,7 +55,7 @@
                      <forename>Oddo</forename>
                      <forename>Rafael</forename>
                   </persName>
-                  <idno type="google-sheet">Loidol, Oddo</idno>
+                  <idno type="alphabetically_sorted">Loidol, Oddo</idno>
                   <idno type="GND"/>
                   <floruit from="1882" to="1884">1882–1884</floruit>
                   <residence>Kremsmünster</residence>
@@ -171,40 +171,50 @@
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/L/Loidol_Oddo/Loidol_Oddo_A-WstMHc4123_A-Clefs_F.png"/>
-                     <graphic scale="33" url="../../101_samples/named/L/Loidol_Oddo/Loidol_Oddo_A-WstMHc4123_A-Clefs_G.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/L/Loidol_Oddo/Loidol_Oddo_A-WstMHc4123_A-Clefs_F.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/L/Loidol_Oddo/Loidol_Oddo_A-WstMHc4123_A-Clefs_G.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Akzidentien</title>
                   <title xml:lang="eng">Accidentals</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/L/Loidol_Oddo/Loidol_Oddo_A-WstMHc4123_B-Accidentals_Flat.png"/>
-                     <graphic scale="33" url="../../101_samples/named/L/Loidol_Oddo/Loidol_Oddo_A-WstMHc4123_B-Accidentals_Natural.png"/>
-                     <graphic scale="33" url="../../101_samples/named/L/Loidol_Oddo/Loidol_Oddo_A-WstMHc4123_B-Accidentals_Sharp.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/L/Loidol_Oddo/Loidol_Oddo_A-WstMHc4123_B-Accidentals_Flat.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/L/Loidol_Oddo/Loidol_Oddo_A-WstMHc4123_B-Accidentals_Natural.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/L/Loidol_Oddo/Loidol_Oddo_A-WstMHc4123_B-Accidentals_Sharp.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Taktvorzeichnung</title>
                   <title xml:lang="eng">Time Signatures</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/L/Loidol_Oddo/Loidol_Oddo_A-WstMHc4123_C-Time-Signatures_C.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/L/Loidol_Oddo/Loidol_Oddo_A-WstMHc4123_C-Time-Signatures_C.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Pausen</title>
                   <title xml:lang="eng">Rests</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/L/Loidol_Oddo/Loidol_Oddo_A-WstMHc4123_D-Rests_Viertel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/L/Loidol_Oddo/Loidol_Oddo_A-WstMHc4123_D-Rests_Viertel.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Noten</title>
                   <title xml:lang="eng">Notes</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/L/Loidol_Oddo/Loidol_Oddo_A-WstMHc4123_E-Notes_Ganze.png"/>
-                     <graphic scale="33" url="../../101_samples/named/L/Loidol_Oddo/Loidol_Oddo_A-WstMHc4123_E-Notes_Halbe.png"/>
-                     <graphic scale="33" url="../../101_samples/named/L/Loidol_Oddo/Loidol_Oddo_A-WstMHc4123_E-Notes_Viertel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/L/Loidol_Oddo/Loidol_Oddo_A-WstMHc4123_E-Notes_Ganze.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/L/Loidol_Oddo/Loidol_Oddo_A-WstMHc4123_E-Notes_Halbe.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/L/Loidol_Oddo/Loidol_Oddo_A-WstMHc4123_E-Notes_Viertel.png"/>
                   </figure>
                </item>
                <item>

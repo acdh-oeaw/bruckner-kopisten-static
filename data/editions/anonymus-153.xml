@@ -51,7 +51,7 @@
                <person>
                   <persName subtype="W" type="main">Anonymus 153</persName>
                   <persName type="before">Kopist, Regeredam</persName>
-                  <idno type="google-sheet">153</idno>
+                  <idno type="alphabetically_sorted">Anonymus 153</idno>
                   <residence>St. Florian</residence>
                   <affiliation xml:lang="de">St. Florianer Kopisten</affiliation>
                   <affiliation xml:lang="eng">St. Florian copyist</affiliation>
@@ -126,23 +126,28 @@
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_153/Anonymus-153_A-SF20-48_A-Clefs_F.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_153/Anonymus-153_A-SF20-48_A-Clefs_G.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_153/Anonymus-153_A-SF20-48_A-Clefs_F.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_153/Anonymus-153_A-SF20-48_A-Clefs_G.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Akzidentien</title>
                   <title xml:lang="eng">Accidentals</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_153/Anonymus-153_A-SF20-48_B-Accidentals_Natural.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_153/Anonymus-153_A-SF20-48_B-Accidentals_Sharp.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_153/Anonymus-153_A-SF20-48_B-Accidentals_Natural.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_153/Anonymus-153_A-SF20-48_B-Accidentals_Sharp.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Taktvorzeichnung</title>
                   <title xml:lang="eng">Time Signatures</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_153/Anonymus-153_A-SF20-48_C-Time Signatures_C.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_153/Anonymus-153_A-SF20-48_C-Time Signatures_C.png"/>
                   </figure>
                </item>
                <item>
@@ -154,9 +159,12 @@
                   <title xml:lang="de">Noten</title>
                   <title xml:lang="eng">Notes</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_153/Anonymus-153_A-SF20-48_E-Notes_Ganze.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_153/Anonymus-153_A-SF20-48_E-Notes_Halbe.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_153/Anonymus-153_A-SF20-48_E-Notes_Viertel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_153/Anonymus-153_A-SF20-48_E-Notes_Ganze.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_153/Anonymus-153_A-SF20-48_E-Notes_Halbe.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_153/Anonymus-153_A-SF20-48_E-Notes_Viertel.png"/>
                   </figure>
                </item>
                <item>
@@ -165,9 +173,12 @@
                   <figure>
                      <graphic scale="33"
                               url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_153/Anonymus-153_A-SF20-48_F-Dynamics_Crescendo_Decrescendo.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_153/Anonymus-153_A-SF20-48_F-Dynamics_Forte.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_153/Anonymus-153_A-SF20-48_F-Dynamics_Mezzoforte.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_153/Anonymus-153_A-SF20-48_F-Dynamics_Piano.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_153/Anonymus-153_A-SF20-48_F-Dynamics_Forte.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_153/Anonymus-153_A-SF20-48_F-Dynamics_Mezzoforte.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_153/Anonymus-153_A-SF20-48_F-Dynamics_Piano.png"/>
                   </figure>
                </item>
             </list>
