@@ -111,7 +111,7 @@
                                 <a href="Tabelle_3.html" class="index-link">  
                                     <div class="card index-card">
                                         <div class="card-body" style="padding:0;">
-                                            <img src="img/Drucke_2.jpg" class="d-block w-100" alt="..."/>
+                                            <img src="img/Landkarte.jpg" class="d-block w-100" alt="..."/>
                                         </div>
                                         <div class="card-header">                                            
                                             <p>
