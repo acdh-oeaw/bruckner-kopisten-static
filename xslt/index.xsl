@@ -87,7 +87,7 @@
                                         </div>
                                         <div class="card-header">                                            
                                             <p>
-                                                Bruckner Kopisten der Primärquellen
+                                                Kopisten der Primärquellen
                                             </p>                                            
                                         </div>
                                     </div>                                     
@@ -101,7 +101,7 @@
                                         </div>
                                         <div class="card-header">                                            
                                             <p>
-                                                Bruckner Kopisten der Sekundärquellen
+                                                Kopisten der Sekundärquellen
                                             </p>                                            
                                         </div>
                                     </div>                                 

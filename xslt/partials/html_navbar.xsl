@@ -28,7 +28,7 @@
                                 </ul>                                
                             </li>
                             <li class="nav-item dropdown">
-                                <a title="Indexes" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Kopisten <span class="caret"></span></a>
+                                <a title="Indexes" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Katalogzugänge<span class="caret"></span></a>
                                 <ul class=" dropdown-menu" role="menu">
                                     <li class="nav-item dropdown-submenu">
                                         <a title="Kopisten der Primärquellen" href="Tabelle_1.html" class="nav-link">Kopisten der Primärquellen</a>
