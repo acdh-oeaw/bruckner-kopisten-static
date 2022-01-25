@@ -312,6 +312,11 @@
                   </ref>
                </item>
                <item>
+                  <ref corresp="content-d1e9998f" target="data/editions/anonymus-167.xml">
+                     <persName subtype="W" type="main">Anonymus 167</persName>
+                  </ref>
+               </item>
+               <item>
                   <ref corresp="content-d1e6744" target="data/editions/anonymus-041.xml">
                      <persName type="main">Anonymus 041</persName>
                   </ref>
@@ -412,6 +417,11 @@
                   </ref>
                </item>
                <item>
+                  <ref corresp="content-d1e18895" target="data/editions/anonymus-165.xml">
+                     <persName subtype="W" type="main">Anonymus 165</persName>
+                  </ref>
+               </item>
+               <item>
                   <ref corresp="content-d1e14391" target="data/editions/anonymus-101.xml">
                      <persName type="main">Anonymus 101</persName>
                   </ref>
@@ -462,6 +472,11 @@
                   </ref>
                </item>
                <item>
+                  <ref corresp="content-d1e18795" target="data/editions/anonymus-164.xml">
+                     <persName subtype="W" type="main">Anonymus 164</persName>
+                  </ref>
+               </item>
+               <item>
                   <ref corresp="content-d1e11987" target="data/editions/anonymus-083.xml">
                      <persName type="main">Anonymus 083</persName>
                   </ref>
@@ -494,6 +509,11 @@
                <item>
                   <ref corresp="content-d1e18780" target="data/editions/anonymus-137.xml">
                      <persName type="main">Anonymus 137</persName>
+                  </ref>
+               </item>
+               <item>
+                  <ref corresp="content-d1e19926" target="data/editions/anonymus-166.xml">
+                     <persName subtype="SF" type="main">Anonymus 166</persName>
                   </ref>
                </item>
                <item>

@@ -9,8 +9,8 @@
     <xsl:import href="./partials/html_navbar.xsl"/>
     <xsl:import href="./partials/html_head.xsl"/>
     <xsl:import href="partials/html_footer.xsl"/>
-    <xsl:import href="partials/osd-container.xsl"/>
-    <xsl:import href="partials/tei-facsimile.xsl"/>
+    <xsl:import href="partials/tei-ref.xsl"/>
+
     <xsl:template match="/">
         <xsl:variable name="doc_title">
             <xsl:value-of select=".//tei:title[@type='sub'][1]/text()"/>
@@ -30,10 +30,10 @@
                     <div class="container-fluid">                        
                         <div class="card">
                             <div class="card-header">
-                                <h1><xsl:value-of select="$doc_title"/></h1>
+                                <h1><xsl:value-of select="//tei:head"/></h1>
                             </div>
                             <div class="card-body">                                
-                                <xsl:apply-templates select=".//tei:body"></xsl:apply-templates>
+                                <xsl:apply-templates select="//tei:body"></xsl:apply-templates>
                             </div>
                         </div>                       
                     </div>
@@ -52,10 +52,11 @@
     <xsl:template match="tei:lb">
         <br/>
     </xsl:template>
-    <xsl:template match="tei:unclear">
-        <abbr title="unclear"><xsl:apply-templates/></abbr>
+    <xsl:template match="tei:head">
+
     </xsl:template>
-    <xsl:template match="tei:del">
-        <del><xsl:apply-templates/></del>
-    </xsl:template>    
+    <xsl:template match="tei:hi">
+        <span style="font-style:{@rend};"><xsl:apply-templates/></span>
+    </xsl:template>
+  
 </xsl:stylesheet>

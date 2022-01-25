@@ -139,11 +139,6 @@
                   </ref>
                </item>
                <item>
-                  <ref corresp="content-d1e29482" target="data/editions/kremser-eduard.xml">
-                     <persName type="main">Kremser, Eduard</persName>
-                  </ref>
-               </item>
-               <item>
                   <ref corresp="content-d1e23123" target="data/editions/carda-johann.xml">
                      <persName type="main">Carda, Johann</persName>
                   </ref>
@@ -254,6 +249,11 @@
                   </ref>
                </item>
                <item>
+                  <ref corresp="content-d1e18995" target="data/editions/anonymus-163.xml">
+                     <persName subtype="SF" type="main">Anonymus 163</persName>
+                  </ref>
+               </item>
+               <item>
                   <ref corresp="content-d1e2897" target="data/editions/anonymus-014.xml">
                      <persName subtype="W" type="main">Anonymus 014</persName>
                   </ref>
@@ -316,11 +316,6 @@
                <item>
                   <ref corresp="content-d1e8242" target="data/editions/anonymus-054.xml">
                      <persName subtype="W" type="main">Anonymus 054</persName>
-                  </ref>
-               </item>
-               <item>
-                  <ref corresp="content-d1e20588" target="data/editions/anonymus-151.xml">
-                     <persName subtype="W" type="main">Anonymus 151</persName>
                   </ref>
                </item>
                <item>
@@ -444,6 +439,11 @@
                   </ref>
                </item>
                <item>
+                  <ref corresp="content-d1e39512" target="data/editions/anonymus-168.xml">
+                     <persName subtype="W" type="main">Anonymus 168</persName>
+                  </ref>
+               </item>
+               <item>
                   <ref corresp="content-d1e1125" target="data/editions/anonymus-004.xml">
                      <persName subtype="L" type="main">Anonymus 004</persName>
                   </ref>
@@ -476,6 +476,11 @@
                <item>
                   <ref corresp="content-d1e2391" target="data/editions/anonymus-013.xml">
                      <persName subtype="W" type="main">Anonymus 013</persName>
+                  </ref>
+               </item>
+               <item>
+                  <ref corresp="content-d1e29482" target="data/editions/anonymus-162.xml">
+                     <persName subtype="L" type="main">Anonymus 162</persName>
                   </ref>
                </item>
                <item>

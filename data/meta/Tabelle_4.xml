@@ -60,6 +60,26 @@
                </row>
                <row role="data">
                   <cell>
+                     <date from="" to="">unknown</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e18995" target="data/editions/anonymus-163.xml">
+                        <persName subtype="SF" type="main">Anonymus 163</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="" to="">1852</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e19926" target="data/editions/anonymus-166.xml">
+                        <persName subtype="SF" type="main">Anonymus 166</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
                      <date from="1849" to="1850">1849–1850</date>
                   </cell>
                   <cell role="Kopisten">
@@ -169,6 +189,16 @@
                   <cell role="Kopisten">
                      <ref corresp="content-d1e25269" target="data/editions/hlawaczek-franz.xml">
                         <persName type="main">Hlawaczek, Franz</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1866" to="1866">1866</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e29482" target="data/editions/anonymus-162.xml">
+                        <persName subtype="L" type="main">Anonymus 162</persName>
                      </ref>
                   </cell>
                </row>
@@ -347,21 +377,8 @@
                      <date from="1876" to="1876">1876</date>
                   </cell>
                   <cell role="Kopisten">
-                     <ref corresp="content-d1e9014" target="data/editions/anonymus-061.xml">
-                        <persName subtype="W" type="main">Anonymus 061</persName>
-                     </ref>
                      <ref corresp="content-d1e8888" target="data/editions/anonymus-060.xml">
                         <persName subtype="W" type="main">Anonymus 060</persName>
-                     </ref>
-                  </cell>
-               </row>
-               <row role="data">
-                  <cell>
-                     <date from="1876" to="1877">1876–1877</date>
-                  </cell>
-                  <cell role="Kopisten">
-                     <ref corresp="content-d1e20588" target="data/editions/anonymus-151.xml">
-                        <persName subtype="W" type="main">Anonymus 151</persName>
                      </ref>
                   </cell>
                </row>
@@ -375,6 +392,16 @@
                      </ref>
                      <ref corresp="content-d1e1906" target="data/editions/anonymus-010.xml">
                         <persName subtype="W" type="main">Anonymus 010</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
+                  <cell>
+                     <date from="1876" to="1881">1876–1881</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e9014" target="data/editions/anonymus-061.xml">
+                        <persName subtype="W" type="main">Anonymus 061</persName>
                      </ref>
                   </cell>
                </row>

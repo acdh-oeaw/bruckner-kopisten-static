@@ -26,11 +26,11 @@
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
-    <xslt style="./xslt/tabellen.xsl"  basedir="./data/meta" destdir="${target}" includes="*.xml">
+    <xslt style="./xslt/tabellen.xsl"  basedir="./data/meta" destdir="${target}" includes="Tabelle_*.xml">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
-    <xslt style="./xslt/meta.xsl"  basedir="./data/meta" destdir="${target}" includes="*.xml">
+    <xslt in="${index}" out="${target}/about.html" style="./xslt/meta.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
