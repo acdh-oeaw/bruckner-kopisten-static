@@ -41,6 +41,9 @@
                                                 <h1><xsl:value-of select="$project_title"/></h1>
                                                 <h2><xsl:value-of select="$project_short_title"/></h2>
                                                 <p>Bruckner Kopisten <strong><xsl:value-of select="$project_short_title"/></strong></p>
+                                                <button class="btn btn-round">
+                                                    <a href="01-introduction.html">Weiterlesen</a>
+                                                </button>
                                             </div>
                                         </div>
                                         <div class="carousel-item">
