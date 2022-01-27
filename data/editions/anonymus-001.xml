@@ -63,35 +63,23 @@
             </listPerson>
             <p decls="desc" xml:lang="de">
                <lb/>Der Kopist Anonymus 001 arbeitete zusammen mit Franz Schimatschek an Stimmauszügen zu sechs verschiedenen Werken. Die enge Zusammenarbeit zwischen beiden Kopisten lässt sich bspw. an der 3. Violin1-Stimme der Messe in d-Moll (A-Wn-Mus.Hs.6074, fol. 220<hi rend="sup">r</hi>–231<hi rend="sup">v</hi>) nachvollziehen: Fol. 230<hi rend="sup">v</hi> wurde vom Kopisten Anonymus 001 angefertigt, wohingegen die recto-Seite sowie die Fortsetzung der Stimme auf fol. 231<hi rend="sup">r</hi> desselben Blattes von Schimatschek stammt. In einigen Fällen, wie bspw. für den Stimmensatz des Afferentur regi, stellte Schimatschek einen ersten Stimmensatz her und überließ die Supplementstimmen dem Kopisten Anonymus 001. 
-               <list>
+               <list type="ordered">
                   <head>Aufgrund der hohen Ähnlichkeit Schreibprofile von Anonymus 001 und Schimatschek, erscheint eine Aufschlüsselung der Unterschiede als notwendig:</head>
-                  <item n="1">
-                     <lb/>Der Kopist Anonymus 001 fügt dem Violinschlüssel für gewöhnlich eine zusätzliche Schlaufe auf der rechten Seite hinzu.
-                  </item>
-                  <item n="2">
-                     <lb/>Der Bassschlüssel des Kopisten Anonymus 001 öffnet nach rechts, wohingegen sich der Schlüssel bei Schimatschek nach links öffnet.
-                  </item>
-                  <item n="3">
-                     <lb/>Die Ausgangspunkte der Viertelpausen des Kopisten Anonymus 001 sind gewöhnlich auf einer horizontalen Ebene, wohingegen die Pausen Schimatscheks links etwas weiter unten und rechts etwas weiter oben auslaufen und damit insgesamt etwas geneigt sind.  
-                  </item>
-                  <item n="4">
-                     <lb/>Die piano-Angabe des Kopisten Anonymus 001 ist gewöhnlich am auslaufenden Hals des „p“ durchkreuzt, während sich diese Schreibweise bei Schimatschek nur vereinzelt bis selten wiederfindet.
-                  </item>
+                  <item n="1">Der Kopist Anonymus 001 fügt dem Violinschlüssel für gewöhnlich eine zusätzliche Schlaufe auf der rechten Seite hinzu.</item>
+                  <item n="2">Der Bassschlüssel des Kopisten Anonymus 001 öffnet nach rechts, wohingegen sich der Schlüssel bei Schimatschek nach links öffnet.</item>
+                  <item n="3">Die Ausgangspunkte der Viertelpausen des Kopisten Anonymus 001 sind gewöhnlich auf einer horizontalen Ebene, wohingegen die Pausen Schimatscheks links etwas weiter unten und rechts etwas weiter oben auslaufen und damit insgesamt etwas geneigt sind.</item>
+                  <item n="4">Die piano-Angabe des Kopisten Anonymus 001 ist gewöhnlich am auslaufenden Hals des „p“ durchkreuzt, während sich diese Schreibweise bei Schimatschek nur vereinzelt bis selten wiederfindet.</item>
                </list>
                <lb/>Für weitere Kopisten aus Linz siehe <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>.
             </p>
             <p decls="desc" xml:lang="eng">
                <lb/>Anonymus 001 assisted Franz Schimatschek in the preparation of parts for six works. The close relationship between the two copyists is illustrated by their Vl. 1/3 part for the Mass in D minor, A-WnMus.Hs.6074, fol. 220<hi rend="sup">r</hi>–231<hi rend="sup">v</hi>. Fol. 230<hi rend="sup">v</hi> was copied by Anonymus 001 (L) with entries in Schimatschek’s hand. The recto side of the same folio was written by Schimatschek, as was the continuation of the part on fol. 231<hi rend="sup">r</hi>. In some cases, Afferentur regi for example, Schimatschek prepared an initial set of parts and assigned the duplicates to Anonymus 001. 
-               <list>
+               <list type="ordered">
                   <head>Because the two hands are similar, it is worthwhile to point out some of the differences between them:</head>
-                  <item n="1">
-                     <lb/>Anonymus 001 usually has an extra loop to the right on the treble clef.</item>
-                  <item n="2">
-                     <lb/>Anonymus 001’s bass clef opens to the right; Schimatschek’s opens to the left.</item>
-                  <item n="3">
-                     <lb/>Anonymus 001’s quarter rests are usually horizontal; Schimatschek’s are diagonal from lower left to upper right.</item>
-                  <item n="4">
-                     <lb/>Anonymus 001 usually crosses the stem of his dynamic mark “p”; Schimatschek seldom does.</item>
+                  <item n="1">Anonymus 001 usually has an extra loop to the right on the treble clef.</item>
+                  <item n="2">Anonymus 001’s bass clef opens to the right; Schimatschek’s opens to the left.</item>
+                  <item n="3">Anonymus 001’s quarter rests are usually horizontal; Schimatschek’s are diagonal from lower left to upper right.</item>
+                  <item n="4">Anonymus 001 usually crosses the stem of his dynamic mark “p”; Schimatschek seldom does.</item>
                </list>
                <lb/>For more copyists from Linz, see <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Table 3</ref>.</p>
             <table>

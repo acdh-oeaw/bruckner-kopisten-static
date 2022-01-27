@@ -142,25 +142,6 @@
                </row>
                <row role="data">
                   <cell role="Datierung">
-                     <date when="1851">vermutlich 1851</date>
-                  </cell>
-                  <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19751">A-WnMus.Hs.19751</ref>
-                  </cell>
-                  <cell role="Werktitel">
-                     <ref target="http://www.bruckner-online.at/ABLO_d1e8876">Das edle Herz</ref>
-                  </cell>
-                  <cell role="WAB-Nummer">
-                     <ref target="http://www.bruckner-online.at/wab-065">065</ref>
-                  </cell>
-                  <cell role="Art_der_Kopie">Partitur</cell>
-                  <cell role="erschlossene_Datierung_der_Kopie"/>
-                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
-                  <cell role="Datierung_der_Kopie/Unterschrift">2r</cell>
-                  <cell role="Kommentar_intern"/>
-               </row>
-               <row role="data">
-                  <cell role="Datierung">
                      <date notAfter="1864-03-19">vor 19.03.1864</date>
                   </cell>
                   <cell role="Signatur">

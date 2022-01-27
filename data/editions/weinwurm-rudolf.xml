@@ -67,8 +67,24 @@
                   </index>
                </person>
             </listPerson>
-            <p decls="desc" xml:lang="de"/>
-            <p decls="desc" xml:lang="eng"/>
+            <p decls="desc" xml:lang="de">
+               <lb/>Die Identifizierung des Schreibprofils Rudolf Weinwurms – einer von Bruckners
+               lebenslangen Freunden – beruht auf der autographen Partitur seiner Komposition <hi
+                  rend="italic">Festhymne zur feierlichen Grundsteinlegung des neuen Wiener
+                  Rathhauses am 14. Juni 1873</hi>. Die Handschrift der <hi rend="italic"
+                     >Festhymne</hi> wird in derder Wienbibliothek im Rathaus (A-Wst MH-1945) verwahrt.
+               Aufgrund seiner Anmerkung auf fol. 2<hi rend="sup">r</hi> der Abschrift des
+               Männerchores <hi rend="italic">Das edle Herz</hi> wird Weinwurm zu den Kopisten der
+               Primärquelle gezählt, da er die Abschrift anhand der autographen Stimmen
+               anfertigte.</p>
+            <p decls="desc" xml:lang="eng">
+               <lb/>The identification of the hand of Bruckner’s lifelong friend Rudolf Weinwurm is
+               based on the latter’s autograph score of his <hi rend="italic">Festhymne zur
+                  feierlichen Grundsteinlegung des neuen Wiener Rathhauses am 14. Juni 1873</hi>.
+               The <hi rend="italic">Festhymne</hi> manuscript is kept in the Wienbibliothek im
+               Rathaus (A-Wst MH-1945). Weinwurm has been included among the primary source copyists
+               because, as indicated on fol. 2<hi rend="sup">r</hi> of his copy of <hi rend="italic"
+                  >Das edle Herz</hi>, he copied it from Bruckner’s autograph parts.</p>
             <p decls="link" xml:lang="de">Eine detaillierte Biographie findet sich im entsprechenden
                Artikel des ABLO: <ref target="http://www.bruckner-online.at/ABLO_d1e4273">siehe
                   ABLO</ref>
@@ -98,84 +114,87 @@
                </row>
                <row role="data">
                   <cell role="Datierung">
-                     <date when="1878-01-13">13.01.1878</date>
+                     <date when="1851">vermutlich 1851</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.3186">A-WnMus.Hs.3186</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19751">A-WnMus.Hs.19751</ref>
                   </cell>
                   <cell role="Werktitel">
-                     <ref target="http://www.bruckner-online.at/ABLO_d1e8539">Abendzauber</ref>
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e8876">Das edle Herz</ref>
                   </cell>
                   <cell role="WAB-Nummer">
-                     <ref target="http://www.bruckner-online.at/wab-057">057</ref>
+                     <ref target="http://www.bruckner-online.at/wab-065">065</ref>
                   </cell>
                   <cell role="Art_der_Kopie">Partitur</cell>
                   <cell role="erschlossene_Datierung_der_Kopie"/>
                   <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
-                  <cell role="Datierung_der_Kopie/Unterschrift"/>
-                  <cell role="Kommentar_intern">AZ 1</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift">2r</cell>
+                  <cell role="Kommentar_intern"/>
                </row>
             </table>
             <list>
-               <head xml:lang="de">Beispiele entnommen aus: <ref target="Weinwurm_Rudolf_A-WnMus.Hs.3186-1r.jpg">A-WnMus.Hs.3186</ref>
+               <head xml:lang="de">Beispiele entnommen aus: <ref
+                  target="Weinwurm_Rudolf_A-WnMus.Hs.19751-1.jpg">A-WnMus.Hs.19751</ref>
                </head>
-               <head xml:lang="eng">Examples taken from: <ref target="Weinwurm_Rudolf_A-WnMus.Hs.3186-1r.jpg">A-WnMus.Hs.3186</ref>
+               <head xml:lang="eng">Examples taken from: <ref
+                  target="Weinwurm_Rudolf_A-WnMus.Hs.19751-1.jpg">A-WnMus.Hs.19751</ref>
                </head>
                <item>
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
-                     <graphic scale="33"
-                              url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.3186_A-Clefs_F.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.3186_A-Clefs_G.png"/>
+                     <graphic scale="33" url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.19751_A-Clefs_F.png"/>
+                     <graphic scale="33" url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.19751_A-Clefs_G.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Akzidentien</title>
                   <title xml:lang="eng">Accidentals</title>
                   <figure>
-                     <graphic scale="33"
-                              url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.3186_B-Accidentals_Natural.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.3186_B-Accidentals_Sharp.png"/>
+                     <graphic scale="33" url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.19751_B-Accidentals_Flat.png"/>
+                     <graphic scale="33" url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.19751_B-Accidentals_Natural.png"/>
+                     <graphic scale="33" url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.19751_B-Accidentals_Sharp.png"/>
+                     <graphic scale="33" url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.19751_B-Accidentals_Sharp_d.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Taktvorzeichnung</title>
                   <title xml:lang="eng">Time Signatures</title>
                   <figure>
-                     <graphic scale="33"
-                              url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.3186_C-Time-Signatures_C.png"/>
+                     <graphic scale="33" url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.19751_C-Time-Signatures_4_4.png"/>
+                     <graphic scale="33" url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.19751_C-Time-Signatures_9_6.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Pausen</title>
                   <title xml:lang="eng">Rests</title>
-                  <figure/>
+                  <figure>
+                     <graphic scale="33" url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.19751_D-Rests_Achtel_1.png"/>
+                     <graphic scale="33" url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.19751_D-Rests_Viertel_1.png"/>
+                     <graphic scale="33" url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.19751_D-Rests_Viertel_2.png"/>
+                  </figure>
                </item>
                <item>
                   <title xml:lang="de">Noten</title>
                   <title xml:lang="eng">Notes</title>
                   <figure>
-                     <graphic scale="33"
-                              url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.3186_E-Notes_Ganze.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.3186_E-Notes_Halbe.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.3186_E-Notes_Viertel.png"/>
+                     <graphic scale="33" url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.19751_E-Notes_Achtel_1.png"/>
+                     <graphic scale="33" url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.19751_E-Notes_Halbe_1.png"/>
+                     <graphic scale="33" url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.19751_E-Notes_Halbe_2.png"/>
+                     <graphic scale="33" url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.19751_E-Notes_Sechzehntel.png"/>
+                     <graphic scale="33" url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.19751_E-Notes_Viertel_1.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Dynamik</title>
                   <title xml:lang="eng">Dynamics</title>
                   <figure>
-                     <graphic scale="33"
-                              url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.3186_F-Dynamics_Decresc.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.3186_F-Dynamics_Forte.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.3186_F-Dynamics_Piano.png"/>
+                     <graphic scale="33" url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.19751_F-Dynamics_Cresc.png"/>
+                     <graphic scale="33" url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.19751_F-Dynamics_Forte.png"/>
+                     <graphic scale="33" url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.19751_F-Dynamics_Fortissimo.png"/>
+                     <graphic scale="33" url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.19751_F-Dynamics_Mezzoforte.png"/>
+                     <graphic scale="33" url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.19751_F-Dynamics_Piano.png"/>
+                     <graphic scale="33" url="../../101_samples/named/W/Weinwurm_Rudolf/Weinwurm_Rudolf_A-WnMus.Hs.19751_F-Dynamics_Sforzato.png"/>
                   </figure>
                </item>
             </list>

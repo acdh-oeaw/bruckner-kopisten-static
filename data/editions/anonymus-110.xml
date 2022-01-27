@@ -49,12 +49,12 @@
          <div xml:id="content-d1e25f4">
             <listPerson>
                <person>
-                  <persName type="main">Anonymus 110</persName>
+                  <persName subtype="W" type="main">Anonymus 110</persName>
                   <idno type="alphabetically_sorted">Anonymus 110</idno>
                   <floruit from="1881" to="1883">1881–1883</floruit>
                   <residence/>
-                  <affiliation xml:lang="de"/>
-                  <affiliation xml:lang="eng"/>
+                  <affiliation xml:lang="de">Wiener Kopisten</affiliation>
+                  <affiliation xml:lang="eng">Vienna copyist</affiliation>
                   <index>
                      <term sortKey="1" xml:lang="de">Primärquellen</term>
                      <term sortKey="1" xml:lang="eng">Primary Sources</term>
