@@ -14,13 +14,18 @@
       <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" />
       <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
       <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
-      <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script src="https://unpkg.com/arche-api@1.2.0/lib/arche-api.min.js"></script></head>
+      <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script src="https://unpkg.com/arche-api@1.2.0/lib/arche-api.min.js"></script><style>
+                    .container-fluid {
+                        max-width: 100%;
+                    }
+                </style>
+   </head>
    <body class="page">
       <div class="hfeed site" id="page">
          <div class="wrapper-fluid wrapper-navbar sticky-navbar" id="wrapper-navbar"><a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a><nav class="navbar navbar-expand-lg navbar-light" style="margin-right:0!important;">
                <div class="container"><a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="img/Bruckner_Logo_KK_web.png" class="img-fluid" title="Ein Kopistenkatalog" alt="Ein Kopistenkatalog" itemprop="logo" /></a><a class="navbar-brand site-title-with-logo" rel="home" href="index.html" title="Ein Kopistenkatalog" itemprop="url"></a><span style="margin-left:-1.7em;" class="badge bg-light text-dark">in development</span><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                      <ul id="main-menu" class="navbar-nav" style="margin-right:0!important;">
-                        <li class="nav-item dropdown"><a title="Papers" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Projekt <span class="caret"></span></a><ul class=" dropdown-menu" role="menu">
+                        <li class="nav-item dropdown"><a title="Papers" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Über das Projekt <span class="caret"></span></a><ul class=" dropdown-menu" role="menu" style="width:270px;">
                               <li class="nav-item dropdown-submenu"><a title="Über das Projekt" href="about.html" class="nav-link">Über das Projekt</a></li>
                               <li class="nav-item dropdown-submenu"><a title="Einleitung" href="01-introduction.html" class="nav-link">Einleitung</a></li>
                               <li class="nav-item dropdown-submenu"><a title="Benutzerhinweise und Anlage" href="02-userguide.html" class="nav-link">Benutzerhinweise und Anlage</a></li>
@@ -28,7 +33,7 @@
                               <li class="nav-item dropdown-submenu"><a title="Nachtrag der Verfasser" href="04-authors_note.html" class="nav-link">Nachtrag der Verfasser</a></li>
                            </ul>
                         </li>
-                        <li class="nav-item dropdown"><a title="Indexes" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Katalogzugänge<span class="caret"></span></a><ul class=" dropdown-menu" role="menu">
+                        <li class="nav-item dropdown"><a title="Indexes" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Katalogzugänge<span class="caret"></span></a><ul class=" dropdown-menu" role="menu" style="width:540px;">
                               <li class="nav-item dropdown-submenu"><a title="Kopisten der Primärquellen" href="Tabelle_1.html" class="nav-link">Kopisten der Primärquellen</a></li>
                               <li class="nav-item dropdown-submenu"><a title="Kopisten der Sekundärquellen" href="Tabelle_2.html" class="nav-link">Kopisten der Sekundärquellen</a></li>
                               <li class="nav-item dropdown-submenu"><a title="Kopisten der Werke Bruckners außerhalb                                             Wiens" href="Tabelle_3.html" class="nav-link">Kopisten der Werke Bruckners außerhalb
@@ -45,227 +50,243 @@
             </nav>
          </div>
          <div class="container-fluid">
-            <div class="card">
-               <div class="card-header">
-                  <h1>Einleitung.</h1>
-               </div>
-               <div class="card-body">
-                  <div id="d6e88">
-                     
-                     
-                     <p id="d6e92">Da die meisten seiner Werke erst spät in seinem Leben oder posthum publiziert
-                        wurden, spielten handschriftliche Abschriften – auch mit Blick auf die im
-                        19. Jahrhundert gängige Publikationspraxis – eine übergeordnete Rolle in der
-                        Verbreitung der Musik Anton Bruckners. Durch das grundsätzliche Fehlen
-                        zeitgenössischer Drucke dienten die Abschriften mitunter bis in das 20.
-                        Jahrhundert hinein unter anderem als Widmungsexemplare,
-                        Aufführungsmaterialen, Ansichtspartituren oder Memorabilien. Die
-                        Erstveröffentlichung einer Vielzahl an kleineren Werken erfolgt sogar erst
-                        mit der beginnenden Herausgabe der mehrbändigen Bruckner-Biographie durch
-                        Göllerich und Auer im Jahr 1924.<small><a id="footnote-ref2001" style="vertical-align:super;" href="#footnote2001">1</a></small> Die Erschließung und
-                        Identifizierung sowie der Nachvollzug der Provenienz der Partiturabschriften
-                        und Stimmensätze der Bruckner’schen Werke stellen somit einen wichtigen
-                        Ansatzpunkt dar, der zur Offenlegung der frühen Rezeption und Überlieferung
-                        desselben durch Freunde, Berufskollegen, Anhänger und letztlich auch das
-                        Publikum beiträgt. Besonders im Rahmen der vieldiskutierten Fassungsfragen
-                        der Bruckner’schen Symphonien nehmen die Abschriften eine besondere Rolle
-                        ein: Bilden sie doch Kompositionsstadien ab, die aufgrund der mitunter
-                        jahrelang andauernden Revisionen in den autographen Partituren anderweitig
-                        nicht mehr nachzuvollziehen sind. Die Identifizierung von Schreibhänden kann
-                        dabei der chronologischen Bestimmung des Kompositionsprozesses ebenso dienen
-                        wie zur Sichtbarmachung von Eingriffen und Bearbeitungen durch Bruckners
-                        Umfeld.</p>
-                     
-                     <p id="d6e98">Erst mit der digitalen Erschließung und dem offenen Zugang zu nahezu allen
-                        handschriftlichen Quellen der Kompositionen Bruckners durch die
-                        Forschungsplattform <a target="_blank" href="http://www.bruckner-online.at">bruckner-online.at</a> wurde der hier aufgestellte erste
-                        Arbeitskatalog mit einer werkübergreifenden Zusammenstellung aller Kopisten
-                        ermöglicht. In bruckner-online.at finden sich neben den autographen
-                        Handschriften alle bisher bekannten Partiturabschriften, Particelle,
-                        Stimmensätze, Klavierauszüge und Bearbeitungen der Bruckner’schen Werke und
-                        sind somit auch in die vorliegende Gesamtschau mit eingeflossen. Ebenso
-                        wurden sowohl die Schreibprofile vollständiger Manuskripte als auch
-                        einzelner Folios, Seiten und Teilseiten in größeren Quellen aufgenommen.<small><a id="footnote-ref2002" style="vertical-align:super;" href="#footnote2002">2</a></small> Aufgrund der vorläufigen Anlage des vorliegenden Katalogs
-                        versteht sich dieser als „einleitend“ und „in Arbeit“, sodass neue
-                        Forschungsergebnisse ebenfalls eingearbeitet werden können. So stützte sich
-                        die Identifizierung der verschiedenen Schreibprofile bisher bspw. fast
-                        ausschließlich auf Handschriften Bruckner’scher Werke sowie auf die dem
-                        Komponisten gewidmete Sekundärliteratur.<small><a id="footnote-ref2003" style="vertical-align:super;" href="#footnote2003">3</a></small> Unberücksichtigt
-                        blieben dabei bisher zeitgenössische Handschriften anderer Komponisten sowie
-                        die daran geknüpfte Sekundärliteratur.<small><a id="footnote-ref2004" style="vertical-align:super;" href="#footnote2004">4</a></small> Es liegt dabei auf der
-                        Hand, dass weitere Untersuchungen zu den Abschriften der Werke Johannes
-                        Brahms oder der Familie Strauss sowie in den Archiven der in Wien ansässigen
-                        Gesangsvereine zur Identifizierung einiger bisher als Anonymus geführter
-                        Kopisten beitragen wird. Ebenso könnten die in Bruckners Taschenkalender
-                        aufgeführten Personen wie bspw. Georg Adensamer, Vinzenz Hudetz, Franz
-                        Kimmel, Georg Richter, Julius Ritter, Urbanetz oder Franz Weber potentielle
-                        Kopisten gewesen sein und den bisher anonymen Kopisten zugeordnet
-                        werden.<small><a id="footnote-ref2005" style="vertical-align:super;" href="#footnote2005">5</a></small>
-                        
-                        Letztlich bildet auch die unter <a target="_blank" href="https://acdh-oeaw.github.io/bruckner-kopisten-static/Tabelle_1.html">Tabelle 1</a> und <a target="_blank" href="https://acdh-oeaw.github.io/bruckner-kopisten-static/Tabelle_2.html">2</a> vorgenommene Unterteilung in Primär- und Sekundärquellen nur
-                        einen vorläufigen Stand ab, da gerade durch die Zuordnung zu Schreibprofilen
-                        dieser Status mitunter neu bewertet werden muss.</p>
-                     
-                     August
-                     Göllerich und Max Auer, <span style="font-style:italic;">Anton Bruckner: ein Lebens- und
-                        Schaffensbild</span>. Bd. I, II/2 und III/2. Regensburg, 1924–1937.
-                     Besonders die Supplementbände boten eine Vielzahl an bis dato nicht
-                     publizierten Werken.
-                     Eintragungen
-                     von Personen, die Bruckners Manuskripte nutzten – Interpreten, Freunde,
-                     Besitzer oder Historiker wie z. B. Göllerich und Auer, deren Annotationen
-                     durchgehend zu finden sind – wurden nicht katalogisiert. Sofern möglich,
-                     wurden diese Eintragungen bereits in den entsprechenden Beschreibungen der
-                     jeweiligen Quelle im <a target="_blank" href="http://www.bruckner-online.at/?page_id=1588">Werkverzeichnis</a> identifiziert und aufgelistet. Ebenfalls
-                     aufgenommen wurden die im Zusammenhang mit der Göll.-A.-Biographie
-                     entstandenen Abschriften.
-                     Als
-                     Ausgangspunkt dienten beispielsweise die Kritischen Berichte der beiden
-                     Gesamtausgaben (AGA bzw. NGA) sowie Paul Hawkshaw, <span style="font-style:italic;">The
-                        Manuscript Sources for Anton Bruckner’s Linz Works</span>. Ph. D. diss.,
-                     Columbia University, 1984, S. 305–491.
-                     Eine Ausnahme
-                     bildet der im Rahmen der Schubert- bzw. Brahms-Forschung angesiedelte
-                     Beitrag von Johannes Behr zum Kopisten Franz Hlawaczek. Vgl. Johannes Behr,
-                     Art. Kopist für Schubert und Brahms: Franz Hlawaczek, in: <span style="font-style:italic;">Brahms Schubert-Rezeption im Wiener Kontext. Bericht über das
-                        Internationale Symposium Wien 2013</span>, Stuttgart 2017, S.
-                     107–134.
-                     Vgl. hierzu
-                     Elisabeth Maier, <span style="font-style:italic;">Verborgene Persönlichkeit. Anton Bruckner in seinen
-                        privaten Aufzeichnungen</span> (=Anton Bruckner. Dokumente und Studien 11). Wien
-                     2001, Bd. 2, S. 509, 556, 607–608, 610–611, 643 und 648–649.
+            <div id="navBarLetters" style="margin-top:4em !important;">
+               <ul class="nav nav-tabs" id="dropdown-lang">
+                  <li class="nav-item"><a title="Deutsch" href="#lang-de" data-toggle="tab" class="nav-link btn btn-round active">
+                        Deutsch
+                        </a></li>
+                  <li class="nav-item"><a title="English" href="#lang-en" data-toggle="tab" class="nav-link btn btn-round">
+                        English
+                        </a></li>
+               </ul>
+            </div>
+            <div class="tab-content">
+               <div class="tab-pane active" id="lang-de">
+                  <div class="card" style="margin-top:0;">
+                     <div class="card-header">
+                        <h1>Einleitung.</h1>
                      </div>
-               </div>
-               <div class="card-footer">
-                  <ul>
-                     <li><a href="#footnote-ref2001"><span style="margin-right:.2em;vertical-align:super;"><small>1</small></span></a><span class="note" id="footnote2001">August
+                     <div class="card-body">
+                        <div id="d6e88">
+                           
+                           
+                           <p id="d6e92">Da die meisten seiner Werke erst spät in seinem Leben oder posthum publiziert
+                              wurden, spielten handschriftliche Abschriften – auch mit Blick auf die im
+                              19. Jahrhundert gängige Publikationspraxis – eine übergeordnete Rolle in der
+                              Verbreitung der Musik Anton Bruckners. Durch das grundsätzliche Fehlen
+                              zeitgenössischer Drucke dienten die Abschriften mitunter bis in das 20.
+                              Jahrhundert hinein unter anderem als Widmungsexemplare,
+                              Aufführungsmaterialen, Ansichtspartituren oder Memorabilien. Die
+                              Erstveröffentlichung einer Vielzahl an kleineren Werken erfolgt sogar erst
+                              mit der beginnenden Herausgabe der mehrbändigen Bruckner-Biographie durch
+                              Göllerich und Auer im Jahr 1924.<small><a id="footnote-ref2001" style="vertical-align:super;" href="#footnote2001">1</a></small> Die Erschließung und
+                              Identifizierung sowie der Nachvollzug der Provenienz der Partiturabschriften
+                              und Stimmensätze der Bruckner’schen Werke stellen somit einen wichtigen
+                              Ansatzpunkt dar, der zur Offenlegung der frühen Rezeption und Überlieferung
+                              desselben durch Freunde, Berufskollegen, Anhänger und letztlich auch das
+                              Publikum beiträgt. Besonders im Rahmen der vieldiskutierten Fassungsfragen
+                              der Bruckner’schen Symphonien nehmen die Abschriften eine besondere Rolle
+                              ein: Bilden sie doch Kompositionsstadien ab, die aufgrund der mitunter
+                              jahrelang andauernden Revisionen in den autographen Partituren anderweitig
+                              nicht mehr nachzuvollziehen sind. Die Identifizierung von Schreibhänden kann
+                              dabei der chronologischen Bestimmung des Kompositionsprozesses ebenso dienen
+                              wie zur Sichtbarmachung von Eingriffen und Bearbeitungen durch Bruckners
+                              Umfeld.</p>
+                           
+                           <p id="d6e98">Erst mit der digitalen Erschließung und dem offenen Zugang zu nahezu allen
+                              handschriftlichen Quellen der Kompositionen Bruckners durch die
+                              Forschungsplattform <a target="_blank" href="http://www.bruckner-online.at">bruckner-online.at</a> wurde der hier aufgestellte erste
+                              Arbeitskatalog mit einer werkübergreifenden Zusammenstellung aller Kopisten
+                              ermöglicht. In bruckner-online.at finden sich neben den autographen
+                              Handschriften alle bisher bekannten Partiturabschriften, Particelle,
+                              Stimmensätze, Klavierauszüge und Bearbeitungen der Bruckner’schen Werke und
+                              sind somit auch in die vorliegende Gesamtschau mit eingeflossen. Ebenso
+                              wurden sowohl die Schreibprofile vollständiger Manuskripte als auch
+                              einzelner Folios, Seiten und Teilseiten in größeren Quellen aufgenommen.<small><a id="footnote-ref2002" style="vertical-align:super;" href="#footnote2002">2</a></small> Aufgrund der vorläufigen Anlage des vorliegenden Katalogs
+                              versteht sich dieser als „einleitend“ und „in Arbeit“, sodass neue
+                              Forschungsergebnisse ebenfalls eingearbeitet werden können. So stützte sich
+                              die Identifizierung der verschiedenen Schreibprofile bisher bspw. fast
+                              ausschließlich auf Handschriften Bruckner’scher Werke sowie auf die dem
+                              Komponisten gewidmete Sekundärliteratur.<small><a id="footnote-ref2003" style="vertical-align:super;" href="#footnote2003">3</a></small> Unberücksichtigt
+                              blieben dabei bisher zeitgenössische Handschriften anderer Komponisten sowie
+                              die daran geknüpfte Sekundärliteratur.<small><a id="footnote-ref2004" style="vertical-align:super;" href="#footnote2004">4</a></small> Es liegt dabei auf der
+                              Hand, dass weitere Untersuchungen zu den Abschriften der Werke Johannes
+                              Brahms oder der Familie Strauss sowie in den Archiven der in Wien ansässigen
+                              Gesangsvereine zur Identifizierung einiger bisher als Anonymus geführter
+                              Kopisten beitragen wird. Ebenso könnten die in Bruckners Taschenkalender
+                              aufgeführten Personen wie bspw. Georg Adensamer, Vinzenz Hudetz, Franz
+                              Kimmel, Georg Richter, Julius Ritter, Urbanetz oder Franz Weber potentielle
+                              Kopisten gewesen sein und den bisher anonymen Kopisten zugeordnet
+                              werden.<small><a id="footnote-ref2005" style="vertical-align:super;" href="#footnote2005">5</a></small>
+                              
+                              Letztlich bildet auch die unter <a target="_blank" href="https://acdh-oeaw.github.io/bruckner-kopisten-static/Tabelle_1.html">Tabelle 1</a> und <a target="_blank" href="https://acdh-oeaw.github.io/bruckner-kopisten-static/Tabelle_2.html">2</a> vorgenommene Unterteilung in Primär- und Sekundärquellen nur
+                              einen vorläufigen Stand ab, da gerade durch die Zuordnung zu Schreibprofilen
+                              dieser Status mitunter neu bewertet werden muss.</p>
+                           
+                           August
                            Göllerich und Max Auer, <span style="font-style:italic;">Anton Bruckner: ein Lebens- und
                               Schaffensbild</span>. Bd. I, II/2 und III/2. Regensburg, 1924–1937.
                            Besonders die Supplementbände boten eine Vielzahl an bis dato nicht
-                           publizierten Werken.</span></li>
-                     <li><a href="#footnote-ref2002"><span style="margin-right:.2em;vertical-align:super;"><small>2</small></span></a><span class="note" id="footnote2002">Eintragungen
+                           publizierten Werken.
+                           Eintragungen
                            von Personen, die Bruckners Manuskripte nutzten – Interpreten, Freunde,
                            Besitzer oder Historiker wie z. B. Göllerich und Auer, deren Annotationen
                            durchgehend zu finden sind – wurden nicht katalogisiert. Sofern möglich,
                            wurden diese Eintragungen bereits in den entsprechenden Beschreibungen der
                            jeweiligen Quelle im <a target="_blank" href="http://www.bruckner-online.at/?page_id=1588">Werkverzeichnis</a> identifiziert und aufgelistet. Ebenfalls
                            aufgenommen wurden die im Zusammenhang mit der Göll.-A.-Biographie
-                           entstandenen Abschriften.</span></li>
-                     <li><a href="#footnote-ref2003"><span style="margin-right:.2em;vertical-align:super;"><small>3</small></span></a><span class="note" id="footnote2003">Als
+                           entstandenen Abschriften.
+                           Als
                            Ausgangspunkt dienten beispielsweise die Kritischen Berichte der beiden
                            Gesamtausgaben (AGA bzw. NGA) sowie Paul Hawkshaw, <span style="font-style:italic;">The
                               Manuscript Sources for Anton Bruckner’s Linz Works</span>. Ph. D. diss.,
-                           Columbia University, 1984, S. 305–491.</span></li>
-                     <li><a href="#footnote-ref2004"><span style="margin-right:.2em;vertical-align:super;"><small>4</small></span></a><span class="note" id="footnote2004">Eine Ausnahme
+                           Columbia University, 1984, S. 305–491.
+                           Eine Ausnahme
                            bildet der im Rahmen der Schubert- bzw. Brahms-Forschung angesiedelte
                            Beitrag von Johannes Behr zum Kopisten Franz Hlawaczek. Vgl. Johannes Behr,
                            Art. Kopist für Schubert und Brahms: Franz Hlawaczek, in: <span style="font-style:italic;">Brahms Schubert-Rezeption im Wiener Kontext. Bericht über das
                               Internationale Symposium Wien 2013</span>, Stuttgart 2017, S.
-                           107–134.</span></li>
-                     <li><a href="#footnote-ref2005"><span style="margin-right:.2em;vertical-align:super;"><small>5</small></span></a><span class="note" id="footnote2005">Vgl. hierzu
+                           107–134.
+                           Vgl. hierzu
                            Elisabeth Maier, <span style="font-style:italic;">Verborgene Persönlichkeit. Anton Bruckner in seinen
                               privaten Aufzeichnungen</span> (=Anton Bruckner. Dokumente und Studien 11). Wien
-                           2001, Bd. 2, S. 509, 556, 607–608, 610–611, 643 und 648–649.</span></li>
-                  </ul>
-               </div>
-            </div>
-            <div class="card">
-               <div class="card-header">
-                  <h1>Introduction</h1>
-               </div>
-               <div class="card-body">
-                  <div id="d6e159">
-                     
-                     <p id="d6e161">Because most of his works were published late in his lifetime or
-                        posthumously, by nineteenth-century standards, handwritten copies played an
-                        outsized role in the early dissemination of Anton Bruckner’s music. In the
-                        general absence of contemporary prints, manuscripts served as dedication
-                        copies, performance materials, perusal scores, and memorabilia, in some
-                        cases until well into the twentieth century. Many of his smaller works were
-                        not published until the multiple volumes of the Göllerich-Auer biography
-                        began to appear in 1924.<small><a id="footnote-ref2006" style="vertical-align:super;" href="#footnote2006">1</a></small> Identifying the
-                        handwriting and tracing the provenance of copy scores and parts for
-                        Bruckner’s works are important steps towards understanding the early
-                        transmission of his music among friends, professional colleagues, supporters
-                        and ultimately, audiences. The copies are also invaluable because they often
-                        preserve compositions in stages of completion that were later obliterated by
-                        years of revision in Bruckner’s autograph manuscripts. Accurate
-                        identification of copyists’ hands can provide important chronological
-                        information about the genesis of individual works. </p>
-                     
-                     <p id="d6e167">Digital access to almost all the composer’s sources through <a target="_blank" href="http://www.bruckner-online.at">bruckner-online.at</a> has
-                        enabled the compilation of this inaugural working catalogue of his copyists.
-                        All known manuscript scores, short scores, parts, piano reductions and
-                        arrangements of Bruckner’s music in a hand other than the composer’s are
-                        listed here. Complete manuscripts as well as individual folios, pages and
-                        parts of pages in larger sources have been included.<small><a id="footnote-ref2007" style="vertical-align:super;" href="#footnote2007">2</a></small> The catalogue is both “inaugural” and “working“ because it is
-                        preliminary in nature, and the authors invite input and revision as future
-                        discoveries are made. To date, for example, identification of the various
-                        hands has relied almost exclusively on manuscripts of Bruckner’s music and
-                        secondary literature devoted to the composer.<small><a id="footnote-ref2008" style="vertical-align:super;" href="#footnote2008">3</a></small> Sources of Bruckner’s
-                        contemporaries and literature about them, for the most part, have not been
-                        consulted.<small><a id="footnote-ref2009" style="vertical-align:super;" href="#footnote2009">4</a></small> No doubt further studies of manuscripts of
-                        Brahms or the Strauss family, for example, will identify some of the
-                        anonymous scribes in this list. In future, the names of Georg Adensamer,
-                        Vinzenz Hudetz, Franz Kimmel, Georg Richter, Julius Ritter, Urbanetz and
-                        Franz Weber, all of whom are mentioned as potential copyists in Bruckner’s
-                        calendars, may be attached to sources identified here as anonymous.<small><a id="footnote-ref2010" style="vertical-align:super;" href="#footnote2010">5</a></small> The importance of manuscripts in the hand of some scribes
-                        currently designated as secondary-source copyists may also need to be
-                        reevaluated.</p>
-                     
-                     August
-                     Göllerich and Max Auer, <span style="font-style:italic;">Anton Bruckner: ein Lebens- und Schaffensbild</span>
-                     (Regensburg: 1924–1937), Volumes 1–3 have extended supplements with
-                     previously unpublished works.
-                     Annotations by
-                     people who used his sources – performers, friends, owners or historians such
-                     as August Göllerich and Max Auer, for example, whose hands are found
-                     throughout, have not been catalogued; where possible, they have already been
-                     identified in the description of the specific source in the <a target="_blank" href="http://www.bruckner-online.at/?page_id=1588">Werkverzeichnis</a>. Also included are the copies made in connection
-                     with the Göll.-A. biography.
-                     For example in
-                     the critical reports of the Haas, Nowak and <span style="font-style:italic;">NGA</span> collected Bruckner editions.
-                     Paul Hawkshaw, <span style="font-style:italic;">The Manuscript Sources for Anton Bruckner’s Linz Works</span>. Ph.
-                     D. diss., Columbia University, 1984, pp. 305–491, served as a starting
-                     point.
-                     One notable
-                     exception is the work of Johannes Behr on Brahms: “Kopist für Schubert und
-                     Brahms: Franz Hlawaczek.” <span style="font-style:italic;">In Brahms Schubert-Rezeption im Wiener Kontext.
-                        Bericht über das internationale Symposium Wien 2013</span>. (Stuttgart: 2017):
-                     107–134.
-                     See Elizabeth
-                     Maier. <span style="font-style:italic;">Verborgene Persönlichkeit: Anton Bruckner in seinen privaten
-                        Aufzeichnungen. Anton Bruckner Dokumente und Studien</span>, Vol. 2. (Vienna:
-                     2001): 509, 556, 607-608, 610–611, 643 and 648–649.
+                           2001, Bd. 2, S. 509, 556, 607–608, 610–611, 643 und 648–649.
+                           </div>
                      </div>
+                     <div class="card-footer">
+                        <ul>
+                           <li><a href="#footnote-ref2001"><span style="margin-right:.2em;vertical-align:super;"><small>1</small></span></a><span class="note" id="footnote2001">August
+                                 Göllerich und Max Auer, <span style="font-style:italic;">Anton Bruckner: ein Lebens- und
+                                    Schaffensbild</span>. Bd. I, II/2 und III/2. Regensburg, 1924–1937.
+                                 Besonders die Supplementbände boten eine Vielzahl an bis dato nicht
+                                 publizierten Werken.</span></li>
+                           <li><a href="#footnote-ref2002"><span style="margin-right:.2em;vertical-align:super;"><small>2</small></span></a><span class="note" id="footnote2002">Eintragungen
+                                 von Personen, die Bruckners Manuskripte nutzten – Interpreten, Freunde,
+                                 Besitzer oder Historiker wie z. B. Göllerich und Auer, deren Annotationen
+                                 durchgehend zu finden sind – wurden nicht katalogisiert. Sofern möglich,
+                                 wurden diese Eintragungen bereits in den entsprechenden Beschreibungen der
+                                 jeweiligen Quelle im <a target="_blank" href="http://www.bruckner-online.at/?page_id=1588">Werkverzeichnis</a> identifiziert und aufgelistet. Ebenfalls
+                                 aufgenommen wurden die im Zusammenhang mit der Göll.-A.-Biographie
+                                 entstandenen Abschriften.</span></li>
+                           <li><a href="#footnote-ref2003"><span style="margin-right:.2em;vertical-align:super;"><small>3</small></span></a><span class="note" id="footnote2003">Als
+                                 Ausgangspunkt dienten beispielsweise die Kritischen Berichte der beiden
+                                 Gesamtausgaben (AGA bzw. NGA) sowie Paul Hawkshaw, <span style="font-style:italic;">The
+                                    Manuscript Sources for Anton Bruckner’s Linz Works</span>. Ph. D. diss.,
+                                 Columbia University, 1984, S. 305–491.</span></li>
+                           <li><a href="#footnote-ref2004"><span style="margin-right:.2em;vertical-align:super;"><small>4</small></span></a><span class="note" id="footnote2004">Eine Ausnahme
+                                 bildet der im Rahmen der Schubert- bzw. Brahms-Forschung angesiedelte
+                                 Beitrag von Johannes Behr zum Kopisten Franz Hlawaczek. Vgl. Johannes Behr,
+                                 Art. Kopist für Schubert und Brahms: Franz Hlawaczek, in: <span style="font-style:italic;">Brahms Schubert-Rezeption im Wiener Kontext. Bericht über das
+                                    Internationale Symposium Wien 2013</span>, Stuttgart 2017, S.
+                                 107–134.</span></li>
+                           <li><a href="#footnote-ref2005"><span style="margin-right:.2em;vertical-align:super;"><small>5</small></span></a><span class="note" id="footnote2005">Vgl. hierzu
+                                 Elisabeth Maier, <span style="font-style:italic;">Verborgene Persönlichkeit. Anton Bruckner in seinen
+                                    privaten Aufzeichnungen</span> (=Anton Bruckner. Dokumente und Studien 11). Wien
+                                 2001, Bd. 2, S. 509, 556, 607–608, 610–611, 643 und 648–649.</span></li>
+                        </ul>
+                     </div>
+                  </div>
                </div>
-               <div class="card-footer">
-                  <ul>
-                     <li><a href="#footnote-ref2006"><span style="margin-right:.2em;vertical-align:super;"><small>1</small></span></a><span class="note" id="footnote2006">August
+               <div class="tab-pane fade" id="lang-en">
+                  <div class="card" style="margin-top:0;">
+                     <div class="card-header">
+                        <h1>Introduction</h1>
+                     </div>
+                     <div class="card-body">
+                        <div id="d6e159">
+                           
+                           <p id="d6e161">Because most of his works were published late in his lifetime or
+                              posthumously, by nineteenth-century standards, handwritten copies played an
+                              outsized role in the early dissemination of Anton Bruckner’s music. In the
+                              general absence of contemporary prints, manuscripts served as dedication
+                              copies, performance materials, perusal scores, and memorabilia, in some
+                              cases until well into the twentieth century. Many of his smaller works were
+                              not published until the multiple volumes of the Göllerich-Auer biography
+                              began to appear in 1924.<small><a id="footnote-ref2006" style="vertical-align:super;" href="#footnote2006">1</a></small> Identifying the
+                              handwriting and tracing the provenance of copy scores and parts for
+                              Bruckner’s works are important steps towards understanding the early
+                              transmission of his music among friends, professional colleagues, supporters
+                              and ultimately, audiences. The copies are also invaluable because they often
+                              preserve compositions in stages of completion that were later obliterated by
+                              years of revision in Bruckner’s autograph manuscripts. Accurate
+                              identification of copyists’ hands can provide important chronological
+                              information about the genesis of individual works. </p>
+                           
+                           <p id="d6e167">Digital access to almost all the composer’s sources through <a target="_blank" href="http://www.bruckner-online.at">bruckner-online.at</a> has
+                              enabled the compilation of this inaugural working catalogue of his copyists.
+                              All known manuscript scores, short scores, parts, piano reductions and
+                              arrangements of Bruckner’s music in a hand other than the composer’s are
+                              listed here. Complete manuscripts as well as individual folios, pages and
+                              parts of pages in larger sources have been included.<small><a id="footnote-ref2007" style="vertical-align:super;" href="#footnote2007">2</a></small> The catalogue is both “inaugural” and “working“ because it is
+                              preliminary in nature, and the authors invite input and revision as future
+                              discoveries are made. To date, for example, identification of the various
+                              hands has relied almost exclusively on manuscripts of Bruckner’s music and
+                              secondary literature devoted to the composer.<small><a id="footnote-ref2008" style="vertical-align:super;" href="#footnote2008">3</a></small> Sources of Bruckner’s
+                              contemporaries and literature about them, for the most part, have not been
+                              consulted.<small><a id="footnote-ref2009" style="vertical-align:super;" href="#footnote2009">4</a></small> No doubt further studies of manuscripts of
+                              Brahms or the Strauss family, for example, will identify some of the
+                              anonymous scribes in this list. In future, the names of Georg Adensamer,
+                              Vinzenz Hudetz, Franz Kimmel, Georg Richter, Julius Ritter, Urbanetz and
+                              Franz Weber, all of whom are mentioned as potential copyists in Bruckner’s
+                              calendars, may be attached to sources identified here as anonymous.<small><a id="footnote-ref2010" style="vertical-align:super;" href="#footnote2010">5</a></small> The importance of manuscripts in the hand of some scribes
+                              currently designated as secondary-source copyists may also need to be
+                              reevaluated.</p>
+                           
+                           August
                            Göllerich and Max Auer, <span style="font-style:italic;">Anton Bruckner: ein Lebens- und Schaffensbild</span>
                            (Regensburg: 1924–1937), Volumes 1–3 have extended supplements with
-                           previously unpublished works.</span></li>
-                     <li><a href="#footnote-ref2007"><span style="margin-right:.2em;vertical-align:super;"><small>2</small></span></a><span class="note" id="footnote2007">Annotations by
+                           previously unpublished works.
+                           Annotations by
                            people who used his sources – performers, friends, owners or historians such
                            as August Göllerich and Max Auer, for example, whose hands are found
                            throughout, have not been catalogued; where possible, they have already been
                            identified in the description of the specific source in the <a target="_blank" href="http://www.bruckner-online.at/?page_id=1588">Werkverzeichnis</a>. Also included are the copies made in connection
-                           with the Göll.-A. biography.</span></li>
-                     <li><a href="#footnote-ref2008"><span style="margin-right:.2em;vertical-align:super;"><small>3</small></span></a><span class="note" id="footnote2008">For example in
+                           with the Göll.-A. biography.
+                           For example in
                            the critical reports of the Haas, Nowak and <span style="font-style:italic;">NGA</span> collected Bruckner editions.
                            Paul Hawkshaw, <span style="font-style:italic;">The Manuscript Sources for Anton Bruckner’s Linz Works</span>. Ph.
                            D. diss., Columbia University, 1984, pp. 305–491, served as a starting
-                           point.</span></li>
-                     <li><a href="#footnote-ref2009"><span style="margin-right:.2em;vertical-align:super;"><small>4</small></span></a><span class="note" id="footnote2009">One notable
+                           point.
+                           One notable
                            exception is the work of Johannes Behr on Brahms: “Kopist für Schubert und
                            Brahms: Franz Hlawaczek.” <span style="font-style:italic;">In Brahms Schubert-Rezeption im Wiener Kontext.
                               Bericht über das internationale Symposium Wien 2013</span>. (Stuttgart: 2017):
-                           107–134.</span></li>
-                     <li><a href="#footnote-ref2010"><span style="margin-right:.2em;vertical-align:super;"><small>5</small></span></a><span class="note" id="footnote2010">See Elizabeth
+                           107–134.
+                           See Elizabeth
                            Maier. <span style="font-style:italic;">Verborgene Persönlichkeit: Anton Bruckner in seinen privaten
                               Aufzeichnungen. Anton Bruckner Dokumente und Studien</span>, Vol. 2. (Vienna:
-                           2001): 509, 556, 607-608, 610–611, 643 and 648–649.</span></li>
-                  </ul>
+                           2001): 509, 556, 607-608, 610–611, 643 and 648–649.
+                           </div>
+                     </div>
+                     <div class="card-footer">
+                        <ul>
+                           <li><a href="#footnote-ref2006"><span style="margin-right:.2em;vertical-align:super;"><small>1</small></span></a><span class="note" id="footnote2006">August
+                                 Göllerich and Max Auer, <span style="font-style:italic;">Anton Bruckner: ein Lebens- und Schaffensbild</span>
+                                 (Regensburg: 1924–1937), Volumes 1–3 have extended supplements with
+                                 previously unpublished works.</span></li>
+                           <li><a href="#footnote-ref2007"><span style="margin-right:.2em;vertical-align:super;"><small>2</small></span></a><span class="note" id="footnote2007">Annotations by
+                                 people who used his sources – performers, friends, owners or historians such
+                                 as August Göllerich and Max Auer, for example, whose hands are found
+                                 throughout, have not been catalogued; where possible, they have already been
+                                 identified in the description of the specific source in the <a target="_blank" href="http://www.bruckner-online.at/?page_id=1588">Werkverzeichnis</a>. Also included are the copies made in connection
+                                 with the Göll.-A. biography.</span></li>
+                           <li><a href="#footnote-ref2008"><span style="margin-right:.2em;vertical-align:super;"><small>3</small></span></a><span class="note" id="footnote2008">For example in
+                                 the critical reports of the Haas, Nowak and <span style="font-style:italic;">NGA</span> collected Bruckner editions.
+                                 Paul Hawkshaw, <span style="font-style:italic;">The Manuscript Sources for Anton Bruckner’s Linz Works</span>. Ph.
+                                 D. diss., Columbia University, 1984, pp. 305–491, served as a starting
+                                 point.</span></li>
+                           <li><a href="#footnote-ref2009"><span style="margin-right:.2em;vertical-align:super;"><small>4</small></span></a><span class="note" id="footnote2009">One notable
+                                 exception is the work of Johannes Behr on Brahms: “Kopist für Schubert und
+                                 Brahms: Franz Hlawaczek.” <span style="font-style:italic;">In Brahms Schubert-Rezeption im Wiener Kontext.
+                                    Bericht über das internationale Symposium Wien 2013</span>. (Stuttgart: 2017):
+                                 107–134.</span></li>
+                           <li><a href="#footnote-ref2010"><span style="margin-right:.2em;vertical-align:super;"><small>5</small></span></a><span class="note" id="footnote2010">See Elizabeth
+                                 Maier. <span style="font-style:italic;">Verborgene Persönlichkeit: Anton Bruckner in seinen privaten
+                                    Aufzeichnungen. Anton Bruckner Dokumente und Studien</span>, Vol. 2. (Vienna:
+                                 2001): 509, 556, 607-608, 610–611, 643 and 648–649.</span></li>
+                        </ul>
+                     </div>
+                  </div>
                </div>
             </div>
          </div>
