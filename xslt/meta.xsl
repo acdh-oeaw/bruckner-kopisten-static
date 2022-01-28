@@ -21,6 +21,11 @@
                 <xsl:call-template name="html_head">
                     <xsl:with-param name="html_title" select="$doc_title"></xsl:with-param>
                 </xsl:call-template>
+                <style>
+                    .container-fluid {
+                        max-width: 100%;
+                    }
+                </style>
             </head>
             
             <body class="page">

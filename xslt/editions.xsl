@@ -65,7 +65,14 @@
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
-                        <h3><span class="text"><xsl:value-of select="./tei:persName[1]"/></span></h3>
+                        <xsl:choose>
+                            <xsl:when test="contains(./tei:persName[@type='main'], 'Anonymus')">
+                                <h3><span class="text"><xsl:value-of select="concat(./tei:persName[@type='main'], ' (', ./tei:persName[@type='main']/@subtype, ')')"/></span></h3>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <h3><span class="text"><xsl:value-of select="./tei:persName[@type='main']"/></span></h3>
+                            </xsl:otherwise>
+                        </xsl:choose>                        
                     </div>
                     <div class="card-body">
                         <table class="table">
@@ -104,15 +111,31 @@
                 </div>
             </div>
             <div class="col-md-8">
-                <div class="row">
+                <div id="navBarLetters" style="margin-top:.8em !important;">
+                    <ul class="nav nav-tabs" id="dropdown-lang">                                
+                        <li class="nav-item">                                    
+                            <a title="Deutsch" href="#lang-de" data-toggle="tab" class="nav-link btn btn-round active">
+                                Deutsch
+                            </a>
+                        </li>
+                        <xsl:if test="//tei:p[parent::tei:div][@xml:lang='eng']/text()">
+                        <li class="nav-item">                                    
+                            <a title="English" href="#lang-en" data-toggle="tab" class="nav-link btn btn-round">
+                                English
+                            </a>
+                        </li>
+                        </xsl:if>
+                    </ul>
+                </div>
+                <div class="tab-content">
                     <xsl:if test="//tei:p[parent::tei:div][@xml:lang='de']/text()">
-                        <div class="col-md-6">
-                            <div class="card">
+                        <div class="tab-pane active" id="lang-de">
+                            <div class="card" style="margin-top:0;">
                                 <div class="card-header">
                                     <h3>Beschreibung</h3>
                                 </div>
                                 <div class="card-body">
-                                    <xsl:for-each select="//tei:p[parent::tei:div][@xml:lang='de']">
+                                    <xsl:for-each select="//tei:p[@decls='desc'][parent::tei:div][@xml:lang='de']">
                                         <span class="text">
                                             <xsl:apply-templates/>
                                         </span>
@@ -138,8 +161,8 @@
                         </div>
                     </xsl:if>   
                     <xsl:if test="//tei:p[parent::tei:div][@xml:lang='eng']/text()">
-                        <div class="col-md-6">
-                            <div class="card">
+                        <div class="tab-pane fade" id="lang-en">
+                            <div class="card" style="margin-top:0;">
                                 <div class="card-header">
                                     <h3>Description</h3>
                                 </div>

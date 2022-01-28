@@ -21,71 +21,96 @@
                 <xsl:call-template name="html_head">
                     <xsl:with-param name="html_title" select="$doc_title"></xsl:with-param>
                 </xsl:call-template>
+                <style>
+                    .container-fluid {
+                        max-width: 100%;
+                    }
+                </style>
             </head>
             
             <body class="page">
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
                     
-                    <div class="container-fluid">                        
-                        <div class="card">
-                            <div class="card-header">
-                                <h1><xsl:value-of select="//tei:head[ancestor::tei:div[@xml:lang='de']]"/></h1>
-                            </div>
-                            <div class="card-body">                                
-                                <xsl:apply-templates select="//tei:div[@xml:lang='de']"/>
-                            </div>
-                            <xsl:if test="//tei:note">
-                                <div class="card-footer">
-                                    <ul>
-                                        <xsl:for-each select="//tei:note[ancestor::tei:div[@xml:lang='de']]">
-                                            <li>
-                                                <a href="#{replace(@xml:id, 'footnote', 'footnote-ref')}">
-                                                    <span style="margin-right:.2em;vertical-align:super;">
-                                                        <small><xsl:value-of select="@n"/></small>
-                                                    </span>  
-                                                </a>            
-                                                <span class="note" id="{@xml:id}">
-                                                    <xsl:apply-templates/>
-                                                </span>      
-                                            </li>
-                                        </xsl:for-each>
-                                    </ul>                                    
+                    <div class="container-fluid">  
+                        <div id="navBarLetters" style="margin-top:4em !important;">
+                            <ul class="nav nav-tabs" id="dropdown-lang">                                
+                                <li class="nav-item">                                    
+                                    <a title="Deutsch" href="#lang-de" data-toggle="tab" class="nav-link btn btn-round active">
+                                        Deutsch
+                                    </a>
+                                </li>
+                                <li class="nav-item">                                    
+                                    <a title="English" href="#lang-en" data-toggle="tab" class="nav-link btn btn-round">
+                                        English
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="lang-de">
+                                <div class="card" style="margin-top:0;">
+                                    <div class="card-header">
+                                        <h1><xsl:value-of select="//tei:head[ancestor::tei:div[@xml:lang='de']]"/></h1>
+                                    </div>
+                                    <div class="card-body">                                
+                                        <xsl:apply-templates select="//tei:div[@xml:lang='de']"/>
+                                    </div>
+                                    <xsl:if test="//tei:note">
+                                        <div class="card-footer">
+                                            <ul>
+                                                <xsl:for-each select="//tei:note[ancestor::tei:div[@xml:lang='de']]">
+                                                    <li>
+                                                        <a href="#{replace(@xml:id, 'footnote', 'footnote-ref')}">
+                                                            <span style="margin-right:.2em;vertical-align:super;">
+                                                                <small><xsl:value-of select="@n"/></small>
+                                                            </span>  
+                                                        </a>            
+                                                        <span class="note" id="{@xml:id}">
+                                                            <xsl:apply-templates/>
+                                                        </span>      
+                                                    </li>
+                                                </xsl:for-each>
+                                            </ul>                                    
+                                        </div>
+                                    </xsl:if>                            
                                 </div>
-                            </xsl:if>                            
-                        </div>    
-                        <div class="card">
-                            <div class="card-header">
-                                <xsl:choose>
-                                    <xsl:when test="//tei:head[ancestor::tei:div[@xml:lang='eng']]">
-                                        <h1><xsl:value-of select="//tei:head[ancestor::tei:div[@xml:lang='eng']]"/></h1>
-                                    </xsl:when>
-                                    <xsl:otherwise>
-                                        <h1>Introduction</h1>
-                                    </xsl:otherwise>
-                                </xsl:choose>                                
                             </div>
-                            <div class="card-body">
-                                <xsl:apply-templates select="//tei:div[@xml:lang='eng']"/>
-                            </div>
-                            <xsl:if test="//tei:note">
-                                <div class="card-footer">
-                                    <ul>
-                                        <xsl:for-each select="//tei:note[ancestor::tei:div[@xml:lang='eng']]">
-                                            <li>
-                                                <a href="#{replace(@xml:id, 'footnote', 'footnote-ref')}">
-                                                    <span style="margin-right:.2em;vertical-align:super;">
-                                                        <small><xsl:value-of select="@n"/></small>
-                                                    </span>  
-                                                </a>            
-                                                <span class="note" id="{@xml:id}">
-                                                    <xsl:apply-templates/>
-                                                </span>      
-                                            </li>
-                                        </xsl:for-each>
-                                    </ul>                                    
+                            <div class="tab-pane fade" id="lang-en">
+                                <div class="card" style="margin-top:0;">
+                                    <div class="card-header">
+                                        <xsl:choose>
+                                            <xsl:when test="//tei:head[ancestor::tei:div[@xml:lang='eng']]">
+                                                <h1><xsl:value-of select="//tei:head[ancestor::tei:div[@xml:lang='eng']]"/></h1>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <h1>Introduction</h1>
+                                            </xsl:otherwise>
+                                        </xsl:choose>                                
+                                    </div>
+                                    <div class="card-body">
+                                        <xsl:apply-templates select="//tei:div[@xml:lang='eng']"/>
+                                    </div>
+                                    <xsl:if test="//tei:note">
+                                        <div class="card-footer">
+                                            <ul>
+                                                <xsl:for-each select="//tei:note[ancestor::tei:div[@xml:lang='eng']]">
+                                                    <li>
+                                                        <a href="#{replace(@xml:id, 'footnote', 'footnote-ref')}">
+                                                            <span style="margin-right:.2em;vertical-align:super;">
+                                                                <small><xsl:value-of select="@n"/></small>
+                                                            </span>  
+                                                        </a>            
+                                                        <span class="note" id="{@xml:id}">
+                                                            <xsl:apply-templates/>
+                                                        </span>      
+                                                    </li>
+                                                </xsl:for-each>
+                                            </ul>                                    
+                                        </div>
+                                    </xsl:if>                            
                                 </div>
-                            </xsl:if>                            
+                            </div>
                         </div>
                     </div>
                     <xsl:call-template name="html_footer"/>
