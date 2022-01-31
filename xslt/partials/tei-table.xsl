@@ -35,9 +35,9 @@
                                         <xsl:for-each select="./tei:row[@role='label' and @xml:lang='de']">                                
                                             <tr>                
                                                 <xsl:apply-templates/>   
-                                                <xsl:if test="ancestor::tei:div[@xml:id]">
+                                                <!--<xsl:if test="ancestor::tei:div[@xml:id]">
                                                     <th>Kommentar</th> 
-                                                </xsl:if>                                                
+                                                </xsl:if>-->                                                
                                             </tr>                                                                                     
                                         </xsl:for-each>
                                     </thead>
@@ -82,19 +82,26 @@
             </xsl:when>
             <xsl:when test="parent::tei:row[@role='label' and @xml:lang='de']">
                 <xsl:choose>
-                    <xsl:when test=". = 'Zeitraum'">
-                        <th>
-                            <xsl:apply-templates/>
-                        </th>
-                        <th>von</th> 
-                        <th>bis</th> 
+                    <xsl:when test="contains(., 'Datierung des Werkes')">
+                        
                     </xsl:when>
                     <xsl:otherwise>
-                        <th>
-                            <xsl:apply-templates/>
-                        </th>   
+                        <xsl:choose>
+                            <xsl:when test=". = 'Zeitraum'">
+                                <th>
+                                    <xsl:apply-templates/>
+                                </th>
+                                <th>von</th> 
+                                <th>bis</th> 
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <th>
+                                    <xsl:apply-templates/>
+                                </th>   
+                            </xsl:otherwise>
+                        </xsl:choose>
                     </xsl:otherwise>
-                </xsl:choose>                             
+                </xsl:choose>
             </xsl:when>
             <xsl:when test="parent::tei:row[@role='label' and @xml:lang='eng']">                
                 <th>
@@ -103,34 +110,43 @@
             </xsl:when>
             <xsl:when test="parent::tei:row[@role='data']"> 
                 <xsl:choose>
-                    <xsl:when test="@xml:lang='de'">
-                        <td class="{@role}"><xsl:apply-templates/></td>                        
-                        <xsl:if test="child::tei:date">
-                            <td>
-                                <xsl:value-of select="./tei:date/@from"/>
-                            </td>
-                            <td>
-                                <xsl:value-of select="./tei:date/@to"/>
-                            </td>
-                        </xsl:if>
-                    </xsl:when>
-                    <xsl:when test="not(@xml:lang)">
-                        <td class="{@role}"><xsl:apply-templates/></td>
-                        <xsl:if test="child::tei:date">
-                            <td>
-                                <xsl:value-of select="./tei:date/@from"/>
-                            </td>
-                            <td>
-                                <xsl:value-of select="./tei:date/@to"/>
-                            </td>
-                        </xsl:if>                        
-                    </xsl:when>                    
-                    <xsl:otherwise>
+                    <xsl:when test="@role='Kommentar_intern'">
                         
+                    </xsl:when>
+                    <xsl:when test="@role='Datierung'">
+                        
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:choose>
+                            <xsl:when test="@xml:lang='de'">
+                                <td class="{@role}"><xsl:apply-templates/></td>                        
+                                <xsl:if test="child::tei:date/@from and not(ancestor::tei:div[@xml:id])">
+                                    <td>
+                                        <xsl:value-of select="./tei:date/@from"/>
+                                    </td>
+                                    <td>
+                                        <xsl:value-of select="./tei:date/@to"/>
+                                    </td>
+                                </xsl:if>
+                            </xsl:when>
+                            <xsl:when test="not(@xml:lang)">
+                                <td class="{@role}"><xsl:apply-templates/></td>
+                                <xsl:if test="child::tei:date/@from and not(ancestor::tei:div[@xml:id])">
+                                    <td>
+                                        <xsl:value-of select="./tei:date/@from"/>
+                                    </td>
+                                    <td>
+                                        <xsl:value-of select="./tei:date/@to"/>
+                                    </td>
+                                </xsl:if>                        
+                            </xsl:when> 
+                            <xsl:otherwise>
+                                
+                            </xsl:otherwise>
+                        </xsl:choose>
                     </xsl:otherwise>
-                </xsl:choose>                                               
+                </xsl:choose>
             </xsl:when>   
-            
             <xsl:otherwise>                
                 <td><xsl:apply-templates/></td>                  
             </xsl:otherwise>
