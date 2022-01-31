@@ -73,7 +73,7 @@
                </item>
                <item>
                   <ref corresp="content-d1e28979" target="data/editions/kopist-kroupa.xml">
-                     <persName full="abb" type="main">Kopist Kroupa</persName>
+                     <persName type="main">Kroupa , Kopist</persName>
                   </ref>
                </item>
                <item>
@@ -83,7 +83,7 @@
                </item>
                <item>
                   <ref corresp="content-d1e27682" target="data/editions/kopist-j-h.xml">
-                     <persName full="abb" type="main">Kopist J. H.</persName>
+                     <persName type="main">J. H., Kopist</persName>
                   </ref>
                </item>
                <item>
@@ -166,7 +166,7 @@
                </item>
                <item>
                   <ref corresp="content-d1e28854" target="data/editions/kopist-j-k.xml">
-                     <persName full="abb" type="main">Kopist J. K.</persName>
+                     <persName type="main">J. K., Kopist</persName>
                   </ref>
                </item>
                <item>
@@ -216,7 +216,7 @@
                </item>
                <item>
                   <ref corresp="content-d1e27401" target="data/editions/kopist-g-a.xml">
-                     <persName full="abb" type="main">Kopist G. A.</persName>
+                     <persName type="main">A. G., Kopist</persName>
                   </ref>
                </item>
                <item>
@@ -227,17 +227,17 @@
                </item>
                <item>
                   <ref corresp="content-d1e27544" target="data/editions/kopist-h-i.xml">
-                     <persName full="abb" type="main">Kopist H. I.</persName>
+                     <persName type="main">I. H., Kopist</persName>
                   </ref>
                </item>
                <item>
                   <ref corresp="content-d1e27233" target="data/editions/kopist-fischer.xml">
-                     <persName type="main">Kopist Fischer</persName>
+                     <persName type="main">Fischer , Kopist</persName>
                   </ref>
                </item>
                <item>
                   <ref corresp="content-d1e29336" target="data/editions/kopist-zeller.xml">
-                     <persName full="abb" type="main">Kopist Zeller</persName>
+                     <persName type="main">Zeller , Kopist</persName>
                   </ref>
                </item>
                <item>
@@ -247,7 +247,7 @@
                </item>
                <item>
                   <ref corresp="content-d1e27112" target="data/editions/kopist-firker.xml">
-                     <persName type="main">Kopist Firker</persName>
+                     <persName type="main">Firker , Kopist</persName>
                   </ref>
                </item>
                <item>
@@ -319,6 +319,11 @@
                <item>
                   <ref corresp="content-d1e6744" target="data/editions/anonymus-041.xml">
                      <persName type="main">Anonymus 041</persName>
+                  </ref>
+               </item>
+               <item>
+                  <ref corresp="content-d1e56512" target="data/editions/anonymus-169.xml">
+                     <persName subtype="W" type="main">Anonymus 169</persName>
                   </ref>
                </item>
                <item>

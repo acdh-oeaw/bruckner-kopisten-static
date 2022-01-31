@@ -84,7 +84,7 @@
                   </cell>
                   <cell role="Kopisten">
                      <ref corresp="content-d1e784512" target="data/editions/kopist-f-k.xml">
-                        <persName type="main">Kopist F. K.</persName>
+                        <persName type="main">F. K., Kopist</persName>
                      </ref>
                   </cell>
                </row>
@@ -94,7 +94,7 @@
                   </cell>
                   <cell role="Kopisten">
                      <ref corresp="content-d1e29169" target="data/editions/kopist-m-sch.xml">
-                        <persName full="abb" type="main">Kopist M. Sch.</persName>
+                        <persName type="main">Sch. M., Kopist</persName>
                      </ref>
                   </cell>
                </row>
@@ -316,7 +316,7 @@
                         <persName subtype="W" type="main">Anonymus 054</persName>
                      </ref>
                      <ref corresp="content-d1e26812" target="data/editions/kopist-cervenko.xml">
-                        <persName type="main">Kopist Cervenko</persName>
+                        <persName type="main">Cervenko , Kopist</persName>
                      </ref>
                   </cell>
                </row>
@@ -436,6 +436,9 @@
                      <date from="1878" to="1878" xml:lang="eng">1878 or later</date>
                   </cell>
                   <cell role="Kopisten">
+                     <ref corresp="content-d1e56512" target="data/editions/anonymus-169.xml">
+                        <persName subtype="W" type="main">Anonymus 169</persName>
+                     </ref>
                      <ref corresp="content-d1e36004" target="data/editions/weinwurm-rudolf.xml">
                         <persName type="main">Weinwurm, Rudolf</persName>
                      </ref>
@@ -523,7 +526,7 @@
                   </cell>
                   <cell role="Kopisten">
                      <ref corresp="content-d1e25f4" target="data/editions/anonymus-110.xml">
-                        <persName type="main">Anonymus 110</persName>
+                        <persName subtype="W" type="main">Anonymus 110</persName>
                      </ref>
                      <ref corresp="content-d1e31389" target="data/editions/noll-johann.xml">
                         <persName type="main">Noll, Johann</persName>

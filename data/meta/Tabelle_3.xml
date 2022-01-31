@@ -66,13 +66,13 @@
                   </cell>
                   <cell role="Kopisten">
                      <ref corresp="content-d1e26964" target="data/editions/kopist-e-m.xml">
-                        <persName full="abb" type="main">Kopist E. M.</persName>
+                        <persName type="main">M. E., Kopist</persName>
                      </ref>
                      <ref corresp="content-d1e16043" target="data/editions/anonymus-115.xml">
                         <persName type="main">Anonymus 115</persName>
                      </ref>
                      <ref corresp="content-d1e27544" target="data/editions/kopist-h-i.xml">
-                        <persName full="abb" type="main">Kopist H. I.</persName>
+                        <persName type="main">I. H., Kopist</persName>
                      </ref>
                   </cell>
                </row>
@@ -101,7 +101,7 @@
                         <persName type="main">Anonymus 023</persName>
                      </ref>
                      <ref corresp="content-d1e28854" target="data/editions/kopist-j-k.xml">
-                        <persName full="abb" type="main">Kopist J. K.</persName>
+                        <persName type="main">J. K., Kopist</persName>
                      </ref>
                      <ref corresp="content-d1e26378" target="data/editions/kellner-altman.xml">
                         <persName type="main">Kellner, Altman</persName>
@@ -116,7 +116,7 @@
                         <persName type="main">Anonymus 096</persName>
                      </ref>
                      <ref corresp="content-d1e27401" target="data/editions/kopist-g-a.xml">
-                        <persName full="abb" type="main">Kopist G. A.</persName>
+                        <persName type="main">A. G., Kopist</persName>
                      </ref>
                      <ref corresp="content-d1e29840" target="data/editions/loidol-oddo.xml">
                         <persName type="main">Loidol, Oddo</persName>
@@ -229,7 +229,7 @@
                         <persName type="main">Anonymus 131</persName>
                      </ref>
                      <ref corresp="content-d1e29169" target="data/editions/kopist-m-sch.xml">
-                        <persName full="abb" type="main">Kopist M. Sch.</persName>
+                        <persName type="main">Sch. M., Kopist</persName>
                      </ref>
                      <ref corresp="content-d1e21087" target="data/editions/aigner-karl.xml">
                         <persName type="main">Aigner, Karl</persName>
@@ -241,7 +241,7 @@
                         <persName type="main">Anonymus 104</persName>
                      </ref>
                      <ref corresp="content-d1e29336" target="data/editions/kopist-zeller.xml">
-                        <persName full="abb" type="main">Kopist Zeller</persName>
+                        <persName type="main">Zeller , Kopist</persName>
                      </ref>
                      <ref corresp="content-d1e34840" target="data/editions/seiberl-josef.xml">
                         <persName type="main">Seiberl, Josef</persName>

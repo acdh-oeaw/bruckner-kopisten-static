@@ -77,35 +77,70 @@
                             <head xml:lang="eng">Table 2 – Copyists of Secundary Sources</head>
                             <xsl:for-each select="m:sort-by-name($Person)">
                                 <xsl:if test="./t:listPerson/t:person/t:index/t:term[1] = 'Sekundärquellen'">
-                                    <xsl:variable name="cp-cleaning1" select="                    
-                                        replace(
-                                            replace(
+                                    <xsl:choose>
+                                        <xsl:when test="starts-with(./t:listPerson/t:person/t:persName[@type = 'main'], 'Kopist')">
+                                            <xsl:variable name="cp-cleaning1" select="                    
                                                 replace(
-                                                    replace(
-                                                        replace(
-                                                            replace(
-                                                                translate(./t:listPerson/t:person/t:persName[@type = 'main'] ,' ', '-') 
-                                                            , ',', '')
-                                                            ,'ß', 'ss')
-                                                        , '[éè]', 'e')
-                                                    , 'ä', 'a')
+                                                replace(
+                                                replace(
+                                                replace(
+                                                replace(
+                                                replace(
+                                                translate(./t:listPerson/t:person/t:persName[@type = 'main'] ,' ', '-') 
+                                                , ',', '')
+                                                ,'ß', 'ss')
+                                                , '[éè]', 'e')
+                                                , 'ä', 'a')
                                                 , 'ö', 'o')
-                                            , 'ü', 'u')                      
-                                        "/>
-                                    <xsl:variable name="cp-cleaning2" select="data(translate($cp-cleaning1,'.', ''))"/>
-                                    <xsl:variable name="cp-clean" select="translate($cp-cleaning2, '&#xA0;', '-') => lower-case()"/>
-                                    <xsl:element name="item">
-                                        <xsl:element name="ref">
-                                            <xsl:attribute name="corresp">
-                                                <xsl:value-of select="@xml:id"/>
-                                            </xsl:attribute>
-                                            <xsl:attribute name="target">
-                                                <xsl:value-of
-                                                    select="concat('data/editions/', $cp-clean, '.xml')"/>
-                                            </xsl:attribute>
-                                            <xsl:copy-of select="./t:listPerson/t:person/t:persName[@type = 'main']"/>
-                                        </xsl:element>
-                                    </xsl:element>
+                                                , 'ü', 'u')                      
+                                                "/>
+                                            <xsl:variable name="cp-cleaning2" select="data(translate($cp-cleaning1,'.', ''))"/>
+                                            <xsl:variable name="cp-clean" select="translate($cp-cleaning2, '&#xA0;', '-') => lower-case()"/>
+                                            <xsl:element name="item">
+                                                <xsl:element name="ref">
+                                                    <xsl:attribute name="corresp">
+                                                        <xsl:value-of select="@xml:id"/>
+                                                    </xsl:attribute>
+                                                    <xsl:attribute name="target">
+                                                        <xsl:value-of
+                                                            select="concat('data/editions/', $cp-clean, '.xml')"/>
+                                                    </xsl:attribute>
+                                                    <persName type="main"><xsl:value-of select="./t:listPerson/t:person/t:idno[@type='alphabetically_sorted']"/></persName>
+                                                </xsl:element>
+                                            </xsl:element>
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <xsl:variable name="cp-cleaning1" select="                    
+                                                replace(
+                                                replace(
+                                                replace(
+                                                replace(
+                                                replace(
+                                                replace(
+                                                translate(./t:listPerson/t:person/t:persName[@type = 'main'] ,' ', '-') 
+                                                , ',', '')
+                                                ,'ß', 'ss')
+                                                , '[éè]', 'e')
+                                                , 'ä', 'a')
+                                                , 'ö', 'o')
+                                                , 'ü', 'u')                      
+                                                "/>
+                                            <xsl:variable name="cp-cleaning2" select="data(translate($cp-cleaning1,'.', ''))"/>
+                                            <xsl:variable name="cp-clean" select="translate($cp-cleaning2, '&#xA0;', '-') => lower-case()"/>
+                                            <xsl:element name="item">
+                                                <xsl:element name="ref">
+                                                    <xsl:attribute name="corresp">
+                                                        <xsl:value-of select="@xml:id"/>
+                                                    </xsl:attribute>
+                                                    <xsl:attribute name="target">
+                                                        <xsl:value-of
+                                                            select="concat('data/editions/', $cp-clean, '.xml')"/>
+                                                    </xsl:attribute>
+                                                    <xsl:copy-of select="./t:listPerson/t:person/t:persName[@type = 'main']"/>
+                                                </xsl:element>
+                                            </xsl:element>
+                                        </xsl:otherwise>
+                                    </xsl:choose>
                                 </xsl:if>
                             </xsl:for-each>
                         </list>

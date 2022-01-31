@@ -135,7 +135,7 @@
                </item>
                <item>
                   <ref corresp="content-d1e784512" target="data/editions/kopist-f-k.xml">
-                     <persName type="main">Kopist F. K.</persName>
+                     <persName type="main">F. K., Kopist</persName>
                   </ref>
                </item>
                <item>
@@ -150,12 +150,12 @@
                </item>
                <item>
                   <ref corresp="content-d1e29169" target="data/editions/kopist-m-sch.xml">
-                     <persName full="abb" type="main">Kopist M. Sch.</persName>
+                     <persName type="main">Sch. M., Kopist</persName>
                   </ref>
                </item>
                <item>
                   <ref corresp="content-d1e26812" target="data/editions/kopist-cervenko.xml">
-                     <persName type="main">Kopist Cervenko</persName>
+                     <persName type="main">Cervenko , Kopist</persName>
                   </ref>
                </item>
                <item>
@@ -430,7 +430,7 @@
                </item>
                <item>
                   <ref corresp="content-d1e25f4" target="data/editions/anonymus-110.xml">
-                     <persName type="main">Anonymus 110</persName>
+                     <persName subtype="W" type="main">Anonymus 110</persName>
                   </ref>
                </item>
                <item>
