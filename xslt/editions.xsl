@@ -427,7 +427,7 @@
                             <h5><xsl:value-of select="./tei:head[@xml:lang='de']"/> | <xsl:value-of select="./tei:head[@xml:lang='eng']"/></h5>  
                         </div>
                         <div class="card-footer">
-                            <ul><xsl:apply-templates select="//tei:item"/></ul>
+                            <ul><xsl:apply-templates/></ul>
                         </div>
                     </div>
                 </div>
