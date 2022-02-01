@@ -2,9 +2,16 @@
 <xsl:stylesheet 
     xmlns="http://www.w3.org/1999/xhtml"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    version="2.0" exclude-result-prefixes="xsl tei xs">
-    <xsl:output encoding="UTF-8" media-type="text/html" method="xhtml" version="1.0" indent="yes" omit-xml-declaration="yes"/>
+    xmlns:tei="http://www.tei-c.org/ns/1.0" 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    version="2.0" 
+    exclude-result-prefixes="#all">
+    <xsl:output encoding="UTF-8" 
+        media-type="text/html" 
+        method="xhtml" 
+        version="1.0" 
+        indent="yes" 
+        omit-xml-declaration="yes"/>
     
     <xsl:import href="./partials/html_navbar.xsl"/>
     <xsl:import href="./partials/html_head.xsl"/>
@@ -19,7 +26,8 @@
         <html>
             <head>
                 <xsl:call-template name="html_head">
-                    <xsl:with-param name="html_title" select="$doc_title"></xsl:with-param>
+                    <xsl:with-param name="html_title" 
+                        select="$doc_title"></xsl:with-param>
                 </xsl:call-template>
                 <style>
                     .container-fluid {
@@ -33,25 +41,37 @@
                     <xsl:call-template name="nav_bar"/>
                     
                     <div class="container-fluid">  
-                        <div id="navBarLetters" style="margin-top:4em !important;">
-                            <ul class="nav nav-tabs" id="dropdown-lang">                                
+                        <div id="navBarLetters" 
+                            style="margin-top:4em !important;">
+                            <ul class="nav nav-tabs" 
+                                id="dropdown-lang">                                
                                 <li class="nav-item">                                    
-                                    <a title="Deutsch" href="#lang-de" data-toggle="tab" class="nav-link btn btn-round active">
+                                    <a title="Deutsch" 
+                                        href="#lang-de" 
+                                        data-toggle="tab" 
+                                        class="nav-link btn btn-round active">
                                         Deutsch
                                     </a>
                                 </li>
                                 <li class="nav-item">                                    
-                                    <a title="English" href="#lang-en" data-toggle="tab" class="nav-link btn btn-round">
+                                    <a title="English" 
+                                        href="#lang-en" 
+                                        data-toggle="tab" 
+                                        class="nav-link btn btn-round">
                                         English
                                     </a>
                                 </li>
                             </ul>
                         </div>
                         <div class="tab-content">
-                            <div class="tab-pane active" id="lang-de">
-                                <div class="card" style="margin-top:0;">
+                            <div class="tab-pane active" 
+                                id="lang-de">
+                                <div class="card" 
+                                    style="margin-top:0;">
                                     <div class="card-header">
-                                        <h1><xsl:value-of select="//tei:head[ancestor::tei:div[@xml:lang='de']]"/></h1>
+                                        <h1>
+                                            <xsl:value-of select="//tei:head[ancestor::tei:div[@xml:lang='de']]"/>
+                                        </h1>
                                     </div>
                                     <div class="card-body">                                
                                         <xsl:apply-templates select="//tei:div[@xml:lang='de']"/>
@@ -66,7 +86,8 @@
                                                                 <small><xsl:value-of select="@n"/></small>
                                                             </span>  
                                                         </a>            
-                                                        <span class="note" id="{@xml:id}">
+                                                        <span class="note" 
+                                                            id="{@xml:id}">
                                                             <xsl:apply-templates/>
                                                         </span>      
                                                     </li>
@@ -76,12 +97,16 @@
                                     </xsl:if>                            
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="lang-en">
-                                <div class="card" style="margin-top:0;">
+                            <div class="tab-pane fade" 
+                                id="lang-en">
+                                <div class="card" 
+                                    style="margin-top:0;">
                                     <div class="card-header">
                                         <xsl:choose>
                                             <xsl:when test="//tei:head[ancestor::tei:div[@xml:lang='eng']]">
-                                                <h1><xsl:value-of select="//tei:head[ancestor::tei:div[@xml:lang='eng']]"/></h1>
+                                                <h1>
+                                                    <xsl:value-of select="//tei:head[ancestor::tei:div[@xml:lang='eng']]"/>
+                                                </h1>
                                             </xsl:when>
                                             <xsl:otherwise>
                                                 <h1>Introduction</h1>
@@ -123,16 +148,24 @@
         <ol><xsl:apply-templates/></ol>
     </xsl:template>
     <xsl:template match="tei:item">
-        <li style="list-style:decimal;"><xsl:apply-templates/></li>
+        <li style="list-style:decimal;">
+            <xsl:apply-templates/>
+        </li>
     </xsl:template>
     <xsl:template match="tei:p">
-        <p id="{generate-id()}"><xsl:apply-templates/></p>
+        <p id="{generate-id()}">
+            <xsl:apply-templates/>
+        </p>
     </xsl:template>
     <xsl:template match="tei:div[@xml:lang='de']">
-        <div id="{generate-id()}"><xsl:apply-templates/></div>
+        <div id="{generate-id()}">
+            <xsl:apply-templates/>
+        </div>
     </xsl:template>
     <xsl:template match="tei:div[@xml:lang='eng']">
-        <div id="{generate-id()}"><xsl:apply-templates/></div>
+        <div id="{generate-id()}">
+            <xsl:apply-templates/>
+        </div>
     </xsl:template>
     <xsl:template match="tei:lb">
         <br/>
@@ -141,7 +174,9 @@
 
     </xsl:template>
     <xsl:template match="tei:hi">
-        <span style="font-style:{@rend};"><xsl:apply-templates/></span>
+        <span style="font-style:{@rend};">
+            <xsl:apply-templates/>
+        </span>
     </xsl:template>
   
 </xsl:stylesheet>

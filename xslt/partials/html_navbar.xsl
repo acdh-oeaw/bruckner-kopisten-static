@@ -20,11 +20,11 @@
                         <!-- Your menu goes here -->
                         <ul id="main-menu" class="navbar-nav" style="margin-right:0!important;">
                             <li class="nav-item dropdown">
-                                <a title="Papers" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Über das Projekt <span class="caret"></span></a>
+                                <a title="Papers" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Beschreibung <span class="caret"></span></a>
                                 <ul class=" dropdown-menu" role="menu" style="width:270px;">
-                                    <li class="nav-item dropdown-submenu">
+                                    <!--<li class="nav-item dropdown-submenu">
                                         <a title="Über das Projekt" href="about.html" class="nav-link">Über das Projekt</a>
-                                    </li>
+                                    </li>-->
                                     <li class="nav-item dropdown-submenu">
                                         <a title="Einleitung" href="01-introduction.html" class="nav-link">Einleitung</a>
                                     </li>
@@ -64,12 +64,12 @@
                             </li>                            
                             <li class="nav-item"><a title="Datenbanksuche" href="search.html" class="nav-link">Datenbanksuche</a></li>
                         </ul>                        
-                        <form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search">
+                        <!--<form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search">
                             <input class="form-control navbar-search" id="s" name="q" type="text" placeholder="Search" value="" autocomplete="off" />
                             <button type="submit" class="navbar-search-icon">
                                 <i data-feather="search"></i>
                             </button>
-                        </form>
+                        </form>-->
                     </div>
                     <!-- .collapse navbar-collapse -->
                 </div>

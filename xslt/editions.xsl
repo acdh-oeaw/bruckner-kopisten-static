@@ -2,9 +2,16 @@
 <xsl:stylesheet 
     xmlns="http://www.w3.org/1999/xhtml"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    version="2.0" exclude-result-prefixes="xsl tei xs">
-    <xsl:output encoding="UTF-8" media-type="text/html" method="xhtml" version="1.0" indent="yes" omit-xml-declaration="yes"/>
+    xmlns:tei="http://www.tei-c.org/ns/1.0" 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    version="2.0" 
+    exclude-result-prefixes="#all">
+    <xsl:output encoding="UTF-8" 
+        media-type="text/html" 
+        method="xhtml" 
+        version="1.0" 
+        indent="yes" 
+        omit-xml-declaration="yes"/>
     
     <xsl:import href="./partials/html_navbar.xsl"/>
     <xsl:import href="./partials/html_head.xsl"/>
@@ -23,7 +30,7 @@
         <html>
             <head>
                 <xsl:call-template name="html_head">
-                    <xsl:with-param name="html_title" select="$doc_title"></xsl:with-param>
+                    <xsl:with-param name="html_title" select="$doc_title"/>
                 </xsl:call-template>
                 <xsl:call-template name="datatable-base"/>
                 <style>
@@ -82,12 +89,18 @@
                                         <h3 class="text-right">
                                             <ul class="nav nav-tabs info-box-link" id="dropdown-lang">                                
                                                 <li class="nav-item">                                    
-                                                    <a title="Deutsch" href="#info-lang-de" data-toggle="tab" class="nav-link btn btn-round active">
+                                                    <a title="Deutsch" 
+                                                       href="#info-lang-de" 
+                                                       data-toggle="tab" 
+                                                       class="nav-link btn btn-round active">
                                                         Deutsch
                                                     </a>
                                                 </li>
                                                 <li class="nav-item">                                    
-                                                    <a title="English" href="#info-lang-en" data-toggle="tab" class="nav-link btn btn-round">
+                                                    <a title="English" 
+                                                       href="#info-lang-en"
+                                                       data-toggle="tab" 
+                                                       class="nav-link btn btn-round">
                                                         English
                                                     </a>
                                                 </li>
@@ -109,12 +122,18 @@
                                         <h3 class="text-right">
                                             <ul class="nav nav-tabs info-box-link" id="dropdown-lang">                                
                                                 <li class="nav-item">                                    
-                                                    <a title="Deutsch" href="#info-lang-de" data-toggle="tab" class="nav-link btn btn-round active">
+                                                    <a title="Deutsch" 
+                                                       href="#info-lang-de" 
+                                                       data-toggle="tab" 
+                                                       class="nav-link btn btn-round active">
                                                         Deutsch
                                                     </a>
                                                 </li>
                                                 <li class="nav-item">                                    
-                                                    <a title="English" href="#info-lang-en" data-toggle="tab" class="nav-link btn btn-round">
+                                                    <a title="English" 
+                                                       href="#info-lang-en" 
+                                                       data-toggle="tab" 
+                                                       class="nav-link btn btn-round">
                                                         English
                                                     </a>
                                                 </li>
@@ -153,7 +172,8 @@
                                             <th>Normdaten</th>
                                             <td>
                                                 <xsl:if test="./tei:idno[@type='GND']/text()">
-                                                    <a href="{concat('https://d-nb.info/gnd/', ./tei:idno[@type='GND'])}" 
+                                                    <a href="{concat('https://d-nb.info/gnd/', 
+                                                        ./tei:idno[@type='GND'])}" 
                                                         title="GND Datenbank öffnen"
                                                         target="_blank">
                                                     <xsl:value-of select="concat('https://d-nb.info/gnd/', 
@@ -215,7 +235,9 @@
                                                         select="lower-case($citation-link-de)"/>
                                                 </a>
                                                 <xsl:text>), aufgerufen am </xsl:text>
-                                                <xsl:value-of select="format-date(current-date(),  '[D].[M].[Y]')"/>
+                                                <xsl:value-of select="format-date(
+                                                    current-date(),  
+                                                    '[D].[M].[Y]')"/>
                                                 <xsl:text>.</xsl:text>
                                             </td>
                                         </tr>
@@ -242,7 +264,8 @@
                                             <th>Normdata</th>
                                             <td>
                                                 <xsl:if test="./tei:idno[@type='GND']/text()">
-                                                    <a href="{concat('https://d-nb.info/gnd/', ./tei:idno[@type='GND'])}" 
+                                                    <a href="{concat('https://d-nb.info/gnd/', 
+                                                        ./tei:idno[@type='GND'])}" 
                                                         title="open GND database"
                                                         target="_blank">
                                                         <xsl:value-of select="concat('https://d-nb.info/gnd/', 
@@ -313,7 +336,8 @@
                             </div>
                             <div class="card-footer">
                                 <xsl:for-each select="./tei:index/tei:term[@xml:lang='eng']">
-                                    <span class="badge text-light text" style="margin-right:.2em;">
+                                    <span class="badge text-light text" 
+                                        style="margin-right:.2em;">
                                         <xsl:apply-templates/>
                                     </span>
                                 </xsl:for-each>
@@ -323,16 +347,23 @@
                 </div>
             </div>
             <div class="col-md-8">
-                <div id="navBarLetters" style="margin-top:.8em !important;">
+                <div id="navBarLetters" 
+                    style="margin-top:.8em !important;">
                     <ul class="nav nav-tabs" id="dropdown-lang">                                
                         <li class="nav-item">                                    
-                            <a title="Deutsch" href="#lang-de" data-toggle="tab" class="nav-link btn btn-round active">
+                            <a title="Deutsch" 
+                               href="#lang-de" 
+                               data-toggle="tab" 
+                               class="nav-link btn btn-round active">
                                 Deutsch
                             </a>
                         </li>
                         <xsl:if test="//tei:p[parent::tei:div][@xml:lang='eng']/text()">
                         <li class="nav-item">                                    
-                            <a title="English" href="#lang-en" data-toggle="tab" class="nav-link btn btn-round">
+                            <a title="English" 
+                               href="#lang-en" 
+                               data-toggle="tab" 
+                               class="nav-link btn btn-round">
                                 English
                             </a>
                         </li>
@@ -424,7 +455,11 @@
                 <div class="col-md-12">
                     <div class="card" style="margin-top:-.5em;border-top:none!important;">
                         <div class="card-header">
-                            <h5><xsl:value-of select="./tei:head[@xml:lang='de']"/> | <xsl:value-of select="./tei:head[@xml:lang='eng']"/></h5>  
+                            <h5><xsl:value-of select="
+                                ./tei:head[@xml:lang='de']"/>
+                                | 
+                                <xsl:value-of select="./tei:head[@xml:lang='eng']"/>
+                            </h5>  
                         </div>
                         <div class="card-footer">
                             <ul><xsl:apply-templates/></ul>
@@ -440,7 +475,11 @@
     <xsl:template match="tei:hi">
         <xsl:choose>
             <xsl:when test="@rend='sup'">
-                <span style="vertical-align:super;"><small><xsl:apply-templates/></small></span>
+                <span style="vertical-align:super;">
+                    <small>
+                        <xsl:apply-templates/>
+                    </small>
+                </span>
             </xsl:when>
             <xsl:otherwise>
                 <span><xsl:apply-templates/></span>
@@ -456,7 +495,12 @@
             </xsl:when>
             <xsl:otherwise>
                 <li style="margin:2em;">
-                    <h6><xsl:value-of select="./tei:title[@xml:lang='de']"/> | <xsl:value-of select="./tei:title[@xml:lang='eng']"/></h6>
+                    <h6>
+                        <xsl:value-of select="
+                            ./tei:title[@xml:lang='de']"/>
+                        | 
+                        <xsl:value-of select="./tei:title[@xml:lang='eng']"/>
+                    </h6>
                     <xsl:apply-templates/>
                 </li>
             </xsl:otherwise>
@@ -472,7 +516,11 @@
             <div class="img-notes">
                 <img class="tei-xml-images">
                     <xsl:attribute name="src">
-                        <xsl:value-of select="concat('https://iiif.acdh.oeaw.ac.at/bruckner-kopisten/', replace($source[last()], '.png', '/full/full/0/default.jpg'))"/>
+                        <xsl:value-of select="concat(
+                            'https://iiif.acdh.oeaw.ac.at/bruckner-kopisten/', 
+                            replace($source[last()], 
+                            '.png', 
+                            '/full/full/0/default.jpg'))"/>
                     </xsl:attribute>
                 </img>
             </div>
