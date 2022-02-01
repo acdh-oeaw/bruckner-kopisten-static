@@ -154,7 +154,7 @@
                         <persName type="main">Anonymus 157</persName>
                      </ref>
                      <ref corresp="content-d1e20845" target="data/editions/anonymus-153.xml">
-                        <persName subtype="W" type="main">Anonymus 153</persName>
+                        <persName type="main">Anonymus 153 (W)</persName>
                      </ref>
                      <ref corresp="content-d1e1f17" target="data/editions/anonymus-158.xml">
                         <persName type="main">Anonymus 158</persName>
@@ -199,7 +199,7 @@
                         <persName type="main">Anonymus 137</persName>
                      </ref>
                      <ref corresp="content-d1e765512" target="data/editions/anonymus-159.xml">
-                        <persName subtype="SF" type="main">Anonymus 159</persName>
+                        <persName type="main">Anonymus 159 (SF)</persName>
                      </ref>
                      <ref corresp="content-d1e179176" target="data/editions/anonymus-156.xml">
                         <persName type="main">Anonymus 156</persName>
@@ -266,7 +266,7 @@
                         <persName type="main">Anonymus 100</persName>
                      </ref>
                      <ref corresp="content-d1e926" target="data/editions/anonymus-003.xml">
-                        <persName subtype="SF" type="main">Anonymus 003</persName>
+                        <persName type="main">Anonymus 003 (SF)</persName>
                      </ref>
                   </cell>
                </row>
@@ -279,7 +279,7 @@
                         <persName type="main">Bayer, Juliane</persName>
                      </ref>
                      <ref corresp="content-d1e16523" target="data/editions/anonymus-120.xml">
-                        <persName subtype="W" type="main">Anonymus 120</persName>
+                        <persName type="main">Anonymus 120 (W)</persName>
                      </ref>
                      <ref corresp="content-d1e32263" target="data/editions/pfandtner-albert.xml">
                         <persName type="main">Pfändtner, Albert</persName>

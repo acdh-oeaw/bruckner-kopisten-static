@@ -61,12 +61,22 @@
                                             <xsl:variable name="full_path">
                                                 <xsl:value-of select="document-uri(/)"/>
                                             </xsl:variable>    
-                                            <xsl:variable name="personN">                                               
-                                                <xsl:value-of select=".//tei:title[@type='main'][1]/text()"/>
+                                            <xsl:variable name="personN">   
+                                                <xsl:choose>
+                                                    <xsl:when test=".//tei:persName[@subtype]">                                                        
+                                                        <xsl:value-of select="concat(.//tei:persName[@type='main']/text(), ' (',.//tei:persName/@subtype, ')')"/>
+                                                    </xsl:when>
+                                                    <xsl:when test="starts-with(.//tei:persName[@type='main']/text(), 'Kopist')">                                                        
+                                                        <xsl:value-of select=".//tei:idno[@type='alphabetically_sorted']/text()"/>
+                                                    </xsl:when>
+                                                    <xsl:otherwise>
+                                                        <xsl:value-of select=".//tei:persName[@type='main']/text()"/>
+                                                    </xsl:otherwise>
+                                                </xsl:choose>                                                
                                             </xsl:variable> 
                                             <tr>
                                                 <td>                               
-                                                    <xsl:value-of select=".//tei:title[@type='main'][1]/text()"/>
+                                                    <xsl:value-of select="$personN"/>
                                                 </td>
                                                 <td>
                                                     <xsl:if test=".//tei:index/tei:term/text()">

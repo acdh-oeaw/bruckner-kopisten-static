@@ -313,7 +313,7 @@
                </item>
                <item>
                   <ref corresp="content-d1e9998f" target="data/editions/anonymus-167.xml">
-                     <persName subtype="W" type="main">Anonymus 167</persName>
+                     <persName type="main">Anonymus 167 (W)</persName>
                   </ref>
                </item>
                <item>
@@ -323,12 +323,12 @@
                </item>
                <item>
                   <ref corresp="content-d1e56512" target="data/editions/anonymus-169.xml">
-                     <persName subtype="W" type="main">Anonymus 169</persName>
+                     <persName type="main">Anonymus 169 (W)</persName>
                   </ref>
                </item>
                <item>
                   <ref corresp="content-d1e20845" target="data/editions/anonymus-153.xml">
-                     <persName subtype="W" type="main">Anonymus 153</persName>
+                     <persName type="main">Anonymus 153 (W)</persName>
                   </ref>
                </item>
                <item>
@@ -423,7 +423,7 @@
                </item>
                <item>
                   <ref corresp="content-d1e18895" target="data/editions/anonymus-165.xml">
-                     <persName subtype="W" type="main">Anonymus 165</persName>
+                     <persName type="main">Anonymus 165 (W)</persName>
                   </ref>
                </item>
                <item>
@@ -478,7 +478,7 @@
                </item>
                <item>
                   <ref corresp="content-d1e18795" target="data/editions/anonymus-164.xml">
-                     <persName subtype="W" type="main">Anonymus 164</persName>
+                     <persName type="main">Anonymus 164 (W)</persName>
                   </ref>
                </item>
                <item>
@@ -518,7 +518,7 @@
                </item>
                <item>
                   <ref corresp="content-d1e19926" target="data/editions/anonymus-166.xml">
-                     <persName subtype="SF" type="main">Anonymus 166</persName>
+                     <persName type="main">Anonymus 166 (SF)</persName>
                   </ref>
                </item>
                <item>
@@ -628,7 +628,7 @@
                </item>
                <item>
                   <ref corresp="content-d1e465850" target="data/editions/anonymus-160.xml">
-                     <persName subtype="W" type="main">Anonymus 160</persName>
+                     <persName type="main">Anonymus 160 (W)</persName>
                   </ref>
                </item>
                <item>
@@ -643,7 +643,7 @@
                </item>
                <item>
                   <ref corresp="content-d1e465f0" target="data/editions/anonymus-161.xml">
-                     <persName subtype="W" type="main">Anonymus 161</persName>
+                     <persName type="main">Anonymus 161 (W)</persName>
                   </ref>
                </item>
                <item>

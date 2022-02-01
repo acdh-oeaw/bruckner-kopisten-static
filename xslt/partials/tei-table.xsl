@@ -111,10 +111,10 @@
             <xsl:when test="parent::tei:row[@role='data']"> 
                 <xsl:choose>
                     <xsl:when test="@role='Kommentar_intern'">
-                        
+                        <!-- ignore this cell -->
                     </xsl:when>
                     <xsl:when test="@role='Datierung'">
-                        
+                        <!-- ignore this cell -->
                     </xsl:when>
                     <xsl:otherwise>
                         <xsl:choose>

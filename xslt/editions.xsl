@@ -66,7 +66,7 @@
                 <div class="card">
                     <div class="card-header">
                         <xsl:choose>
-                            <xsl:when test="contains(./tei:persName[@type='main'], 'Anonymus')">
+                            <xsl:when test="./tei:persName[@subtype]">
                                 <div class="row">
                                     <div class="col-md-7">
                                         <h3 class="text-left">
@@ -212,7 +212,7 @@
                                                 <xsl:text> (</xsl:text>
                                                 <a href="{lower-case($citation-link-de)}">
                                                     <xsl:value-of 
-                                                        select="$citation-link-de"/>
+                                                        select="lower-case($citation-link-de)"/>
                                                 </a>
                                                 <xsl:text>), aufgerufen am </xsl:text>
                                                 <xsl:value-of select="format-date(current-date(),  '[D].[M].[Y]')"/>
@@ -291,7 +291,7 @@
                                                 '. In: ', //tei:title[@level='m'],
                                                 '. Hg. ', //tei:author/tei:name[1],
                                                 ', ', //tei:author/tei:name[2])"/>
-                                            <xsl:variable name="citation-link-de" 
+                                            <xsl:variable name="citation-link-en" 
                                                 select="concat('https://acdh-oeaw.github.io/bruckner-kopisten-static/',
                                                 $cp-cleaning1,
                                                 '.html')"/>
@@ -299,9 +299,9 @@
                                             <td>
                                                 <xsl:value-of select="$citation-text-de"/>
                                                 <xsl:text> (</xsl:text>
-                                                <a href="{lower-case($citation-link-de)}">
+                                                <a href="{lower-case($citation-link-en)}">
                                                     <xsl:value-of 
-                                                        select="$citation-link-de"/>
+                                                        select="lower-case($citation-link-en)"/>
                                                 </a>
                                                 <xsl:text>), accessed on </xsl:text>
                                                 <xsl:value-of select="format-date(current-date(),  '[D].[M].[Y]')"/>
