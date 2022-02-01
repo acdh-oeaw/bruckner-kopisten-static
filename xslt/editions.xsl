@@ -178,6 +178,8 @@
                         , 'ö', 'o')
                         , 'ü', 'u')                      
                         "/>
+                    <xsl:variable name="cp-cleaning2" select="data(translate($cp-cleaning1,'.', ''))"/>
+                    <xsl:variable name="cp-clean" select="translate($cp-cleaning2, '&#xA0;', '-') => lower-case()"/>
                     <div class="tab-content">
                         <div class="tab-pane active" id="info-lang-de">
                             <div class="card-body">                                
@@ -243,7 +245,7 @@
                                                 ', ', //tei:author/tei:name[2])"/>
                                             <xsl:variable name="citation-link-de" 
                                                 select="concat('https://acdh-oeaw.github.io/bruckner-kopisten-static/',
-                                                $cp-cleaning1,
+                                                $cp-clean,
                                                 '.html')"/>
                                             <th>Zitierhinweis</th>
                                             <td>
@@ -335,7 +337,7 @@
                                                 ', ', //tei:author/tei:name[2])"/>
                                             <xsl:variable name="citation-link-en" 
                                                 select="concat('https://acdh-oeaw.github.io/bruckner-kopisten-static/',
-                                                $cp-cleaning1,
+                                                $cp-clean,
                                                 '.html')"/>
                                             <th>Citation note</th>
                                             <td>
