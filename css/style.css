@@ -1,5 +1,9 @@
 /* Datatables, provided by https://github.com/babslgam*/
 
+body {
+    background: url(../img/bg_1.jpg) 0 0 repeat;
+}
+
 div.dataTables_filter {
   text-align: left !important;
 }
@@ -100,9 +104,18 @@ div.alphabetInfo {
     box-shadow: 4px 4px 9px 0 rgba(0, 0, 0, .1);
 }
 
+p.fade {
+    display: none;
+}
+
+p.active {
+    display: block;
+}
+
 .index-card {
     border-top: 5px solid #ab1923; 
     transition: transform .2s;
+    text-align: center;
 }
 
 .index-card:hover {
