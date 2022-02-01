@@ -129,6 +129,15 @@ div.alphabetInfo {
     color: #444;
 }
 
+.info-box-link {
+    border-bottom: none;
+}
+
+.info-box-link .nav-item .nav-link.active {
+    border: 1px solid rgba(0, 0, 0, .1) !important;
+    border-radius: .5rem;
+}
+
 a {
     color: #ab1923;
 }
@@ -166,6 +175,16 @@ p {
     height:100px;
     max-width:100%;
     max-height:100%;
+}
+
+.table.info-box tr th {
+    border: none;
+    border-right: 1px solid rgba(0,0,0,.1);
+    width: 30%;
+}
+
+.table.info-box tr td {
+    border: none;
 }
 
 .badge {

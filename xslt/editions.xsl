@@ -67,46 +67,258 @@
                     <div class="card-header">
                         <xsl:choose>
                             <xsl:when test="contains(./tei:persName[@type='main'], 'Anonymus')">
-                                <h3><span class="text"><xsl:value-of select="concat(./tei:persName[@type='main'], ' (', ./tei:persName[@type='main']/@subtype, ')')"/></span></h3>
+                                <div class="row">
+                                    <div class="col-md-7">
+                                        <h3 class="text-left">
+                                            <span class="text">
+                                                <xsl:value-of 
+                                                    select="concat(
+                                                    ./tei:persName[@type='main'],
+                                                    ' (', ./tei:persName[@type='main']/@subtype, ')')"/>
+                                            </span>
+                                        </h3>
+                                    </div>
+                                    <div class="col-md-5 text-right">
+                                        <h3 class="text-right">
+                                            <ul class="nav nav-tabs info-box-link" id="dropdown-lang">                                
+                                                <li class="nav-item">                                    
+                                                    <a title="Deutsch" href="#info-lang-de" data-toggle="tab" class="nav-link btn btn-round active">
+                                                        Deutsch
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">                                    
+                                                    <a title="English" href="#info-lang-en" data-toggle="tab" class="nav-link btn btn-round">
+                                                        English
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </h3>
+                                    </div>
+                                </div>
                             </xsl:when>
                             <xsl:otherwise>
-                                <h3><span class="text"><xsl:value-of select="./tei:persName[@type='main']"/></span></h3>
+                                <div class="row">
+                                    <div class="col-md-7">
+                                        <h3 class="text-left">
+                                            <span class="text">
+                                                <xsl:value-of select="./tei:persName[@type='main']"/>
+                                            </span>
+                                        </h3>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <h3 class="text-right">
+                                            <ul class="nav nav-tabs info-box-link" id="dropdown-lang">                                
+                                                <li class="nav-item">                                    
+                                                    <a title="Deutsch" href="#info-lang-de" data-toggle="tab" class="nav-link btn btn-round active">
+                                                        Deutsch
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">                                    
+                                                    <a title="English" href="#info-lang-en" data-toggle="tab" class="nav-link btn btn-round">
+                                                        English
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </h3>
+                                    </div>
+                                </div>
                             </xsl:otherwise>
                         </xsl:choose>                        
                     </div>
-                    <div class="card-body">
-                        <table class="table">
-                            <xsl:for-each select="child::*[not(self::tei:persName or self::tei:index or self::tei:idno)]">
-                                <xsl:choose>
-                                    <xsl:when test="@xml:lang = 'de' or not(@xml:lang)">
+                    <xsl:variable name="cp-cleaning1" select="                    
+                        replace(
+                        replace(
+                        replace(
+                        replace(
+                        replace(
+                        replace(
+                        translate(./tei:persName[@type='main'] ,' ', '-') 
+                        , ',', '')
+                        ,'ß', 'ss')
+                        , '[éè]', 'e')
+                        , 'ä', 'a')
+                        , 'ö', 'o')
+                        , 'ü', 'u')                      
+                        "/>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="info-lang-de">
+                            <div class="card-body">                                
+                                <table class="table info-box">
+                                    <body>
                                         <tr>
-                                            <th><strong>
-                                                <xsl:if test="name() = 'residence'">
-                                                    <span class="text"><xsl:text>Residenz</xsl:text></span>
-                                                </xsl:if>
-                                                <xsl:if test="name() = 'affiliation'">
-                                                    <span class="text"><xsl:text>Zuordnung zu</xsl:text></span>
-                                                </xsl:if>
-                                                <xsl:if test="name() = 'floruit'">
-                                                    <span class="text"><xsl:text>Normdaten</xsl:text></span>
-                                                </xsl:if>
-                                            </strong></th>
-                                            <td><span class="text"><xsl:apply-templates/></span></td>
+                                            <th>Vorherige Namen</th>
+                                            <td><xsl:value-of select="./tei:persName[2]"/></td>
                                         </tr>
-                                    </xsl:when>
-                                    <xsl:when test="@xml:lang = 'en'">
-                                        
-                                    </xsl:when>                                    
-                                </xsl:choose>                                    
-                            </xsl:for-each>
-                        </table>
-                    </div>
-                    <div class="card-footer">
-                        <xsl:for-each select="./tei:index/tei:term">
-                            <span class="badge text-light text" style="margin-right:.2em;">
-                                <xsl:apply-templates/>
-                            </span>
-                        </xsl:for-each>
+                                        <tr>
+                                            <th>Normdaten</th>
+                                            <td>
+                                                <xsl:if test="./tei:idno[@type='GND']/text()">
+                                                    <a href="{concat('https://d-nb.info/gnd/', ./tei:idno[@type='GND'])}" 
+                                                        title="GND Datenbank öffnen"
+                                                        target="_blank">
+                                                    <xsl:value-of select="concat('https://d-nb.info/gnd/', 
+                                                        ./tei:idno[@type='GND'])"/>
+                                                    </a>
+                                                </xsl:if>                                        
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>ABLO / ÖML</th>
+                                            <td>
+                                                <xsl:if test="ancestor::tei:listPerson/following-sibling::tei:p[@decls='link']/tei:ref/@target">
+                                                    <a href="{ancestor::tei:listPerson/following-sibling::tei:p[@decls='link']/tei:ref/@target}" 
+                                                       title="{normalize-space(ancestor::tei:listPerson/following-sibling::tei:p[@decls='link']/tei:ref)}"
+                                                       target="_blank">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" 
+                                                            width="16" 
+                                                            height="16" 
+                                                            fill="currentColor" 
+                                                            class="bi bi-box-arrow-up-right" 
+                                                            viewBox="0 0 16 16">
+                                                            <path fill-rule="evenodd" 
+                                                                d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                                                            <path fill-rule="evenodd" 
+                                                                d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                                                        </svg>
+                                                    </a>
+                                                </xsl:if>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>Residenz</th>
+                                            <td>
+                                                <xsl:value-of select="./tei:residence"/>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>Zeitraum der Kopiertätigkeit</th>
+                                            <td>
+                                                <xsl:value-of select="./tei:floruit[@xml:lang='de']"/>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <xsl:variable name="citation-text-de" 
+                                                select="concat(//tei:title[@level='a'],
+                                                '. In: ', //tei:title[@level='m'],
+                                                '. Hg. ', //tei:author/tei:name[1],
+                                                ', ', //tei:author/tei:name[2])"/>
+                                            <xsl:variable name="citation-link-de" 
+                                                select="concat('https://acdh-oeaw.github.io/bruckner-kopisten-static/',
+                                                $cp-cleaning1,
+                                                '.html')"/>
+                                            <th>Zitierhinweis</th>
+                                            <td>
+                                                <xsl:value-of select="$citation-text-de"/>
+                                                <xsl:text> (</xsl:text>
+                                                <a href="{lower-case($citation-link-de)}">
+                                                    <xsl:value-of 
+                                                        select="$citation-link-de"/>
+                                                </a>
+                                                <xsl:text>), aufgerufen am </xsl:text>
+                                                <xsl:value-of select="format-date(current-date(),  '[D].[M].[Y]')"/>
+                                                <xsl:text>.</xsl:text>
+                                            </td>
+                                        </tr>
+                                    </body>
+                                </table>
+                            </div>
+                            <div class="card-footer">
+                                <xsl:for-each select="./tei:index/tei:term[@xml:lang='de']">
+                                    <span class="badge text-light text" style="margin-right:.2em;">
+                                        <xsl:apply-templates/>
+                                    </span>
+                                </xsl:for-each>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="info-lang-en">
+                            <div class="card-body">
+                                <table class="table info-box">
+                                    <body>
+                                        <tr>
+                                            <th>Previous Names</th>
+                                            <td><xsl:value-of select="./tei:persName[2]"/></td>
+                                        </tr>
+                                        <tr>
+                                            <th>Normdata</th>
+                                            <td>
+                                                <xsl:if test="./tei:idno[@type='GND']/text()">
+                                                    <a href="{concat('https://d-nb.info/gnd/', ./tei:idno[@type='GND'])}" 
+                                                        title="open GND database"
+                                                        target="_blank">
+                                                        <xsl:value-of select="concat('https://d-nb.info/gnd/', 
+                                                            ./tei:idno[@type='GND'])"/>
+                                                    </a>
+                                                </xsl:if>                                        
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>ABLO / OEML</th>
+                                            <td>
+                                                <xsl:if test="ancestor::tei:listPerson/following-sibling::tei:p[@decls='link']/tei:ref/@target">
+                                                    <a href="{ancestor::tei:listPerson/following-sibling::tei:p[@decls='link']/tei:ref/@target}" 
+                                                       title="read more"
+                                                       target="_blank">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" 
+                                                            width="16" 
+                                                            height="16" 
+                                                            fill="currentColor" 
+                                                            class="bi bi-box-arrow-up-right" 
+                                                            viewBox="0 0 16 16">
+                                                            <path fill-rule="evenodd" 
+                                                                d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                                                            <path fill-rule="evenodd" 
+                                                                d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                                                        </svg>
+                                                    </a>
+                                                </xsl:if>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>Residence</th>
+                                            <td>
+                                                <xsl:value-of select="./tei:residence"/>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>The copyists timespan</th>
+                                            <td>
+                                                <xsl:value-of select="./tei:floruit[@xml:lang='eng']"/>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <xsl:variable name="citation-text-de" 
+                                                select="concat(//tei:title[@level='a'],
+                                                '. In: ', //tei:title[@level='m'],
+                                                '. Hg. ', //tei:author/tei:name[1],
+                                                ', ', //tei:author/tei:name[2])"/>
+                                            <xsl:variable name="citation-link-de" 
+                                                select="concat('https://acdh-oeaw.github.io/bruckner-kopisten-static/',
+                                                $cp-cleaning1,
+                                                '.html')"/>
+                                            <th>Citation note</th>
+                                            <td>
+                                                <xsl:value-of select="$citation-text-de"/>
+                                                <xsl:text> (</xsl:text>
+                                                <a href="{lower-case($citation-link-de)}">
+                                                    <xsl:value-of 
+                                                        select="$citation-link-de"/>
+                                                </a>
+                                                <xsl:text>), accessed on </xsl:text>
+                                                <xsl:value-of select="format-date(current-date(),  '[D].[M].[Y]')"/>
+                                                <xsl:text>.</xsl:text>
+                                            </td>
+                                        </tr>
+                                    </body>
+                                </table>
+                            </div>
+                            <div class="card-footer">
+                                <xsl:for-each select="./tei:index/tei:term[@xml:lang='eng']">
+                                    <span class="badge text-light text" style="margin-right:.2em;">
+                                        <xsl:apply-templates/>
+                                    </span>
+                                </xsl:for-each>
+                            </div>
+                        </div>                        
                     </div>
                 </div>
             </div>
