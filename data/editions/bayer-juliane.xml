@@ -57,8 +57,8 @@
                   <idno type="alphabetically_sorted">Bayer, Juliane</idno>
                   <idno type="GND"/>
                   <residence>Steyr</residence>
-                  <affiliation xml:lang="de">Steyrer Kopisten</affiliation>
-                  <affiliation xml:lang="eng">Steyr copyists</affiliation>
+                  <affiliation xml:lang="de"/>
+                  <affiliation xml:lang="eng"/>
                   <index>
                      <term sortKey="2" xml:lang="de">Sekundärquellen</term>
                      <term sortKey="2" xml:lang="eng">Secondary Sources</term>

@@ -50,7 +50,7 @@
             <listPerson>
                <person>
                   <persName subtype="W" type="main">Anonymus 112</persName>
-                  <idno type="alphabetically_sorted">Anonymus 112</idno>
+                  <idno type="alphabetically_sorted">Anonymus 112 (W)</idno>
                   <floruit from="1879" to="1879">1879</floruit>
                   <residence/>
                   <affiliation xml:lang="de">Wiener Kopisten</affiliation>
@@ -62,9 +62,9 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Der Kopist Anonymus 112 fertigte einen frühen Stimmensatz zum Os justi an.</p>
+               <lb/>Der Kopist Anonymus 112 (W) fertigte einen frühen Stimmensatz zum <hi rend="italic">Os justi</hi> an.</p>
             <p decls="desc" xml:lang="eng">
-               <lb/>Anonymus 112 prepared an early set of parts for Os justi.</p>
+               <lb/><hi rend="italic">Anonymus</hi> 112 (W) prepared an early set of parts for <hi rend="italic">Os justi</hi>.</p>
             <table>
                <head>Abschriften</head>
                <row xml:lang="de" role="label">

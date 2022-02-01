@@ -61,10 +61,10 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Der Kopist Anonymus 039 kopierte eine Abschrift des Apollo-Marsches, der jedoch nicht von Bruckner stammt.
+               <lb/>Der Kopist Anonymus 039 kopierte eine Abschrift des <hi rend="italic">Apollo-Marsches</hi>, der jedoch nicht von Bruckner stammt.
                 </p>
             <p decls="desc" xml:lang="eng">
-               <lb/>The copyist Anonymus 039 copied a score of the Apollo March, which is not by Bruckner.
+               <lb/>The copyist <hi rend="italic">Anonymus</hi> 039 copied a score of the <hi rend="italic">Apollo March</hi>, which is not by Bruckner.
                 </p>
             <table>
                <head>Abschriften</head>

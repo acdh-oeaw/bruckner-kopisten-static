@@ -49,7 +49,7 @@
          <div xml:id="content-d1e20845">
             <listPerson>
                <person>
-                  <persName subtype="W" type="main">Anonymus 153</persName>
+                  <persName type="main">Anonymus 153</persName>
                   <persName type="before">Kopist, Regeredam</persName>
                   <idno type="alphabetically_sorted">Anonymus 153</idno>
                   <residence>St. Florian</residence>
@@ -63,13 +63,13 @@
             </listPerson>
             <p decls="desc" xml:lang="de">
                <lb/>Es handelt sich vermutlich um einen Spitznamen, der dem Kopisten, der den
-               Stimmensatz zum Hymnus In Sanctum Angelum custodem im Jahr 1924 anfertigte,
+               Stimmensatz zum Hymnus <hi rend="italic">In Sanctum Angelum custodem</hi> im Jahr 1924 anfertigte,
                zugeschrieben wurde. Möglicherweise handelt es sich um einen Novizen oder Musiker aus
                dem Stift St. Florian. 
                <lb/>Für weitere Kopisten aus St. Florian siehe <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>.</p>
             <p decls="desc" xml:lang="eng">
-               <lb/>A moniker for the copyist who prepared a set of parts for In Sanctum Angelum
-               custodem in 1924. He may have been a student or musician at St. Florian. 
+               <lb/>A moniker for the copyist who prepared a set of parts for <hi rend="italic">In Sanctum Angelum
+               custodem</hi> in 1924. He may have been a student or musician at St. Florian. 
                <lb/>For more copyists from St. Florian, see <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Table 3</ref>.</p>
             <p decls="link" xml:lang="de"/>
             <p decls="link" xml:lang="eng"/>

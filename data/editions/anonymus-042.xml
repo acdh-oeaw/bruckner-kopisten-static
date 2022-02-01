@@ -50,7 +50,7 @@
             <listPerson>
                <person>
                   <persName subtype="W" type="main">Anonymus 042</persName>
-                  <idno type="alphabetically_sorted">Anonymus 042</idno>
+                  <idno type="alphabetically_sorted">Anonymus 042 (W)</idno>
                   <floruit from="1869" to="1873">1869–1873</floruit>
                   <residence/>
                   <affiliation xml:lang="de">Wiener Kopisten</affiliation>
@@ -62,10 +62,10 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Der Kopist Anonymus 042 fertigte lediglich einen Bogen für das Kyrie der Messe in f-Moll an. Da dieser Bogen mit der Lesart von 1873 wieder aus der Partitur genommen wurde, lässt sich der Bogen auf die Zeit zwischen der Fertigstellung der autographen Partitur am 09.09.1868 und 1873 datieren.
+               <lb/>Der Kopist Anonymus 042 (W) fertigte lediglich einen Bogen für das Kyrie der <hi rend="italic">Messe in f-Moll</hi> an. Da dieser Bogen in der Lesart von 1873 wieder aus der Partitur genommen wurde, lässt sich der Bogen auf die Zeit zwischen der Fertigstellung der autographen Partitur am 09.09.1868 und 1873 datieren.
             </p>
             <p decls="desc" xml:lang="eng">
-               <lb/>Anonymus 042 prepared a bifolio of the Kyrie of the Mass in F minor. Because it was replaced by the reading of 1873, it must have been copied between that year and 9 September 1868, when Bruckner finished the autograph score.</p>
+               <lb/><hi rend="italic">Anonymus</hi> 042 (W) prepared a bifolio of the Kyrie of the <hi rend="italic">Mass in F minor</hi>. Because it was replaced by the reading of 1873, it must have been copied between that year and 9 September 1868, when Bruckner finished the autograph score.</p>
             <table>
                <head>Abschriften</head>
                <row xml:lang="de" role="label">

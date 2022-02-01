@@ -68,12 +68,13 @@
             <p decls="desc" xml:lang="de">
                <lb/>Bei dem bei weitem produktivsten Kopisten der Sekundärquellen zu Bruckners Musik
                handelt es sich um einen Schreiber, der Partituren mit den Initialen „J. H.”
-               unterzeichnet. In seiner Partiturbschrift (A-Wn Mus.Hs.19700) des Psalms 114 ist den
-               Initialen einen Vokal beigegeben, sodass „J. Ha.” oder „J. Ho.” als Namensvarianten
-               lesbar werden. Weiterhin finden sich Handschriften, die entweder nur mit „H.” oder
-               keiner Paraphe gezeichnet sind. Zwei seiner Manuskripte - eine Partitur von Psalm 146
-               (A-WnMus.Hs.19701) und ein zweihändiger Klavierauszug der Symphonie in f-Moll
-               (A-WnMus.Hs.19668) - sind mit 1904 datiert. <lb/>Mit Blick auf die Vielzahl an
+               unterzeichnet. In seiner Partiturbschrift (A-Wn Mus.Hs.19700) des <hi rend="italic"
+                  >Psalms 114</hi> ist den Initialen einen Vokal beigegeben, sodass „J. Ha.” oder
+               „J. Ho.” als Namensvarianten lesbar werden. Weiterhin finden sich Handschriften, die
+               entweder nur mit „H.” oder keiner Paraphe gezeichnet sind. Zwei seiner Manuskripte –
+               eine Partitur von <hi rend="italic">Psalm 146</hi> (A-WnMus.Hs.19701) und ein
+               zweihändiger Klavierauszug der <hi rend="italic">Symphonie in f-Moll</hi>
+               (A-WnMus.Hs.19668) – sind mit 1904 datiert. <lb/>Mit Blick auf die Vielzahl an
                handschriftlichen Ergänzungen von August Göllerich ist davon auszugehen, dass der
                Kopist J. H. von Göllerich beauftragt wurde, autographe Partituren zu kopieren und in
                vielen Fällen Stichvorlagen für dessen Bruckner-Biographie anzufertigen. Ein
@@ -82,13 +83,14 @@
                (schwarz und blau) innerhalb derselben Handschrift. </p>
             <p decls="desc" xml:lang="eng">
                <lb/>By far the most prolific copyist of secondary sources of Bruckner’s music is an
-               individual who identified himself with the initials “J. H.”. In his copy of Psalm 114
-               (A-WnMus.Hs.19700) the “H” appears to have a vowel after it, perhaps “J. Ha.” or “J.
-               Ho.”. In most cases he did not identify himself at all, and in some he signed only as
-               “H.”. Two of his manuscripts – a score of Psalm 146 (A-WnMus.Hs.19701) and a two-hand
-               piano reduction of the Student Symphony in F minor (A-WnMus.Hs.19668) – are dated
-               1904. <lb/>He was almost certainly engaged by August Göllerich to prepare manuscripts
-               as study scores and, in many cases, as engravers’ copies for the latter’s Bruckner
+               individual who identified himself with the initials “J. H.”. In his copy of <hi
+                  rend="italic">Psalm 114</hi> (A-WnMus.Hs.19700) the “H” appears to have a vowel
+               after it, perhaps “J. Ha.” or “J. Ho.”. In most cases he did not identify himself at
+               all, and in some he signed only as “H.”. Two of his manuscripts – a score of <hi
+                  rend="italic">Psalm 146</hi> (A-WnMus.Hs.19701) and a two-hand piano reduction of
+               the <hi rend="italic">Symphony in F minor</hi> (A-WnMus.Hs.19668) – are dated 1904.
+               <lb/>He was almost certainly engaged by August Göllerich to prepare manuscripts as
+               study scores and, in many cases, as engravers’ copies for the latter’s Bruckner
                biography. A unique characteristic of J. H.’s manuscripts is that he often used blue
                and black ink in the same source. </p>
             <p decls="link" xml:lang="de"/>
@@ -120,7 +122,9 @@
                      <date when="1842">1842</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19695">A-WnMus.Hs.19695</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19695"
+                        >A-WnMus.Hs.19695</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9376">Messe in C-Dur
@@ -140,7 +144,8 @@
                      <date from="1843" to="1845">1843–1845</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-SF20-69a">A-SF20-69a</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-SF20-69a"
+                        >A-SF20-69a</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9254 d1e9246">Libera me,
@@ -160,7 +165,9 @@
                      <date notAfter="1843-09-19">vor 19.09.1843</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19761">A-WnMus.Hs.19761</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19761"
+                        >A-WnMus.Hs.19761</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e8642">An dem Feste</ref> /
@@ -181,7 +188,9 @@
                      <date when="1844">1844</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19697">A-WnMus.Hs.19697</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19697"
+                        >A-WnMus.Hs.19697</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9365">Choralmesse Christus
@@ -201,7 +210,9 @@
                      <date from="1844" to="1868">zwischen 1844–1868</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.33198">A-WnMus.Hs.33198</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.33198"
+                        >A-WnMus.Hs.33198</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e8741">Dir, Herr, dir will
@@ -221,7 +232,9 @@
                      <date from="1844" to="1845">[1844 oder 1845]</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19718">A-WnMus.Hs.19718</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19718"
+                        >A-WnMus.Hs.19718</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e10029">Tantum ergo</ref>
@@ -240,7 +253,9 @@
                      <date from="1845" to="1855">1845–1855</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19754">A-WnMus.Hs.19754</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19754"
+                        >A-WnMus.Hs.19754</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9238">Der Lehrerstand</ref>
@@ -259,7 +274,9 @@
                      <date from="1845" to="1846">1845–1846</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.33199">A-WnMus.Hs.33199</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.33199"
+                        >A-WnMus.Hs.33199</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e8860">Wie des Bächleins
@@ -279,7 +296,9 @@
                      <date from="1845" to="1846">1845–1846</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19760">A-WnMus.Hs.19760</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19760"
+                        >A-WnMus.Hs.19760</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9765">Ständchen</ref>
@@ -298,10 +317,13 @@
                      <date from="1845" to="1846">1845–1846</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.33199">A-WnMus.Hs.33199</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.33199"
+                        >A-WnMus.Hs.33199</ref>
                   </cell>
                   <cell role="Werktitel">
-                     <ref target="http://www.bruckner-online.at/ABLO_d1e8860">Duetto</ref> / <ref target="http://www.bruckner-online.at/ABLO_d1e9765">Ständchen</ref>
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e8860">Duetto</ref> / <ref
+                        target="http://www.bruckner-online.at/ABLO_d1e9765">Ständchen</ref>
                   </cell>
                   <cell role="WAB-Nummer">
                      <ref target="http://www.bruckner-online.at/wab-084">084</ref>
@@ -317,7 +339,9 @@
                      <date from="1845-05" to="1845-07">Mai–Juli 1845</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19735">A-WnMus.Hs.19735</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19735"
+                        >A-WnMus.Hs.19735</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9465">Musikalischer
@@ -337,7 +361,9 @@
                      <date from="1845-05" to="1845-07">Mai–Juli 1845</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19736">A-WnMus.Hs.19736</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19736"
+                        >A-WnMus.Hs.19736</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9465">Vergiss mein
@@ -357,7 +383,9 @@
                      <date when="1848">[1848]</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.33199">A-WnMus.Hs.33199</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.33199"
+                        >A-WnMus.Hs.33199</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e8749">In jener letzten der
@@ -377,11 +405,14 @@
                      <date when="1851">1851</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19738">A-WnMus.Hs.19738</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19738"
+                        >A-WnMus.Hs.19738</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9173">Ein jubelnd Hoch in
-                        Leid und Lust</ref> / <ref target="http://www.bruckner-online.at/ABLO_d1e9230">Lebt wohl, ihr
+                        Leid und Lust</ref> / <ref
+                        target="http://www.bruckner-online.at/ABLO_d1e9230">Lebt wohl, ihr
                         Sangesbrüder</ref>
                   </cell>
                   <cell role="WAB-Nummer">
@@ -398,7 +429,9 @@
                      <date when="1851">vermutlich 1851</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19752">A-WnMus.Hs.19752</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19752"
+                        >A-WnMus.Hs.19752</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e8876">Das edle Herz</ref>
@@ -417,7 +450,9 @@
                      <date when="1851">1851</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19778">A-WnMus.Hs.19778</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19778"
+                        >A-WnMus.Hs.19778</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e8892">Entsagen</ref>
@@ -436,7 +471,9 @@
                      <date when="1852">1852</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19724">A-WnMus.Hs.19724</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19724"
+                        >A-WnMus.Hs.19724</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e10067">Zwei
@@ -456,7 +493,9 @@
                      <date when="1852-03-19">19.03.1852</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19738">A-WnMus.Hs.19738</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19738"
+                        >A-WnMus.Hs.19738</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9005">Die Geburt</ref>
@@ -475,7 +514,9 @@
                      <date notAfter="1852-07-30">vor 30.07.1852</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19700">A-WnMus.Hs.19700</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19700"
+                        >A-WnMus.Hs.19700</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9630">Psalm 114</ref>
@@ -494,7 +535,9 @@
                      <date when="1852-08-15">15.08.1852</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.33192">A-WnMus.Hs.33192</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.33192"
+                        >A-WnMus.Hs.33192</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9301">Magnificat</ref>
@@ -513,7 +556,9 @@
                      <date when="1854">[vermutlich 1854]</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19719">A-WnMus.Hs.19719</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19719"
+                        >A-WnMus.Hs.19719</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9999">Tantum ergo</ref>
@@ -532,7 +577,9 @@
                      <date from="1854-03-24" to="1854-03-28">24.03.1854–28.03.1854</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19709">A-WnMus.Hs.19709</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19709"
+                        >A-WnMus.Hs.19709</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9261">Libera me,
@@ -552,7 +599,9 @@
                      <date from="1854-03-24" to="1854-03-28">24.03.1854–28.03.1854</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19774">A-WnMus.Hs.19774</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19774"
+                        >A-WnMus.Hs.19774</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e10195">Vor Arneths
@@ -573,7 +622,9 @@
                         08.08.1854</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19694">A-WnMus.Hs.19694</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19694"
+                        >A-WnMus.Hs.19694</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9441">Missa solemnis</ref>
@@ -592,7 +643,9 @@
                      <date when="1855-07-17">17.07.1855</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19727">A-WnMus.Hs.19727</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19727"
+                        >A-WnMus.Hs.19727</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e8688">Auf, Brüder! auf, und
@@ -612,7 +665,9 @@
                      <date when="1855-12-06">06.12.1855</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19725">A-WnMus.Hs.19725</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19725"
+                        >A-WnMus.Hs.19725</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e8940">Festgesang</ref>
@@ -631,7 +686,9 @@
                      <date when="1855-12-06">06.12.1855</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19726">A-WnMus.Hs.19726</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19726"
+                        >A-WnMus.Hs.19726</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e8940">Festgesang</ref>
@@ -650,7 +707,9 @@
                      <date notAfter="1857-07-10">vor 10.07.1857</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19728">A-WnMus.Hs.19728</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19728"
+                        >A-WnMus.Hs.19728</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e8696">Auf, Brüder, auf zur
@@ -670,7 +729,9 @@
                      <date when="1857-12">Dezember 1857</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19780">A-WnMus.Hs.19780</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19780"
+                        >A-WnMus.Hs.19780</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e8884">Das edle Herz</ref>
@@ -689,7 +750,9 @@
                      <date when="1860">etwa 1860</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.33199">A-WnMus.Hs.33199</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.33199"
+                        >A-WnMus.Hs.33199</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9638">Psalm 146</ref>
@@ -708,7 +771,9 @@
                      <date when="1860">etwa 1860</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19701">A-WnMus.Hs.19701</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19701"
+                        >A-WnMus.Hs.19701</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9638">Psalm 146</ref>
@@ -727,7 +792,9 @@
                      <date from="1861" to="1863">1861-1863</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19687">A-WnMus.Hs.19687</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19687"
+                        >A-WnMus.Hs.19687</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9181">Klavierstück</ref>
@@ -746,7 +813,9 @@
                      <date when="1861-11-07">07.11.1861</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.33190">A-WnMus.Hs.33190</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.33190"
+                        >A-WnMus.Hs.33190</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e8577">Afferentur regi</ref>
@@ -765,7 +834,9 @@
                      <date when="1861-12-05">05.12.1861</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19776">A-WnMus.Hs.19776</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19776"
+                        >A-WnMus.Hs.19776</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e8851">Du bist wie eine
@@ -785,7 +856,9 @@
                      <date when="1862-01">Januar 1862</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19743">A-WnMus.Hs.19743</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19743"
+                        >A-WnMus.Hs.19743</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e8515">Der Abendhimmel</ref>
@@ -804,7 +877,9 @@
                      <date when="1862-04-25">25.04.1862</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19733">A-WnMus.Hs.19733</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19733"
+                        >A-WnMus.Hs.19733</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e8949">Festkantate</ref>
@@ -823,7 +898,9 @@
                      <date when="1862-11-16">16.11.1862</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19680">A-WnMus.Hs.19680</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19680"
+                        >A-WnMus.Hs.19680</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9514">Drei
@@ -843,7 +920,9 @@
                      <date when="1863-01-22">22.01.1863</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19678">A-WnMus.Hs.19678</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19678"
+                        >A-WnMus.Hs.19678</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9538">Ouvertüre</ref>
@@ -862,7 +941,9 @@
                      <date when="1863-05-26">26.05.1863</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19668">A-WnMus.Hs.19668</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19668"
+                        >A-WnMus.Hs.19668</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9813">Symphonie in
@@ -882,7 +963,9 @@
                      <date when="1863-10-10">10.10.1863</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19687">A-WnMus.Hs.19687</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19687"
+                        >A-WnMus.Hs.19687</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9062">Herbstseufzer</ref> /
@@ -903,7 +986,9 @@
                      <date when="1864-04-12">12.04.1864</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19767">A-WnMus.Hs.19767</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19767"
+                        >A-WnMus.Hs.19767</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e10122">Um Mitternacht</ref>
@@ -922,7 +1007,9 @@
                      <date when="1865-08-12">12.08.1865</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19683">A-WnMus.Hs.19683</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19683"
+                        >A-WnMus.Hs.19683</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9317">Marsch in Es-Dur</ref>
@@ -941,7 +1028,9 @@
                      <date when="1866-06-07">07.06.1866</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19686">A-WnMus.Hs.19686</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19686"
+                        >A-WnMus.Hs.19686</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e8531">Abendklänge</ref>
@@ -977,7 +1066,9 @@
                      <date when="1868-09-10">10.09.1868</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19687">A-WnMus.Hs.19687</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19687"
+                        >A-WnMus.Hs.19687</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e8924">Fantasie</ref>
@@ -996,7 +1087,9 @@
                      <date from="1869-01-24" to="1869-09-12">24.01.1869–12.09.1869</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19669">A-WnMus.Hs.19669</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19669"
+                        >A-WnMus.Hs.19669</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9821">Symphonie in
@@ -1017,7 +1110,9 @@
                      <date from="1875-02-14" to="1876-05-16">14.02.1875–16.05.1876</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.6031">A-WnMus.Hs.6031</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.6031"
+                        >A-WnMus.Hs.6031</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9894">5. Symphonie, 4.
@@ -1037,7 +1132,9 @@
                      <date from="1882-01-01" to="1882-02-15">01.01.1882–15.02.1882</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19772">A-WnMus.Hs.19772</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19772"
+                        >A-WnMus.Hs.19772</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e10178">Volkslied</ref>
@@ -1056,7 +1153,9 @@
                      <date from="1884-06" to="1887-08-10">Juni 1884–10.08.1887</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.6054">A-WnMus.Hs.6054</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.6054"
+                        >A-WnMus.Hs.6054</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9943">8. Symphonie, 1.
@@ -1076,7 +1175,9 @@
                      <date from="1884-06" to="1887-08-10">Juni 1884–10.08.1887</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.6054">A-WnMus.Hs.6054</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.6054"
+                        >A-WnMus.Hs.6054</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9943">8. Symphonie, 1.
@@ -1096,7 +1197,9 @@
                      <date from="1885-04-20" to="1885-04-28">20.04.1885–28.04.1885</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19708">A-WnMus.Hs.19708</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19708"
+                        >A-WnMus.Hs.19708</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e8868">Ecce sacerdos
@@ -1113,22 +1216,27 @@
                </row>
             </table>
             <list>
-               <head xml:lang="de">Beispiele entnommen aus: <ref target="Kopist_J.H._A-WnMus.Hs.33190-01r.jpg">A-WnMus.Hs.33190</ref> und <ref target="Kopist_J.H._A-WnMus.Hs.33198-01r.jpg">A-WnMus.Hs.33198</ref>
+               <head xml:lang="de">Beispiele entnommen aus: <ref
+                     target="Kopist_J.H._A-WnMus.Hs.33190-01r.jpg">A-WnMus.Hs.33190</ref> und <ref
+                     target="Kopist_J.H._A-WnMus.Hs.33198-01r.jpg">A-WnMus.Hs.33198</ref>
                </head>
-               <head xml:lang="eng">Examples taken from: <ref target="Kopist_J.H._A-WnMus.Hs.33190-01r.jpg">A-WnMus.Hs.33190</ref> and <ref target="Kopist_J.H._A-WnMus.Hs.33198-01r.jpg">A-WnMus.Hs.33198</ref>
+               <head xml:lang="eng">Examples taken from: <ref
+                     target="Kopist_J.H._A-WnMus.Hs.33190-01r.jpg">A-WnMus.Hs.33190</ref> and <ref
+                     target="Kopist_J.H._A-WnMus.Hs.33198-01r.jpg">A-WnMus.Hs.33198</ref>
                </head>
                <item>
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_A-Clefs_F.png"/>
+                        url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_A-Clefs_F.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_A-Clefs_G.png"/>
+                        url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_A-Clefs_G.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33198_A-Clefs_F.png"/>
+                        url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33198_A-Clefs_F.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33198_A-Clefs_G.png"/>
+                        url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33198_A-Clefs_G.png"
+                     />
                   </figure>
                </item>
                <item>
@@ -1136,11 +1244,12 @@
                   <title xml:lang="eng">Accidentals</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_B-Accidentals_Flat.png"/>
+                        url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_B-Accidentals_Flat.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_B-Accidentals_Natural.png"/>
+                        url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_B-Accidentals_Natural.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33198_B-Accidentals_Sharp.png"/>
+                        url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33198_B-Accidentals_Sharp.png"
+                     />
                   </figure>
                </item>
                <item>
@@ -1148,9 +1257,10 @@
                   <title xml:lang="eng">Time Signatures</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_C-Time-Signatures_3_4.png"/>
+                        url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_C-Time-Signatures_3_4.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33198_C-Time-Signatures_C.png"/>
+                        url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33198_C-Time-Signatures_C.png"
+                     />
                   </figure>
                </item>
                <item>
@@ -1158,7 +1268,8 @@
                   <title xml:lang="eng">Rests</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_D-Rests_Viertel.png"/>
+                        url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_D-Rests_Viertel.png"
+                     />
                   </figure>
                </item>
                <item>
@@ -1166,21 +1277,22 @@
                   <title xml:lang="eng">Notes</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_E-Notes_Achtel.png"/>
+                        url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_E-Notes_Achtel.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_E-Notes_Achtel_2.png"/>
+                        url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_E-Notes_Achtel_2.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_E-Notes_Halbe.png"/>
+                        url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_E-Notes_Halbe.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_E-Notes_Sechzehntel.png"/>
+                        url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_E-Notes_Sechzehntel.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_E-Notes_Viertel.png"/>
+                        url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_E-Notes_Viertel.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33198_E-Notes_Ganze.png"/>
+                        url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33198_E-Notes_Ganze.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33198_E-Notes_Halbe.png"/>
+                        url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33198_E-Notes_Halbe.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33198_E-Notes_Viertel.png"/>
+                        url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33198_E-Notes_Viertel.png"
+                     />
                   </figure>
                </item>
                <item>
@@ -1188,13 +1300,14 @@
                   <title xml:lang="eng">Dynamics</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_F-Dynamics_Forte.png"/>
+                        url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_F-Dynamics_Forte.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_F-Dynamics_Fortissimo.png"/>
+                        url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_F-Dynamics_Fortissimo.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_F-Dynamics_Mezzoforte.png"/>
+                        url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_F-Dynamics_Mezzoforte.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_F-Dynamics_Piano.png"/>
+                        url="../../101_samples/named/H/JH_Kopist/Kopist_J.H._A-WnMus.Hs.33190_F-Dynamics_Piano.png"
+                     />
                   </figure>
                </item>
             </list>

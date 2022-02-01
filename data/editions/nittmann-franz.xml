@@ -70,7 +70,7 @@
             </listPerson>
             <p decls="desc" xml:lang="de">
                <lb/>Nittmann war als Hornist am Wiener Hofoperntheater tätig und kopierte einen Teil
-               des Stimmensatzes (A-WnMus.Hs.6075) zur Messe in f-Moll. Als Kopist war er ebenfalls für
+               des Stimmensatzes (A-WnMus.Hs.6075) zur <hi rend="italic">Messe in f-Moll</hi>. Als Kopist war er ebenfalls für
                Johannes Brahms tätig.<ref xml:id="footnote-ref077" target="#footnote077" type="noteAnchor">1</ref>
                <note xml:id="footnote077" type="footnote" anchored="true" n="1">Die vorläufige
                   Identifizierung der Handschrift Nittmanns erfolgte durch Johannes Behr. Vgl. Behr,
@@ -78,7 +78,7 @@
             </p>
             <p decls="desc" xml:lang="eng">
                <lb/>Nittmann worked as a horn player at the Wiener Hofoperntheater and copied parts
-               of the set (A-WnMus.Hs.6075) for the Mass in F minor. He also worked as a copyist for
+               of the set (A-WnMus.Hs.6075) for the <hi rend="italic">Mass in F minor</hi>. He also worked as a copyist for
                   Brahms.<ref xml:id="footnote-ref078" target="#footnote078" type="noteAnchor">1</ref>
                <note xml:id="footnote078" type="footnote" anchored="true" n="1">The preliminary
                   identification of Nittmann’s handwritting was made by Johannes Behr. Cf. Behr,

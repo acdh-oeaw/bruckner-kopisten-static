@@ -50,7 +50,7 @@
             <listPerson>
                <person>
                   <persName subtype="W" type="main">Anonymus 141</persName>
-                  <idno type="alphabetically_sorted">Anonymus 141</idno>
+                  <idno type="alphabetically_sorted">Anonymus 141 (W)</idno>
                   <floruit from="1892" to="1896">1896</floruit>
                   <residence>Linz</residence>
                   <affiliation xml:lang="de">Linzer Kopisten</affiliation>
@@ -62,10 +62,10 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>In der Partiturabschrift findet sich ein Stempel der „Liedertafel Frohsinn“, der daraufhin deutet, dass der Kopist Anonymus 141 in Linz arbeitete. Außerdem weist die Abschrift autographe Eintragungen auf.
+               <lb/>In der Partiturabschrift findet sich ein Stempel der <hi rend="italic">Liedertafel »Frohsinn«</hi>, der daraufhin deutet, dass der Kopist Anonymus 141 (W) in Linz arbeitete. Außerdem weist die Abschrift autographe Eintragungen auf.
                <lb/>Für weitere Kopisten aus Linz siehe <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>.</p>
             <p decls="desc" xml:lang="eng">
-               <lb/>The score has a stamp from the “Liedertafel Frohsinn” suggesting the copyist may have worked in Linz. The score has autograph entrances. 
+               <lb/>The score has a stamp from the <hi rend="italic">Liedertafel »Frohsinn«</hi> suggesting the copyist may have worked in Linz. The score has autograph entrances. 
                <lb/>For more copyists from Linz, see <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Table 3</ref>.</p>
             <table>
                <head>Abschriften</head>

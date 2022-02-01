@@ -56,7 +56,8 @@
                   </persName>
                   <idno type="alphabetically_sorted">Rott, Hans</idno>
                   <idno type="GND">121196488</idno>
-                  <floruit from="1878" to="1878">ca. 1878</floruit>
+                  <floruit from="1878" to="1878" xml:lang="de">ca. 1878</floruit>
+                  <floruit from="1878" to="1878" xml:lang="eng">ca. 1878</floruit>
                   <residence/>
                   <affiliation xml:lang="de"/>
                   <affiliation xml:lang="eng"/>

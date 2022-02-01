@@ -61,10 +61,10 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Das Schreibprofil des Kopisten Anonymus 059 konnte dem Kopisten Anonymus 024 zugeordnet werden. Die entsprechenden Abschriften werden unter diesem Namen geführt.
+               <lb/>Das Schreibprofil des Kopisten Anonymus 059 konnte dem Kopisten Anonymus 024 (W) zugeordnet werden. Die entsprechenden Abschriften werden unter diesem Namen geführt.
                 </p>
             <p decls="desc" xml:lang="eng">
-               <lb/>The writing profile of the copyist Anonymus 059 could be assigned to the copyist Anonymus 024. The respective copies are listed under this name.
+               <lb/>The writing profile of the copyist <hi rend="italic">Anonymus</hi> 059 could be assigned to the copyist <hi rend="italic">Anonymus</hi> 024 (W). The respective copies are listed under this name.
                 </p>
             <table>
                <head>Abschriften</head>

@@ -67,13 +67,13 @@
             </listPerson>
             <p decls="desc" xml:lang="de">
                <lb/>Kopist Fischer signierte die Bass-Stimme aus dem Stimmensatz (A-WnMus.Hs.19700)
-               zum Psalm 114, der lediglich als Hektographie überliefert ist. Weder Ort, Zeit oder
-               Kontext der Herstellung des Stimmensatzes ist bekannt, so dass auch über Kopist
-               Fischer keine weiteren Angaben vorliegen. </p>
+               zum <hi rend="italic">Psalm 114</hi>, der lediglich als Hektographie überliefert ist.
+               Weder Ort, Zeit oder Kontext der Herstellung des Stimmensatzes ist bekannt, so dass
+               auch über Kopist Fischer keine weiteren Angaben vorliegen. </p>
             <p decls="desc" xml:lang="eng">
                <lb/>This copyist identified himself in A-WnMus.Hs.19700 as the copyist of a set of
-               parts that survives only in hectographic reproductions for Psalm 114. Nothing is
-               known about when or where he worked. </p>
+               parts that survives only in hectographic reproductions for <hi rend="italic">Psalm
+                  114</hi>. Nothing is known about when or where he worked. </p>
             <p decls="link" xml:lang="de"/>
             <p decls="link" xml:lang="eng"/>
             <table>
@@ -103,7 +103,9 @@
                      <date notAfter="1852-07-30">vor 30.07.1852</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19700">A-WnMus.Hs.19700</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19700"
+                        >A-WnMus.Hs.19700</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9630">Psalm 114</ref>
@@ -122,7 +124,8 @@
                      <date notAfter="1852-07-30">vor 30.07.1852</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMS66950-4">A-WnMS66950-4°</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMS66950-4"
+                        >A-WnMS66950-4°</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9630">Psalm 114</ref>
@@ -141,7 +144,8 @@
                      <date notAfter="1852-07-30">vor 30.07.1852</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-LId483_8_29">A-LId483_8_29</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-LId483_8_29"
+                        >A-LId483_8_29</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9630">Psalm 114</ref>
@@ -157,16 +161,19 @@
                </row>
             </table>
             <list>
-               <head xml:lang="de">Beispiele entnommen aus: <ref target="Kopist_Fischer_A-WnMus.Hs.19700-29.jpg">A-WnMus.Hs.19700</ref>
+               <head xml:lang="de">Beispiele entnommen aus: <ref
+                     target="Kopist_Fischer_A-WnMus.Hs.19700-29.jpg">A-WnMus.Hs.19700</ref>
                </head>
-               <head xml:lang="eng">Examples taken from: <ref target="Kopist_Fischer_A-WnMus.Hs.19700-29.jpg">A-WnMus.Hs.19700</ref>
+               <head xml:lang="eng">Examples taken from: <ref
+                     target="Kopist_Fischer_A-WnMus.Hs.19700-29.jpg">A-WnMus.Hs.19700</ref>
                </head>
                <item>
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/F/Fischer_Kopist/Kopist_Fischer_A-WnMus.Hs.19700_A-Clefs_G.png"/>
+                        url="../../101_samples/named/F/Fischer_Kopist/Kopist_Fischer_A-WnMus.Hs.19700_A-Clefs_G.png"
+                     />
                   </figure>
                </item>
                <item>
@@ -174,11 +181,12 @@
                   <title xml:lang="eng">Accidentals</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/F/Fischer_Kopist/Kopist_Fischer_A-WnMus.Hs.19700_B-Accidentals_Flat.png"/>
+                        url="../../101_samples/named/F/Fischer_Kopist/Kopist_Fischer_A-WnMus.Hs.19700_B-Accidentals_Flat.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/F/Fischer_Kopist/Kopist_Fischer_A-WnMus.Hs.19700_B-Accidentals_Natural.png"/>
+                        url="../../101_samples/named/F/Fischer_Kopist/Kopist_Fischer_A-WnMus.Hs.19700_B-Accidentals_Natural.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/F/Fischer_Kopist/Kopist_Fischer_A-WnMus.Hs.19700_B-Accidentals_Sharp.png"/>
+                        url="../../101_samples/named/F/Fischer_Kopist/Kopist_Fischer_A-WnMus.Hs.19700_B-Accidentals_Sharp.png"
+                     />
                   </figure>
                </item>
                <item>
@@ -186,9 +194,10 @@
                   <title xml:lang="eng">Time Signatures</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/F/Fischer_Kopist/Kopist_Fischer_A-WnMus.Hs.19700_C-Time-Signatures_3_4.png"/>
+                        url="../../101_samples/named/F/Fischer_Kopist/Kopist_Fischer_A-WnMus.Hs.19700_C-Time-Signatures_3_4.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/F/Fischer_Kopist/Kopist_Fischer_A-WnMus.Hs.19700_C-Time-Signatures_C.png"/>
+                        url="../../101_samples/named/F/Fischer_Kopist/Kopist_Fischer_A-WnMus.Hs.19700_C-Time-Signatures_C.png"
+                     />
                   </figure>
                </item>
                <item>
@@ -196,9 +205,10 @@
                   <title xml:lang="eng">Rests</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/F/Fischer_Kopist/Kopist_Fischer_A-WnMus.Hs.19700_D-Rests_Achtel.png"/>
+                        url="../../101_samples/named/F/Fischer_Kopist/Kopist_Fischer_A-WnMus.Hs.19700_D-Rests_Achtel.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/F/Fischer_Kopist/Kopist_Fischer_A-WnMus.Hs.19700_D-Rests_Viertel.png"/>
+                        url="../../101_samples/named/F/Fischer_Kopist/Kopist_Fischer_A-WnMus.Hs.19700_D-Rests_Viertel.png"
+                     />
                   </figure>
                </item>
                <item>
@@ -206,13 +216,14 @@
                   <title xml:lang="eng">Notes</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/F/Fischer_Kopist/Kopist_Fischer_A-WnMus.Hs.19700_E-Notes_Achtel.png"/>
+                        url="../../101_samples/named/F/Fischer_Kopist/Kopist_Fischer_A-WnMus.Hs.19700_E-Notes_Achtel.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/F/Fischer_Kopist/Kopist_Fischer_A-WnMus.Hs.19700_E-Notes_Halbe.png"/>
+                        url="../../101_samples/named/F/Fischer_Kopist/Kopist_Fischer_A-WnMus.Hs.19700_E-Notes_Halbe.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/F/Fischer_Kopist/Kopist_Fischer_A-WnMus.Hs.19700_E-Notes_Sechzehntel.png"/>
+                        url="../../101_samples/named/F/Fischer_Kopist/Kopist_Fischer_A-WnMus.Hs.19700_E-Notes_Sechzehntel.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/F/Fischer_Kopist/Kopist_Fischer_A-WnMus.Hs.19700_E-Notes_Viertel.png"/>
+                        url="../../101_samples/named/F/Fischer_Kopist/Kopist_Fischer_A-WnMus.Hs.19700_E-Notes_Viertel.png"
+                     />
                   </figure>
                </item>
                <item>
@@ -220,13 +231,14 @@
                   <title xml:lang="eng">Dynamics</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/F/Fischer_Kopist/Kopist_Fischer_A-WnMus.Hs.19700_F-Dynamics_Crescendo_Decrescendo.png"/>
+                        url="../../101_samples/named/F/Fischer_Kopist/Kopist_Fischer_A-WnMus.Hs.19700_F-Dynamics_Crescendo_Decrescendo.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/F/Fischer_Kopist/Kopist_Fischer_A-WnMus.Hs.19700_F-Dynamics_Forte.png"/>
+                        url="../../101_samples/named/F/Fischer_Kopist/Kopist_Fischer_A-WnMus.Hs.19700_F-Dynamics_Forte.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/F/Fischer_Kopist/Kopist_Fischer_A-WnMus.Hs.19700_F-Dynamics_Fortissimo.png"/>
+                        url="../../101_samples/named/F/Fischer_Kopist/Kopist_Fischer_A-WnMus.Hs.19700_F-Dynamics_Fortissimo.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/F/Fischer_Kopist/Kopist_Fischer_A-WnMus.Hs.19700_F-Dynamics_Piano.png"/>
+                        url="../../101_samples/named/F/Fischer_Kopist/Kopist_Fischer_A-WnMus.Hs.19700_F-Dynamics_Piano.png"
+                     />
                   </figure>
                </item>
             </list>

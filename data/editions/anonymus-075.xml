@@ -51,7 +51,7 @@
                <person>
                   <persName subtype="W" type="main">Anonymus 075</persName>
                   <persName type="before">Anonymus 8/5</persName>
-                  <idno type="alphabetically_sorted">Anonymus 075</idno>
+                  <idno type="alphabetically_sorted">Anonymus 075 (W)</idno>
                   <floruit from="1888" to="1888">1888(?)</floruit>
                   <residence/>
                   <affiliation xml:lang="de">Wiener Kopisten</affiliation>
@@ -63,11 +63,11 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Neben den Kopisten Anonymus 013 und 016 gehören auch die Kopisten Anonymus 072–075 zu den noch nicht identifizierten Kopisten, die an Abschriften zur 8. Symphonie arbeiteten. Die Kopisten Anonymus 072 und 074 fertigten zwischen 1886 oder 1887 eine Partiturabschrift der 1. Fassung an, wohingegen der Kopist Anonymus 073 zwischen 1891 und 1893 die Abschrift zur 2. Fassung der Symphonie besorgte. Der Kopist Anonymus 075 kopierte – wahrscheinlich um 1888 – die einzig erhaltene Abschrift zur Zwischenfassung des Adagios. Das Schreibprofil des Kopisten Anonymus 072 lässt sich auch in der Partiturabschrift der 2. Fassung der 1. Symphonie, die Hans Richter im Dezember 1891 vermutlich für sein Dirigat nutzte, wiedererkennen.<ref xml:id="footnote-ref045" target="#footnote045" type="noteAnchor">1</ref>
+               <lb/>Neben den Kopisten Anonymus 013 (W) und 016 (W) gehören auch die Kopisten Anonymus 072–075 (W) zu den noch nicht identifizierten Kopisten, die an Abschriften zur <hi rend="italic">8. Symphonie</hi> arbeiteten. Die Kopisten Anonymus 072 (W) und 074 (W) fertigten zwischen 1886 oder 1887 eine Partiturabschrift der 1. Fassung an, wohingegen der Kopist Anonymus 073 (W) zwischen 1891 und 1893 die Abschrift zur 2. Fassung der Symphonie besorgte. Der Kopist Anonymus 075 (W) kopierte – wahrscheinlich um 1888 – die einzig erhaltene Abschrift zur Zwischenfassung des Adagios. Das Schreibprofil des Kopisten Anonymus 072 (W) lässt sich auch in der Partiturabschrift der 2. Fassung der <hi rend="italic">1. Symphonie</hi>, die Hans Richter im Dezember 1891 vermutlich für sein Dirigat nutzte, wiedererkennen.<ref xml:id="footnote-ref045" target="#footnote045" type="noteAnchor">1</ref>
                <note xml:id="footnote045" type="footnote" anchored="true" n="1">Paul Hawkshaw, Revisionsbericht 2014, S. 234-235.</note>
             </p>
             <p decls="desc" xml:lang="eng">
-               <lb/>Along with Anonymus 013 and 016, Anonymus 072–075 are the as yet unidentified copyists who worked on the Eighth Symphony. Anonymus 073 worked on the second version of the symphony between 1891 and 1893; Anonymus 072 and 074 worked on the first version in 1886 or 1887. Anonymus 075 prepared the only surviving manuscript of the intermediate version of the Adagio, probably in 1888. The hand of Anonymus 072 is also found in the copy score of the second version of the First Symphony that Hans Richter used to conduct in December 1891.<ref xml:id="footnote-ref046" target="#footnote046" type="noteAnchor">1</ref>
+               <lb/>Along with <hi rend="italic">Anonymus</hi> 013 (W) and 016 (W), <hi rend="italic">Anonymus</hi> 072–075 (W) are the as yet unidentified copyists who worked on the <hi rend="italic">Eighth Symphony</hi>. <hi rend="italic">Anonymus</hi> 073 (W) worked on the second version of the symphony between 1891 and 1893; <hi rend="italic">Anonymus</hi> 072 (W) and 074 (W) worked on the first version in 1886 or 1887. <hi rend="italic">Anonymus</hi> 075 (W) prepared the only surviving manuscript of the intermediate version of the Adagio, probably in 1888. The hand of <hi rend="italic">Anonymus</hi> 072 (W) is also found in the copy score of the second version of the <hi rend="italic">First Symphony</hi> that Hans Richter used to conduct in December 1891.<ref xml:id="footnote-ref046" target="#footnote046" type="noteAnchor">1</ref>
                <note xml:id="footnote046" type="footnote" anchored="true" n="1">Paul Hawkshaw, Revisionsbericht 2014, pp. 234-235.</note>
             </p>
             <table>

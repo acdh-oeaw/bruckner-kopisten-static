@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main" level="a">Anonymus 056</title>
+            <title type="main" level="a">Anonymus 151</title>
             <title level="m">Die Wiener Kopisten der Werke Anton Bruckners</title>
             <author>
                <name>Paul Hawkshaw</name>
@@ -25,7 +25,7 @@
          </editionStmt>
          <publicationStmt>
             <publisher>Die Wiener Kopisten der Werke Anton Bruckners</publisher>
-            <idno type="BrucknerKopisten">d1e8487</idno>
+            <idno type="BrucknerKopisten">d1e20588</idno>
          </publicationStmt>
          <sourceDesc>
             <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
@@ -46,27 +46,31 @@
    </teiHeader>
    <text>
       <body>
-         <div xml:id="content-d1e8487">
+         <div xml:id="content-d1e20588">
             <listPerson>
                <person>
-                  <persName type="main">Anonymus 056</persName>
-                  <idno type="alphabetically_sorted">Anonymus 056</idno>
-                  <residence>Linz</residence>
-                  <affiliation xml:lang="de">Linzer Kopisten</affiliation>
-                  <affiliation xml:lang="eng">Linz copyists</affiliation>
+                  <persName subtype="W" type="main">Anonymus 151</persName>
+                  <idno type="alphabetically_sorted">Anonymus 151 (W)</idno>
+                  <floruit from="1877" to="1877">1877</floruit>
+                  <residence/>
+                  <affiliation xml:lang="de">Wiener Kopisten</affiliation>
+                  <affiliation xml:lang="eng">Vienna copyist</affiliation>
                   <index>
-                     <term sortKey="2" xml:lang="de">Sekundärquellen</term>
-                     <term sortKey="2" xml:lang="eng">Secondary Sources</term>
+                     <term sortKey="1" xml:lang="de">Primärquellen</term>
+                     <term sortKey="1" xml:lang="eng">Primary Sources</term>
                   </index>
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Der Kopist Anonymus 56 arbeitete vermutlich im Umfeld des Linzer Doms.
-               <lb/>Für weitere Kopisten aus Linz siehe <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>.
-            </p>
+               <lb/>Im Zuge der Umarbeitungen der <hi rend="italic">3. Symphonie</hi> fertigte der
+               Kopist Anonymus 151 (W) Einlageblätter für die neue Coda an, die teilweise in den
+               Stimmensatz geklebt oder aber auf freie Systeme notiert wurde. Diese Arbeiten dürften
+               vor der Aufführung am 16.12.1877 abgeschlossen gewesen sein. </p>
             <p decls="desc" xml:lang="eng">
-               <lb/><hi rend="italic">Anonymus</hi> 56 almost certainly worked for the Linz Cathedral. 
-               <lb/>For more copyists from Linz, see <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Table 3</ref>.</p>
+               <lb/>In the course of the revisions of the <hi rend="italic">Third Symphony</hi>, <hi
+                  rend="italic">Anonymus</hi> 151 (W) made insert sheets for the new reading of the
+               coda, some of which were pasted into the set of parts or notated on free staves. This
+               work was probably completed before the performance on 16.12.1877. </p>
             <table>
                <head>Abschriften</head>
                <row xml:lang="de" role="label">
@@ -91,29 +95,27 @@
                </row>
                <row role="data">
                   <cell role="Datierung">
-                     <date from="1843" to="1844">ca. 1843–1844</date>
+                     <date from="1873-02-23" to="1873-12-31">23.02.1873–31.12.1873</date>
                   </cell>
-                  <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-LId465_6_29">A-LId465_6_29</ref>
-                  </cell>
+                  <cell role="Signatur">A-Wgm XIII 26428</cell>
                   <cell role="Werktitel">
-                     <ref target="http://www.bruckner-online.at/ABLO_d1e8680">Asperges me</ref>
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9862">3. Symphonie</ref>
                   </cell>
                   <cell role="WAB-Nummer">
-                     <ref target="http://www.bruckner-online.at/wab-004">004</ref>
+                     <ref target="http://www.bruckner-online.at/wab-103">103</ref>
                   </cell>
                   <cell role="Art_der_Kopie">Stimmen</cell>
-                  <cell role="erschlossene_Datierung_der_Kopie"/>
-                  <cell role="Folios_in_der_Hand_des_Kopisten">20r; 23r; 28r; 33r</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie">
+                     <date from="1877" to="1877" notAfter="1877-12-16">1877</date>
+                  </cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten"/>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
-                  <cell role="Kommentar_intern"/>
+                  <cell role="Kommentar_intern">SIII04</cell>
                </row>
             </table>
             <list>
-               <head xml:lang="de">Beispiele entnommen aus: <ref target="Anonymus-056_A-WnMus.Hs.6035-160r.jpg">A-WnMus.Hs.6035</ref>
-               </head>
-               <head xml:lang="eng">Examples taken from: <ref target="Anonymus-056_A-WnMus.Hs.6035-160r.jpg">A-WnMus.Hs.6035</ref>
-               </head>
+               <head xml:lang="de">Beispiele entnommen aus: </head>
+               <head xml:lang="eng">Examples taken from: </head>
                <item>
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
@@ -122,12 +124,7 @@
                <item>
                   <title xml:lang="de">Akzidentien</title>
                   <title xml:lang="eng">Accidentals</title>
-                  <figure>
-                     <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_056/Anonymus-056_A-WnMus.Hs.6035_B-Accidentals_Flat.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_056/Anonymus-056_A-WnMus.Hs.6035_B-Accidentals_Natural.png"/>
-                  </figure>
+                  <figure/>
                </item>
                <item>
                   <title xml:lang="de">Taktvorzeichnung</title>
@@ -137,44 +134,20 @@
                <item>
                   <title xml:lang="de">Pausen</title>
                   <title xml:lang="eng">Rests</title>
-                  <figure>
-                     <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_056/Anonymus-056_A-WnMus.Hs.6035_D-Rests_Viertel.png"/>
-                  </figure>
+                  <figure/>
                </item>
                <item>
                   <title xml:lang="de">Noten</title>
                   <title xml:lang="eng">Notes</title>
-                  <figure>
-                     <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_056/Anonymus-056_A-WnMus.Hs.6035_E-Notes_Ganze.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_056/Anonymus-056_A-WnMus.Hs.6035_E-Notes_Halbe.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_056/Anonymus-056_A-WnMus.Hs.6035_E-Notes_Viertel.png"/>
-                  </figure>
+                  <figure/>
                </item>
                <item>
                   <title xml:lang="de">Dynamik</title>
                   <title xml:lang="eng">Dynamics</title>
-                  <figure>
-                     <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_051-075/Anonymus_056/Anonymus-056_A-WnMus.Hs.6035_F-Dynamics_Piano.png"/>
-                  </figure>
+                  <figure/>
                </item>
             </list>
          </div>
       </body>
-      <back>
-         <listPlace>
-            <place xml:id="place_2">
-               <placeName>Linz</placeName>
-               <location>
-                  <geo>48.306390000000 14.286110000000</geo>
-               </location>
-               <idno subtype="geonames" type="URL">https://www.geonames.org/2772400</idno>
-            </place>
-         </listPlace>
-      </back>
    </text>
 </TEI>

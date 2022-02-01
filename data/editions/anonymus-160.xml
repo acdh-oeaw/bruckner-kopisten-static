@@ -49,7 +49,7 @@
          <div xml:id="content-d1e465850">
             <listPerson>
                <person>
-                  <persName subtype="W" type="main">Anonymus 160</persName>
+                  <persName type="main">Anonymus 160</persName>
                   <idno type="alphabetically_sorted">Anonymus 160</idno>
                   <residence/>
                   <affiliation xml:lang="de">Wiener Kopisten</affiliation>
@@ -61,12 +61,12 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Die vom Kopisten Anonymus 160 angefertigte Partitur der Orchesterfassung von <hi rend="italic">Das hohe Lied</hi> befand sich im Besitz des Akademischen Gesangsvereins „Barden“ in Wien und ist heute nicht mehr auffindbar.
+               <lb/>Die vom Kopisten Anonymus 160 angefertigte Partitur der Orchesterfassung von <hi rend="italic">Das hohe Lied</hi> befand sich im Besitz des <hi rend="italic">Wiener Akademischen Gesangverein</hi> (heute: <hi rend="italic">Universitätssängerschaft »Barden in Wien«</hi> und ist heute nicht mehr auffindbar.
                 <lb/>Die Identifizierung der Hand basiert auf einer Fotokopie im Nachlassfond der Bruckner-Gesamtausgabe (A-WnF60.BRGA).
             </p>
             <p decls="desc" xml:lang="eng">
-               <lb/>This copyist’s score of the orchestral version of <hi rend="italic">Das hohe Lied</hi> was in the possession of the <hi rend="italic">Academic Singing Society “Barden”</hi> in Vienna and cannot now be found.
-                <lb/>The identification of the hand is based on a photocopy in the Fonds of the Bruckner Collected Works Edition in A-Wn.
+               <lb/>This copyist’s score of the orchestral version of <hi rend="italic">Das hohe Lied</hi> was in the possession of the <hi rend="italic">Academic Choral Society in Vienna</hi> (today: <hi rend="italic">Universitätssängerschaft »Barden in Wien«</hi>) and cannot now be found.
+               <lb/>The identification of the hand is based on a photocopy in the Fonds of the Bruckner Collected Works Edition (A-WnF60.BRGA).
             </p>
             <table>
                <head>Abschriften</head>
@@ -112,12 +112,12 @@
                   <cell role="Kommentar_intern">HL 2 in Bruckner online</cell>
                </row>
             </table>
-            <!--Keine Beispiele aus Xerox-->
+            <!--Beispiele aus Xerox nicht eingefügt-->
             <list>
                <head xml:lang="de">Beispiele entnommen aus: 
-                </head>
+               </head>
                <head xml:lang="eng">Examples taken from:
-                </head>
+               </head>
                <item>
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>

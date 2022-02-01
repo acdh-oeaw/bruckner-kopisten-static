@@ -50,7 +50,7 @@
             <listPerson>
                <person>
                   <persName subtype="W" type="main">Anonymus 065</persName>
-                  <idno type="alphabetically_sorted">Anonymus 065</idno>
+                  <idno type="alphabetically_sorted">Anonymus 065 (W)</idno>
                   <floruit from="1875" to="1877">1875–1877</floruit>
                   <residence/>
                   <affiliation xml:lang="de">Wiener Kopisten</affiliation>
@@ -62,10 +62,10 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Der Kopist Anonymus 065 fertige Partiturabschriften zur jeweils 1. Fassung der 3. und 4. Symphonie für Bruckner an.
+               <lb/>Der Kopist Anonymus 065 (W) fertige Partiturabschriften zur jeweils 1. Fassung der <hi rend="italic">3.</hi> und <hi rend="italic">4. Symphonie</hi> für Bruckner an.
             </p>
             <p decls="desc" xml:lang="eng">
-               <lb/>The copyist Anonymus 065 worked on the first version of both the third and fourth symphonies for Bruckner.
+               <lb/><hi rend="italic">Anonymus</hi> 065 (W) worked on the first version of both the <hi rend="italic">Third</hi> and <hi rend="italic">Fourth Symphonies</hi> for Bruckner.
             </p>
             <table>
                <head>Abschriften</head>

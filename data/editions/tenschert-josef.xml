@@ -67,24 +67,30 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Ein "Tenschert / Kopist" signierte die Partiturabschrift (A-WnMus.Hs.6035) der
-               2. Symphonie auf fol. 104<hi rend="sup">v</hi>, die zudem autographe Eintragungen
-               enthält. Es handelt sich wahrscheinlich um den Josef Tenschert, den Johannes Behr als
-               denjenigen identifiziert, der ebenfalls kurz für Brahms tätig gewesen sein soll.<ref xml:id="footnote-ref085" target="#footnote085" type="noteAnchor">1</ref> Es lassen sich keine weiteren gesicherten Erkenntnisse zu Tenschert
-               abgeben. Er war wahrscheinlich einer der ursprünglichen Kopisten des Stimmensatzes der
-               Messe in f-Moll-Messe und arbeitete in den 1870er und frühen 1880er Jahren
-               gelegentlich für Bruckner. <lb/>Siehe ebenfalls Franz Hlawaczek, Franz Nittmann sowie
-               Anonymus 005-006 und 008. <note xml:id="footnote085" type="footnote" anchored="true" n="1">Behr, „Hlawaczek”, S. 127.</note>
+               <lb/>Ein „Tenschert / Copist“ signierte die Partiturabschrift (A-WnMus.Hs.6035) der
+                  <hi rend="italic">2. Symphonie</hi> auf fol. 104<hi rend="sup">v</hi>, die zudem
+               autographe Eintragungen enthält. Es handelt sich wahrscheinlich um den Josef
+               Tenschert, den Johannes Behr als denjenigen identifiziert, der ebenfalls kurz für
+               Brahms tätig gewesen sein soll.<ref xml:id="footnote-ref085" target="#footnote085"
+                  type="noteAnchor">1</ref> Es lassen sich keine weiteren gesicherten Erkenntnisse
+               zu Tenschert abgeben. Er war wahrscheinlich einer der ursprünglichen Kopisten des
+               Stimmensatzes der <hi rend="italic">Messe in f-Moll</hi> und arbeitete in den 1870er
+               und frühen 1880er Jahren gelegentlich für Bruckner. <lb/>Siehe ebenfalls Franz
+               Hlawaczek, Franz Nittmann sowie Anonymus 005–006 (W) und 008 (W). <note
+                  xml:id="footnote085" type="footnote" anchored="true" n="1">Behr, „Hlawaczek”, S.
+                  127.</note>
             </p>
             <p decls="desc" xml:lang="eng">
                <lb/>A “Tenschert / Copist” signed fol. 104<hi rend="sup">v</hi> of a copy score
-               (A-WnMus.Hs.6035) with autograph entrances for the Second Symphony. This is probably
-               the Josef Tenschert whom Johannes Behr identifies as having worked briefly for
-               Brahms.<ref xml:id="footnote-ref086" target="#footnote086" type="noteAnchor">1</ref> Nothing else is known about him at present. He was probably
-               one of the original copyists of the parts for the Mass in F minor and worked for
-               Bruckner occasionally during the 1870s and early 1880s. <lb/>See also Franz
-               Hlawaczek, Franz Nittmann and Anonymus 005-006 and 008. <note xml:id="footnote086" type="footnote" anchored="true" n="1">Behr,
-                  “Hlawaczek”, p. 127.</note>
+               (A-WnMus.Hs.6035) with autograph entrances for the <hi rend="italic">Second
+                  Symphony</hi>. This is probably the Josef Tenschert whom Johannes Behr identifies
+               as having worked briefly for Brahms.<ref xml:id="footnote-ref086"
+                  target="#footnote086" type="noteAnchor">1</ref> Nothing else is known about him at
+               present. He was probably one of the original copyists of the parts for the <hi
+                  rend="italic">Mass in F minor</hi> and worked for Bruckner occasionally during the
+               1870s and early 1880s. <lb/>See also Franz Hlawaczek, Franz Nittmann and <hi
+                  rend="italic">Anonymus</hi> 005–006 (W) and 008 (W). <note xml:id="footnote086"
+                  type="footnote" anchored="true" n="1">Behr, “Hlawaczek”, p. 127.</note>
             </p>
             <p decls="link" xml:lang="de"/>
             <p decls="link" xml:lang="eng"/>
@@ -136,7 +142,9 @@
                      <date from="1871-10-11" to="1872-09-11">11.10.1871–11.09.1872</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.6035">A-WnMus.Hs.6035</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.6035"
+                        >A-WnMus.Hs.6035</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9846">2. Symphonie</ref>
@@ -154,20 +162,23 @@
                </row>
             </table>
             <list>
-               <head xml:lang="de">Beispiele entnommen aus: <ref target="Tenschert_Josef_A-WnMus.Hs.6035-001v.jpg">A-WnMus.Hs.6035</ref>
+               <head xml:lang="de">Beispiele entnommen aus: <ref
+                     target="Tenschert_Josef_A-WnMus.Hs.6035-001v.jpg">A-WnMus.Hs.6035</ref>
                </head>
-               <head xml:lang="eng">Examples taken from: <ref target="Tenschert_Josef_A-WnMus.Hs.6035-001v.jpg">A-WnMus.Hs.6035</ref>
+               <head xml:lang="eng">Examples taken from: <ref
+                     target="Tenschert_Josef_A-WnMus.Hs.6035-001v.jpg">A-WnMus.Hs.6035</ref>
                </head>
                <item>
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_A-Clefs_C.png"/>
+                        url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_A-Clefs_C.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_A-Clefs_F.png"/>
+                        url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_A-Clefs_F.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_A-Clefs_G.png"/>
+                        url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_A-Clefs_G.png"
+                     />
                   </figure>
                </item>
                <item>
@@ -175,17 +186,18 @@
                   <title xml:lang="eng">Accidentals</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_B-Accidentals_Flat_1.png"/>
+                        url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_B-Accidentals_Flat_1.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_B-Accidentals_Flat_2.png"/>
+                        url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_B-Accidentals_Flat_2.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_B-Accidentals_Natural_1.png"/>
+                        url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_B-Accidentals_Natural_1.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_B-Accidentals_Natural_2.png"/>
+                        url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_B-Accidentals_Natural_2.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_B-Accidentals_Sharp_1.png"/>
+                        url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_B-Accidentals_Sharp_1.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_B-Accidentals_Sharp_2.png"/>
+                        url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_B-Accidentals_Sharp_2.png"
+                     />
                   </figure>
                </item>
                <item>
@@ -193,7 +205,8 @@
                   <title xml:lang="eng">Time Signatures</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_C-Time-Signatures_C.png"/>
+                        url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_C-Time-Signatures_C.png"
+                     />
                   </figure>
                </item>
                <item>
@@ -201,13 +214,14 @@
                   <title xml:lang="eng">Rests</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_D-Rests_Ganze.png"/>
+                        url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_D-Rests_Ganze.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_D-Rests_Halbe.png"/>
+                        url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_D-Rests_Halbe.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_D-Rests_Viertel_1.png"/>
+                        url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_D-Rests_Viertel_1.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_D-Rests_Viertel_2.png"/>
+                        url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_D-Rests_Viertel_2.png"
+                     />
                   </figure>
                </item>
                <item>
@@ -215,21 +229,22 @@
                   <title xml:lang="eng">Notes</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_E-Notes_Achtel_1.png"/>
+                        url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_E-Notes_Achtel_1.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_E-Notes_Achtel_2.png"/>
+                        url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_E-Notes_Achtel_2.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_E-Notes_Ganze_1.png"/>
+                        url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_E-Notes_Ganze_1.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_E-Notes_Ganze_2.png"/>
+                        url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_E-Notes_Ganze_2.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_E-Notes_Halbe_1.png"/>
+                        url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_E-Notes_Halbe_1.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_E-Notes_Halbe_2.png"/>
+                        url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_E-Notes_Halbe_2.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_E-Notes_Viertel_1.png"/>
+                        url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_E-Notes_Viertel_1.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_E-Notes_Viertel_2.png"/>
+                        url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_E-Notes_Viertel_2.png"
+                     />
                   </figure>
                </item>
                <item>
@@ -237,11 +252,12 @@
                   <title xml:lang="eng">Dynamics</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_F-Dynamics_Crescendo_1.png"/>
+                        url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_F-Dynamics_Crescendo_1.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_F-Dynamics_Crescendo_2.png"/>
+                        url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_F-Dynamics_Crescendo_2.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_F-Dynamics_Piano.png"/>
+                        url="../../101_samples/named/T/Tenschert_Josef/Tenschert_Josef_A-WnMus.Hs.6035_F-Dynamics_Piano.png"
+                     />
                   </figure>
                </item>
             </list>

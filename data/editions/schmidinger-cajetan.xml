@@ -67,13 +67,15 @@
             </listPerson>
             <p decls="desc" xml:lang="de">
                <lb/>Schmidinger weist sich selbst als „Lehrer in Traun” aus, als er seine
-               Partiturabschrift des Tantum ergo (WAB 032) am 16. August 1913 signierte und
-               datierte. In seiner Bearbeitung der Messe in C-Dur ("Windhaager Messe") (WAB 025) vom
-               4. März 1924 bezeichnet er sich bereits als „Schuldirektor”. </p>
+               Partiturabschrift des <hi rend="italic">Tantum ergo</hi> (WAB 032) am 16. August 1913
+               signierte und datierte. In seiner Bearbeitung der <hi rend="italic">Messe in
+                  C-Dur</hi> („Windhaager Messe“, WAB 025) vom 4. März 1924 bezeichnet er sich
+               bereits als „Schuldirektor”. </p>
             <p decls="desc" xml:lang="eng">
                <lb/>Schmidinger identified himself as “Lehrer in Traun” when he signed and dated his
-               copy of the Tantum ergo (WAB 032) on 16 August 1913, and later as “Schuldirektor” in
-               his arrangement of the Mass in C ("Windhaager Messe") (WAB 025), dated 4 March 1924. </p>
+               copy of the <hi rend="italic">Tantum ergo</hi> (WAB 032) on 16 August 1913, and later
+               as “Schuldirektor” in his arrangement of the <hi rend="italic">Mass in C major</hi>
+               (“Windhaager Messe”, WAB 025), dated 4 March 1924. </p>
             <p decls="link" xml:lang="de">Eine detaillierte Biographie findet sich im entsprechenden
                Artikel des ABLO: <ref target="http://www.bruckner-online.at/ABLO_d1e3986">siehe
                   ABLO</ref>
@@ -106,7 +108,9 @@
                      <date when="1842">1842</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WEsa-InvNr25346">A-WEsa Inv.-Nr. 25346</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WEsa-InvNr25346"
+                        >A-WEsa Inv.-Nr. 25346</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9376">Messe in C-Dur
@@ -126,7 +130,9 @@
                      <date when="1843">1843</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19717">A-WnMus.Hs.19717</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19717"
+                        >A-WnMus.Hs.19717</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9999">Tantum ergo</ref>
@@ -145,7 +151,9 @@
                      <date notAfter="1864-03-19">vor 19.03.1864</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19750">A-WnMus.Hs.19750</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19750"
+                        >A-WnMus.Hs.19750</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9054">Herbstlied</ref>
@@ -164,7 +172,9 @@
                      <date notAfter="1866-12-11">vor 11.12.1866</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19756">A-WnMus.Hs.19756</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19756"
+                        >A-WnMus.Hs.19756</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e10146">O’ könnt ich dich
@@ -184,7 +194,9 @@
                      <date from="1869-11-24" to="1870-05-15">24.11.1869–15.05.1870</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19766">A-WnMus.Hs.19766</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19766"
+                        >A-WnMus.Hs.19766</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9449">Mitternacht</ref>
@@ -203,7 +215,9 @@
                      <date when="1892-04-29">29.04.1892</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19748">A-WnMus.Hs.19748</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19748"
+                        >A-WnMus.Hs.19748</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e8827">Der deutsche
@@ -220,24 +234,29 @@
                </row>
             </table>
             <list>
-               <head xml:lang="de">Beispiele entnommen aus: <ref target="Schmidinger_Cajetan_A-WnMus.Hs.19717-1.jpg">A-WnMus.Hs.19717</ref> und
-                     <ref target="Schmidinger_Cajetan_A-WnMus.Hs.19750-01v.jpg">A-WnMus.Hs.19750</ref>
+               <head xml:lang="de">Beispiele entnommen aus: <ref
+                     target="Schmidinger_Cajetan_A-WnMus.Hs.19717-1.jpg">A-WnMus.Hs.19717</ref> und
+                     <ref target="Schmidinger_Cajetan_A-WnMus.Hs.19750-01v.jpg"
+                     >A-WnMus.Hs.19750</ref>
                </head>
-               <head xml:lang="eng">Examples taken from: <ref target="Schmidinger_Cajetan_A-WnMus.Hs.19717-1.jpg">A-WnMus.Hs.19717</ref> and
-                     <ref target="Schmidinger_Cajetan_A-WnMus.Hs.19750-01v.jpg">A-WnMus.Hs.19750</ref>
+               <head xml:lang="eng">Examples taken from: <ref
+                     target="Schmidinger_Cajetan_A-WnMus.Hs.19717-1.jpg">A-WnMus.Hs.19717</ref> and
+                     <ref target="Schmidinger_Cajetan_A-WnMus.Hs.19750-01v.jpg"
+                     >A-WnMus.Hs.19750</ref>
                </head>
                <item>
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19717_A-Clefs_F.png"/>
+                        url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19717_A-Clefs_F.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19717_A-Clefs_G.png"/>
+                        url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19717_A-Clefs_G.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19750_A-Clefs_F.png"/>
+                        url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19750_A-Clefs_F.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19750_A-Clefs_G.png"/>
+                        url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19750_A-Clefs_G.png"
+                     />
                   </figure>
                </item>
                <item>
@@ -245,13 +264,14 @@
                   <title xml:lang="eng">Accidentals</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19717_B-Accidentals_Natural.png"/>
+                        url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19717_B-Accidentals_Natural.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19717_B-Accidentals_Sharp.png"/>
+                        url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19717_B-Accidentals_Sharp.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19750_B-Accidentals_Natural.png"/>
+                        url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19750_B-Accidentals_Natural.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19750_B-Accidentals_Sharp.png"/>
+                        url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19750_B-Accidentals_Sharp.png"
+                     />
                   </figure>
                </item>
                <item>
@@ -259,9 +279,10 @@
                   <title xml:lang="eng">Time Signatures</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19717_C-Time-Signatures_C.png"/>
+                        url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19717_C-Time-Signatures_C.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19750_C-Time-Signatures_3_4.png"/>
+                        url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19750_C-Time-Signatures_3_4.png"
+                     />
                   </figure>
                </item>
                <item>
@@ -269,11 +290,12 @@
                   <title xml:lang="eng">Rests</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19750_D-Rests_Sechzehntel.png"/>
+                        url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19750_D-Rests_Sechzehntel.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19750_D-Rests_Viertel_1.png"/>
+                        url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19750_D-Rests_Viertel_1.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19750_D-Rests_Viertel_2.png"/>
+                        url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19750_D-Rests_Viertel_2.png"
+                     />
                   </figure>
                </item>
                <item>
@@ -281,19 +303,20 @@
                   <title xml:lang="eng">Notes</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19717_E-Notes_Ganze.png"/>
+                        url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19717_E-Notes_Ganze.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19717_E-Notes_Halbe.png"/>
+                        url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19717_E-Notes_Halbe.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19717_E-Notes_Viertel.png"/>
+                        url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19717_E-Notes_Viertel.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19750_E-Notes_Achtel.png"/>
+                        url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19750_E-Notes_Achtel.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19750_E-Notes_Halbe.png"/>
+                        url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19750_E-Notes_Halbe.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19750_E-Notes_Sechzehntel.png"/>
+                        url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19750_E-Notes_Sechzehntel.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19750_E-Notes_Viertel.png"/>
+                        url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19750_E-Notes_Viertel.png"
+                     />
                   </figure>
                </item>
                <item>
@@ -301,21 +324,22 @@
                   <title xml:lang="eng">Dynamics</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19717_F-Dynamics_Crescendo_Decrescendo.png"/>
+                        url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19717_F-Dynamics_Crescendo_Decrescendo.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19717_F-Dynamics_Forte.png"/>
+                        url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19717_F-Dynamics_Forte.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19717_F-Dynamics_Piano.png"/>
+                        url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19717_F-Dynamics_Piano.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19750_F-Dynamics_Cresc.png"/>
+                        url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19750_F-Dynamics_Cresc.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19750_F-Dynamics_Decrescendo.png"/>
+                        url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19750_F-Dynamics_Decrescendo.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19750_F-Dynamics_Forte.png"/>
+                        url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19750_F-Dynamics_Forte.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19750_F-Dynamics_Pianissimo.png"/>
+                        url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19750_F-Dynamics_Pianissimo.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19750_F-Dynamics_Piano.png"/>
+                        url="../../101_samples/named/S/Schmidinger_Cajetan/Schmidinger_Cajetan_A-WnMus.Hs.19750_F-Dynamics_Piano.png"
+                     />
                   </figure>
                </item>
             </list>

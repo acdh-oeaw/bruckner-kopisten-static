@@ -50,7 +50,7 @@
             <listPerson>
                <person>
                   <persName subtype="W" type="main">Anonymus 084</persName>
-                  <idno type="alphabetically_sorted">Anonymus 084</idno>
+                  <idno type="alphabetically_sorted">Anonymus 084 (W)</idno>
                   <floruit from="1882" to="1882">1882</floruit>
                   <residence/>
                   <affiliation xml:lang="de">Wiener Kopisten</affiliation>
@@ -62,10 +62,10 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Mit Blick auf die Fertigstellung der Ave Maria-Vertonung (WAB 007) und der vermutlich im Anschluss erfolgten Abschrift, lässt sich davon ausgehen, dass der Kopist Anonymus 084 vermutlich 1882 für Bruckner tätig war.
+               <lb/>Mit Blick auf die Fertigstellung der <hi rend="italic">Ave Maria</hi>-Vertonung (WAB 7) und der vermutlich im Anschluss erfolgten Abschrift, lässt sich davon ausgehen, dass der Kopist Anonymus 084 (W) vermutlich 1882 für Bruckner tätig war.
             </p>
             <p decls="desc" xml:lang="eng">
-               <lb/>Assuming that Anonymus 084 copied the Ave Maria (WAB 007) shortly after Bruckner finished it, the manuscript probably dates from 1882.</p>
+               <lb/>Assuming that <hi rend="italic">Anonymus</hi> 084 (W) copied the <hi rend="italic">Ave Maria</hi> (WAB 7) shortly after Bruckner finished it, the manuscript probably dates from 1882.</p>
             <table>
                <head>Abschriften</head>
                <row xml:lang="de" role="label">

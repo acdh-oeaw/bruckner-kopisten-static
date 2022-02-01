@@ -50,7 +50,7 @@
             <listPerson>
                <person>
                   <persName subtype="W" type="main">Anonymus 057</persName>
-                  <idno type="alphabetically_sorted">Anonymus 057</idno>
+                  <idno type="alphabetically_sorted">Anonymus 057 (W)</idno>
                   <floruit from="1877"
                            to="1884"
                            notBefore="1877"
@@ -71,10 +71,10 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Der Kopist Anonymus 057 fertigte die Widmungspartitur der 2. Symphonie an, die 1884 an Franz Liszt übergeben wurde. Die Partiturabschrift gibt die überarbeitete 2. Fassung (1877) des Werkes wieder.
+               <lb/>Der Kopist Anonymus 057 (W) fertigte die Widmungspartitur der <hi rend="italic">2. Symphonie</hi> an, die 1884 an Franz Liszt übergeben wurde. Die Partiturabschrift gibt die überarbeitete 2. Fassung (1877) des Werkes wieder.
             </p>
             <p decls="desc" xml:lang="eng">
-               <lb/>Anonymus 057 prepared the dedication score of the Second Symphony that was given to Franz Liszt in 1884. It contains the second version (1877) of the work.</p>
+               <lb/><hi rend="italic">Anonymus</hi> 057 (W) prepared the dedication score of the <hi rend="italic">Second Symphony</hi> that was given to Franz Liszt in 1884. It contains the second version (1877) of the work.</p>
             <table>
                <head>Abschriften</head>
                <row xml:lang="de" role="label">

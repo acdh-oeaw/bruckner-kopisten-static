@@ -66,11 +66,16 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Alfons Berger (*?–†6.1.1915) war als Lehrer in Hörsching, Weng, Enns und Frankenburg tätig. Die Identifizierung der Handschrift Bergers erfolgt aufgrund der Notiz in seiner Abschrift A-WnMus.Hs.19691. Berger notierte dort auf fol. 2v: „abgeschr[ie]b[en]. v[on]. Alfons Berger (damals Unterlehrer in Hörsching“. 
-                </p>
+               <lb/>Alfons Berger (* ?–† 6.1.1915) war als Lehrer in Hörsching, Weng, Enns und
+               Frankenburg tätig. Die Identifizierung der Handschrift Bergers erfolgt aufgrund der
+               Notiz in seiner Abschrift der <hi rend="italic">Vier Präludien</hi>
+               (A-WnMus.Hs.19691). Berger notierte dort auf fol. 2<hi rend="sup">v</hi>: „abgeschr[ie]b[en]. v[on].
+               Alfons Berger (damals Unterlehrer in Hörsching“. </p>
             <p decls="desc" xml:lang="eng">
-               <lb/>Alfons Berger (*?-†6.1.1915) worked as a teacher in Hörsching, Weng, Enns and Frankenburg. The identification of Berger’s handwriting is based on the note in his copy of the Vier Präludien A-WnMus.Hs.19691. Berger noted there on fol. 2v: “abgeschr[ie]b[en]. v[on]. Alfons Berger (damals Unterlehrer in Hörsching”.
-                </p>
+               <lb/>Alfons Berger (* ?–† 6.1.1915) worked as a teacher in Hörsching, Weng, Enns and
+               Frankenburg. The identification of Berger’s handwriting is based on the note in his
+               copy of the <hi rend="italic">Vier Präludien</hi> (A-WnMus.Hs.19691). Berger noted there on fol. 2<hi rend="italic">v</hi>:
+               “abgeschr[ie]b[en]. v[on]. Alfons Berger (damals Unterlehrer in Hörsching”. </p>
             <table>
                <head>Abschriften</head>
                <row xml:lang="de" role="label">
@@ -98,10 +103,13 @@
                      <date when="1884-08-20">20.08.1884</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19693">A-WnMus.Hs.19693</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19693"
+                        >A-WnMus.Hs.19693</ref>
                   </cell>
                   <cell role="Werktitel">
-                     <ref target="http://www.bruckner-online.at/ABLO_d1e9592">Präludium (Perger Präludium)</ref>
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9592">Präludium (Perger
+                        Präludium)</ref>
                   </cell>
                   <cell role="WAB-Nummer">
                      <ref target="http://www.bruckner-online.at/wab-129">129</ref>
@@ -114,18 +122,21 @@
                </row>
             </table>
             <list>
-               <head xml:lang="de">Beispiele entnommen aus: <ref target="Berger_Alfons_A-WnMus.Hs.19693-01r.jpg">A-WnMus.Hs.19693</ref>
+               <head xml:lang="de">Beispiele entnommen aus: <ref
+                     target="Berger_Alfons_A-WnMus.Hs.19693-01r.jpg">A-WnMus.Hs.19693</ref>
                </head>
-               <head xml:lang="eng">Examples taken from: <ref target="Berger_Alfons_A-WnMus.Hs.19693-01r.jpg">A-WnMus.Hs.19693</ref>
+               <head xml:lang="eng">Examples taken from: <ref
+                     target="Berger_Alfons_A-WnMus.Hs.19693-01r.jpg">A-WnMus.Hs.19693</ref>
                </head>
                <item>
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/B/Berger_Alfons/Berger_Alfons_A-WnMus.Hs.19693_A-Clefs_F.png"/>
+                        url="../../101_samples/named/B/Berger_Alfons/Berger_Alfons_A-WnMus.Hs.19693_A-Clefs_F.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/B/Berger_Alfons/Berger_Alfons_A-WnMus.Hs.19693_A-Clefs_G.png"/>
+                        url="../../101_samples/named/B/Berger_Alfons/Berger_Alfons_A-WnMus.Hs.19693_A-Clefs_G.png"
+                     />
                   </figure>
                </item>
                <item>
@@ -133,11 +144,12 @@
                   <title xml:lang="eng">Accidentals</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/B/Berger_Alfons/Berger_Alfons_A-WnMus.Hs.19693_B-Accidentals_Flat.png"/>
+                        url="../../101_samples/named/B/Berger_Alfons/Berger_Alfons_A-WnMus.Hs.19693_B-Accidentals_Flat.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/B/Berger_Alfons/Berger_Alfons_A-WnMus.Hs.19693_B-Accidentals_Natural.png"/>
+                        url="../../101_samples/named/B/Berger_Alfons/Berger_Alfons_A-WnMus.Hs.19693_B-Accidentals_Natural.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/B/Berger_Alfons/Berger_Alfons_A-WnMus.Hs.19693_B-Accidentals_Sharp.png"/>
+                        url="../../101_samples/named/B/Berger_Alfons/Berger_Alfons_A-WnMus.Hs.19693_B-Accidentals_Sharp.png"
+                     />
                   </figure>
                </item>
                <item>
@@ -145,7 +157,8 @@
                   <title xml:lang="eng">Time Signatures</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/B/Berger_Alfons/Berger_Alfons_A-WnMus.Hs.19693_C-Time-Signatures_C.png"/>
+                        url="../../101_samples/named/B/Berger_Alfons/Berger_Alfons_A-WnMus.Hs.19693_C-Time-Signatures_C.png"
+                     />
                   </figure>
                </item>
                <item>
@@ -153,9 +166,10 @@
                   <title xml:lang="eng">Rests</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/B/Berger_Alfons/Berger_Alfons_A-WnMus.Hs.19693_D-Rests_Halbe.png"/>
+                        url="../../101_samples/named/B/Berger_Alfons/Berger_Alfons_A-WnMus.Hs.19693_D-Rests_Halbe.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/B/Berger_Alfons/Berger_Alfons_A-WnMus.Hs.19693_D-Rests_Viertel.png"/>
+                        url="../../101_samples/named/B/Berger_Alfons/Berger_Alfons_A-WnMus.Hs.19693_D-Rests_Viertel.png"
+                     />
                   </figure>
                </item>
                <item>
@@ -163,17 +177,18 @@
                   <title xml:lang="eng">Notes</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/B/Berger_Alfons/Berger_Alfons_A-WnMus.Hs.19693_E-Notes_Achtel.png"/>
+                        url="../../101_samples/named/B/Berger_Alfons/Berger_Alfons_A-WnMus.Hs.19693_E-Notes_Achtel.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/B/Berger_Alfons/Berger_Alfons_A-WnMus.Hs.19693_E-Notes_Ganze.png"/>
+                        url="../../101_samples/named/B/Berger_Alfons/Berger_Alfons_A-WnMus.Hs.19693_E-Notes_Ganze.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/B/Berger_Alfons/Berger_Alfons_A-WnMus.Hs.19693_E-Notes_Halbe_1.png"/>
+                        url="../../101_samples/named/B/Berger_Alfons/Berger_Alfons_A-WnMus.Hs.19693_E-Notes_Halbe_1.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/B/Berger_Alfons/Berger_Alfons_A-WnMus.Hs.19693_E-Notes_Halbe_2.png"/>
+                        url="../../101_samples/named/B/Berger_Alfons/Berger_Alfons_A-WnMus.Hs.19693_E-Notes_Halbe_2.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/B/Berger_Alfons/Berger_Alfons_A-WnMus.Hs.19693_E-Notes_Viertel_1.png"/>
+                        url="../../101_samples/named/B/Berger_Alfons/Berger_Alfons_A-WnMus.Hs.19693_E-Notes_Viertel_1.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/B/Berger_Alfons/Berger_Alfons_A-WnMus.Hs.19693_E-Notes_Viertel_2.png"/>
+                        url="../../101_samples/named/B/Berger_Alfons/Berger_Alfons_A-WnMus.Hs.19693_E-Notes_Viertel_2.png"
+                     />
                   </figure>
                </item>
                <item>
@@ -181,19 +196,20 @@
                   <title xml:lang="eng">Dynamics</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/B/Berger_Alfons/Berger_Alfons_A-WnMus.Hs.19693_F-Dynamics_Crescendo.png"/>
+                        url="../../101_samples/named/B/Berger_Alfons/Berger_Alfons_A-WnMus.Hs.19693_F-Dynamics_Crescendo.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/B/Berger_Alfons/Berger_Alfons_A-WnMus.Hs.19693_F-Dynamics_Dim.png"/>
+                        url="../../101_samples/named/B/Berger_Alfons/Berger_Alfons_A-WnMus.Hs.19693_F-Dynamics_Dim.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/B/Berger_Alfons/Berger_Alfons_A-WnMus.Hs.19693_F-Dynamics_Forte.png"/>
+                        url="../../101_samples/named/B/Berger_Alfons/Berger_Alfons_A-WnMus.Hs.19693_F-Dynamics_Forte.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/B/Berger_Alfons/Berger_Alfons_A-WnMus.Hs.19693_F-Dynamics_Fortissimo.png"/>
+                        url="../../101_samples/named/B/Berger_Alfons/Berger_Alfons_A-WnMus.Hs.19693_F-Dynamics_Fortissimo.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/B/Berger_Alfons/Berger_Alfons_A-WnMus.Hs.19693_F-Dynamics_Mezzoforte.png"/>
+                        url="../../101_samples/named/B/Berger_Alfons/Berger_Alfons_A-WnMus.Hs.19693_F-Dynamics_Mezzoforte.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/B/Berger_Alfons/Berger_Alfons_A-WnMus.Hs.19693_F-Dynamics_Pianissimo.png"/>
+                        url="../../101_samples/named/B/Berger_Alfons/Berger_Alfons_A-WnMus.Hs.19693_F-Dynamics_Pianissimo.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/B/Berger_Alfons/Berger_Alfons_A-WnMus.Hs.19693_F-Dynamics_Piano.png"/>
+                        url="../../101_samples/named/B/Berger_Alfons/Berger_Alfons_A-WnMus.Hs.19693_F-Dynamics_Piano.png"
+                     />
                   </figure>
                </item>
             </list>

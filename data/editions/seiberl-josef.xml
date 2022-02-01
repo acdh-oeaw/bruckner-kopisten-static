@@ -67,12 +67,12 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Die Identifizierung zu Seiberls Schreibprofil erfolgte anhand seiner autographen Partitur des Offertoriums Ascendit Deus A-SF6-501.<ref xml:id="footnote-ref180" target="#footnote180" type="noteAnchor">1</ref>
+               <lb/>Die Identifizierung zu Seiberls Schreibprofil erfolgte anhand seiner autographen Partitur des Offertoriums <hi rend="italic">Ascendit Deus</hi> (A-SF6-501).<ref xml:id="footnote-ref180" target="#footnote180" type="noteAnchor">1</ref>
                <lb/>Für weitere Kopisten aus St. Florian siehe <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>.
                <note xml:id="footnote180" type="footnote" anchored="true" n="1">Für den Hinweis zu dieser Handschrift sei Dr. Friedrich Buchmayr herzlichst gedankt.</note>
             </p>
             <p decls="desc" xml:lang="eng">
-               <lb/>Seiberl’s handwriting has been identified on the basis of his autograph score for the Offertory, Ascendit Deus, A-SF6-501.<ref xml:id="footnote-ref181" target="#footnote181" type="noteAnchor">1</ref>
+               <lb/>Seiberl’s handwriting has been identified on the basis of his autograph score for the Offertory <hi rend="italic">Ascendit Deus</hi> (A-SF6-501).<ref xml:id="footnote-ref181" target="#footnote181" type="noteAnchor">1</ref>
                <lb/>For more St. Florian copyists see <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Table 3</ref>. 
                <note xml:id="footnote181" type="footnote" anchored="true" n="1">The authors would like to thank Dr. Friedrich Buchmayr for drawing their attention to this source.</note>
             </p>

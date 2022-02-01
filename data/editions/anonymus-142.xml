@@ -50,7 +50,7 @@
             <listPerson>
                <person>
                   <persName subtype="L" type="main">Anonymus 142</persName>
-                  <idno type="alphabetically_sorted">Anonymus 142</idno>
+                  <idno type="alphabetically_sorted">Anonymus 142 (L)</idno>
                   <floruit from="1864" to="1864">1864</floruit>
                   <residence>Linz</residence>
                   <affiliation xml:lang="de">Linzer Kopisten</affiliation>
@@ -62,10 +62,10 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Die Partiturabschrift des Kopisten Anonymus 142 befindet sich in Privatbesitz und wurde von Bruckner signiert und auf das Jahr 1864 datiert.
+               <lb/>Die Abschrift des Liedes <hi rend="italic">Herbstkummer</hi> des Kopisten Anonymus 142 (L) befindet sich in Privatbesitz und wurde von Bruckner signiert und auf das Jahr 1864 datiert.
                <lb/>Für weitere Kopisten aus Linz siehe <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>.</p>
             <p decls="desc" xml:lang="eng">
-               <lb/>The score in private possession was signed and dated by Bruckner in 1864.
+               <lb/>The score of the song <hi rend="italic">Herbstkummer</hi> by <hi rend="italic">Anonymus</hi> 142 (L) is in private possession and was signed and dated by Bruckner in 1864.
                <lb/>For more copyists from Linz, see <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Table 3</ref>.</p>
             <table>
                <head>Abschriften</head>

@@ -56,14 +56,14 @@
                   </persName>
                   <idno type="alphabetically_sorted">Weinwurm, Rudolf</idno>
                   <idno type="GND">118766325</idno>
-                  <floruit from="1878" to="1878" notBefore="1878" xml:lang="de">1878 oder später</floruit>
-                  <floruit from="1878" to="1878" notBefore="1878" xml:lang="eng">1878 or later</floruit>
+                  <floruit when="1886" xml:lang="de">1886</floruit>
+                  <floruit when="1886" xml:lang="eng">1886</floruit>
                   <residence/>
                   <affiliation xml:lang="de"/>
                   <affiliation xml:lang="eng"/>
                   <index>
-                     <term sortKey="2" xml:lang="de">Sekundärquellen</term>
-                     <term sortKey="2" xml:lang="eng">Secondary Sources</term>
+                     <term sortKey="1" xml:lang="de">Primärquellen</term>
+                     <term sortKey="1" xml:lang="eng">Primary Sources</term>
                   </index>
                </person>
             </listPerson>
@@ -71,8 +71,8 @@
                <lb/>Die Identifizierung des Schreibprofils Rudolf Weinwurms – einer von Bruckners
                lebenslangen Freunden – beruht auf der autographen Partitur seiner Komposition <hi
                   rend="italic">Festhymne zur feierlichen Grundsteinlegung des neuen Wiener
-                  Rathhauses am 14. Juni 1873</hi>. Die Handschrift der <hi rend="italic"
-                     >Festhymne</hi> wird in derder Wienbibliothek im Rathaus (A-Wst MH-1945) verwahrt.
+                  Rathhauses am 14. Juni 1873</hi>. Die autographe Partitur der <hi rend="italic"
+                  >Festhymne</hi> wird in der Wienbibliothek im Rathaus (A-Wst MH-1945) verwahrt.
                Aufgrund seiner Anmerkung auf fol. 2<hi rend="sup">r</hi> der Abschrift des
                Männerchores <hi rend="italic">Das edle Herz</hi> wird Weinwurm zu den Kopisten der
                Primärquelle gezählt, da er die Abschrift anhand der autographen Stimmen
@@ -117,7 +117,9 @@
                      <date when="1851">vermutlich 1851</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19751">A-WnMus.Hs.19751</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19751"
+                        >A-WnMus.Hs.19751</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e8876">Das edle Herz</ref>

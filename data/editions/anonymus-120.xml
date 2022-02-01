@@ -50,10 +50,10 @@
             <listPerson>
                <person>
                   <persName subtype="W" type="main">Anonymus 120</persName>
-                  <idno type="alphabetically_sorted">Anonymus 120</idno>
+                  <idno type="alphabetically_sorted">Anonymus 120 (W)</idno>
                   <residence>Steyr</residence>
-                  <affiliation xml:lang="de">Steyrer Kopisten</affiliation>
-                  <affiliation xml:lang="eng">Steyr copyists</affiliation>
+                  <affiliation xml:lang="de">Wiener Kopisten</affiliation>
+                  <affiliation xml:lang="eng">Vienna copyists</affiliation>
                   <index>
                      <term sortKey="1" xml:lang="de">Primärquellen</term>
                      <term sortKey="1" xml:lang="eng">Primary Sources</term>
@@ -61,11 +61,11 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Der Kopist Anonymus 120 arbeitete vermutlich zusammen mit Franz Xaver Bayer in Steyr.
+               <lb/>Der Kopist Anonymus 120 (W) arbeitete vermutlich zusammen mit Franz Xaver Bayer in Steyr.
                <lb/>Für weitere Kopisten aus Steyr siehe <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>.
             </p>
             <p decls="desc" xml:lang="eng">
-               <lb/>This copyist worked with Franz Xaver Bayer in Steyr. 
+               <lb/><hi rend="italic">Anonymus</hi> 120 (W) worked with Franz Xaver Bayer in Steyr. 
                <lb/>For more copyists from Steyr, see <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Table 3</ref>.</p>
             <table>
                <head>Abschriften</head>

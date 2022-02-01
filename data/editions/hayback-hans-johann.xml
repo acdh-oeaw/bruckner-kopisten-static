@@ -50,7 +50,7 @@
             <listPerson>
                <person>
                   <persName type="main">Haybäck, Johann</persName>
-                  <persName type="call">Haybäck, Hans </persName>
+                  <persName type="call">Haybäck, Hans</persName>
                   <persName>
                      <surname>Haybäck</surname>
                      <forename>Johann</forename>
@@ -67,10 +67,10 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Fol. 1<hi rend="sup">r</hi>, Z. 9 des Stimmensatzes (A-SF20-63) der Libera me,
-               Domini-Vertonung weist eine Bleistift-Eintragung von fremder Hand auf: „Handschrift
+               <lb/>Fol. 1<hi rend="sup">r</hi>, Z. 9 des Stimmensatzes (A-SF20-63) der <hi rend="italic">Libera me,
+               Domini</hi>-Vertonung weist eine Bleistift-Eintragung von fremder Hand auf: „Handschrift
                H. Haybäcks“, die zur Identifizierung herangezogen wurde.<ref xml:id="footnote-ref063" target="#footnote063" type="noteAnchor">1</ref> Haybäck
-               (1863–1899) war von 1882 bis 1906 Lehrer in St. Florian und darüber hinaus bis zu
+               (1863–1933) war von 1882 bis 1906 Lehrer in St. Florian und darüber hinaus bis zu
                seinem Tod 1933 als Stiftsorganist in St. Florian tätig. <lb/>Neben seiner
                Organistentätigkeit, wirkte der eng mit Bruckner befreundete Haybäck auch als Tenor
                und Cellist in der Kapelle des Stifts mit. <lb/>Siehe Berhard Deubler. <lb/>Für
@@ -81,7 +81,7 @@
                   die Zuordnung gedankt.</note>
             </p>
             <p decls="desc" xml:lang="eng">
-               <lb/>Fol. 1<hi rend="sup">r</hi>, ln. 9 of the Libera me, Domini parts (A-SF20-63) has an
+               <lb/>Fol. 1<hi rend="sup">r</hi>, ln. 9 of the <hi rend="italic">Libera me, Domini</hi> parts (A-SF20-63) has an
                anonymous pencil annotation in a foreign hand: “Handschrift H. Haybäcks”.<ref xml:id="footnote-ref064" target="#footnote064" type="noteAnchor">1</ref>
                Haybäck lived from 1863 to 1933 and was a teacher in St. Florian from 1882 until
                1906. From then until his death in 1933 he served as monastery organist. 

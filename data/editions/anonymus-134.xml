@@ -61,11 +61,11 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Der Kopist Anonymus 134 war vermutlich für Max Auer in Vöcklabruck tätig. Die Abschrift zum Tantum ergo (WAB 043) diente als Stichvorlage der Erstausgabe im Rahmen der Bruckner-Biographie von Göllerich und Auer.<ref xml:id="footnote-ref047" target="#footnote047" type="noteAnchor">1</ref>
+               <lb/>Der Kopist Anonymus 134 war vermutlich für Max Auer in Vöcklabruck tätig. Die Abschrift zum <hi rend="italic">Tantum ergo</hi> (WAB 043) diente als Stichvorlage der Erstausgabe im Rahmen der Bruckner-Biographie von Göllerich und Auer.<ref xml:id="footnote-ref047" target="#footnote047" type="noteAnchor">1</ref>
                <note xml:id="footnote047" type="footnote" anchored="true" n="1">Göll.-A. 2/2, S. 116ff. (1928)</note>
             </p>
             <p decls="desc" xml:lang="eng">
-               <lb/>Anonymus 134 may have worked for Max Auer in Vöcklabruck. His Tantum ergo (WAB 043) served as the engraver’s copy for the first edition in Göllerich-Auer.<ref xml:id="footnote-ref048" target="#footnote048" type="noteAnchor">1</ref>
+               <lb/><hi rend="italic">Anonymus</hi> 134 may have worked for Max Auer in Vöcklabruck. His copy of <hi rend="italic">Tantum ergo</hi> (WAB 043) served as the engraver’s copy for the first edition in Göllerich-Auer.<ref xml:id="footnote-ref048" target="#footnote048" type="noteAnchor">1</ref>
                <note xml:id="footnote048" type="footnote" anchored="true" n="1">Göll.-A. 2/2, pp. 116ff. (1928)</note>
             </p>
             <table>

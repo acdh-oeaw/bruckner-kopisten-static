@@ -51,7 +51,7 @@
                <person>
                   <persName subtype="SF" type="main">Anonymus 003</persName>
                   <persName type="before">St. Florianer Kopist</persName>
-                  <idno type="alphabetically_sorted">Anonymus 003</idno>
+                  <idno type="alphabetically_sorted">Anonymus 003 (SF)</idno>
                   <floruit from="1852" to="1856">1852–ca. 1856</floruit>
                   <residence>St. Florian</residence>
                   <affiliation xml:lang="de">St. Florianer Kopisten</affiliation>
@@ -63,18 +63,46 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Der Kopist Anonymus 003 wurde zunächst fälschlicherweise als Linzer Kopist identifiziert. Grundlage für diese Annahme bildete die bis dato in die frühe Linzer Zeit verlegte Psalmkomposition Psalm 146.<ref xml:id="footnote-ref009" target="#footnote009" type="noteAnchor">1</ref> Weitere Untersuchungen wiesen jedoch auch die Abschriften zum Magnificat und zum Psalm 114 dem Schreibprofil des Kopisten zu. Dass Bruckner den Kopisten im Jahr 1852 beauftragte, diese beiden Werke abzuschreiben, führte zur Überlegung auch den Psalm 146 in diese Zeit vorzuverlegen, sodass er in der Forschungsliteratur heute als St. Florianer Kopist geführt wird.<ref xml:id="footnote-ref010" target="#footnote010" type="noteAnchor">2</ref>
-               <lb/>Alle Abschriften des Kopisten weisen autographe Eintragungen Bruckners auf. 
-               <lb/>Für weitere Kopisten aus St. Florian siehe <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>.
-               <note xml:id="footnote009" type="footnote" anchored="true" n="1">Paul Hawkshaw, „Manuscript Sources“, S. 323.</note>
-               <note xml:id="footnote010" type="footnote" anchored="true" n="2">Paul Hawkshaw, Die Psalmkompositionen Anton Bruckners, in: „Bruckner-Probleme. Beiheft zum Archiv für Musikwissenschaft“, Bd. XLV. Hrsg. Albrecht Riethmüller. (Stuttgart, 1999) S. 72.</note>
+               <lb/>Der Kopist Anonymus 003 (SF) wurde zunächst fälschlicherweise als Linzer Kopist
+               identifiziert. Grundlage für diese Annahme bildete die bis dato in die frühe Linzer
+               Zeit verlegte Psalmkomposition <hi rend="italic">Psalm 146</hi>.<ref
+                  xml:id="footnote-ref009" target="#footnote009" type="noteAnchor">1</ref> Weitere
+               Untersuchungen wiesen jedoch auch die Abschriften zum <hi rend="italic"
+                  >Magnificat</hi> und zum <hi rend="italic">Psalm 114</hi> dem Schreibprofil des
+               Kopisten zu. Dass Bruckner den Kopisten im Jahr 1852 beauftragte, diese beiden Werke
+               abzuschreiben, führte zur Überlegung auch den <hi rend="italic">Psalm 146</hi> in
+               diese Zeit vorzuverlegen, sodass er in der Forschungsliteratur heute als St.
+               Florianer Kopist geführt wird.<ref xml:id="footnote-ref010" target="#footnote010"
+                  type="noteAnchor">2</ref>
+               <lb/>Alle Abschriften des Kopisten weisen autographe Eintragungen Bruckners auf.
+               <lb/>Für weitere Kopisten aus St. Florian siehe <ref
+                  target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>. <note
+                  xml:id="footnote009" type="footnote" anchored="true" n="1">Paul Hawkshaw,
+                  „Manuscript Sources“, S. 323.</note>
+               <note xml:id="footnote010" type="footnote" anchored="true" n="2">Paul Hawkshaw, Die
+                  Psalmkompositionen Anton Bruckners, in: „Bruckner-Probleme. Beiheft zum Archiv für
+                  Musikwissenschaft“, Bd. XLV. Hrsg. Albrecht Riethmüller. (Stuttgart, 1999) S.
+                  72.</note>
             </p>
             <p decls="desc" xml:lang="eng">
-               <lb/>Anonymus 003 was initially identified as a Linz copyist on the assumption that his score of the as yet undated Psalm 146 dates from early in Bruckner’s Linz period.<ref xml:id="footnote-ref011" target="#footnote011" type="noteAnchor">1</ref> Since then he has been identified as the copyist of parts for the Magnificat and Psalm 114. That Bruckner engaged him in 1852 to copy these two works, has led to further speculation that Psalm 146 also dates from the St. Florian years. Consequently he has come to be known in the literature as the “St. Florian Copyist”.<ref xml:id="footnote-ref012" target="#footnote012" type="noteAnchor">2</ref>
-               <lb/>All sources in his hand have autograph entrances. 
-               <lb/>For more copyists from St. Florian, see <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Table 3</ref>. 
-               <note xml:id="footnote011" type="footnote" anchored="true" n="1">Paul Hawkshaw, “Manuscript Sources”, p. 323.</note>
-               <note xml:id="footnote012" type="footnote" anchored="true" n="2">Paul Hawkshaw, “Die Psalmkompositionen Anton Bruckners.” In Bruckner-Probleme. Beiheft zum Archiv für Musikwissenschaft, vol. 45. Ed. Albrecht Riethmüller. (Stuttgart, 1999) p. 72.</note>
+               <lb/><hi rend="italic">Anonymus</hi> 003 (SF) was initially identified as a Linz
+               copyist on the assumption that his score of the as yet undated <hi rend="italic"
+                  >Psalm 146</hi> dates from early in Bruckner’s Linz period.<ref
+                  xml:id="footnote-ref011" target="#footnote011" type="noteAnchor">1</ref> Since
+               then he has been identified as the copyist of parts for the <hi rend="italic"
+                  >Magnificat</hi> and <hi rend="italic">Psalm 114</hi>. That Bruckner engaged him
+               in 1852 to copy these two works, has led to further speculation that <hi rend="italic">Psalm 146</hi> also
+               dates from the St. Florian years. Consequently he has come to be known in the
+               literature as the “St. Florian Copyist”.<ref xml:id="footnote-ref012"
+                  target="#footnote012" type="noteAnchor">2</ref>
+               <lb/>All sources in his hand have autograph entrances. <lb/>For more copyists from
+               St. Florian, see <ref target="../../100_Introduction/Tabelle_3.xml" type="table"
+                  >Table 3</ref>. <note xml:id="footnote011" type="footnote" anchored="true" n="1"
+                  >Paul Hawkshaw, “Manuscript Sources”, p. 323.</note>
+               <note xml:id="footnote012" type="footnote" anchored="true" n="2">Paul Hawkshaw, “Die
+                  Psalmkompositionen Anton Bruckners.” In Bruckner-Probleme. Beiheft zum Archiv für
+                  Musikwissenschaft, vol. 45. Ed. Albrecht Riethmüller. (Stuttgart, 1999) p.
+                  72.</note>
             </p>
             <table>
                <head>Abschriften</head>
@@ -103,7 +131,8 @@
                      <date notAfter="1852-07-30">vor 30.07.1852</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-SF19-4d">A-SF19-4d</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-SF19-4d"
+                        >A-SF19-4d</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9630">Psalm 114</ref>
@@ -124,7 +153,8 @@
                      <date when="1852-08-15">15.08.1852</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-SF20-36">A-SF20-36</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-SF20-36"
+                        >A-SF20-36</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9301">Magnificat</ref>
@@ -143,7 +173,9 @@
                      <date when="1860">etwa 1860</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.6011">A-WnMus.Hs.6011</ref>
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.6011"
+                        >A-WnMus.Hs.6011</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9638">Psalm 146</ref>
@@ -159,20 +191,23 @@
                </row>
             </table>
             <list>
-               <head xml:lang="de">Beispiele entnommen aus: <ref target="Anonymus-003_A-WnMus.Hs.6011-007.jpg">A-WnMus.Hs.6011</ref>
+               <head xml:lang="de">Beispiele entnommen aus: <ref
+                     target="Anonymus-003_A-WnMus.Hs.6011-007.jpg">A-WnMus.Hs.6011</ref>
                </head>
-               <head xml:lang="eng">Examples taken from: <ref target="Anonymus-003_A-WnMus.Hs.6011-007.jpg">A-WnMus.Hs.6011</ref>
+               <head xml:lang="eng">Examples taken from: <ref
+                     target="Anonymus-003_A-WnMus.Hs.6011-007.jpg">A-WnMus.Hs.6011</ref>
                </head>
                <item>
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_003/Anonymus-003_A-WnMus.Hs.6011_A-Clefs_C.png"/>
+                        url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_003/Anonymus-003_A-WnMus.Hs.6011_A-Clefs_C.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_003/Anonymus-003_A-WnMus.Hs.6011_A-Clefs_F.png"/>
+                        url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_003/Anonymus-003_A-WnMus.Hs.6011_A-Clefs_F.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_003/Anonymus-003_A-WnMus.Hs.6011_A-Clefs_G.png"/>
+                        url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_003/Anonymus-003_A-WnMus.Hs.6011_A-Clefs_G.png"
+                     />
                   </figure>
                </item>
                <item>
@@ -180,9 +215,10 @@
                   <title xml:lang="eng">Accidentals</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_003/Anonymus-003_A-WnMus.Hs.6011_B-Accidentals_Natural.png"/>
+                        url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_003/Anonymus-003_A-WnMus.Hs.6011_B-Accidentals_Natural.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_003/Anonymus-003_A-WnMus.Hs.6011_B-Accidentals_Sharp.png"/>
+                        url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_003/Anonymus-003_A-WnMus.Hs.6011_B-Accidentals_Sharp.png"
+                     />
                   </figure>
                </item>
                <item>
@@ -190,7 +226,8 @@
                   <title xml:lang="eng">Time Signatures</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_003/Anonymus-003_A-WnMus.Hs.6011_C-Time-Signatures_C.png"/>
+                        url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_003/Anonymus-003_A-WnMus.Hs.6011_C-Time-Signatures_C.png"
+                     />
                   </figure>
                </item>
                <item>
@@ -198,11 +235,12 @@
                   <title xml:lang="eng">Rests</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_003/Anonymus-003_A-WnMus.Hs.6011_D-Rests_Achtel.png"/>
+                        url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_003/Anonymus-003_A-WnMus.Hs.6011_D-Rests_Achtel.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_003/Anonymus-003_A-WnMus.Hs.6011_D-Rests_Sechzehntel.png"/>
+                        url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_003/Anonymus-003_A-WnMus.Hs.6011_D-Rests_Sechzehntel.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_003/Anonymus-003_A-WnMus.Hs.6011_D-Rests_Viertel.png"/>
+                        url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_003/Anonymus-003_A-WnMus.Hs.6011_D-Rests_Viertel.png"
+                     />
                   </figure>
                </item>
                <item>
@@ -210,13 +248,14 @@
                   <title xml:lang="eng">Notes</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_003/Anonymus-003_A-WnMus.Hs.6011_E-Notes_Achtel.png"/>
+                        url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_003/Anonymus-003_A-WnMus.Hs.6011_E-Notes_Achtel.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_003/Anonymus-003_A-WnMus.Hs.6011_E-Notes_Ganze.png"/>
+                        url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_003/Anonymus-003_A-WnMus.Hs.6011_E-Notes_Ganze.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_003/Anonymus-003_A-WnMus.Hs.6011_E-Notes_Halbe.png"/>
+                        url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_003/Anonymus-003_A-WnMus.Hs.6011_E-Notes_Halbe.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_003/Anonymus-003_A-WnMus.Hs.6011_E-Notes_Viertel.png"/>
+                        url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_003/Anonymus-003_A-WnMus.Hs.6011_E-Notes_Viertel.png"
+                     />
                   </figure>
                </item>
                <item>
@@ -224,15 +263,16 @@
                   <title xml:lang="eng">Dynamics</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_003/Anonymus-003_A-WnMus.Hs.6011_F-Dynamics_Cresc.png"/>
+                        url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_003/Anonymus-003_A-WnMus.Hs.6011_F-Dynamics_Cresc.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_003/Anonymus-003_A-WnMus.Hs.6011_F-Dynamics_Cresc_2.png"/>
+                        url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_003/Anonymus-003_A-WnMus.Hs.6011_F-Dynamics_Cresc_2.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_003/Anonymus-003_A-WnMus.Hs.6011_F-Dynamics_Decresc.png"/>
+                        url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_003/Anonymus-003_A-WnMus.Hs.6011_F-Dynamics_Decresc.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_003/Anonymus-003_A-WnMus.Hs.6011_F-Dynamics_Mezzoforte.png"/>
+                        url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_003/Anonymus-003_A-WnMus.Hs.6011_F-Dynamics_Mezzoforte.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_003/Anonymus-003_A-WnMus.Hs.6011_F-Dynamics_Pianissimo.png"/>
+                        url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_003/Anonymus-003_A-WnMus.Hs.6011_F-Dynamics_Pianissimo.png"
+                     />
                   </figure>
                </item>
             </list>

@@ -50,7 +50,7 @@
             <listPerson>
                <person>
                   <persName subtype="W" type="main">Anonymus 168</persName>
-                  <idno type="alphabetically_sorted">Anonymus 168</idno>
+                  <idno type="alphabetically_sorted">Anonymus 168 (W)</idno>
                   <residence/>
                   <affiliation xml:lang="de">Wiener Kopisten</affiliation>
                   <affiliation xml:lang="eng">Vienna copyist</affiliation>
@@ -61,13 +61,13 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Gemeinsam mit Franz Hlawaczek arbeitete der Kopist Anonymus 168 an den
-                    Doublierstimmen zum Stimmensatz der 6. Symphonie. Der Stimmensatz deutet nicht
+               <lb/>Gemeinsam mit Franz Hlawaczek arbeitete der Kopist Anonymus 168 (W) an den
+                    Doublierstimmen zum Stimmensatz der <hi rend="italic">6. Symphonie</hi>. Der Stimmensatz deutet nicht
                     daraufhin, dass für die Uraufführung lediglich die Mittelsaätze angefertigt
                     wurden.</p>
             <p decls="desc" xml:lang="eng">
-               <lb/>Together with Franz Hlawaczek, the copyist Anonymus 168 worked on the
-                    doubling parts for the set of parts of the 6th Symphony. The set of parts does
+               <lb/>Together with Franz Hlawaczek, the copyist <hi rend="italic">Anonymus</hi> 168 (W) worked on the
+                    doubling parts for the set of parts of the <hi rend="italic">Sixth Symphony</hi>. The set of parts does
                     not indicate that only the middle movements were prepared for the premiere.
                 </p>
             <table>
@@ -98,8 +98,7 @@
                   </cell>
                   <cell role="Signatur">A-Wgm XIII 37730</cell>
                   <cell role="Werktitel">
-                     <ref target="http://www.bruckner-online.at/ABLO_d1e9910">6.
-                                Symphonie</ref>
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9910">6. Symphonie</ref>
                   </cell>
                   <cell role="WAB-Nummer">
                      <ref target="http://www.bruckner-online.at/wab-106">106</ref>

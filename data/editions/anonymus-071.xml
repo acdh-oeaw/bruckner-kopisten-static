@@ -50,7 +50,7 @@
             <listPerson>
                <person>
                   <persName subtype="W" type="main">Anonymus 071</persName>
-                  <idno type="alphabetically_sorted">Anonymus 071</idno>
+                  <idno type="alphabetically_sorted">Anonymus 071 (W)</idno>
                   <floruit from="1878" to="1878" notBefore="1878" xml:lang="de">1878 oder später</floruit>
                   <floruit from="1878" to="1878" notBefore="1878" xml:lang="eng">1878 or later</floruit>
                   <residence/>
@@ -63,10 +63,10 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Der Kopist Anonymus 071 fertigte eine Partiturabschrift zur 5. Symphonie an, nachdem Bruckner die Überarbeitungen 1877–1878 in die autographe Partitur eingetragen hatte.
+               <lb/>Der Kopist Anonymus 071 (W) fertigte eine Partiturabschrift zur <hi rend="italic">5. Symphonie</hi> an, nachdem Bruckner die Überarbeitungen 1877–1878 in die autographe Partitur eingetragen hatte.
             </p>
             <p decls="desc" xml:lang="eng">
-               <lb/>Anonymus 071 prepared a manuscript of the Fifth Symphony after Bruckner completed his revisions of 1877-1878.</p>
+               <lb/><hi rend="italic">Anonymus</hi> 071 (W) prepared a manuscript of the <hi rend="italic">Fifth Symphony</hi> after Bruckner completed his revisions of 1877-1878.</p>
             <table>
                <head>Abschriften</head>
                <row xml:lang="de" role="label">

@@ -50,7 +50,7 @@
             <listPerson>
                <person>
                   <persName subtype="W" type="main">Anonymus 006</persName>
-                  <idno type="alphabetically_sorted">Anonymus 006</idno>
+                  <idno type="alphabetically_sorted">Anonymus 006 (W)</idno>
                   <floruit from="1868" to="1868">1868</floruit>
                   <residence/>
                   <affiliation xml:lang="de">Wiener Kopisten</affiliation>
@@ -63,15 +63,14 @@
             </listPerson>
             <p decls="desc" xml:lang="de">
                <lb/>Zusammen mit Franz Hlawaczek, Franz Nittmann (ehemals Anonymus 007) und Josef Tenschert 
-               fertigten die Kopisten Anonymus 005, 006 und 008 Teile des ursprünglichen Stimmensatz zur Messe in f-Moll an. Dieser Stimmensatz wurde bereits zur 1. Probe am 20. November 1868 verwendet. 
-               Es ist bisher nicht nachweisbar, dass Nittmann oder die drei anderen anonymen Kopisten nochmals für Bruckner arbeiteten.
-            </p>
+               fertigten die Kopisten Anonymus 005 (W), 006 (W) und 008 (W) Teile des ursprünglichen Stimmensatz zur <hi rend="italic">Messe in f-Moll</hi> an. Dieser Stimmensatz wurde bereits zur 1. Probe am 20. November 1868 verwendet. 
+               Es ist bisher nicht nachweisbar, dass Nittmann oder die drei anderen anonymen Kopisten nochmals für Bruckner arbeiteten.</p>
             <p decls="desc" xml:lang="eng">
-               <lb/>Along with Franz Hlawaczek, Franz Nittmann (formerly Anonymus 007) and Josef
-               Tenschert, Anonymus 005, 006 and 008 helped with the preparation of the original set
-               of parts for the Mass in F minor prior to its first rehearsal on 20 November 1868.
+               <lb/>Along with Franz Hlawaczek, Franz Nittmann (formerly <hi rend="italic">Anonymus</hi> 007) and Josef
+               Tenschert, <hi rend="italic">Anonymus</hi> 005 (W), 006 (W) and 008 (W) helped with the preparation of the original set
+               of parts for the <hi rend="italic">Mass in F minor</hi> prior to its first rehearsal on 20 November 1868.
                Nittmann and the three anonymous copyists are not known to have worked for Bruckner
-               at any other time. </p>
+               at any other time.</p>
             <table>
                <head>Abschriften</head>
                <row xml:lang="de" role="label">

@@ -49,7 +49,7 @@
             <div xml:id="content-d1e56512">
                 <listPerson>
                     <person>
-                        <persName subtype="W" type="main">Anonymus 169</persName>
+                        <persName type="main">Anonymus 169</persName>
                         <idno type="alphabetically_sorted">Anonymus 169</idno>
                         <floruit from="1879" notBefore="1878" xml:lang="de">1878 oder später</floruit>
                         <floruit from="1879" notBefore="1878" xml:lang="eng">1878 oder später</floruit>
@@ -109,7 +109,7 @@
                         <cell role="erschlossene_Datierung_der_Kopie"/>
                         <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
                         <cell role="Datierung_der_Kopie/Unterschrift"/>
-                        <cell role="Kommentar_intern">AZ 1</cell>
+                        <cell role="Kommentar_intern">AZ 1, das ist eine Quelle aus dem Bruckner-Nachlass</cell>
                     </row>
                 </table>
                 <list>

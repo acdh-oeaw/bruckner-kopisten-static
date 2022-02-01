@@ -68,11 +68,13 @@
             </listPerson>
             <p decls="desc" xml:lang="de">
                <lb/>Poppel signierte und datierte die von ihm angefertigte Partiturabschrift sowie
-               den zugehörigen Stimmensatz des Pange lingua (WAB 031) in Linz auf das Jahr 1893.
-               <lb/>Für weitere Kopisten aus Linz siehe <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>.</p>
+               den zugehörigen Stimmensatz des <hi rend="italic">Pange lingua</hi> (WAB 31) in Linz
+               auf das Jahr 1893. <lb/>Für weitere Kopisten aus Linz siehe <ref
+                  target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>.</p>
             <p decls="desc" xml:lang="eng">
-               <lb/>Poppel signed and dated a score and set of parts for the Pange lingua in Linz in 1893. 
-               <lb/>For more copyists from Linz, see <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Table 3</ref>.</p>
+               <lb/>Poppel signed and dated a score and set of parts for the <hi rend="italic">Pange
+                  lingua</hi> (WAB 31) in Linz in 1893. <lb/>For more copyists from Linz, see <ref
+                  target="../../100_Introduction/Tabelle_3.xml" type="table">Table 3</ref>.</p>
             <p decls="link" xml:lang="de"/>
             <p decls="link" xml:lang="eng"/>
             <table>
@@ -102,7 +104,8 @@
                      <date when="1891">1891</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-SPD-SP_B-4">A-SPD-SP_B-4</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-SPD-SP_B-4"
+                        >A-SPD-SP_B-4</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9554">Pange lingua</ref>
@@ -120,18 +123,21 @@
                </row>
             </table>
             <list>
-               <head xml:lang="de">Beispiele entnommen aus: <ref target="Poppel_Friedrich_A-SPD-SP_B-4_003.jpg">A-SPD-SP_B-4</ref>
+               <head xml:lang="de">Beispiele entnommen aus: <ref
+                     target="Poppel_Friedrich_A-SPD-SP_B-4_003.jpg">A-SPD-SP_B-4</ref>
                </head>
-               <head xml:lang="eng">Examples taken from: <ref target="Poppel_Friedrich_A-SPD-SP_B-4_003.jpg">A-SPD-SP_B-4</ref>
+               <head xml:lang="eng">Examples taken from: <ref
+                     target="Poppel_Friedrich_A-SPD-SP_B-4_003.jpg">A-SPD-SP_B-4</ref>
                </head>
                <item>
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/P/Poppel_Friedrich/Poppel_Friedrich_A-SPD-SP_B-4_A-Clefs_F.png"/>
+                        url="../../101_samples/named/P/Poppel_Friedrich/Poppel_Friedrich_A-SPD-SP_B-4_A-Clefs_F.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/P/Poppel_Friedrich/Poppel_Friedrich_A-SPD-SP_B-4_A-Clefs_G.png"/>
+                        url="../../101_samples/named/P/Poppel_Friedrich/Poppel_Friedrich_A-SPD-SP_B-4_A-Clefs_G.png"
+                     />
                   </figure>
                </item>
                <item>
@@ -139,11 +145,12 @@
                   <title xml:lang="eng">Accidentals</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/P/Poppel_Friedrich/Poppel_Friedrich_A-SPD-SP_B-4_B-Accidentals_Flat.png"/>
+                        url="../../101_samples/named/P/Poppel_Friedrich/Poppel_Friedrich_A-SPD-SP_B-4_B-Accidentals_Flat.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/P/Poppel_Friedrich/Poppel_Friedrich_A-SPD-SP_B-4_B-Accidentals_Natural.png"/>
+                        url="../../101_samples/named/P/Poppel_Friedrich/Poppel_Friedrich_A-SPD-SP_B-4_B-Accidentals_Natural.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/P/Poppel_Friedrich/Poppel_Friedrich_A-SPD-SP_B-4_B-Accidentals_Sharp.png"/>
+                        url="../../101_samples/named/P/Poppel_Friedrich/Poppel_Friedrich_A-SPD-SP_B-4_B-Accidentals_Sharp.png"
+                     />
                   </figure>
                </item>
                <item>
@@ -151,7 +158,8 @@
                   <title xml:lang="eng">Time Signatures</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/P/Poppel_Friedrich/Poppel_Friedrich_A-SPD-SP_B-4_C-Time Signatures_C.png"/>
+                        url="../../101_samples/named/P/Poppel_Friedrich/Poppel_Friedrich_A-SPD-SP_B-4_C-Time Signatures_C.png"
+                     />
                   </figure>
                </item>
                <item>
@@ -164,11 +172,12 @@
                   <title xml:lang="eng">Notes</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/P/Poppel_Friedrich/Poppel_Friedrich_A-SPD-SP_B-4_E-Notes_Achtel.png"/>
+                        url="../../101_samples/named/P/Poppel_Friedrich/Poppel_Friedrich_A-SPD-SP_B-4_E-Notes_Achtel.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/P/Poppel_Friedrich/Poppel_Friedrich_A-SPD-SP_B-4_E-Notes_Halbe.png"/>
+                        url="../../101_samples/named/P/Poppel_Friedrich/Poppel_Friedrich_A-SPD-SP_B-4_E-Notes_Halbe.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/P/Poppel_Friedrich/Poppel_Friedrich_A-SPD-SP_B-4_E-Notes_Viertel.png"/>
+                        url="../../101_samples/named/P/Poppel_Friedrich/Poppel_Friedrich_A-SPD-SP_B-4_E-Notes_Viertel.png"
+                     />
                   </figure>
                </item>
                <item>
@@ -176,19 +185,20 @@
                   <title xml:lang="eng">Dynamics</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/P/Poppel_Friedrich/Poppel_Friedrich_A-SPD-SP_B-4_F-Dynamics_Crescendo.png"/>
+                        url="../../101_samples/named/P/Poppel_Friedrich/Poppel_Friedrich_A-SPD-SP_B-4_F-Dynamics_Crescendo.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/P/Poppel_Friedrich/Poppel_Friedrich_A-SPD-SP_B-4_F-Dynamics_Decrescendo.png"/>
+                        url="../../101_samples/named/P/Poppel_Friedrich/Poppel_Friedrich_A-SPD-SP_B-4_F-Dynamics_Decrescendo.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/P/Poppel_Friedrich/Poppel_Friedrich_A-SPD-SP_B-4_F-Dynamics_Forte.png"/>
+                        url="../../101_samples/named/P/Poppel_Friedrich/Poppel_Friedrich_A-SPD-SP_B-4_F-Dynamics_Forte.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/P/Poppel_Friedrich/Poppel_Friedrich_A-SPD-SP_B-4_F-Dynamics_Fortissimo.png"/>
+                        url="../../101_samples/named/P/Poppel_Friedrich/Poppel_Friedrich_A-SPD-SP_B-4_F-Dynamics_Fortissimo.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/P/Poppel_Friedrich/Poppel_Friedrich_A-SPD-SP_B-4_F-Dynamics_Mezzoforte.png"/>
+                        url="../../101_samples/named/P/Poppel_Friedrich/Poppel_Friedrich_A-SPD-SP_B-4_F-Dynamics_Mezzoforte.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/P/Poppel_Friedrich/Poppel_Friedrich_A-SPD-SP_B-4_F-Dynamics_Pianissimo.png"/>
+                        url="../../101_samples/named/P/Poppel_Friedrich/Poppel_Friedrich_A-SPD-SP_B-4_F-Dynamics_Pianissimo.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/P/Poppel_Friedrich/Poppel_Friedrich_A-SPD-SP_B-4_F-Dynamics_Piano.png"/>
+                        url="../../101_samples/named/P/Poppel_Friedrich/Poppel_Friedrich_A-SPD-SP_B-4_F-Dynamics_Piano.png"
+                     />
                   </figure>
                </item>
             </list>

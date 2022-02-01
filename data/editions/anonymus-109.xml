@@ -50,7 +50,7 @@
             <listPerson>
                <person>
                   <persName subtype="W" type="main">Anonymus 109</persName>
-                  <idno type="alphabetically_sorted">Anonymus 109</idno>
+                  <idno type="alphabetically_sorted">Anonymus 109 (W)</idno>
                   <floruit from="1881" to="1884">1881–1884</floruit>
                   <residence/>
                   <affiliation xml:lang="de">Wiener Kopisten</affiliation>
@@ -61,9 +61,13 @@
                   </index>
                </person>
             </listPerson>
-            <p decls="desc" xml:lang="de"/>
-            <p decls="desc" xml:lang="eng"/>
-            <table>
+            <p decls="desc" xml:lang="de">
+               <lb/>Anonymus 109 (W) fertigte gemeinsam mit Anonymus 024 (W) eine Abschrift des <hi rend="italic">Streichquintett in F-Dur</hi> an, welches als Stichvorlage für den Erstdruck verwendet wurde.
+            </p>
+            <p decls="desc" xml:lang="eng">
+               <lb/><hi rend="italic">Anonymus</hi> 109 (W) made a copy of the <hi rend="italic">String Quintet in F major</hi> together with <hi rend="italic">Anonymus</hi> 024 (W), which was used as engraver’s copy for the first edition.
+            </p>  
+               <table>
                <head>Abschriften</head>
                <row xml:lang="de" role="label">
                   <cell>Datierung des Werkes</cell>

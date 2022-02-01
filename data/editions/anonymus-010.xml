@@ -50,7 +50,7 @@
             <listPerson>
                <person>
                   <persName subtype="W" type="main">Anonymus 010</persName>
-                  <idno type="alphabetically_sorted">Anonymus 010</idno>
+                  <idno type="alphabetically_sorted">Anonymus 010 (W)</idno>
                   <floruit from="1876" to="1878">1876–1878</floruit>
                   <residence/>
                   <affiliation xml:lang="de">Wiener Kopisten</affiliation>
@@ -62,16 +62,16 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Die Kopisten Anonymus 009 und 010 waren vermutlich in den Jahren 1877–1878 oder kurz danach für Bruckner tätig.
-               Sie übertrugen die Änderungen, die Bruckner im Jahr 1877 an der 2. Symphonie vornahm, in die Partiturabschrift und den Stimmensatz. 
-               Ebenso waren beide Kopisten an der Partiturabschrift zur Messe in f-Moll (A-WnMus.Hs.6015), die wiederum Bruckners Überarbeitungen aus dem Jahr 1877 enthält, beteiligt.<ref xml:id="footnote-ref015" target="#footnote015" type="noteAnchor">1</ref>
+               <lb/>Die Kopisten Anonymus 009 (W) und 010 (W) waren vermutlich in den Jahren 1877–1878 oder kurz danach für Bruckner tätig.
+               Sie übertrugen die Änderungen, die Bruckner im Jahr 1877 an der <hi rend="italic">2. Symphonie</hi> vornahm, in die Partiturabschrift und den Stimmensatz. 
+               Ebenso waren beide Kopisten an der Partiturabschrift zur <hi rend="italic">Messe in f-Moll</hi> (A-WnMus.Hs.6015), die wiederum Bruckners Überarbeitungen aus dem Jahr 1877 enthält, beteiligt.<ref xml:id="footnote-ref015" target="#footnote015" type="noteAnchor">1</ref>
                Da die weiteren, auf 1881 zu datierenden Überarbeitungen der Messe nachträglich hinzugefügt werden mussten, liegt es nahe, dass diese Partiturabschrift vor 1881 entstand. 
                <note xml:id="footnote015" type="footnote" anchored="true" n="1">Paul Hawkshaw, An anatomy of change: Anton Bruckner’s revisions to the Mass in F Minor, in: „Bruckner Studies“, hg. Timothy L. Jackson and Paul Hawkshaw. (Cambridge, 1997), S. 4.</note>
             </p>
             <p decls="desc" xml:lang="eng">
-               <lb/>Anonymus 009 and 010 probably worked for Bruckner in 1877–1878 or shortly after.
-               They adapted a copy score and parts of the Second Symphony to Bruckner’s changes of
-               1877 and shared the preparation of A-WnMus.Hs.6015, a copy of the Mass in F-minor
+               <lb/><hi rend="italic">Anonymus</hi> 009 (W) and 010 (W) probably worked for Bruckner in 1877–1878 or shortly after.
+               They adapted a copy score and parts of the <hi rend="italic">Second Symphony</hi> to Bruckner’s changes of
+               1877 and shared the preparation of A-WnMus.Hs.6015, a copy of the <hi rend="italic">Mass in F minor</hi>
                that also contains Bruckner’s revisions of 1877.<ref xml:id="footnote-ref016" target="#footnote016" type="noteAnchor">1</ref> The
                Mass score must have dated from before 1881 because the composer’s revisions from
                that year had to be added to it.

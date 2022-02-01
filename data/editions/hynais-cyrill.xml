@@ -68,12 +68,12 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Die Zuordnung des Kopfsatzes der verschollenen Stichvorlage zur 6. Symphonie zum
+               <lb/>Die Zuordnung des Kopfsatzes der verschollenen Stichvorlage zur <hi rend="italic">6. Symphonie</hi> zum
                Schreibprofil Hynais’ erfolgte auf der Grundlage der Photokopien, die in der
                Musiksammlung der ÖNB unter der Signatur A-Wn PhA2284 aufbewahrt werden.
             </p>
             <p decls="desc" xml:lang="eng">
-               <lb/>The first movement of the lost Sixth Symphony manuscript has been attributed to
+               <lb/>The first movement of the lost <hi rend="italic">Sixth Symphony</hi> manuscript has been attributed to
                Hynais on the basis of A-Wn PhA2284 which contains photocopies of a few pages from
                each movement.
             </p>

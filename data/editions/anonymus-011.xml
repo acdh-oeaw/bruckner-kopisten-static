@@ -50,7 +50,7 @@
             <listPerson>
                <person>
                   <persName subtype="W" type="main">Anonymus 011</persName>
-                  <idno type="alphabetically_sorted">Anonymus 011</idno>
+                  <idno type="alphabetically_sorted">Anonymus 011 (W)</idno>
                   <floruit from="1876" to="1876" notAfter="1876" xml:lang="de">vor 1876</floruit>
                   <floruit from="1876" to="1876" notAfter="1876" xml:lang="eng">before 1876</floruit>
                   <residence/>
@@ -63,14 +63,14 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Die Kopisten Anonymus 011 und 012 wurden vorläufig zusammengruppiert, da beide am Stimmensatz des Afferentur regi beteiligt waren.
-               <lb/>Der Kopist Anonymus 012 ergänzte ebenfalls den ursprünglichen in Linz angefertigten Stimmensatz der Messe in d-Moll (A-WnMus.Hs.6074), der in Bruckners Wiener Jahren in der Hofburgkapelle verwendet wurde. Im Revisionsbericht der Gesamtausgabe vermutet Leopold Nowak, dass der Stimmensatz des Afferentur regi (A-WnMus.Hs.28267) trotz unüblicherweise fehlender Stempel des Hofburgkapellen-Archivs in der Hofburgkapelle verwendet wurde. 
-               <lb/>Beide Kopisten werden Bruckners Wiener Jahren mit dem Vorbehalt zugeordnet, dass ihre Arbeit bereits in die Linzer Zeit des Komponisten fallen könnte. Die Stimmen, die der Kopist Anonymus 012 der Messe in d-Moll hinzufügte, sind aufgrund der nachträglichen Ergänzungen vor 1876 zu datieren, da diese Eintragungen Bruckners Umarbeitungen aus demselben Jahr dokumentieren.
+               <lb/>Die Kopisten Anonymus 011 (W) und 012 (W) wurden vorläufig zusammengruppiert, da beide am Stimmensatz des <hi rend="italic">Afferentur regi</hi> beteiligt waren.
+               <lb/>Der Kopist Anonymus 012 (W) ergänzte ebenfalls den ursprünglichen in Linz angefertigten Stimmensatz der <hi rend="italic">Messe in d-Moll</hi> (A-WnMus.Hs.6074), der in Bruckners Wiener Jahren in der Hofburgkapelle verwendet wurde. Im Revisionsbericht der Gesamtausgabe vermutet Leopold Nowak, dass der Stimmensatz des <hi rend="italic">Afferentur regi</hi> (A-WnMus.Hs.28267) trotz unüblicher Weise fehlendem Stempel des Hofburgkapellen-Archivs in der Hofburgkapelle verwendet wurde. 
+               <lb/>Beide Kopisten werden Bruckners Wiener Jahren mit dem Vorbehalt zugeordnet, dass ihre Arbeit bereits in die Linzer Zeit des Komponisten fallen könnte. Die Stimmen, die der Kopist Anonymus 012 (W) der <hi rend="italic">Messe in d-Moll</hi> hinzufügte, sind aufgrund der nachträglichen Ergänzungen vor 1876 zu datieren, da diese Eintragungen Bruckners Umarbeitungen aus demselben Jahr dokumentieren.
             </p>
             <p decls="desc" xml:lang="eng">
-               <lb/>Anonymus 011 and 012 have been grouped together tentatively because they share a set of parts for Afferentur regi. 
-               <lb/>Anonymus 012 also added to A-WnMus.Hs.6074, the original Linz parts for the Mass in D minor that continued to be used in the Viennese Hofburgkapelle throughout Bruckner’s career. In his critical report, Leopold Nowak suggests the Afferentur Regi parts were also used in the Hofburgkapelle, though they do not have stamps from its archive. 
-               <lb/>Both copyists are assigned to Bruckner’s Vienna years with the caveat that it is very possible their work for stems from the composer’s Linz period. The parts that Anonymus 012 added to the Mass in D minor set certainly dated from before 1876 because they had to be altered to include the changes Bruckner made during that year.</p>
+               <lb/><hi rend="italic">Anonymus</hi> 011 (W) and 012 (W) have been grouped together tentatively because they share a set of parts for <hi rend="italic">Afferentur regi</hi>. 
+               <lb/><hi rend="italic">Anonymus</hi> 012 (W) also added to A-WnMus.Hs.6074, the original Linz parts for the <hi rend="italic">Mass in D minor</hi> that continued to be used in the Viennese Hofburgkapelle throughout Bruckner’s career. In his critical report, Leopold Nowak suggests the <hi rend="italic">Afferentur regi</hi> parts were also used in the Hofburgkapelle, though they do not have stamps from its archive. 
+               <lb/>Both copyists are assigned to Bruckner’s Vienna years with the caveat that it is very possible their work for stems from the composer’s Linz period. The parts that <hi rend="italic">Anonymus</hi> 012 (W) added to the <hi rend="italic">Mass in D minor</hi> set certainly dated from before 1876 because they had to be altered to include the changes Bruckner made during that year.</p>
             <table>
                <head>Abschriften</head>
                <row xml:lang="de" role="label">

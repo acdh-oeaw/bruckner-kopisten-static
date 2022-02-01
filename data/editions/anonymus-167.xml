@@ -49,7 +49,7 @@
          <div xml:id="content-d1e9998f">
             <listPerson>
                <person>
-                  <persName subtype="W" type="main">Anonymus 167</persName>
+                  <persName type="main">Anonymus 167</persName>
                   <idno type="alphabetically_sorted">Anonymus 167</idno>
                   <residence/>
                   <affiliation xml:lang="de"/>
@@ -62,16 +62,14 @@
             </listPerson>
             <p decls="desc" xml:lang="de">
                <lb/>Der Kopist Anonymus 167 fertigte lediglich die Kontrabass-Einlage für den
-                    Stimmensatz der 3. Symyphonie an. Es ist nicht klar, wann diese Einlage dem
-                    ursprünglichen Stimmensatz hinzugefügt wurde, aufgrund der Papierbeschaffenheit
-                    ist jedoch zu vermuten, dass dies im 20. Jahrhundert geschah. 
-                </p>
+               Stimmensatz der <hi rend="italic">3. Symyphonie</hi> an. Es ist nicht klar, wann
+               diese Einlage dem ursprünglichen Stimmensatz hinzugefügt wurde, aufgrund der
+               Papierbeschaffenheit ist jedoch zu vermuten, dass dies im 20. Jahrhundert geschah. </p>
             <p decls="desc" xml:lang="eng">
-               <lb/>The copyist Anonymus 167 only made the double bass insert for the set of
-                    parts of the 3rd symyphony. It is not clear when this insert was added to the
-                    original set of parts, but due to the condition of the paper it can be assumed
-                    that this was done in the 20th century. 
-                </p>
+               <lb/>The copyist <hi rend="italic">Anonymus</hi> 167 only made the double bass insert
+               for the set of parts of the <hi rend="italic">Third Symyphony</hi>. It is not clear
+               when this insert was added to the original set of parts, but due to the condition of
+               the paper it can be assumed that this was done in the 20th century. </p>
             <table>
                <head>Abschriften</head>
                <row xml:lang="de" role="label">
@@ -100,8 +98,7 @@
                   </cell>
                   <cell role="Signatur">A-Wgm XIII 26428</cell>
                   <cell role="Werktitel">
-                     <ref target="http://www.bruckner-online.at/ABLO_d1e9862">3.
-                                Symphonie</ref>
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9862">3. Symphonie</ref>
                   </cell>
                   <cell role="WAB-Nummer">
                      <ref target="http://www.bruckner-online.at/wab-103">103</ref>

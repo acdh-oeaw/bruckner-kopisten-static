@@ -50,7 +50,7 @@
             <listPerson>
                <person>
                   <persName subtype="W" type="main">Anonymus 077</persName>
-                  <idno type="alphabetically_sorted">Anonymus 077</idno>
+                  <idno type="alphabetically_sorted">Anonymus 077 (W)</idno>
                   <floruit from="1895" to="1896">1895–1896</floruit>
                   <residence/>
                   <affiliation xml:lang="de">Wiener Kopisten</affiliation>
@@ -62,12 +62,12 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Die Kopisten Anonymus 077 und 078 präparierten Partiturbögen (mit Instrumentenvorsatz, Schlüsselung, Akzidenzien und Taktstriche) für die Skizzen zum 4. Satz der 9. Symphonie.
-               <lb/>Siehe auch Kopist Anonymus 013 und Cyrill Hynais.
+               <lb/>Die Kopisten Anonymus 077 (W) und 078 (W) präparierten Partiturbögen (mit Instrumentenvorsatz, Schlüsselung, Akzidenzien und Taktstriche) für die Skizzen zum 4. Satz der <hi rend="italic">9. Symphonie</hi>.
+               <lb/>Siehe auch Kopist Anonymus 013 (W) und Cyrill Hynais.
             </p>
             <p decls="desc" xml:lang="eng">
-               <lb/>Anonymus 077 and 078 prepared bifolios with instrument names, clefs, time and key signatures and bar lines for Bruckner’s sketches for finale of the Ninth Symphony.
-               <lb/>See also Anonymus 013 and Cyrill Hynais.</p>
+               <lb/><hi rend="italic">Anonymus</hi> 077 (W) and 078 (W) prepared bifolios with instrument names, clefs, time and key signatures and bar lines for Bruckner’s sketches for finale of the <hi rend="italic">Ninth Symphony</hi>.
+               <lb/>See also <hi rend="italic">Anonymus</hi> 013 (W) and Cyrill Hynais.</p>
             <table>
                <head>Abschriften</head>
                <row xml:lang="de" role="label">

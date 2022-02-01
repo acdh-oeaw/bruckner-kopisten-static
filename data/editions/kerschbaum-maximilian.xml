@@ -67,9 +67,9 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Kerschbaum (03.10.1805–05.12.1874) war von ca. 1847 bis 1874 als Musikdirektor
+               <lb/>Kerschbaum (* 03.10.1805–† 05.12.1874) war von ca. 1847 bis 1874 als Musikdirektor
                im Stift tätig. In diese Zeit fällt auch eine von ihm dirigierte Aufführung des
-               Requiems (WAB 039) am 11.12.1849.<ref xml:id="footnote-ref073" target="#footnote073" type="noteAnchor">1</ref>
+               <hi rend="italic">Requiems</hi> am 11.12.1849.<ref xml:id="footnote-ref073" target="#footnote073" type="noteAnchor">1</ref>
                <lb/>Für weitere Kopisten aus Kremsmünster siehe <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>. 
                <note xml:id="footnote073" type="footnote" anchored="true" n="1">Kellner,
                   <hi rend="italic">Kremsmünster</hi>, S. 668–669. Für die Identifizierung der Handschrift sei an dieser
@@ -78,7 +78,7 @@
             <p decls="desc" xml:lang="eng">
                <lb/>Born on 3 October 1805, Kerschbaum died in Kremsmünster on 5 December 1874. His
                career as composer and music director at the Monastery included a performance of
-               Bruckner’s Requiem, which he conducted on 11 December 1849.<ref xml:id="footnote-ref074" target="#footnote074" type="noteAnchor">1</ref>
+               Bruckner’s <hi rend="italic">Requiem</hi>, which he conducted on 11 December 1849.<ref xml:id="footnote-ref074" target="#footnote074" type="noteAnchor">1</ref>
                <lb/>For more copyists from Kremsmünster, see <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Table 3</ref>. 
                <note xml:id="footnote074" type="footnote" anchored="true" n="1">Kellner, <hi rend="italic">Kremsmünster</hi>,
                   pp. 668–669. The author is grateful to Father Altmann Kellner who identified

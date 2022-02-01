@@ -62,9 +62,9 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Unter Berücksichtigung, dass die Abschriften sämtlich kurz nach der Entstehung angefertigt wurden, arbeitete der Kopist Anonymus 126 vermutlich im Jahr 1884 für Bruckner.</p>
+               <lb/>Unter Berücksichtigung, dass die Abschriften sämtlich kurz nach der Entstehung angefertigt wurden, arbeitete der Kopist Anonymus 126 (W) vermutlich im Jahr 1884 für Bruckner.</p>
             <p decls="desc" xml:lang="eng">
-               <lb/>Assuming these manuscripts were prepared shortly after their works had been completed, they probably date from 1884 or shortly thereafter.</p>
+               <lb/>Assuming <hi rend="italic">Anonymus</hi> 126 (W) prepared these manuscripts shortly after their works had been completed, they probably date from 1884 or shortly thereafter.</p>
             <table>
                <head>Abschriften</head>
                <row xml:lang="de" role="label">

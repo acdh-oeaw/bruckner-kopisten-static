@@ -50,7 +50,7 @@
             <listPerson>
                <person>
                   <persName subtype="W" type="main">Anonymus 069</persName>
-                  <idno type="alphabetically_sorted">Anonymus 069</idno>
+                  <idno type="alphabetically_sorted">Anonymus 069 (W)</idno>
                   <floruit from="1880" to="1880" notBefore="1880" xml:lang="de">1880 oder später</floruit>
                   <floruit from="1880" to="1880" notBefore="1880" xml:lang="eng">1880 or later</floruit>
                   <residence/>
@@ -63,10 +63,10 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Vom Kopisten Anonymus 069 stammt lediglich ein Blatt, dass dieser in die Partiturabschrift der 2. Fassung der 4. Symphonie einfügte. 
+               <lb/>Vom Kopisten Anonymus 069 (W) stammt lediglich ein Blatt, dass dieser in die Partiturabschrift der 2. Fassung der <hi rend="italic">4. Symphonie</hi> einfügte. 
             </p>
             <p decls="desc" xml:lang="eng">
-               <lb/>Anonymus 069 added a page to the New York manuscript of the “Volksfest” Finale of the Fourth Symphony.</p>
+               <lb/><hi rend="italic">Anonymus</hi> 069 (W) added a page to the New York manuscript of the “Volksfest” Finale of the <hi rend="italic">Fourth Symphony</hi>.</p>
             <table>
                <head>Abschriften</head>
                <row xml:lang="de" role="label">

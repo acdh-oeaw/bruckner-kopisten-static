@@ -50,7 +50,7 @@
             <listPerson>
                <person>
                   <persName subtype="W" type="main">Anonymus 050</persName>
-                  <idno type="alphabetically_sorted">Anonymus 050</idno>
+                  <idno type="alphabetically_sorted">Anonymus 050 (W)</idno>
                   <floruit from="1893" to="1893">1893</floruit>
                   <residence/>
                   <affiliation xml:lang="de">Wiener Kopisten</affiliation>
@@ -62,11 +62,11 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Zusammen mit Josef Schalk fertigten die Kopist Anonymus 043–053 zwischen 1888 und 1893 den Stimmensatz zur Messe in f-Moll für den Wiener Akademischen Wagner-Verein an. Die Stimmen wurden ebenso für die Uraufführung von Schalks Bearbeitung der Messe im Großen Musikvereinssaal in Wien am 23. März 1893 verwendet.<ref xml:id="footnote-ref031" target="#footnote031" type="noteAnchor">1</ref>
+               <lb/>Zusammen mit Josef Schalk fertigten die Kopist Anonymus 043–053 (W) zwischen 1888 und 1893 den Stimmensatz zur <hi rend="italic">Messe in f-Moll</hi> für den Wiener Akademischen Wagner-Verein an. Die Stimmen wurden ebenso für die Uraufführung von Schalks Bearbeitung der Messe im Großen Musikvereinssaal in Wien am 23. März 1893 verwendet.<ref xml:id="footnote-ref031" target="#footnote031" type="noteAnchor">1</ref>
                <note xml:id="footnote031" type="footnote" anchored="true" n="1">Paul Hawkshaw, Messe F-moll Revisionsbericht. Anton Bruckner Sämtliche Werke, XVIII, S. 181-190.</note>
             </p>
             <p decls="desc" xml:lang="eng">
-               <lb/>Along with Josef Schalk, the copyists Anonymus 043–053 prepared parts for the Mass in F minor for the Viennese Academic Wagner Society between 1888 and 1893. The parts were used for the first performance of Schalk’s arrangement of the Mass in the Grosse Musikvereinsaal, Vienna, on 23 March 1893.<ref xml:id="footnote-ref032" target="#footnote032" type="noteAnchor">1</ref>
+               <lb/>Along with Josef Schalk, the copyists <hi rend="italic">Anonymus</hi> 043–053 (W) prepared parts for the <hi rend="italic">Mass in F minor</hi> for the Viennese Academic Wagner Society between 1888 and 1893. The parts were used for the first performance of Schalk’s arrangement of the Mass in the Großen Musikvereinssaal, Vienna, on 23 March 1893.<ref xml:id="footnote-ref032" target="#footnote032" type="noteAnchor">1</ref>
                <note xml:id="footnote032" type="footnote" anchored="true" n="1">Paul Hawkshaw, Messe F-moll Revisionsbericht. Anton Bruckner Sämtliche Werke, XVIII, pp. 181-190.</note>
             </p>
             <table>

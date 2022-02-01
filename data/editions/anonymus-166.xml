@@ -62,19 +62,19 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Der Kopist Anonymus 166 fertigte einen Stimmensatz der <hi rend="italic">Zwei Totenlieder</hi> an. Mit Blick auf die Entstehung des Werkes und
-                    dessen Zweck – auf Wunsch Josef Seiberl (1824–1908), um die in Marienkirchen
-                    stattfindenen Beerdigungen musikalisch zu begleiten – ist anzunehmen, dass die
-                    Stimmen wohl bereits 1852 geschrieben wurden. Es ist jedoch nicht genau
-                    bestimmbar, ob Seiberl selbst, wie das Titelblatt andeutet, der Kopist ist.
-                </p>
+               <lb/>Der Kopist Anonymus 166 (SF) fertigte einen Stimmensatz der <hi rend="italic"
+                  >Zwei Totenlieder</hi> an. Mit Blick auf die Entstehung des Werkes und dessen
+               Zweck – auf Wunsch Josef Seiberl (1824–1908), um die in Marienkirchen stattfindenen
+               Beerdigungen musikalisch zu begleiten – ist anzunehmen, dass die Stimmen wohl bereits
+               1852 geschrieben wurden. Es ist jedoch nicht genau bestimmbar, ob Seiberl selbst, wie
+               das Titelblatt andeutet, der Kopist ist. </p>
             <p decls="desc" xml:lang="eng">
-               <lb/>The copyist Anonymus 166 produced a set of parts of the <hi rend="italic">Zwei Totenlieder</hi>. Considering the genesis of the work and its purpose – at the request of
-                    Josef Seiberl (1824-1908) to provide musical accompaniment for the funerals held
-                    in Marienkirchen – it can be assumed that the parts were probably written as
-                    early as 1852. However, it is not possible to determine exactly whether Seiberl
-                    himself is the copyist, as the title page suggests.
-                </p>
+               <lb/><hi rend="italic">Anonymus</hi> 166 (SF) produced a set of parts of the <hi
+                  rend="italic">Zwei Totenlieder</hi>. Considering the genesis of the work and its
+               purpose – at the request of Josef Seiberl (1824-1908) to provide musical
+               accompaniment for the funerals held in Marienkirchen – it can be assumed that the
+               parts were probably written as early as 1852. However, it is not possible to
+               determine exactly whether Seiberl himself is the copyist, as the title page suggests. </p>
             <table>
                <head>Abschriften</head>
                <row xml:lang="de" role="label">
@@ -104,15 +104,14 @@
                   <cell role="Signatur">A-Wgm A 175a</cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e10067">Zwei
-                                Totenlieder</ref>
+                        Totenlieder</ref>
                   </cell>
                   <cell role="WAB-Nummer">
                      <ref target="http://www.bruckner-online.at/wab-047">047</ref>
                   </cell>
                   <cell role="Art_der_Kopie">Stimmen</cell>
                   <cell role="erschlossene_Datierung_der_Kopie"/>
-                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig
-                            abgeschrieben</cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
                   <cell role="Kommentar_intern"/>
                </row>

@@ -61,9 +61,9 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Die Partiturabschrift zum Requiem des Kopisten Anonymus 125 diente als Stichvorlage für den Druck des Werkes im Rahmen der Alten Gesamtausgabe (AGA).</p>
+               <lb/>Die Partiturabschrift zum <hi rend="italic">Requiem</hi> des Kopisten Anonymus 125 diente als Stichvorlage für den Druck des Werkes im Rahmen der <hi rend="italic">Alten Gesamtausgabe</hi> (AGA).</p>
             <p decls="desc" xml:lang="eng">
-               <lb/>The score of the Requiem prepared by this copyist served as the engraver’s copy for the first Bruckner Collected Works Edition (AGA).</p>
+               <lb/>The score of the <hi rend="italic">Requiem</hi> prepared by <hi rend="italic">Anonymus</hi> 125 served as the engraver’s copy for the first <hi rend="italic">Bruckner Collected Works Edition</hi> (AGA).</p>
             <table>
                <head>Abschriften</head>
                <row xml:lang="de" role="label">

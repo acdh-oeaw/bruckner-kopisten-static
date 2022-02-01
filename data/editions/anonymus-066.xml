@@ -50,7 +50,7 @@
             <listPerson>
                <person>
                   <persName subtype="L" type="main">Anonymus 066</persName>
-                  <idno type="alphabetically_sorted">Anonymus 066</idno>
+                  <idno type="alphabetically_sorted">Anonymus 066 (L)</idno>
                   <floruit from="1868" to="1868">1868</floruit>
                   <residence>Linz</residence>
                   <affiliation xml:lang="de">Linzer Kopisten</affiliation>
@@ -62,11 +62,11 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Mit Blick auf die Notizen des Kopisten Anonymus 066 zur Uraufführung des Mottos Das Frauenherz, die Mannesbrust lässt sich dieser Kopist im Umfeld der Liedertafel Frohsinn verorten.
+               <lb/>Mit Blick auf die Notizen des Kopisten Anonymus 066 (L) zur Uraufführung des Mottos <hi rend="italic">Das Frauenherz, die Mannesbrust</hi> lässt sich dieser Kopist im Umfeld der Liedertafel »Frohsinn« verorten.
                <lb/>Für weitere Kopisten aus Linz siehe <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>.
             </p>
             <p decls="desc" xml:lang="eng">
-               <lb/>Given the information in his hand on the part about the first performance of this little work on 17 May 1868, this is almost certainly a Linz copyist associated with the Liedertafel Frohsinn. 
+               <lb/>Given the information in the hand of <hi rend="italic">Anonymus</hi> 066 (L) on the part about the first performance of the motto <hi rend="italic">Das Frauenherz, die Mannesbrust</hi> on 17 May 1868, this is almost certainly a Linz copyist associated with the <hi rend="italic">Liedertafel »Frohsinn«</hi>. 
                <lb/>For more copyists from Linz, see <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Table 3</ref>.</p>
             <table>
                <head>Abschriften</head>

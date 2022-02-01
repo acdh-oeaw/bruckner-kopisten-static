@@ -50,7 +50,7 @@
             <listPerson>
                <person>
                   <persName subtype="L" type="main">Anonymus 154</persName>
-                  <idno type="alphabetically_sorted">Anonymus 154</idno>
+                  <idno type="alphabetically_sorted">Anonymus 154 (L)</idno>
                   <residence>Linz</residence>
                   <affiliation xml:lang="de">Linzer Kopisten</affiliation>
                   <affiliation xml:lang="eng">Linz copyists</affiliation>

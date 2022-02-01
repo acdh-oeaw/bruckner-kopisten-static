@@ -50,7 +50,7 @@
             <listPerson>
                <person>
                   <persName subtype="W" type="main">Anonymus 058</persName>
-                  <idno type="alphabetically_sorted">Anonymus 058</idno>
+                  <idno type="alphabetically_sorted">Anonymus 058 (W)</idno>
                   <floruit from="1875" to="1876-10" notAfter="1876-10" xml:lang="de">1875–vor Okt. 1876</floruit>
                   <floruit from="1875" to="1876-10" notAfter="1876-10" xml:lang="eng">1875–before Oct. 1876</floruit>
                   <residence/>
@@ -63,10 +63,10 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Der Kopist Anonymus 058 fertigte eine Teilabschrift zum 2. Satz der 1. Fassung der 3. Symphonie an.
+               <lb/>Der Kopist Anonymus 058 (W) fertigte eine Teilabschrift zum 2. Satz der 1. Fassung der <hi rend="italic">3. Symphonie</hi> an.
             </p>
             <p decls="desc" xml:lang="eng">
-               <lb/>Anonymus 058 worked on the first version of the Third Symphony.</p>
+               <lb/><hi rend="italic">Anonymus</hi> 058 (W) worked on the first version of the <hi rend="italic">Third Symphony</hi>.</p>
             <table>
                <head>Abschriften</head>
                <row xml:lang="de" role="label">

@@ -50,7 +50,7 @@
             <listPerson>
                <person>
                   <persName subtype="W" type="main">Anonymus 060</persName>
-                  <idno type="alphabetically_sorted">Anonymus 060</idno>
+                  <idno type="alphabetically_sorted">Anonymus 060 (W)</idno>
                   <floruit from="1876" to="1876">1876</floruit>
                   <residence/>
                   <affiliation xml:lang="de"/>
@@ -62,16 +62,16 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Der Kopist Anonymus 060 besorgte einen Teil der Korrekturen innerhalb des
-               Stimmensatzes der Messe in d-Moll, welcher für die Aufführungen in der Wiener
-               Hofburgkapelle benutzt wurden. Im Gegensatz zum Kopisten Anonymus 061 sind die
-               Überklebungen, die vom Kopisten Anonymus 060 stammen nicht sehr zahlreich. 
+               <lb/>Der Kopist Anonymus 060 (W) besorgte einen Teil der Korrekturen innerhalb des
+               Stimmensatzes der <hi rend="italic">Messe in d-Moll</hi>, welcher für die Aufführungen in der Wiener
+               Hofburgkapelle benutzt wurden. Im Gegensatz zum Kopisten Anonymus 061 (W) sind die
+               Überklebungen, die vom Kopisten Anonymus 060 (W) stammen nicht sehr zahlreich. 
             </p>
             <p decls="desc" xml:lang="eng">
-               <lb/>The copyist Anonymus 060 made some of the corrections within the set of parts of
-               the Mass in D minor, which were used for the performances in the Vienna
-               Hofburgkapelle. In contrast to copyist Anonymus 061, the overpastings made by copyist
-               Anonymus 060 are not very numerous. 
+               <lb/><hi rend="italic">Anonymus</hi> 060 (W) made some of the corrections within the set of parts of
+               the <hi rend="italic">Mass in D minor</hi>, which were used for the performances in the Vienna
+               Hofburgkapelle. In contrast to copyist <hi rend="italic">Anonymus</hi> 061 (W), the overpastings made by copyist
+               <hi rend="italic">Anonymus</hi> 060 (W) are not very numerous. 
             </p>
             <table>
                <head>Abschriften</head>

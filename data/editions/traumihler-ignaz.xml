@@ -4,8 +4,7 @@
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Traumihler, Ignaz</title>
-            <title level="m">Die Wiener Kopisten der
-               Werke Anton Bruckners</title>
+            <title level="m">Die Wiener Kopisten der Werke Anton Bruckners</title>
             <author>
                <name>Paul Hawkshaw</name>
                <name>Clemens Gubsch</name>
@@ -68,15 +67,24 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Die Identifizierung zu Seiberls Schreibprofil erfolgte anhand seiner autographen Partitur des Offertoriums In virtue tua im Stiftarchiv St. Florian.<ref xml:id="footnote-ref182" target="#footnote182" type="noteAnchor">1</ref>
-               <lb/>Für weitere Kopisten aus St. Florian siehe <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>.
-               <note xml:id="footnote182" type="footnote" anchored="true" n="1">Für den Hinweis zu dieser Handschrift sei Dr. Friedrich Buchmayr herzlichst gedankt.</note>
+               <lb/>Die Identifizierung zu Traumihlers Schreibprofil erfolgte anhand seiner
+               autographen Partitur des Offertoriums <hi rend="italic">In virtue tua</hi> im
+               Stiftsarchiv St. Florian.<ref xml:id="footnote-ref182" target="#footnote182"
+                  type="noteAnchor">1</ref>
+               <lb/>Für weitere Kopisten aus St. Florian siehe <ref
+                  target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>. <note
+                  xml:id="footnote182" type="footnote" anchored="true" n="1">Für den Hinweis zu
+                  dieser Handschrift sei Dr. Friedrich Buchmayr herzlichst gedankt.</note>
             </p>
             <p decls="desc" xml:lang="eng">
                <lb/>Traumihler’s handwriting has been identified on the basis of his autograph score
-               for the Offertory, In virtute tua, in the music archive at St. Florian.<ref xml:id="footnote-ref183" target="#footnote183" type="noteAnchor">1</ref>
-               <lb/>For more St. Florian copyists see <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Table 3</ref>.
-               <note xml:id="footnote183" type="footnote" anchored="true" n="1">The authors would like to thank Dr. Friedrich Buchmayr for drawing their attention to this source.</note>
+               for the Offertory <hi rend="italic">In virtute tua</hi>, in the music archive at St.
+                  Florian.<ref xml:id="footnote-ref183" target="#footnote183" type="noteAnchor"
+                  >1</ref>
+               <lb/>For more St. Florian copyists see <ref
+                  target="../../100_Introduction/Tabelle_3.xml" type="table">Table 3</ref>. <note
+                  xml:id="footnote183" type="footnote" anchored="true" n="1">The authors would like
+                  to thank Dr. Friedrich Buchmayr for drawing their attention to this source.</note>
             </p>
             <p decls="link" xml:lang="de">Eine detaillierte Biographie findet sich im entsprechenden
                Artikel des ABLO: <ref target="http://www.bruckner-online.at/ABLO_d1e4103">siehe
@@ -110,7 +118,8 @@
                      <date from="1854-03-24" to="1854-03-28">24.03.1854–28.03.1854</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-SF20-58">A-SF20-58</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-SF20-58"
+                        >A-SF20-58</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9261">Libera me,
@@ -127,18 +136,21 @@
                </row>
             </table>
             <list>
-               <head xml:lang="de">Beispiele entnommen aus: <ref target="Traumihler_Ignaz_A-SF20-58-1r.jpg">A-SF20-58</ref>
+               <head xml:lang="de">Beispiele entnommen aus: <ref
+                     target="Traumihler_Ignaz_A-SF20-58-1r.jpg">A-SF20-58</ref>
                </head>
-               <head xml:lang="eng">Examples taken from: <ref target="Traumihler_Ignaz_A-SF20-58-1r.jpg">A-SF20-58</ref>
+               <head xml:lang="eng">Examples taken from: <ref
+                     target="Traumihler_Ignaz_A-SF20-58-1r.jpg">A-SF20-58</ref>
                </head>
                <item>
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/T/Traumihler_Ignaz/Traumihler_Ignaz_A-SF20-58_A-Clefs_C.png"/>
+                        url="../../101_samples/named/T/Traumihler_Ignaz/Traumihler_Ignaz_A-SF20-58_A-Clefs_C.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/T/Traumihler_Ignaz/Traumihler_Ignaz_A-SF20-58_A-Clefs_F.png"/>
+                        url="../../101_samples/named/T/Traumihler_Ignaz/Traumihler_Ignaz_A-SF20-58_A-Clefs_F.png"
+                     />
                   </figure>
                </item>
                <item>
@@ -146,11 +158,12 @@
                   <title xml:lang="eng">Accidentals</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/T/Traumihler_Ignaz/Traumihler_Ignaz_A-SF20-58_B-Accidentals_Flat.png"/>
+                        url="../../101_samples/named/T/Traumihler_Ignaz/Traumihler_Ignaz_A-SF20-58_B-Accidentals_Flat.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/T/Traumihler_Ignaz/Traumihler_Ignaz_A-SF20-58_B-Accidentals_Natural.png"/>
+                        url="../../101_samples/named/T/Traumihler_Ignaz/Traumihler_Ignaz_A-SF20-58_B-Accidentals_Natural.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/T/Traumihler_Ignaz/Traumihler_Ignaz_A-SF20-58_B-Accidentals_Sharp.png"/>
+                        url="../../101_samples/named/T/Traumihler_Ignaz/Traumihler_Ignaz_A-SF20-58_B-Accidentals_Sharp.png"
+                     />
                   </figure>
                </item>
                <item>
@@ -158,7 +171,8 @@
                   <title xml:lang="eng">Time Signatures</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/T/Traumihler_Ignaz/Traumihler_Ignaz_A-SF20-58_C-Time-Signatures_C.png"/>
+                        url="../../101_samples/named/T/Traumihler_Ignaz/Traumihler_Ignaz_A-SF20-58_C-Time-Signatures_C.png"
+                     />
                   </figure>
                </item>
                <item>
@@ -166,7 +180,8 @@
                   <title xml:lang="eng">Rests</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/T/Traumihler_Ignaz/Traumihler_Ignaz_A-SF20-58_D-Rests_Viertel.png"/>
+                        url="../../101_samples/named/T/Traumihler_Ignaz/Traumihler_Ignaz_A-SF20-58_D-Rests_Viertel.png"
+                     />
                   </figure>
                </item>
                <item>
@@ -174,11 +189,12 @@
                   <title xml:lang="eng">Notes</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/T/Traumihler_Ignaz/Traumihler_Ignaz_A-SF20-58_E-Notes_Achtel.png"/>
+                        url="../../101_samples/named/T/Traumihler_Ignaz/Traumihler_Ignaz_A-SF20-58_E-Notes_Achtel.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/T/Traumihler_Ignaz/Traumihler_Ignaz_A-SF20-58_E-Notes_Halbe.png"/>
+                        url="../../101_samples/named/T/Traumihler_Ignaz/Traumihler_Ignaz_A-SF20-58_E-Notes_Halbe.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/T/Traumihler_Ignaz/Traumihler_Ignaz_A-SF20-58_E-Notes_Viertel.png"/>
+                        url="../../101_samples/named/T/Traumihler_Ignaz/Traumihler_Ignaz_A-SF20-58_E-Notes_Viertel.png"
+                     />
                   </figure>
                </item>
                <item>
@@ -186,9 +202,10 @@
                   <title xml:lang="eng">Dynamics</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/T/Traumihler_Ignaz/Traumihler_Ignaz_A-SF20-58_F-Dynamics_Fortissimo.png"/>
+                        url="../../101_samples/named/T/Traumihler_Ignaz/Traumihler_Ignaz_A-SF20-58_F-Dynamics_Fortissimo.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/T/Traumihler_Ignaz/Traumihler_Ignaz_A-SF20-58_F-Dynamics_Piano.png"/>
+                        url="../../101_samples/named/T/Traumihler_Ignaz/Traumihler_Ignaz_A-SF20-58_F-Dynamics_Piano.png"
+                     />
                   </figure>
                </item>
             </list>

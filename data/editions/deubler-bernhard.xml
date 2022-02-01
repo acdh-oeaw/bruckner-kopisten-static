@@ -67,16 +67,17 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Auf seiner Partiturabschrift des Requiems (WAB 039) vermerkte Deubler auf fol.
-                  1<hi rend="sup">r</hi> folgenden Hinweis: „Mit Erlaubnis des Autors abgeschrieben
-               von | Bernhard Deubler Theologieprofessor und | Regens chori im Jahre 1888” <lb/>Für
-               weitere St. Florianer Kopisten siehe <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>
+               <lb/>Auf seiner Partiturabschrift des <hi rend="italic">Requiems</hi> vermerkte
+               Deubler auf fol. 1<hi rend="sup">r</hi> folgenden Hinweis: „Mit Erlaubnis des Autors
+               abgeschrieben von | Bernhard Deubler Theologieprofessor und | Regens chori im Jahre
+               1888” <lb/>Für weitere St. Florianer Kopisten siehe <ref
+                  target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>
             </p>
             <p decls="desc" xml:lang="eng">
-               <lb/>Fol. 1<hi rend="sup">r</hi> of Deubler’s copy score of Bruckner’s Requiem (WAB
-               039) contains the following remark: “Mit Erlaubnis des Autors abgeschrieben von |
-               Bernhard Deubler Theologieprofessor und | Regens chori im Jahre 1888”. <lb/>For more
-               St. Florian copyists see table 3. </p>
+               <lb/>Fol. 1<hi rend="sup">r</hi> of Deubler’s copy score of Bruckner’s <hi
+                  rend="italic">Requiem</hi> contains the following remark: “Mit Erlaubnis des
+               Autors abgeschrieben von | Bernhard Deubler Theologieprofessor und | Regens chori im
+               Jahre 1888”. <lb/>For more St. Florian copyists see table 3. </p>
             <p decls="link" xml:lang="de">Eine detaillierte Biographie findet sich im entsprechenden
                Artikel des ABLO: <ref target="http://www.bruckner-online.at/ABLO_d1e880">siehe
                   ABLO</ref>
@@ -108,7 +109,8 @@
                      <date from="1848" to="1849-03-14">zwischen 1848 und 14.03.1849</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-SF20-53a">A-SF20-53a</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-SF20-53a"
+                        >A-SF20-53a</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9671 d1e12972">Requiem</ref>
@@ -124,20 +126,23 @@
                </row>
             </table>
             <list>
-               <head xml:lang="de">Beispiele entnommen aus: <ref target="Deubler_Bernhard_A-SF20-53a-03.jpg">A-SF20-53a</ref>
+               <head xml:lang="de">Beispiele entnommen aus: <ref
+                     target="Deubler_Bernhard_A-SF20-53a-03.jpg">A-SF20-53a</ref>
                </head>
-               <head xml:lang="eng">Examples taken from: <ref target="Deubler_Bernhard_A-SF20-53a-03.jpg">A-SF20-53a</ref>
+               <head xml:lang="eng">Examples taken from: <ref
+                     target="Deubler_Bernhard_A-SF20-53a-03.jpg">A-SF20-53a</ref>
                </head>
                <item>
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/D/Deubler_Bernhard/Deubler_Bernhard_A-SF20-53a_A-Clefs_C.png"/>
+                        url="../../101_samples/named/D/Deubler_Bernhard/Deubler_Bernhard_A-SF20-53a_A-Clefs_C.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/D/Deubler_Bernhard/Deubler_Bernhard_A-SF20-53a_A-Clefs_F.png"/>
+                        url="../../101_samples/named/D/Deubler_Bernhard/Deubler_Bernhard_A-SF20-53a_A-Clefs_F.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/D/Deubler_Bernhard/Deubler_Bernhard_A-SF20-53a_A-Clefs_G.png"/>
+                        url="../../101_samples/named/D/Deubler_Bernhard/Deubler_Bernhard_A-SF20-53a_A-Clefs_G.png"
+                     />
                   </figure>
                </item>
                <item>
@@ -145,11 +150,12 @@
                   <title xml:lang="eng">Accidentals</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/D/Deubler_Bernhard/Deubler_Bernhard_A-SF20-53a_B-Accidentals_Flat.png"/>
+                        url="../../101_samples/named/D/Deubler_Bernhard/Deubler_Bernhard_A-SF20-53a_B-Accidentals_Flat.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/D/Deubler_Bernhard/Deubler_Bernhard_A-SF20-53a_B-Accidentals_Natural.png"/>
+                        url="../../101_samples/named/D/Deubler_Bernhard/Deubler_Bernhard_A-SF20-53a_B-Accidentals_Natural.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/D/Deubler_Bernhard/Deubler_Bernhard_A-SF20-53a_B-Accidentals_Sharp.png"/>
+                        url="../../101_samples/named/D/Deubler_Bernhard/Deubler_Bernhard_A-SF20-53a_B-Accidentals_Sharp.png"
+                     />
                   </figure>
                </item>
                <item>
@@ -157,7 +163,8 @@
                   <title xml:lang="eng">Time Signatures</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/D/Deubler_Bernhard/Deubler_Bernhard_A-SF20-53a_C-Time-Signatures_C.png"/>
+                        url="../../101_samples/named/D/Deubler_Bernhard/Deubler_Bernhard_A-SF20-53a_C-Time-Signatures_C.png"
+                     />
                   </figure>
                </item>
                <item>
@@ -165,11 +172,12 @@
                   <title xml:lang="eng">Rests</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/D/Deubler_Bernhard/Deubler_Bernhard_A-SF20-53a_D-Rests_Achtel.png"/>
+                        url="../../101_samples/named/D/Deubler_Bernhard/Deubler_Bernhard_A-SF20-53a_D-Rests_Achtel.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/D/Deubler_Bernhard/Deubler_Bernhard_A-SF20-53a_D-Rests_Sechzehntel.png"/>
+                        url="../../101_samples/named/D/Deubler_Bernhard/Deubler_Bernhard_A-SF20-53a_D-Rests_Sechzehntel.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/D/Deubler_Bernhard/Deubler_Bernhard_A-SF20-53a_D-Rests_Viertel.png"/>
+                        url="../../101_samples/named/D/Deubler_Bernhard/Deubler_Bernhard_A-SF20-53a_D-Rests_Viertel.png"
+                     />
                   </figure>
                </item>
                <item>
@@ -177,13 +185,14 @@
                   <title xml:lang="eng">Notes</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/D/Deubler_Bernhard/Deubler_Bernhard_A-SF20-53a_E-Notes_Achtel.png"/>
+                        url="../../101_samples/named/D/Deubler_Bernhard/Deubler_Bernhard_A-SF20-53a_E-Notes_Achtel.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/D/Deubler_Bernhard/Deubler_Bernhard_A-SF20-53a_E-Notes_Halbe.png"/>
+                        url="../../101_samples/named/D/Deubler_Bernhard/Deubler_Bernhard_A-SF20-53a_E-Notes_Halbe.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/D/Deubler_Bernhard/Deubler_Bernhard_A-SF20-53a_E-Notes_Sechzehntel.png"/>
+                        url="../../101_samples/named/D/Deubler_Bernhard/Deubler_Bernhard_A-SF20-53a_E-Notes_Sechzehntel.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/D/Deubler_Bernhard/Deubler_Bernhard_A-SF20-53a_E-Notes_Viertel.png"/>
+                        url="../../101_samples/named/D/Deubler_Bernhard/Deubler_Bernhard_A-SF20-53a_E-Notes_Viertel.png"
+                     />
                   </figure>
                </item>
                <item>
@@ -191,15 +200,16 @@
                   <title xml:lang="eng">Dynamics</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/D/Deubler_Bernhard/Deubler_Bernhard_A-SF20-53a_F-Dynamics_Cresc.png"/>
+                        url="../../101_samples/named/D/Deubler_Bernhard/Deubler_Bernhard_A-SF20-53a_F-Dynamics_Cresc.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/D/Deubler_Bernhard/Deubler_Bernhard_A-SF20-53a_F-Dynamics_Decresc.png"/>
+                        url="../../101_samples/named/D/Deubler_Bernhard/Deubler_Bernhard_A-SF20-53a_F-Dynamics_Decresc.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/D/Deubler_Bernhard/Deubler_Bernhard_A-SF20-53a_F-Dynamics_Forte.png"/>
+                        url="../../101_samples/named/D/Deubler_Bernhard/Deubler_Bernhard_A-SF20-53a_F-Dynamics_Forte.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/D/Deubler_Bernhard/Deubler_Bernhard_A-SF20-53a_F-Dynamics_Pianissimo.png"/>
+                        url="../../101_samples/named/D/Deubler_Bernhard/Deubler_Bernhard_A-SF20-53a_F-Dynamics_Pianissimo.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/D/Deubler_Bernhard/Deubler_Bernhard_A-SF20-53a_F-Dynamics_Piano.png"/>
+                        url="../../101_samples/named/D/Deubler_Bernhard/Deubler_Bernhard_A-SF20-53a_F-Dynamics_Piano.png"
+                     />
                   </figure>
                </item>
             </list>
