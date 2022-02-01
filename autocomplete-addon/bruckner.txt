@@ -14,6 +14,7 @@ static-search/stems/2287.json
 static-search/stems/26428.json
 static-search/stems/27551.json
 static-search/stems/27552.json
+static-search/stems/27609.json
 static-search/stems/27904.json
 static-search/stems/28050.json
 static-search/stems/28436.json
@@ -41,6 +42,7 @@ static-search/stems/a-wnpha.json
 static-search/stems/a-wprivatbesitz.json
 static-search/stems/auer.json
 static-search/stems/brga.json
+static-search/stems/fasz.json
 static-search/stems/iii.json
 static-search/stems/laska.json
 static-search/stems/musikwissenschaftlich.json
