@@ -29,7 +29,6 @@ static-search/stems/026.json
 static-search/stems/027.json
 static-search/stems/028.json
 static-search/stems/029.json
-static-search/stems/03.08.json
 static-search/stems/03.10.json
 static-search/stems/030.json
 static-search/stems/031.json
@@ -41,7 +40,6 @@ static-search/stems/036.json
 static-search/stems/037.json
 static-search/stems/038.json
 static-search/stems/039.json
-static-search/stems/04.09.json
 static-search/stems/040.json
 static-search/stems/041.json
 static-search/stems/042.json
@@ -188,16 +186,12 @@ static-search/stems/1849.json
 static-search/stems/1850.json
 static-search/stems/1852.json
 static-search/stems/1854.json
-static-search/stems/1855.json
-static-search/stems/1856.json
 static-search/stems/1860.json
-static-search/stems/1861.json
 static-search/stems/1862.json
 static-search/stems/1863.json
 static-search/stems/1864.json
 static-search/stems/1865.json
 static-search/stems/1866.json
-static-search/stems/1867.json
 static-search/stems/1868.json
 static-search/stems/1869.json
 static-search/stems/1870.json
@@ -208,7 +202,6 @@ static-search/stems/1875.json
 static-search/stems/1876.json
 static-search/stems/1877.json
 static-search/stems/1878.json
-static-search/stems/1879.json
 static-search/stems/1880.json
 static-search/stems/1881.json
 static-search/stems/1882.json
@@ -218,13 +211,11 @@ static-search/stems/1885.json
 static-search/stems/1886.json
 static-search/stems/1887.json
 static-search/stems/1888.json
-static-search/stems/1889.json
 static-search/stems/1890.json
 static-search/stems/1891.json
 static-search/stems/1892.json
 static-search/stems/1893.json
 static-search/stems/1894.json
-static-search/stems/1895.json
 static-search/stems/1896.json
 static-search/stems/1897.json
 static-search/stems/1898.json
@@ -1076,7 +1067,6 @@ static-search/stems/klar.json
 static-search/stems/klavierauszug.json
 static-search/stems/klavierstimmen.json
 static-search/stems/klosterneuburg.json
-static-search/stems/klosterneuburger.json
 static-search/stems/klären.json
 static-search/stems/know.json
 static-search/stems/known.json
@@ -1280,7 +1270,6 @@ static-search/stems/noll.json
 static-search/stems/nomad.json
 static-search/stems/nomadenleben.json
 static-search/stems/nor.json
-static-search/stems/normdaten.json
 static-search/stems/not.json
 static-search/stems/note.json
 static-search/stems/notenköpf.json
@@ -1309,7 +1298,6 @@ static-search/stems/oddo.json
 static-search/stems/offertori.json
 static-search/stems/offertorium.json
 static-search/stems/often.json
-static-search/stems/okt.json
 static-search/stems/oktob.json
 static-search/stems/old.json
 static-search/stems/one.json
@@ -1460,7 +1448,6 @@ static-search/stems/report.json
 static-search/stems/reproduct.json
 static-search/stems/request.json
 static-search/stems/requiem.json
-static-search/stems/residenz.json
 static-search/stems/respect.json
 static-search/stems/rest.json
 static-search/stems/restbeständ.json
@@ -1634,7 +1621,6 @@ static-search/stems/stimmt.json
 static-search/stems/stolz.json
 static-search/stems/ston.json
 static-search/stems/stradal.json
-static-search/stems/straßburg.json
 static-search/stems/streichquartett.json
 static-search/stems/streichquintett.json
 static-search/stems/strength.json
@@ -1741,7 +1727,6 @@ static-search/stems/under.json
 static-search/stems/unidentifi.json
 static-search/stems/uniqu.json
 static-search/stems/unklar.json
-static-search/stems/unknown.json
 static-search/stems/unlik.json
 static-search/stems/unmittelbar.json
 static-search/stems/unterlehr.json
