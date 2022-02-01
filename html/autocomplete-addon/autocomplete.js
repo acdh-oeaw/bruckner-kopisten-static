@@ -308,6 +308,7 @@ async function download(filepath) {
         date.setDate(date.getDate() + 7);
         // console.log(date);
         filenamesArr.date["dateExpiry"] = date;
+        console.log(filenamesArr);
         return filenamesArr;
 
     } catch (error) {

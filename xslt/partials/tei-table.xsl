@@ -116,10 +116,14 @@
                     <xsl:when test="@role='Datierung'">
                         <!-- ignore this cell -->
                     </xsl:when>
+                    <xsl:when test="@role='WAB-Nummer'">
+                        <td class="{@role}">
+                            <xsl:apply-templates/>
+                        </td>
+                    </xsl:when>                    
                     <xsl:otherwise>
                         <xsl:choose>
-                            <xsl:when test="@xml:lang='de'">
-                                <td class="{@role}"><xsl:apply-templates/></td>                        
+                            <xsl:when test="@xml:lang='de'">                                                                                        
                                 <xsl:if test="child::tei:date/@from and not(ancestor::tei:div[@xml:id])">
                                     <td>
                                         <xsl:value-of select="./tei:date/@from"/>

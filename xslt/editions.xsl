@@ -29,6 +29,25 @@
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
         <html>
             <head>
+                <xsl:for-each select="//tei:cell[@role='Signatur']">
+                    <meta name="Signatur" class="staticSearch_desc">
+                        <xsl:attribute name="content">
+                            <xsl:value-of select="normalize-space(.)"/>
+                        </xsl:attribute>
+                    </meta>
+                </xsl:for-each>
+                <xsl:for-each select="//tei:cell[@role='WAB-Nummer']">
+                    <meta name="WAB-Nummer" class="staticSearch_desc">
+                        <xsl:attribute name="content">
+                            <xsl:value-of select="normalize-space(.)"/>
+                        </xsl:attribute>
+                    </meta>
+                </xsl:for-each>
+                <meta name="docTitle" class="staticSearch_docTitle">
+                    <xsl:attribute name="content">
+                        <xsl:value-of select="//tei:titleStmt/tei:title[@level='a']"/>
+                    </xsl:attribute>
+                </meta>
                 <xsl:call-template name="html_head">
                     <xsl:with-param name="html_title" select="$doc_title"/>
                 </xsl:call-template>

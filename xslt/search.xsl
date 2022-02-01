@@ -18,7 +18,7 @@
                     <xsl:with-param name="html_title" select="$doc_title"></xsl:with-param>
                 </xsl:call-template>
             </head>
-            <body class="page">
+            <body class="page" onload="updateFilters()">
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
                     
@@ -70,6 +70,7 @@
                     
                 </div>
                 <script type="text/javascript" src="autocomplete-addon/autocomplete.js"></script>
+                <script type="text/javascript" src="js/ssFilterUpdate.js"></script>
             </body>
         </html>
     </xsl:template>

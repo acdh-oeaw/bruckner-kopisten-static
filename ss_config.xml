@@ -23,6 +23,7 @@
         <outputFolder>static-search</outputFolder>
     </params>
     <rules>
-        <rule match="text()[not(parent::span[@class='text'])]" weight="0"/>
+        <rule match="text()[not(parent::td[@class='Signatur'])] | text()[not(ancestor::td[@class='Signatur'])]" weight="0"/>
     </rules>
+    <!-- | text()[not(parent::td[@class='WAB-Nummer'])] | text()[not(ancestor::td[@class='WAB-Nummer'])] -->
 </config>

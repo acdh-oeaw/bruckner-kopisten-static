@@ -25,13 +25,25 @@
                     <xsl:apply-templates/>          
                 </a>               
             </xsl:when>
-            <xsl:when test="starts-with(@target,'http') or starts-with(@target,'www')">                
-                <a target="_blank">
-                    <xsl:attribute name="href">
-                        <xsl:value-of select="@target"/>
-                    </xsl:attribute>
-                    <xsl:apply-templates/>                                
-                </a>               
+            <xsl:when test="starts-with(@target,'http') or starts-with(@target,'www')">       
+                <xsl:choose>
+                    <xsl:when test="parent::tei:cell[@role='WAB-Nummer']">
+                        <a target="_blank">
+                            <xsl:attribute name="href">
+                                <xsl:value-of select="@target"/>
+                            </xsl:attribute>
+                            <!--<xsl:text>wab</xsl:text>--><xsl:apply-templates/>                                
+                        </a>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <a target="_blank">
+                            <xsl:attribute name="href">
+                                <xsl:value-of select="@target"/>
+                            </xsl:attribute>
+                            <xsl:apply-templates/>                                
+                        </a>
+                    </xsl:otherwise>
+                </xsl:choose>                               
             </xsl:when>
             <xsl:when test="@corresp">
                 <xsl:variable name="cp" select="tokenize(@target, '/')"/>
