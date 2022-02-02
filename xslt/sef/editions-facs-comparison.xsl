@@ -11,12 +11,14 @@
     
     <xsl:template match="/">
         <xsl:for-each select="//tei:list">
-            <legend>
-                <xsl:apply-templates select="//tei:head[parent::tei:list]"/>
-            </legend>
-            <ul>
-                <xsl:apply-templates select="//tei:item"/>
-            </ul>
+            <div class="comparison-result">
+                <legend>
+                    <xsl:apply-templates select="//tei:head[parent::tei:list]"/>
+                </legend>
+                <ul>
+                    <xsl:apply-templates select="//tei:item"/>
+                </ul> 
+            </div>            
         </xsl:for-each>                        
     </xsl:template>    
     
@@ -52,7 +54,7 @@
     
     <xsl:template match="tei:ref">
         <div class="img-notes">
-            <img class="tei-xml-images">
+            <img class="tei-xml-images" title="{.}">
                 <xsl:attribute name="src">
                     <xsl:value-of select="concat(
                         'https://iiif.acdh.oeaw.ac.at/bruckner-kopisten/', 
