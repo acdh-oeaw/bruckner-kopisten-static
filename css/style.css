@@ -183,6 +183,18 @@ p {
     transform: scale(1.05);
 }
 
+legend .img-notes {
+    display: block;
+    border: none;
+    padding:.2em;
+    border-radius:.25rem;
+    transition: transform .2s;
+}
+
+legend .img-notes:hover {
+    transform: scale(1.01);
+}
+
 .tei-xml-images {
     width:100px;
     height:100px;
@@ -401,6 +413,21 @@ ul.ssDescCheckboxList li {
 .ssDescCheckboxList li label {
     margin-left: .5em;
     max-width: 90%;
+}
+
+/* comparison */
+
+.btn {
+    padding: 1em;
+    border-radius: .5rem;
+    border: 2px solid #ab1923;
+    background-color: transparent;
+    color: #ab1923;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #fff;  
 }
 
 /* Footer */
