@@ -9,14 +9,14 @@
     expand-text="yes"
     version="3.0">
     
-    <xsl:import href="../partials/tei-ref.xsl"/>
-    
     <xsl:template match="/">
         <xsl:for-each select="//tei:list">
             <legend>
                 <xsl:apply-templates select="//tei:head[parent::tei:list]"/>
             </legend>
-            <ul><xsl:apply-templates select="//tei:item"/></ul>
+            <ul>
+                <xsl:apply-templates select="//tei:item"/>
+            </ul>
         </xsl:for-each>                        
     </xsl:template>    
     
@@ -49,6 +49,19 @@
                 </img>
             </div>
         </xsl:for-each>        
+    </xsl:template>
+    
+    <xsl:template match="tei:ref">
+        <xsl:param name="iiif-ext" select="'full/full/0/default.jpg'"/>  
+        <div class="img-notes">
+            <img class="tei-xml-images">
+                <xsl:attribute name="src">
+                    <xsl:value-of select="concat(
+                        'https://iiif.acdh.oeaw.ac.at/bruckner-kopisten/', 
+                        replace(@target, '.jpg', $iiif-ext))"/>
+                </xsl:attribute>
+            </img>
+        </div>
     </xsl:template>
 
 </xsl:transform>	
