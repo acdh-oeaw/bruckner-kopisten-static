@@ -33,7 +33,12 @@
                                 <table class="table table-striped table-hover" id="{$table-id}" style="width:100%;">                        
                                     <thead>
                                         <xsl:for-each select="./tei:row[@role='label' and @xml:lang='de']">                                
-                                            <tr>                
+                                            <tr> 
+                                                <xsl:if test="not(
+                                                    contains(parent::tei:table/tei:head[@xml:lang='de'], 
+                                                    'Tabelle 3'))">
+                                                    <th>Nr.</th>
+                                                </xsl:if>                                                
                                                 <xsl:apply-templates/>   
                                                 <!--<xsl:if test="ancestor::tei:div[@xml:id]">
                                                     <th>Kommentar</th> 
@@ -44,6 +49,11 @@
                                     <tbody>
                                         <xsl:for-each select="./tei:row[@role='data']">                        
                                             <tr>
+                                                <xsl:if test="not(
+                                                    contains(parent::tei:table/tei:head[@xml:lang='de'], 
+                                                    'Tabelle 3'))">
+                                                    <td><xsl:value-of select="position()"/></td>
+                                                </xsl:if>                                                
                                                 <xsl:apply-templates/>                                                
                                             </tr>                                                                             
                                         </xsl:for-each>
@@ -83,7 +93,7 @@
             <xsl:when test="parent::tei:row[@role='label' and @xml:lang='de']">
                 <xsl:choose>
                     <xsl:when test="contains(., 'Datierung des Werkes')">
-                        
+                        <!--  ignore this cell -->
                     </xsl:when>
                     <xsl:otherwise>
                         <xsl:choose>
@@ -114,7 +124,7 @@
                         <!-- ignore this cell -->
                     </xsl:when>
                     <xsl:when test="@role='Datierung'">
-                        <!-- ignore this cell -->
+                        <!-- ignore this cell created numbered column -->                        
                     </xsl:when>
                     <xsl:when test="@role='WAB-Nummer'">
                         <td class="{@role}">

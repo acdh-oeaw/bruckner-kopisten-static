@@ -11,6 +11,7 @@
     <xsl:import href="partials/html_footer.xsl"/>
     <xsl:import href="partials/tei-ref.xsl"/>
     <xsl:import href="partials/dataTable-base.xsl"/>
+    <xsl:import href="partials/leaflet-base.xsl"/>
     <xsl:import href="partials/tei-table.xsl"/>
     <xsl:import href="partials/tei-rs.xsl"/>
     <xsl:import href="partials/tei-geo.xsl"/>
@@ -20,7 +21,7 @@
             <xsl:choose>
                 <xsl:when test="starts-with(.//tei:title[@type='sub'][1]/text(), 'Tabelle 4')">
                     <xsl:value-of select="3"/>
-                </xsl:when>
+                </xsl:when>                
                 <xsl:otherwise>
                     <xsl:value-of select="0"/>
                 </xsl:otherwise>
@@ -46,6 +47,7 @@
                     <xsl:with-param name="html_title" select="$doc_title"></xsl:with-param>
                 </xsl:call-template>
                 <xsl:call-template name="datatable-base"/>
+                <xsl:call-template name="leaflet-base"/>
                 <style>
 
                 </style>

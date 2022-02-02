@@ -18,6 +18,8 @@
     <xsl:import href="./partials/html_head.xsl"/>
     <xsl:import href="partials/html_footer.xsl"/>
     <xsl:import href="partials/tei-geo.xsl"/>
+    <xsl:import href="partials/dataTable-base.xsl"/>
+    <xsl:import href="partials/leaflet-base.xsl"/>
     <xsl:template match="/">
         <xsl:variable name="start" as="xs:int">
             <xsl:choose>
@@ -38,6 +40,8 @@
                 <xsl:call-template name="html_head">
                     <xsl:with-param name="html_title" select="$doc_title"/>
                 </xsl:call-template>
+                <xsl:call-template name="datatable-base"/>
+                <xsl:call-template name="leaflet-base"/>
             </head>
             
             <body class="page" 

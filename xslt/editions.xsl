@@ -21,6 +21,7 @@
     <xsl:import href="partials/tei-ref.xsl"/>
     <xsl:import href="partials/tei-table.xsl"/>
     <xsl:import href="partials/dataTable-base.xsl"/>
+    <xsl:import href="partials/leaflet-base.xsl"/>
     
     <xsl:template match="/">
         <xsl:variable name="doc_title">
@@ -52,6 +53,7 @@
                     <xsl:with-param name="html_title" select="$doc_title"/>
                 </xsl:call-template>
                 <xsl:call-template name="datatable-base"/>
+                <!--<xsl:call-template name="leaflet-base"/>-->
                 <style>
                     .container-fluid {
                         max-width: 100%;
@@ -71,9 +73,10 @@
                     <xsl:call-template name="html_footer"/>
                 </div>
             </body>
-            <script>
+            <script type="text/javascript" src="js/dt.js"></script>
+            <script type="text/javascript">
                 $(document).ready(function () {
-                    createDataTable('editions-table')
+                    createDataTable('editions-table');
                 });
             </script>            
         </html>
@@ -539,9 +542,7 @@
                     <xsl:attribute name="src">
                         <xsl:value-of select="concat(
                             'https://iiif.acdh.oeaw.ac.at/bruckner-kopisten/', 
-                            replace($source[last()], 
-                            '.png', 
-                            '/full/full/0/default.jpg'))"/>
+                            replace($source[last()], '.png', '/full/full/0/default.jpg'))"/>
                     </xsl:attribute>
                 </img>
             </div>
@@ -550,5 +551,82 @@
     <xsl:template match="tei:lb">
         <br/>
     </xsl:template>
+    <!--<xsl:template match="tei:table">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <xsl:if test="./tei:head">
+                        <h2>
+                            <xsl:value-of select="./tei:head[1]"/>                            
+                        </h2>
+                        <h4>                            
+                            <xsl:value-of select="./tei:head[2]"/>
+                        </h4>
+                    </xsl:if>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-striped table-hover" id="editions-table" style="width:100%;">                        
+                            <thead>
+                                <xsl:for-each select="./tei:row[@role='label' and @xml:lang='de']">                                
+                                    <tr>                
+                                        <xsl:for-each select="./tei:cell">
+                                            <xsl:choose>
+                                                <xsl:when test="parent::tei:row[@role='label' and @xml:lang='de']">
+                                                    <xsl:choose>
+                                                        <xsl:when test="contains(., 'Datierung des Werkes')">
+                                                            <th>Nr.</th>
+                                                        </xsl:when>
+                                                        <xsl:otherwise>                                                           
+                                                            <th>
+                                                                <xsl:apply-templates/>
+                                                            </th>   
+                                                        </xsl:otherwise>
+                                                    </xsl:choose>
+                                                </xsl:when>
+                                            </xsl:choose>         
+                                            
+                                        </xsl:for-each>                                             
+                                    </tr>                                                                                     
+                                </xsl:for-each>
+                            </thead>
+                            <tbody>
+                                <xsl:for-each select="./tei:row[@role='data']">                        
+                                    <tr>
+                                        <td><xsl:value-of select="position()"/></td>
+                                        <xsl:for-each select="./tei:cell">
+                                            <xsl:choose>
+                                                <xsl:when test="parent::tei:row[@role='data']"> 
+                                                    <xsl:choose>
+                                                        <xsl:when test="@role='Kommentar_intern'">
+                                                            <!-\- ignore this cell -\->
+                                                        </xsl:when>
+                                                        <xsl:when test="@role='Datierung'">
+                                                            <!-\- ignore this cell -\->                                                            
+                                                        </xsl:when>
+                                                        <xsl:when test="@role='WAB-Nummer'">
+                                                            <td class="{@role}">
+                                                                <xsl:apply-templates/>
+                                                            </td>
+                                                        </xsl:when>                    
+                                                        <xsl:otherwise>
+                                                            <td><xsl:apply-templates/></td>   
+                                                        </xsl:otherwise>
+                                                    </xsl:choose>
+                                                </xsl:when>
+                                                <xsl:otherwise>                
+                                                    <td><xsl:apply-templates/></td>                  
+                                                </xsl:otherwise>
+                                            </xsl:choose>
+                                        </xsl:for-each>                                               
+                                    </tr>                                                                             
+                                </xsl:for-each>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </xsl:template>-->
     
 </xsl:stylesheet>
