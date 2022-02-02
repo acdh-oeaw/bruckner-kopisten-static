@@ -9,21 +9,29 @@
     expand-text="yes"
     version="3.0">
     
+    <xsl:import href="../partials/tei-ref.xsl"/>
+    
     <xsl:template match="/">
         <xsl:for-each select="//tei:list">
-            <ul><xsl:apply-templates/></ul>
+            <legend>
+                <xsl:apply-templates select="//tei:head[parent::tei:list]"/>
+            </legend>
+            <ul><xsl:apply-templates select="//tei:item"/></ul>
         </xsl:for-each>                        
     </xsl:template>    
+    
+    <xsl:template match="tei:head[parent::tei:list]">
+        <xsl:apply-templates/>
+    </xsl:template>
     
     <xsl:template match="tei:item">   
         <li>
             <h6>
-                <xsl:value-of select="
-                    ./tei:title[@xml:lang='de']"/>
+                <xsl:value-of select="./tei:title[@xml:lang='de']"/>
                 | 
                 <xsl:value-of select="./tei:title[@xml:lang='eng']"/>
             </h6>
-            <xsl:apply-templates/>
+            <xsl:apply-templates select="//tei:figure"/>
         </li>
     </xsl:template>
     
