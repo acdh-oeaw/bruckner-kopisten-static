@@ -52,7 +52,7 @@
     </xsl:template>
     
     <xsl:template match="tei:ref">
-        <xsl:param name="iiif-ext" select="'full/full/0/default.jpg'"/>  
+        <xsl:param name="iiif-ext" select="'/full/full/0/default.jpg'"/>  
         <div class="img-notes">
             <img class="tei-xml-images">
                 <xsl:attribute name="src">
