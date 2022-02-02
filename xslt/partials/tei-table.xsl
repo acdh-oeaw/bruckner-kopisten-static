@@ -36,7 +36,7 @@
                                             <tr> 
                                                 <xsl:if test="not(
                                                     contains(parent::tei:table/tei:head[@xml:lang='de'], 
-                                                    'Tabelle 3'))">
+                                                    'Tabelle'))">
                                                     <th>Nr.</th>
                                                 </xsl:if>                                                
                                                 <xsl:apply-templates/>   
@@ -51,7 +51,7 @@
                                             <tr>
                                                 <xsl:if test="not(
                                                     contains(parent::tei:table/tei:head[@xml:lang='de'], 
-                                                    'Tabelle 3'))">
+                                                    'Tabelle'))">
                                                     <td><xsl:value-of select="position()"/></td>
                                                 </xsl:if>                                                
                                                 <xsl:apply-templates/>                                                
@@ -133,7 +133,8 @@
                     </xsl:when>                    
                     <xsl:otherwise>
                         <xsl:choose>
-                            <xsl:when test="@xml:lang='de'">                                                                                        
+                            <xsl:when test="@xml:lang='de'">  
+                                <td class="{@role}"><xsl:apply-templates/></td>
                                 <xsl:if test="child::tei:date/@from and not(ancestor::tei:div[@xml:id])">
                                     <td>
                                         <xsl:value-of select="./tei:date/@from"/>

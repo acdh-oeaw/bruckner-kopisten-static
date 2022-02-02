@@ -10,11 +10,11 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>data/meta/about.xml</String>
+                                    <String>data/meta/Tabelle_4.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>toc</String>
+                                        <String>tabellen</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -35,6 +35,26 @@
                                 <field name="scenarioIds">
                                     <list>
                                         <String>tabellen</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>data/meta/about.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>toc</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -3971,26 +3991,6 @@
                             <scenarioAssociation>
                                 <field name="url">
                                     <String>data/editions/anonymus-047.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>Idnos_Sorting</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>data/editions/anonymus-046.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
