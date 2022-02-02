@@ -1,0 +1,622 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+      <meta name="mobile-web-app-capable" content="yes" />
+      <meta name="apple-mobile-web-app-capable" content="yes" />
+      <meta name="apple-mobile-web-app-title" content="Kopisten-Vergleich" />
+      <link rel="profile" href="http://gmpg.org/xfn/11" />
+      <title>Kopisten-Vergleich</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" id="fundament-styles" href="dist/fundament/css/fundament.min.css" type="text/css" />
+      <link rel="stylesheet" href="css/style.css" type="text/css" />
+      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script src="https://unpkg.com/arche-api@1.2.0/lib/arche-api.min.js"></script><script type="text/javascript" src="saxon-js/SaxonJS2.rt.js"></script><style>
+                    .container-fluid {
+                        max-width: 100%;
+                    }
+                </style>
+   </head>
+   <body class="page">
+      <div class="hfeed site" id="page">
+         <div class="wrapper-fluid wrapper-navbar sticky-navbar" id="wrapper-navbar"><a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a><nav class="navbar navbar-expand-lg navbar-light" style="margin-right:0!important;">
+               <div class="container"><a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="img/Bruckner_Logo_KK_web.png" class="img-fluid" title="Ein Kopistenkatalog" alt="Ein Kopistenkatalog" itemprop="logo" /></a><a class="navbar-brand site-title-with-logo" rel="home" href="index.html" title="Ein Kopistenkatalog" itemprop="url"></a><span style="margin-left:-1.7em;" class="badge bg-light text-dark">in development</span><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                     <ul id="main-menu" class="navbar-nav" style="margin-right:0!important;">
+                        <li class="nav-item dropdown"><a title="Papers" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Beschreibung <span class="caret"></span></a><ul class=" dropdown-menu" role="menu" style="width:270px;">
+                              <li class="nav-item dropdown-submenu"><a title="Einleitung" href="01-introduction.html" class="nav-link">Einleitung</a></li>
+                              <li class="nav-item dropdown-submenu"><a title="Benutzerhinweise und Anlage" href="02-userguide.html" class="nav-link">Benutzerhinweise und Anlage</a></li>
+                              <li class="nav-item dropdown-submenu"><a title="Methodik" href="03-methodology.html" class="nav-link">Methodik</a></li>
+                              <li class="nav-item dropdown-submenu"><a title="Nachtrag der Verfasser" href="04-authors_note.html" class="nav-link">Nachtrag der Verfasser</a></li>
+                           </ul>
+                        </li>
+                        <li class="nav-item dropdown"><a title="Indexes" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Katalogzugänge<span class="caret"></span></a><ul class=" dropdown-menu" role="menu" style="width:540px;">
+                              <li class="nav-item dropdown-submenu"><a title="Kopisten der Primärquellen" href="Tabelle_1.html" class="nav-link">Kopisten der Primärquellen</a></li>
+                              <li class="nav-item dropdown-submenu"><a title="Kopisten der Sekundärquellen" href="Tabelle_2.html" class="nav-link">Kopisten der Sekundärquellen</a></li>
+                              <li class="nav-item dropdown-submenu"><a title="Kopisten der Werke Bruckners außerhalb                                             Wiens" href="Tabelle_3.html" class="nav-link">Kopisten der Werke Bruckners außerhalb
+                                    Wiens</a></li>
+                              <li class="nav-item dropdown-submenu"><a title="Zeitraum der Kopiertätigkeit der Kopisten zu Bruckners Lebzeiten" href="Tabelle_4.html" class="nav-link">Zeitraum der Kopiertätigkeit der Kopisten zu Bruckners Lebzeiten</a></li>
+                              <li class="nav-item dropdown-submenu"><a title="Kopisten gesamt" href="toc.html" class="nav-link">Kopisten gesamt</a></li>
+                           </ul>
+                        </li>
+                        <li class="nav-item"><a title="Datenbanksuche" href="search.html" class="nav-link">Datenbanksuche</a></li>
+                        <li class="nav-item"><a title="Vergleich" href="kopist-comparison.html" class="nav-link">Vergleich</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </nav>
+         </div>
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-md-5">
+                  <div class="card">
+                     <div class="card-header"><select class="custom-select custom-select-sm" id="compare-kopist-one">
+                           <option selected="selected">Kopist 1 auswählen</option>
+                           <option value="anonymus-012">Anonymus 012</option>
+                           <option value="anonymus-073">Anonymus 073</option>
+                           <option value="anonymus-022">Anonymus 022</option>
+                           <option value="bayer-juliane">Bayer, Juliane</option>
+                           <option value="anonymus-147">Anonymus 147</option>
+                           <option value="posch-emil">Posch, Emil</option>
+                           <option value="poppel-friedrich">Poppel, Friedrich</option>
+                           <option value="anonymus-111">Anonymus 111</option>
+                           <option value="schalk-franz">Schalk, Franz</option>
+                           <option value="anonymus-010">Anonymus 010</option>
+                           <option value="anonymus-095">Anonymus 095</option>
+                           <option value="anonymus-019">Anonymus 019</option>
+                           <option value="anonymus-101">Anonymus 101</option>
+                           <option value="anonymus-104">Anonymus 104</option>
+                           <option value="berger-alfons">Berger, Alfons</option>
+                           <option value="anonymus-106">Anonymus 106</option>
+                           <option value="anonymus-094">Anonymus 094</option>
+                           <option value="anonymus-025">Anonymus 025</option>
+                           <option value="anonymus-031">Anonymus 031</option>
+                           <option value="anonymus-064">Anonymus 064</option>
+                           <option value="weinwurm-rudolf">Weinwurm, Rudolf</option>
+                           <option value="kopist-firker">Kopist Firker</option>
+                           <option value="anonymus-121">Anonymus 121</option>
+                           <option value="gruber-josef">Gruber, Josef</option>
+                           <option value="anonymus-103">Anonymus 103</option>
+                           <option value="carda-johann">Carda, Johann</option>
+                           <option value="anonymus-040">Anonymus 040</option>
+                           <option value="anonymus-143">Anonymus 143</option>
+                           <option value="anonymus-007">Anonymus 007</option>
+                           <option value="kopist-j-h">Kopist J. H.</option>
+                           <option value="anonymus-059">Anonymus 059</option>
+                           <option value="anonymus-115">Anonymus 115</option>
+                           <option value="anonymus-038">Anonymus 038</option>
+                           <option value="anonymus-153">Anonymus 153</option>
+                           <option value="anonymus-091">Anonymus 091</option>
+                           <option value="hofmeister-karl">Hofmeister, Karl</option>
+                           <option value="anonymus-156">Anonymus 156</option>
+                           <option value="anonymus-148">Anonymus 148</option>
+                           <option value="edlbacher-max">Edlbacher, Max</option>
+                           <option value="anonymus-131">Anonymus 131</option>
+                           <option value="anonymus-109">Anonymus 109</option>
+                           <option value="anonymus-164">Anonymus 164</option>
+                           <option value="anonymus-145">Anonymus 145</option>
+                           <option value="anonymus-016">Anonymus 016</option>
+                           <option value="anonymus-117">Anonymus 117</option>
+                           <option value="anonymus-050">Anonymus 050</option>
+                           <option value="anonymus-119">Anonymus 119</option>
+                           <option value="anonymus-161">Anonymus 161</option>
+                           <option value="anonymus-162">Anonymus 162</option>
+                           <option value="anonymus-166">Anonymus 166</option>
+                           <option value="anonymus-144">Anonymus 144</option>
+                           <option value="maass-karl">Maaß, Karl</option>
+                           <option value="anonymus-127">Anonymus 127</option>
+                           <option value="anonymus-138">Anonymus 138</option>
+                           <option value="anonymus-076">Anonymus 076</option>
+                           <option value="anonymus-024">Anonymus 024</option>
+                           <option value="anonymus-141">Anonymus 141</option>
+                           <option value="anonymus-023">Anonymus 023</option>
+                           <option value="anonymus-051">Anonymus 051</option>
+                           <option value="anonymus-004">Anonymus 004</option>
+                           <option value="anonymus-116">Anonymus 116</option>
+                           <option value="anonymus-042">Anonymus 042</option>
+                           <option value="rossi-franz">Rossi, Franz</option>
+                           <option value="anonymus-017">Anonymus 017</option>
+                           <option value="kopist-fischer">Kopist Fischer</option>
+                           <option value="anonymus-133">Anonymus 133</option>
+                           <option value="schalk-josef">Schalk, Josef</option>
+                           <option value="anonymus-018">Anonymus 018</option>
+                           <option value="anonymus-056">Anonymus 056</option>
+                           <option value="eckstein-friedrich">Eckstein, Friedrich</option>
+                           <option value="anonymus-165">Anonymus 165</option>
+                           <option value="anonymus-029">Anonymus 029</option>
+                           <option value="anonymus-158">Anonymus 158</option>
+                           <option value="anonymus-035">Anonymus 035</option>
+                           <option value="pank-kamillo">Pank, Kamillo</option>
+                           <option value="anonymus-052">Anonymus 052</option>
+                           <option value="anonymus-032">Anonymus 032</option>
+                           <option value="laska-josef">Laska, Josef</option>
+                           <option value="anonymus-140">Anonymus 140</option>
+                           <option value="anonymus-034">Anonymus 034</option>
+                           <option value="anonymus-014">Anonymus 014</option>
+                           <option value="anonymus-033">Anonymus 033</option>
+                           <option value="anonymus-005">Anonymus 005</option>
+                           <option value="petschnig-emil">Petschnig, Emil</option>
+                           <option value="anonymus-157">Anonymus 157</option>
+                           <option value="bauer-arthur">Bauer, Arthur</option>
+                           <option value="kopist-h-i">Kopist H. I.</option>
+                           <option value="kopist-f-k">Kopist F. K.</option>
+                           <option value="kopist-cervenko">Kopist Cervenko</option>
+                           <option value="anonymus-030">Anonymus 030</option>
+                           <option value="anonymus-168">Anonymus 168</option>
+                           <option value="pfandtner-albert">Pfändtner, Albert</option>
+                           <option value="anonymus-083">Anonymus 083</option>
+                           <option value="anonymus-136">Anonymus 136</option>
+                           <option value="anonymus-080">Anonymus 080</option>
+                           <option value="stradal-august">Stradal, August</option>
+                           <option value="anonymus-085">Anonymus 085</option>
+                           <option value="anonymus-077">Anonymus 077</option>
+                           <option value="anonymus-001">Anonymus 001</option>
+                           <option value="feyrer-benno">Feyrer, Benno</option>
+                           <option value="anonymus-087">Anonymus 087</option>
+                           <option value="deubler-bernhard">Deubler, Bernhard</option>
+                           <option value="anonymus-139">Anonymus 139</option>
+                           <option value="neubauer-josef">Neubauer, Josef</option>
+                           <option value="anonymus-082">Anonymus 082</option>
+                           <option value="kopist-e-m">Kopist E. M.</option>
+                           <option value="anonymus-155">Anonymus 155</option>
+                           <option value="anonymus-125">Anonymus 125</option>
+                           <option value="anonymus-071">Anonymus 071</option>
+                           <option value="anonymus-114">Anonymus 114</option>
+                           <option value="anonymus-092">Anonymus 092</option>
+                           <option value="anonymus-063">Anonymus 063</option>
+                           <option value="karmazin-jaroslav">Karmazin, Jaroslav</option>
+                           <option value="christ-viktor">Christ, Viktor</option>
+                           <option value="anonymus-015">Anonymus 015</option>
+                           <option value="anonymus-120">Anonymus 120</option>
+                           <option value="kopist-m-sch">Kopist M. Sch.</option>
+                           <option value="anonymus-128">Anonymus 128</option>
+                           <option value="anonymus-123">Anonymus 123</option>
+                           <option value="anonymus-152">Anonymus 152</option>
+                           <option value="anonymus-013">Anonymus 013</option>
+                           <option value="anonymus-006">Anonymus 006</option>
+                           <option value="anonymus-135">Anonymus 135</option>
+                           <option value="anonymus-150">Anonymus 150</option>
+                           <option value="trittinger-adolf">Trittinger, Adolf</option>
+                           <option value="neuhofer-franz">Neuhofer, Franz</option>
+                           <option value="anonymus-046">Anonymus 046</option>
+                           <option value="anonymus-146">Anonymus 146</option>
+                           <option value="anonymus-079">Anonymus 079</option>
+                           <option value="traumihler-ignaz">Traumihler, Ignaz</option>
+                           <option value="anonymus-060">Anonymus 060</option>
+                           <option value="anonymus-151">Anonymus 151</option>
+                           <option value="kopist-zeller">Kopist Zeller</option>
+                           <option value="burkhart-franz">Burkhart, Franz</option>
+                           <option value="anonymus-037">Anonymus 037</option>
+                           <option value="anonymus-129">Anonymus 129</option>
+                           <option value="anonymus-058">Anonymus 058</option>
+                           <option value="anonymus-126">Anonymus 126</option>
+                           <option value="anonymus-098">Anonymus 098</option>
+                           <option value="jari-franz">Jari, Franz</option>
+                           <option value="hlawaczek-franz">Hlawaczek, Franz</option>
+                           <option value="anonymus-027">Anonymus 027</option>
+                           <option value="tenschert-josef">Tenschert, Josef</option>
+                           <option value="goetz-frederic">Goetz, Frédèric</option>
+                           <option value="muller-franz-xaver">Müller, Franz Xaver</option>
+                           <option value="anonymus-108">Anonymus 108</option>
+                           <option value="anonymus-124">Anonymus 124</option>
+                           <option value="lowe-ferdinand">Löwe, Ferdinand</option>
+                           <option value="graflinger-franz">Gräflinger, Franz</option>
+                           <option value="anonymus-061">Anonymus 061</option>
+                           <option value="seiberl-josef">Seiberl, Josef</option>
+                           <option value="anonymus-089">Anonymus 089</option>
+                           <option value="anonymus-011">Anonymus 011</option>
+                           <option value="anonymus-118">Anonymus 118</option>
+                           <option value="hayback-johann">Haybäck, Johann</option>
+                           <option value="anonymus-165">Anonymus 165</option>
+                           <option value="anonymus-062">Anonymus 062</option>
+                           <option value="anonymus-070">Anonymus 070</option>
+                           <option value="anonymus-134">Anonymus 134</option>
+                           <option value="anonymus-160">Anonymus 160</option>
+                           <option value="anonymus-105">Anonymus 105</option>
+                           <option value="anonymus-002">Anonymus 002</option>
+                           <option value="anonymus-054">Anonymus 054</option>
+                           <option value="anonymus-097">Anonymus 097</option>
+                           <option value="bayer-franz-xaver">Bayer, Franz Xaver</option>
+                           <option value="anonymus-021">Anonymus 021</option>
+                           <option value="anonymus-003">Anonymus 003</option>
+                           <option value="anonymus-166">Anonymus 166</option>
+                           <option value="loidol-oddo">Loidol, Oddo</option>
+                           <option value="peyerl-rudolf">Peyerl, Rudolf</option>
+                           <option value="anonymus-159">Anonymus 159</option>
+                           <option value="kopist-g-a">Kopist G. A.</option>
+                           <option value="anonymus-069">Anonymus 069</option>
+                           <option value="anonymus-044">Anonymus 044</option>
+                           <option value="anonymus-041">Anonymus 041</option>
+                           <option value="anonymus-132">Anonymus 132</option>
+                           <option value="schimatschek-franz">Schimatschek, Franz</option>
+                           <option value="anonymus-078">Anonymus 078</option>
+                           <option value="anonymus-026">Anonymus 026</option>
+                           <option value="anonymus-107">Anonymus 107</option>
+                           <option value="schmidinger-cajetan">Schmidinger, Cajetan</option>
+                           <option value="anonymus-036">Anonymus 036</option>
+                           <option value="anonymus-055">Anonymus 055</option>
+                           <option value="anonymus-047">Anonymus 047</option>
+                           <option value="an-der-lan-hochbrunn-hartmann-von">An der Lan-Hochbrunn, Hartmann von</option>
+                           <option value="anonymus-049">Anonymus 049</option>
+                           <option value="anonymus-090">Anonymus 090</option>
+                           <option value="hynais-cyrill">Hynais, Cyrill</option>
+                           <option value="anonymus-086">Anonymus 086</option>
+                           <option value="anonymus-074">Anonymus 074</option>
+                           <option value="anonymus-066">Anonymus 066</option>
+                           <option value="anonymus-008">Anonymus 008</option>
+                           <option value="anonymus-043">Anonymus 043</option>
+                           <option value="anonymus-100">Anonymus 100</option>
+                           <option value="anonymus-137">Anonymus 137</option>
+                           <option value="anonymus-065">Anonymus 065</option>
+                           <option value="anonymus-112">Anonymus 112</option>
+                           <option value="schmid-ernst-fritz">Schmid, Ernst Fritz</option>
+                           <option value="anonymus-020">Anonymus 020</option>
+                           <option value="anonymus-088">Anonymus 088</option>
+                           <option value="anonymus-149">Anonymus 149</option>
+                           <option value="anonymus-081">Anonymus 081</option>
+                           <option value="anonymus-072">Anonymus 072</option>
+                           <option value="kerschbaum-maximilian">Kerschbaum, Maximilian</option>
+                           <option value="anonymus-048">Anonymus 048</option>
+                           <option value="anonymus-100">Anonymus 100</option>
+                           <option value="lehofer-august">Lehofer, August</option>
+                           <option value="anonymus-067">Anonymus 067</option>
+                           <option value="anonymus-130">Anonymus 130</option>
+                           <option value="anonymus-154">Anonymus 154</option>
+                           <option value="anonymus-057">Anonymus 057</option>
+                           <option value="anonymus-122">Anonymus 122</option>
+                           <option value="burgstaller-johann-baptist">Burgstaller, Johann Baptist</option>
+                           <option value="kopist-kroupa">Kopist Kroupa</option>
+                           <option value="anonymus-099">Anonymus 099</option>
+                           <option value="anonymus-039">Anonymus 039</option>
+                           <option value="kopist-j-k">Kopist J. K.</option>
+                           <option value="nittmann-franz">Nittmann, Franz</option>
+                           <option value="anonymus-075">Anonymus 075</option>
+                           <option value="anonymus-113">Anonymus 113</option>
+                           <option value="noll-johann">Noll, Johann</option>
+                           <option value="anonymus-068">Anonymus 068</option>
+                           <option value="anonymus-084">Anonymus 084</option>
+                           <option value="anonymus-053">Anonymus 053</option>
+                           <option value="anonymus-169">Anonymus 169</option>
+                           <option value="anonymus-102">Anonymus 102</option>
+                           <option value="anonymus-096">Anonymus 096</option>
+                           <option value="kellner-altman">Kellner, Altman</option>
+                           <option value="anonymus-142">Anonymus 142</option>
+                           <option value="hofmeyr-leopold">Hofmeyr, Leopold</option>
+                           <option value="anonymus-045">Anonymus 045</option>
+                           <option value="anonymus-093">Anonymus 093</option>
+                           <option value="paur-karl">Paur, Karl</option>
+                           <option value="rott-hans">Rott, Hans</option>
+                           <option value="gollerich-august">Göllerich, August</option>
+                           <option value="aigner-karl">Aigner, Karl</option>
+                           <option value="stolz-ernst">Stolz, Ernst</option>
+                           <option value="auer-max">Auer, Max</option>
+                           <option value="meissner-anton">Meißner, Anton</option>
+                           <option value="anonymus-028">Anonymus 028</option>
+                           <option value="anonymus-009">Anonymus 009</option></select></div>
+                     <div class="card-body" id="compare-column-one"></div>
+                     <div class="card-footer"></div>
+                  </div>
+               </div>
+               <div class="col-md-2">
+                  <div class="text-center" style="margin-top: 4em;"><button class="button btn" onclick="loadComparison()">vergleichen</button></div>
+               </div>
+               <div class="col-md-5">
+                  <div class="card">
+                     <div class="card-header"><select class="custom-select custom-select-sm" id="compare-kopist-two">
+                           <option selected="selected">Kopist 2 auswählen</option>
+                           <option value="anonymus-012">Anonymus 012</option>
+                           <option value="anonymus-073">Anonymus 073</option>
+                           <option value="anonymus-022">Anonymus 022</option>
+                           <option value="bayer-juliane">Bayer, Juliane</option>
+                           <option value="anonymus-147">Anonymus 147</option>
+                           <option value="posch-emil">Posch, Emil</option>
+                           <option value="poppel-friedrich">Poppel, Friedrich</option>
+                           <option value="anonymus-111">Anonymus 111</option>
+                           <option value="schalk-franz">Schalk, Franz</option>
+                           <option value="anonymus-010">Anonymus 010</option>
+                           <option value="anonymus-095">Anonymus 095</option>
+                           <option value="anonymus-019">Anonymus 019</option>
+                           <option value="anonymus-101">Anonymus 101</option>
+                           <option value="anonymus-104">Anonymus 104</option>
+                           <option value="berger-alfons">Berger, Alfons</option>
+                           <option value="anonymus-106">Anonymus 106</option>
+                           <option value="anonymus-094">Anonymus 094</option>
+                           <option value="anonymus-025">Anonymus 025</option>
+                           <option value="anonymus-031">Anonymus 031</option>
+                           <option value="anonymus-064">Anonymus 064</option>
+                           <option value="weinwurm-rudolf">Weinwurm, Rudolf</option>
+                           <option value="kopist-firker">Kopist Firker</option>
+                           <option value="anonymus-121">Anonymus 121</option>
+                           <option value="gruber-josef">Gruber, Josef</option>
+                           <option value="anonymus-103">Anonymus 103</option>
+                           <option value="carda-johann">Carda, Johann</option>
+                           <option value="anonymus-040">Anonymus 040</option>
+                           <option value="anonymus-143">Anonymus 143</option>
+                           <option value="anonymus-007">Anonymus 007</option>
+                           <option value="kopist-j-h">Kopist J. H.</option>
+                           <option value="anonymus-059">Anonymus 059</option>
+                           <option value="anonymus-115">Anonymus 115</option>
+                           <option value="anonymus-038">Anonymus 038</option>
+                           <option value="anonymus-153">Anonymus 153</option>
+                           <option value="anonymus-091">Anonymus 091</option>
+                           <option value="hofmeister-karl">Hofmeister, Karl</option>
+                           <option value="anonymus-156">Anonymus 156</option>
+                           <option value="anonymus-148">Anonymus 148</option>
+                           <option value="edlbacher-max">Edlbacher, Max</option>
+                           <option value="anonymus-131">Anonymus 131</option>
+                           <option value="anonymus-109">Anonymus 109</option>
+                           <option value="anonymus-164">Anonymus 164</option>
+                           <option value="anonymus-145">Anonymus 145</option>
+                           <option value="anonymus-016">Anonymus 016</option>
+                           <option value="anonymus-117">Anonymus 117</option>
+                           <option value="anonymus-050">Anonymus 050</option>
+                           <option value="anonymus-119">Anonymus 119</option>
+                           <option value="anonymus-161">Anonymus 161</option>
+                           <option value="anonymus-162">Anonymus 162</option>
+                           <option value="anonymus-166">Anonymus 166</option>
+                           <option value="anonymus-144">Anonymus 144</option>
+                           <option value="maass-karl">Maaß, Karl</option>
+                           <option value="anonymus-127">Anonymus 127</option>
+                           <option value="anonymus-138">Anonymus 138</option>
+                           <option value="anonymus-076">Anonymus 076</option>
+                           <option value="anonymus-024">Anonymus 024</option>
+                           <option value="anonymus-141">Anonymus 141</option>
+                           <option value="anonymus-023">Anonymus 023</option>
+                           <option value="anonymus-051">Anonymus 051</option>
+                           <option value="anonymus-004">Anonymus 004</option>
+                           <option value="anonymus-116">Anonymus 116</option>
+                           <option value="anonymus-042">Anonymus 042</option>
+                           <option value="rossi-franz">Rossi, Franz</option>
+                           <option value="anonymus-017">Anonymus 017</option>
+                           <option value="kopist-fischer">Kopist Fischer</option>
+                           <option value="anonymus-133">Anonymus 133</option>
+                           <option value="schalk-josef">Schalk, Josef</option>
+                           <option value="anonymus-018">Anonymus 018</option>
+                           <option value="anonymus-056">Anonymus 056</option>
+                           <option value="eckstein-friedrich">Eckstein, Friedrich</option>
+                           <option value="anonymus-165">Anonymus 165</option>
+                           <option value="anonymus-029">Anonymus 029</option>
+                           <option value="anonymus-158">Anonymus 158</option>
+                           <option value="anonymus-035">Anonymus 035</option>
+                           <option value="pank-kamillo">Pank, Kamillo</option>
+                           <option value="anonymus-052">Anonymus 052</option>
+                           <option value="anonymus-032">Anonymus 032</option>
+                           <option value="laska-josef">Laska, Josef</option>
+                           <option value="anonymus-140">Anonymus 140</option>
+                           <option value="anonymus-034">Anonymus 034</option>
+                           <option value="anonymus-014">Anonymus 014</option>
+                           <option value="anonymus-033">Anonymus 033</option>
+                           <option value="anonymus-005">Anonymus 005</option>
+                           <option value="petschnig-emil">Petschnig, Emil</option>
+                           <option value="anonymus-157">Anonymus 157</option>
+                           <option value="bauer-arthur">Bauer, Arthur</option>
+                           <option value="kopist-h-i">Kopist H. I.</option>
+                           <option value="kopist-f-k">Kopist F. K.</option>
+                           <option value="kopist-cervenko">Kopist Cervenko</option>
+                           <option value="anonymus-030">Anonymus 030</option>
+                           <option value="anonymus-168">Anonymus 168</option>
+                           <option value="pfandtner-albert">Pfändtner, Albert</option>
+                           <option value="anonymus-083">Anonymus 083</option>
+                           <option value="anonymus-136">Anonymus 136</option>
+                           <option value="anonymus-080">Anonymus 080</option>
+                           <option value="stradal-august">Stradal, August</option>
+                           <option value="anonymus-085">Anonymus 085</option>
+                           <option value="anonymus-077">Anonymus 077</option>
+                           <option value="anonymus-001">Anonymus 001</option>
+                           <option value="feyrer-benno">Feyrer, Benno</option>
+                           <option value="anonymus-087">Anonymus 087</option>
+                           <option value="deubler-bernhard">Deubler, Bernhard</option>
+                           <option value="anonymus-139">Anonymus 139</option>
+                           <option value="neubauer-josef">Neubauer, Josef</option>
+                           <option value="anonymus-082">Anonymus 082</option>
+                           <option value="kopist-e-m">Kopist E. M.</option>
+                           <option value="anonymus-155">Anonymus 155</option>
+                           <option value="anonymus-125">Anonymus 125</option>
+                           <option value="anonymus-071">Anonymus 071</option>
+                           <option value="anonymus-114">Anonymus 114</option>
+                           <option value="anonymus-092">Anonymus 092</option>
+                           <option value="anonymus-063">Anonymus 063</option>
+                           <option value="karmazin-jaroslav">Karmazin, Jaroslav</option>
+                           <option value="christ-viktor">Christ, Viktor</option>
+                           <option value="anonymus-015">Anonymus 015</option>
+                           <option value="anonymus-120">Anonymus 120</option>
+                           <option value="kopist-m-sch">Kopist M. Sch.</option>
+                           <option value="anonymus-128">Anonymus 128</option>
+                           <option value="anonymus-123">Anonymus 123</option>
+                           <option value="anonymus-152">Anonymus 152</option>
+                           <option value="anonymus-013">Anonymus 013</option>
+                           <option value="anonymus-006">Anonymus 006</option>
+                           <option value="anonymus-135">Anonymus 135</option>
+                           <option value="anonymus-150">Anonymus 150</option>
+                           <option value="trittinger-adolf">Trittinger, Adolf</option>
+                           <option value="neuhofer-franz">Neuhofer, Franz</option>
+                           <option value="anonymus-046">Anonymus 046</option>
+                           <option value="anonymus-146">Anonymus 146</option>
+                           <option value="anonymus-079">Anonymus 079</option>
+                           <option value="traumihler-ignaz">Traumihler, Ignaz</option>
+                           <option value="anonymus-060">Anonymus 060</option>
+                           <option value="anonymus-151">Anonymus 151</option>
+                           <option value="kopist-zeller">Kopist Zeller</option>
+                           <option value="burkhart-franz">Burkhart, Franz</option>
+                           <option value="anonymus-037">Anonymus 037</option>
+                           <option value="anonymus-129">Anonymus 129</option>
+                           <option value="anonymus-058">Anonymus 058</option>
+                           <option value="anonymus-126">Anonymus 126</option>
+                           <option value="anonymus-098">Anonymus 098</option>
+                           <option value="jari-franz">Jari, Franz</option>
+                           <option value="hlawaczek-franz">Hlawaczek, Franz</option>
+                           <option value="anonymus-027">Anonymus 027</option>
+                           <option value="tenschert-josef">Tenschert, Josef</option>
+                           <option value="goetz-frederic">Goetz, Frédèric</option>
+                           <option value="muller-franz-xaver">Müller, Franz Xaver</option>
+                           <option value="anonymus-108">Anonymus 108</option>
+                           <option value="anonymus-124">Anonymus 124</option>
+                           <option value="lowe-ferdinand">Löwe, Ferdinand</option>
+                           <option value="graflinger-franz">Gräflinger, Franz</option>
+                           <option value="anonymus-061">Anonymus 061</option>
+                           <option value="seiberl-josef">Seiberl, Josef</option>
+                           <option value="anonymus-089">Anonymus 089</option>
+                           <option value="anonymus-011">Anonymus 011</option>
+                           <option value="anonymus-118">Anonymus 118</option>
+                           <option value="hayback-johann">Haybäck, Johann</option>
+                           <option value="anonymus-165">Anonymus 165</option>
+                           <option value="anonymus-062">Anonymus 062</option>
+                           <option value="anonymus-070">Anonymus 070</option>
+                           <option value="anonymus-134">Anonymus 134</option>
+                           <option value="anonymus-160">Anonymus 160</option>
+                           <option value="anonymus-105">Anonymus 105</option>
+                           <option value="anonymus-002">Anonymus 002</option>
+                           <option value="anonymus-054">Anonymus 054</option>
+                           <option value="anonymus-097">Anonymus 097</option>
+                           <option value="bayer-franz-xaver">Bayer, Franz Xaver</option>
+                           <option value="anonymus-021">Anonymus 021</option>
+                           <option value="anonymus-003">Anonymus 003</option>
+                           <option value="anonymus-166">Anonymus 166</option>
+                           <option value="loidol-oddo">Loidol, Oddo</option>
+                           <option value="peyerl-rudolf">Peyerl, Rudolf</option>
+                           <option value="anonymus-159">Anonymus 159</option>
+                           <option value="kopist-g-a">Kopist G. A.</option>
+                           <option value="anonymus-069">Anonymus 069</option>
+                           <option value="anonymus-044">Anonymus 044</option>
+                           <option value="anonymus-041">Anonymus 041</option>
+                           <option value="anonymus-132">Anonymus 132</option>
+                           <option value="schimatschek-franz">Schimatschek, Franz</option>
+                           <option value="anonymus-078">Anonymus 078</option>
+                           <option value="anonymus-026">Anonymus 026</option>
+                           <option value="anonymus-107">Anonymus 107</option>
+                           <option value="schmidinger-cajetan">Schmidinger, Cajetan</option>
+                           <option value="anonymus-036">Anonymus 036</option>
+                           <option value="anonymus-055">Anonymus 055</option>
+                           <option value="anonymus-047">Anonymus 047</option>
+                           <option value="an-der-lan-hochbrunn-hartmann-von">An der Lan-Hochbrunn, Hartmann von</option>
+                           <option value="anonymus-049">Anonymus 049</option>
+                           <option value="anonymus-090">Anonymus 090</option>
+                           <option value="hynais-cyrill">Hynais, Cyrill</option>
+                           <option value="anonymus-086">Anonymus 086</option>
+                           <option value="anonymus-074">Anonymus 074</option>
+                           <option value="anonymus-066">Anonymus 066</option>
+                           <option value="anonymus-008">Anonymus 008</option>
+                           <option value="anonymus-043">Anonymus 043</option>
+                           <option value="anonymus-100">Anonymus 100</option>
+                           <option value="anonymus-137">Anonymus 137</option>
+                           <option value="anonymus-065">Anonymus 065</option>
+                           <option value="anonymus-112">Anonymus 112</option>
+                           <option value="schmid-ernst-fritz">Schmid, Ernst Fritz</option>
+                           <option value="anonymus-020">Anonymus 020</option>
+                           <option value="anonymus-088">Anonymus 088</option>
+                           <option value="anonymus-149">Anonymus 149</option>
+                           <option value="anonymus-081">Anonymus 081</option>
+                           <option value="anonymus-072">Anonymus 072</option>
+                           <option value="kerschbaum-maximilian">Kerschbaum, Maximilian</option>
+                           <option value="anonymus-048">Anonymus 048</option>
+                           <option value="anonymus-100">Anonymus 100</option>
+                           <option value="lehofer-august">Lehofer, August</option>
+                           <option value="anonymus-067">Anonymus 067</option>
+                           <option value="anonymus-130">Anonymus 130</option>
+                           <option value="anonymus-154">Anonymus 154</option>
+                           <option value="anonymus-057">Anonymus 057</option>
+                           <option value="anonymus-122">Anonymus 122</option>
+                           <option value="burgstaller-johann-baptist">Burgstaller, Johann Baptist</option>
+                           <option value="kopist-kroupa">Kopist Kroupa</option>
+                           <option value="anonymus-099">Anonymus 099</option>
+                           <option value="anonymus-039">Anonymus 039</option>
+                           <option value="kopist-j-k">Kopist J. K.</option>
+                           <option value="nittmann-franz">Nittmann, Franz</option>
+                           <option value="anonymus-075">Anonymus 075</option>
+                           <option value="anonymus-113">Anonymus 113</option>
+                           <option value="noll-johann">Noll, Johann</option>
+                           <option value="anonymus-068">Anonymus 068</option>
+                           <option value="anonymus-084">Anonymus 084</option>
+                           <option value="anonymus-053">Anonymus 053</option>
+                           <option value="anonymus-169">Anonymus 169</option>
+                           <option value="anonymus-102">Anonymus 102</option>
+                           <option value="anonymus-096">Anonymus 096</option>
+                           <option value="kellner-altman">Kellner, Altman</option>
+                           <option value="anonymus-142">Anonymus 142</option>
+                           <option value="hofmeyr-leopold">Hofmeyr, Leopold</option>
+                           <option value="anonymus-045">Anonymus 045</option>
+                           <option value="anonymus-093">Anonymus 093</option>
+                           <option value="paur-karl">Paur, Karl</option>
+                           <option value="rott-hans">Rott, Hans</option>
+                           <option value="gollerich-august">Göllerich, August</option>
+                           <option value="aigner-karl">Aigner, Karl</option>
+                           <option value="stolz-ernst">Stolz, Ernst</option>
+                           <option value="auer-max">Auer, Max</option>
+                           <option value="meissner-anton">Meißner, Anton</option>
+                           <option value="anonymus-028">Anonymus 028</option>
+                           <option value="anonymus-009">Anonymus 009</option></select></div>
+                     <div class="card-body" id="compare-column-two"></div>
+                     <div class="card-footer"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="wrapper fundament-default-footer" id="wrapper-footer-full" style="margin-top: 4em;">
+            <div class="container" id="footer-full-content" tabindex="-1">
+               <div class="footer-separator">
+                  CONTACT
+                  </div>
+               <div class="row">
+                  <div class="footer-widget col-lg-1 col-md-2 col-sm-2 col-xs-6  ml-auto  text-center ">
+                     <div class="textwidget custom-html-widget"><a href="https://www.oeaw.ac.at/acdh"><img src="https://fundament.acdh.oeaw.ac.at/common-assets/images/acdh_logo.svg" class="image" alt="ACDH Logo" style="max-width: 100%; height: auto;" title="ACDH Logo" /></a></div>
+                  </div>
+                  <div class="footer-widget col-lg-4 col-md-3 col-sm-3">
+                     <div class="textwidget custom-html-widget">
+                        <p>
+                           ACDH-CH OEAW
+                           <br />
+                           Austrian Centre for Digital Humanities and Cultural Heritage
+                           <br />
+                           Austrian Academy of Sciences
+                           </p>
+                        <p>
+                           Sonnenfelsgasse 19
+                           <br />
+                           1010 Vienna
+                           </p>
+                        <p>
+                           T: +43 1 51581-2200
+                           <br />
+                           E: <a href="mailto:acdh@oeaw.ac.at">acdh@oeaw.ac.at</a></p>
+                     </div>
+                  </div>
+                  <div class="footer-widget col-lg-4 col-md-3 col-sm-4">
+                     <h6 class="font-weight-bold">PROJECT PARTNERS</h6>
+                     <div class="container" style="margin-top: 1em;">
+                        <div class="row">
+                           <div class="col-lg-6 col-md-6 col-sm-12">
+                              <div class="flex-md-row mb-4 align-items-center"><a href="https://www.fwf.ac.at"><img class="card-img-right flex-auto d-md-block" src="https://www.fwf.ac.at/fileadmin/files/Images/News_Presse/Presse/Logo/fwf-logo_var2.jpg" alt="FWF Logo" style="max-width: 140px; height: auto;" title="FWF Logo" /></a></div>
+                           </div>
+                           <div class="col-lg-6 col-md-6 col-sm-12">
+                              <div class="flex-md-row mb-4 align-items-center"><a href="https://www.onb.ac.at/"><img class="card-img-right flex-auto d-md-block" src="img/nationalbibliothek_logo_250x80_k.png" alt="ONB Logo" style="max-width: 140px; height: auto;" title="ONB Logo" /></a></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="footer-widget col-lg-3 col-md-4 col-sm-3 ml-auto">
+                     <div class="row">
+                        <div class="textwidget custom-html-widget">
+                           <h6 class="font-weight-bold">HELPDESK</h6>
+                           <p>ACDH-CH runs a helpdesk offering advice for questions related to various digital humanities
+                              topics.</p>
+                           <p><a class="helpdesk-button" href="mailto:acdh-helpdesk@oeaw.ac.at">ASK US!</a></p>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="footer-widget col-lg-3 col-md-4 col-sm-3 ml-auto" style="margin-left:0 !important;">
+                           <div class="textwidget custom-html-widget">
+                              <p style="margin-bottom:0 !important;">Social: </p>
+                           </div>
+                           <div class="row">
+                              <div class="textwidget custom-html-widget col-md-4"><a id="github-logo" title="GitHub" href="https://github.com/acdh-oeaw/bruckner-kopisten-static" class="nav-link" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                                       <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-4.466 19.59c-.405.078-.534-.171-.534-.384v-2.195c0-.747-.262-1.233-.55-1.481 1.782-.198 3.654-.875 3.654-3.947 0-.874-.312-1.588-.823-2.147.082-.202.356-1.016-.079-2.117 0 0-.671-.215-2.198.82-.64-.18-1.324-.267-2.004-.271-.68.003-1.364.091-2.003.269-1.528-1.035-2.2-.82-2.2-.82-.434 1.102-.16 1.915-.077 2.118-.512.56-.824 1.273-.824 2.147 0 3.064 1.867 3.751 3.645 3.954-.229.2-.436.552-.508 1.07-.457.204-1.614.557-2.328-.666 0 0-.423-.768-1.227-.825 0 0-.78-.01-.055.487 0 0 .525.246.889 1.17 0 0 .463 1.428 2.688.944v1.489c0 .211-.129.459-.528.385-3.18-1.057-5.472-4.056-5.472-7.59 0-4.419 3.582-8 8-8s8 3.581 8 8c0 3.533-2.289 6.531-5.466 7.59z"></path></svg></a></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="footer-imprint-bar" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;">
+            © Copyright OEAW | <a href="https://www.oeaw.ac.at/die-oeaw/impressum/">Impressum/Imprint</a></div><script type="text/javascript" src="js/saxon-js-comparison.js"></script></div>
+   </body>
+</html>
