@@ -36,7 +36,6 @@
     </xsl:template>
     
     <xsl:template match="tei:figure">
-        <xsl:param name="iiif-ext" select="'full/full/0/default.jpg'"/>     
         <xsl:for-each select="./tei:graphic">
             <xsl:variable name="source" select="data(tokenize(@url, '/'))"/>
             <div class="img-notes">
@@ -52,13 +51,12 @@
     </xsl:template>
     
     <xsl:template match="tei:ref">
-        <xsl:param name="iiif-ext" select="'/full/full/0/default.jpg'"/>  
         <div class="img-notes">
             <img class="tei-xml-images">
                 <xsl:attribute name="src">
                     <xsl:value-of select="concat(
                         'https://iiif.acdh.oeaw.ac.at/bruckner-kopisten/', 
-                        replace(@target, '.jpg', $iiif-ext))"/>
+                        replace(@target, '.jpg', '/full/full/0/default.jpg'))"/>
                 </xsl:attribute>
             </img>
         </div>
