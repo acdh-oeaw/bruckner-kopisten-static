@@ -20,7 +20,7 @@
                         <!-- Your menu goes here -->
                         <ul id="main-menu" class="navbar-nav" style="margin-right:0!important;">
                             <li class="nav-item dropdown">
-                                <a title="Papers" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Beschreibung <span class="caret"></span></a>
+                                <a title="Papers" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Projektbeschreibung <span class="caret"></span></a>
                                 <ul class=" dropdown-menu" role="menu" style="width:270px;">
                                     <!--<li class="nav-item dropdown-submenu">
                                         <a title="Über das Projekt" href="about.html" class="nav-link">Über das Projekt</a>
@@ -58,7 +58,7 @@
                                            href="Tabelle_4.html" class="nav-link">Zeitraum der Kopiertätigkeit der Kopisten zu Bruckners Lebzeiten</a>
                                     </li>
                                     <li class="nav-item dropdown-submenu">
-                                        <a title="Kopisten gesamt" href="toc.html" class="nav-link">Kopisten gesamt</a>
+                                        <a title="Kopisten gesamt" href="toc.html" class="nav-link">Gesamtbestand aller Kopisten</a>
                                     </li>
                                 </ul>                                
                             </li>                            

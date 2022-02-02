@@ -241,7 +241,7 @@
                                         </div>
                                         <div class="card-header">                                            
                                             <p>
-                                                Kopisten gesamt
+                                                Gesamtbestand aller Kopisten
                                             </p>                                            
                                         </div>
                                     </div>                                    
