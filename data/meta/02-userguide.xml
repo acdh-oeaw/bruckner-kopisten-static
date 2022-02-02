@@ -48,7 +48,7 @@
         <body>
             <div xml:id="content-d1e00002">
                 <div xml:lang="de">
-                    <head>Benutzerhinweise und Anlage.</head>
+                    <head>Benutzerhinweise und Anlage</head>
                     <p>Die einzelnen Kopisten sind im vorliegenden Katalog alphabethisch nach ihrem
                         Nachnamen – sofern bekannt – geordnet. Sofern lediglich eine Paraphe bekannt
                         ist, wird der letzte Buchstabe als Anfangsbuchstabe des Nachnamens gewertet
@@ -266,7 +266,7 @@
                         verwiesen.</note>
                 </div>
                 <div xml:lang="eng">
-                    <head>User guide and organization.</head>
+                    <head>User guide and organization</head>
                     <p>The catalogue is organized in alphabetical order by copyists’ last names. If
                         they signed only with their initials, they are listed alphabetically by the
                         final letter and the designation “Kopist” is added before the first initial.
