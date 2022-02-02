@@ -46,12 +46,12 @@
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-sm-12">
                                     <div class="flex-md-row mb-4 align-items-center">
-                                        <a href="https://www.fwf.ac.at"><img class="card-img-right flex-auto d-md-block" src="https://www.fwf.ac.at/fileadmin/files/Images/News_Presse/Presse/Logo/fwf-logo_var2.jpg" alt="FWF Logo" style="max-width: 140px; height: auto;" title="FWF Logo"/></a>
+                                        <a href="https://www.oeaw.ac.at/"><img class="card-img-right flex-auto d-md-block" src="img/oeawlogo.png" alt="FWF Logo" style="max-width: 140px; height: auto;" title="ÖAW Logo"/></a>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-12">
                                     <div class="flex-md-row mb-4 align-items-center">
-                                        <a href="https://www.onb.ac.at/"><img class="card-img-right flex-auto d-md-block" src="img/nationalbibliothek_logo_250x80_k.png" alt="ONB Logo" style="max-width: 140px; height: auto;" title="ONB Logo"/></a>
+                                        <a href="https://www.wien.gv.at/"><img class="card-img-right flex-auto d-md-block" src="img/wienlogo-768x311.png" alt="ONB Logo" style="max-width: 140px; height: auto;" title="Wien Logo"/></a>
                                     </div>
                                 </div>                                 
                             </div>
