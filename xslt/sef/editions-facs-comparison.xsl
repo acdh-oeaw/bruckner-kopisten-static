@@ -61,6 +61,9 @@
                         replace(@target, '.jpg', '/full/full/0/default.jpg'))"/>
                 </xsl:attribute>
             </img>
+            <span class="ref-img-title">
+                <xsl:apply-templates/>
+            </span>
         </div>
     </xsl:template>
 
