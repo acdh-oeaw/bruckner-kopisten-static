@@ -69,6 +69,19 @@
                   </cell>
                </row>
                <row role="data">
+                  <cell xml:lang="de">
+                     <date from="" to="" xml:lang="de">1886</date>
+                  </cell>
+                  <cell xml:lang="eng">
+                     <date from="" to="" xml:lang="eng">1886</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e36004" target="data/editions/weinwurm-rudolf.xml">
+                        <persName type="main">Weinwurm, Rudolf</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
                   <cell>
                      <date from="" to="">1852</date>
                   </cell>
@@ -161,10 +174,12 @@
                </row>
                <row role="data">
                   <cell xml:lang="de">
-                     <date from="1862" to="1885" xml:lang="de">1862–1863, 1866–1870 und 1878–1885</date>
+                     <date from="1862" to="1885" xml:lang="de">1862–1863, 1866–1870 und
+                     1878–1885</date>
                   </cell>
                   <cell xml:lang="eng">
-                     <date from="1862" to="1885" xml:lang="eng">1862–1863, 1866–1870 and 1878–1885</date>
+                     <date from="1862" to="1885" xml:lang="eng">1862–1863, 1866–1870 and
+                     1878–1885</date>
                   </cell>
                   <cell role="Kopisten">
                      <ref corresp="content-d1e317" target="data/editions/anonymus-002.xml">
@@ -406,6 +421,16 @@
                   </cell>
                </row>
                <row role="data">
+                  <cell>
+                     <date from="1877" to="1877">1877</date>
+                  </cell>
+                  <cell role="Kopisten">
+                     <ref corresp="content-d1e20588" target="data/editions/anonymus-151.xml">
+                        <persName type="main">Anonymus 151 (W)</persName>
+                     </ref>
+                  </cell>
+               </row>
+               <row role="data">
                   <cell xml:lang="de">
                      <date from="1877" to="1884" xml:lang="de">nach 1877–vor 1884</date>
                   </cell>
@@ -419,8 +444,11 @@
                   </cell>
                </row>
                <row role="data">
-                  <cell>
-                     <date from="1878" to="1878">ca. 1878</date>
+                  <cell xml:lang="de">
+                     <date from="1878" to="1878" xml:lang="de">ca. 1878</date>
+                  </cell>
+                  <cell xml:lang="eng">
+                     <date from="1878" to="1878" xml:lang="eng">ca. 1878</date>
                   </cell>
                   <cell role="Kopisten">
                      <ref corresp="content-d1e32861" target="data/editions/rott-hans.xml">
@@ -437,10 +465,7 @@
                   </cell>
                   <cell role="Kopisten">
                      <ref corresp="content-d1e56512" target="data/editions/anonymus-169.xml">
-                        <persName type="main">Anonymus 169 (W)</persName>
-                     </ref>
-                     <ref corresp="content-d1e36004" target="data/editions/weinwurm-rudolf.xml">
-                        <persName type="main">Weinwurm, Rudolf</persName>
+                        <persName type="main">Anonymus 169</persName>
                      </ref>
                      <ref corresp="content-d1e10216" target="data/editions/anonymus-071.xml">
                         <persName type="main">Anonymus 071 (W)</persName>
@@ -459,10 +484,12 @@
                </row>
                <row role="data">
                   <cell xml:lang="de">
-                     <date from="1879" to="1879" xml:lang="de">1879 oder später</date>
+                     <date from="1879" to="1879" xml:lang="de">1879 oder
+                     später</date>
                   </cell>
                   <cell xml:lang="eng">
-                     <date from="1879" to="1879" xml:lang="eng">1879 or later</date>
+                     <date from="1879" to="1879" xml:lang="eng">1879 or
+                     later</date>
                   </cell>
                   <cell role="Kopisten">
                      <ref corresp="content-d1e23917"

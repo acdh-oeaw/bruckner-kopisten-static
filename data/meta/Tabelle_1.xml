@@ -104,6 +104,11 @@
                   </ref>
                </item>
                <item>
+                  <ref corresp="content-d1e36004" target="data/editions/weinwurm-rudolf.xml">
+                     <persName type="main">Weinwurm, Rudolf</persName>
+                  </ref>
+               </item>
+               <item>
                   <ref corresp="content-d1e32990" target="data/editions/schalk-franz.xml">
                      <persName type="main">Schalk, Franz</persName>
                   </ref>
@@ -316,6 +321,11 @@
                <item>
                   <ref corresp="content-d1e8242" target="data/editions/anonymus-054.xml">
                      <persName type="main">Anonymus 054 (W)</persName>
+                  </ref>
+               </item>
+               <item>
+                  <ref corresp="content-d1e20588" target="data/editions/anonymus-151.xml">
+                     <persName type="main">Anonymus 151 (W)</persName>
                   </ref>
                </item>
                <item>

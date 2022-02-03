@@ -154,7 +154,7 @@
                         <persName type="main">Anonymus 157</persName>
                      </ref>
                      <ref corresp="content-d1e20845" target="data/editions/anonymus-153.xml">
-                        <persName type="main">Anonymus 153 (W)</persName>
+                        <persName type="main">Anonymus 153</persName>
                      </ref>
                      <ref corresp="content-d1e1f17" target="data/editions/anonymus-158.xml">
                         <persName type="main">Anonymus 158</persName>
@@ -239,6 +239,9 @@
                      </ref>
                      <ref corresp="content-d1e14794" target="data/editions/anonymus-104.xml">
                         <persName type="main">Anonymus 104</persName>
+                     </ref>
+                     <ref corresp="content-d1e162878" target="data/editions/anonymus-117.xml">
+                        <persName type="main">Anonymus 117</persName>
                      </ref>
                      <ref corresp="content-d1e29336" target="data/editions/kopist-zeller.xml">
                         <persName type="main">Zeller , Kopist</persName>

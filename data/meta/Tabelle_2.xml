@@ -73,7 +73,7 @@
                </item>
                <item>
                   <ref corresp="content-d1e28979" target="data/editions/kopist-kroupa.xml">
-                     <persName type="main">Kroupa , Kopist</persName>
+                     <persName type="main">Kroupa, Kopist</persName>
                   </ref>
                </item>
                <item>
@@ -137,11 +137,6 @@
                <item>
                   <ref corresp="content-d1e22934" target="data/editions/burkhart-franz.xml">
                      <persName type="main">Burkhart, Franz</persName>
-                  </ref>
-               </item>
-               <item>
-                  <ref corresp="content-d1e36004" target="data/editions/weinwurm-rudolf.xml">
-                     <persName type="main">Weinwurm, Rudolf</persName>
                   </ref>
                </item>
                <item>
@@ -313,7 +308,7 @@
                </item>
                <item>
                   <ref corresp="content-d1e9998f" target="data/editions/anonymus-167.xml">
-                     <persName type="main">Anonymus 167 (W)</persName>
+                     <persName type="main">Anonymus 167</persName>
                   </ref>
                </item>
                <item>
@@ -323,12 +318,12 @@
                </item>
                <item>
                   <ref corresp="content-d1e56512" target="data/editions/anonymus-169.xml">
-                     <persName type="main">Anonymus 169 (W)</persName>
+                     <persName type="main">Anonymus 169</persName>
                   </ref>
                </item>
                <item>
                   <ref corresp="content-d1e20845" target="data/editions/anonymus-153.xml">
-                     <persName type="main">Anonymus 153 (W)</persName>
+                     <persName type="main">Anonymus 153</persName>
                   </ref>
                </item>
                <item>
@@ -423,7 +418,7 @@
                </item>
                <item>
                   <ref corresp="content-d1e18895" target="data/editions/anonymus-165.xml">
-                     <persName type="main">Anonymus 165 (W)</persName>
+                     <persName type="main">Anonymus 165</persName>
                   </ref>
                </item>
                <item>
@@ -478,7 +473,7 @@
                </item>
                <item>
                   <ref corresp="content-d1e18795" target="data/editions/anonymus-164.xml">
-                     <persName type="main">Anonymus 164 (W)</persName>
+                     <persName type="main">Anonymus 164</persName>
                   </ref>
                </item>
                <item>
@@ -628,7 +623,7 @@
                </item>
                <item>
                   <ref corresp="content-d1e465850" target="data/editions/anonymus-160.xml">
-                     <persName type="main">Anonymus 160 (W)</persName>
+                     <persName type="main">Anonymus 160</persName>
                   </ref>
                </item>
                <item>
@@ -643,7 +638,7 @@
                </item>
                <item>
                   <ref corresp="content-d1e465f0" target="data/editions/anonymus-161.xml">
-                     <persName type="main">Anonymus 161 (W)</persName>
+                     <persName type="main">Anonymus 161</persName>
                   </ref>
                </item>
                <item>
@@ -684,6 +679,11 @@
                <item>
                   <ref corresp="content-d1e14794" target="data/editions/anonymus-104.xml">
                      <persName type="main">Anonymus 104</persName>
+                  </ref>
+               </item>
+               <item>
+                  <ref corresp="content-d1e162878" target="data/editions/anonymus-117.xml">
+                     <persName type="main">Anonymus 117</persName>
                   </ref>
                </item>
                <item>

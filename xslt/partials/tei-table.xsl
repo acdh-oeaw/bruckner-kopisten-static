@@ -14,24 +14,25 @@
           
     <xsl:template match="tei:table" name="table">
         <xsl:param name="table-id"/>
-        <div class="col-md-12">
-            <div class="card">
-                <div class="card-header">
-                    <xsl:if test="./tei:head">
-                        <h2>
-                            <xsl:value-of select="./tei:head[1]"/>                            
-                        </h2>
-                        <h4>                            
-                            <xsl:value-of select="./tei:head[2]"/>
-                        </h4>
-                    </xsl:if>
-                </div>
-                <div class="card-body">
-                    <xsl:choose>
-                        <xsl:when test="./tei:row[@role='label' and @xml:lang='de']">
-                            <div class="table-responsive">
-                                <table class="table table-striped table-hover" id="{$table-id}" style="width:100%;">                        
-                                    <thead>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <xsl:if test="./tei:head">
+                            <h2>
+                                <xsl:value-of select="./tei:head[1]"/>                            
+                            </h2>
+                            <h4>                            
+                                <xsl:value-of select="./tei:head[2]"/>
+                            </h4>
+                        </xsl:if>
+                    </div>
+                    <div class="card-body">
+                        <xsl:choose>
+                            <xsl:when test="./tei:row[@role='label' and @xml:lang='de']">
+                                <div class="table-responsive">
+                                    <table class="table table-striped table-hover" id="{$table-id}" style="width:100%;">                        
+                                        <thead>
                                         <xsl:for-each select="./tei:row[@role='label' and @xml:lang='de']">                                
                                             <tr> 
                                                 <xsl:if test="not(
@@ -44,42 +45,76 @@
                                                     <th>Kommentar</th> 
                                                 </xsl:if>-->                                                
                                             </tr>                                                                                     
-                                        </xsl:for-each>
-                                    </thead>
-                                    <tbody>
-                                        <xsl:for-each select="./tei:row[@role='data']">                        
-                                            <tr>
-                                                <xsl:if test="not(
-                                                    contains(parent::tei:table/tei:head[@xml:lang='de'], 
-                                                    'Tabelle'))">
-                                                    <td><xsl:value-of select="position()"/></td>
-                                                </xsl:if>                                                
-                                                <xsl:apply-templates/>                                                
-                                            </tr>                                                                             
-                                        </xsl:for-each>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </xsl:when>
-                        <xsl:otherwise>
-                            <div class="table-responsive">
-                                <xsl:if test="./tei:head">
-                                    <h3><xsl:value-of select="./tei:head"/></h3>
-                                </xsl:if>
-                                <table class="table table-striped table-hover display" id="{$table-id}" style="width:100%;">                        
-                                    <tbody>
-                                        <xsl:for-each select="./tei:row">                        
-                                            <tr>
-                                                <xsl:apply-templates/>
-                                            </tr>                                                                             
-                                        </xsl:for-each>
-                                    </tbody>
-                                </table>   
-                            </div>
-                        </xsl:otherwise>
-                    </xsl:choose>
-                </div>
-            </div> 
+                                        </xsl:for-each>                                            
+                                        </thead>
+                                        <tbody>
+                                            <xsl:for-each select="./tei:row[@role='data']">                        
+                                                <tr>
+                                                    <xsl:if test="not(
+                                                        contains(parent::tei:table/tei:head[@xml:lang='de'], 
+                                                        'Tabelle'))">
+                                                        <td><xsl:value-of select="position()"/></td>
+                                                    </xsl:if>                                                
+                                                    <xsl:apply-templates/>                                                
+                                                </tr>                                                                             
+                                            </xsl:for-each>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </xsl:when>
+                            <!--<xsl:when test="./tei:row[@role='label' and @xml:lang='eng']">
+                                <div class="table-responsive">
+                                    <table class="table table-striped table-hover" id="{$table-id}" style="width:100%;">                        
+                                        <thead>
+                                            <xsl:for-each select="./tei:row[@role='label' and @xml:lang='eng']">                                
+                                                <tr> 
+                                                    <xsl:if test="not(
+                                                        contains(parent::tei:table/tei:head[@xml:lang='eng'], 
+                                                        'Table'))">
+                                                        <th>No.</th>
+                                                    </xsl:if>                                                
+                                                    <xsl:apply-templates/>   
+                                                    <!-\-<xsl:if test="ancestor::tei:div[@xml:id]">
+                                                    <th>Kommentar</th> 
+                                                </xsl:if>-\->                                                
+                                                </tr>                                                                                     
+                                            </xsl:for-each>                                            
+                                        </thead>
+                                        <tbody>
+                                            <xsl:for-each select="./tei:row[@role='data']">                        
+                                                <tr>
+                                                    <xsl:if test="not(
+                                                        contains(parent::tei:table/tei:head[@xml:lang='eng'], 
+                                                        'Table'))">
+                                                        <td><xsl:value-of select="position()"/></td>
+                                                    </xsl:if>                                                
+                                                    <xsl:apply-templates/>                                                
+                                                </tr>                                                                             
+                                            </xsl:for-each>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </xsl:when>-->
+                            <xsl:otherwise>
+                                <div class="table-responsive">
+                                    <xsl:if test="./tei:head">
+                                        <h3><xsl:value-of select="./tei:head"/></h3>
+                                    </xsl:if>
+                                    <table class="table table-striped table-hover display" id="{$table-id}" style="width:100%;">                        
+                                        <tbody>
+                                            <xsl:for-each select="./tei:row">                        
+                                                <tr>
+                                                    <xsl:apply-templates/>
+                                                </tr>                                                                             
+                                            </xsl:for-each>
+                                        </tbody>
+                                    </table>   
+                                </div>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </div>
+                </div> 
+            </div>
         </div>
     </xsl:template>
     <xsl:template match="tei:cell">        
@@ -116,11 +151,37 @@
                     </xsl:otherwise>
                 </xsl:choose>
             </xsl:when>
-            <xsl:when test="parent::tei:row[@role='label' and @xml:lang='eng']">                
+            <!--<xsl:when test="parent::tei:row[@role='label' and @xml:lang='eng']">
+                <xsl:choose>
+                    <xsl:when test="contains(., 'Date of Composition')">
+                        <!-\-  ignore this cell -\->
+                    </xsl:when>
+                    <xsl:when test="contains(., 'date conjectural')">
+                        <!-\-  ignore this cell -\->
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:choose>
+                            <xsl:when test=". = 'Period'">
+                                <th>
+                                    <xsl:apply-templates/>
+                                </th>
+                                <th>from</th> 
+                                <th>to</th> 
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <th>
+                                    <xsl:apply-templates/>
+                                </th>   
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:when>-->
+            <!--<xsl:when test="parent::tei:row[@role='label' and @xml:lang='eng']">                
                 <th>
                     <xsl:apply-templates/>
                 </th>      
-            </xsl:when>
+            </xsl:when>-->
             <xsl:when test="parent::tei:row[@role='data']"> 
                 <xsl:choose>
                     <xsl:when test="@role='Kommentar_intern'">
