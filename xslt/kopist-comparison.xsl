@@ -44,7 +44,13 @@
                         <xsl:variable name="col" select="collection('../data/editions')//tei:TEI"/>
                         
                         <div class="row">
-                            <div class="col-md-5">
+                            <div class="col-md-12">        
+                                <div class="text-center" style="margin-top: 4em;">
+                                    <i title="vergleichen" class="fas fa-3x fa-clone" onclick="loadComparison()"></i>
+                                    <!--<button class="button btn">vergleichen</button>-->
+                                </div>                                                                
+                            </div>
+                            <div class="col-md-6">
                                 <div class="card">
                                     <div class="card-header">
                                         <select class="custom-select custom-select-sm" id="compare-kopist-one">
@@ -74,7 +80,7 @@
                                         </select>
                                     </div>
                                     <div class="card-body" id="compare-column-one">
-                                        <h5 class="empty" style="padding:5em;margin:.1em auto;">
+                                        <h5 class="empty">
                                             Kopist auswälen und vergleichen
                                         </h5>
                                     </div>
@@ -82,13 +88,8 @@
                                         
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-md-2">        
-                                <div class="text-center" style="margin-top: 4em;">
-                                    <button class="button btn" onclick="loadComparison()">vergleichen</button>
-                                </div>                                                                
-                            </div>
-                            <div class="col-md-5">
+                            </div>                            
+                            <div class="col-md-6">
                                 <div class="card">
                                     <div class="card-header">
                                         <select class="custom-select custom-select-sm" id="compare-kopist-two">
@@ -118,7 +119,7 @@
                                         </select>
                                     </div>
                                     <div class="card-body" id="compare-column-two">
-                                        <h5 class="empty" style="padding:5em;margin:.1em auto;">
+                                        <h5 class="empty">
                                             Kopist auswälen und vergleichen
                                         </h5>
                                     </div>
