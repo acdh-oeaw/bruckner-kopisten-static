@@ -9,29 +9,21 @@
     expand-text="yes"
     version="3.0">
     
-    <xsl:import href="../partials/add_modal-metadata.xsl"/>
-    
     <xsl:template match="/">
         <xsl:for-each select="//tei:list">
             <div class="comparison-result">
-                <legend>
+                <h3>
                     <xsl:apply-templates select="//tei:head[parent::tei:list]"/>
-                </legend>
+                </h3>
                 <ul>
                     <xsl:apply-templates select="//tei:item"/>
                 </ul> 
             </div>            
         </xsl:for-each>    
-        <xsl:call-template name="modal-metadata"/>
     </xsl:template>    
     
     <xsl:template match="tei:head[parent::tei:list]">
-        <h3><xsl:value-of select="text()"/></h3>
-        <xsl:for-each select="./tei:ref">
-            <a href="#" data-toggle="modal" data-target="#img-modal">
-                <xsl:value-of select="text()"/>
-            </a>
-        </xsl:for-each>
+        <legend><xsl:apply-templates/></legend>
     </xsl:template>
     
     <xsl:template match="tei:item">   
@@ -60,17 +52,17 @@
         </xsl:for-each>        
     </xsl:template>
     
-    <xsl:template match="tei:ref[parent::tei:head[@xml:lang='de']]">
-        <div class="img-notes">
-            <h3><xsl:apply-templates/></h3>
-            <img class="tei-xml-images" title="{.}">
-                <xsl:attribute name="src">
+    <xsl:template match="tei:ref[parent::tei:head]">
+        <span>
+            <a title="{.}" target="_blank">
+                <xsl:attribute name="href">
                     <xsl:value-of select="concat(
                         'https://iiif.acdh.oeaw.ac.at/bruckner-kopisten/', 
                         replace(@target, '.jpg', '/full/full/0/default.jpg'))"/>
                 </xsl:attribute>
-            </img>            
-        </div>
+                <xsl:value-of select="text()"/>
+            </a>
+        </span>        
     </xsl:template>
 
 </xsl:transform>	

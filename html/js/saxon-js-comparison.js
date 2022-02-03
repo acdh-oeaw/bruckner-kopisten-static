@@ -1,7 +1,7 @@
 function loadComparison() {
 
     // choose html class for node to be removed
-    removeResult(".comparison-result");
+    removeResult(".comparison-result", ".empty");
 
     // options for saxonTransform
     var kopisten = getKopists("compare-kopist-one", "compare-kopist-two");
@@ -38,14 +38,19 @@ function saxonTransfrom(options) {
         $(options.htmlID).append(result);
         // console.log(result);
     });
-    
+
 }
 
-function removeResult(htmlClass) {
+function removeResult(htmlClass, htmlClass2) {
     
     var result = $(htmlClass);
     if (result.length != 0) {
         result.remove();
+    }
+
+    var result2 = $(htmlClass2);
+    if (result2.length != 0) {
+        result2.css("display", "none");
     }
 
 }

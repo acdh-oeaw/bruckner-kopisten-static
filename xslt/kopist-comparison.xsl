@@ -74,7 +74,9 @@
                                         </select>
                                     </div>
                                     <div class="card-body" id="compare-column-one">
-                                        
+                                        <h5 class="empty" style="padding:5em;margin:.1em auto;">
+                                            Kopist auswälen und vergleichen
+                                        </h5>
                                     </div>
                                     <div class="card-footer">
                                         
@@ -116,7 +118,9 @@
                                         </select>
                                     </div>
                                     <div class="card-body" id="compare-column-two">
-                                        
+                                        <h5 class="empty" style="padding:5em;margin:.1em auto;">
+                                            Kopist auswälen und vergleichen
+                                        </h5>
                                     </div>
                                     <div class="card-footer">
                                         
