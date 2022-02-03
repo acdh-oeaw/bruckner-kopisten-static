@@ -1,7 +1,7 @@
 function loadComparison() {
 
     // choose html class for node to be removed
-    removeColumnContent(".comparison-result", ".empty");
+    removeColumnContent(".comparison-result", ".compare-placeholder");
 
     // options for saxonTransform
     var kopisten = getKopists("compare-kopist-one", "compare-kopist-two");
