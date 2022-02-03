@@ -1,51 +1,63 @@
 function loadComparison() {
 
-    removeResult();
-    var kopisten = getKopists();
-    var sef = "https://raw.githubusercontent.com/acdh-oeaw/bruckner-kopisten-static/main/xslt/sef/editions-facs-comparison.sef.json";
-    var xml = "https://raw.githubusercontent.com/acdh-oeaw/bruckner-kopisten-static/main/data/editions/";
+    // choose html class for node to be removed
+    removeResult(".comparison-result");
 
-    SaxonJS.transform({
-        stylesheetLocation: sef,
-        sourceLocation: `${xml}${kopisten[0]}.xml`,
-        destination: "serialized"
-    }, "async")
-    .then((data) => {
-        var result = data.principalResult;
-        $('#compare-column-one').append(result);
-        // console.log(result);
+    // options for saxonTransform
+    var kopisten = getKopists("compare-kopist-one", "compare-kopist-two");
+    var sef = "https://raw.githubusercontent.com/acdh-oeaw/bruckner-kopisten-static/main/xslt/sef/editions-facs-comparison.sef.json"; 
+    var xml = "https://acdh-oeaw.github.io/bruckner-kopisten-static/";
+    
+    // column one result
+    saxonTransfrom({
+        stylesheet: sef,
+        fileDir: xml,
+        fileName: kopisten[0],
+        htmlID: "#compare-column-one"
     });
-
-    SaxonJS.transform({
-        stylesheetLocation: sef,
-        sourceLocation: `${xml}${kopisten[1]}.xml`,
-        destination: "serialized"
-    }, "async")
-    .then((data) => {
-        var result = data.principalResult;
-        $('#compare-column-two').append(result);
-        // console.log(result);
+    
+    // column two result
+    saxonTransfrom({
+        stylesheet: sef,
+        fileDir: xml,
+        fileName: kopisten[1],
+        htmlID: "#compare-column-two"
     });
 
 }
 
-function removeResult() {
+function saxonTransfrom(options) {
+
+    SaxonJS.transform({
+        stylesheetLocation: options.stylesheet,
+        sourceLocation: `${options.fileDir}${options.fileName}.xml`,
+        destination: "serialized"
+    }, "async")
+    .then((data) => {
+        var result = data.principalResult;
+        $(options.htmlID).append(result);
+        // console.log(result);
+    });
     
-    var result = $(".comparison-result");
+}
+
+function removeResult(htmlClass) {
+    
+    var result = $(htmlClass);
     if (result.length != 0) {
         result.remove();
     }
 
 }
 
-function getKopists() {
+function getKopists(htmlID1, htmlID2) {
 
     //$("#compare-kopist-one").children().remove();
-    var e1 = document.getElementById("compare-kopist-one");
+    var e1 = document.getElementById(htmlID1);
     var kopist1 = e1.options[e1.selectedIndex].getAttribute("value");
 
     // $("#compare-kopist-two").children().remove();
-    var e2 = document.getElementById("compare-kopist-two");
+    var e2 = document.getElementById(htmlID2);
     var kopist2 = e2.options[e2.selectedIndex].getAttribute("value");
 
     return [kopist1, kopist2];
