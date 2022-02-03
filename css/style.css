@@ -152,6 +152,8 @@ p.active {
     border-radius: .5rem;
 }
 
+
+
 a {
     color: #ab1923;
 }
@@ -418,18 +420,26 @@ ul.ssDescCheckboxList li {
 
 /* comparison */
 
-.btn {
-    padding: 1em;
-    border-radius: .5rem;
-    border: 2px solid #ab1923;
-    background-color: transparent;
-    color: #ab1923;
-    font-weight: bold;
+.fa-clone {
+    color: #000;
+    cursor: pointer;
 }
 
-.btn:hover {
-    background-color: #fff;  
+.fa-clone:hover {
+    color: #ab1923;
 }
+
+
+.empty {
+    padding: 5em;
+    margin: .1em auto;
+    text-align: center;
+}
+
+li h6 {
+    margin-top: 1em;
+}
+
 
 /* Footer */
 
