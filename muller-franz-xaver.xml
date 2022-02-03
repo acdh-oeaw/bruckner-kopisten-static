@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Müller, Franz Xaver</title>
+            <title level="m">Die Wiener Kopisten der
+               Werke Anton Bruckners</title>
+            <author>
+               <name>Paul Hawkshaw</name>
+               <name>Clemens Gubsch</name>
+            </author>
+            <respStmt>
+               <resp>Automatische Konvertierung nach TEI P5</resp>
+               <name xml:id="cg">Clemens Gubsch</name>
+            </respStmt>
+            <respStmt>
+               <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
+               <name corresp="#cg">Clemens Gubsch</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2020-11-01</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Die Wiener Kopisten der Werke Anton Bruckners</publisher>
+            <idno type="BrucknerKopisten">d1e30575</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term>Bekannter Kopist</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change who="#cg" status="created">Erstellt und geprüft</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="content-d1e30575">
+            <listPerson>
+               <person>
+                  <persName type="main">Müller, Franz Xaver</persName>
+                  <persName type="before">Anonymus 026</persName>
+                  <persName>
+                     <surname>Müller</surname>
+                     <forename>Franz Xaver</forename>
+                  </persName>
+                  <idno type="alphabetically_sorted">Müller, Franz Xaver [=Anonymus 026]</idno>
+                  <idno type="GND">12265644X</idno>
+                  <residence>St. Florian</residence>
+                  <affiliation xml:lang="de">St. Florianer Kopisten</affiliation>
+                  <affiliation xml:lang="eng">St. Florian copiysts</affiliation>
+                  <index>
+                     <term sortKey="2" xml:lang="de">Sekundärquellen</term>
+                     <term sortKey="2" xml:lang="eng">Secondary Sources</term>
+                  </index>
+               </person>
+            </listPerson>
+            <p decls="desc" xml:lang="de">
+               <lb/>Für den Hinweis und die Bereitstellung einiger Handschriften Müllers zum
+               Schriftvergleich sei an dieser Stelle Dr. Friedrich Buchmayr herzlich gedankt.</p>
+            <p decls="desc" xml:lang="eng">
+               <lb/>The authors would like to thank Dr. Friedrich Buchmayr who placed a number of
+               Müller’s autographs in the monastery library at their disposal for handwriting
+               comparison.</p>
+            <p decls="link" xml:lang="de">Eine detaillierte Biographie findet sich im entsprechenden
+               Artikel des ABLO: <ref target="http://www.bruckner-online.at/ABLO_d1e3007">siehe
+                  ABLO</ref>
+            </p>
+            <p decls="link" xml:lang="eng"/>
+            <table>
+               <head>Abschriften</head>
+               <row xml:lang="de" role="label">
+                  <cell>Datierung des Werkes</cell>
+                  <cell>Signatur</cell>
+                  <cell>Werktitel</cell>
+                  <cell>WAB-Nummer</cell>
+                  <cell>Art der Kopie</cell>
+                  <cell>erschlossene Datierung der Kopie</cell>
+                  <cell>Folios in der Hand des Kopisten</cell>
+                  <cell>Datierung der Kopie/Unterschrift</cell>
+               </row>
+               <row xml:lang="eng" role="label">
+                  <cell>Date of Composition</cell>
+                  <cell>Library Call Number</cell>
+                  <cell>Work Title</cell>
+                  <cell>WAB Number</cell>
+                  <cell>Manuscript Description</cell>
+                  <cell>date conjectural</cell>
+                  <cell>Folios in the Copyist’s Hand</cell>
+                  <cell>Copyist’s Signature or Date</cell>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1845">ca. 1845</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-SF20-46b">A-SF20-46b</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9268">Das Lied vom deutschen
+                        Vaterland</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-078">078</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern">LDV1 in Bonline</cell>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1848" to="1849-03-14">zwischen 1848 und 14.03.1849</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-SF20-53c">A-SF20-53c</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9671 d1e12972">Requiem</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-039">039</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Stimme (Pos.2)</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">S. 177–179, 235–236</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1854-03-24" to="1854-03-28">24.03.1854–28.03.1854</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-SF20-64">A-SF20-64</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9261">Libera me,
+                        Domine</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-022">022</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Stimmen</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">29r; 31r–31v; 35r–37r</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1861-11-07">07.11.1861</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-SF20-52c">A-SF20-52c</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e8577">Afferentur regi</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-001">001</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Stimmen (2 Sopran, 3 Alt)</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">1r; 2r; 3r; 4r; 5r</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1878-03-30">30.03.1878</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-LId485_8_29">A-LId485_8_29</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e10059">Tota pulchra es,
+                        Maria</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-046">046</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Instrumentalstimmen</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">Handschrift ist nicht foliiert</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+            </table>
+            <list>
+               <head xml:lang="de">Beispiele entnommen aus: <ref target="Müller_FranzXaver_A-SF20-64-29r.jpg">A-SF20-64</ref>
+               </head>
+               <head xml:lang="eng">Examples taken from: <ref target="Müller_FranzXaver_A-SF20-64-29r.jpg">A-SF20-64</ref>
+               </head>
+               <item>
+                  <title xml:lang="de">Notenschlüssel</title>
+                  <title xml:lang="eng">Clefs</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/named/M/Müller_FranzXaver/Müller_FranzXaver_A-SF20-64_A-Clefs_G.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Akzidentien</title>
+                  <title xml:lang="eng">Accidentals</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/named/M/Müller_FranzXaver/Müller_FranzXaver_A-SF20-64_B-Accidentals_Flat.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/M/Müller_FranzXaver/Müller_FranzXaver_A-SF20-64_B-Accidentals_Natural.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/M/Müller_FranzXaver/Müller_FranzXaver_A-SF20-64_B-Accidentals_Sharp.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Taktvorzeichnung</title>
+                  <title xml:lang="eng">Time Signatures</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/named/M/Müller_FranzXaver/Müller_FranzXaver_A-SF20-64_C-Time-Signatures_C.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Pausen</title>
+                  <title xml:lang="eng">Rests</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/named/M/Müller_FranzXaver/Müller_FranzXaver_A-SF20-64_D-Rests_Viertel.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Noten</title>
+                  <title xml:lang="eng">Notes</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/named/M/Müller_FranzXaver/Müller_FranzXaver_A-SF20-64_E-Notes_Achtel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/M/Müller_FranzXaver/Müller_FranzXaver_A-SF20-64_E-Notes_Ganze.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/M/Müller_FranzXaver/Müller_FranzXaver_A-SF20-64_E-Notes_Halbe.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/M/Müller_FranzXaver/Müller_FranzXaver_A-SF20-64_E-Notes_Viertel.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Dynamik</title>
+                  <title xml:lang="eng">Dynamics</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/named/M/Müller_FranzXaver/Müller_FranzXaver_A-SF20-64_F-Dynamics_Forte.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/M/Müller_FranzXaver/Müller_FranzXaver_A-SF20-64_F-Dynamics_Fortissimo.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/M/Müller_FranzXaver/Müller_FranzXaver_A-SF20-64_F-Dynamics_Piano.png"/>
+                  </figure>
+               </item>
+            </list>
+         </div>
+      </body>
+      <back>
+         <listPlace>
+            <place xml:id="place_1">
+               <placeName>St. Florian</placeName>
+               <location>
+                  <geo>48.205680000000 14.378360000000</geo>
+               </location>
+               <idno subtype="geonames" type="URL">https://www.geonames.org/2771867</idno>
+            </place>
+         </listPlace>
+      </back>
+   </text>
+</TEI>

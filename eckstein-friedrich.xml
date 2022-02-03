@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Eckstein, Friedrich</title>
+            <title level="m">Die Wiener Kopisten der Werke Anton Bruckners</title>
+            <author>
+               <name>Paul Hawkshaw</name>
+               <name>Clemens Gubsch</name>
+            </author>
+            <respStmt>
+               <resp>Automatische Konvertierung nach TEI P5</resp>
+               <name xml:id="cg">Clemens Gubsch</name>
+            </respStmt>
+            <respStmt>
+               <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
+               <name corresp="#cg">Clemens Gubsch</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2020-11-01</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Die Wiener Kopisten der Werke Anton Bruckners</publisher>
+            <idno type="BrucknerKopisten">d1e23917</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term>Bekannter Kopist</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change who="#cg" status="created">Erstellt und geprüft</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="content-d1e23917">
+            <listPerson>
+               <person>
+                  <persName type="main">Eckstein, Friedrich</persName>
+                  <persName>
+                     <surname>Eckstein</surname>
+                     <forename>Friedrich</forename>
+                  </persName>
+                  <idno type="alphabetically_sorted">Eckstein, Friedrich</idno>
+                  <idno type="GND">118853902</idno>
+                  <floruit from="1879" to="1879" notBefore="1879" xml:lang="de">1879 oder
+                     später</floruit>
+                  <floruit from="1879" to="1879" notBefore="1879" xml:lang="eng">1879 or
+                     later</floruit>
+                  <residence/>
+                  <affiliation xml:lang="de"/>
+                  <affiliation xml:lang="eng"/>
+                  <index>
+                     <term sortKey="1" xml:lang="de">Primärquellen</term>
+                     <term sortKey="1" xml:lang="eng">Primary Sources</term>
+                  </index>
+               </person>
+            </listPerson>
+            <p decls="desc" xml:lang="de">
+               <lb/>Die Identifikation des Schreibprofils Ecksteins beruht auf dem Studienmaterial,
+               das Eckstein in seiner Zeit als Bruckners Schüler zwischen 1884 und 1886 anfertigte.
+               Die Harmonielehreübungen, die Eckstein auf fol. 1<hi rend="sup">r</hi> signierte,
+               werden heute unter der Signatur A-WnMus.Hs28466 in der Musiksammlung der ÖNB
+               aufbewahrt. </p>
+            <p decls="desc" xml:lang="eng">
+               <lb/>The identification of his hand is based on a set of harmony exercises, which he
+               did for the composer between 1884 and 1886. They are now preserved as
+               A-WnMus.Hs.28466 which Eckstein signed on fol. 1<hi rend="sup">r</hi>. </p>
+            <p decls="link" xml:lang="de">Eine detaillierte Biographie findet sich im entsprechenden
+               Artikel des ABLO: <ref target="http://www.bruckner-online.at/ABLO_d1e1017">siehe
+                  ABLO</ref>
+            </p>
+            <table>
+               <head>Abschriften</head>
+               <row xml:lang="de" role="label">
+                  <cell>Datierung des Werkes</cell>
+                  <cell>Signatur</cell>
+                  <cell>Werktitel</cell>
+                  <cell>WAB-Nummer</cell>
+                  <cell>Art der Kopie</cell>
+                  <cell>erschlossene Datierung der Kopie</cell>
+                  <cell>Folios in der Hand des Kopisten</cell>
+                  <cell>Datierung der Kopie/Unterschrift</cell>
+               </row>
+               <row xml:lang="eng" role="label">
+                  <cell>Date of Composition</cell>
+                  <cell>Library Call Number</cell>
+                  <cell>Work Title</cell>
+                  <cell>WAB Number</cell>
+                  <cell>Manuscript Description</cell>
+                  <cell>date conjectural</cell>
+                  <cell>Folios in the Copyist’s Hand</cell>
+                  <cell>Copyist’s Signature or Date</cell>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date notAfter="1861-02-11">11.02.1861</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref
+                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.2104"
+                        >A-WnMus.Hs.2104</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e8593">Am Grabe</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-002">002</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur mit aut. Eintragungen</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+            </table>
+            <list>
+               <head xml:lang="de">Beispiele entnommen aus: <ref
+                     target="Eckstein_Friedrich_A-WnMus.Hs.2104-01r.jpg">A-WnMus.Hs.2104</ref>
+               </head>
+               <head xml:lang="eng">Examples taken from: <ref
+                     target="Eckstein_Friedrich_A-WnMus.Hs.2104-01r.jpg">A-WnMus.Hs.2104</ref>
+               </head>
+               <item>
+                  <title xml:lang="de">Notenschlüssel</title>
+                  <title xml:lang="eng">Clefs</title>
+                  <figure>
+                     <graphic scale="33"
+                        url="../../101_samples/named/E/Eckstein_Friedrich/Eckstein_Friedrich_A-WnMus.Hs.2104_A-Clefs_F.png"/>
+                     <graphic scale="33"
+                        url="../../101_samples/named/E/Eckstein_Friedrich/Eckstein_Friedrich_A-WnMus.Hs.2104_A-Clefs_G.png"
+                     />
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Akzidentien</title>
+                  <title xml:lang="eng">Accidentals</title>
+                  <figure>
+                     <graphic scale="33"
+                        url="../../101_samples/named/E/Eckstein_Friedrich/Eckstein_Friedrich_A-WnMus.Hs.2104_B-Accidentals_Flat_1.png"/>
+                     <graphic scale="33"
+                        url="../../101_samples/named/E/Eckstein_Friedrich/Eckstein_Friedrich_A-WnMus.Hs.2104_B-Accidentals_Flat_2.png"/>
+                     <graphic scale="33"
+                        url="../../101_samples/named/E/Eckstein_Friedrich/Eckstein_Friedrich_A-WnMus.Hs.2104_B-Accidentals_Natural_1.png"/>
+                     <graphic scale="33"
+                        url="../../101_samples/named/E/Eckstein_Friedrich/Eckstein_Friedrich_A-WnMus.Hs.2104_B-Accidentals_Natural_2.png"
+                     />
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Taktvorzeichnung</title>
+                  <title xml:lang="eng">Time Signatures</title>
+                  <figure>
+                     <graphic scale="33"
+                        url="../../101_samples/named/E/Eckstein_Friedrich/Eckstein_Friedrich_A-WnMus.Hs.2104_C-Time-Signatures_C.png"
+                     />
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Pausen</title>
+                  <title xml:lang="eng">Rests</title>
+                  <figure>
+                     <graphic scale="33"
+                        url="../../101_samples/named/E/Eckstein_Friedrich/Eckstein_Friedrich_A-WnMus.Hs.2104_D-Rests_Achtel.png"/>
+                     <graphic scale="33"
+                        url="../../101_samples/named/E/Eckstein_Friedrich/Eckstein_Friedrich_A-WnMus.Hs.2104_D-Rests_Viertel.png"
+                     />
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Noten</title>
+                  <title xml:lang="eng">Notes</title>
+                  <figure>
+                     <graphic scale="33"
+                        url="../../101_samples/named/E/Eckstein_Friedrich/Eckstein_Friedrich_A-WnMus.Hs.2104_E-Notes_Achtel.png"/>
+                     <graphic scale="33"
+                        url="../../101_samples/named/E/Eckstein_Friedrich/Eckstein_Friedrich_A-WnMus.Hs.2104_E-Notes_Ganze.png"/>
+                     <graphic scale="33"
+                        url="../../101_samples/named/E/Eckstein_Friedrich/Eckstein_Friedrich_A-WnMus.Hs.2104_E-Notes_Halbe_1.png"/>
+                     <graphic scale="33"
+                        url="../../101_samples/named/E/Eckstein_Friedrich/Eckstein_Friedrich_A-WnMus.Hs.2104_E-Notes_Halbe_2.png"/>
+                     <graphic scale="33"
+                        url="../../101_samples/named/E/Eckstein_Friedrich/Eckstein_Friedrich_A-WnMus.Hs.2104_E-Notes_Viertel.png"
+                     />
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Dynamik</title>
+                  <title xml:lang="eng">Dynamics</title>
+                  <figure>
+                     <graphic scale="33"
+                        url="../../101_samples/named/E/Eckstein_Friedrich/Eckstein_Friedrich_A-WnMus.Hs.2104_F-Dynamics_Cresc.png"/>
+                     <graphic scale="33"
+                        url="../../101_samples/named/E/Eckstein_Friedrich/Eckstein_Friedrich_A-WnMus.Hs.2104_F-Dynamics_Dim.png"/>
+                     <graphic scale="33"
+                        url="../../101_samples/named/E/Eckstein_Friedrich/Eckstein_Friedrich_A-WnMus.Hs.2104_F-Dynamics_Fortissimo.png"/>
+                     <graphic scale="33"
+                        url="../../101_samples/named/E/Eckstein_Friedrich/Eckstein_Friedrich_A-WnMus.Hs.2104_F-Dynamics_Pianissimo.png"/>
+                     <graphic scale="33"
+                        url="../../101_samples/named/E/Eckstein_Friedrich/Eckstein_Friedrich_A-WnMus.Hs.2104_F-Dynamics_Piano.png"
+                     />
+                  </figure>
+               </item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

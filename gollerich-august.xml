@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Göllerich, August</title>
+            <title level="m">Die Wiener Kopisten der Werke Anton Bruckners</title>
+            <author>
+               <name>Paul Hawkshaw</name>
+               <name>Clemens Gubsch</name>
+            </author>
+            <respStmt>
+               <resp>Automatische Konvertierung nach TEI P5</resp>
+               <name xml:id="cg">Clemens Gubsch</name>
+            </respStmt>
+            <respStmt>
+               <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
+               <name corresp="#cg">Clemens Gubsch</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2020-11-01</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Die Wiener Kopisten der Werke Anton Bruckners</publisher>
+            <idno type="BrucknerKopisten">d1e24522</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term>Bekannter Kopist</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change who="#cg" status="created">Erstellt und geprüft</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="content-d1e24522">
+            <listPerson>
+               <person>
+                  <persName type="main">Göllerich, August</persName>
+                  <persName>
+                     <surname>Göllerich</surname>
+                     <forename>August</forename>
+                  </persName>
+                  <idno type="alphabetically_sorted">Göllerich, August</idno>
+                  <idno type="GND">118695762</idno>
+                  <floruit from="1884" to="1884" notBefore="1884" xml:lang="de">1884 und später</floruit>
+                  <floruit from="1884" to="1884" notBefore="1884" xml:lang="eng">1884 and later</floruit>
+                  <residence>Linz</residence>
+                  <affiliation xml:lang="de"/>
+                  <affiliation xml:lang="eng"/>
+                  <index>
+                     <term sortKey="1" xml:lang="de">Primärquellen</term>
+                     <term sortKey="1" xml:lang="eng">Primary Sources</term>
+                  </index>
+               </person>
+            </listPerson>
+            <p decls="desc" xml:lang="de"/>
+            <p decls="desc" xml:lang="eng"/>
+            <p decls="link" xml:lang="de">Eine detaillierte Biographie findet sich im entsprechenden
+               Artikel des ABLO: <ref target="http://www.bruckner-online.at/ABLO_d1e1407">siehe
+                  ABLO</ref>
+            </p>
+            <p decls="link" xml:lang="eng"/>
+            <table>
+               <head>Abschriften</head>
+               <row xml:lang="de" role="label">
+                  <cell>Datierung des Werkes</cell>
+                  <cell>Signatur</cell>
+                  <cell>Werktitel</cell>
+                  <cell>WAB-Nummer</cell>
+                  <cell>Art der Kopie</cell>
+                  <cell>erschlossene Datierung der Kopie</cell>
+                  <cell>Folios in der Hand des Kopisten</cell>
+                  <cell>Datierung der Kopie/Unterschrift</cell>
+               </row>
+               <row xml:lang="eng" role="label">
+                  <cell>Date of Composition</cell>
+                  <cell>Library Call Number</cell>
+                  <cell>Work Title</cell>
+                  <cell>WAB Number</cell>
+                  <cell>Manuscript Description</cell>
+                  <cell>date conjectural</cell>
+                  <cell>Folios in the Copyist’s Hand</cell>
+                  <cell>Copyist’s Signature or Date</cell>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date notAfter="1847-01">ca. Ende Januar 1847</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19702">A-WnMus.Hs.19702</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e8563">Aequale</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-114">114</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1850">ca. 1850</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19688">A-WnMus.Hs.19688</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9773">Steiermarker</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-122">122</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1868-04-21">21.04.1868</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.33156">A-WnMus.Hs.33156</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9151">Inveni David</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-019">019</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1869-01-24" to="1869-09-12">24.01.1869–12.09.1869</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19785">A-WnMus.Hs.19785</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9821">Symphonie in
+                        D-moll</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-100">100</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Skizze des abgelehnten Trios</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1871-10-11" to="1872-09-11">11.10.1871–11.09.1872</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19670">A-WnMus.Hs.19670</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9846">2. Symphonie, 3.
+                        Satz</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-102">102</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Klavierauszug (2hdg. von Hynais)</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1873-02-23" to="1873-12-31">23.02.1873–31.12.1873</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19671">A-WnMus.Hs.19671</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9862">3. Symphonie, 1.–2.
+                        Satz</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-103">103</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Klavierauszug (für 2Kl. von J. Schalk)</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1875-02-14" to="1876-05-16">14.02.1875–16.05.1876</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.6031">A-WnMus.Hs.6031</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9894">5. Symphonie, 4.
+                        Satz</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-105">105</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur (Fragment)</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">25r</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1881-09-23" to="1883-09-05">23.09.1881–05.09.1883</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19674">A-WnMus.Hs.19674</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9927">7. Symphonie, 2.
+                        Satz</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-107">107</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Klavierauszug (2hdg. von J. Schalk)</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift">1r</cell>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1893-04" to="1893-08-07">zwischen April 1893 und 07.08.1893</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19690">A-WnMus.Hs.19690</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9038">Helgoland</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-071">071</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Skizze</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">1r</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+            </table>
+            <list>
+               <head xml:lang="de">Beispiele entnommen aus: <ref target="Göllerich_August_A-WnMus.Hs.33156-02r.jpg">A-WnMus.Hs.33156</ref>
+               </head>
+               <head xml:lang="eng">Examples taken from: <ref target="Göllerich_August_A-WnMus.Hs.33156-02r.jpg">A-WnMus.Hs.33156</ref>
+               </head>
+               <item>
+                  <title xml:lang="de">Notenschlüssel</title>
+                  <title xml:lang="eng">Clefs</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/named/G/Göllerich_August/Göllerich_August_A-WnMus.Hs.33156_A-Clefs_F_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/G/Göllerich_August/Göllerich_August_A-WnMus.Hs.33156_A-Clefs_F_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/G/Göllerich_August/Göllerich_August_A-WnMus.Hs.33156_A-Clefs_G_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/G/Göllerich_August/Göllerich_August_A-WnMus.Hs.33156_A-Clefs_G_2.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Akzidentien</title>
+                  <title xml:lang="eng">Accidentals</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/named/G/Göllerich_August/Göllerich_August_A-WnMus.Hs.33156_B-Accidentals_Flat_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/G/Göllerich_August/Göllerich_August_A-WnMus.Hs.33156_B-Accidentals_Flat_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/G/Göllerich_August/Göllerich_August_A-WnMus.Hs.33156_B-Accidentals_Natural_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/G/Göllerich_August/Göllerich_August_A-WnMus.Hs.33156_B-Accidentals_Natural_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/G/Göllerich_August/Göllerich_August_A-WnMus.Hs.33156_B-Accidentals_Sharp_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/G/Göllerich_August/Göllerich_August_A-WnMus.Hs.33156_B-Accidentals_Sharp_2.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Taktvorzeichnung</title>
+                  <title xml:lang="eng">Time Signatures</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/named/G/Göllerich_August/Göllerich_August_A-WnMus.Hs.33156_C-Time-Signatures_C.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/G/Göllerich_August/Göllerich_August_A-WnMus.Hs.33156_C-Time-Signatures_C_2.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Pausen</title>
+                  <title xml:lang="eng">Rests</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/named/G/Göllerich_August/Göllerich_August_A-WnMus.Hs.33156_D-Rests_Viertel_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/G/Göllerich_August/Göllerich_August_A-WnMus.Hs.33156_D-Rests_Viertel_2.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Noten</title>
+                  <title xml:lang="eng">Notes</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/named/G/Göllerich_August/Göllerich_August_A-WnMus.Hs.33156_E-Notes_Achtel_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/G/Göllerich_August/Göllerich_August_A-WnMus.Hs.33156_E-Notes_Achtel_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/G/Göllerich_August/Göllerich_August_A-WnMus.Hs.33156_E-Notes_Ganze_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/G/Göllerich_August/Göllerich_August_A-WnMus.Hs.33156_E-Notes_Ganze_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/G/Göllerich_August/Göllerich_August_A-WnMus.Hs.33156_E-Notes_Halbe_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/G/Göllerich_August/Göllerich_August_A-WnMus.Hs.33156_E-Notes_Halbe_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/G/Göllerich_August/Göllerich_August_A-WnMus.Hs.33156_E-Notes_Viertel_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/G/Göllerich_August/Göllerich_August_A-WnMus.Hs.33156_E-Notes_Viertel_2.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Dynamik</title>
+                  <title xml:lang="eng">Dynamics</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/named/G/Göllerich_August/Göllerich_August_A-WnMus.Hs.33156_F-Dynamics_Forte.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/G/Göllerich_August/Göllerich_August_A-WnMus.Hs.33156_F-Dynamics_Fortissimo.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/G/Göllerich_August/Göllerich_August_A-WnMus.Hs.33156_F-Dynamics_Pianissimo.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/G/Göllerich_August/Göllerich_August_A-WnMus.Hs.33156_F-Dynamics_Piano.png"/>
+                  </figure>
+               </item>
+            </list>
+         </div>
+      </body>
+      <back>
+         <listPlace>
+            <place xml:id="place_2">
+               <placeName>Linz</placeName>
+               <location>
+                  <geo>48.306390000000 14.286110000000</geo>
+               </location>
+               <idno subtype="geonames" type="URL">https://www.geonames.org/2772400</idno>
+            </place>
+         </listPlace>
+      </back>
+   </text>
+</TEI>

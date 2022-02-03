@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Anonymus 096</title>
+            <title level="m">Die Wiener Kopisten der Werke Anton Bruckners</title>
+            <author>
+               <name>Paul Hawkshaw</name>
+               <name>Clemens Gubsch</name>
+            </author>
+            <respStmt>
+               <resp>Automatische Konvertierung nach TEI P5</resp>
+               <name xml:id="cg">Clemens Gubsch</name>
+            </respStmt>
+            <respStmt>
+               <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
+               <name corresp="#cg">Clemens Gubsch</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2020-11-01</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Die Wiener Kopisten der Werke Anton Bruckners</publisher>
+            <idno type="BrucknerKopisten">d1e13742</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term>Anonymus</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change who="#cg" status="created">Erstellt und geprüft</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="content-d1e13742">
+            <listPerson>
+               <person>
+                  <persName type="main">Anonymus 096</persName>
+                  <idno type="alphabetically_sorted">Anonymus 096</idno>
+                  <residence>Kremsmünster</residence>
+                  <affiliation xml:lang="de">Kremsmünsterer Kopisten</affiliation>
+                  <affiliation xml:lang="eng">Kremsmünster copyists</affiliation>
+                  <index>
+                     <term sortKey="2" xml:lang="de">Sekundärquellen</term>
+                     <term sortKey="2" xml:lang="eng">Secondary Sources</term>
+                  </index>
+               </person>
+            </listPerson>
+            <p decls="desc" xml:lang="de">
+               <lb/>Bei Kopist Anonymus 096 handelt es sich wahrscheinlich um einen Novizen oder Musiker aus dem Stift Kremsmünster.
+               <lb/>Für weitere Kopisten aus Kremsmünster siehe <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>.</p>
+            <p decls="desc" xml:lang="eng">
+               <lb/><hi rend="italic">Anonymus</hi> 096 was probably a student or musician at Kremsmünster. 
+               <lb/>For more copyists from Kremsmünster, see <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Table 3</ref>.</p>
+            <table>
+               <head>Abschriften</head>
+               <row xml:lang="de" role="label">
+                  <cell>Datierung des Werkes</cell>
+                  <cell>Signatur</cell>
+                  <cell>Werktitel</cell>
+                  <cell>WAB-Nummer</cell>
+                  <cell>Art der Kopie</cell>
+                  <cell>erschlossene Datierung der Kopie</cell>
+                  <cell>Folios in der Hand des Kopisten</cell>
+                  <cell>Datierung der Kopie/Unterschrift</cell>
+               </row>
+               <row xml:lang="eng" role="label">
+                  <cell>Date of Composition</cell>
+                  <cell>Library Call Number</cell>
+                  <cell>Work Title</cell>
+                  <cell>WAB Number</cell>
+                  <cell>Manuscript Description</cell>
+                  <cell>date conjectural</cell>
+                  <cell>Folios in the Copyist’s Hand</cell>
+                  <cell>Copyist’s Signature or Date</cell>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1854-03-24" to="1854-03-28">24.03.1854–28.03.1854</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-KR-E6-123-1">A-KR-E6-123-1</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9261">Libera me,
+                        Domine</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-022">022</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Stimmen</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern">LM2</cell>
+               </row>
+            </table>
+            <list>
+               <head xml:lang="de">Beispiele entnommen aus: <ref target="Anonymus-096_A-KR-E6-123-1-02.tif">A-KR-E6-123-1</ref>
+               </head>
+               <head xml:lang="eng">Examples taken from: <ref target="Anonymus-096_A-KR-E6-123-1-02.tif">A-KR-E6-123-1</ref>
+               </head>
+               <item>
+                  <title xml:lang="de">Notenschlüssel</title>
+                  <title xml:lang="eng">Clefs</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_096/Anonymus-096_A-KR-E6-123-1_A-Clefs_C.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_096/Anonymus-096_A-KR-E6-123-1_A-Clefs_F.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Akzidentien</title>
+                  <title xml:lang="eng">Accidentals</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_096/Anonymus-096_A-KR-E6-123-1_B-Accidentals_Flat.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_096/Anonymus-096_A-KR-E6-123-1_B-Accidentals_Natural.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_096/Anonymus-096_A-KR-E6-123-1_B-Accidentals_Sharp.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Taktvorzeichnung</title>
+                  <title xml:lang="eng">Time Signatures</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_096/Anonymus-096_A-KR-E6-123-1_C-Time-Signatures_C.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Pausen</title>
+                  <title xml:lang="eng">Rests</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_096/Anonymus-096_A-KR-E6-123-1_D-Rests_Viertel.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Noten</title>
+                  <title xml:lang="eng">Notes</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_096/Anonymus-096_A-KR-E6-123-1_E-Notes_Achtel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_096/Anonymus-096_A-KR-E6-123-1_E-Notes_Ganze.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_096/Anonymus-096_A-KR-E6-123-1_E-Notes_Halbe.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_096/Anonymus-096_A-KR-E6-123-1_E-Notes_Viertel.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Dynamik</title>
+                  <title xml:lang="eng">Dynamics</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_096/Anonymus-096_A-KR-E6-123-1_F-Dynamics_Forte.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_096/Anonymus-096_A-KR-E6-123-1_F-Dynamics_Fortissimo.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_076-100/Anonymus_096/Anonymus-096_A-KR-E6-123-1_F-Dynamics_Piano.png"/>
+                  </figure>
+               </item>
+            </list>
+         </div>
+      </body>
+      <back>
+         <listPlace>
+            <place xml:id="place_3">
+               <placeName>Kremsmünster</placeName>
+               <location>
+                  <geo>48.052900000000 14.129190000000</geo>
+               </location>
+               <idno subtype="geonames" type="URL">https://www.geonames.org/2773538</idno>
+            </place>
+         </listPlace>
+      </back>
+   </text>
+</TEI>

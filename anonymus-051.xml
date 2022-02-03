@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Anonymus 051</title>
+            <title level="m">Die Wiener Kopisten der Werke Anton Bruckners</title>
+            <author>
+               <name>Paul Hawkshaw</name>
+               <name>Clemens Gubsch</name>
+            </author>
+            <respStmt>
+               <resp>Automatische Konvertierung nach TEI P5</resp>
+               <name xml:id="cg">Clemens Gubsch</name>
+            </respStmt>
+            <respStmt>
+               <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
+               <name corresp="#cg">Clemens Gubsch</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2020-11-01</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Die Wiener Kopisten der Werke Anton Bruckners</publisher>
+            <idno type="BrucknerKopisten">d1e7909</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term>Anonymus</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change who="#cg" status="created">Erstellt und geprüft</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="content-d1e7909">
+            <listPerson>
+               <person>
+                  <persName subtype="W" type="main">Anonymus 051</persName>
+                  <idno type="alphabetically_sorted">Anonymus 051 (W)</idno>
+                  <floruit from="1893" to="1893">1893</floruit>
+                  <residence/>
+                  <affiliation xml:lang="de">Wiener Kopisten</affiliation>
+                  <affiliation xml:lang="eng">Vienna copyist</affiliation>
+                  <index>
+                     <term sortKey="1" xml:lang="de">Primärquellen</term>
+                     <term sortKey="1" xml:lang="eng">Primary Sources</term>
+                  </index>
+               </person>
+            </listPerson>
+            <p decls="desc" xml:lang="de">
+               <lb/>Zusammen mit Josef Schalk fertigten die Kopist Anonymus 043–053 (W) zwischen 1888 und 1893 den Stimmensatz zur <hi rend="italic">Messe in f-Moll</hi> für den Wiener Akademischen Wagner-Verein an. Die Stimmen wurden ebenso für die Uraufführung von Schalks Bearbeitung der Messe im Großen Musikvereinssaal in Wien am 23. März 1893 verwendet.<ref xml:id="footnote-ref033" target="#footnote033" type="noteAnchor">1</ref>
+               <note xml:id="footnote033" type="footnote" anchored="true" n="1">Paul Hawkshaw, Messe F-moll Revisionsbericht. Anton Bruckner Sämtliche Werke, XVIII, S. 181-190.</note>
+            </p>
+            <p decls="desc" xml:lang="eng">
+               <lb/>Along with Josef Schalk, the copyists <hi rend="italic">Anonymus</hi> 043–053 (W) prepared parts for the <hi rend="italic">Mass in F minor</hi> for the Viennese Academic Wagner Society between 1888 and 1893. The parts were used for the first performance of Schalk’s arrangement of the Mass in the Großen Musikvereinssaal, Vienna, on 23 March 1893.<ref xml:id="footnote-ref034" target="#footnote034" type="noteAnchor">1</ref>
+               <note xml:id="footnote034" type="footnote" anchored="true" n="1">Paul Hawkshaw, Messe F-moll Revisionsbericht. Anton Bruckner Sämtliche Werke, XVIII, pp. 181-190.</note>
+            </p>
+            <table>
+               <head>Abschriften</head>
+               <row xml:lang="de" role="label">
+                  <cell>Datierung des Werkes</cell>
+                  <cell>Signatur</cell>
+                  <cell>Werktitel</cell>
+                  <cell>WAB-Nummer</cell>
+                  <cell>Art der Kopie</cell>
+                  <cell>erschlossene Datierung der Kopie</cell>
+                  <cell>Folios in der Hand des Kopisten</cell>
+                  <cell>Datierung der Kopie/Unterschrift</cell>
+               </row>
+               <row xml:lang="eng" role="label">
+                  <cell>Date of Composition</cell>
+                  <cell>Library Call Number</cell>
+                  <cell>Work Title</cell>
+                  <cell>WAB Number</cell>
+                  <cell>Manuscript Description</cell>
+                  <cell>date conjectural</cell>
+                  <cell>Folios in the Copyist’s Hand</cell>
+                  <cell>Copyist’s Signature or Date</cell>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1868-09-09">09.09.1868</date>
+                  </cell>
+                  <cell role="Signatur">A-Wgm I 28050a</cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9401">Messe in f-Moll</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-028">028</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Stimmen</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">Fl. 1–2, Ob. 1–2, Kl. 1–2, Fg. 1–2,
+                     Hr. 1–2, Hr 3 (ausserhalb 1v, Z. 2–5; 4r, Z. 5–ll; und 4v, Z. 1–6), Hr 4
+                     (ausserhalb 1v, Z. 2–5 und 4r, Z. 1–7), Tpt 1–2, Pos. 1–3, Pk.
+                     Credo/Sanctus/Benedictus/Agnus Dei</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+            </table>
+            <list>
+               <head xml:lang="de">Beispiele entnommen aus: <ref/>
+               </head>
+               <head xml:lang="eng">Examples taken from: <ref/>
+               </head>
+               <item>
+                  <title xml:lang="de">Notenschlüssel</title>
+                  <title xml:lang="eng">Clefs</title>
+                  <figure/>
+               </item>
+               <item>
+                  <title xml:lang="de">Akzidentien</title>
+                  <title xml:lang="eng">Accidentals</title>
+                  <figure/>
+               </item>
+               <item>
+                  <title xml:lang="de">Taktvorzeichnung</title>
+                  <title xml:lang="eng">Time Signatures</title>
+                  <figure/>
+               </item>
+               <item>
+                  <title xml:lang="de">Pausen</title>
+                  <title xml:lang="eng">Rests</title>
+                  <figure/>
+               </item>
+               <item>
+                  <title xml:lang="de">Noten</title>
+                  <title xml:lang="eng">Notes</title>
+                  <figure/>
+               </item>
+               <item>
+                  <title xml:lang="de">Dynamik</title>
+                  <title xml:lang="eng">Dynamics</title>
+                  <figure/>
+               </item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

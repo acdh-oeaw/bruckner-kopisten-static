@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Pfändtner, Albert</title>
+            <title level="m">Die Wiener Kopisten der Werke Anton Bruckners</title>
+            <author>
+               <name>Paul Hawkshaw</name>
+               <name>Clemens Gubsch</name>
+            </author>
+            <respStmt>
+               <resp>Automatische Konvertierung nach TEI P5</resp>
+               <name xml:id="cg">Clemens Gubsch</name>
+            </respStmt>
+            <respStmt>
+               <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
+               <name corresp="#cg">Clemens Gubsch</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2020-11-01</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Die Wiener Kopisten der Werke Anton Bruckners</publisher>
+            <idno type="BrucknerKopisten">d1e32263</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term>Bekannter Kopist</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change who="#cg" status="created">Erstellt und geprüft</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="content-d1e32263">
+            <listPerson>
+               <person>
+                  <persName type="main">Pfändtner, Albert</persName>
+                  <persName>
+                     <surname>Pfändtner</surname>
+                     <forename>Albert</forename>
+                  </persName>
+                  <idno type="alphabetically_sorted">Pfändtner, Albert</idno>
+                  <idno type="GND"/>
+                  <floruit from="1895" to="1895">1895</floruit>
+                  <residence>Steyr</residence>
+                  <affiliation xml:lang="de">Steyrer Kopisten</affiliation>
+                  <affiliation xml:lang="eng">Steyr copyists</affiliation>
+                  <index>
+                     <term sortKey="2" xml:lang="de">Sekundärquellen</term>
+                     <term sortKey="2" xml:lang="eng">Secondary Sources</term>
+                  </index>
+               </person>
+            </listPerson>
+            <p decls="desc" xml:lang="de">
+               <lb/>
+               <lb/>Am Anfang seiner Karriere war Albert Pfändtner stellvertretender Chorkapellmeister des <hi rend="italic">Männergesangvereins »Kränzchen«</hi> in Steyr.<ref xml:id="footnote-ref081" target="#footnote081" type="noteAnchor">1</ref> Weitere Wirkungsorte Pfändtners waren die Dirigate der Bürgermusikkapelle in Mondsee und Lustenau. Ca. im August 1906 wurde der gleichfalls als Violinist hervortretende Pfändtner zum Musiklehrer am Petrinium in Linz ernannt.<ref xml:id="footnote-ref082" target="#footnote082" type="noteAnchor">2</ref>
+               <lb/>Zusammen mit Franz Xaver Bayer, Juliane Bayer und Jaroslav Karmazin wirkte er am Steyrer-Stimmensatz für Bruckners <hi rend="italic">Requiem</hi> mit.
+               <lb/>Für weitere Kopisten aus Steyr siehe <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>. </p>
+            <note xml:id="footnote081" type="footnote" anchored="true" n="1">Linzer Tages-Post, 19. Februar 1904, S. 8.</note>
+            <note xml:id="footnote082" type="footnote" anchored="true" n="2">Salzburger Volksblatt, 22. August 1906, S. 4.</note>
+            <p decls="desc" xml:lang="eng">
+               <lb/>Early in his career, Albert Pfändtner was Franz Xaver Bayer’s Assistant Conductor for the male chorus society <hi rend="italic">Männergesangverein »Kränzchen«</hi> in Steyr.<ref xml:id="footnote-ref083" target="#footnote083" type="noteAnchor">1</ref> He went on to hold conducting posts for the <hi rend="italic">Bürgermusikkapelle</hi> in Mondsee and Lustenau. Also a violinist, in August 1906 he was appointed Music Teacher at the <hi rend="italic">Petrinium</hi> in Linz.<ref xml:id="footnote-ref084" target="#footnote084" type="noteAnchor">2</ref>
+               <lb/>Along with Franz Xaver Bayer, Juliane Bayer and Jaroslav Karmazin, he contributed to the Steyr parts for Bruckner’s <hi rend="italic">Requiem</hi>.
+               <lb/>For more copyists from Steyr, see <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Table 3</ref>.</p>
+            <note xml:id="footnote083" type="footnote" anchored="true" n="1">Linzer Tages-Post, 19 Februar 1904, p. 8.</note>
+            <note xml:id="footnote084" type="footnote" anchored="true" n="2">Salzburger Volksblatt, 22 August 1906, p. 4.</note>
+            <p decls="link" xml:lang="de"/>
+            <p decls="link" xml:lang="eng"/>
+            <table>
+               <head>Abschriften</head>
+               <row xml:lang="de" role="label">
+                  <cell>Datierung des Werkes</cell>
+                  <cell>Signatur</cell>
+                  <cell>Werktitel</cell>
+                  <cell>WAB-Nummer</cell>
+                  <cell>Art der Kopie</cell>
+                  <cell>erschlossene Datierung der Kopie</cell>
+                  <cell>Folios in der Hand des Kopisten</cell>
+                  <cell>Datierung der Kopie/Unterschrift</cell>
+               </row>
+               <row xml:lang="eng" role="label">
+                  <cell>Date of Composition</cell>
+                  <cell>Library Call Number</cell>
+                  <cell>Work Title</cell>
+                  <cell>WAB Number</cell>
+                  <cell>Manuscript Description</cell>
+                  <cell>date conjectural</cell>
+                  <cell>Folios in the Copyist’s Hand</cell>
+                  <cell>Copyist’s Signature or Date</cell>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1848" to="1849-03-14">zwischen 1848 und 14.03.1849</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.2125-II">A-WnMus.Hs.2125-II</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9671 d1e12972">Requiem</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-039">039</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Stimmen</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">1r–5r; 28r–31r; 50r–59v; 71r–77r;
+                     92r–97v; 112r–112v; 115r–121r; 124r–128v;;</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift">5r; 31r; 54r; 59v; 77r; 97v; 112v;
+                     115v; 117v; 119r; 121r; 128v</cell>
+                  <cell role="Kommentar_intern"/>
+               </row>
+            </table>
+            <list>
+               <head xml:lang="de">Beispiele entnommen aus: <ref target="Pfändtner_Albert_A-WnMus.Hs.2125-II-003.jpg">A-WnMus.Hs.2125-II-003.jpg</ref>
+               </head>
+               <head xml:lang="eng">Examples taken from: <ref target="Pfändtner_Albert_A-WnMus.Hs.2125-II-003.jpg">A-WnMus.Hs.2125-II-003.jpg</ref>
+               </head>
+               <item>
+                  <title xml:lang="de">Notenschlüssel</title>
+                  <title xml:lang="eng">Clefs</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/named/P/Pfändtner_Albert/Pfändtner_Albert_A-WnMus.Hs.2125-II_A-Clefs_G.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Akzidentien</title>
+                  <title xml:lang="eng">Accidentals</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/named/P/Pfändtner_Albert/Pfändtner_Albert_A-WnMus.Hs.2125-II_B-Accidentals_Flat.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/P/Pfändtner_Albert/Pfändtner_Albert_A-WnMus.Hs.2125-II_B-Accidentals_Natural.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/P/Pfändtner_Albert/Pfändtner_Albert_A-WnMus.Hs.2125-II_B-Accidentals_Sharp.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Taktvorzeichnung</title>
+                  <title xml:lang="eng">Time Signatures</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/named/P/Pfändtner_Albert/Pfändtner_Albert_A-WnMus.Hs.2125-II_C-Time-Signatures_12_8.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/P/Pfändtner_Albert/Pfändtner_Albert_A-WnMus.Hs.2125-II_C-Time-Signatures_3_4.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/P/Pfändtner_Albert/Pfändtner_Albert_A-WnMus.Hs.2125-II_C-Time-Signatures_4_4.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Pausen</title>
+                  <title xml:lang="eng">Rests</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/named/P/Pfändtner_Albert/Pfändtner_Albert_A-WnMus.Hs.2125-II_D-Rests_Achtel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/P/Pfändtner_Albert/Pfändtner_Albert_A-WnMus.Hs.2125-II_D-Rests_Viertel.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Noten</title>
+                  <title xml:lang="eng">Notes</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/named/P/Pfändtner_Albert/Pfändtner_Albert_A-WnMus.Hs.2125-II_E-Notes_Achtel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/P/Pfändtner_Albert/Pfändtner_Albert_A-WnMus.Hs.2125-II_E-Notes_Halbe.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/P/Pfändtner_Albert/Pfändtner_Albert_A-WnMus.Hs.2125-II_E-Notes_Viertel.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Dynamik</title>
+                  <title xml:lang="eng">Dynamics</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/named/P/Pfändtner_Albert/Pfändtner_Albert_A-WnMus.Hs.2125-II_F-Dynamics_Cresc.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/P/Pfändtner_Albert/Pfändtner_Albert_A-WnMus.Hs.2125-II_F-Dynamics_Decresc.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/P/Pfändtner_Albert/Pfändtner_Albert_A-WnMus.Hs.2125-II_F-Dynamics_Forte.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/P/Pfändtner_Albert/Pfändtner_Albert_A-WnMus.Hs.2125-II_F-Dynamics_Mezzoforte.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/P/Pfändtner_Albert/Pfändtner_Albert_A-WnMus.Hs.2125-II_F-Dynamics_Piano.png"/>
+                  </figure>
+               </item>
+            </list>
+         </div>
+      </body>
+      <back>
+         <listPlace>
+            <place xml:id="place_4">
+               <placeName>Steyr</placeName>
+               <location>
+                  <geo>48.033330000000 14.416670000000</geo>
+               </location>
+               <idno subtype="geonames" type="URL">https://www.geonames.org/2764347</idno>
+            </place>
+         </listPlace>
+      </back>
+   </text>
+</TEI>

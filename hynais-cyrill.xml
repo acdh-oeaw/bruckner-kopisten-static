@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Hynais, Cyrill</title>
+            <title level="m">Die Wiener Kopisten der
+               Werke Anton Bruckners</title>
+            <author>
+               <name>Paul Hawkshaw</name>
+               <name>Clemens Gubsch</name>
+            </author>
+            <respStmt>
+               <resp>Automatische Konvertierung nach TEI P5</resp>
+               <name xml:id="cg">Clemens Gubsch</name>
+            </respStmt>
+            <respStmt>
+               <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
+               <name corresp="#cg">Clemens Gubsch</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2020-11-01</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Die Wiener Kopisten der Werke Anton Bruckners</publisher>
+            <idno type="BrucknerKopisten">d1e25992</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term>Bekannter Kopist</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change who="#cg" status="created">Erstellt und geprüft</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="content-d1e25992">
+            <listPerson>
+               <person>
+                  <persName type="main">Hynais, Cyrill</persName>
+                  <persName>
+                     <surname>Hynais</surname>
+                     <forename>Cyrill</forename>
+                  </persName>
+                  <idno type="alphabetically_sorted">Hynais, Cyrill</idno>
+                  <idno type="GND">130187240</idno>
+                  <floruit from="1891" to="1895">1891–1895</floruit>
+                  <residence/>
+                  <affiliation xml:lang="de"/>
+                  <affiliation xml:lang="eng"/>
+                  <index>
+                     <term sortKey="1" xml:lang="de">Primärquellen</term>
+                     <term sortKey="1" xml:lang="eng">Primary Sources</term>
+                  </index>
+               </person>
+            </listPerson>
+            <p decls="desc" xml:lang="de">
+               <lb/>Die Zuordnung des Kopfsatzes der verschollenen Stichvorlage zur <hi rend="italic">6. Symphonie</hi> zum
+               Schreibprofil Hynais’ erfolgte auf der Grundlage der Photokopien, die in der
+               Musiksammlung der ÖNB unter der Signatur A-Wn PhA2284 aufbewahrt werden.
+            </p>
+            <p decls="desc" xml:lang="eng">
+               <lb/>The first movement of the lost <hi rend="italic">Sixth Symphony</hi> manuscript has been attributed to
+               Hynais on the basis of A-Wn PhA2284 which contains photocopies of a few pages from
+               each movement.
+            </p>
+            <p decls="link" xml:lang="de">Eine detaillierte Biographie findet sich im entsprechenden
+               Artikel des ABLO: <ref target="http://www.bruckner-online.at/ABLO_d1e2011">siehe
+                  ABLO</ref>
+            </p>
+            <p decls="link" xml:lang="eng"/>
+            <table>
+               <head>Abschriften</head>
+               <row xml:lang="de" role="label">
+                  <cell>Datierung des Werkes</cell>
+                  <cell>Signatur</cell>
+                  <cell>Werktitel</cell>
+                  <cell>WAB-Nummer</cell>
+                  <cell>Art der Kopie</cell>
+                  <cell>erschlossene Datierung der Kopie</cell>
+                  <cell>Folios in der Hand des Kopisten</cell>
+                  <cell>Datierung der Kopie/Unterschrift</cell>
+               </row>
+               <row xml:lang="eng" role="label">
+                  <cell>Date of Composition</cell>
+                  <cell>Library Call Number</cell>
+                  <cell>Work Title</cell>
+                  <cell>WAB Number</cell>
+                  <cell>Manuscript Description</cell>
+                  <cell>date conjectural</cell>
+                  <cell>Folios in the Copyist’s Hand</cell>
+                  <cell>Copyist’s Signature or Date</cell>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1871-10-11" to="1872-09-11">11.10.1871–11.09.1872</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.6035">A-WnMus.Hs.6035</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9846">2. Symphonie</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-102">102</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur mit aut. Eintragungen</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">160r</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern">Anonymus SII02</cell>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1879-09-24" to="1881-09-03">24.09.1879–03.09.1881</date>
+                  </cell>
+                  <cell role="Signatur">Privatbesitz 12-2 (verschollen)</cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9910">6. Symphonie, 1.
+                        Satz</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-106">106</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur mit aut. Eintragungen</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">Die exakte Blattzählung lässt sich
+                     anhand der Kopien nicht feststellen.</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1892-06-12" to="1892-06-29">12.06.1892–29.06.1892</date>
+                  </cell>
+                  <cell role="Signatur">A-Wgm III 27904 (H 29625)</cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9646">Psalm 150</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-038">038</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten"/>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1887-09-21" to="1894-07-02">21.09.1887-02.07.1894</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.29305">A-WnMus.Hs.29305</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9740">9. Symphonie, 1.
+                        Satz</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-109">109</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur mit aut. Eintragungen</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">2r–54r</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1887-09-21" to="1894-07-02">21.09.1887-02.07.1894</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19481">A-WnMus.Hs.19481</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9740">9. Symphonie, 1.–3.
+                        Satz</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-109">109</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Aut. Partitur mit Eintragungen von Hynais</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">66v–71v; 74r–93v</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1887-09-21" to="1894-07-02">21.09.1887–02.07.1894</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WstMHc4189">A-WstMHc-4189</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9740">9. Symphonie, 1.–3.
+                        Satz</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-109">109</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Aut. Skizzen mit Eintragungen von Hynais</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">27r–27v; 34r–39v</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1895-05-24">24.05.1895–</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.6085">A-WnMus.Hs.6085</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9740">9. Symphonie, 4.
+                        Satz</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-109">109</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Aut. Skizzen mit Eintragungen von Hynais</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">19r–24v; 33r–34v; 37r–39r; 49r–54v;
+                     57r–82v</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1895-05-24">24.05.1895–</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.6087">A-WnMus.Hs.6087</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9740">9. Symphonie, 4.
+                        Satz</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-109">109</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Aut. Skizzen mit Eintragungen von Hynais</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">5r–6v; 37r–38v; 45r–46v;
+                     65r–72v</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1895-05-24">24.05.1895–</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19645">A-WnMus.Hs.19645</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9740">9. Symphonie, 4.
+                        Satz</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-109">109</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Aut. Skizzen mit Eintragungen von Hynais</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">1r–2v</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1895-05-24">24.05.1895–</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-Wmk36555">A-Wmk36555</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9740">9. Symphonie, 4.
+                        Satz</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-109">109</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Aut. Partiturfragment mit Eintragungen von
+                     Hynais</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">1r–2v</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+            </table>
+            <list>
+               <head xml:lang="de">Beispiele entnommen aus: <ref target="Hynais_Cyrill_A-WnMus.Hs.29305-008r.jpg">A-WnMus.Hs.29305</ref>. </head>
+               <head xml:lang="eng">Examples taken from: <ref target="Hynais_Cyrill_A-WnMus.Hs.29305-008r.jpg">A-WnMus.Hs.29305</ref>. </head>
+               <item>
+                  <title xml:lang="de">Notenschlüssel</title>
+                  <title xml:lang="eng">Clefs</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/Hynais_Cyrill/Hynais_Cyrill_A-WnMus.Hs.29305_A-Clefs_C.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/Hynais_Cyrill/Hynais_Cyrill_A-WnMus.Hs.29305_A-Clefs_F.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/Hynais_Cyrill/Hynais_Cyrill_A-WnMus.Hs.29305_A-Clefs_G.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Akzidentien</title>
+                  <title xml:lang="eng">Accidentals</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/Hynais_Cyrill/Hynais_Cyrill_A-WnMus.Hs.29305_B-Accidentals_Flat.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/Hynais_Cyrill/Hynais_Cyrill_A-WnMus.Hs.29305_B-Accidentals_Natural.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/Hynais_Cyrill/Hynais_Cyrill_A-WnMus.Hs.29305_B-Accidentals_Sharp.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Taktvorzeichnung</title>
+                  <title xml:lang="eng">Time Signatures</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/Hynais_Cyrill/Hynais_Cyrill_A-WnMus.Hs.29305_C-Time-Signatures_C.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Pausen</title>
+                  <title xml:lang="eng">Rests</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/Hynais_Cyrill/Hynais_Cyrill_A-WnMus.Hs.29305_D-Rests_Achtel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/Hynais_Cyrill/Hynais_Cyrill_A-WnMus.Hs.29305_D-Rests_Viertel.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Noten</title>
+                  <title xml:lang="eng">Notes</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/Hynais_Cyrill/Hynais_Cyrill_A-WnMus.Hs.29305_E-Notes_Ganze.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/Hynais_Cyrill/Hynais_Cyrill_A-WnMus.Hs.29305_E-Notes_Halbe.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/Hynais_Cyrill/Hynais_Cyrill_A-WnMus.Hs.29305_E-Notes_Sechzehntel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/Hynais_Cyrill/Hynais_Cyrill_A-WnMus.Hs.29305_E-Notes_Viertel.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Dynamik</title>
+                  <title xml:lang="eng">Dynamics</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/Hynais_Cyrill/Hynais_Cyrill_A-WnMus.Hs.29305_F-Dynamics_Cresc.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/Hynais_Cyrill/Hynais_Cyrill_A-WnMus.Hs.29305_F-Dynamics_Dim.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/Hynais_Cyrill/Hynais_Cyrill_A-WnMus.Hs.29305_F-Dynamics_Forte.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/Hynais_Cyrill/Hynais_Cyrill_A-WnMus.Hs.29305_F-Dynamics_Fortissimo.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/Hynais_Cyrill/Hynais_Cyrill_A-WnMus.Hs.29305_F-Dynamics_Mezzoforte.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/Hynais_Cyrill/Hynais_Cyrill_A-WnMus.Hs.29305_F-Dynamics_Pianissimo.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/H/Hynais_Cyrill/Hynais_Cyrill_A-WnMus.Hs.29305_F-Dynamics_Piano.png"/>
+                  </figure>
+               </item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

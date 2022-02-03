@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Anonymus 142</title>
+            <title level="m">Die Wiener Kopisten der Werke Anton Bruckners</title>
+            <author>
+               <name>Paul Hawkshaw</name>
+               <name>Clemens Gubsch</name>
+            </author>
+            <respStmt>
+               <resp>Automatische Konvertierung nach TEI P5</resp>
+               <name xml:id="cg">Clemens Gubsch</name>
+            </respStmt>
+            <respStmt>
+               <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
+               <name corresp="#cg">Clemens Gubsch</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2020-11-01</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Die Wiener Kopisten der Werke Anton Bruckners</publisher>
+            <idno type="BrucknerKopisten">d1e19422</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term>Anonymus</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change who="#cg" status="created">Erstellt und geprüft</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="content-d1e19422">
+            <listPerson>
+               <person>
+                  <persName subtype="L" type="main">Anonymus 142</persName>
+                  <idno type="alphabetically_sorted">Anonymus 142 (L)</idno>
+                  <floruit from="1864" to="1864">1864</floruit>
+                  <residence>Linz</residence>
+                  <affiliation xml:lang="de">Linzer Kopisten</affiliation>
+                  <affiliation xml:lang="eng">Linz copyists</affiliation>
+                  <index>
+                     <term sortKey="1" xml:lang="de">Primärquellen</term>
+                     <term sortKey="1" xml:lang="eng">Primary Sources</term>
+                  </index>
+               </person>
+            </listPerson>
+            <p decls="desc" xml:lang="de">
+               <lb/>Die Abschrift des Liedes <hi rend="italic">Herbstkummer</hi> des Kopisten Anonymus 142 (L) befindet sich in Privatbesitz und wurde von Bruckner signiert und auf das Jahr 1864 datiert.
+               <lb/>Für weitere Kopisten aus Linz siehe <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>.</p>
+            <p decls="desc" xml:lang="eng">
+               <lb/>The score of the song <hi rend="italic">Herbstkummer</hi> by <hi rend="italic">Anonymus</hi> 142 (L) is in private possession and was signed and dated by Bruckner in 1864.
+               <lb/>For more copyists from Linz, see <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Table 3</ref>.</p>
+            <table>
+               <head>Abschriften</head>
+               <row xml:lang="de" role="label">
+                  <cell>Datierung des Werkes</cell>
+                  <cell>Signatur</cell>
+                  <cell>Werktitel</cell>
+                  <cell>WAB-Nummer</cell>
+                  <cell>Art der Kopie</cell>
+                  <cell>erschlossene Datierung der Kopie</cell>
+                  <cell>Folios in der Hand des Kopisten</cell>
+                  <cell>Datierung der Kopie/Unterschrift</cell>
+               </row>
+               <row xml:lang="eng" role="label">
+                  <cell>Date of Composition</cell>
+                  <cell>Library Call Number</cell>
+                  <cell>Work Title</cell>
+                  <cell>WAB Number</cell>
+                  <cell>Manuscript Description</cell>
+                  <cell>date conjectural</cell>
+                  <cell>Folios in the Copyist’s Hand</cell>
+                  <cell>Copyist’s Signature or Date</cell>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date notAfter="1864">1864</date>
+                  </cell>
+                  <cell role="Signatur">A-WnPhA2233-P</cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9046">Herbstkummer</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-072">072</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur mit aut Eintragungen</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie">
+                     <date when="1864">1864</date>
+                  </cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern">Aut. Unterschrit und Datierung April 1864. Nicht in
+                     Bruckner online</cell>
+               </row>
+            </table>
+            <list>
+               <head xml:lang="de">Beispiele entnommen aus: <ref target="Anonymus-142_A-WnPhA-2233-P.jpg">A-WnPhA-2233-P</ref>
+               </head>
+               <head xml:lang="eng">Examples taken from: <ref target="Anonymus-142_A-WnPhA-2233-P.jpg">A-WnPhA-2233-P</ref>
+               </head>
+               <item>
+                  <title xml:lang="de">Notenschlüssel</title>
+                  <title xml:lang="eng">Clefs</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_126-150/Anonymus_142/Anonymus-142_A-WnPhA-2233-P_A-Clefs_F.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_126-150/Anonymus_142/Anonymus-142_A-WnPhA-2233-P_A-Clefs_G.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Akzidentien</title>
+                  <title xml:lang="eng">Accidentals</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_126-150/Anonymus_142/Anonymus-142_A-WnPhA-2233-P_B-Accidentals_Flat.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_126-150/Anonymus_142/Anonymus-142_A-WnPhA-2233-P_B-Accidentals_Natural.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_126-150/Anonymus_142/Anonymus-142_A-WnPhA-2233-P_B-Accidentals_Sharp.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Taktvorzeichnung</title>
+                  <title xml:lang="eng">Time Signatures</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_126-150/Anonymus_142/Anonymus-142_A-WnPhA-2233-P_C-Time-Signatures_C.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Pausen</title>
+                  <title xml:lang="eng">Rests</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_126-150/Anonymus_142/Anonymus-142_A-WnPhA-2233-P_D-Rests_Achtel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_126-150/Anonymus_142/Anonymus-142_A-WnPhA-2233-P_D-Rests_Viertel.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Noten</title>
+                  <title xml:lang="eng">Notes</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_126-150/Anonymus_142/Anonymus-142_A-WnPhA-2233-P_E-Notes_Achtel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_126-150/Anonymus_142/Anonymus-142_A-WnPhA-2233-P_E-Notes_Halbe.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_126-150/Anonymus_142/Anonymus-142_A-WnPhA-2233-P_E-Notes_Viertel.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Dynamik</title>
+                  <title xml:lang="eng">Dynamics</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_126-150/Anonymus_142/Anonymus-142_A-WnPhA-2233-P_F-Dynamics_Cresc.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_126-150/Anonymus_142/Anonymus-142_A-WnPhA-2233-P_F-Dynamics_Crescendo.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_126-150/Anonymus_142/Anonymus-142_A-WnPhA-2233-P_F-Dynamics_Decrescendo.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_126-150/Anonymus_142/Anonymus-142_A-WnPhA-2233-P_F-Dynamics_Forte.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_126-150/Anonymus_142/Anonymus-142_A-WnPhA-2233-P_F-Dynamics_Piano.png"/>
+                  </figure>
+               </item>
+            </list>
+         </div>
+      </body>
+      <back>
+         <listPlace>
+            <place xml:id="place_2">
+               <placeName>Linz</placeName>
+               <location>
+                  <geo>48.306390000000 14.286110000000</geo>
+               </location>
+               <idno subtype="geonames" type="URL">https://www.geonames.org/2772400</idno>
+            </place>
+         </listPlace>
+      </back>
+   </text>
+</TEI>

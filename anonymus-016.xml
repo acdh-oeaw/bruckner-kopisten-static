@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" level="a">Anonymus 016</title>
+            <title level="m">Die Wiener Kopisten der Werke Anton Bruckners</title>
+            <author>
+               <name>Paul Hawkshaw</name>
+               <name>Clemens Gubsch</name>
+            </author>
+            <respStmt>
+               <resp>Automatische Konvertierung nach TEI P5</resp>
+               <name xml:id="cg">Clemens Gubsch</name>
+            </respStmt>
+            <respStmt>
+               <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
+               <name corresp="#cg">Clemens Gubsch</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2020-11-01</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Die Wiener Kopisten der Werke Anton Bruckners</publisher>
+            <idno type="BrucknerKopisten">d1e3181</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term>Anonymus</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change who="#cg" status="created">Erstellt und geprüft</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="content-d1e3181">
+            <listPerson>
+               <person>
+                  <persName subtype="W" type="main">Anonymus 016</persName>
+                  <persName type="before">Anonymus 8/6</persName>
+                  <idno type="alphabetically_sorted">Anonymus 016 (W)</idno>
+                  <floruit from="1884" to="1887">1884–1887</floruit>
+                  <residence/>
+                  <affiliation xml:lang="de">Wiener Kopisten</affiliation>
+                  <affiliation xml:lang="eng">Vienna copyist</affiliation>
+                  <index>
+                     <term sortKey="1" xml:lang="de">Primärquellen</term>
+                     <term sortKey="1" xml:lang="eng">Primary Sources</term>
+                  </index>
+               </person>
+            </listPerson>
+            <p decls="desc" xml:lang="de">
+               <lb/>Obwohl sich die Abschriften des Kopisten Anonymus 016 (W) bisher nicht eindeutig datieren lassen, kann die Kopistentätigkeit von Anonymus 016 (W) anhand weiterer Abschriften bis in die Mitte der 1880er Jahre zurückverfolgt werden. Der Abschrift des <hi rend="italic">Afferentur regi</hi> (heute im Anton Bruckner Institut Linz (ABIL)) vom Kopisten Anonymus 016 (W) fügte Bruckner auf dem Titelblatt die Widmung an Johann Baptist Burgstaller hinzu, der die Abschrift wiederum unterschrieb und auf das Jahr 1885 datierte. Eine weitere Widmungen Bruckners an seinen Schüler Oddo Loidol findet sich auf der Abschrift des Kopisten zum <hi rend="italic">Christus factus est</hi> (WAB 011), die vermutlich kurz nach der Fertigstellung des Werkes 1884 eingetragen wurde. Der Kopist Anonymus 016 (W) war auch an der Vorbereitung der Partiturbögen für die 1. Fassung der <hi rend="italic">8. Symphonie</hi> beteiligt.
+            </p>
+            <p decls="desc" xml:lang="eng">
+               <lb/>Although his manuscripts of <hi rend="italic">Afferentur regi</hi> cannot be dated precisely at present, the rest of <hi rend="italic">Anonymus</hi> 016 (W)’s work for Bruckner can be traced to the mid 1880s. Bruckner wrote a dedication to Johann Baptist Burgstaller, Choral Director of the Linz Cathedral, on the title page of <hi rend="italic">Anonymus</hi> 016 (W)’s score of <hi rend="italic">Afferentur regi</hi>, now in the possession of the Anton Bruckner Institut Linz (ABIL). Burgstaller added his own inscription to the same page and dated it 1885. Bruckner also wrote dedications to his student Oddo Loidol on both of <hi rend="italic">Anonymus</hi> 016 (W)’s copies of <hi rend="italic">Christus factus est</hi> (WAB 011), probably shortly after the work had been completed in 1884. The copyist was also involved in the preparation of manuscripts for the first version of the <hi rend="italic">Eighth Symphony</hi>.</p>
+            <table>
+               <head>Abschriften</head>
+               <row xml:lang="de" role="label">
+                  <cell>Datierung des Werkes</cell>
+                  <cell>Signatur</cell>
+                  <cell>Werktitel</cell>
+                  <cell>WAB-Nummer</cell>
+                  <cell>Art der Kopie</cell>
+                  <cell>erschlossene Datierung der Kopie</cell>
+                  <cell>Folios in der Hand des Kopisten</cell>
+                  <cell>Datierung der Kopie/Unterschrift</cell>
+               </row>
+               <row xml:lang="eng" role="label">
+                  <cell>Date of Composition</cell>
+                  <cell>Library Call Number</cell>
+                  <cell>Work Title</cell>
+                  <cell>WAB Number</cell>
+                  <cell>Manuscript Description</cell>
+                  <cell>date conjectural</cell>
+                  <cell>Folios in the Copyist’s Hand</cell>
+                  <cell>Copyist’s Signature or Date</cell>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1861-11-07">07.11.1861</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19703">A-WnMus.Hs.19703</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e8577">Afferentur regi</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-001">001</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern">This should now be a W copyist due to the aut.
+                     entrances. You can identify this guy. You have him somewhere else.</cell>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1861-11-07">07.11.1861</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.28267">A-WnMus.Hs.28267</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e8577">Afferentur regi</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-001">001</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Stimmen</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">23r–25r</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1861-11-07">07.11.1861</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-LIabil-WAB001">A-LIabil-WAB001</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e8577">Afferentur regi</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-001">001</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur mit aut. Eintragungen</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1861-11-07">07.11.1861</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.37288">A-WnMus.Hs.37288</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e8577">Afferentur regi</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-001">001</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur mit aut. Eintragungen</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1861-11-07">07.11.1861</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.28267">A-WnMus.Hs.28267</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e8577">Afferentur regi</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-001">001</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Stimmen</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">23r; 24r; 25r</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1869-08-11">11.08.1869</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.28268">A-WnMus.Hs.28268</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9284">Locus iste</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-023">023</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur mit aut. Eintragungen</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">1r–2r</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern">LI1</cell>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1869-08-11">11.08.1869</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.37283">A-WnMus.Hs.37283</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9284">Locus iste</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-023">023</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern">LI2</cell>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1884-05-28">28.05.1884</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.37282">A-WnMus.Hs.37282</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e8788">Christus factus
+                        est</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-011">011</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur mit aut. Eintragungen</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern">CFE3</cell>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1884-05-28">28.05.1884</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-KR-C57-20">A-KR-C57-20</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e8788">Christus factus
+                        est</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-011">011</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur mit aut. Eintragungen</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">1v–4r</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern">CFE4</cell>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1884-06" to="1887-08-10">Juni 1884–10.08.1887</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.40987">A-WnMus.Hs.40987</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9943">8. Symphonie, 1.
+                        Satz</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-108">108</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur mit aut. Eintragungen</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie">
+                     <date from="1885" to="1886">1885–1886</date>
+                  </cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">1v–43r</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1884-06" to="1887-08-10">Juni 1884–10.08.1887</date>
+                  </cell>
+                  <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.34613">A-WnMus.Hs.34613</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9943">8. Symphonie, 2.
+                        Satz</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-108">108</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partitur</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie">
+                     <date from="1885" to="1886">1885–1886</date>
+                  </cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">1r–29r</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+                  <cell role="Kommentar_intern"/>
+               </row>
+            </table>
+            <list>
+               <head xml:lang="de">Beispiele entnommen aus: <ref target="Anonymus-016_A-WnMus.Hs.19703-01v.jpg">A-WnMus.Hs.19703</ref> und <ref target="Anonymus-016_A-WnMus.Hs.40987-01v.jpg">A-WnMus.Hs.40987</ref>
+               </head>
+               <head xml:lang="eng">Examples taken from: <ref target="Anonymus-016_A-WnMus.Hs.19703-01v.jpg">A-WnMus.Hs.19703</ref> and <ref target="Anonymus-016_A-WnMus.Hs.40987-01v.jpg">A-WnMus.Hs.40987</ref>
+               </head>
+               <item>
+                  <title xml:lang="de">Notenschlüssel</title>
+                  <title xml:lang="eng">Clefs</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_016/Anonymus-016_A-WnMus.Hs.19703_A-Clefs_C.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_016/Anonymus-016_A-WnMus.Hs.40987_A-Clefs_C.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_016/Anonymus-016_A-WnMus.Hs.19703_A-Clefs_F.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_016/Anonymus-016_A-WnMus.Hs.40987_A-Clefs_F.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_016/Anonymus-016_A-WnMus.Hs.19703_A-Clefs_G.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_016/Anonymus-016_A-WnMus.Hs.40987_A-Clefs_G.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Akzidentien</title>
+                  <title xml:lang="eng">Accidentals</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_016/Anonymus-016_A-WnMus.Hs.19703_B-Accidentals_Flat.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_016/Anonymus-016_A-WnMus.Hs.19703_B-Accidentals_Natural.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_016/Anonymus-016_A-WnMus.Hs.19703_B-Accidentals_Sharp.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Taktvorzeichnung</title>
+                  <title xml:lang="eng">Time Signatures</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_016/Anonymus-016_A-WnMus.Hs.19703_C-Time-Signatures_3_4.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_016/Anonymus-016_A-WnMus.Hs.19703_C-Time-Signatures_C.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Pausen</title>
+                  <title xml:lang="eng">Rests</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_016/Anonymus-016_A-WnMus.Hs.19703_D-Rests_Viertel.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Noten</title>
+                  <title xml:lang="eng">Notes</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_016/Anonymus-016_A-WnMus.Hs.19703_E-Notes_Achtel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_016/Anonymus-016_A-WnMus.Hs.19703_E-Notes_Halbe.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_016/Anonymus-016_A-WnMus.Hs.19703_E-Notes_Sechzehntel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_016/Anonymus-016_A-WnMus.Hs.19703_E-Notes_Viertel.png"/>
+                  </figure>
+               </item>
+               <item>
+                  <title xml:lang="de">Dynamik</title>
+                  <title xml:lang="eng">Dynamics</title>
+                  <figure>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_016/Anonymus-016_A-WnMus.Hs.19703_F-Dynamics_Cresc.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_016/Anonymus-016_A-WnMus.Hs.19703_F-Dynamics_Crescendo.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_016/Anonymus-016_A-WnMus.Hs.19703_F-Dynamics_Decresc.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_016/Anonymus-016_A-WnMus.Hs.19703_F-Dynamics_Decrescendo.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_016/Anonymus-016_A-WnMus.Hs.19703_F-Dynamics_Mezzoforte.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_016/Anonymus-016_A-WnMus.Hs.19703_F-Dynamics_Piano.png"/>
+                  </figure>
+               </item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>
