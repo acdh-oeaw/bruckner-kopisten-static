@@ -188,56 +188,97 @@
                             <div class="card-body">                                
                                 <table class="table info-box">
                                     <body>
+                                        <xsl:if test="./tei:persName[@type='before']/text()">
+                                            <tr>
+                                                <th>Vorherige Namen</th>
+                                                <xsl:choose>
+                                                    <xsl:when test="./tei:persName[@type='before']/text()">
+                                                        <td><xsl:value-of select="./tei:persName[@type='before']"/></td>
+                                                    </xsl:when>
+                                                    <xsl:otherwise>
+                                                        <td>k. A.</td>
+                                                    </xsl:otherwise>
+                                                </xsl:choose>                                                                                            
+                                            </tr>
+                                        </xsl:if>                                        
                                         <tr>
-                                            <th>Vorherige Namen</th>
-                                            <td><xsl:value-of select="./tei:persName[2]"/></td>
+                                            <th>Normdaten</th>                                            
+                                            <xsl:choose>
+                                                <xsl:when test="./tei:idno[@type='GND']/text()">
+                                                    <td>
+                                                        <a href="{concat('https://d-nb.info/gnd/', 
+                                                            ./tei:idno[@type='GND'])}" 
+                                                            title="open GND database"
+                                                            target="_blank">
+                                                            <xsl:value-of select="concat('https://d-nb.info/gnd/', 
+                                                                ./tei:idno[@type='GND'])"/>
+                                                        </a>
+                                                    </td>
+                                                </xsl:when>
+                                                <xsl:otherwise>
+                                                    <td>k. A.</td>
+                                                </xsl:otherwise>
+                                            </xsl:choose>                                                                                      
                                         </tr>
                                         <tr>
-                                            <th>Normdaten</th>
-                                            <td>
-                                                <xsl:if test="./tei:idno[@type='GND']/text()">
-                                                    <a href="{concat('https://d-nb.info/gnd/', 
-                                                        ./tei:idno[@type='GND'])}" 
-                                                        title="GND Datenbank öffnen"
-                                                        target="_blank">
-                                                    <xsl:value-of select="concat('https://d-nb.info/gnd/', 
-                                                        ./tei:idno[@type='GND'])"/>
-                                                    </a>
-                                                </xsl:if>                                        
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th>ABLO / ÖML</th>
-                                            <td>
-                                                <xsl:if test="ancestor::tei:listPerson/following-sibling::tei:p[@decls='link']/tei:ref/@target">
-                                                    <a href="{ancestor::tei:listPerson/following-sibling::tei:p[@decls='link']/tei:ref/@target}" 
-                                                       title="{normalize-space(ancestor::tei:listPerson/following-sibling::tei:p[@decls='link']/tei:ref)}"
-                                                       target="_blank">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" 
-                                                            width="16" 
-                                                            height="16" 
-                                                            fill="currentColor" 
-                                                            class="bi bi-box-arrow-up-right" 
-                                                            viewBox="0 0 16 16">
-                                                            <path fill-rule="evenodd" 
-                                                                d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                                                            <path fill-rule="evenodd" 
-                                                                d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                                                        </svg>
-                                                    </a>
-                                                </xsl:if>
-                                            </td>
+                                            <th>ABLO / ÖML</th>                                            
+                                            <xsl:choose>
+                                                <xsl:when test="ancestor::tei:listPerson/following-sibling::tei:p[@decls='link']/tei:ref/@target">
+                                                    <td>
+                                                        <a href="{ancestor::tei:listPerson/following-sibling::tei:p[@decls='link']/tei:ref/@target}" 
+                                                            title="read more"
+                                                            target="_blank">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" 
+                                                                width="16" 
+                                                                height="16" 
+                                                                fill="currentColor" 
+                                                                class="bi bi-box-arrow-up-right" 
+                                                                viewBox="0 0 16 16">
+                                                                <path fill-rule="evenodd" 
+                                                                    d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                                                                <path fill-rule="evenodd" 
+                                                                    d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                                                            </svg>
+                                                        </a>
+                                                    </td>
+                                                </xsl:when>
+                                                <xsl:otherwise>
+                                                    <td>k. A.</td>
+                                                </xsl:otherwise>
+                                            </xsl:choose>                                                
                                         </tr>
                                         <tr>
                                             <th>Residenz</th>
-                                            <td>
-                                                <xsl:value-of select="./tei:residence"/>
-                                            </td>
+                                            <xsl:choose>
+                                                <xsl:when test="./tei:residence/text()">
+                                                    <td>                                                
+                                                        <xsl:value-of select="./tei:residence"/>
+                                                    </td>
+                                                </xsl:when>
+                                                <xsl:otherwise>
+                                                    <td>k. A.</td>
+                                                </xsl:otherwise>
+                                            </xsl:choose>                                            
                                         </tr>
                                         <tr>
                                             <th>Zeitraum der Kopiertätigkeit</th>
+                                            <xsl:choose>
+                                                <xsl:when test="./tei:floruit[@xml:lang='eng']/text()">
+                                                    <td>
+                                                        <xsl:value-of select="./tei:floruit[@xml:lang='eng']"/>
+                                                    </td>
+                                                </xsl:when>
+                                                <xsl:otherwise>
+                                                    <td>k. A.</td>
+                                                </xsl:otherwise>
+                                            </xsl:choose>                                            
+                                        </tr>
+                                        <tr>
+                                            <th>TEI/XML Export</th>
                                             <td>
-                                                <xsl:value-of select="./tei:floruit[@xml:lang='de']"/>
+                                                <a href="{base-uri()}?format=raw">
+                                                    <i class="fas fa-2x fa-file-download"></i>
+                                                </a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -280,56 +321,97 @@
                             <div class="card-body">
                                 <table class="table info-box">
                                     <body>
+                                        <xsl:if test="./tei:persName[@type='before']/text()">
+                                            <tr>
+                                                <th>Previous Names</th>
+                                                <xsl:choose>
+                                                    <xsl:when test="./tei:persName[@type='before']/text()">
+                                                        <td><xsl:value-of select="./tei:persName[@type='before']"/></td>
+                                                    </xsl:when>
+                                                    <xsl:otherwise>
+                                                        <td>k. A.</td>
+                                                    </xsl:otherwise>
+                                                </xsl:choose>                                                                                            
+                                            </tr>
+                                        </xsl:if>                                        
                                         <tr>
-                                            <th>Previous Names</th>
-                                            <td><xsl:value-of select="./tei:persName[2]"/></td>
+                                            <th>Normdata</th>                                            
+                                            <xsl:choose>
+                                                <xsl:when test="./tei:idno[@type='GND']/text()">
+                                                    <td>
+                                                        <a href="{concat('https://d-nb.info/gnd/', 
+                                                            ./tei:idno[@type='GND'])}" 
+                                                            title="open GND database"
+                                                            target="_blank">
+                                                            <xsl:value-of select="concat('https://d-nb.info/gnd/', 
+                                                                ./tei:idno[@type='GND'])"/>
+                                                        </a>
+                                                    </td>
+                                                </xsl:when>
+                                                <xsl:otherwise>
+                                                    <td>k. A.</td>
+                                                </xsl:otherwise>
+                                            </xsl:choose>                                                                                       
                                         </tr>
                                         <tr>
-                                            <th>Normdata</th>
-                                            <td>
-                                                <xsl:if test="./tei:idno[@type='GND']/text()">
-                                                    <a href="{concat('https://d-nb.info/gnd/', 
-                                                        ./tei:idno[@type='GND'])}" 
-                                                        title="open GND database"
-                                                        target="_blank">
-                                                        <xsl:value-of select="concat('https://d-nb.info/gnd/', 
-                                                            ./tei:idno[@type='GND'])"/>
-                                                    </a>
-                                                </xsl:if>                                        
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th>ABLO / OEML</th>
-                                            <td>
-                                                <xsl:if test="ancestor::tei:listPerson/following-sibling::tei:p[@decls='link']/tei:ref/@target">
-                                                    <a href="{ancestor::tei:listPerson/following-sibling::tei:p[@decls='link']/tei:ref/@target}" 
-                                                       title="read more"
-                                                       target="_blank">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" 
-                                                            width="16" 
-                                                            height="16" 
-                                                            fill="currentColor" 
-                                                            class="bi bi-box-arrow-up-right" 
-                                                            viewBox="0 0 16 16">
-                                                            <path fill-rule="evenodd" 
-                                                                d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                                                            <path fill-rule="evenodd" 
-                                                                d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                                                        </svg>
-                                                    </a>
-                                                </xsl:if>
-                                            </td>
+                                            <th>ABLO / OEML</th>                                            
+                                            <xsl:choose>
+                                                <xsl:when test="ancestor::tei:listPerson/following-sibling::tei:p[@decls='link']/tei:ref/@target">
+                                                    <td>
+                                                        <a href="{ancestor::tei:listPerson/following-sibling::tei:p[@decls='link']/tei:ref/@target}" 
+                                                            title="read more"
+                                                            target="_blank">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" 
+                                                                width="16" 
+                                                                height="16" 
+                                                                fill="currentColor" 
+                                                                class="bi bi-box-arrow-up-right" 
+                                                                viewBox="0 0 16 16">
+                                                                <path fill-rule="evenodd" 
+                                                                    d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                                                                <path fill-rule="evenodd" 
+                                                                    d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                                                            </svg>
+                                                        </a>
+                                                    </td>
+                                                </xsl:when>
+                                                <xsl:otherwise>
+                                                    <td>k. A.</td>
+                                                </xsl:otherwise>
+                                            </xsl:choose>                                                
                                         </tr>
                                         <tr>
                                             <th>Residence</th>
-                                            <td>
-                                                <xsl:value-of select="./tei:residence"/>
-                                            </td>
+                                            <xsl:choose>
+                                                <xsl:when test="./tei:residence/text()">
+                                                    <td>                                                
+                                                        <xsl:value-of select="./tei:residence"/>
+                                                    </td>
+                                                </xsl:when>
+                                                <xsl:otherwise>
+                                                    <td>k. A.</td>
+                                                </xsl:otherwise>
+                                            </xsl:choose>                                            
                                         </tr>
                                         <tr>
                                             <th>The copyists timespan</th>
+                                            <xsl:choose>
+                                                <xsl:when test="./tei:floruit[@xml:lang='eng']/text()">
+                                                    <td>
+                                                        <xsl:value-of select="./tei:floruit[@xml:lang='eng']"/>
+                                                    </td>
+                                                </xsl:when>
+                                                <xsl:otherwise>
+                                                    <td>k. A.</td>
+                                                </xsl:otherwise>
+                                            </xsl:choose>                                            
+                                        </tr>
+                                        <tr>
+                                            <th>TEI/XML Export</th>
                                             <td>
-                                                <xsl:value-of select="./tei:floruit[@xml:lang='eng']"/>
+                                                <a href="{base-uri()}?format=raw">
+                                                    <i class="fas fa-2x fa-file-download"></i>
+                                                </a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -505,6 +587,11 @@
                     </small>
                 </span>
             </xsl:when>
+            <xsl:when test="@rend='italic'">
+                <span style="font-style:italic;">                    
+                    <xsl:apply-templates/>                    
+                </span>
+            </xsl:when>
             <xsl:otherwise>
                 <span><xsl:apply-templates/></span>
             </xsl:otherwise>
@@ -551,82 +638,5 @@
     <xsl:template match="tei:lb">
         <br/>
     </xsl:template>
-    <!--<xsl:template match="tei:table">
-        <div class="col-md-12">
-            <div class="card">
-                <div class="card-header">
-                    <xsl:if test="./tei:head">
-                        <h2>
-                            <xsl:value-of select="./tei:head[1]"/>                            
-                        </h2>
-                        <h4>                            
-                            <xsl:value-of select="./tei:head[2]"/>
-                        </h4>
-                    </xsl:if>
-                </div>
-                <div class="card-body">
-                    <div class="table-responsive">
-                        <table class="table table-striped table-hover" id="editions-table" style="width:100%;">                        
-                            <thead>
-                                <xsl:for-each select="./tei:row[@role='label' and @xml:lang='de']">                                
-                                    <tr>                
-                                        <xsl:for-each select="./tei:cell">
-                                            <xsl:choose>
-                                                <xsl:when test="parent::tei:row[@role='label' and @xml:lang='de']">
-                                                    <xsl:choose>
-                                                        <xsl:when test="contains(., 'Datierung des Werkes')">
-                                                            <th>Nr.</th>
-                                                        </xsl:when>
-                                                        <xsl:otherwise>                                                           
-                                                            <th>
-                                                                <xsl:apply-templates/>
-                                                            </th>   
-                                                        </xsl:otherwise>
-                                                    </xsl:choose>
-                                                </xsl:when>
-                                            </xsl:choose>         
-                                            
-                                        </xsl:for-each>                                             
-                                    </tr>                                                                                     
-                                </xsl:for-each>
-                            </thead>
-                            <tbody>
-                                <xsl:for-each select="./tei:row[@role='data']">                        
-                                    <tr>
-                                        <td><xsl:value-of select="position()"/></td>
-                                        <xsl:for-each select="./tei:cell">
-                                            <xsl:choose>
-                                                <xsl:when test="parent::tei:row[@role='data']"> 
-                                                    <xsl:choose>
-                                                        <xsl:when test="@role='Kommentar_intern'">
-                                                            <!-\- ignore this cell -\->
-                                                        </xsl:when>
-                                                        <xsl:when test="@role='Datierung'">
-                                                            <!-\- ignore this cell -\->                                                            
-                                                        </xsl:when>
-                                                        <xsl:when test="@role='WAB-Nummer'">
-                                                            <td class="{@role}">
-                                                                <xsl:apply-templates/>
-                                                            </td>
-                                                        </xsl:when>                    
-                                                        <xsl:otherwise>
-                                                            <td><xsl:apply-templates/></td>   
-                                                        </xsl:otherwise>
-                                                    </xsl:choose>
-                                                </xsl:when>
-                                                <xsl:otherwise>                
-                                                    <td><xsl:apply-templates/></td>                  
-                                                </xsl:otherwise>
-                                            </xsl:choose>
-                                        </xsl:for-each>                                               
-                                    </tr>                                                                             
-                                </xsl:for-each>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div> 
-        </div>
-    </xsl:template>-->
     
 </xsl:stylesheet>

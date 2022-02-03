@@ -176,7 +176,7 @@ p {
     border:1px solid lightgrey;
     padding:.2em;
     border-radius:.25rem;
-    transition: transform .2s;
+    transition: transform .2s;    
 }
 
 .img-notes:hover {
