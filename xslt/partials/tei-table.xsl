@@ -95,6 +95,9 @@
                     <xsl:when test="contains(., 'Datierung des Werkes')">
                         <!--  ignore this cell -->
                     </xsl:when>
+                    <xsl:when test="contains(., 'erschlossene Datierung der Kopie')">
+                        <!--  ignore this cell -->
+                    </xsl:when>
                     <xsl:otherwise>
                         <xsl:choose>
                             <xsl:when test=". = 'Zeitraum'">
@@ -126,11 +129,14 @@
                     <xsl:when test="@role='Datierung'">
                         <!-- ignore this cell created numbered column -->                        
                     </xsl:when>
-                    <xsl:when test="@role='WAB-Nummer'">
+                    <xsl:when test="@role='erschlossene_Datierung_der_Kopie'">
+                        <!-- ignore this cell created numbered column -->                        
+                    </xsl:when>
+                    <!--<xsl:when test="@role='WAB-Nummer'">
                         <td class="{@role}">
                             <xsl:apply-templates/>
                         </td>
-                    </xsl:when>                    
+                    </xsl:when>-->                    
                     <xsl:otherwise>
                         <xsl:choose>
                             <xsl:when test="@xml:lang='de'">  
