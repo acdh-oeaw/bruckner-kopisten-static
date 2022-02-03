@@ -178,5 +178,8 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
+    <xsl:template match="tei:note">
+        
+    </xsl:template>
   
 </xsl:stylesheet>

@@ -327,7 +327,8 @@
                                             </xsl:for-each>
                                         </ul>   
                                     </div>
-                                </div>         
+                                </div>  
+                                
                             </xsl:if> 
                         </div>
                     </div>   
@@ -527,7 +528,7 @@
                                             </xsl:for-each>
                                         </ul>                                    
                                     </div>
-                                </div>           
+                                </div>
                             </xsl:if>                 
                         </div>
                     </div>
