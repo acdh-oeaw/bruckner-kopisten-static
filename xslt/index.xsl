@@ -114,21 +114,21 @@
                         <div class="row">
                             <div class="col-md-8" 
                                 style="margin: 0 auto;">
-                                <h1 class="text-center">
+                                <h1 class="text-center" style="margin-bottom:1em;">
                                     <xsl:value-of select="//tei:body/tei:head"/>
                                 </h1>
                                 <xsl:for-each select="//tei:body/tei:p">
                                     <xsl:choose>
                                         <xsl:when test="position() = 1">
                                             <p id="about-position-{position()}" 
-                                               style="font-size:22px;line-heigth:28px;">
+                                               style="font-size:18px;line-heigth:24px;">
                                                 <xsl:apply-templates/>
                                             </p>                                            
                                         </xsl:when>
                                         <xsl:otherwise>
                                             <p class="fade about-text-hidden" 
                                                id="about-text-{position()}" 
-                                               style="font-size:22px;line-heigth:28px;">
+                                               style="font-size:18px;line-heigth:24px;">
                                                 <xsl:apply-templates/>
                                             </p>
                                         </xsl:otherwise>
@@ -155,10 +155,10 @@
                             </div>                          
                         </div>
                     </div>
-                    <div class="container-fluid" 
+                    <div class="container" 
                         style="margin-top:1em;">
                         <div class="row">
-                            <div class="col-md-2">
+                            <div class="col-md-6">
                                 <a href="Tabelle_1.html" 
                                     class="index-link">                                   
                                     <div class="card index-card">
@@ -168,14 +168,14 @@
                                                 class="d-block w-100" alt="..."/>
                                         </div>
                                         <div class="card-header">                                            
-                                            <p>
+                                            <h5>
                                                 Kopisten der Primärquellen
-                                            </p>                                            
+                                            </h5>                                            
                                         </div>
                                     </div>                                     
                                 </a>                                    
                             </div>
-                            <div class="col-md-2">
+                            <div class="col-md-6">
                                 <a href="Tabelle_2.html" 
                                     class="index-link">                                                     
                                     <div class="card index-card">
@@ -186,14 +186,14 @@
                                                 alt="..."/>
                                         </div>
                                         <div class="card-header">                                            
-                                            <p>
+                                            <h5>
                                                 Kopisten der Sekundärquellen
-                                            </p>                                            
+                                            </h5>                                            
                                         </div>
                                     </div>                                 
                                 </a>
                             </div>
-                            <div class="col-md-2">
+                            <div class="col-md-6">
                                 <a href="Tabelle_3.html" 
                                     class="index-link">  
                                     <div class="card index-card">
@@ -204,14 +204,14 @@
                                                 alt="..."/>
                                         </div>
                                         <div class="card-header">                                            
-                                            <p>
+                                            <h5>
                                                 Kopisten der Werke Bruckners außerhalb Wiens
-                                            </p>                                            
+                                            </h5>                                            
                                         </div>
                                     </div>                                    
                                 </a>
                             </div>
-                            <div class="col-md-2">
+                            <div class="col-md-6">
                                 <a href="Tabelle_4.html" 
                                     class="index-link">  
                                     <div class="card index-card">
@@ -222,14 +222,14 @@
                                                 alt="..."/>
                                         </div>
                                         <div class="card-header">                                            
-                                            <p>
+                                            <h5>
                                                 Zeitraum der Kopiertätigkeit der Kopisten zu Bruckners Lebzeiten
-                                            </p>                                            
+                                            </h5>                                            
                                         </div>
                                     </div>                                    
                                 </a>
                             </div>                            
-                            <div class="col-md-2">
+                            <div class="col-md-12">
                                 <a href="toc.html" 
                                     class="index-link">  
                                     <div class="card index-card">
@@ -240,14 +240,14 @@
                                                 alt="..."/>
                                         </div>
                                         <div class="card-header">                                            
-                                            <p>
+                                            <h5>
                                                 Gesamtbestand aller Kopisten
-                                            </p>                                            
+                                            </h5>                                            
                                         </div>
                                     </div>                                    
                                 </a>
-                            </div>
-                            <div class="col-md-2">
+                            </div> 
+                            <div class="col-md-6">
                                 <a href="search.html" 
                                     class="index-link">  
                                     <div class="card index-card">
@@ -258,9 +258,27 @@
                                                 alt="..."/>
                                         </div>
                                         <div class="card-header">                                            
-                                            <p>
-                                                Datenbanksuche
-                                            </p>                                            
+                                            <h5>
+                                                Suche
+                                            </h5>                                            
+                                        </div>
+                                    </div>                                    
+                                </a>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="kopist-comparison.html" 
+                                    class="index-link">  
+                                    <div class="card index-card">
+                                        <div class="card-body" 
+                                            style="padding:0;">
+                                            <img src="img/projekt.jpg" 
+                                                class="d-block w-100" 
+                                                alt="..."/>
+                                        </div>
+                                        <div class="card-header">                                            
+                                            <h5>
+                                                Vergleich
+                                            </h5>                                            
                                         </div>
                                     </div>                                    
                                 </a>

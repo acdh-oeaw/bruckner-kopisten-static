@@ -113,13 +113,14 @@ p.active {
 }
 
 .index-card {
-    border-top: 5px solid #ab1923; 
+    margin-top: 2em;
+    border-top: none; 
     transition: transform .2s;
     text-align: center;
 }
 
 .index-card:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 .index-link:hover {
