@@ -47,12 +47,9 @@
          </div>
          <div class="container-fluid">
             <div class="row">
-               <div class="col-md-12">
-                  <div class="text-center" style="margin-top: 4em;"><i title="vergleichen" class="fas fa-3x fa-clone" onclick="loadComparison()"></i></div>
-               </div>
                <div class="col-md-6">
                   <div class="card">
-                     <div class="card-header"><select class="custom-select" id="compare-kopist-one">
+                     <div class="card-header"><select class="custom-select" id="compare-kopist-one" onchange="loadComparison(this, '#compare-column-one')">
                            <option selected="selected">Kopist 1 auswählen</option>
                            <option value="kopist-g-a">A. G., Kopist</option>
                            <option value="aigner-karl">Aigner, Karl</option>
@@ -304,7 +301,7 @@
                </div>
                <div class="col-md-6">
                   <div class="card">
-                     <div class="card-header"><select class="custom-select" id="compare-kopist-two">
+                     <div class="card-header"><select class="custom-select" id="compare-kopist-two" onchange="loadComparison(this, '#compare-column-two')">
                            <option selected="selected">Kopist 2 auswählen</option>
                            <option value="kopist-g-a">A. G., Kopist</option>
                            <option value="aigner-karl">Aigner, Karl</option>

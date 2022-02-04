@@ -1,10 +1,12 @@
-function loadComparison() {
+function loadComparison(el, id) {
 
     // choose html class for node to be removed
-    removeColumnContent(".comparison-result");
+    removeColumnContent(`${id} .comparison-result`);
+    $(id).html("");
 
     // options for saxonTransform
-    var kopisten = getKopists("compare-kopist-one", "compare-kopist-two");
+    // var kopisten = getKopists("compare-kopist-one", "compare-kopist-two");
+    var kopist = el.value;
     var sef = "https://raw.githubusercontent.com/acdh-oeaw/bruckner-kopisten-static/main/xslt/sef/editions-facs-comparison.sef.json"; 
     var xml = "https://acdh-oeaw.github.io/bruckner-kopisten-static/";
     
@@ -12,19 +14,11 @@ function loadComparison() {
     saxonTransfrom({
         stylesheet: sef,
         fileDir: xml,
-        fileName: kopisten[0],
-        htmlID: "#compare-column-one"
+        fileName: kopist,
+        htmlID: id
     });
-    
-    // column two result
-    saxonTransfrom({
-        stylesheet: sef,
-        fileDir: xml,
-        fileName: kopisten[1],
-        htmlID: "#compare-column-two"
-    }); 
 
-    removeColumnContent(".compare-placeholder");
+    removeColumnContent(`${id} .compare-placeholder`);
 
 }
 
@@ -43,25 +37,25 @@ function saxonTransfrom(options) {
 
 }
 
-function removeColumnContent(htmlClass) {
+function removeColumnContent(id) {
     
-    var result = $(htmlClass);
+    var result = $(id);
     if (result.length != 0) {
         result.remove();
     }
 
 }
 
-function getKopists(htmlID1, htmlID2) {
+// function getKopists(htmlID1, htmlID2) {
 
-    //$("#compare-kopist-one").children().remove();
-    var e1 = document.getElementById(htmlID1);
-    var kopist1 = e1.options[e1.selectedIndex].getAttribute("value");
+//     //$("#compare-kopist-one").children().remove();
+//     var e1 = document.getElementById(htmlID1);
+//     var kopist1 = e1.options[e1.selectedIndex].getAttribute("value");
 
-    // $("#compare-kopist-two").children().remove();
-    var e2 = document.getElementById(htmlID2);
-    var kopist2 = e2.options[e2.selectedIndex].getAttribute("value");
+//     // $("#compare-kopist-two").children().remove();
+//     var e2 = document.getElementById(htmlID2);
+//     var kopist2 = e2.options[e2.selectedIndex].getAttribute("value");
 
-    return [kopist1, kopist2];
+//     return [kopist1, kopist2];
 
-}
+// }
