@@ -54,7 +54,7 @@
                             <div class="col-md-6">
                                 <div class="card">
                                     <div class="card-header">
-                                        <select class="custom-select custom-select-sm" 
+                                        <select class="custom-select" 
                                             id="compare-kopist-one">
                                             <option selected="selected">Kopist 1 auswählen</option>
                                             <xsl:apply-templates select="//$col//tei:person">
@@ -74,7 +74,7 @@
                             <div class="col-md-6">
                                 <div class="card">
                                     <div class="card-header">
-                                        <select class="custom-select custom-select-sm" 
+                                        <select class="custom-select" 
                                             id="compare-kopist-two">
                                             <option selected="selected">Kopist 2 auswählen</option>
                                             <xsl:apply-templates select="//$col//tei:person">
