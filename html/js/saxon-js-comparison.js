@@ -1,7 +1,7 @@
 function loadComparison() {
 
     // choose html class for node to be removed
-    removeColumnContent(".comparison-result", ".compare-placeholder");
+    removeColumnContent(".comparison-result");
 
     // options for saxonTransform
     var kopisten = getKopists("compare-kopist-one", "compare-kopist-two");
@@ -22,7 +22,9 @@ function loadComparison() {
         fileDir: xml,
         fileName: kopisten[1],
         htmlID: "#compare-column-two"
-    });
+    }); 
+
+    removeColumnContent(".compare-placeholder");
 
 }
 
@@ -41,18 +43,11 @@ function saxonTransfrom(options) {
 
 }
 
-function removeColumnContent(htmlClass, htmlClass2) {
+function removeColumnContent(htmlClass) {
     
     var result = $(htmlClass);
     if (result.length != 0) {
         result.remove();
-    }
-
-    if (htmlClass2) {
-        var result = $(htmlClass2);
-        if (result.length != 0) {
-            result.remove();
-        }
     }
 
 }

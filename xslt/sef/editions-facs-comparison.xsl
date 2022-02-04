@@ -10,23 +10,28 @@
     version="3.0">
     
     <xsl:template match="/">
-        <xsl:for-each select="//tei:list">
+        <xsl:for-each select="//tei:list[not(parent::tei:p[@decls])]">
             <div class="comparison-result">
                 <h3>
-                    <xsl:apply-templates select="//tei:head[parent::tei:list]"/>
+                    <xsl:apply-templates select="//tei:head[
+                        not(ancestor::tei:p[@decls]) and 
+                        not(parent::tei:table)]"/>
                 </h3>
                 <ul>
-                    <xsl:apply-templates select="//tei:item"/>
+                    <xsl:apply-templates select="//tei:item[
+                        not(ancestor::tei:p[@decls])]"/>
                 </ul> 
             </div>            
         </xsl:for-each>    
     </xsl:template>    
     
-    <xsl:template match="tei:head[parent::tei:list]">
+    <xsl:template match="tei:head[
+        not(ancestor::tei:p[@decls]) and 
+        not(parent::tei:table)]">
         <legend><xsl:apply-templates/></legend>
     </xsl:template>
     
-    <xsl:template match="tei:item">   
+    <xsl:template match="tei:item[not(ancestor::tei:p[@decls])]">   
         <li>
             <h6>
                 <xsl:value-of select="./tei:title[@xml:lang='de']"/>

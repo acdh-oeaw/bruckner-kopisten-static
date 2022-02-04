@@ -20,7 +20,9 @@
     <!--<xsl:import href="partials/tei-facsimile.xsl"/>-->
     <xsl:import href="partials/tei-ref.xsl"/>
     
-    <xsl:template match="/">        
+    <xsl:variable name="col" select="collection('../data/editions')//tei:TEI"/>
+    
+    <xsl:template match="/">     
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
         <html>
             <head>
@@ -40,97 +42,57 @@
                     <xsl:call-template name="nav_bar"/>
                     
                     <div class="container-fluid">
-                        
-                        <xsl:variable name="col" select="collection('../data/editions')//tei:TEI"/>
-                        
                         <div class="row">
                             <div class="col-md-12">        
                                 <div class="text-center" style="margin-top: 4em;">
-                                    <i title="vergleichen" class="fas fa-3x fa-clone" onclick="loadComparison()"></i>
+                                    <i title="vergleichen" 
+                                        class="fas fa-3x fa-clone" 
+                                        onclick="loadComparison()"></i>
                                     <!--<button class="button btn">vergleichen</button>-->
                                 </div>                                                                
                             </div>
                             <div class="col-md-6">
                                 <div class="card">
                                     <div class="card-header">
-                                        <select class="custom-select custom-select-sm" id="compare-kopist-one">
+                                        <select class="custom-select custom-select-sm" 
+                                            id="compare-kopist-one">
                                             <option selected="selected">Kopist 1 auswählen</option>
-                                            <xsl:for-each select="$col//tei:titleStmt/tei:title[@level='a']">
-                                                <xsl:variable name="cp-cleaning1" select="                    
-                                                    replace(
-                                                    replace(
-                                                    replace(
-                                                    replace(
-                                                    replace(
-                                                    replace(
-                                                    translate(. ,' ', '-')
-                                                    , ',', '')
-                                                    ,'ß', 'ss')
-                                                    , '[éè]', 'e')
-                                                    , 'ä', 'a')
-                                                    , 'ö', 'o')
-                                                    , 'ü', 'u')                      
-                                                    "/>
-                                                <xsl:variable name="cp-cleaning2" select="data(translate($cp-cleaning1,'.', ''))"/>
-                                                <xsl:variable name="cp-clean" select="translate($cp-cleaning2, '&#xA0;', '-') => lower-case()"/>
-                                                <option value="{$cp-clean}">
-                                                    <xsl:apply-templates/>
-                                                </option>
-                                            </xsl:for-each>
+                                            <xsl:apply-templates select="//$col//tei:person">
+                                                <xsl:sort select="./tei:idno[@type='alphabetically_sorted']" 
+                                                    order="ascending" 
+                                                    data-type="text"/>
+                                            </xsl:apply-templates>
                                         </select>
                                     </div>
                                     <div class="card-body" id="compare-column-one">
-                                        <h5 class="compare-placeholder">
+                                        <h6 class="compare-placeholder">
                                             Kopist auswälen und vergleichen
-                                        </h5>
-                                    </div>
-                                    <div class="card-footer">
-                                        
+                                        </h6>
                                     </div>
                                 </div>
                             </div>                            
                             <div class="col-md-6">
                                 <div class="card">
                                     <div class="card-header">
-                                        <select class="custom-select custom-select-sm" id="compare-kopist-two">
+                                        <select class="custom-select custom-select-sm" 
+                                            id="compare-kopist-two">
                                             <option selected="selected">Kopist 2 auswählen</option>
-                                            <xsl:for-each select="$col//tei:titleStmt/tei:title[@level='a']">
-                                                <xsl:variable name="cp-cleaning1" select="                    
-                                                    replace(
-                                                    replace(
-                                                    replace(
-                                                    replace(
-                                                    replace(
-                                                    replace(
-                                                    translate(. ,' ', '-')
-                                                    , ',', '')
-                                                    ,'ß', 'ss')
-                                                    , '[éè]', 'e')
-                                                    , 'ä', 'a')
-                                                    , 'ö', 'o')
-                                                    , 'ü', 'u')                      
-                                                    "/>
-                                                <xsl:variable name="cp-cleaning2" select="data(translate($cp-cleaning1,'.', ''))"/>
-                                                <xsl:variable name="cp-clean" select="translate($cp-cleaning2, '&#xA0;', '-') => lower-case()"/>
-                                                <option value="{$cp-clean}">
-                                                    <xsl:apply-templates/>
-                                                </option>
-                                            </xsl:for-each>
+                                            <xsl:apply-templates select="//$col//tei:person">
+                                                <xsl:sort select="./tei:idno[@type='alphabetically_sorted']" 
+                                                   order="ascending" 
+                                                   data-type="text"/>
+                                            </xsl:apply-templates>
                                         </select>
                                     </div>
                                     <div class="card-body" id="compare-column-two">
-                                        <h5 class="compare-placeholder">
+                                        <h6 class="compare-placeholder">
                                             Kopist auswälen und vergleichen
-                                        </h5>
-                                    </div>
-                                    <div class="card-footer">
-                                        
+                                        </h6>
                                     </div>
                                 </div>
                             </div>                            
                         </div>
                     </div>                   
-                    
                     <xsl:call-template name="html_footer"/>
                     <script type="text/javascript" src="js/saxon-js-comparison.js"></script>
                 </div>
@@ -138,6 +100,48 @@
             
                         
         </html>
+    </xsl:template>
+    
+    <xsl:template match="$col//tei:person">
+        <xsl:variable name="cp-cleaning1" select="                    
+            replace(
+            replace(
+            replace(
+            replace(
+            replace(
+            replace(
+            translate(./tei:persName[@type='main'] ,' ', '-')
+            , ',', '')
+            ,'ß', 'ss')
+            , '[éè]', 'e')
+            , 'ä', 'a')
+            , 'ö', 'o')
+            , 'ü', 'u')                      
+            "/>
+        <xsl:variable name="cp-cleaning2" 
+            select="data(translate($cp-cleaning1,'.', ''))"/>
+        <xsl:variable name="cp-clean" 
+            select="translate($cp-cleaning2, '&#xA0;', '-') => lower-case()"/>
+        <xsl:choose>
+            <xsl:when test="starts-with(./tei:persName[@type='main'], 'Kopist')">                                                        
+                <option value="{$cp-clean}">
+                    <xsl:value-of select="./tei:idno[@type='alphabetically_sorted']"/>                                                                                                                        
+                </option>                                                            
+            </xsl:when>
+            <xsl:when test="./tei:persName[@subtype]">
+                <option value="{$cp-clean}">                    
+                    <xsl:value-of select="concat(
+                        ./tei:persName[@type='main'],
+                        ' (',
+                        ./tei:persName/@subtype, ')')"/>                                                            
+                </option>
+            </xsl:when>
+            <xsl:otherwise>
+                <option value="{$cp-clean}">
+                    <xsl:value-of select="./tei:persName[@type='main']"/>                                                                  
+                </option>
+            </xsl:otherwise>
+        </xsl:choose>                                               
     </xsl:template>
     
 </xsl:stylesheet>
