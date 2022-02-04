@@ -46,7 +46,7 @@
         <xsl:for-each select="./tei:graphic">
             <xsl:variable name="source" select="data(tokenize(@url, '/'))"/>
             <div class="img-notes">
-                <img class="tei-xml-images">
+                <img class="tei-xml-images">                    
                     <xsl:attribute name="src">
                         <xsl:value-of select="concat(
                             'https://iiif.acdh.oeaw.ac.at/bruckner-kopisten/', 

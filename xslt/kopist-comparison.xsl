@@ -43,19 +43,20 @@
                     
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-md-12">        
+                            <!--<div class="col-md-12">        
                                 <div class="text-center" style="margin-top: 4em;">
                                     <i title="vergleichen" 
                                         class="fas fa-3x fa-clone" 
                                         onclick="loadComparison()"></i>
-                                    <!--<button class="button btn">vergleichen</button>-->
+                                    <!-\-<button class="button btn">vergleichen</button>-\->
                                 </div>                                                                
-                            </div>
+                            </div>-->
                             <div class="col-md-6">
                                 <div class="card">
                                     <div class="card-header">
                                         <select class="custom-select" 
-                                            id="compare-kopist-one">
+                                            id="compare-kopist-one"
+                                            onchange="loadComparison(this, '#compare-column-one')">
                                             <option selected="selected">Kopist 1 auswählen</option>
                                             <xsl:apply-templates select="//$col//tei:person">
                                                 <xsl:sort select="./tei:idno[@type='alphabetically_sorted']" 
@@ -75,7 +76,8 @@
                                 <div class="card">
                                     <div class="card-header">
                                         <select class="custom-select" 
-                                            id="compare-kopist-two">
+                                            id="compare-kopist-two"
+                                            onchange="loadComparison(this, '#compare-column-two')">
                                             <option selected="selected">Kopist 2 auswählen</option>
                                             <xsl:apply-templates select="//$col//tei:person">
                                                 <xsl:sort select="./tei:idno[@type='alphabetically_sorted']" 
