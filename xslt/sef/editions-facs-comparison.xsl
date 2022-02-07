@@ -38,7 +38,7 @@
                 | 
                 <xsl:value-of select="./tei:title[@xml:lang='eng']"/>
             </h6>
-            <xsl:apply-templates select="//tei:figure"/>
+            <xsl:apply-templates/>
         </li>
     </xsl:template>
     

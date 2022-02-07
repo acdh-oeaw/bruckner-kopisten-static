@@ -10,11 +10,11 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>data/meta/about.xml</String>
+                                    <String>data/editions/aigner-karl.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>kopist_comparison</String>
+                                        <String>kopist_comparison_sef</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -150,11 +150,11 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>data/editions/aigner-karl.xml</String>
+                                    <String>data/meta/about.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>editions</String>
+                                        <String>kopist_comparison</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
