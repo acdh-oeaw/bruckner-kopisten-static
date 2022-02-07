@@ -53,7 +53,7 @@
                   <persName type="before">Anonymus 8/1</persName>
                   <idno type="alphabetically_sorted">Anonymus 013 (W)</idno>
                   <floruit from="1886" to="1894">1886–1894</floruit>
-                  <residence/>
+                  <residence>Wien</residence>
                   <affiliation xml:lang="de">Wiener Kopisten</affiliation>
                   <affiliation xml:lang="eng">Vienna copyist</affiliation>
                   <index>
@@ -68,7 +68,8 @@
                <lb/>Trotz der häufig zusammengehörigen Abschriften ist es unwahrscheinlich, dass Hofmeyr und Kopist Anonymus 013 (W) jemals vor Ort an derselben Abschrift arbeiteten, da Hofmeyr in Steyr tätig war und Anonymus 013 (W) mit großer Wahrscheinlichkeit den Wiener Kopisten zuzuordnen ist. Anonymus 013 (W) könnte jedoch mit anderen bisher unbekannten Kopisten zusammengearbeitet haben: So vervollständigte der Kopist Anonymus 073 (W) das Finale der <hi rend="italic">8. Symphonie</hi> in der vom Kopisten Anonymus 013 (W) begonnenen Partiturabschrift A-WnMus.Hs.34615 von T. 169–709. Umgekehrt setzte Anonymus 013 (W) in der Partiturabschrift des Adagios A-WnMus.Hs.34614a ab T. 200 die Arbeit vom Kopisten Anonymus 074 (W) fort.  
             </p>
             <p decls="desc" xml:lang="eng">
-               <lb/><hi rend="italic">Anonymus</hi> 013 (W) was Bruckner’s most prolific copyist from approximately 1886 until 1894. The earliest Bruckner sources in his hand are probably his scores for the first version of the <hi rend="italic">Eighth Symphony</hi>. He has also been identified in the 2014 Critical Report (pp. 232–235) for the <hi rend="italic">Eighth Symphony</hi> as Anonymous 8/1. Thomas Röder’s Critical Reports for the <hi rend="italic">First</hi> and <hi rend="italic">Third Symphonies</hi> indicate that A-WnMus.Hs.3192, 6028, 6056, 6081 and A-KR-C56-9d almost certainly date from the late 1880s.
+               <lb/>
+               <hi rend="italic">Anonymus</hi> 013 (W) was Bruckner’s most prolific copyist from approximately 1886 until 1894. The earliest Bruckner sources in his hand are probably his scores for the first version of the <hi rend="italic">Eighth Symphony</hi>. He has also been identified in the 2014 Critical Report (pp. 232–235) for the <hi rend="italic">Eighth Symphony</hi> as Anonymous 8/1. Thomas Röder’s Critical Reports for the <hi rend="italic">First</hi> and <hi rend="italic">Third Symphonies</hi> indicate that A-WnMus.Hs.3192, 6028, 6056, 6081 and A-KR-C56-9d almost certainly date from the late 1880s.
                <lb/>Not only did <hi rend="italic">Anonymus</hi> 013 (W) copy scores, along with Leopold Hofmeyr, he also prepared bifolios with instrument names and bar lines, leaving the measures empty for the composer to fill in for revisions for the second version of the <hi rend="italic">Eighth Symphony</hi>. Similar pages are found in Bruckner’s sketches for the first three movements of the <hi rend="italic">Ninth Symphony</hi>. Whether the copyist prepared these specifically for the <hi rend="italic">Ninth</hi>, or they were left over from work on the <hi rend="italic">Eighth</hi>, is not known. Working on revisions for the <hi rend="italic">Eighth Symphony</hi>, Bruckner sometimes wrote in the revisions himself and left unchanged staves and measures for Leopold Hofmeyr or <hi rend="italic">Anonymus</hi> 013 (W). Perhaps because their hands appear so often in the same sources, Leopold Nowak misidentified <hi rend="italic">Anonymus</hi> 013 (W) as the copyist of A-Wn Mus.Hs.3192, 6028 and 6056. 
                <lb/>It is unlikely the two copyists ever worked together because Hofmeyr was in Steyr, and <hi rend="italic">Anonymus</hi> 013 (W) was almost certainly in Vienna. <hi rend="italic">Anonymus</hi> 013 (W) may have worked with other as yet unidentified copyists who wrote sections of movements with his hand. <hi rend="italic">Anonymus</hi> 073 (W) wrote mm 169–end of the Finale in A-WnMus.Hs.34615 that <hi rend="italic">Anonymus</hi> 013 (W) started, and the latter finished the Adagio of A-WnMus.Hs.34614a, the first 200 bars of which were written by <hi rend="italic">Anonymus</hi> 074 (W).</p>
             <table>
@@ -430,7 +431,7 @@
                   <cell role="Art_der_Kopie">Partiturentwurf mit Eintragungen von Anonymous
                      W13</cell>
                   <cell role="erschlossene_Datierung_der_Kopie"/>
-                  <cell role="Folios_in_der_Hand_des_Kopisten">6r–v</cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">6r–6v</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
                   <cell role="Kommentar_intern"/>
                </row>
@@ -633,5 +634,15 @@
             </list>
          </div>
       </body>
+      <back>
+         <listPlace>
+            <place xml:id="place_100">
+               <location>
+                  <geo>48.208490000000 16.372080000000</geo>
+                  <idno subtype="geonames" type="URL">https://www.geonames.org/2761369</idno>
+               </location>
+            </place>
+         </listPlace>
+      </back>
    </text>
 </TEI>

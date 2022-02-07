@@ -49,23 +49,29 @@
          <div xml:id="content-d1e20981">
             <listPerson>
                <person>
-                  <persName subtype="L" type="main">Anonymus 154</persName>
-                  <idno type="alphabetically_sorted">Anonymus 154 (L)</idno>
-                  <residence>Linz</residence>
-                  <affiliation xml:lang="de">Linzer Kopisten</affiliation>
-                  <affiliation xml:lang="eng">Linz copyists</affiliation>
+                  <persName type="main">Anonymus 154</persName>
+                  <idno type="alphabetically_sorted">Anonymus 154</idno>
+                  <residence/>
+                  <affiliation xml:lang="de"/>
+                  <affiliation xml:lang="eng"/>
                   <index>
-                     <term sortKey="1" xml:lang="de">Primärquellen</term>
-                     <term sortKey="1" xml:lang="eng">Primary Sources</term>
+                     <term sortKey="2" xml:lang="de">Sekundärquellen</term>
+                     <term sortKey="2" xml:lang="eng">Secondary Sources</term>
                   </index>
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Für weitere Kopisten aus Linz siehe <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>.
-            </p>
+               <lb/>Die Abschrift, die sich im Nachlassfond von Joseph Laska (1886–1964) befindet,
+               stammt möglicherweise vom Nachlasser selbst – so wie es der entsprechende
+               Katalogeintrag andeutet. Auf der verso-Seite der Abschrift befindet sich eine
+               Bleistift-Anmerkung mit einem Hinweis auf Laskas Frau: „Wid[mung]. Ellen Laska
+               1970“.</p>
             <p decls="desc" xml:lang="eng">
-               <lb/>
-               <lb/>For more copyists from Linz, see <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Table 3</ref>.</p>
+               <lb/>The copy, which is in the Fond of Joseph Laska (1886–1964), may have been made
+               by the bequeather himself - as the corresponding catalog entry suggests. On the verso
+               side of the copy there is a pencil annotation with a reference to Laska’s wife:
+               “Wid[mung]. Ellen Laska 1970”.
+            </p>
             <table>
                <head>Abschriften</head>
                <row xml:lang="de" role="label">
@@ -92,7 +98,7 @@
                   <cell role="Datierung">
                      <date notAfter="1864">1864</date>
                   </cell>
-                  <cell role="Signatur">A-WnF20Laska31</cell>
+                  <cell role="Signatur">A-WnF20.Laska.31</cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9046">Herbstkummer</ref>
                   </cell>
@@ -108,11 +114,10 @@
                   <cell role="Kommentar_intern"/>
                </row>
             </table>
-            <!--Bilder vorläufig, Digitalisat bestellen-->
             <list>
-               <head xml:lang="de">Beispiele entnommen aus: <ref target="Anonymus-154_A-WnF20Laska31-01.jpg">A-WnF20Laska31</ref>
+               <head xml:lang="de">Beispiele entnommen aus: <ref target="Anonymus-154_A-WnF20Laska31-01.jpg">A-WnF20.Laska.31</ref>
                </head>
-               <head xml:lang="eng">Examples taken from: <ref target="Anonymus-154_A-WnF20Laska31-01.jpg">A-WnF20Laska31</ref>
+               <head xml:lang="eng">Examples taken from: <ref target="Anonymus-154_A-WnF20Laska31-01.jpg">A-WnF20.Laska.31</ref>
                </head>
                <item>
                   <title xml:lang="de">Notenschlüssel</title>

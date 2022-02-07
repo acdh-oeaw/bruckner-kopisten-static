@@ -57,7 +57,7 @@
                   <idno type="alphabetically_sorted">Noll, Johann</idno>
                   <idno type="GND"/>
                   <floruit from="1881" to="1883">1881–1883</floruit>
-                  <residence/>
+                  <residence>Wien</residence>
                   <affiliation xml:lang="de">Wiener Kopisten</affiliation>
                   <affiliation xml:lang="eng">Vienna copyists</affiliation>
                   <index>
@@ -67,42 +67,34 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Leopold Nowak führt Johann Noll im Vorwort zu seiner Ausgabe der <hi
-                  rend="italic">Messe in e-Moll</hi> als Kopisten für die Wiener Hofmusikkapelle
+               <lb/>Leopold Nowak führt Johann Noll im Vorwort zu seiner Ausgabe der <hi rend="italic">Messe in e-Moll</hi> als Kopisten für die Wiener Hofmusikkapelle
                   an.<ref xml:id="footnote-ref079" target="#footnote079" type="noteAnchor">1</ref>
                Wie aus den zahlreichen Signaturen und Datierungen in Bruckners Quellen hervorgeht,
                arbeitete Noll Anfang der 1880er Jahre eng mit dem Komponisten zusammen, als dieser
                seine drei Linzer Messen überarbeitete. Noll signierte und datierte die
-               Partiturabschriften der <hi rend="italic">Messe in e-Moll</hi> und <hi rend="italic"
-                  >f-Moll</hi> mit „1883“. Die übertragenen Revisionen im Stimmensatz der <hi
-                  rend="italic">Messe in e-Moll</hi> stammen vom September 1882. Seine undatierten
+               Partiturabschriften der <hi rend="italic">Messe in e-Moll</hi> und <hi rend="italic">f-Moll</hi> mit „1883“. Die übertragenen Revisionen im Stimmensatz der <hi rend="italic">Messe in e-Moll</hi> stammen vom September 1882. Seine undatierten
                Eintragungen im Autograph der <hi rend="italic">Messe in d-Moll</hi>
                (A-WnMus.Hs.19483) stammen wahrscheinlich aus der gleichen Zeit, da Bruckner die
                Partitur im Winter 1881/82 revidierte. Neben den Messen bereitete Noll auch
                Partituren der <hi rend="italic">4.</hi> und <hi rend="italic">6. Symphonie</hi> vor.
-               <lb/>Die Zuordnung des Finalsatzes der verschollenen Stichvorlage zur <hi
-                  rend="italic">6. Symphonie</hi> zum Schreibprofil Nolls erfolgte auf der Grundlage
+               <lb/>Die Zuordnung des Finalsatzes der verschollenen Stichvorlage zur <hi rend="italic">6. Symphonie</hi> zum Schreibprofil Nolls erfolgte auf der Grundlage
                der Photokopien, die in der Musiksammlung der ÖNB unter der Signatur A-Wn PhA2284
-               aufbewahrt werden. <note xml:id="footnote079" type="footnote" anchored="true" n="1"
-                  >Leopold Nowak, Bruckner Sämtliche Werke, Bd. 17/2.</note>
+               aufbewahrt werden. <note xml:id="footnote079" type="footnote" anchored="true" n="1">Leopold Nowak, Bruckner Sämtliche Werke, Bd. 17/2.</note>
             </p>
             <p decls="desc" xml:lang="eng">
                <lb/>In the foreword to his edition of the <hi rend="italic">Mass in E minor</hi>,
-               Leopold Nowak identifies Noll as a copyist for the Viennese Hofmusikkapelle.<ref
-                  xml:id="footnote-ref080" target="#footnote080" type="noteAnchor">1</ref> As is
+               Leopold Nowak identifies Noll as a copyist for the Viennese Hofmusikkapelle.<ref xml:id="footnote-ref080" target="#footnote080" type="noteAnchor">1</ref> As is
                evident from his numerous signatures and dates in Bruckner’s sources, Noll worked
                closely with the composer in the early 1880s when the latter revised his three Linz
                Masses. Noll signed and dated his scores for the <hi rend="italic">Mass in E
-                  minor</hi> and <hi rend="italic">F minor</hi> “1883”. His additions to the <hi
-                  rend="italic">Mass in E minor</hi> parts date from September 1882. His undated
+                  minor</hi> and <hi rend="italic">F minor</hi> “1883”. His additions to the <hi rend="italic">Mass in E minor</hi> parts date from September 1882. His undated
                entrances in the autograph of the <hi rend="italic">Mass in D minor</hi>
                (A-WnMus.Hs.19483) probably date from the same period because Bruckner revised the
                score in the winter of 1881/82. In addition to the Masses, Noll prepared scores of
                the <hi rend="italic">Fourth</hi> and <hi rend="italic">Sixth Symphonies</hi>.
                <lb/>The last movement of the lost <hi rend="italic">Sixth Symphony</hi> manuscript
                has been attributed to Noll on the basis of A-Wn PhA2284 which contains photocopies
-               of a few pages from each movement. <note xml:id="footnote080" type="footnote"
-                  anchored="true" n="1">Leopold Nowak, Bruckner Sämtliche Werke, Vol. 17/2.</note>
+               of a few pages from each movement. <note xml:id="footnote080" type="footnote" anchored="true" n="1">Leopold Nowak, Bruckner Sämtliche Werke, Vol. 17/2.</note>
             </p>
             <p decls="link" xml:lang="de"/>
             <p decls="link" xml:lang="eng"/>
@@ -133,9 +125,7 @@
                      <date when="1864-09-29">29.09.1864</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref
-                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.6073"
-                        >A-WnMus.Hs.6073</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.6073">A-WnMus.Hs.6073</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9384">Messe in d-Moll</ref>
@@ -156,9 +146,7 @@
                      <date when="1864-09-29">29.09.1864</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref
-                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19483"
-                        >A-WnMus.Hs.19483</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19483">A-WnMus.Hs.19483</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9384">Messe in d-Moll</ref>
@@ -179,9 +167,7 @@
                      <date when="1866-11-25">25.11.1866</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref
-                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.6014"
-                        >A-WnMus.Hs.6014</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.6014">A-WnMus.Hs.6014</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9393">Messe in e-Moll</ref>
@@ -202,8 +188,7 @@
                      <date when="1866-11-25">25.11.1866</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-SF20-69a"
-                        >A-SF20-69a</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-SF20-69a">A-SF20-69a</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9393">Messe in e-Moll</ref>
@@ -217,8 +202,8 @@
                   </cell>
                   <cell role="Folios_in_der_Hand_des_Kopisten">4r–9r; 13r–18r; 22r–26v; 31r–36r;
                      40r–45r; 49r–54r; 58r–63r; 67r–72r; 76r–81r; 85r–90r; 94r–98v; 103r–108r;
-                     112r–117r; 121r–125v; 130r–134v; 139r–143v; 148r–152v; 157r–161v;166r–170v;
-                     173r–176v; 179r–182v; 185r– 188v; 191r–201r; 203r–215v; 217r–219v; 221r–223v;
+                     112r–117r; 121r–125v; 130r–134v; 139r–143v; 148r–152v; 157r–161v; 166r–170v;
+                     173r–176v; 179r–182v; 185r–188v; 191r–201r; 203r–215v; 217r–219v; 221r–223v;
                      225r–227v; 229r–231v; 233r–235v</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift">176v</cell>
                   <cell role="Kommentar_intern"/>
@@ -228,9 +213,7 @@
                      <date when="1866-11-25">25.11.1866</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref
-                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-LIdaWAB27-Sopran"
-                        >A-LIdaWAB27-Sopran</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-LIdaWAB27-Sopran">A-LIdaWAB27-Sopran</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9393">Messe in e-Moll</ref>
@@ -249,9 +232,7 @@
                      <date when="1868-09-09">09.09.1868</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref
-                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.2106"
-                        >A-WnMus.Hs.2106</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.2106">A-WnMus.Hs.2106</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9401">Messe in f-Moll</ref>
@@ -272,9 +253,7 @@
                      <date when="1868-09-09">09.09.1868</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref
-                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.29302"
-                        >A-WnMus.Hs.29302</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.29302">A-WnMus.Hs.29302</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9401">Messe in f-Moll</ref>
@@ -295,8 +274,7 @@
                      <date from="1874-01-02" to="1874-11-22">02.01.1874–22.11.1874</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WstMH6780"
-                        >A-WstMH-6780</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WstMH6780">A-WstMH-6780</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9878">4. Symphonie</ref>
@@ -315,9 +293,7 @@
                      <date from="1874-01-02" to="1874-11-22">02.01.1874–22.11.1874</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref
-                        target="http://www.bruckner-online.at/mirador.php?Signatur=US-NYcuMN_98-8029"
-                        >US-NYcuMN_98-8029</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=US-NYcuMN_98-8029">US-NYcuMN_98-8029</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9878">4. Symphonie, 4.
@@ -337,9 +313,7 @@
                      <date from="1879-09-24" to="1881-09-03">24.09.1879–03.09.1881</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref
-                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.34612"
-                        >A-WnMus.Hs.34612</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.34612">A-WnMus.Hs.34612</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9910">6. Symphonie, 2. und
@@ -361,8 +335,7 @@
                      <date from="1879-09-24" to="1881-09-03">24.09.1879–03.09.1881</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-KR-C56-12"
-                        >A-KR-C56-12</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-KR-C56-12">A-KR-C56-12</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9910">6. Symphonie, 1.
@@ -402,29 +375,24 @@
                </row>
             </table>
             <list>
-               <head xml:lang="de">Beispiele entnommen aus: <ref
-                     target="Noll_Johann_A-WnMus.Hs.6014-01r.jpg">A-WnMus.Hs.6014</ref> und <ref
-                     target="Noll_Johann_A-WnMus.Hs.29302-001r.jpg">A-WnMus.Hs.29302</ref>
+               <head xml:lang="de">Beispiele entnommen aus: <ref target="Noll_Johann_A-WnMus.Hs.6014-01r.jpg">A-WnMus.Hs.6014</ref> und <ref target="Noll_Johann_A-WnMus.Hs.29302-001r.jpg">A-WnMus.Hs.29302</ref>
                </head>
-               <head xml:lang="eng">Examples taken from: <ref
-                     target="Noll_Johann_A-WnMus.Hs.6014-01r.jpg">A-WnMus.Hs.6014g</ref> and <ref
-                     target="Noll_Johann_A-WnMus.Hs.29302-001r.jpg">A-WnMus.Hs.29302</ref>
+               <head xml:lang="eng">Examples taken from: <ref target="Noll_Johann_A-WnMus.Hs.6014-01r.jpg">A-WnMus.Hs.6014g</ref> and <ref target="Noll_Johann_A-WnMus.Hs.29302-001r.jpg">A-WnMus.Hs.29302</ref>
                </head>
                <item>
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.29302_A-Clefs_C.png"/>
+                              url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.29302_A-Clefs_C.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.29302_A-Clefs_F.png"/>
+                              url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.29302_A-Clefs_F.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.29302_A-Clefs_G.png"/>
+                              url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.29302_A-Clefs_G.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.6014_A-Clefs_F.png"/>
+                              url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.6014_A-Clefs_F.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.6014_A-Clefs_G.png"
-                     />
+                              url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.6014_A-Clefs_G.png"/>
                   </figure>
                </item>
                <item>
@@ -432,18 +400,17 @@
                   <title xml:lang="eng">Accidentals</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.29302_B-Accidentals_Flat.png"/>
+                              url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.29302_B-Accidentals_Flat.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.29302_B-Accidentals_Natural.png"/>
+                              url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.29302_B-Accidentals_Natural.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.29302_B-Accidentals_Sharp.png"/>
+                              url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.29302_B-Accidentals_Sharp.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.6014_B-Accidentals_Flat.png"/>
+                              url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.6014_B-Accidentals_Flat.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.6014_B-Accidentals_Natural.png"/>
+                              url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.6014_B-Accidentals_Natural.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.6014_B-Accidentals_Sharp.png"
-                     />
+                              url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.6014_B-Accidentals_Sharp.png"/>
                   </figure>
                </item>
                <item>
@@ -451,10 +418,9 @@
                   <title xml:lang="eng">Time Signatures</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.29302_C-Time-Signatures_C.png"/>
+                              url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.29302_C-Time-Signatures_C.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.6014_C-Time-Signatures_C.png"
-                     />
+                              url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.6014_C-Time-Signatures_C.png"/>
                   </figure>
                </item>
                <item>
@@ -462,16 +428,15 @@
                   <title xml:lang="eng">Rests</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.29302_D-Rests_Achtel.png"/>
+                              url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.29302_D-Rests_Achtel.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.29302_D-Rests_Sechzehntel.png"/>
+                              url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.29302_D-Rests_Sechzehntel.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.29302_D-Rests_Viertel.png"/>
+                              url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.29302_D-Rests_Viertel.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.6014_D-Rests_Ganze.png"/>
+                              url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.6014_D-Rests_Ganze.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.6014_D-Rests_Viertel.png"
-                     />
+                              url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.6014_D-Rests_Viertel.png"/>
                   </figure>
                </item>
                <item>
@@ -479,20 +444,19 @@
                   <title xml:lang="eng">Notes</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.29302_E-Notes_Achtel.png"/>
+                              url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.29302_E-Notes_Achtel.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.29302_E-Notes_Halbe.png"/>
+                              url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.29302_E-Notes_Halbe.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.29302_E-Notes_Sechzehntel.png"/>
+                              url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.29302_E-Notes_Sechzehntel.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.29302_E-Notes_Viertel.png"/>
+                              url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.29302_E-Notes_Viertel.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.6014_E-Notes_Ganze.png"/>
+                              url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.6014_E-Notes_Ganze.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.6014_E-Notes_Halbe.png"/>
+                              url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.6014_E-Notes_Halbe.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.6014_E-Notes_Viertel.png"
-                     />
+                              url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.6014_E-Notes_Viertel.png"/>
                   </figure>
                </item>
                <item>
@@ -500,32 +464,41 @@
                   <title xml:lang="eng">Dynamics</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.29302_F-Dynamics_Cresc.png"/>
+                              url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.29302_F-Dynamics_Cresc.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.29302_F-Dynamics_Dimin.png"/>
+                              url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.29302_F-Dynamics_Dimin.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.29302_F-Dynamics_Mezzoforte.png"/>
+                              url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.29302_F-Dynamics_Mezzoforte.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.29302_F-Dynamics_Pianissimo.png"/>
+                              url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.29302_F-Dynamics_Pianissimo.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.29302_F-Dynamics_Piano.png"/>
+                              url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.29302_F-Dynamics_Piano.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.6014_F-Dynamics_Decresc.png"/>
+                              url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.6014_F-Dynamics_Decresc.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.6014_F-Dynamics_Forte.png"/>
+                              url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.6014_F-Dynamics_Forte.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.6014_F-Dynamics_Fortissimo.png"/>
+                              url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.6014_F-Dynamics_Fortissimo.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.6014_F-Dynamics_Mezzoforte.png"/>
+                              url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.6014_F-Dynamics_Mezzoforte.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.6014_F-Dynamics_Piano.png"/>
+                              url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.6014_F-Dynamics_Piano.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.6014_F-Dynamics_Poco a poco crescendo.png"
-                     />
+                              url="../../101_samples/named/N/Noll_Johann/Noll_Johann_A-WnMus.Hs.6014_F-Dynamics_Poco a poco crescendo.png"/>
                   </figure>
                </item>
             </list>
          </div>
       </body>
+      <back>
+         <listPlace>
+            <place xml:id="place_100">
+               <location>
+                  <geo>48.208490000000 16.372080000000</geo>
+                  <idno subtype="geonames" type="URL">https://www.geonames.org/2761369</idno>
+               </location>
+            </place>
+         </listPlace>
+      </back>
    </text>
 </TEI>

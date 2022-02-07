@@ -51,7 +51,7 @@
                <person>
                   <persName type="main">Anonymus 164</persName>
                   <idno type="alphabetically_sorted">Anonymus 164</idno>
-                  <residence>Wien</residence>
+                  <residence/>
                   <affiliation xml:lang="de">Wiener Kopisten</affiliation>
                   <affiliation xml:lang="eng">Vienna copyist</affiliation>
                   <index>
@@ -60,8 +60,11 @@
                   </index>
                </person>
             </listPerson>
-            <p decls="desc" xml:lang="de"/>
-            <p decls="desc" xml:lang="eng"/>
+            <p decls="desc" xml:lang="de">Die Abschrift ist auf fol. 1<hi rend="sup">r</hi> mit 1902
+               datiert, sodass anzunehmen ist, dass der Kopist die Abschrift in diesem Jahr
+               anfertigte.</p>
+            <p decls="desc" xml:lang="eng">The copy is dated 1902 on fol. 1<hi rend="sup">r</hi>, so
+               it can be assumed that it was made in that year. </p>
             <p decls="link" xml:lang="de"/>
             <p decls="link" xml:lang="eng"/>
             <table>
@@ -88,7 +91,8 @@
                </row>
                <row role="data">
                   <cell role="Datierung">
-                     <date from="1892-12-04" to="1892-12-09">zwischen 04.12.1892 und 09.12.1892</date>
+                     <date from="1892-12-04" to="1892-12-09">zwischen 04.12.1892 und
+                        09.12.1892</date>
                   </cell>
                   <cell role="Signatur">A-Wgm I 55310. (H 27551)</cell>
                   <cell role="Werktitel">

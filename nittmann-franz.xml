@@ -59,7 +59,7 @@
                   <idno type="alphabetically_sorted">Nittmann,Franz (olimAnonymus 007 (W)</idno>
                   <idno type="GND"/>
                   <floruit from="1868" to="1868">1868</floruit>
-                  <residence/>
+                  <residence>Wien</residence>
                   <affiliation xml:lang="de">Wiener Kopisten</affiliation>
                   <affiliation xml:lang="eng">Vienna copyists</affiliation>
                   <index>
@@ -78,7 +78,7 @@
             </p>
             <p decls="desc" xml:lang="eng">
                <lb/>Nittmann worked as a horn player at the Wiener Hofoperntheater and copied parts
-               of the set (A-WnMus.Hs.6075) for the <hi rend="italic">Mass in F minor</hi>. He also worked as a copyist for
+               of the original set (A-WnMus.Hs.6075) for the <hi rend="italic">Mass in F minor</hi>. He also worked as a copyist for
                   Brahms.<ref xml:id="footnote-ref078" target="#footnote078" type="noteAnchor">1</ref>
                <note xml:id="footnote078" type="footnote" anchored="true" n="1">The preliminary
                   identification of Nittmann’s handwritting was made by Johannes Behr. Cf. Behr,
@@ -245,5 +245,15 @@
             </list>
          </div>
       </body>
+      <back>
+         <listPlace>
+            <place xml:id="place_100">
+               <location>
+                  <geo>48.208490000000 16.372080000000</geo>
+                  <idno subtype="geonames" type="URL">https://www.geonames.org/2761369</idno>
+               </location>
+            </place>
+         </listPlace>
+      </back>
    </text>
 </TEI>

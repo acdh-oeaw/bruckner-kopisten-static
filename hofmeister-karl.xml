@@ -71,7 +71,8 @@
                <lb/>Für weitere Kopisten aus Linz siehe <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>.
             </p>
             <p decls="desc" xml:lang="eng">
-               <lb/><hi rend="italic">Anonymus</hi> 21 (W), <hi rend="italic">Anonymus</hi> 88 (W), <hi rend="italic">Anonymus</hi> 92 (W), Hofmeister and Franz Rossi corrected and made additional parts for the first performance of the second version of the <hi rend="italic">Mass in E minor</hi> in Linz on 4 October 1885.
+               <lb/>
+               <hi rend="italic">Anonymus</hi> 21 (W), <hi rend="italic">Anonymus</hi> 88 (W), <hi rend="italic">Anonymus</hi> 92 (W), Hofmeister and Franz Rossi corrected and made additional parts for the first performance of the second version of the <hi rend="italic">Mass in E minor</hi> in Linz on 4 October 1885.
                <lb/>For more copyists from Linz, see <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Tabele 3</ref>.
             </p>
             <p decls="link" xml:lang="de"/>
@@ -113,7 +114,7 @@
                   </cell>
                   <cell role="Art_der_Kopie">Stimmen</cell>
                   <cell role="erschlossene_Datierung_der_Kopie"/>
-                  <cell role="Folios_in_der_Hand_des_Kopisten">Bass 1 Stimme 11: fol. 249r–252v</cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">249r–252v (Bass 1, St. 11)</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift">252v</cell>
                   <cell role="Kommentar_intern">Es handelt sich um die 2. Fassung der Messe</cell>
                </row>

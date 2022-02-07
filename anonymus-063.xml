@@ -52,7 +52,7 @@
                   <persName subtype="W" type="main">Anonymus 063</persName>
                   <idno type="alphabetically_sorted">Anonymus 063 (W)</idno>
                   <floruit from="1889" to="1889">1889</floruit>
-                  <residence/>
+                  <residence>Wien</residence>
                   <affiliation xml:lang="de">Wiener Kopisten</affiliation>
                   <affiliation xml:lang="eng">Vienna copyist</affiliation>
                   <index>
@@ -65,7 +65,8 @@
                <lb/>Die Kopisten Anonymus 062 (W), 063 (W) und 064 (W) fertigten die Partiturabschrift zur letztgültigen Fassung der <hi rend="italic">3. Symphonie</hi> an.
             </p>
             <p decls="desc" xml:lang="eng">
-               <lb/><hi rend="italic">Anonymus</hi> 062 (W), 063 (W) and 064 (W) worked on the final version of the <hi rend="italic">Third Symphony</hi>.</p>
+               <lb/>
+               <hi rend="italic">Anonymus</hi> 062 (W), 063 (W) and 064 (W) worked on the final version of the <hi rend="italic">Third Symphony</hi>.</p>
             <table>
                <head>Abschriften</head>
                <row xml:lang="de" role="label">
@@ -197,5 +198,15 @@
             </list>
          </div>
       </body>
+      <back>
+         <listPlace>
+            <place xml:id="place_100">
+               <location>
+                  <geo>48.208490000000 16.372080000000</geo>
+                  <idno subtype="geonames" type="URL">https://www.geonames.org/2761369</idno>
+               </location>
+            </place>
+         </listPlace>
+      </back>
    </text>
 </TEI>

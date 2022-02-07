@@ -52,8 +52,8 @@
                   <persName subtype="W" type="main">Anonymus 072</persName>
                   <persName type="before">Anonymus 8/2</persName>
                   <idno type="alphabetically_sorted">Anonymus 072 (W)</idno>
-                  <floruit from="1886" to="1891">1886–1891</floruit>
-                  <residence/>
+                  <floruit from="1886" to="1887">1886–1887</floruit>
+                  <residence>Wien</residence>
                   <affiliation xml:lang="de">Wiener Kopisten</affiliation>
                   <affiliation xml:lang="eng">Vienna copyist</affiliation>
                   <index>
@@ -237,5 +237,15 @@
             </list>
          </div>
       </body>
+      <back>
+         <listPlace>
+            <place xml:id="place_100">
+               <location>
+                  <geo>48.208490000000 16.372080000000</geo>
+                  <idno subtype="geonames" type="URL">https://www.geonames.org/2761369</idno>
+               </location>
+            </place>
+         </listPlace>
+      </back>
    </text>
 </TEI>

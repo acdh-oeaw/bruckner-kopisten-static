@@ -68,21 +68,19 @@
             </listPerson>
             <p decls="desc" xml:lang="de">
                <lb/>Die Kopisten Anonymus 21 (W), 88 (W), 92 (W), Hofmeister und Franz Rossi
-               korrigierten den Stimmensatz der für die Uraufführung der 2. Fassung der <hi
-                  rend="italic">Messe in e-Moll</hi> am 4. Oktober 1885 in Linz verwendet wurde und
+               korrigierten den Stimmensatz der für die Uraufführung der 2. Fassung der <hi rend="italic">Messe in e-Moll</hi> am 4. Oktober 1885 in Linz verwendet wurde und
                fertigten zusätzliche Stimmen und Stimmeinlagen an. Rossi fertigte auch den im
                Domchorarchiv aufbewahrten Stimmensatz zum <hi rend="italic">Virga Jesse floruit</hi>
                – das am gleichen Tag wie die <hi rend="italic">Messe in e-Moll</hi> aufgeführt wurde
-               – an. <lb/>Für weitere Kopisten aus Linz siehe <ref
-                  target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>. </p>
+               – an. <lb/>Für weitere Kopisten aus Linz siehe <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>. </p>
             <p decls="desc" xml:lang="eng">
-               <lb/><hi rend="italic">Anonymus</hi> 21 (W), <hi rend="italic">Anonymus</hi> 88 (W),
+               <lb/>
+               <hi rend="italic">Anonymus</hi> 21 (W), <hi rend="italic">Anonymus</hi> 88 (W),
                   <hi rend="italic">Anonymus</hi> 92 (W), Hofmeister and Franz Rossi corrected and
                made additional parts for the first performance of the second version of the <hi rend="italic">Mass in
                E minor</hi> in Linz on 4 October 1885. Rossi also contributed to the set of parts in the
                Linz Cathedral Archive for <hi rend="italic">Virga Jesse floruit</hi> which was performed on the same day.
-               <lb/>For more copyists from Linz, see <ref
-                  target="../../100_Introduction/Tabelle_3.xml" type="table">Table 3</ref>. </p>
+               <lb/>For more copyists from Linz, see <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Table 3</ref>. </p>
             <p decls="link" xml:lang="de"/>
             <p decls="link" xml:lang="eng"/>
             <table>
@@ -112,8 +110,7 @@
                      <date when="1866-11-25">25.11.1866</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-LId473_6_29"
-                        >A-LId473_6_29</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-LId473_6_29">A-LId473_6_29</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9393">Messe in e-Moll</ref>
@@ -123,8 +120,8 @@
                   </cell>
                   <cell role="Art_der_Kopie">Stimmen</cell>
                   <cell role="erschlossene_Datierung_der_Kopie"/>
-                  <cell role="Folios_in_der_Hand_des_Kopisten">17r–19r (Sop 1, St. 10, Cadd);
-                     120r–122r (Sop 2, St. 16, Cadd)</cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">17r–19r (Sop. 1, St. 10, Cadd);
+                     120r–122r (Sop. 2, St. 16, Cadd)</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift">19r, 122r</cell>
                   <cell role="Kommentar_intern">I have not seen this Hs. Yet. The parts are not
                      foliated</cell>
@@ -134,8 +131,7 @@
                      <date when="1866-11-25">25.11.1866</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-LId477_7_29"
-                        >A-LId477_7_29</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-LId477_7_29">A-LId477_7_29</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9393">Messe in e-Moll</ref>
@@ -156,8 +152,7 @@
                      <date when="1885-09-03">03.09.1885</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-LId473_8_29"
-                        >A-LId473_8_29</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-LId473_8_29">A-LId473_8_29</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e10170">Virga Jesse
@@ -175,19 +170,16 @@
                </row>
             </table>
             <list>
-               <head xml:lang="de">Beispiele entnommen aus: <ref
-                     target="Rossi_Franz_A-LId477_7_29-135v-Alt2-12.jpg">A-LId477_7_29</ref>
+               <head xml:lang="de">Beispiele entnommen aus: <ref target="Rossi_Franz_A-LId477_7_29-135v-Alt2-12.jpg">A-LId477_7_29</ref>
                </head>
-               <head xml:lang="eng">Examples taken from: <ref
-                     target="Rossi_Franz_A-LId477_7_29-135v-Alt2-12.jpg">A-LId477_7_29</ref>
+               <head xml:lang="eng">Examples taken from: <ref target="Rossi_Franz_A-LId477_7_29-135v-Alt2-12.jpg">A-LId477_7_29</ref>
                </head>
                <item>
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/R/Rossi_Franz/Rossi_Franz_A-LId477_7_29_A-Clefs_G.png"
-                     />
+                              url="../../101_samples/named/R/Rossi_Franz/Rossi_Franz_A-LId477_7_29_A-Clefs_G.png"/>
                   </figure>
                </item>
                <item>
@@ -195,12 +187,11 @@
                   <title xml:lang="eng">Accidentals</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/R/Rossi_Franz/Rossi_Franz_A-LId477_7_29_B-Accidentals_Flat.png"/>
+                              url="../../101_samples/named/R/Rossi_Franz/Rossi_Franz_A-LId477_7_29_B-Accidentals_Flat.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/R/Rossi_Franz/Rossi_Franz_A-LId477_7_29_B-Accidentals_Natural.png"/>
+                              url="../../101_samples/named/R/Rossi_Franz/Rossi_Franz_A-LId477_7_29_B-Accidentals_Natural.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/R/Rossi_Franz/Rossi_Franz_A-LId477_7_29_B-Accidentals_Sharp.png"
-                     />
+                              url="../../101_samples/named/R/Rossi_Franz/Rossi_Franz_A-LId477_7_29_B-Accidentals_Sharp.png"/>
                   </figure>
                </item>
                <item>
@@ -208,8 +199,7 @@
                   <title xml:lang="eng">Time Signatures</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/R/Rossi_Franz/Rossi_Franz_A-LId477_7_29_C-Time-Signatures_C.png"
-                     />
+                              url="../../101_samples/named/R/Rossi_Franz/Rossi_Franz_A-LId477_7_29_C-Time-Signatures_C.png"/>
                   </figure>
                </item>
                <item>
@@ -217,8 +207,7 @@
                   <title xml:lang="eng">Rests</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/R/Rossi_Franz/Rossi_Franz_A-LId477_7_29_D-Rests_Viertel.png"
-                     />
+                              url="../../101_samples/named/R/Rossi_Franz/Rossi_Franz_A-LId477_7_29_D-Rests_Viertel.png"/>
                   </figure>
                </item>
                <item>
@@ -226,14 +215,13 @@
                   <title xml:lang="eng">Notes</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/R/Rossi_Franz/Rossi_Franz_A-LId477_7_29_E-Notes_Achtel.png"/>
+                              url="../../101_samples/named/R/Rossi_Franz/Rossi_Franz_A-LId477_7_29_E-Notes_Achtel.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/R/Rossi_Franz/Rossi_Franz_A-LId477_7_29_E-Notes_Ganze.png"/>
+                              url="../../101_samples/named/R/Rossi_Franz/Rossi_Franz_A-LId477_7_29_E-Notes_Ganze.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/R/Rossi_Franz/Rossi_Franz_A-LId477_7_29_E-Notes_Halbe.png"/>
+                              url="../../101_samples/named/R/Rossi_Franz/Rossi_Franz_A-LId477_7_29_E-Notes_Halbe.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/R/Rossi_Franz/Rossi_Franz_A-LId477_7_29_E-Notes_Viertel.png"
-                     />
+                              url="../../101_samples/named/R/Rossi_Franz/Rossi_Franz_A-LId477_7_29_E-Notes_Viertel.png"/>
                   </figure>
                </item>
                <item>
@@ -241,16 +229,15 @@
                   <title xml:lang="eng">Dynamics</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/R/Rossi_Franz/Rossi_Franz_A-LId477_7_29_F-Dynamics_Decresc.png"/>
+                              url="../../101_samples/named/R/Rossi_Franz/Rossi_Franz_A-LId477_7_29_F-Dynamics_Decresc.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/R/Rossi_Franz/Rossi_Franz_A-LId477_7_29_F-Dynamics_Dim.png"/>
+                              url="../../101_samples/named/R/Rossi_Franz/Rossi_Franz_A-LId477_7_29_F-Dynamics_Dim.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/R/Rossi_Franz/Rossi_Franz_A-LId477_7_29_F-Dynamics_Forte.png"/>
+                              url="../../101_samples/named/R/Rossi_Franz/Rossi_Franz_A-LId477_7_29_F-Dynamics_Forte.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/R/Rossi_Franz/Rossi_Franz_A-LId477_7_29_F-Dynamics_Fortissimo.png"/>
+                              url="../../101_samples/named/R/Rossi_Franz/Rossi_Franz_A-LId477_7_29_F-Dynamics_Fortissimo.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/R/Rossi_Franz/Rossi_Franz_A-LId477_7_29_F-Dynamics_Piano.png"
-                     />
+                              url="../../101_samples/named/R/Rossi_Franz/Rossi_Franz_A-LId477_7_29_F-Dynamics_Piano.png"/>
                   </figure>
                </item>
             </list>

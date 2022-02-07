@@ -68,15 +68,13 @@
                   ergo</hi> (WAB 041). Für den selben Stimmensatz fertigte auch Kopist E. M. Stimmen
                an. Weiterhin findet sich im Stiftarchiv ein Stimmensatz zum <hi rend="italic">Pange lingua</hi> (WAB 031),
                der vom Kopisten E. M. siginiert und auf das Jahr 1891 datiert ist. <lb/>Für weitere
-               Kopisten aus Klosterneuburg siehe <ref target="../../100_Introduction/Tabelle_3.xml"
-                  type="table">Tabelle 3</ref>.</p>
+               Kopisten aus Klosterneuburg siehe <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>.</p>
             <p decls="desc" xml:lang="eng">
                <lb/>Copyists H. I. and E. M. are probably students or musicians at the monastery of
-               Klosterneuburg. H. I. dated a soprano part for the <hi rend="italic">Four Tantum ergo</hi> (WAB 041) in
+               Klosterneuburg. H. I. dated a soprano part for the <hi rend="italic">Vier Tantum ergo</hi> (WAB 041) in
                1898. E. M. contrinuted to the same set of parts that are now preserved at the
                monastery. Also kept at the monastery are parts for the <hi rend="italic">Pange lingua</hi> (WAB 031) signed
-               and dated by E. M. in 1891. <lb/>For more copyists from Klosterneuburg, see <ref
-                  target="../../100_Introduction/Tabelle_3.xml" type="table">Table 3</ref>.</p>
+               and dated by E. M. in 1891. <lb/>For more copyists from Klosterneuburg, see <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Table 3</ref>.</p>
             <p decls="link" xml:lang="de"/>
             <p decls="link" xml:lang="eng"/>
             <table>
@@ -106,8 +104,7 @@
                      <date when="1846">ca. 1846</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-KN198_4"
-                        >A-KN198_4</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-KN198_4">A-KN198_4</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9999">Vier Tantum ergo</ref>
@@ -126,8 +123,7 @@
                      <date when="1891">1891</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-KN198_3"
-                        >A-KN198_3</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-KN198_3">A-KN198_3</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9554">Pange lingua</ref>
@@ -144,21 +140,18 @@
                </row>
             </table>
             <list>
-               <head xml:lang="de">Beispiele entnommen aus: <ref target="Kopist_E.M._A-KN198_3.jpg"
-                     >A-KN198_3</ref>
+               <head xml:lang="de">Beispiele entnommen aus: <ref target="Kopist_E.M._A-KN198_3.jpg">A-KN198_3</ref>
                </head>
-               <head xml:lang="eng">Examples taken from: <ref target="Kopist_E.M._A-KN198_3.jpg"
-                     >A-KN198_3</ref>
+               <head xml:lang="eng">Examples taken from: <ref target="Kopist_E.M._A-KN198_3.jpg">A-KN198_3</ref>
                </head>
                <item>
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/M/EM_Kopist/Kopist_E.M._A-KN198_3_A-Clefs_C.png"/>
+                              url="../../101_samples/named/M/EM_Kopist/Kopist_E.M._A-KN198_3_A-Clefs_C.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/M/EM_Kopist/Kopist_E.M._A-KN198_3_A-Clefs_F.png"
-                     />
+                              url="../../101_samples/named/M/EM_Kopist/Kopist_E.M._A-KN198_3_A-Clefs_F.png"/>
                   </figure>
                </item>
                <item>
@@ -166,12 +159,11 @@
                   <title xml:lang="eng">Accidentals</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/M/EM_Kopist/Kopist_E.M._A-KN198_3_B-Accidentals_Flat.png"/>
+                              url="../../101_samples/named/M/EM_Kopist/Kopist_E.M._A-KN198_3_B-Accidentals_Flat.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/M/EM_Kopist/Kopist_E.M._A-KN198_3_B-Accidentals_Natural.png"/>
+                              url="../../101_samples/named/M/EM_Kopist/Kopist_E.M._A-KN198_3_B-Accidentals_Natural.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/M/EM_Kopist/Kopist_E.M._A-KN198_3_B-Accidentals_Sharp.png"
-                     />
+                              url="../../101_samples/named/M/EM_Kopist/Kopist_E.M._A-KN198_3_B-Accidentals_Sharp.png"/>
                   </figure>
                </item>
                <item>
@@ -179,8 +171,7 @@
                   <title xml:lang="eng">Time Signatures</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/M/EM_Kopist/Kopist_E.M._A-KN198_3_C-Time-Signatures_C.png"
-                     />
+                              url="../../101_samples/named/M/EM_Kopist/Kopist_E.M._A-KN198_3_C-Time-Signatures_C.png"/>
                   </figure>
                </item>
                <item>
@@ -193,10 +184,9 @@
                   <title xml:lang="eng">Notes</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/M/EM_Kopist/Kopist_E.M._A-KN198_3_E-Notes_Halbe.png"/>
+                              url="../../101_samples/named/M/EM_Kopist/Kopist_E.M._A-KN198_3_E-Notes_Halbe.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/M/EM_Kopist/Kopist_E.M._A-KN198_3_E-Notes_Viertel.png"
-                     />
+                              url="../../101_samples/named/M/EM_Kopist/Kopist_E.M._A-KN198_3_E-Notes_Viertel.png"/>
                   </figure>
                </item>
                <item>

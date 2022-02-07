@@ -58,7 +58,7 @@
                   <idno type="GND">11730557X</idno>
                   <floruit from="1883" to="1883" notBefore="1883" xml:lang="de">1883(?) und später</floruit>
                   <floruit from="1883" to="1883" notBefore="1883" xml:lang="eng">1883(?) and later</floruit>
-                  <residence/>
+                  <residence>mult.</residence>
                   <affiliation xml:lang="de"/>
                   <affiliation xml:lang="eng"/>
                   <index>
@@ -130,7 +130,7 @@
                   </cell>
                   <cell role="Art_der_Kopie">Klavierauszug zu 2 Hdn.</cell>
                   <cell role="erschlossene_Datierung_der_Kopie"/>
-                  <cell role="Folios_in_der_Hand_des_Kopisten">4r, Ln 7-6r</cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">4r, Z. 7-6r</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
                   <cell role="Kommentar_intern"/>
                </row>

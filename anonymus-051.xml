@@ -52,7 +52,7 @@
                   <persName subtype="W" type="main">Anonymus 051</persName>
                   <idno type="alphabetically_sorted">Anonymus 051 (W)</idno>
                   <floruit from="1893" to="1893">1893</floruit>
-                  <residence/>
+                  <residence>Wien</residence>
                   <affiliation xml:lang="de">Wiener Kopisten</affiliation>
                   <affiliation xml:lang="eng">Vienna copyist</affiliation>
                   <index>
@@ -105,9 +105,9 @@
                   <cell role="Art_der_Kopie">Stimmen</cell>
                   <cell role="erschlossene_Datierung_der_Kopie"/>
                   <cell role="Folios_in_der_Hand_des_Kopisten">Fl. 1–2, Ob. 1–2, Kl. 1–2, Fg. 1–2,
-                     Hr. 1–2, Hr 3 (ausserhalb 1v, Z. 2–5; 4r, Z. 5–ll; und 4v, Z. 1–6), Hr 4
-                     (ausserhalb 1v, Z. 2–5 und 4r, Z. 1–7), Tpt 1–2, Pos. 1–3, Pk.
-                     Credo/Sanctus/Benedictus/Agnus Dei</cell>
+                     Hr. 1–2, Hr 3 (ausgenommen: 1v, Z. 2–5; 4r, Z. 5–ll sowie 4v, Z. 1–6), Hr. 4
+                     (ausgenommen: 1v, Z. 2–5 und 4r, Z. 1–7), Tpt. 1–2, Pos. 1–3, Pk.
+                     (Credo / Sanctus / Benedictus / Agnus Dei)</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
                   <cell role="Kommentar_intern"/>
                </row>
@@ -150,5 +150,15 @@
             </list>
          </div>
       </body>
+      <back>
+         <listPlace>
+            <place xml:id="place_100">
+               <location>
+                  <geo>48.208490000000 16.372080000000</geo>
+                  <idno subtype="geonames" type="URL">https://www.geonames.org/2761369</idno>
+               </location>
+            </place>
+         </listPlace>
+      </back>
    </text>
 </TEI>

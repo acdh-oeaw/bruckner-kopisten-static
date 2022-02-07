@@ -49,15 +49,15 @@
          <div xml:id="content-d1e29482">
             <listPerson>
                <person>
-                  <persName subtype="L" type="main">Anonymus 162</persName>
-                  <idno type="alphabetically_sorted">Anonymus 162 (L)</idno>
-                  <floruit from="1866" to="1866" cert="medium">1866</floruit>
+                  <persName type="main">Anonymus 162</persName>
+                  <idno type="alphabetically_sorted">Anonymus 162</idno>
+                  <floruit/>
                   <residence>Linz</residence>
                   <affiliation xml:lang="de">Linzer Kopisten</affiliation>
                   <affiliation xml:lang="eng">Linz copyist</affiliation>
                   <index>
-                     <term sortKey="1" xml:lang="de">Primärquellen</term>
-                     <term sortKey="1" xml:lang="eng">Primary Sources</term>
+                     <term sortKey="2" xml:lang="de">Sekundärquellen</term>
+                     <term sortKey="2" xml:lang="eng">Secondary Sources</term>
                   </index>
                </person>
             </listPerson>

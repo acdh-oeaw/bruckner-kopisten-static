@@ -52,7 +52,7 @@
                   <persName subtype="W" type="main">Anonymus 067</persName>
                   <idno type="alphabetically_sorted">Anonymus 067 (W)</idno>
                   <floruit from="1875" to="1877">1875–1877</floruit>
-                  <residence/>
+                  <residence>Wien</residence>
                   <affiliation xml:lang="de">Wiener Kopisten</affiliation>
                   <affiliation xml:lang="eng">Vienna copyist</affiliation>
                   <index>
@@ -65,7 +65,8 @@
                <lb/>Der Kopist Anonymus 067 (W) fertigte eine Teilabschrift zur 1. Fassung der <hi rend="italic">4. Symphonie</hi> an.
             </p>
             <p decls="desc" xml:lang="eng">
-               <lb/><hi rend="italic">Anonymus</hi> 067 (W) worked on the first version of the <hi rend="italic">Fourth Symphony</hi>.</p>
+               <lb/>
+               <hi rend="italic">Anonymus</hi> 067 (W) worked on the first version of the <hi rend="italic">Fourth Symphony</hi>.</p>
             <table>
                <head>Abschriften</head>
                <row xml:lang="de" role="label">
@@ -220,5 +221,15 @@
             </list>
          </div>
       </body>
+      <back>
+         <listPlace>
+            <place xml:id="place_100">
+               <location>
+                  <geo>48.208490000000 16.372080000000</geo>
+                  <idno subtype="geonames" type="URL">https://www.geonames.org/2761369</idno>
+               </location>
+            </place>
+         </listPlace>
+      </back>
    </text>
 </TEI>

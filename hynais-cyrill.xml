@@ -58,7 +58,7 @@
                   <idno type="alphabetically_sorted">Hynais, Cyrill</idno>
                   <idno type="GND">130187240</idno>
                   <floruit from="1891" to="1895">1891–1895</floruit>
-                  <residence/>
+                  <residence>Wien</residence>
                   <affiliation xml:lang="de"/>
                   <affiliation xml:lang="eng"/>
                   <index>
@@ -155,7 +155,7 @@
                   </cell>
                   <cell role="Art_der_Kopie">Partitur</cell>
                   <cell role="erschlossene_Datierung_der_Kopie"/>
-                  <cell role="Folios_in_der_Hand_des_Kopisten"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
                   <cell role="Kommentar_intern"/>
                </row>
@@ -385,5 +385,15 @@
             </list>
          </div>
       </body>
+      <back>
+         <listPlace>
+            <place xml:id="place_100">
+               <location>
+                  <geo>48.208490000000 16.372080000000</geo>
+                  <idno subtype="geonames" type="URL">https://www.geonames.org/2761369</idno>
+               </location>
+            </place>
+         </listPlace>
+      </back>
    </text>
 </TEI>

@@ -65,7 +65,8 @@
                <lb/>Für weitere Kopisten aus Linz siehe <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>.
             </p>
             <p decls="desc" xml:lang="eng">
-               <lb/><hi rend="italic">Anonymus</hi> 135 almost certainly worked for the Linz Cathedral.
+               <lb/>
+               <hi rend="italic">Anonymus</hi> 135 almost certainly worked for the Linz Cathedral.
                <lb/>For more copyists from Linz, see <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Table 3</ref>.</p>
             <table>
                <head>Abschriften</head>
@@ -105,10 +106,10 @@
                   </cell>
                   <cell role="Art_der_Kopie">Partitur</cell>
                   <cell role="erschlossene_Datierung_der_Kopie"/>
-                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">1r–4v</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
                   <cell role="Kommentar_intern">There are two scores in this unfoliated source. The
-                     other was copied by Anonymous L2. Tis score has the name of the antiphon "Tota
+                     other was copied by Anonymous L2. This score has the name of the antiphon "Tota
                      pulchra es" on the title page.</cell>
                </row>
                <row role="data">
@@ -127,8 +128,7 @@
                   </cell>
                   <cell role="Art_der_Kopie">Stimmen</cell>
                   <cell role="erschlossene_Datierung_der_Kopie"/>
-                  <cell role="Folios_in_der_Hand_des_Kopisten">1 Sop.-, Alt-, Ten-. und
-                     Bassstimme</cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">1 Sop., Alt, Ten. und Bass</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
                   <cell role="Kommentar_intern">The other choral parts in this unfoliated source
                      were prepared by Anonymous L2.</cell>

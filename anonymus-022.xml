@@ -53,8 +53,8 @@
                   <idno type="alphabetically_sorted">Anonymus 022</idno>
                   <floruit from="1870" to="1870">ca. 1870</floruit>
                   <residence>Kremsmünster</residence>
-                  <affiliation xml:lang="de">Kremsmünsterer Kopisten</affiliation>
-                  <affiliation xml:lang="eng">Kremsmünster copyists</affiliation>
+                  <affiliation xml:lang="de"/>
+                  <affiliation xml:lang="eng"/>
                   <index>
                      <term sortKey="2" xml:lang="de">Sekundärquellen</term>
                      <term sortKey="2" xml:lang="eng">Secondary Sources</term>
@@ -65,7 +65,8 @@
                <lb/>Bei Kopist Anonymus 022 handelt es sich wahrscheinlich um einen Novizen oder Musiker aus dem Stift Kremsmünster.
                <lb/>Für weitere Kopisten aus Kremsmünster siehe <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>.</p>
             <p decls="desc" xml:lang="eng">
-               <lb/><hi rend="italic">Anonymus</hi> 022 was possibly associated with the monastery at Kremsmünster. 
+               <lb/>
+               <hi rend="italic">Anonymus</hi> 022 was possibly associated with the monastery at Kremsmünster. 
                <lb/>For more copyists from Kremsmünster, see <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Table 3</ref>.</p>
             <table>
                <head>Abschriften</head>

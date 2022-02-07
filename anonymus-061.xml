@@ -52,7 +52,7 @@
                   <persName subtype="W" type="main">Anonymus 061</persName>
                   <idno type="alphabetically_sorted">Anonymus 061 (W)</idno>
                   <floruit from="1876" to="1881">1876–1881</floruit>
-                  <residence/>
+                  <residence>Wien</residence>
                   <affiliation xml:lang="de">Wiener Kopisten</affiliation>
                   <affiliation xml:lang="eng">Vienna copyist</affiliation>
                   <index>
@@ -65,17 +65,13 @@
                <lb/>Der Kopist Anonymus 061 (W) fertigte den ursprünglichen Stimmensatz zur <hi rend="italic">3. Symphonie</hi> an.
                Anschließend besorgte er auch einen großen Teil der als Überklebungen eingefügten
                Korrekturen im Stimmensatz zur <hi rend="italic">Messe in d-Moll</hi>, welcher bei
-               Aufführungen in der Wiener Hofburgkapelle verwendet wurde. Ob der Kopist auch das
-               Widmungsexemplar für den Männerchor <hi rend="italic">Das hohe Lied</hi> anfertigte,
-               lässt sich nicht mit vollständiger Sicherheit bestimmen. 
-            </p>
+               Aufführungen in der Wiener Hofburgkapelle verwendet wurde.</p>
             <p decls="desc" xml:lang="eng">
-               <lb/><hi rend="italic">Anonymus</hi> 061 (W) produced the original set of parts for the <hi rend="italic">Third Symphony</hi>.
+               <lb/>
+               <hi rend="italic">Anonymus</hi> 061 (W) produced the original set of parts for the <hi rend="italic">Third Symphony</hi>.
                Subsequently, he also made a large part of the corrections inserted as overpastings
                in the set of parts for the <hi rend="italic">Mass in D minor</hi>, which was used for performances in the
-               Vienna Hofburgkapelle. Whether the copyist also made the dedication score for the male
-               choir <hi rend="italic">Das hohe Lied</hi> cannot be determined with complete certainty.
-            </p>
+               Vienna Hofburgkapelle.</p>
             <table>
                <head>Abschriften</head>
                <row xml:lang="de" role="label">
@@ -242,5 +238,15 @@
             </list>
          </div>
       </body>
+      <back>
+         <listPlace>
+            <place xml:id="place_100">
+               <location>
+                  <geo>48.208490000000 16.372080000000</geo>
+                  <idno subtype="geonames" type="URL">https://www.geonames.org/2761369</idno>
+               </location>
+            </place>
+         </listPlace>
+      </back>
    </text>
 </TEI>

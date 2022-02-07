@@ -66,7 +66,8 @@
                <lb/>Für weitere Kopisten aus Linz siehe <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>.
             </p>
             <p decls="desc" xml:lang="eng">
-               <lb/><hi rend="italic">Anonymus</hi> 21 (W) is included in the list of primary source copyists from the Vienna period because he played a major role in correcting and preparing new parts for the first performance of the second version of the <hi rend="italic">Mass in E minor</hi> in Linz on 4 October 1885. He was assisted in this process by Karl Hofmeister, Franz Rossi, <hi rend="italic">Anonymus</hi> 88 (W) and <hi rend="italic">Anonymus</hi> 92 (W). <hi rend="italic">Anonymus</hi> 21 (W) also prepared a score of the second version of the <hi rend="italic">Mass in E minor</hi> (A-LIabilWAB027), probably around the same time.
+               <lb/>
+               <hi rend="italic">Anonymus</hi> 21 (W) is included in the list of primary source copyists from the Vienna period because he played a major role in correcting and preparing new parts for the first performance of the second version of the <hi rend="italic">Mass in E minor</hi> in Linz on 4 October 1885. He was assisted in this process by Karl Hofmeister, Franz Rossi, <hi rend="italic">Anonymus</hi> 88 (W) and <hi rend="italic">Anonymus</hi> 92 (W). <hi rend="italic">Anonymus</hi> 21 (W) also prepared a score of the second version of the <hi rend="italic">Mass in E minor</hi> (A-LIabilWAB027), probably around the same time.
                <lb/>For more copyists from Linz, see <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Table 3</ref>. 
             </p>
             <p decls="link" xml:lang="de"/>
@@ -111,45 +112,6 @@
                   <cell role="Folios_in_der_Hand_des_Kopisten">Pos. 1; Pos. 2; Pos. 3, 1r–v, Z. 9</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
                   <cell role="Kommentar_intern"/>
-               </row>
-               <row role="data">
-                  <cell role="Datierung">
-                     <date when="1866-11-25">25.11.1866</date>
-                  </cell>
-                  <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-LId473_6_29">A-LId473_6_29</ref>
-                  </cell>
-                  <cell role="Werktitel">
-                     <ref target="http://www.bruckner-online.at/ABLO_d1e9393">Messe in e-Moll</ref>
-                  </cell>
-                  <cell role="WAB-Nummer">
-                     <ref target="http://www.bruckner-online.at/wab-027">027</ref>
-                  </cell>
-                  <cell role="Art_der_Kopie">Stimmen (Fragment)</cell>
-                  <cell role="erschlossene_Datierung_der_Kopie"/>
-                  <cell role="Folios_in_der_Hand_des_Kopisten">Sop. 1 Stimme 11</cell>
-                  <cell role="Datierung_der_Kopie/Unterschrift"/>
-                  <cell role="Kommentar_intern"/>
-               </row>
-               <row role="data">
-                  <cell role="Datierung">
-                     <date when="1866-11-25">25.11.1866</date>
-                  </cell>
-                  <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-LId478_7_29">A-LId478_7_29</ref>
-                  </cell>
-                  <cell role="Werktitel">
-                     <ref target="http://www.bruckner-online.at/ABLO_d1e9393">Messe in e-Moll</ref>
-                  </cell>
-                  <cell role="WAB-Nummer">
-                     <ref target="http://www.bruckner-online.at/wab-027">027</ref>
-                  </cell>
-                  <cell role="Art_der_Kopie">Stimmen</cell>
-                  <cell role="erschlossene_Datierung_der_Kopie"/>
-                  <cell role="Folios_in_der_Hand_des_Kopisten">Ten 2 Stimme 7, 8, 9, 10, 11,
-                     12,</cell>
-                  <cell role="Datierung_der_Kopie/Unterschrift"/>
-                  <cell role="Kommentar_intern">The parts are not foliated</cell>
                </row>
                <row role="data">
                   <cell role="Datierung">
@@ -230,7 +192,7 @@
                   <cell role="erschlossene_Datierung_der_Kopie"/>
                   <cell role="Folios_in_der_Hand_des_Kopisten">36r–39v (Alt 1, St. 3, Cadd); 68r–71v (Alt 1, St. 15, Cadd);
                      80r–83v (Alt 1, St. 16, Cadd);  104r–107v (Alt 2, St. 5, Cadd); 142r–146v (Alt 2, St. 12, Cadd);
-                      243r–246v (Ten. 1, St. 11, Cadd); 255r–258v (Ten. 1, St. 16, Cadd);
+                     243r–246v (Ten. 1, St. 11, Cadd); 255r–258v (Ten. 1, St. 16, Cadd);
                      275r–278v (Ten. 1, St. 18, Cadd); 287r–290v (Ten. 1, St. 19, Cadd); 299r–302v (Ten. 1, St. 20, Cadd)</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
                   <cell role="Kommentar_intern"/>
@@ -250,7 +212,7 @@
                   </cell>
                   <cell role="Art_der_Kopie">Stimmen</cell>
                   <cell role="erschlossene_Datierung_der_Kopie"/>
-                  <cell role="Folios_in_der_Hand_des_Kopisten">9r–12v (Ten 2, St. 5, Cadd); 21r–24v (Ten 2, St. 6, Cadd); 33r–36v (Ten 2, St. 7, Cadd); 85r–88v (Ten 2, St. 14, Cadd); 137r–140v (Bass 1, St. 4, Cadd); 149r–152r (Bass 1, St. 5, Cadd); 177r–180v (Bass 1, St. 8, Cadd);  205r–208v (Bass 1, St. 11, Cadd); 217r–220v (Bass 1, St. 17, Cadd); 229r–232v (Bass 2, St. 12, Cadd)</cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">9r–12v (Ten. 2, St. 5, Cadd); 21r–24v (Ten. 2, St. 6, Cadd); 33r–36v (Ten. 2, St. 7, Cadd); 85r–88v (Ten. 2, St. 14, Cadd); 137r–140v (Bass 1, St. 4, Cadd); 149r–152r (Bass 1, St. 5, Cadd); 177r–180v (Bass 1, St. 8, Cadd);  205r–208v (Bass 1, St. 11, Cadd); 217r–220v (Bass 1, St. 17, Cadd); 229r–232v (Bass 2, St. 12, Cadd)</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
                   <cell role="Kommentar_intern"/>
                </row>
