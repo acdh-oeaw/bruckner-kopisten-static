@@ -52,7 +52,7 @@
                   <persName subtype="W" type="main">Anonymus 110</persName>
                   <idno type="alphabetically_sorted">Anonymus 110 (W)</idno>
                   <floruit from="1881" to="1883">1881–1883</floruit>
-                  <residence/>
+                  <residence>Wien</residence>
                   <affiliation xml:lang="de">Wiener Kopisten</affiliation>
                   <affiliation xml:lang="eng">Vienna copyist</affiliation>
                   <index>
@@ -64,7 +64,8 @@
             <p decls="desc" xml:lang="de">
                <lb/>Der Kopisten Anonymus 110 (W) fertigte für Bruckner den Stimmensatz zur <hi rend="italic">6. Symphonie</hi> an. </p>
             <p decls="desc" xml:lang="eng">
-               <lb/><hi rend="italic">Anonymus</hi> 110 (W) prepared the set of parts for the <hi rend="italic">Sixth Symphony</hi> for Bruckner. </p>
+               <lb/>
+               <hi rend="italic">Anonymus</hi> 110 (W) prepared the set of parts for the <hi rend="italic">Sixth Symphony</hi> for Bruckner. </p>
             <table>
                <head>Abschriften</head>
                <row xml:lang="de" role="label">
@@ -177,5 +178,15 @@
             </list>
          </div>
       </body>
+      <back>
+         <listPlace>
+            <place xml:id="place_100">
+               <location>
+                  <geo>48.208490000000 16.372080000000</geo>
+                  <idno subtype="geonames" type="URL">https://www.geonames.org/2761369</idno>
+               </location>
+            </place>
+         </listPlace>
+      </back>
    </text>
 </TEI>

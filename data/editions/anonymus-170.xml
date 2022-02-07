@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main" level="a">Laska, Josef</title>
+            <title type="main" level="a">Anonymus 170</title>
             <title level="m">Die Wiener Kopisten der Werke Anton Bruckners</title>
             <author>
                <name>Paul Hawkshaw</name>
@@ -25,7 +25,7 @@
          </editionStmt>
          <publicationStmt>
             <publisher>Die Wiener Kopisten der Werke Anton Bruckners</publisher>
-            <idno type="BrucknerKopisten">d1e29591</idno>
+            <idno type="BrucknerKopisten">d195142</idno>
          </publicationStmt>
          <sourceDesc>
             <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
@@ -34,7 +34,7 @@
       <profileDesc>
          <textClass>
             <keywords>
-               <term>Bekannter Kopist</term>
+               <term>Anonymus</term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -46,16 +46,13 @@
    </teiHeader>
    <text>
       <body>
-         <div xml:id="content-d1e29591">
+         <div xml:id="content-d195142">
             <listPerson>
                <person>
-                  <persName type="main">Laska, Josef</persName>
-                  <persName>
-                     <surname>Laska</surname>
-                     <forename>Josef</forename>
-                  </persName>
-                  <idno type="alphabetically_sorted">Laska, Josef</idno>
-                  <idno type="GND">128649836</idno>
+                  <persName subtype="W" type="main">Anonymus 170</persName>
+                  <idno type="alphabetically_sorted">Anonymus 170 (W)</idno>
+                  <floruit from="1879" notBefore="1878" xml:lang="de">ca. 1884</floruit>
+                  <floruit from="1879" notBefore="1878" xml:lang="eng">ca. 1884</floruit>
                   <residence/>
                   <affiliation xml:lang="de"/>
                   <affiliation xml:lang="eng"/>
@@ -65,13 +62,12 @@
                   </index>
                </person>
             </listPerson>
-            <p decls="desc" xml:lang="de"/>
-            <p decls="desc" xml:lang="eng"/>
-            <p decls="link" xml:lang="de">Eine detaillierte Biographie findet sich im entsprechenden
-               Artikel des ABLO: <ref target="http://www.bruckner-online.at/ABLO_d1e2527">siehe
-                  ABLO</ref>
+            <p decls="desc" xml:lang="de">
+               <lb/>
             </p>
-            <p decls="link" xml:lang="eng"/>
+            <p decls="desc" xml:lang="eng">
+               <lb/>
+            </p>
             <table>
                <head>Abschriften</head>
                <row xml:lang="de" role="label">
@@ -96,36 +92,37 @@
                </row>
                <row role="data">
                   <cell role="Datierung">
-                     <date notAfter="1867-10-04">vor 04.10.1867</date>
+                     <date from="1878-12" to="1879-07-12">von Dezember 1878 bis 12.07.1879</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnF20Laska31">A-WnF20Laska31</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-SF20-73">A-SF20-73</ref>
                   </cell>
                   <cell role="Werktitel">
-                     <ref target="http://www.bruckner-online.at/ABLO_d1e9046">Herbstkummer</ref>
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9805">Streichquintett</ref>
                   </cell>
                   <cell role="WAB-Nummer">
-                     <ref target="http://www.bruckner-online.at/wab-072">072</ref>
+                     <ref target="http://www.bruckner-online.at/wab-112">112</ref>
                   </cell>
-                  <cell role="Art_der_Kopie">Partitur mit aut Eintragungen</cell>
+                  <cell role="Art_der_Kopie">Stimmen mit aut. Eintragungen</cell>
                   <cell role="erschlossene_Datierung_der_Kopie"/>
-                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">15v; 30v; 44v; 58v; 67r</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
-                  <cell role="Kommentar_intern">Have not seen. The Laska in ABLO is to young to have
-                     copied something with aut entrances. Check this!!!</cell>
+                  <cell role="Kommentar_intern">SQ5</cell>
                </row>
             </table>
             <list>
-               <head xml:lang="de">Beispiele entnommen aus: <ref target="Laska_Josef_A-WnF20Laska31.jpg">A-WnF20Laska31</ref>
+               <head xml:lang="de">Beispiele entnommen aus: <ref target="Anonymus-170_A-SF20-73-Va1-14v.jpg">A-SF20-73</ref>
                </head>
-               <head xml:lang="eng">Examples taken from: <ref target="Laska_Josef_A-WnF20Laska31.jpg">WnF20Laska31</ref>
+               <head xml:lang="eng">Examples taken from: <ref target="Anonymus-170_A-SF20-73-Va1-14v.jpg">A-SF20-73</ref>
                </head>
                <item>
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/L/Laska_Josef/Laska_Josef_A-WnF20Laska31_A-Clefs_G.png"/>
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_170/Anonymus-170_A-SF20-73_A-Clefs_C.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_170/Anonymus-170_A-SF20-73_A-Clefs_G.png"/>
                   </figure>
                </item>
                <item>
@@ -133,29 +130,30 @@
                   <title xml:lang="eng">Accidentals</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/L/Laska_Josef/Laska_Josef_A-WnF20Laska31_B-Accidentals_Flat.png"/>
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_170/Anonymus-170_A-SF20-73_B-Accidentals_Flat.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/L/Laska_Josef/Laska_Josef_A-WnF20Laska31_B-Accidentals_Natural.png"/>
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_170/Anonymus-170_A-SF20-73_B-Accidentals_Natural_1.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/L/Laska_Josef/Laska_Josef_A-WnF20Laska31_B-Accidentals_Sharp.png"/>
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_170/Anonymus-170_A-SF20-73_B-Accidentals_Natural_2.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Taktvorzeichnung</title>
                   <title xml:lang="eng">Time Signatures</title>
-                  <figure>
-                     <graphic scale="33"
-                              url="../../101_samples/named/L/Laska_Josef/Laska_Josef_A-WnF20Laska31_C-Time-Signatures_C.png"/>
-                  </figure>
+                  <figure/>
                </item>
                <item>
                   <title xml:lang="de">Pausen</title>
                   <title xml:lang="eng">Rests</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/L/Laska_Josef/Laska_Josef_A-WnF20Laska31_D-Rests_Achtel.png"/>
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_170/Anonymus-170_A-SF20-73_D-Rests_Achtel_1.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/L/Laska_Josef/Laska_Josef_A-WnF20Laska31_D-Rests_Viertel.png"/>
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_170/Anonymus-170_A-SF20-73_D-Rests_Ganze_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_170/Anonymus-170_A-SF20-73_D-Rests_Viertel_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_170/Anonymus-170_A-SF20-73_D-Rests_Viertel_2.png"/>
                   </figure>
                </item>
                <item>
@@ -163,11 +161,19 @@
                   <title xml:lang="eng">Notes</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/L/Laska_Josef/Laska_Josef_A-WnF20Laska31_E-Notes_Achtel.png"/>
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_170/Anonymus-170_A-SF20-73_E-Notes_Achtel_1.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/L/Laska_Josef/Laska_Josef_A-WnF20Laska31_E-Notes_Halbe.png"/>
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_170/Anonymus-170_A-SF20-73_E-Notes_Achtel_2.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/L/Laska_Josef/Laska_Josef_A-WnF20Laska31_E-Notes_Viertel.png"/>
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_170/Anonymus-170_A-SF20-73_E-Notes_Ganze_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_170/Anonymus-170_A-SF20-73_E-Notes_Halbe_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_170/Anonymus-170_A-SF20-73_E-Notes_Halbe_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_170/Anonymus-170_A-SF20-73_E-Notes_Halbe_3.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_170/Anonymus-170_A-SF20-73_E-Notes_Viertel_1.png"/>
                   </figure>
                </item>
                <item>
@@ -175,17 +181,17 @@
                   <title xml:lang="eng">Dynamics</title>
                   <figure>
                      <graphic scale="33"
-                              url="../../101_samples/named/L/Laska_Josef/Laska_Josef_A-WnF20Laska31_F-Dynamics_Cresc.png"/>
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_170/Anonymus-170_A-SF20-73_F-Dynamics_Crescendo.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/L/Laska_Josef/Laska_Josef_A-WnF20Laska31_F-Dynamics_Crescendo.png"/>
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_170/Anonymus-170_A-SF20-73_F-Dynamics_Diminuendo.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/L/Laska_Josef/Laska_Josef_A-WnF20Laska31_F-Dynamics_Forte.png"/>
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_170/Anonymus-170_A-SF20-73_F-Dynamics_Fortissimo.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/L/Laska_Josef/Laska_Josef_A-WnF20Laska31_F-Dynamics_Mezzoforte.png"/>
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_170/Anonymus-170_A-SF20-73_F-Dynamics_Mezzoforte.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/L/Laska_Josef/Laska_Josef_A-WnF20Laska31_F-Dynamics_Pianissimo.png"/>
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_170/Anonymus-170_A-SF20-73_F-Dynamics_Pianissimo.png"/>
                      <graphic scale="33"
-                              url="../../101_samples/named/L/Laska_Josef/Laska_Josef_A-WnF20Laska31_F-Dynamics_Piano.png"/>
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_170/Anonymus-170_A-SF20-73_F-Dynamics_Piano.png"/>
                   </figure>
                </item>
             </list>

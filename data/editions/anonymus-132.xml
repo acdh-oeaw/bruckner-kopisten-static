@@ -63,7 +63,7 @@
             <p decls="desc" xml:lang="de">
                <lb/>Die Stimmen tragen den Stempel „Stadtpfarramt Mülln in Salzburg“, was darauf hindeutet, dass die Kopisten Anonymus 132 und 133 im Umfeld der Müllner Stadtpfarre gearbeitet haben könnten.</p>
             <p decls="desc" xml:lang="eng">
-               <lb/>The parts have a stamp “Stadtpfarramt Mülln in Salzburg” suggesting <hi rend="italic">Anonymus</hi> 132 and 133 may have worked in that city. </p>
+               <lb/>The parts have a stamp “Stadtpfarramt Mülln in Salzburg” suggesting <hi rend="italic">Anonymus</hi> 132 and 133 may have worked in the area of Salzburg. </p>
             <table>
                <head>Abschriften</head>
                <row xml:lang="de" role="label">
@@ -101,7 +101,7 @@
                   </cell>
                   <cell role="Art_der_Kopie">Stimmen</cell>
                   <cell role="erschlossene_Datierung_der_Kopie"/>
-                  <cell role="Folios_in_der_Hand_des_Kopisten">1r, 2r, 3r, 4r, 5r</cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">1r; 2r; 3r; 4r; 5r</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
                   <cell role="Kommentar_intern"/>
                </row>

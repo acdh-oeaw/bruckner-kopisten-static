@@ -57,7 +57,7 @@
                   <idno type="alphabetically_sorted">Schalk, Franz</idno>
                   <idno type="GND">118606360</idno>
                   <floruit from="1881" to="1889">1881(?)–1889(?)</floruit>
-                  <residence/>
+                  <residence>Wien</residence>
                   <affiliation xml:lang="de"/>
                   <affiliation xml:lang="eng"/>
                   <index>
@@ -301,5 +301,15 @@
             </list>
          </div>
       </body>
+      <back>
+         <listPlace>
+            <place xml:id="place_100">
+               <location>
+                  <geo>48.208490000000 16.372080000000</geo>
+                  <idno subtype="geonames" type="URL">https://www.geonames.org/2761369</idno>
+               </location>
+            </place>
+         </listPlace>
+      </back>
    </text>
 </TEI>

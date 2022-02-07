@@ -64,7 +64,8 @@
                <lb/>Die Kopist Anonymus 093 stammt wahrscheinlich aus dem Umfeld des Linzer Doms.
                <lb/>Für weitere Kopisten aus Linz siehe <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>.</p>
             <p decls="desc" xml:lang="eng">
-               <lb/><hi rend="italic">Anonymus</hi> 093 probably worked for the cathedral in Linz. 
+               <lb/>
+               <hi rend="italic">Anonymus</hi> 093 probably worked for the cathedral in Linz. 
                <lb/>For more copyists from Linz, see <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Table 3</ref>.</p>
             <table>
                <head>Abschriften</head>
@@ -103,7 +104,7 @@
                   </cell>
                   <cell role="Art_der_Kopie">Stimmen</cell>
                   <cell role="erschlossene_Datierung_der_Kopie"/>
-                  <cell role="Folios_in_der_Hand_des_Kopisten">Hn 1–2; Hn 3–4</cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">271r–272v (Hr. 1/2 sowie Hr. 3/4)</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
                   <cell role="Kommentar_intern"/>
                </row>

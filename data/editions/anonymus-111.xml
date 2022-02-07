@@ -52,7 +52,7 @@
                   <persName subtype="W" type="main">Anonymus 111</persName>
                   <idno type="alphabetically_sorted">Anonymus 111 (W)</idno>
                   <floruit from="1884" to="1884">ca. 1884</floruit>
-                  <residence/>
+                  <residence>Wien</residence>
                   <affiliation xml:lang="de">Wiener Kopisten</affiliation>
                   <affiliation xml:lang="eng">Vienna copyist</affiliation>
                   <index>
@@ -65,7 +65,8 @@
                <lb/>Wahrscheinlich auf das Jahr 1884 oder kurz danach ist die Einfügung eines Partiturblattes in die autographe Partitur des <hi rend="italic">Te Deums</hi> durch den Kopisten Anonymus 111 (W) zu datieren.
             </p>
             <p decls="desc" xml:lang="eng">
-               <lb/><hi rend="italic">Anonymus</hi> 111 (W) added a page to the autograph score of the <hi rend="italic">Te Deum</hi>, probably in 1884 or shortly thereafter. </p>
+               <lb/>
+               <hi rend="italic">Anonymus</hi> 111 (W) added a page to the autograph score of the <hi rend="italic">Te Deum</hi>, probably in 1884 or shortly thereafter. </p>
             <table>
                <head>Abschriften</head>
                <row xml:lang="de" role="label">
@@ -165,5 +166,15 @@
             </list>
          </div>
       </body>
+      <back>
+         <listPlace>
+            <place xml:id="place_100">
+               <location>
+                  <geo>48.208490000000 16.372080000000</geo>
+                  <idno subtype="geonames" type="URL">https://www.geonames.org/2761369</idno>
+               </location>
+            </place>
+         </listPlace>
+      </back>
    </text>
 </TEI>

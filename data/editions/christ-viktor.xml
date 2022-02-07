@@ -57,7 +57,7 @@
                   <idno type="alphabetically_sorted">Christ, Viktor</idno>
                   <idno type="GND"/>
                   <floruit from="1890" to="1891">1890–1891</floruit>
-                  <residence>Wien</residence>
+                  <residence/>
                   <affiliation xml:lang="de"/>
                   <affiliation xml:lang="eng"/>
                   <index>
@@ -224,16 +224,5 @@
             </list>
          </div>
       </body>
-      <back>
-         <listPlace>
-            <place xml:id="place_100">
-               <placeName>Wien</placeName>
-               <location>
-                  <geo>48.208490000000 16.372080000000</geo>
-               </location>
-               <idno subtype="geonames" type="URL">https://www.geonames.org/2761369</idno>
-            </place>
-         </listPlace>
-      </back>
    </text>
 </TEI>

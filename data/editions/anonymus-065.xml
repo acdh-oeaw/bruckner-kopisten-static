@@ -52,7 +52,7 @@
                   <persName subtype="W" type="main">Anonymus 065</persName>
                   <idno type="alphabetically_sorted">Anonymus 065 (W)</idno>
                   <floruit from="1875" to="1877">1875–1877</floruit>
-                  <residence/>
+                  <residence>Wien</residence>
                   <affiliation xml:lang="de">Wiener Kopisten</affiliation>
                   <affiliation xml:lang="eng">Vienna copyist</affiliation>
                   <index>
@@ -65,7 +65,8 @@
                <lb/>Der Kopist Anonymus 065 (W) fertige Partiturabschriften zur jeweils 1. Fassung der <hi rend="italic">3.</hi> und <hi rend="italic">4. Symphonie</hi> für Bruckner an.
             </p>
             <p decls="desc" xml:lang="eng">
-               <lb/><hi rend="italic">Anonymus</hi> 065 (W) worked on the first version of both the <hi rend="italic">Third</hi> and <hi rend="italic">Fourth Symphonies</hi> for Bruckner.
+               <lb/>
+               <hi rend="italic">Anonymus</hi> 065 (W) worked on the first version of both the <hi rend="italic">Third</hi> and <hi rend="italic">Fourth Symphonies</hi> for Bruckner.
             </p>
             <table>
                <head>Abschriften</head>
@@ -234,5 +235,15 @@
             </list>
          </div>
       </body>
+      <back>
+         <listPlace>
+            <place xml:id="place_100">
+               <location>
+                  <geo>48.208490000000 16.372080000000</geo>
+                  <idno subtype="geonames" type="URL">https://www.geonames.org/2761369</idno>
+               </location>
+            </place>
+         </listPlace>
+      </back>
    </text>
 </TEI>

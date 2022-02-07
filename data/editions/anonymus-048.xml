@@ -52,7 +52,7 @@
                   <persName subtype="W" type="main">Anonymus 048</persName>
                   <idno type="alphabetically_sorted">Anonymus 048 (W)</idno>
                   <floruit from="1893" to="1893">1893</floruit>
-                  <residence/>
+                  <residence>Wien</residence>
                   <affiliation xml:lang="de">Wiener Kopisten</affiliation>
                   <affiliation xml:lang="eng">Vienna copyist</affiliation>
                   <index>
@@ -105,7 +105,7 @@
                   <cell role="Art_der_Kopie">Stimmen</cell>
                   <cell role="erschlossene_Datierung_der_Kopie"/>
                   <cell role="Folios_in_der_Hand_des_Kopisten">7 Vl. 1, 7 Vl. 2, 7 Va., 6 Vc. und 6
-                     Kb. Credo/Sanctus/Benedictus/Agnus Dei; Hr. 4: 3v, Z 7–11 Kyrie/Gloria</cell>
+                     Kb. (Credo / Sanctus / Benedictus / Agnus Dei); Hr. 4: 3v, Z. 7–11 (Kyrie / Gloria)</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
                   <cell role="Kommentar_intern"/>
                </row>
@@ -148,5 +148,15 @@
             </list>
          </div>
       </body>
+      <back>
+         <listPlace>
+            <place xml:id="place_100">
+               <location>
+                  <geo>48.208490000000 16.372080000000</geo>
+                  <idno subtype="geonames" type="URL">https://www.geonames.org/2761369</idno>
+               </location>
+            </place>
+         </listPlace>
+      </back>
    </text>
 </TEI>

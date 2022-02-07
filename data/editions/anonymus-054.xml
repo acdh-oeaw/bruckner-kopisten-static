@@ -52,7 +52,7 @@
                   <persName subtype="W" type="main">Anonymus 054</persName>
                   <idno type="alphabetically_sorted">Anonymus 054 (W)</idno>
                   <floruit from="1872" to="1873">1872–1873</floruit>
-                  <residence/>
+                  <residence>Linz</residence>
                   <affiliation xml:lang="de">Linzer Kopisten</affiliation>
                   <affiliation xml:lang="eng">Linzer copyist</affiliation>
                   <index>
@@ -66,7 +66,8 @@
                <lb/>Für weitere Kopisten aus Linz siehe <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>.
             </p>
             <p decls="desc" xml:lang="eng">
-               <lb/><hi rend="italic">Anonymus</hi> 054 (W) contributed one Vl 2 part to the original set for the <hi rend="italic">Second Symphony</hi>.
+               <lb/>
+               <hi rend="italic">Anonymus</hi> 054 (W) contributed one Vl 2 part to the original set for the <hi rend="italic">Second Symphony</hi>.
                <lb/>For more copyists from Linz, see <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Table 3</ref>.
             </p>
             <table>

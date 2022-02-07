@@ -65,8 +65,7 @@
                <lb/>Der Kopist Anonymus 001 (L) arbeitete zusammen mit Franz Schimatschek an
                Stimmauszügen zu sechs verschiedenen Werken. Die enge Zusammenarbeit zwischen beiden
                Kopisten lässt sich bspw. an der 3. Violin1-Stimme der <hi rend="italic">Messe in
-                  d-Moll</hi> (A-Wn-Mus.Hs.6074, fol. 220<hi rend="sup">r</hi>–231<hi rend="sup"
-                  >v</hi>) nachvollziehen: Fol. 230<hi rend="sup">v</hi> wurde vom Kopisten Anonymus
+                  d-Moll</hi> (A-Wn-Mus.Hs.6074, fol. 220<hi rend="sup">r</hi>–231<hi rend="sup">v</hi>) nachvollziehen: Fol. 230<hi rend="sup">v</hi> wurde vom Kopisten Anonymus
                001 (L) angefertigt, wohingegen die recto-Seite sowie die Fortsetzung der Stimme auf
                fol. 231<hi rend="sup">r</hi> desselben Blattes von Schimatschek stammt. In einigen
                Fällen, wie bspw. für den Stimmensatz des <hi rend="italic">Afferentur regi</hi>,
@@ -87,31 +86,31 @@
                      auslaufenden Hals des „p“ durchkreuzt, während sich diese Schreibweise bei
                      Schimatschek nur vereinzelt bis selten wiederfindet.</item>
                </list>
-               <lb/>Für weitere Kopisten aus Linz siehe <ref
-                  target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>. </p>
+               <lb/>Für weitere Kopisten aus Linz siehe <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>. </p>
             <p decls="desc" xml:lang="eng">
-               <lb/><hi rend="italic">Anonymus</hi> 001 (L) assisted Franz Schimatschek in the preparation of parts for six
+               <lb/>
+               <hi rend="italic">Anonymus</hi> 001 (L) assisted Franz Schimatschek in the preparation of parts for six
                works. The close relationship between the two copyists is illustrated by their Vl.
-               1/3 part for the <hi rend="italic">Mass in D minor</hi>, A-WnMus.Hs.6074, fol. 220<hi rend="sup"
-                  >r</hi>–231<hi rend="sup">v</hi>. Fol. 230<hi rend="sup">v</hi> was copied by
+               1/3 part for the <hi rend="italic">Mass in D minor</hi>, A-WnMus.Hs.6074, fol. 220<hi rend="sup">r</hi>–231<hi rend="sup">v</hi>. Fol. 230<hi rend="sup">v</hi> was copied by
                <hi rend="italic">Anonymus</hi> 001 (L) with entries in Schimatschek’s hand. The recto side of the same
-               folio was written by Schimatschek, as was the continuation of the part on fol. 231<hi
-                  rend="sup">r</hi>. In some cases, <hi rend="italic">Afferentur regi</hi> for example, Schimatschek
-               prepared an initial set of parts and assigned the duplicates to <hi rend="italic">Anonymus</hi> 001 (L). <list
-                  type="ordered">
+               folio was written by Schimatschek, as was the continuation of the part on fol. 231<hi rend="sup">r</hi>. In some cases, <hi rend="italic">Afferentur regi</hi> for example, Schimatschek
+               prepared an initial set of parts and assigned the duplicates to <hi rend="italic">Anonymus</hi> 001 (L). <list type="ordered">
                   <head>Because the two hands are similar, it is worthwhile to point out some of the
                      differences between them:</head>
-                  <item n="1"><hi rend="italic">Anonymus</hi> 001 (L) usually has an extra loop to the right on the treble
+                  <item n="1">
+                     <hi rend="italic">Anonymus</hi> 001 (L) usually has an extra loop to the right on the treble
                      clef.</item>
-                  <item n="2"><hi rend="italic">Anonymus</hi> 001 (L)’s bass clef opens to the right; Schimatschek’s opens to
+                  <item n="2">
+                     <hi rend="italic">Anonymus</hi> 001 (L)’s bass clef opens to the right; Schimatschek’s opens to
                      the left.</item>
-                  <item n="3"><hi rend="italic">Anonymus</hi> 001 (L)’s quarter rests are usually horizontal; Schimatschek’s
+                  <item n="3">
+                     <hi rend="italic">Anonymus</hi> 001 (L)’s quarter rests are usually horizontal; Schimatschek’s
                      are diagonal from lower left to upper right.</item>
-                  <item n="4"><hi rend="italic">Anonymus</hi> 001 (L) usually crosses the stem of his dynamic mark “p”;
+                  <item n="4">
+                     <hi rend="italic">Anonymus</hi> 001 (L) usually crosses the stem of his dynamic mark “p”;
                      Schimatschek seldom does.</item>
                </list>
-               <lb/>For more copyists from Linz, see <ref
-                  target="../../100_Introduction/Tabelle_3.xml" type="table">Table 3</ref>.</p>
+               <lb/>For more copyists from Linz, see <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Table 3</ref>.</p>
             <table>
                <head>Abschriften</head>
                <row xml:lang="de" role="label">
@@ -139,8 +138,7 @@
                      <date notAfter="1861-02-11">11.02.1861</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-SF20-50"
-                        >A-SF20-50</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-SF20-50">A-SF20-50</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e8593">Am Grabe</ref>
@@ -161,9 +159,7 @@
                      <date notAfter="1861-05-12">vor 12.05.1861</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref
-                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.28269"
-                        >A-WnMus.Hs.28269</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.28269">A-WnMus.Hs.28269</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e8719">Ave Maria</ref>
@@ -185,8 +181,7 @@
                      <date when="1861-11-07">07.11.1861</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-SF20-52b"
-                        >A-SF20-52b</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-SF20-52b">A-SF20-52b</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e8577">Afferentur regi</ref>
@@ -198,7 +193,7 @@
                   <cell role="erschlossene_Datierung_der_Kopie">
                      <date when="1861">1861</date>
                   </cell>
-                  <cell role="Folios_in_der_Hand_des_Kopisten"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">2r; 3r; 5r; 7r; 9r; 10r; 12r; 14r</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
                   <cell role="Kommentar_intern"/>
                </row>
@@ -207,8 +202,7 @@
                      <date when="1862-04-25">25.04.1862</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-LId470_6_29"
-                        >A-LId470_6_29</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-LId470_6_29">A-LId470_6_29</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e8949">Festkantate</ref>
@@ -231,8 +225,7 @@
                      <date when="1864-09-29">29.09.1864</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://data.onb.ac.at/rep/112EDE19" type="extern"
-                        >A-WnMus.Hs.6074</ref>
+                     <ref target="http://data.onb.ac.at/rep/112EDE19" type="extern">A-WnMus.Hs.6074</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9384">Messe in d-Moll</ref>
@@ -254,8 +247,7 @@
                      <date when="1866-11-25">25.11.1866</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-LId473_6_29"
-                        >A-LId473_6_29</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-LId473_6_29">A-LId473_6_29</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9393">Messe in e-Moll</ref>
@@ -267,26 +259,23 @@
                   <cell role="erschlossene_Datierung_der_Kopie">
                      <date when="1866">1866</date>
                   </cell>
-                  <cell role="Folios_in_der_Hand_des_Kopisten">112v–119r (Sop 2, St. 16); 123v–130r
-                     (Sop 2, St. 17); 135v–142r (Sop 2, St. 18); 147v–154r (Sop 2, St. 19)</cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">112v–119r (Sop. 2, St. 16); 123v–130r
+                     (Sop. 2, St. 17); 135v–142r (Sop. 2, St. 18); 147v–154r (Sop. 2, St. 19)</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
                   <cell role="Kommentar_intern"/>
                </row>
             </table>
             <list>
-               <head xml:lang="de">Beispiele entnommen aus: <ref
-                     target="Anonymus-001_A-SF20-52b-02r.jpg">A-SF20-52b</ref>
+               <head xml:lang="de">Beispiele entnommen aus: <ref target="Anonymus-001_A-SF20-52b-02r.jpg">A-SF20-52b</ref>
                </head>
-               <head xml:lang="eng">Examples taken from: <ref
-                     target="Anonymus-001_A-SF20-52b-02r.jpg">A-SF20-52b</ref>
+               <head xml:lang="eng">Examples taken from: <ref target="Anonymus-001_A-SF20-52b-02r.jpg">A-SF20-52b</ref>
                </head>
                <item>
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_001/Anonymus-001_A-SF20-52b_A-Clefs_C.png"
-                     />
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_001/Anonymus-001_A-SF20-52b_A-Clefs_C.png"/>
                   </figure>
                </item>
                <item>
@@ -294,12 +283,11 @@
                   <title xml:lang="eng">Accidentals</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_001/Anonymus-001_A-SF20-52b_B-Accidentals_Flat.png"/>
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_001/Anonymus-001_A-SF20-52b_B-Accidentals_Flat.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_001/Anonymus-001_A-SF20-52b_B-Accidentals_Natural.png"/>
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_001/Anonymus-001_A-SF20-52b_B-Accidentals_Natural.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_001/Anonymus-001_A-SF20-52b_B-Accidentals_Sharp.png"
-                     />
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_001/Anonymus-001_A-SF20-52b_B-Accidentals_Sharp.png"/>
                   </figure>
                </item>
                <item>
@@ -307,8 +295,7 @@
                   <title xml:lang="eng">Time Signatures</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_001/Anonymus-001_A-SF20-52b_C-Time-Signatures_3_4.png"
-                     />
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_001/Anonymus-001_A-SF20-52b_C-Time-Signatures_3_4.png"/>
                   </figure>
                </item>
                <item>
@@ -316,8 +303,7 @@
                   <title xml:lang="eng">Rests</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_001/Anonymus-001_A-SF20-52b_D-Rests_Viertel.png"
-                     />
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_001/Anonymus-001_A-SF20-52b_D-Rests_Viertel.png"/>
                   </figure>
                </item>
                <item>
@@ -325,14 +311,13 @@
                   <title xml:lang="eng">Notes</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_001/Anonymus-001_A-SF20-52b_E-Notes_Achtel.png"/>
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_001/Anonymus-001_A-SF20-52b_E-Notes_Achtel.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_001/Anonymus-001_A-SF20-52b_E-Notes_Halbe.png"/>
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_001/Anonymus-001_A-SF20-52b_E-Notes_Halbe.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_001/Anonymus-001_A-SF20-52b_E-Notes_Sechzehntel.png"/>
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_001/Anonymus-001_A-SF20-52b_E-Notes_Sechzehntel.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_001/Anonymus-001_A-SF20-52b_E-Notes_Viertel.png"
-                     />
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_001/Anonymus-001_A-SF20-52b_E-Notes_Viertel.png"/>
                   </figure>
                </item>
                <item>
@@ -340,18 +325,17 @@
                   <title xml:lang="eng">Dynamics</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_001/Anonymus-001_A-SF20-52b_F-Dynamics_Cresc.png"/>
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_001/Anonymus-001_A-SF20-52b_F-Dynamics_Cresc.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_001/Anonymus-001_A-SF20-52b_F-Dynamics_Decresc.png"/>
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_001/Anonymus-001_A-SF20-52b_F-Dynamics_Decresc.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_001/Anonymus-001_A-SF20-52b_F-Dynamics_Forte.png"/>
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_001/Anonymus-001_A-SF20-52b_F-Dynamics_Forte.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_001/Anonymus-001_A-SF20-52b_F-Dynamics_Fortissimo.png"/>
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_001/Anonymus-001_A-SF20-52b_F-Dynamics_Fortissimo.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_001/Anonymus-001_A-SF20-52b_F-Dynamics_Mezzoforte.png"/>
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_001/Anonymus-001_A-SF20-52b_F-Dynamics_Mezzoforte.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_001/Anonymus-001_A-SF20-52b_F-Dynamics_Piano.png"
-                     />
+                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_001/Anonymus-001_A-SF20-52b_F-Dynamics_Piano.png"/>
                   </figure>
                </item>
             </list>

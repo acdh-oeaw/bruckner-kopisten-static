@@ -391,7 +391,7 @@
                      <date when="1862-04-25">25.04.1862</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-LId465_6_29">A-LId465_6_29</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-LId470_6_29">A-LId470_6_29</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e8949">Festkantate</ref>
@@ -403,8 +403,8 @@
                   <cell role="erschlossene_Datierung_der_Kopie">
                      <date when="1862">1862</date>
                   </cell>
-                  <cell role="Folios_in_der_Hand_des_Kopisten">Ten Solo 1–2; Bass Solo 1–2; 7 Ten 1;
-                     11 Ten 2; 11 Bass 1; all instrumental parts except hn 1–4[1]</cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">1r–16v (Ten.-Solo 1 und 2 sowie Bass-Solo 1 und 2); 7 Ten. 1;
+                     11 Ten. 2; 11 Bass 1; 241r–270v (Instrumentalstimmen, ausgenommen Hr. 1–4)</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift">Trb alt; Trb Ten</cell>
                   <cell role="Kommentar_intern">[1] The parts have no foliation. See also Anonymous
                      L1 who prepared most of the rest of the parts.</cell>
@@ -470,9 +470,9 @@
                   </cell>
                   <cell role="Folios_in_der_Hand_des_Kopisten">1r–57v; 59r–70r; 78r–78v; 81r–90r;
                      101r–119v; 151r–158r; 160r–170r; 171r; 176r–183v; 194r–230r; 231r; 252r–275r;
-                     288r–408v. Fol. 230v hat Eintragungen von Schimatschek.</cell>
+                     288r–408v</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift">183v; 219r; 231r; 383v</cell>
-                  <cell role="Kommentar_intern"/>
+                  <cell role="Kommentar_intern">Fol. 230v mit Eintragungen von Schimatschek.</cell>
                </row>
                <row role="data">
                   <cell role="Datierung">
@@ -491,10 +491,10 @@
                   <cell role="erschlossene_Datierung_der_Kopie">
                      <date when="1864">1864</date>
                   </cell>
-                  <cell role="Folios_in_der_Hand_des_Kopisten">1r; 5r, T3–5; 6v, T7–7v, T1; 8r–9r;
-                     11v–13v. Fol. 5r, 6r, und 9v-11r haben Eintragungen von Schimatschek.</cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">1r; 5r, T. 3–5; 6v, T. 7–7v, T. 1; 8r–9r;
+                     11v–13v</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
-                  <cell role="Kommentar_intern"/>
+                  <cell role="Kommentar_intern">Fol. 5r, 6r, und 9v-11r haben Eintragungen von Schimatschek</cell>
                </row>
                <row role="data">
                   <cell role="Datierung">
@@ -511,7 +511,7 @@
                   </cell>
                   <cell role="Art_der_Kopie">Klavierauszug</cell>
                   <cell role="erschlossene_Datierung_der_Kopie"/>
-                  <cell role="Folios_in_der_Hand_des_Kopisten">1r, T1–5, 20–22,27–28; 1v, T1–13, 29–32; 2r–2v</cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">1r, T. 1–5, 20–22, 27–28; 1v, T. 1–13, 29–32; 2r–2v</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
                   <cell role="Kommentar_intern"/>
                </row>
@@ -635,6 +635,7 @@
                   <cell role="Datierung_der_Kopie/Unterschrift">60r</cell>
                   <cell role="Kommentar_intern"/>
                </row>
+               <!--
                <row role="data">
                   <cell role="Datierung">
                      <date when="1866-11-25">25.11.1866</date>
@@ -654,6 +655,7 @@
                   <cell role="Datierung_der_Kopie/Unterschrift">?</cell>
                   <cell role="Kommentar_intern"/>
                </row>
+               -->
                <row role="data">
                   <cell role="Datierung">
                      <date when="1866-11-25">25.11.1866</date>
@@ -730,9 +732,9 @@
                   </cell>
                   <cell role="Art_der_Kopie">Stimmen</cell>
                   <cell role="erschlossene_Datierung_der_Kopie"/>
-                  <cell role="Folios_in_der_Hand_des_Kopisten">1r–8r (Sop 1, St. 7); 9r–16r (Sop 1, St. 10); 20r–27r (Sop 1, St. 12);
-                     28r–35r (Sop 1, St. 14); 40r–47r (Sop 1, St. 15); 48r–55r (Sop 1, St. 18); 60r–67r (Sop 1, St. 19); 72r–79r (Sop 1, St. 20);
-                     84r–91r (Sop 2, St. 3); 96r–103r (Sop 2, St. 4); 104r–111r (Sop 2, St. 7); 159r–166r (Bass 2, St. 3);
+                  <cell role="Folios_in_der_Hand_des_Kopisten">1r–8r (Sop. 1, St. 7); 9r–16r (Sop. 1, St. 10); 20r–27r (Sop. 1, St. 12);
+                     28r–35r (Sop. 1, St. 14); 40r–47r (Sop. 1, St. 15); 48r–55r (Sop. 1, St. 18); 60r–67r (Sop. 1, St. 19); 72r–79r (Sop. 1, St. 20);
+                     84r–91r (Sop. 2, St. 3); 96r–103r (Sop. 2, St. 4); 104r–111r (Sop. 2, St. 7); 159r–166r (Bass 2, St. 3);
                      167r–174r (Bass 2, St. 5); 179r–186r (Bass 2, St. 6); 191r–198r (Bass 2, St. 7); 203r–210r (Bass 2, St. 8)</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
                   <cell role="Kommentar_intern">Note: The parts are not foliated.</cell>
@@ -778,8 +780,8 @@
                   </cell>
                   <cell role="Art_der_Kopie">Stimmen</cell>
                   <cell role="erschlossene_Datierung_der_Kopie"/>
-                  <cell role="Folios_in_der_Hand_des_Kopisten">1r–8r (Ten 2, St. 5); 13r–20r (Ten 2, St. 6);
-                     77r–84r (Ten 2, St. 14); 89r–96r (Ten 2, St. 18); 101r–108r (Ten 2, St. 19); 109r–116r (Ten 2, St. 20);
+                  <cell role="Folios_in_der_Hand_des_Kopisten">1r–8r (Ten. 2, St. 5); 13r–20r (Ten. 2, St. 6);
+                     77r–84r (Ten. 2, St. 14); 89r–96r (Ten. 2, St. 18); 101r–108r (Ten. 2, St. 19); 109r–116r (Ten. 2, St. 20);
                      117r–124r (Bass 1, St. 3); 129r–136r (Bass 1, St. 4); 141r–148r (Bass 1, St. 5); 153r–160r (Bass 1, St. 6);
                      161r–168r (Bass 1, St. 7); 169r–176r (Bass 1, St. 8); 181r–188r (Bass 1, St. 9); 189r–196r (Bass 1, St. 10);
                      197r–204r (Bass 1, St. 11); 209r–216r (Bass 1, St. 17); 221r–228r (Bass 2, St. 12); 233r–240r (Bass 2, St. 13);
@@ -844,7 +846,7 @@
                   </cell>
                   <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift">138r; 178v</cell>
-                  <cell role="Kommentar_intern">need to see these again</cell>
+                  <cell role="Kommentar_intern"/>
                </row>
                <row role="data">
                   <cell role="Datierung">
@@ -882,8 +884,7 @@
                   </cell>
                   <cell role="Art_der_Kopie">Stimmen</cell>
                   <cell role="erschlossene_Datierung_der_Kopie"/>
-                  <cell role="Folios_in_der_Hand_des_Kopisten">3r–34v. Die Klarinettenstimme
-                     zwischen Fol. 18 und 19 hat keine Beziehung.</cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">3r–34v (ausgenommen: 18v, Kl.)</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
                   <cell role="Kommentar_intern"/>
                </row>

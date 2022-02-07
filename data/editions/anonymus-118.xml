@@ -64,7 +64,8 @@
                <lb/>Die Kopisten Anonymus 117–118, Anonymus 121–124, Anonymus 127–131 und Anonymus 156 sowie Anonymus 158 sind mit hoher Wahrscheinlichkeit alle in das Umfeld des Stiftes St. Florian zu verorten.
                <lb/>Für weitere Kopisten aus St. Florian siehe <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>.</p>
             <p decls="desc" xml:lang="eng">
-               <lb/><hi rend="italic">Anonymus</hi> 117–118, <hi rend="italic">Anonymus</hi> 121–124, <hi rend="italic">Anonymus</hi> 127–131 and <hi rend="italic">Anonymus</hi> 156 as well as <hi rend="italic">Anonymus</hi> 158 almost certainly worked in St. Florian.
+               <lb/>
+               <hi rend="italic">Anonymus</hi> 117–118, <hi rend="italic">Anonymus</hi> 121–124, <hi rend="italic">Anonymus</hi> 127–131 and <hi rend="italic">Anonymus</hi> 156 as well as <hi rend="italic">Anonymus</hi> 158 almost certainly worked in St. Florian.
                <lb/>For more copyists from St. Florian, see <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Table 3</ref>.</p>
             <table>
                <head>Abschriften</head>
@@ -103,7 +104,7 @@
                   </cell>
                   <cell role="Art_der_Kopie">Stimmen</cell>
                   <cell role="erschlossene_Datierung_der_Kopie"/>
-                  <cell role="Folios_in_der_Hand_des_Kopisten">Fol. 2r–2v; 4r–5v; 8r–8v</cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">2r–2v; 4r–5v; 8r–8v</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
                   <cell role="Kommentar_intern"/>
                </row>

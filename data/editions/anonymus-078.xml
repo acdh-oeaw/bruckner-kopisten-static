@@ -52,7 +52,7 @@
                   <persName subtype="W" type="main">Anonymus 078</persName>
                   <idno type="alphabetically_sorted">Anonymus 078 (W)</idno>
                   <floruit from="1895" to="1896">1895–1896</floruit>
-                  <residence/>
+                  <residence>Wien</residence>
                   <affiliation xml:lang="de">Wiener Kopisten</affiliation>
                   <affiliation xml:lang="eng">Vienna copyist</affiliation>
                   <index>
@@ -65,7 +65,8 @@
                <lb/>Die Kopisten Anonymus 077 (W) und 078 (W) präparierten Partiturbögen (mit Instrumentenvorsatz, Schlüsselung, Akzidenzien und Taktstriche) für die Skizzen zum 4. Satz der <hi rend="italic">9. Symphonie</hi>.
                <lb/>Siehe auch Kopist Anonymus 013 (W) und Cyrill Hynais.</p>
             <p decls="desc" xml:lang="eng">
-               <lb/><hi rend="italic">Anonymus</hi> 077(W) and 078 (W) prepared bifolios with instrument names, clefs, time and key signatures and bar lines for Bruckner’s sketches for finale of the <hi rend="italic">Ninth Symphony</hi>.
+               <lb/>
+               <hi rend="italic">Anonymus</hi> 077(W) and 078 (W) prepared bifolios with instrument names, clefs, time and key signatures and bar lines for Bruckner’s sketches for finale of the <hi rend="italic">Ninth Symphony</hi>.
                <lb/>See also <hi rend="italic">Anonymus</hi> 013 (W) and Cyrill Hynais.</p>
             <table>
                <head>Abschriften</head>
@@ -202,5 +203,15 @@
             </list>
          </div>
       </body>
+      <back>
+         <listPlace>
+            <place xml:id="place_100">
+               <location>
+                  <geo>48.208490000000 16.372080000000</geo>
+                  <idno subtype="geonames" type="URL">https://www.geonames.org/2761369</idno>
+               </location>
+            </place>
+         </listPlace>
+      </back>
    </text>
 </TEI>

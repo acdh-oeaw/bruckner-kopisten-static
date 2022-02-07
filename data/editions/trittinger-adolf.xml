@@ -56,7 +56,7 @@
                   </persName>
                   <idno type="alphabetically_sorted">Trittinger, Adolf</idno>
                   <idno type="GND">1046292498</idno>
-                  <residence/>
+                  <residence>mult.</residence>
                   <affiliation xml:lang="de"/>
                   <affiliation xml:lang="eng"/>
                   <index>
@@ -66,14 +66,12 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Leopold Nowak identifizierte Trittingers Handschrift auf fol. 2<hi rend="sup"
-                  >r</hi> der Partiturabschrift des <hi rend="italic">Veni Creator Spiritus</hi>. </p>
+               <lb/>Leopold Nowak identifizierte Trittingers Handschrift auf fol. 2<hi rend="sup">r</hi> der Partiturabschrift des <hi rend="italic">Veni Creator Spiritus</hi>. </p>
             <p decls="desc" xml:lang="eng">
-               <lb/>Leopold Nowak identifies Trittinger’s hand on fol. 2<hi rend="sup">r</hi> of the
+               <lb/>Leopold Nowak identified Trittinger’s hand on fol. 2<hi rend="sup">r</hi> of the
                score of <hi rend="italic">Veni Creator Spiritus</hi>. </p>
             <p decls="link" xml:lang="de">Eine detaillierte Biographie findet sich im entsprechenden
-               Artikel des ÖML: <ref
-                  target="https://www.musiklexikon.ac.at/ml/musik_T/Trittinger_Adolf.xml">siehe
+               Artikel des ÖML: <ref target="https://www.musiklexikon.ac.at/ml/musik_T/Trittinger_Adolf.xml">siehe
                   ÖML</ref>
             </p>
             <p decls="link" xml:lang="eng"/>
@@ -104,8 +102,7 @@
                      <date notAfter="1847-01">ca. Ende Januar 1847</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-SF20-55"
-                        >A-SF20-55b</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-SF20-55">A-SF20-55b</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e8563">Aequale</ref>
@@ -124,9 +121,7 @@
                      <date notAfter="1884">[vor 1884]</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref
-                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19721"
-                        >A-WnMus.Hs.19721</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19721">A-WnMus.Hs.19721</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e10154">Veni Creator
@@ -143,21 +138,18 @@
                </row>
             </table>
             <list>
-               <head xml:lang="de">Beispiele entnommen aus: <ref
-                     target="Trittinger_Adolf_A-WnMus.Hs.19721-1r.jpg">A-WnMus.Hs.19721</ref>
+               <head xml:lang="de">Beispiele entnommen aus: <ref target="Trittinger_Adolf_A-WnMus.Hs.19721-1r.jpg">A-WnMus.Hs.19721</ref>
                </head>
-               <head xml:lang="eng">Examples taken from: <ref
-                     target="Trittinger_Adolf_A-WnMus.Hs.19721-1r.jpg">A-WnMus.Hs.19721</ref>
+               <head xml:lang="eng">Examples taken from: <ref target="Trittinger_Adolf_A-WnMus.Hs.19721-1r.jpg">A-WnMus.Hs.19721</ref>
                </head>
                <item>
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/T/Trittinger_Adolf/Trittinger_Adolf_A-WnMus.Hs.19721_A-Clefs_F.png"/>
+                              url="../../101_samples/named/T/Trittinger_Adolf/Trittinger_Adolf_A-WnMus.Hs.19721_A-Clefs_F.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/T/Trittinger_Adolf/Trittinger_Adolf_A-WnMus.Hs.19721_A-Clefs_G.png"
-                     />
+                              url="../../101_samples/named/T/Trittinger_Adolf/Trittinger_Adolf_A-WnMus.Hs.19721_A-Clefs_G.png"/>
                   </figure>
                </item>
                <item>
@@ -165,12 +157,11 @@
                   <title xml:lang="eng">Accidentals</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/T/Trittinger_Adolf/Trittinger_Adolf_A-WnMus.Hs.19721_B-Accidentals_Flat.png"/>
+                              url="../../101_samples/named/T/Trittinger_Adolf/Trittinger_Adolf_A-WnMus.Hs.19721_B-Accidentals_Flat.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/T/Trittinger_Adolf/Trittinger_Adolf_A-WnMus.Hs.19721_B-Accidentals_Natural.png"/>
+                              url="../../101_samples/named/T/Trittinger_Adolf/Trittinger_Adolf_A-WnMus.Hs.19721_B-Accidentals_Natural.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/T/Trittinger_Adolf/Trittinger_Adolf_A-WnMus.Hs.19721_B-Accidentals_Sharp.png"
-                     />
+                              url="../../101_samples/named/T/Trittinger_Adolf/Trittinger_Adolf_A-WnMus.Hs.19721_B-Accidentals_Sharp.png"/>
                   </figure>
                </item>
                <item>

@@ -58,7 +58,7 @@
                   <idno type="GND">121196488</idno>
                   <floruit from="1878" to="1878" xml:lang="de">ca. 1878</floruit>
                   <floruit from="1878" to="1878" xml:lang="eng">ca. 1878</floruit>
-                  <residence/>
+                  <residence>Wien</residence>
                   <affiliation xml:lang="de"/>
                   <affiliation xml:lang="eng"/>
                   <index>
@@ -192,5 +192,15 @@
             </list>
          </div>
       </body>
+      <back>
+         <listPlace>
+            <place xml:id="place_100">
+               <location>
+                  <geo>48.208490000000 16.372080000000</geo>
+                  <idno subtype="geonames" type="URL">https://www.geonames.org/2761369</idno>
+               </location>
+            </place>
+         </listPlace>
+      </back>
    </text>
 </TEI>

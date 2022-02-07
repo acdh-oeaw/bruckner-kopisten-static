@@ -55,8 +55,10 @@
                      <forename>Karl</forename>
                   </persName>
                   <idno type="alphabetically_sorted">Aigner, Karl</idno>
-                  <floruit from="1885" to="1885" notBefore="1885" xml:lang="de">1885(?) und später</floruit>
-                  <floruit from="1885" to="1885" notBefore="1885" xml:lang="eng">1885(?) and later</floruit>
+                  <floruit from="1885" to="1885" notBefore="1885" xml:lang="de">1885(?) und
+                     später</floruit>
+                  <floruit from="1885" to="1885" notBefore="1885" xml:lang="eng">1885(?) and
+                     later</floruit>
                   <residence>St. Florian</residence>
                   <affiliation xml:lang="de"/>
                   <affiliation xml:lang="eng"/>
@@ -68,6 +70,8 @@
             </listPerson>
             <p decls="desc" xml:lang="de">Karl Aigner kopierte eine Vielzahl an Werken Bruckners und
                das zumeist in enger Absprache mit dem Komponisten. </p>
+            <p decls="desc" xml:lang="eng">Karl Aigner copied numerous works of Bruckner, aften
+               working closely with the composer. </p>
             <p decls="link" xml:lang="de">Eine detaillierte Biographie findet sich im entsprechenden
                Artikel des ABLO: <ref target="http://www.bruckner-online.at/ABLO_d1e91">siehe
                   ABLO</ref>
@@ -128,7 +132,7 @@
                   </cell>
                   <cell role="Art_der_Kopie">Stimmen</cell>
                   <cell role="erschlossene_Datierung_der_Kopie"/>
-                  <cell role="Folios_in_der_Hand_des_Kopisten">Fol. 1r; 3r</cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">1r; 3r</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
                   <cell role="Kommentar_intern"/>
                </row>
@@ -186,7 +190,7 @@
                   </cell>
                   <cell role="Art_der_Kopie">Bassstimme Fragment</cell>
                   <cell role="erschlossene_Datierung_der_Kopie"/>
-                  <cell role="Folios_in_der_Hand_des_Kopisten">Fol. 4r</cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">4r</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
                   <cell role="Kommentar_intern"/>
                </row>
@@ -225,7 +229,7 @@
                   </cell>
                   <cell role="Art_der_Kopie">Partitur (Fragment)</cell>
                   <cell role="erschlossene_Datierung_der_Kopie"/>
-                  <cell role="Folios_in_der_Hand_des_Kopisten">Fol. 4v–6v</cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">4v–6v</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
                   <cell role="Kommentar_intern"/>
                </row>
@@ -383,7 +387,7 @@
                   </cell>
                   <cell role="Art_der_Kopie">Aut. Partitur mit Eintragungen von Aigner</cell>
                   <cell role="erschlossene_Datierung_der_Kopie"/>
-                  <cell role="Folios_in_der_Hand_des_Kopisten">Siehe 2014 Revisionsbericht:
+                  <cell role="Folios_in_der_Hand_des_Kopisten">NGA VIII, RVB, Bd. 1, S.
                      196–205.</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
                   <cell role="Kommentar_intern"/>
@@ -423,7 +427,7 @@
                   </cell>
                   <cell role="Art_der_Kopie">Partitur Fragment mit aut. Eintragungen</cell>
                   <cell role="erschlossene_Datierung_der_Kopie"/>
-                  <cell role="Folios_in_der_Hand_des_Kopisten">Siehe 2014 Revisionsbericht:
+                  <cell role="Folios_in_der_Hand_des_Kopisten">NGA VIII, RVB, Bd. 1, S.
                      258–269.</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
                   <cell role="Kommentar_intern"/>
@@ -444,7 +448,7 @@
                   </cell>
                   <cell role="Art_der_Kopie">Partitur mit aut. Eintragungen</cell>
                   <cell role="erschlossene_Datierung_der_Kopie"/>
-                  <cell role="Folios_in_der_Hand_des_Kopisten">Siehe 2014 Revisionsbericht:
+                  <cell role="Folios_in_der_Hand_des_Kopisten">NGA VIII, RVB, Bd. 1, S.
                      285–315.</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
                   <cell role="Kommentar_intern"/>

@@ -53,7 +53,7 @@
                   <persName type="before">Anonymus 8/6</persName>
                   <idno type="alphabetically_sorted">Anonymus 016 (W)</idno>
                   <floruit from="1884" to="1887">1884–1887</floruit>
-                  <residence/>
+                  <residence>Wien</residence>
                   <affiliation xml:lang="de">Wiener Kopisten</affiliation>
                   <affiliation xml:lang="eng">Vienna copyist</affiliation>
                   <index>
@@ -63,10 +63,28 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Obwohl sich die Abschriften des Kopisten Anonymus 016 (W) bisher nicht eindeutig datieren lassen, kann die Kopistentätigkeit von Anonymus 016 (W) anhand weiterer Abschriften bis in die Mitte der 1880er Jahre zurückverfolgt werden. Der Abschrift des <hi rend="italic">Afferentur regi</hi> (heute im Anton Bruckner Institut Linz (ABIL)) vom Kopisten Anonymus 016 (W) fügte Bruckner auf dem Titelblatt die Widmung an Johann Baptist Burgstaller hinzu, der die Abschrift wiederum unterschrieb und auf das Jahr 1885 datierte. Eine weitere Widmungen Bruckners an seinen Schüler Oddo Loidol findet sich auf der Abschrift des Kopisten zum <hi rend="italic">Christus factus est</hi> (WAB 011), die vermutlich kurz nach der Fertigstellung des Werkes 1884 eingetragen wurde. Der Kopist Anonymus 016 (W) war auch an der Vorbereitung der Partiturbögen für die 1. Fassung der <hi rend="italic">8. Symphonie</hi> beteiligt.
-            </p>
+               <lb/>Obwohl sich die Abschriften des Kopisten Anonymus 016 (W) bisher nicht eindeutig
+               datieren lassen, kann die Kopistentätigkeit von Anonymus 016 (W) anhand weiterer
+               Abschriften bis in die Mitte der 1880er Jahre zurückverfolgt werden. Der Abschrift
+               des <hi rend="italic">Afferentur regi</hi> (heute im Anton Bruckner Institut Linz
+               (ABIL)) vom Kopisten Anonymus 016 (W) fügte Bruckner auf dem Titelblatt die Widmung
+               an Johann Baptist Burgstaller hinzu, der die Abschrift wiederum unterschrieb und auf
+               das Jahr 1885 datierte. Eine weitere Widmungen Bruckners an seinen Schüler Oddo
+               Loidol findet sich auf der Abschrift des Kopisten zum <hi rend="italic">Christus
+                  factus est</hi> (WAB 011), die vermutlich kurz nach der Fertigstellung des Werkes
+               1884 eingetragen wurde. Der Kopist Anonymus 016 (W) war auch an der Vorbereitung der
+               Partiturbögen für die 1. Fassung der <hi rend="italic">8. Symphonie</hi> beteiligt. </p>
             <p decls="desc" xml:lang="eng">
-               <lb/>Although his manuscripts of <hi rend="italic">Afferentur regi</hi> cannot be dated precisely at present, the rest of <hi rend="italic">Anonymus</hi> 016 (W)’s work for Bruckner can be traced to the mid 1880s. Bruckner wrote a dedication to Johann Baptist Burgstaller, Choral Director of the Linz Cathedral, on the title page of <hi rend="italic">Anonymus</hi> 016 (W)’s score of <hi rend="italic">Afferentur regi</hi>, now in the possession of the Anton Bruckner Institut Linz (ABIL). Burgstaller added his own inscription to the same page and dated it 1885. Bruckner also wrote dedications to his student Oddo Loidol on both of <hi rend="italic">Anonymus</hi> 016 (W)’s copies of <hi rend="italic">Christus factus est</hi> (WAB 011), probably shortly after the work had been completed in 1884. The copyist was also involved in the preparation of manuscripts for the first version of the <hi rend="italic">Eighth Symphony</hi>.</p>
+               <lb/>Although his manuscripts of <hi rend="italic">Afferentur regi</hi> cannot be
+               dated precisely at present, the rest of <hi rend="italic">Anonymus</hi> 016 (W)’s
+               work for Bruckner can be traced to the mid 1880s. Bruckner wrote a dedication to
+               Johann Baptist Burgstaller, Choral Director of the Linz Cathedral, on the title page
+               of <hi rend="italic">Anonymus</hi> 016 (W)’s score of <hi rend="italic">Afferentur
+                  regi</hi>, now in the possession of the Anton Bruckner Institut Linz (ABIL).
+               Burgstaller added his own inscription to the same page and dated it 1885. Bruckner
+               also wrote dedications to his student Oddo Loidol on both of <hi rend="italic">Anonymus</hi> 016 (W)’s copies of <hi rend="italic">Christus factus est</hi> (WAB
+               011), probably shortly after the work had been completed in 1884. The copyist was
+               also involved in the preparation of manuscripts for the first version of the <hi rend="italic">Eighth Symphony</hi>.</p>
             <table>
                <head>Abschriften</head>
                <row xml:lang="de" role="label">
@@ -396,5 +414,15 @@
             </list>
          </div>
       </body>
+      <back>
+         <listPlace>
+            <place xml:id="place_100">
+               <location>
+                  <geo>48.208490000000 16.372080000000</geo>
+                  <idno subtype="geonames" type="URL">https://www.geonames.org/2761369</idno>
+               </location>
+            </place>
+         </listPlace>
+      </back>
    </text>
 </TEI>

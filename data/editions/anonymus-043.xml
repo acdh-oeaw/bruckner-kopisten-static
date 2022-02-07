@@ -52,7 +52,7 @@
                   <persName subtype="W" type="main">Anonymus 043</persName>
                   <idno type="alphabetically_sorted">Anonymus 043 (W)</idno>
                   <floruit from="1888" to="1888">1888</floruit>
-                  <residence/>
+                  <residence>Wien</residence>
                   <affiliation xml:lang="de">Wiener Kopisten</affiliation>
                   <affiliation xml:lang="eng">Vienna copyist</affiliation>
                   <index>
@@ -107,8 +107,8 @@
                      <date when="1888">1888</date>
                   </cell>
                   <cell role="Folios_in_der_Hand_des_Kopisten">26 Sop., 26 Alt, 19 Ten. und 28 Bässe
-                     Kyrie von 1888; 3 Sop., 2 Alt, 1 Ten. und 1 Bass Kyrie Brüchstücke von
-                     1888</cell>
+                     (Kyrie von 1888); 3 Sop., 2 Alt, 1 Ten. und 1 Bass (Kyrie-Fragment von
+                     1888)</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
                   <cell role="Kommentar_intern"/>
                </row>
@@ -151,5 +151,15 @@
             </list>
          </div>
       </body>
+      <back>
+         <listPlace>
+            <place xml:id="place_100">
+               <location>
+                  <geo>48.208490000000 16.372080000000</geo>
+                  <idno subtype="geonames" type="URL">https://www.geonames.org/2761369</idno>
+               </location>
+            </place>
+         </listPlace>
+      </back>
    </text>
 </TEI>

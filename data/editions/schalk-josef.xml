@@ -56,9 +56,11 @@
                   </persName>
                   <idno type="alphabetically_sorted">Schalk, Josef</idno>
                   <idno type="GND">118835580</idno>
-                  <floruit from="1880" to="1880" notBefore="1880" xml:lang="de">1880 und später</floruit>
-                  <floruit from="1880" to="1880" notBefore="1880" xml:lang="eng">1880 and later</floruit>
-                  <residence/>
+                  <floruit from="1880" to="1880" notBefore="1880" xml:lang="de">1880 und
+                     später</floruit>
+                  <floruit from="1880" to="1880" notBefore="1880" xml:lang="eng">1880 and
+                     later</floruit>
+                  <residence>Wien</residence>
                   <affiliation xml:lang="de"/>
                   <affiliation xml:lang="eng"/>
                   <index>
@@ -111,8 +113,8 @@
                   <cell role="erschlossene_Datierung_der_Kopie">
                      <date from="1888" to="1890">1888–1890</date>
                   </cell>
-                  <cell role="Folios_in_der_Hand_des_Kopisten">Hn. 4: 3r, Z. 10–Ende (ausserhalb 3v,
-                     Z. 7–11)</cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">Hr. 4 (3r, Z. 10–Ende, ausgenommen:
+                     3v, Z. 7–11)</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
                   <cell role="Kommentar_intern"/>
                </row>
@@ -164,7 +166,8 @@
                      <ref>Privatbesitz 12-1</ref>
                   </cell>
                   <cell role="Werktitel">
-                     <ref target="http://www.bruckner-online.at/ABLO_d1e9878">4. Symphonie, 2. Satz</ref>
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9878">4. Symphonie, 2.
+                        Satz</ref>
                   </cell>
                   <cell role="WAB-Nummer">
                      <ref target="http://www.bruckner-online.at/wab-104">104</ref>
@@ -193,25 +196,6 @@
                   <cell role="Folios_in_der_Hand_des_Kopisten">Korrekturen</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
                   <cell role="Kommentar_intern">Schalk corrected some of these parts.</cell>
-               </row>
-               <row role="data">
-                  <cell role="Datierung">
-                     <date from="1878-12" to="1879-07-12">von Dezember 1878 bis 12.07.1879</date>
-                  </cell>
-                  <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-SF20-73">A-SF20-73</ref>
-                  </cell>
-                  <cell role="Werktitel">
-                     <ref target="http://www.bruckner-online.at/ABLO_d1e9805">Streichquintett</ref>
-                  </cell>
-                  <cell role="WAB-Nummer">
-                     <ref target="http://www.bruckner-online.at/wab-112">112</ref>
-                  </cell>
-                  <cell role="Art_der_Kopie">Stimmen mit aut. Eintragungen</cell>
-                  <cell role="erschlossene_Datierung_der_Kopie"/>
-                  <cell role="Folios_in_der_Hand_des_Kopisten">15v; 30v; 44v; 58v; 67r</cell>
-                  <cell role="Datierung_der_Kopie/Unterschrift"/>
-                  <cell role="Kommentar_intern">SQ5</cell>
                </row>
                <row role="data">
                   <cell role="Datierung">
@@ -381,5 +365,15 @@
             </list>
          </div>
       </body>
+      <back>
+         <listPlace>
+            <place xml:id="place_100">
+               <location>
+                  <geo>48.208490000000 16.372080000000</geo>
+                  <idno subtype="geonames" type="URL">https://www.geonames.org/2761369</idno>
+               </location>
+            </place>
+         </listPlace>
+      </back>
    </text>
 </TEI>

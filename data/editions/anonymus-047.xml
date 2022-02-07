@@ -51,7 +51,7 @@
                <person>
                   <persName subtype="W" type="main">Anonymus 047</persName>
                   <idno type="alphabetically_sorted">Anonymus 047 (W)</idno>
-                  <residence/>
+                  <residence>Wien</residence>
                   <affiliation xml:lang="de">Wiener Kopisten</affiliation>
                   <affiliation xml:lang="eng">Vienna copyist</affiliation>
                   <index>
@@ -61,12 +61,23 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Zusammen mit Josef Schalk fertigten die Kopist Anonymus 043–053 (W) zwischen 1888 und 1893 den Stimmensatz zur <hi rend="italic">Messe in f-Moll</hi> für den Wiener Akademischen Wagner-Verein an. Die Stimmen wurden ebenso für die Uraufführung von Schalks Bearbeitung der Messe im Großen Musikvereinssaal in Wien am 23. März 1893 verwendet.<ref xml:id="footnote-ref025" target="#footnote025" type="noteAnchor">1</ref>
-               <note xml:id="footnote025" type="footnote" anchored="true" n="1">Paul Hawkshaw, Messe F-moll Revisionsbericht. Anton Bruckner Sämtliche Werke, XVIII, S. 181-190.</note>
+               <lb/>Zusammen mit Josef Schalk fertigten die Kopist Anonymus 043–053 (W) zwischen
+               1888 und 1893 den Stimmensatz zur <hi rend="italic">Messe in f-Moll</hi> für den
+               Wiener Akademischen Wagner-Verein an. Die Stimmen wurden ebenso für die Uraufführung
+               von Schalks Bearbeitung der Messe im Großen Musikvereinssaal in Wien am 23. März 1893
+                  verwendet.<ref xml:id="footnote-ref025" target="#footnote025" type="noteAnchor">1</ref>
+               <note xml:id="footnote025" type="footnote" anchored="true" n="1">Paul Hawkshaw, Messe
+                  F-moll Revisionsbericht. Anton Bruckner Sämtliche Werke, XVIII, S. 181-190.</note>
             </p>
             <p decls="desc" xml:lang="eng">
-               <lb/>Along with Josef Schalk, the copyists <hi rend="italic">Anonymus</hi> 043–053 (W) prepared parts for the <hi rend="italic">Mass in F minor</hi> for the Viennese Academic Wagner Society between 1888 and 1893. The parts were used for the first performance of Schalk’s arrangement of the Mass in the Großen Musikvereinssaal, Vienna, on 23 March 1893.<ref xml:id="footnote-ref026" target="#footnote026" type="noteAnchor">1</ref>
-               <note xml:id="footnote026" type="footnote" anchored="true" n="1">Paul Hawkshaw, Messe F-moll Revisionsbericht. Anton Bruckner Sämtliche Werke, XVIII, pp. 181-190.</note>
+               <lb/>Along with Josef Schalk, the copyists <hi rend="italic">Anonymus</hi> 043–053
+               (W) prepared parts for the <hi rend="italic">Mass in F minor</hi> for the Viennese
+               Academic Wagner Society between 1888 and 1893. The parts were used for the first
+               performance of Schalk’s arrangement of the Mass in the Großen Musikvereinssaal,
+               Vienna, on 23 March 1893.<ref xml:id="footnote-ref026" target="#footnote026" type="noteAnchor">1</ref>
+               <note xml:id="footnote026" type="footnote" anchored="true" n="1">Paul Hawkshaw, Messe
+                  F-moll Revisionsbericht. Anton Bruckner Sämtliche Werke, XVIII, pp.
+                  181-190.</note>
             </p>
             <table>
                <head>Abschriften</head>
@@ -105,10 +116,10 @@
                   <cell role="erschlossene_Datierung_der_Kopie">
                      <date when="1893">1893</date>
                   </cell>
-                  <cell role="Folios_in_der_Hand_des_Kopisten">13 Sop. und Alt von 1893 (Kyrie
-                     Hektographien); 14 Sop., 25 Alt, 5 Ten. und 7 Bässe von 1893 (Credo
-                     Hektographien); 5 Bässe und 2 Bässe Brüchstücke (Sanctus, Benedictus/Agnus von
-                     1893); 2 Alt Brüchstücke von 1893 (Credo Hektographien)</cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">13 Sop. und Alt (Stimmen von 1893,
+                     Kyrie, Hektographien); 14 Sop., 25 Alt, 5 Ten. und 7 Bässe (Stimmen von 1893,
+                     Credo, Hektographien); 5 Bässe und 2 Bässe (Fragmente von 1893, Sanctus /
+                     Benedictus / Agnus); 2 Alt (Fragmente von 1893, Credo, Hektographien)</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
                   <cell role="Kommentar_intern"/>
                </row>
@@ -151,5 +162,15 @@
             </list>
          </div>
       </body>
+      <back>
+         <listPlace>
+            <place xml:id="place_100">
+               <location>
+                  <geo>48.208490000000 16.372080000000</geo>
+                  <idno subtype="geonames" type="URL">https://www.geonames.org/2761369</idno>
+               </location>
+            </place>
+         </listPlace>
+      </back>
    </text>
 </TEI>

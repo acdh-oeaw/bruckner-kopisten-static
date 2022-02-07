@@ -57,7 +57,7 @@
                   <idno type="alphabetically_sorted">Hofmeyr, Leopold</idno>
                   <idno type="GND"/>
                   <floruit from="1886" to="1891">1886–1891</floruit>
-                  <residence/>
+                  <residence>Steyr</residence>
                   <affiliation xml:lang="de"/>
                   <affiliation xml:lang="eng"/>
                   <index>
@@ -317,5 +317,16 @@
             </list>
          </div>
       </body>
+      <back>
+         <listPlace>
+            <place xml:id="place_4">
+               <placeName>Steyr</placeName>
+               <location>
+                  <geo>48.033330000000 14.416670000000</geo>
+               </location>
+               <idno subtype="geonames" type="URL">https://www.geonames.org/2764347</idno>
+            </place>
+         </listPlace>
+      </back>
    </text>
 </TEI>
