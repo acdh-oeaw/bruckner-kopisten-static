@@ -181,7 +181,7 @@
                                     <div class="card index-card">
                                         <div class="card-body" 
                                             style="padding:0;">
-                                            <img src="img/Sekundärquellen.tif" 
+                                            <img src="img/Sekundärquellen_Thumbnail.jpg" 
                                                 class="d-block w-100" 
                                                 alt="..."/>
                                         </div>
