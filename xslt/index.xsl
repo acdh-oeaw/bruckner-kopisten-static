@@ -217,7 +217,7 @@
                                     <div class="card index-card">
                                         <div class="card-body" 
                                             style="padding:0;">
-                                            <img src="img/Drucke_2.jpg" 
+                                            <img src="img/Chronologie_Thumbnail.jpg" 
                                                 class="d-block w-100" 
                                                 alt="..."/>
                                         </div>

@@ -443,7 +443,7 @@
                                                 </xsl:choose>                                            
                                             </tr>
                                             <tr>
-                                                <th>The copyists timespan</th>
+                                                <th>Period of copying activity</th>
                                                 <xsl:choose>
                                                     <xsl:when test="./tei:floruit[@xml:lang='eng']/text()">
                                                         <td>
