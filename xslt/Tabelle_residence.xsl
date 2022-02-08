@@ -94,7 +94,7 @@
                                     <xsl:when
                                         test="not(current()/t:listPerson/t:person/t:residence = '')">
 
-                                        <xsl:if test="not(contains(., 'Wien')) or not(contains(., 'mult.'))">
+                                        <xsl:if test="not(contains(., 'Wien')) and not(contains(., 'mult.'))">
                                             <row role="data">
                                                 <cell role="Ort">                                                    
                                                     <rs type="place" ref="#place_1">
