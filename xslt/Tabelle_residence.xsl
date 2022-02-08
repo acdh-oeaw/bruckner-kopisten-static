@@ -157,7 +157,7 @@
                                                     </rs>                                                                                                      
                                                 </cell>
                                                 <cell role="Kopisten">
-                                                  <xsl:for-each select="current-group()/t:listPerson/t:person">
+                                                    <xsl:for-each select="current-group()/t:listPerson/t:person/t:persName[@type = 'main']">
                                                       <xsl:variable name="cp-cleaning1" select="                    
                                                           replace(
                                                           replace(
@@ -165,7 +165,7 @@
                                                           replace(
                                                           replace(
                                                           replace(
-                                                          translate(./t:persName[@type='main'] ,' ', '-') 
+                                                          translate(.[@type='main'] ,' ', '-') 
                                                           , ',', '')
                                                           ,'ß', 'ss')
                                                           , '[éè]', 'e')
@@ -185,18 +185,18 @@
                                                           </xsl:attribute>
                                                           <xsl:choose>
                                                               <xsl:when test="
-                                                                  starts-with(./t:persName[@type = 'main'], 'Kopist')">
-                                                                  <persName type="main"><xsl:value-of select="./t:idno[@type='alphabetically_sorted']"/></persName>
+                                                                  starts-with(., 'Kopist')">
+                                                                  <persName type="main"><xsl:value-of select="following-sibling::t:idno[@type='alphabetically_sorted']"/></persName>
                                                               </xsl:when>
-                                                              <xsl:when test=".//t:persName[@subtype]">                                                        
+                                                              <xsl:when test=".[@subtype]">                                                        
                                                                   <persName type="main">
                                                                       <xsl:value-of select="concat(
-                                                                          .//t:persName[@type='main']/text(),
-                                                                          ' (',.//t:persName/@subtype, ')')"/>
+                                                                          ./text(),
+                                                                          ' (',./@subtype, ')')"/>
                                                                   </persName>
                                                               </xsl:when>
                                                               <xsl:otherwise>
-                                                                  <xsl:copy-of select="./t:persName[@type='main']"/>
+                                                                  <xsl:copy-of select="."/>
                                                               </xsl:otherwise>
                                                           </xsl:choose>                                                          
                                                       </xsl:element>
