@@ -181,7 +181,7 @@
                                     <div class="card index-card">
                                         <div class="card-body" 
                                             style="padding:0;">
-                                            <img src="img/kitzler-1.jpg" 
+                                            <img src="img/Sekundärquellen.tif" 
                                                 class="d-block w-100" 
                                                 alt="..."/>
                                         </div>
