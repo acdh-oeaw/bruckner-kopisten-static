@@ -14,6 +14,7 @@
         <xsl:param name="eingabeliste"/>
         <xsl:perform-sort select="$eingabeliste">
             <xsl:sort select="//t:residence"/>
+            <xsl:sort select="//t:idno[@type='alphabetically_sorted']"/>
         </xsl:perform-sort>
     </xsl:function> 
     
