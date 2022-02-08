@@ -66,7 +66,7 @@
                                 <a title="Datenbanksuche" href="search.html" class="nav-link">Suche</a>
                             </li>
                             <li class="nav-item">
-                                <a title="Vergleich" href="kopist-comparison.html" class="nav-link">Vergleich</a>
+                                <a title="Vergleich" href="kopist-comparison.html" class="nav-link">Handschriftenvergleich</a>
                             </li>
                         </ul>                        
                         <!--<form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search">

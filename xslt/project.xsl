@@ -41,7 +41,7 @@
                     <xsl:call-template name="nav_bar"/>
                     
                     <div class="container-fluid">  
-                        <div id="navBarLetters" 
+                        <div id="navBarLetters" class="container"
                             style="margin-top:4em !important;">
                             <ul class="nav nav-tabs" 
                                 id="dropdown-lang">                                
@@ -63,7 +63,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="tab-content">
+                        <div class="tab-content container">
                             <div class="tab-pane active" 
                                 id="lang-de">
                                 <div class="card" 

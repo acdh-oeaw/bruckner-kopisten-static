@@ -277,7 +277,7 @@
                                         </div>
                                         <div class="card-header">                                            
                                             <h5>
-                                                Vergleich
+                                                Handschriftenvergleich
                                             </h5>                                            
                                         </div>
                                     </div>                                    
