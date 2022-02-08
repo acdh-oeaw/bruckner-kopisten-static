@@ -61,7 +61,7 @@
                         <div class="card">
                             <div class="card-header">
                                 <!--<h1 id="tableReload">Reload</h1>-->
-                                <h1>Kopisten Gesamt</h1>
+                                <h1>Gesamtbestand aller Kopisten</h1>
                             </div>
                             <div class="card-body">                                
                                 <table class="table table-striped display" 
@@ -69,9 +69,9 @@
                                     style="width:100%">
                                     <thead>
                                         <tr>
-                                            <th scope="col">Titel</th>
-                                            <th scope="col">Quelle</th>
-                                            <th scope="col">Zuordnung</th>
+                                            <th scope="col">Name</th>
+                                            <th scope="col">Quellenart</th>
+                                            <!--<th scope="col">Zuordnung</th>-->
                                             <th scope="col">Ort</th>
                                             <th scope="col">Details</th>
                                         </tr>
@@ -110,12 +110,12 @@
                                                         <xsl:value-of select=".//tei:index/tei:term[@xml:lang='eng']/text()"/>    
                                                     </xsl:if>                                                    
                                                 </td>
-                                                <td>
+                                               <!-- <td>
                                                     <xsl:if test=".//tei:affiliation/text()">
                                                         <xsl:value-of select=".//tei:affiliation[@xml:lang='de']/text()"/> | 
                                                         <xsl:value-of select=".//tei:affiliation[@xml:lang='eng']/text()"/>   
                                                     </xsl:if>                                                    
-                                                </td>
+                                                </td>-->
                                                 <td>                                                    
                                                     <xsl:if test=".//tei:listPlace">                                                        
                                                         <xsl:variable name="latLong" 
