@@ -33,28 +33,29 @@
     
     <xsl:template match="tei:item[not(ancestor::tei:p[@decls])]">   
         <li>
-            <h6>
-                <xsl:value-of select="./tei:title[@xml:lang='de']"/>
-                | 
-                <xsl:value-of select="./tei:title[@xml:lang='eng']"/>
-            </h6>
             <xsl:apply-templates/>
         </li>
     </xsl:template>
     
     <xsl:template match="tei:figure">
-        <xsl:for-each select="./tei:graphic">
-            <xsl:variable name="source" select="data(tokenize(@url, '/'))"/>
-            <div class="img-notes">
-                <img class="tei-xml-images">                    
-                    <xsl:attribute name="src">
-                        <xsl:value-of select="concat(
-                            'https://iiif.acdh.oeaw.ac.at/bruckner-kopisten/', 
-                            replace($source[last()], '.png', '/full/full/0/default.jpg'))"/>
-                    </xsl:attribute>
-                </img>
-            </div>
-        </xsl:for-each>        
+        <xsl:apply-templates/>   
+    </xsl:template>
+    
+    <xsl:template match="tei:graphic">
+        <xsl:variable name="source" select="data(tokenize(@url, '/'))"/>
+        <div class="img-notes">
+            <img class="tei-xml-images">                    
+                <xsl:attribute name="src">
+                    <xsl:value-of select="concat(
+                        'https://iiif.acdh.oeaw.ac.at/bruckner-kopisten/', 
+                        replace($source[last()], '.png', '/full/full/0/default.jpg'))"/>
+                </xsl:attribute>
+            </img>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="tei:title">
+        <h6><xsl:apply-templates/></h6>
     </xsl:template>
     
     <xsl:template match="tei:ref[parent::tei:head]">
