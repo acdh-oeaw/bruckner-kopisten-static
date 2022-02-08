@@ -14,6 +14,13 @@
         <xsl:param name="eingabeliste"/>
         <xsl:perform-sort select="$eingabeliste">
             <xsl:sort select="//t:residence"/>
+        </xsl:perform-sort>
+    </xsl:function> 
+    
+    
+    <xsl:function name="m:sort-by-name">
+        <xsl:param name="eingabeliste_2"/>
+        <xsl:perform-sort select="$eingabeliste_2">
             <xsl:sort select="//t:idno[@type='alphabetically_sorted']"/>
         </xsl:perform-sort>
     </xsl:function> 
@@ -158,7 +165,7 @@
                                                     </rs>                                                                                                      
                                                 </cell>
                                                 <cell role="Kopisten">
-                                                    <xsl:for-each select="current-group()/t:listPerson/t:person/t:persName[@type = 'main']">
+                                                  <xsl:for-each select="m:sort-by-name(current-group()/t:listPerson/t:person)">
                                                       <xsl:variable name="cp-cleaning1" select="                    
                                                           replace(
                                                           replace(
@@ -166,7 +173,7 @@
                                                           replace(
                                                           replace(
                                                           replace(
-                                                          translate(.[@type='main'] ,' ', '-') 
+                                                          translate(./t:persName[@type='main'] ,' ', '-') 
                                                           , ',', '')
                                                           ,'ß', 'ss')
                                                           , '[éè]', 'e')
@@ -186,18 +193,18 @@
                                                           </xsl:attribute>
                                                           <xsl:choose>
                                                               <xsl:when test="
-                                                                  starts-with(., 'Kopist')">
-                                                                  <persName type="main"><xsl:value-of select="following-sibling::t:idno[@type='alphabetically_sorted']"/></persName>
+                                                                  starts-with(./t:persName[@type = 'main'], 'Kopist')">
+                                                                  <persName type="main"><xsl:value-of select="./t:idno[@type='alphabetically_sorted']"/></persName>
                                                               </xsl:when>
-                                                              <xsl:when test=".[@subtype]">                                                        
+                                                              <xsl:when test=".//t:persName[@subtype]">                                                        
                                                                   <persName type="main">
                                                                       <xsl:value-of select="concat(
-                                                                          ./text(),
-                                                                          ' (',./@subtype, ')')"/>
+                                                                          .//t:persName[@type='main']/text(),
+                                                                          ' (',.//t:persName/@subtype, ')')"/>
                                                                   </persName>
                                                               </xsl:when>
                                                               <xsl:otherwise>
-                                                                  <xsl:copy-of select="."/>
+                                                                  <xsl:copy-of select="./t:persName[@type='main']"/>
                                                               </xsl:otherwise>
                                                           </xsl:choose>                                                          
                                                       </xsl:element>
