@@ -94,7 +94,7 @@
                                     <xsl:when
                                         test="not(current()/t:listPerson/t:person/t:residence = '')">
 
-                                        <xsl:if test="not(contains(., 'Wien'))">
+                                        <xsl:if test="not(contains(., 'Wien')) or not(contains(., 'mult.'))">
                                             <row role="data">
                                                 <cell role="Ort">                                                    
                                                     <rs type="place" ref="#place_1">
@@ -142,6 +142,11 @@
                                                             <xsl:when test="current()/t:listPerson/t:person/t:residence/text() = 'Straßburg'">
                                                                 <xsl:attribute name="ref">
                                                                     <xsl:text>#place_9</xsl:text>
+                                                                </xsl:attribute>
+                                                            </xsl:when>
+                                                            <xsl:when test="current()/t:listPerson/t:person/t:residence/text() = 'Hörsching'">
+                                                                <xsl:attribute name="ref">
+                                                                    <xsl:text>#place_10</xsl:text>
                                                                 </xsl:attribute>
                                                             </xsl:when>
                                                             <xsl:otherwise>
@@ -269,6 +274,13 @@
                                 <geo>48.583610000000 7.748060000000</geo>
                             </location>
                             <idno subtype="geonames" type="URL">https://www.geonames.org/6441375</idno>
+                        </place>
+                        <place xml:id="place_10">
+                            <placeName>Hörsching</placeName>
+                            <location>
+                                <geo>48.226270000000 14.177860000000</geo>
+                            </location>
+                            <idno subtype="geonames" type="URL">https://www.geonames.org/2775497</idno>
                         </place>
                     </listPlace>
                 </back>

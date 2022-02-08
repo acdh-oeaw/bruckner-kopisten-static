@@ -205,5 +205,16 @@
             </list>
          </div>
       </body>
+      <back>
+         <listPlace>
+            <place xml:id="place_10">
+               <placeName>Hörsching</placeName>
+               <location>
+                  <geo>48.226270000000 14.177860000000</geo>
+               </location>
+               <idno subtype="geonames" type="URL">https://www.geonames.org/2775497</idno>
+            </place>
+         </listPlace>
+      </back>
    </text>
 </TEI>
