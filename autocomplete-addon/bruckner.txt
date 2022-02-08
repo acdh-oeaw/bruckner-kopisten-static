@@ -47,7 +47,6 @@ static-search/stems/iii.json
 static-search/stems/laska.json
 static-search/stems/musikwissenschaftlich.json
 static-search/stems/privatbesitz.json
-static-search/stems/und.json
 static-search/stems/verlag.json
 static-search/stems/verschollen.json
 static-search/stems/wab.json
