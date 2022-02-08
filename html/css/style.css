@@ -437,12 +437,12 @@ ul.ssDescCheckboxList li {
     text-align: center;
 }
 
-li h6 {
+.comparison-result ul h6 {
     margin-top: 1em;
 }
 
 .comparison-result ul li {
-    height: 153px;
+    height: 108px;
     overflow-y: scroll;
     margin-bottom: 1em;
 }
