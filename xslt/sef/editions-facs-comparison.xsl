@@ -32,6 +32,9 @@
     </xsl:template>
     
     <xsl:template match="tei:item[not(ancestor::tei:p[@decls])]">   
+        <xsl:for-each select="./tei:title">
+            <h6><xsl:apply-templates/></h6>
+        </xsl:for-each>
         <li>
             <xsl:apply-templates/>
         </li>
@@ -55,7 +58,7 @@
     </xsl:template>
     
     <xsl:template match="tei:title">
-        <h6><xsl:apply-templates/></h6>
+        
     </xsl:template>
     
     <xsl:template match="tei:ref[parent::tei:head]">
