@@ -25,7 +25,7 @@
          </editionStmt>
          <publicationStmt>
             <publisher>Die Wiener Kopisten der Werke Anton Bruckners</publisher>
-            <idno type="BrucknerKopisten">d1e34840</idno>
+            <idno type="BrucknerKopisten">d1f1926</idno>
          </publicationStmt>
          <sourceDesc>
             <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
@@ -34,7 +34,7 @@
       <profileDesc>
          <textClass>
             <keywords>
-               <term>Bekannter Kopist</term>
+               <term>Anonymus</term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -46,7 +46,7 @@
    </teiHeader>
    <text>
       <body>
-         <div xml:id="content-d1e34840">
+         <div xml:id="content-d1f1926">
             <listPerson>
                <person>
                   <persName type="main">Seiberl, Josef</persName>
@@ -55,9 +55,10 @@
                      <forename>Josef</forename>
                   </persName>
                   <idno type="alphabetically_sorted">Seiberl, Josef</idno>
-                  <idno type="GND"/>
-                  <floruit from="1855" to="1877">1855–1877</floruit>
-                  <residence>St. Florian</residence>
+                  <birth when="1824-10-23">23.10.1824</birth>
+                  <death when="1908-12-02">02.12.1908</death>
+                  <floruit when="1852">1852</floruit>
+                  <residence/>
                   <affiliation xml:lang="de"/>
                   <affiliation xml:lang="eng"/>
                   <index>
@@ -67,15 +68,20 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Die Identifizierung zu Seiberls Schreibprofil erfolgte anhand seiner autographen Partitur des Offertoriums <hi rend="italic">Ascendit Deus</hi> (A-SF6-501).<ref xml:id="footnote-ref180" target="#footnote180" type="noteAnchor">1</ref>
-               <lb/>Für weitere Kopisten aus St. Florian siehe <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>.
-               <note xml:id="footnote180" type="footnote" anchored="true" n="1">Für den Hinweis zu dieser Handschrift sei Dr. Friedrich Buchmayr herzlichst gedankt.</note>
-            </p>
+               <lb/>Auf den Titelblättern zu den Stimmensätzen der <hi rend="italic">Zwei
+                  Totenlieder</hi> findet sich jeweils der Name Josef Seiberl sowie die Jahreszahl
+               1852 vermerkt. Es ist anzunehmen, dass es sich dabei um jenen Josef Seiberl (1824-1908)
+               handelt, der in St. Marienkirchen lebte und arbeitete und für den Bruckner die beiden
+               Stücke komponierte. Ob Seiberl der Kopist der Stimmen ist, lässt sich derzeit nicht
+               mit Sicherheit feststellen, kann aber als hinreichend wahrscheinlich angenommen
+               werden. Siehe auch Josef (Eduard) Seiberl.</p>
             <p decls="desc" xml:lang="eng">
-               <lb/>Seiberl’s handwriting has been identified on the basis of his autograph score for the Offertory <hi rend="italic">Ascendit Deus</hi> (A-SF6-501).<ref xml:id="footnote-ref181" target="#footnote181" type="noteAnchor">1</ref>
-               <lb/>For more St. Florian copyists see <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Table 3</ref>. 
-               <note xml:id="footnote181" type="footnote" anchored="true" n="1">The authors would like to thank Dr. Friedrich Buchmayr for drawing their attention to this source.</note>
-            </p>
+               <lb/>The name Josef Seiberl with the date 1852 appears on each of the title pages of
+               parts for the <hi rend="italic">Zwei Totenlieder</hi>. This is almost certainly the
+               Josef Seiberl (1824–1908) who lived and worked in St. Marienkirchen and for whom
+               Bruckner composed the two pieces. Whether or not Seiberl is the copyist of the parts
+               cannot be determined with certainty at present, though the authors suspect it is the
+               case. See also Josef (Eduard) Seiberl.</p>
             <p decls="link" xml:lang="de">Eine detaillierte Biographie findet sich im entsprechenden
                Artikel des ABLO: <ref target="http://www.bruckner-online.at/ABLO_d1e3735">siehe
                   ABLO</ref>
@@ -105,161 +111,58 @@
                </row>
                <row role="data">
                   <cell role="Datierung">
-                     <date from="1854-03-24" to="1854-03-28">24.03.1854–28.03.1854</date>
+                     <date when="1852">1852</date>
                   </cell>
-                  <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-SF20-13">A-SF20-13</ref>
-                  </cell>
+                  <cell role="Signatur">A-Wgm A 175a</cell>
                   <cell role="Werktitel">
-                     <ref target="http://www.bruckner-online.at/ABLO_d1e9261">Libera me,
-                        Domine</ref>
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e10067">Zwei
+                        Totenlieder</ref>
                   </cell>
                   <cell role="WAB-Nummer">
-                     <ref target="http://www.bruckner-online.at/wab-022">022</ref>
+                     <ref target="http://www.bruckner-online.at/wab-047">047</ref>
                   </cell>
-                  <cell role="Art_der_Kopie">Partitur</cell>
+                  <cell role="Art_der_Kopie">Stimmen</cell>
                   <cell role="erschlossene_Datierung_der_Kopie"/>
-                  <cell role="Folios_in_der_Hand_des_Kopisten">1v–2r</cell>
-                  <cell role="Datierung_der_Kopie/Unterschrift"/>
-                  <cell role="Kommentar_intern"/>
-               </row>
-               <row role="data">
-                  <cell role="Datierung">
-                     <date from="1854-03-24" to="1854-03-28">24.03.1854–28.03.1854</date>
-                  </cell>
-                  <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-SF20-60">A-SF20-60</ref>
-                  </cell>
-                  <cell role="Werktitel">
-                     <ref target="http://www.bruckner-online.at/ABLO_d1e9261">Libera me,
-                        Domine</ref>
-                  </cell>
-                  <cell role="WAB-Nummer">
-                     <ref target="http://www.bruckner-online.at/wab-022">022</ref>
-                  </cell>
-                  <cell role="Art_der_Kopie">Orgelstimme Fragment</cell>
-                  <cell role="erschlossene_Datierung_der_Kopie"/>
-                  <cell role="Folios_in_der_Hand_des_Kopisten">1r</cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
                   <cell role="Kommentar_intern"/>
                </row>
             </table>
             <list>
-               <head xml:lang="de">Beispiele entnommen aus: <ref target="Seiberl_Josef_A-SF20-13-1.jpg">A-SF20-13</ref> und <ref target="Seiberl_Josef_A-SF20-60-1r.jpg">A-SF20-60</ref>
-               </head>
-               <head xml:lang="eng">Examples taken from: <ref target="Seiberl_Josef_A-SF20-13-1.jpg">A-SF20-13</ref> and <ref target="Seiberl_Josef_A-SF20-60-1r.jpg">A-SF20-60</ref>
-               </head>
+               <head xml:lang="de">Beispiele entnommen aus: </head>
+               <head xml:lang="eng">Examples taken from: </head>
                <item>
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
-                  <figure>
-                     <graphic scale="33"
-                              url="../../101_samples/named/S/Seiberl_Josef/Seiberl_Josef_A-SF20-13_A-Clefs_C.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/named/S/Seiberl_Josef/Seiberl_Josef_A-SF20-13_A-Clefs_F.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/named/S/Seiberl_Josef/Seiberl_Josef_A-SF20-13_A-Clefs_G.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/named/S/Seiberl_Josef/Seiberl_Josef_A-SF20-60_A-Clefs_F.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/named/S/Seiberl_Josef/Seiberl_Josef_A-SF20-60_A-Clefs_G.png"/>
-                  </figure>
+                  <figure/>
                </item>
                <item>
                   <title xml:lang="de">Akzidentien</title>
                   <title xml:lang="eng">Accidentals</title>
-                  <figure>
-                     <graphic scale="33"
-                              url="../../101_samples/named/S/Seiberl_Josef/Seiberl_Josef_A-SF20-13_B-Accidentals_Flat.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/named/S/Seiberl_Josef/Seiberl_Josef_A-SF20-13_B-Accidentals_Natural.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/named/S/Seiberl_Josef/Seiberl_Josef_A-SF20-13_B-Accidentals_Sharp.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/named/S/Seiberl_Josef/Seiberl_Josef_A-SF20-60_B-Accidentals_Flat.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/named/S/Seiberl_Josef/Seiberl_Josef_A-SF20-60_B-Accidentals_Natural.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/named/S/Seiberl_Josef/Seiberl_Josef_A-SF20-60_B-Accidentals_Sharp.png"/>
-                  </figure>
+                  <figure/>
                </item>
                <item>
                   <title xml:lang="de">Taktvorzeichnung</title>
                   <title xml:lang="eng">Time Signatures</title>
-                  <figure>
-                     <graphic scale="33"
-                              url="../../101_samples/named/S/Seiberl_Josef/Seiberl_Josef_A-SF20-13_C-Time-Signatures_6_8.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/named/S/Seiberl_Josef/Seiberl_Josef_A-SF20-13_C-Time-Signatures_C.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/named/S/Seiberl_Josef/Seiberl_Josef_A-SF20-60_C-Time-Signatures_C.png"/>
-                  </figure>
+                  <figure/>
                </item>
                <item>
                   <title xml:lang="de">Pausen</title>
                   <title xml:lang="eng">Rests</title>
-                  <figure>
-                     <graphic scale="33"
-                              url="../../101_samples/named/S/Seiberl_Josef/Seiberl_Josef_A-SF20-13_D-Rests_Achtel.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/named/S/Seiberl_Josef/Seiberl_Josef_A-SF20-13_D-Rests_Viertel.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/named/S/Seiberl_Josef/Seiberl_Josef_A-SF20-60_D-Rests_Viertel.png"/>
-                  </figure>
+                  <figure/>
                </item>
                <item>
                   <title xml:lang="de">Noten</title>
                   <title xml:lang="eng">Notes</title>
-                  <figure>
-                     <graphic scale="33"
-                              url="../../101_samples/named/S/Seiberl_Josef/Seiberl_Josef_A-SF20-13_E-Notes_Achtel.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/named/S/Seiberl_Josef/Seiberl_Josef_A-SF20-13_E-Notes_Halbe.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/named/S/Seiberl_Josef/Seiberl_Josef_A-SF20-13_E-Notes_Viertel.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/named/S/Seiberl_Josef/Seiberl_Josef_A-SF20-60_E-Notes_Achtel.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/named/S/Seiberl_Josef/Seiberl_Josef_A-SF20-60_E-Notes_Ganze.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/named/S/Seiberl_Josef/Seiberl_Josef_A-SF20-60_E-Notes_Halbe.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/named/S/Seiberl_Josef/Seiberl_Josef_A-SF20-60_E-Notes_Viertel.png"/>
-                  </figure>
+                  <figure/>
                </item>
                <item>
                   <title xml:lang="de">Dynamik</title>
                   <title xml:lang="eng">Dynamics</title>
-                  <figure>
-                     <graphic scale="33"
-                              url="../../101_samples/named/S/Seiberl_Josef/Seiberl_Josef_A-SF20-13_F-Dynamics_Cresc.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/named/S/Seiberl_Josef/Seiberl_Josef_A-SF20-13_F-Dynamics_Forte.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/named/S/Seiberl_Josef/Seiberl_Josef_A-SF20-13_F-Dynamics_Fortissimo.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/named/S/Seiberl_Josef/Seiberl_Josef_A-SF20-13_F-Dynamics_Piano.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/named/S/Seiberl_Josef/Seiberl_Josef_A-SF20-60_F-Dynamics_Cresc.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/named/S/Seiberl_Josef/Seiberl_Josef_A-SF20-60_F-Dynamics_Fortissimo.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/named/S/Seiberl_Josef/Seiberl_Josef_A-SF20-60_F-Dynamics_Piano.png"/>
-                  </figure>
+                  <figure/>
                </item>
             </list>
          </div>
       </body>
-      <back>
-         <listPlace>
-            <place xml:id="place_1">
-               <placeName>St. Florian</placeName>
-               <location>
-                  <geo>48.205680000000 14.378360000000</geo>
-               </location>
-               <idno subtype="geonames" type="URL">https://www.geonames.org/2771867</idno>
-            </place>
-         </listPlace>
-      </back>
    </text>
 </TEI>
