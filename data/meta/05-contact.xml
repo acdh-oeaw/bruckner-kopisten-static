@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main" level="a">Kontakt</title>
+                <title level="m">Die Kopisten der Werke Anton Bruckners</title>
+                <author>
+                    <name>Paul Hawkshaw</name>
+                    <name>Clemens Gubsch</name>
+                </author>
+                <respStmt>
+                    <resp>Automatische Konvertierung nach TEI P5</resp>
+                    <name xml:id="cg">Clemens Gubsch</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
+                    <name corresp="#cg">Clemens Gubsch</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-01-21</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Die Kopisten der Werke Anton Bruckners</publisher>
+                <idno type="BrucknerKopisten">d1e00010</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term>Introduktion</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="#cg" status="created">Erstellt und geprüft</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="content-d1e00010">
+                <div xml:lang="de">
+                    <head>Kontakt</head>
+                    <p>
+                        <lb/><ref
+                            target="https://www.oeaw.ac.at/acdh/musikwissenschaft/mitarbeiterinnen-mitarbeiter/clemens-gubsch"
+                            >Clemens Gubsch</ref>, M.A. (Projektleitung) 
+                        <lb/>(+43 1)51581 – 3719
+                        <lb/>clemens.gubsch(at)oeaw.ac.at </p>
+                    <p>
+                        <lb/><ref target="https://emeritus.yale.edu/fellows/paul-hawkshaw">em. Prof.
+                            Dr. Paul Hawkshaw</ref>
+                        <lb/>paul.hawkshaw@yale.edu </p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

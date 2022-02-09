@@ -68,6 +68,14 @@
                             <li class="nav-item">
                                 <a title="Vergleich" href="kopist-comparison.html" class="nav-link">Handschriftenvergleich</a>
                             </li>
+                            <li class="nav-item dropdown">
+                                <a title="Impressum" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Impressum<span class="caret"></span></a>
+                                <ul class=" dropdown-menu" role="menu">
+                                    <li class="nav-item dropdown-submenu">
+                                        <a title="Kontakt" href="05-contact.html" class="nav-link">Kontakt</a>
+                                    </li>
+                                </ul>
+                            </li>
                         </ul>                        
                         <!--<form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search">
                             <input class="form-control navbar-search" id="s" name="q" type="text" placeholder="Search" value="" autocomplete="off" />
