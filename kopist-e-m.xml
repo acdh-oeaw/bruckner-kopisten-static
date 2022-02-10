@@ -133,7 +133,6 @@
                   <cell role="erschlossene_Datierung_der_Kopie"/>
                   <cell role="Folios_in_der_Hand_des_Kopisten">1r–4r</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift">1v</cell>
-                  <cell role="Kommentar_intern"/>
                </row>
                <row role="data">
                   <cell role="Datierung">
@@ -153,7 +152,6 @@
                   <cell role="Folios_in_der_Hand_des_Kopisten">2r–9r</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift">2r; 3r; 4r; 5r; 6r; 7r; 8r;
                      9r</cell>
-                  <cell role="Kommentar_intern"/>
                </row>
             </table>
             <list>
