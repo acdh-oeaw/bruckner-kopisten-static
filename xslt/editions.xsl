@@ -265,8 +265,8 @@
                                                 <xsl:variable name="citation-text-de" 
                                                     select="concat(//tei:title[@level='a'],
                                                     '. In: ', //tei:title[@level='m'],
-                                                    '. Hg. ', //tei:author/tei:name[1],
-                                                    ', ', //tei:author/tei:name[2])"/>
+                                                    '. Hg. ', //tei:author[1]/tei:persName,
+                                                    ', ', //tei:author[2]/tei:persName)"/>
                                                 <xsl:variable name="citation-link-de" 
                                                     select="concat('https://acdh-oeaw.github.io/bruckner-kopisten-static/',
                                                     $cp-clean,
@@ -467,8 +467,8 @@
                                                 <xsl:variable name="citation-text-de" 
                                                     select="concat(//tei:title[@level='a'],
                                                     '. In: ', //tei:title[@level='m'],
-                                                    '. Hg. ', //tei:author/tei:name[1],
-                                                    ', ', //tei:author/tei:name[2])"/>
+                                                    '. Hg. ', //tei:author[1]/tei:persName,
+                                                    ', ', //tei:author[2]/tei:persName)"/>
                                                 <xsl:variable name="citation-link-en" 
                                                     select="concat('https://acdh-oeaw.github.io/bruckner-kopisten-static/',
                                                     $cp-clean,
