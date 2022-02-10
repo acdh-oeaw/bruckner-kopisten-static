@@ -51,8 +51,8 @@
                <person>
                   <persName type="main">Kopist F. K.</persName>
                   <persName>
-                     <surname>F.</surname>
-                     <forename>K.</forename>
+                     <surname>K.</surname>
+                     <forename>F.</forename>
                   </persName>
                   <idno type="alphabetically_sorted">K. F., Kopist</idno>
                   <idno type="GND"/>
@@ -67,18 +67,22 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Der Kopist F. K. signierte und datierte die Stimmen für das <hi rend="italic">Requiem</hi> in den Jahren 1849 und 1850. Dieser Kopist war zu dieser Zeit
+               <lb/>Der Kopist F. K. signierte und datierte die Stimmen für das <hi rend="italic"
+                  >Requiem</hi> in den Jahren 1849 und 1850. Dieser Kopist war zu dieser Zeit
                wahrscheinlich in St. Florian oder Kremsmünster tätig. <lb/>F. K. wurde aufgrund der
                Nähe des Kompositionsdatums und der von ihm angefertigten Stimmen für das Werk
                vorläufig zu den Kopisten der Primärquelle gezählt. Siehe auch Kopist M. Sch. Der
                Stimmensatz ist nicht foliiert. <lb/>Für weitere Kopisten aus St. Florian und
-               Kremsmünster siehe <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>. </p>
+               Kremsmünster siehe <ref target="../../100_Introduction/Tabelle_3.xml" type="table"
+                  >Tabelle 3</ref>. </p>
             <p decls="desc" xml:lang="eng">
-               <lb/>The copyist F. K. signed and dated his parts for the <hi rend="italic">Requiem</hi> in 1849 and 1850. This copyist probably worked at St. Florian or
+               <lb/>The copyist F. K. signed and dated his parts for the <hi rend="italic"
+                  >Requiem</hi> in 1849 and 1850. This copyist probably worked at St. Florian or
                Kremsmünster at the time. <lb/>F. K. has been tentatively included among the primary
                source copyists due to the proximity of the date of composition and his parts for the
                work. See also M. Sch. The <hi rend="italic">Requiem</hi> parts have not been
-               foliated. <lb/>For more copyists from St. Florian and Kremsmünster, see <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Table 3</ref>. </p>
+               foliated. <lb/>For more copyists from St. Florian and Kremsmünster, see <ref
+                  target="../../100_Introduction/Tabelle_3.xml" type="table">Table 3</ref>. </p>
             <p decls="link" xml:lang="de"/>
             <p decls="link" xml:lang="eng"/>
             <table>
@@ -108,7 +112,7 @@
                      <date from="1848" to="1849-03-14">zwischen 1848 und 14.03.1849</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="#">A-KR-_-WAB039</ref>
+                     <ref target="#">A-KR-E5-118-Stimmen</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9671 d1e12972">Requiem</ref>
@@ -118,96 +122,84 @@
                   </cell>
                   <cell role="Art_der_Kopie">Stimmen</cell>
                   <cell role="erschlossene_Datierung_der_Kopie">1849–1850</cell>
-                  <cell role="Folios_in_der_Hand_des_Kopisten">Vl. 1; Vl. 2; Violone; Sop.; Alt
-                     (ripieno)</cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">1r–2v (Sop.); 3r–4v (Alt);
+                     17r–18v (Vl.1); 19r–20v (Vl.2); 25r–26v (Kb.)</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
                   <cell role="Kommentar_intern"/>
                </row>
             </table>
-            <!--Beispiele noch ausschneiden-->
             <list>
-               <head xml:lang="de">Beispiele entnommen aus: <ref target="Anonymus-021_A-LIabil-WAB027-01r.jpg">A-LIabil-WAB027</ref>
+               <head xml:lang="de">Beispiele entnommen aus: <ref
+                  target="Kopist_F.K._A-KR-E5-118-Stimmen-01r-01-S_01.jpg">A-KR-E5-118-Stimmen</ref>
                </head>
-               <head xml:lang="eng">Examples taken from: <ref target="Anonymus-021_A-LIabil-WAB027-01r.jpg">A-LIabil-WAB027</ref>
+               <head xml:lang="eng">Examples taken from: <ref
+                  target="Kopist_F.K._A-KR-E5-118-Stimmen-01r-01-S_01.jpg">A-KR-E5-118-Stimmen</ref>
                </head>
                <item>
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
-                     <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_021/Anonymus-021_A-LIabil-WAB027_A-Clefs_F.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_021/Anonymus-021_A-LIabil-WAB027_A-Clefs_G.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_A-Clefs_C.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_A-Clefs_F.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_A-Clefs_G.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Akzidentien</title>
                   <title xml:lang="eng">Accidentals</title>
                   <figure>
-                     <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_021/Anonymus-021_A-LIabil-WAB027_B-Accidentals_Flat.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_021/Anonymus-021_A-LIabil-WAB027_B-Accidentals_Natural.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_021/Anonymus-021_A-LIabil-WAB027_B-Accidentals_Sharp.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_B-Accidentals_Flat.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_B-Accidentals_Flat_2.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_B-Accidentals_Natural.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_B-Accidentals_Natural_2.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_B-Accidentals_Sharp_1.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_B-Accidentals_Sharp_2.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Taktvorzeichnung</title>
                   <title xml:lang="eng">Time Signatures</title>
                   <figure>
-                     <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_021/Anonymus-021_A-LIabil-WAB027_C-Time-Signatures_C_1.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_021/Anonymus-021_A-LIabil-WAB027_C-Time-Signatures_C_2.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_C-Time-Signatures_C.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_C-Time-Signatures_C_2.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Pausen</title>
                   <title xml:lang="eng">Rests</title>
                   <figure>
-                     <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_021/Anonymus-021_A-LIabil-WAB027_D-Rests_Achtel.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_021/Anonymus-021_A-LIabil-WAB027_D-Rests_Viertel.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_D-Rests_Achtel.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_D-Rests_Halbe.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_D-Rests_Viertel.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Noten</title>
                   <title xml:lang="eng">Notes</title>
                   <figure>
-                     <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_021/Anonymus-021_A-LIabil-WAB027_E-Notes_Achtel.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_021/Anonymus-021_A-LIabil-WAB027_E-Notes_Ganze.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_021/Anonymus-021_A-LIabil-WAB027_E-Notes_Halbe.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_021/Anonymus-021_A-LIabil-WAB027_E-Notes_Viertel.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_E-Notes_Achtel_1.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_E-Notes_Achtel_2.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_E-Notes_Achtel_3.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_E-Notes_Achtel_4.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_E-Notes_Ganze_1.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_E-Notes_Halbe_1.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_E-Notes_Sechzehntel.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_E-Notes_Viertel_1.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_E-Notes_Viertel_2.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Dynamik</title>
                   <title xml:lang="eng">Dynamics</title>
                   <figure>
-                     <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_021/Anonymus-021_A-LIabil-WAB027_F-Dynamics_Cresc.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_021/Anonymus-021_A-LIabil-WAB027_F-Dynamics_Crescendo.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_021/Anonymus-021_A-LIabil-WAB027_F-Dynamics_Decresc.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_021/Anonymus-021_A-LIabil-WAB027_F-Dynamics_Decrescendo.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_021/Anonymus-021_A-LIabil-WAB027_F-Dynamics_Forte.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_021/Anonymus-021_A-LIabil-WAB027_F-Dynamics_Fortissimo.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_021/Anonymus-021_A-LIabil-WAB027_F-Dynamics_Mezzoforte.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_021/Anonymus-021_A-LIabil-WAB027_F-Dynamics_Piano.png"/>
-                     <graphic scale="33"
-                              url="../../101_samples/Anonymus/Anonymus_001-025/Anonymus_021/Anonymus-021_A-LIabil-WAB027_F-Dynamics_Poco a poco crescendo.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_F-Dynamics_Crescendo.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_F-Dynamics_Decrescendo.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_F-Dynamics_Forte.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_F-Dynamics_Forte_2.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_F-Dynamics_Fortissimo.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_F-Dynamics_Mezzoforte.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_F-Dynamics_Piano.png"/>
+                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_F-Dynamics_Piano_2.png"/>
                   </figure>
                </item>
             </list>
