@@ -4,28 +4,36 @@
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Goetz, Frédèric</title>
-            <title level="m">Die Wiener Kopisten der Werke Anton Bruckners</title>
+            <title level="m">Die Kopisten der Werke Anton Bruckners</title>
             <author>
-               <name>Paul Hawkshaw</name>
-               <name>Clemens Gubsch</name>
+               <persName xml:id="PH">Paul Hawkshaw</persName>
             </author>
+            <author>
+               <persName xml:id="CG">Clemens Gubsch</persName>
+            </author>
+            <funder>Magistratsabteilung 7 – Kultur, Wissenschafts- und Forschungsförderung der Stadt Wien</funder>
             <respStmt>
                <resp>Automatische Konvertierung nach TEI P5</resp>
-               <name xml:id="cg">Clemens Gubsch</name>
+               <name corresp="#CG">Clemens Gubsch</name>
             </respStmt>
             <respStmt>
                <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
-               <name corresp="#cg">Clemens Gubsch</name>
+               <name corresp="#CG">Clemens Gubsch</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
             <edition>
-               <date>2020-11-01</date>
+               <date>2021-11-01</date>
             </edition>
          </editionStmt>
          <publicationStmt>
-            <publisher>Die Wiener Kopisten der Werke Anton Bruckners</publisher>
-            <idno type="BrucknerKopisten">d1e24379</idno>
+            <publisher>Österreichische Akademie der Wissenschaften <lb/>Austrian Centre for Digital Humanities, <lb/>Abteilung Musikwissenschaft</publisher>
+            <pubPlace>Wien</pubPlace>
+            <idno type="Bruckner_Kopisten">d1e24379</idno>
+            <date when-iso="2021-10"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
          </publicationStmt>
          <sourceDesc>
             <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
@@ -38,6 +46,15 @@
             </keywords>
          </textClass>
       </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Erfassung aller Kopisten bzw. Schreibprofile innerhalb der überlieferten Abschriften der Werke Anton Bruckners ausgehend vom Forschungsstand des Werkverzeichnisses auf der Forschungsplattform bruckner-online.at</p>
+            <p>Die in dieser Datei erfassten Informationen wurden im Rahmen des Projektes „Die Wiener Kopisten der Werke Anton Bruckners“ gesammelt. Das Projekt wurde 2021 von der Magistratsabteilung 7 – Kultur, Wissenschafts- und Forschungsförderung der Stadt Wien finanziert.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Identifizierung der Kopisten erfolgte nach den in der Projetbeschreibung (siehe <ref target="100_Introduction/03-Methodology.xml">Methodik</ref>) dargelegten Richtlinien.</p>
+         </editorialDecl>
+      </encodingDesc>
       <revisionDesc>
          <listChange>
             <change who="#cg" status="created">Erstellt und geprüft</change>
@@ -68,8 +85,7 @@
             <p decls="desc" xml:lang="de">
                <lb/>Dass es sich um die Handschrift von Goetz handelt, konnte durch einen auf den
                17.06.1927 datierten Brief an Max Auer (A-WnF31.Auer.296) belegt werden. Goetz
-               fertigte für Auer eine Kopie der beiden Fassungen des <hi rend="italic"
-                  >Volksliedes</hi> anhand des sich im Besitz von Charles Malherbe befindlichen
+               fertigte für Auer eine Kopie der beiden Fassungen des <hi rend="italic">Volksliedes</hi> anhand des sich im Besitz von Charles Malherbe befindlichen
                Autographs in Paris an und übersandte Auer die Abschriften. Für die Herstellung der
                Abschriften nutzte Goetz ein Stempelverfahren, bei dem unter anderem die Notenköpfe
                in die Partitur gestempelt wurden.</p>
@@ -108,9 +124,7 @@
                      <date from="1874-01-02" to="1874-11-22">02.01.1874–22.11.1874</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref
-                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19672"
-                        >A-WnMus.Hs.19672</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19672">A-WnMus.Hs.19672</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9878">4. Symphonie</ref>
@@ -129,9 +143,7 @@
                      <date from="1882-01-01" to="1882-02-15">01.01.1882–15.02.1882</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref
-                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19773"
-                        >A-WnMus.Hs.19773</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19773">A-WnMus.Hs.19773</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e10178">Volkslied</ref>
@@ -147,21 +159,18 @@
                </row>
             </table>
             <list>
-               <head xml:lang="de">Beispiele entnommen aus: <ref
-                     target="Goetz_Frédèric_A-WnMus.Hs.19773-01r.jpg">A-WnMus.Hs.19773</ref>
+               <head xml:lang="de">Beispiele entnommen aus: <ref target="Goetz_Frédèric_A-WnMus.Hs.19773-01r.jpg">A-WnMus.Hs.19773</ref>
                </head>
-               <head xml:lang="eng">Examples taken from: <ref
-                     target="Goetz_Frédèric_A-WnMus.Hs.19773-01r.jpg">A-WnMus.Hs.19773</ref>
+               <head xml:lang="eng">Examples taken from: <ref target="Goetz_Frédèric_A-WnMus.Hs.19773-01r.jpg">A-WnMus.Hs.19773</ref>
                </head>
                <item>
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/G/Goetz_Frédèric/Goetz_Frédèric_A-WnMus.Hs.19773_A-Clefs_F.png"/>
+                              url="../../101_samples/named/G/Goetz_Frédèric/Goetz_Frédèric_A-WnMus.Hs.19773_A-Clefs_F.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/G/Goetz_Frédèric/Goetz_Frédèric_A-WnMus.Hs.19773_A-Clefs_G.png"
-                     />
+                              url="../../101_samples/named/G/Goetz_Frédèric/Goetz_Frédèric_A-WnMus.Hs.19773_A-Clefs_G.png"/>
                   </figure>
                </item>
                <item>
@@ -169,10 +178,9 @@
                   <title xml:lang="eng">Accidentals</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/G/Goetz_Frédèric/Goetz_Frédèric_A-WnMus.Hs.19773_B-Accidentals_Natural.png"/>
+                              url="../../101_samples/named/G/Goetz_Frédèric/Goetz_Frédèric_A-WnMus.Hs.19773_B-Accidentals_Natural.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/G/Goetz_Frédèric/Goetz_Frédèric_A-WnMus.Hs.19773_B-Accidentals_Sharp.png"
-                     />
+                              url="../../101_samples/named/G/Goetz_Frédèric/Goetz_Frédèric_A-WnMus.Hs.19773_B-Accidentals_Sharp.png"/>
                   </figure>
                </item>
                <item>
@@ -180,8 +188,7 @@
                   <title xml:lang="eng">Time Signatures</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/G/Goetz_Frédèric/Goetz_Frédèric_A-WnMus.Hs.19773_C-Time-Signatures_C.png"
-                     />
+                              url="../../101_samples/named/G/Goetz_Frédèric/Goetz_Frédèric_A-WnMus.Hs.19773_C-Time-Signatures_C.png"/>
                   </figure>
                </item>
                <item>
@@ -189,8 +196,7 @@
                   <title xml:lang="eng">Rests</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/G/Goetz_Frédèric/Goetz_Frédèric_A-WnMus.Hs.19773_D-Rests_Viertel.png"
-                     />
+                              url="../../101_samples/named/G/Goetz_Frédèric/Goetz_Frédèric_A-WnMus.Hs.19773_D-Rests_Viertel.png"/>
                   </figure>
                </item>
                <item>
@@ -198,12 +204,11 @@
                   <title xml:lang="eng">Notes</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/G/Goetz_Frédèric/Goetz_Frédèric_A-WnMus.Hs.19773_E-Notes_Ganze.png"/>
+                              url="../../101_samples/named/G/Goetz_Frédèric/Goetz_Frédèric_A-WnMus.Hs.19773_E-Notes_Ganze.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/G/Goetz_Frédèric/Goetz_Frédèric_A-WnMus.Hs.19773_E-Notes_Halbe.png"/>
+                              url="../../101_samples/named/G/Goetz_Frédèric/Goetz_Frédèric_A-WnMus.Hs.19773_E-Notes_Halbe.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/G/Goetz_Frédèric/Goetz_Frédèric_A-WnMus.Hs.19773_E-Notes_Viertel.png"
-                     />
+                              url="../../101_samples/named/G/Goetz_Frédèric/Goetz_Frédèric_A-WnMus.Hs.19773_E-Notes_Viertel.png"/>
                   </figure>
                </item>
                <item>
@@ -211,10 +216,9 @@
                   <title xml:lang="eng">Dynamics</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/G/Goetz_Frédèric/Goetz_Frédèric_A-WnMus.Hs.19773_F-Dynamics_Fortissimo.png"/>
+                              url="../../101_samples/named/G/Goetz_Frédèric/Goetz_Frédèric_A-WnMus.Hs.19773_F-Dynamics_Fortissimo.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/G/Goetz_Frédèric/Goetz_Frédèric_A-WnMus.Hs.19773_F-Dynamics_Fortississimo.png"
-                     />
+                              url="../../101_samples/named/G/Goetz_Frédèric/Goetz_Frédèric_A-WnMus.Hs.19773_F-Dynamics_Fortississimo.png"/>
                   </figure>
                </item>
             </list>

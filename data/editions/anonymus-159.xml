@@ -4,18 +4,21 @@
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Anonymus 159</title>
-            <title level="m">Die Wiener Kopisten der Werke Anton Bruckners</title>
+            <title level="m">Die Kopisten der Werke Anton Bruckners</title>
             <author>
-               <name>Paul Hawkshaw</name>
-               <name>Clemens Gubsch</name>
+               <persName xml:id="PH">Paul Hawkshaw</persName>
             </author>
+            <author>
+               <persName xml:id="CG">Clemens Gubsch</persName>
+            </author>
+            <funder>Magistratsabteilung 7 – Kultur, Wissenschafts- und Forschungsförderung der Stadt Wien</funder>
             <respStmt>
                <resp>Automatische Konvertierung nach TEI P5</resp>
-               <name xml:id="cg">Clemens Gubsch</name>
+               <name corresp="#CG">Clemens Gubsch</name>
             </respStmt>
             <respStmt>
                <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
-               <name corresp="#cg">Clemens Gubsch</name>
+               <name corresp="#CG">Clemens Gubsch</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -24,8 +27,13 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            <publisher>Die Wiener Kopisten der Werke Anton Bruckners</publisher>
-            <idno type="BrucknerKopisten">d1e765512</idno>
+            <publisher>Österreichische Akademie der Wissenschaften <lb/>Austrian Centre for Digital Humanities, <lb/>Abteilung Musikwissenschaft</publisher>
+            <pubPlace>Wien</pubPlace>
+            <idno type="Bruckner_Kopisten">d1e765512</idno>
+            <date when-iso="2021-10"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
          </publicationStmt>
          <sourceDesc>
             <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
@@ -38,6 +46,15 @@
             </keywords>
          </textClass>
       </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Erfassung aller Kopisten bzw. Schreibprofile innerhalb der überlieferten Abschriften der Werke Anton Bruckners ausgehend vom Forschungsstand des Werkverzeichnisses auf der Forschungsplattform bruckner-online.at</p>
+            <p>Die in dieser Datei erfassten Informationen wurden im Rahmen des Projektes „Die Wiener Kopisten der Werke Anton Bruckners“ gesammelt. Das Projekt wurde 2021 von der Magistratsabteilung 7 – Kultur, Wissenschafts- und Forschungsförderung der Stadt Wien finanziert.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Identifizierung der Kopisten erfolgte nach den in der Projetbeschreibung (siehe <ref target="100_Introduction/03-Methodology.xml">Methodik</ref>) dargelegten Richtlinien.</p>
+         </editorialDecl>
+      </encodingDesc>
       <revisionDesc>
          <listChange>
             <change who="#cg" status="created">Erstellt und geprüft</change>
@@ -123,61 +140,86 @@
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_A-Clefs_C.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_A-Clefs_F.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_A-Clefs_C.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_A-Clefs_F.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Akzidentien</title>
                   <title xml:lang="eng">Accidentals</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_B-Accidentals_Flat_1.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_B-Accidentals_Natural_1.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_B-Accidentals_Sharp_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_B-Accidentals_Flat_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_B-Accidentals_Natural_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_B-Accidentals_Sharp_1.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Taktvorzeichnung</title>
                   <title xml:lang="eng">Time Signatures</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_C-Time-Signatures_C1.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_C-Time-Signatures_C2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_C-Time-Signatures_C1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_C-Time-Signatures_C2.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Pausen</title>
                   <title xml:lang="eng">Rests</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_D-Rests_Achtel_1.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_D-Rests_Ganze_1.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_D-Rests_Halbe_1.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_D-Rests_Viertel_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_D-Rests_Achtel_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_D-Rests_Ganze_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_D-Rests_Halbe_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_D-Rests_Viertel_1.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Noten</title>
                   <title xml:lang="eng">Notes</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_E-Notes_Achtel_1.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_E-Notes_Achtel_2.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_E-Notes_Achtel_3.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_E-Notes_Ganze_1.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_E-Notes_Halbe_1.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_E-Notes_Halbe_2.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_E-Notes_Viertel_1.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_E-Notes_Viertel_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_E-Notes_Achtel_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_E-Notes_Achtel_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_E-Notes_Achtel_3.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_E-Notes_Ganze_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_E-Notes_Halbe_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_E-Notes_Halbe_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_E-Notes_Viertel_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_E-Notes_Viertel_2.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Dynamik</title>
                   <title xml:lang="eng">Dynamics</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_F-Dynamics_Cresc.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_F-Dynamics_Forte.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_F-Dynamics_Forzato.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_F-Dynamics_Mezzoforte.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_F-Dynamics_Pianissimo.png"/>
-                     <graphic scale="33" url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_F-Dynamics_Piano.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_F-Dynamics_Cresc.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_F-Dynamics_Forte.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_F-Dynamics_Forzato.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_F-Dynamics_Mezzoforte.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_F-Dynamics_Pianissimo.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_159/Anonymus-159_A-KR-E5-118-Stimmen_F-Dynamics_Piano.png"/>
                   </figure>
                </item>
             </list>
