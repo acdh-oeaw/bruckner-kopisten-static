@@ -228,7 +228,6 @@
                   </cell>
                   <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
-                  <cell role="Kommentar_intern"/>
                </row>
                <row role="data">
                   <cell role="Datierung">
@@ -249,7 +248,6 @@
                   </cell>
                   <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
-                  <cell role="Kommentar_intern"/>
                </row>
                <row role="data">
                   <cell role="Datierung">
@@ -271,7 +269,6 @@
                   </cell>
                   <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
-                  <cell role="Kommentar_intern"/>
                </row>
                <row role="data">
                   <cell role="Datierung">
@@ -292,7 +289,6 @@
                   </cell>
                   <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
-                  <cell role="Kommentar_intern"/>
                </row>
                <row role="data">
                   <cell role="Datierung">
@@ -314,7 +310,6 @@
                   </cell>
                   <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
-                  <cell role="Kommentar_intern"/>
                </row>
                <row role="data">
                   <cell role="Datierung">
@@ -336,7 +331,6 @@
                   </cell>
                   <cell role="Folios_in_der_Hand_des_Kopisten">66r–72v</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
-                  <cell role="Kommentar_intern"/>
                </row>
                <row role="data">
                   <cell role="Datierung">
@@ -357,7 +351,6 @@
                   </cell>
                   <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
-                  <cell role="Kommentar_intern">ME 1</cell>
                </row>
                <!--<row role="data">
                   <cell role="Datierung">
@@ -400,7 +393,6 @@
                   </cell>
                   <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
-                  <cell role="Kommentar_intern"/>
                </row>
                <row role="data">
                   <cell role="Datierung">
@@ -421,7 +413,6 @@
                   </cell>
                   <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
-                  <cell role="Kommentar_intern"/>
                </row>
                <row role="data">
                   <cell role="Datierung">
@@ -443,7 +434,6 @@
                   </cell>
                   <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
-                  <cell role="Kommentar_intern"/>
                </row>
                <row role="data">
                   <cell role="Datierung">
@@ -464,7 +454,6 @@
                   </cell>
                   <cell role="Folios_in_der_Hand_des_Kopisten">12r–22r</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
-                  <cell role="Kommentar_intern"/>
                </row>
                <row role="data">
                   <cell role="Datierung">
@@ -485,7 +474,6 @@
                   </cell>
                   <cell role="Folios_in_der_Hand_des_Kopisten">1r–125r</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
-                  <cell role="Kommentar_intern"/>
                </row>
                <row role="data">
                   <cell role="Datierung">
@@ -507,7 +495,6 @@
                   </cell>
                   <cell role="Folios_in_der_Hand_des_Kopisten">1r–8v</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
-                  <cell role="Kommentar_intern"/>
                </row>
                <row role="data">
                   <cell role="Datierung">
@@ -529,9 +516,6 @@
                   </cell>
                   <cell role="Folios_in_der_Hand_des_Kopisten">5r–8v</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
-                  <cell role="Kommentar_intern">This source is not foliated. This is the score
-                     originally entitled Antiphon. The Tota pulchra es was added to the title page
-                     later in a foreign hand</cell>
                </row>
                <row role="data">
                   <cell role="Datierung">
@@ -553,7 +537,6 @@
                   </cell>
                   <cell role="Folios_in_der_Hand_des_Kopisten">13r–18v (2 Sop., 1 Alt, 2 Ten., 1 Bass)</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
-                  <cell role="Kommentar_intern"/>
                </row>
                <row role="data">
                   <cell role="Datierung">
@@ -572,7 +555,6 @@
                   </cell>
                   <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
-                  <cell role="Kommentar_intern"/>
                </row>
                <row role="data">
                   <cell role="Datierung">
@@ -595,7 +577,6 @@
                   <cell role="Folios_in_der_Hand_des_Kopisten">11r–14r; 20r–21r; 29r–30r; 32r–34v;
                      39r–40v; 42r</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
-                  <cell role="Kommentar_intern">ES3</cell>
                </row>
                <row role="data">
                   <cell role="Datierung">
@@ -617,7 +598,6 @@
                   </cell>
                   <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
-                  <cell role="Kommentar_intern"/>
                </row>
             </table>
             <list>

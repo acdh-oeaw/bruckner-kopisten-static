@@ -135,7 +135,6 @@
                   <cell role="erschlossene_Datierung_der_Kopie"/>
                   <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
-                  <cell role="Kommentar_intern">LDV1 in Bonline</cell>
                </row>
                <row role="data">
                   <cell role="Datierung">
@@ -154,7 +153,6 @@
                   <cell role="erschlossene_Datierung_der_Kopie"/>
                   <cell role="Folios_in_der_Hand_des_Kopisten">S. 177–179, 235–236</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
-                  <cell role="Kommentar_intern"/>
                </row>
                <row role="data">
                   <cell role="Datierung">
@@ -174,7 +172,6 @@
                   <cell role="erschlossene_Datierung_der_Kopie"/>
                   <cell role="Folios_in_der_Hand_des_Kopisten">29r; 31r–31v; 35r–37r</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
-                  <cell role="Kommentar_intern"/>
                </row>
                <row role="data">
                   <cell role="Datierung">
@@ -193,7 +190,6 @@
                   <cell role="erschlossene_Datierung_der_Kopie"/>
                   <cell role="Folios_in_der_Hand_des_Kopisten">1r; 2r; 3r; 4r; 5r</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
-                  <cell role="Kommentar_intern"/>
                </row>
                <row role="data">
                   <cell role="Datierung">
@@ -213,7 +209,6 @@
                   <cell role="erschlossene_Datierung_der_Kopie"/>
                   <cell role="Folios_in_der_Hand_des_Kopisten">Handschrift ist nicht foliiert</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
-                  <cell role="Kommentar_intern"/>
                </row>
             </table>
             <list>

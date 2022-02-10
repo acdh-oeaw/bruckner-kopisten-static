@@ -127,7 +127,6 @@
                   <cell role="erschlossene_Datierung_der_Kopie"/>
                   <cell role="Folios_in_der_Hand_des_Kopisten">1r-52v; 67r-102r</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
-                  <cell role="Kommentar_intern"/>
                </row>
                <row role="data">
                   <cell role="Datierung">
@@ -145,7 +144,6 @@
                   <cell role="erschlossene_Datierung_der_Kopie"/>
                   <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift">1r</cell>
-                  <cell role="Kommentar_intern"/>
                </row>
                <row role="data">
                   <cell role="Datierung">
@@ -165,7 +163,6 @@
                   <cell role="erschlossene_Datierung_der_Kopie"/>
                   <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift">29r; 29v</cell>
-                  <cell role="Kommentar_intern">Pawelka Fol 29r und 29v: 13. Jan[uar]. 1891</cell>
                </row>
                <row role="data">
                   <cell role="Datierung">
@@ -182,7 +179,6 @@
                   <cell role="erschlossene_Datierung_der_Kopie"/>
                   <cell role="Folios_in_der_Hand_des_Kopisten">1r–37v; 59v–72v; 99r–139v</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift">32v</cell>
-                  <cell role="Kommentar_intern">Fol 32v: V. Ch. / 9. 4. / 1890</cell>
                </row>
                <row role="data">
                   <cell role="Datierung">
@@ -200,7 +196,6 @@
                   <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift">1v; Ende des 1. Satzes; Adagio
                      Titelseite; Ende des Adagios; Finale Titelseite; Ende des Finales</cell>
-                  <cell role="Kommentar_intern"/>
                </row>
             </table>
             <list>
