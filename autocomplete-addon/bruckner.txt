@@ -1,4 +1,5 @@
 static-search/stems/039.json
+static-search/stems/118.json
 static-search/stems/140.json
 static-search/stems/142.json
 static-search/stems/1635.json
@@ -32,6 +33,7 @@ static-search/stems/55310.json
 static-search/stems/57583.json
 static-search/stems/6075.json
 static-search/stems/8.5.json
+static-search/stems/a-kr-.json
 static-search/stems/a-kr-m.json
 static-search/stems/a-kr.json
 static-search/stems/a-w.json
@@ -47,6 +49,7 @@ static-search/stems/iii.json
 static-search/stems/laska.json
 static-search/stems/musikwissenschaftlich.json
 static-search/stems/privatbesitz.json
+static-search/stems/stimmen.json
 static-search/stems/verlag.json
 static-search/stems/verschollen.json
 static-search/stems/wab.json
