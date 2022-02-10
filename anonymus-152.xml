@@ -4,28 +4,36 @@
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Anonymus 152</title>
-            <title level="m">Die Wiener Kopisten der Werke Anton Bruckners</title>
+            <title level="m">Die Kopisten der Werke Anton Bruckners</title>
             <author>
-               <name>Paul Hawkshaw</name>
-               <name>Clemens Gubsch</name>
+               <persName xml:id="PH">Paul Hawkshaw</persName>
             </author>
+            <author>
+               <persName xml:id="CG">Clemens Gubsch</persName>
+            </author>
+            <funder>Magistratsabteilung 7 – Kultur, Wissenschafts- und Forschungsförderung der Stadt Wien</funder>
             <respStmt>
                <resp>Automatische Konvertierung nach TEI P5</resp>
-               <name xml:id="cg">Clemens Gubsch</name>
+               <name corresp="#CG">Clemens Gubsch</name>
             </respStmt>
             <respStmt>
                <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
-               <name corresp="#cg">Clemens Gubsch</name>
+               <name corresp="#CG">Clemens Gubsch</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
             <edition>
-               <date>2020-11-01</date>
+               <date>2021-11-01</date>
             </edition>
          </editionStmt>
          <publicationStmt>
-            <publisher>Die Wiener Kopisten der Werke Anton Bruckners</publisher>
-            <idno type="BrucknerKopisten">d1e20715</idno>
+            <publisher>Österreichische Akademie der Wissenschaften <lb/>Austrian Centre for Digital Humanities, <lb/>Abteilung Musikwissenschaft</publisher>
+            <pubPlace>Wien</pubPlace>
+            <idno type="Bruckner_Kopisten">d1e20715</idno>
+            <date when-iso="2021-10"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
          </publicationStmt>
          <sourceDesc>
             <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
@@ -38,6 +46,15 @@
             </keywords>
          </textClass>
       </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Erfassung aller Kopisten bzw. Schreibprofile innerhalb der überlieferten Abschriften der Werke Anton Bruckners ausgehend vom Forschungsstand des Werkverzeichnisses auf der Forschungsplattform bruckner-online.at</p>
+            <p>Die in dieser Datei erfassten Informationen wurden im Rahmen des Projektes „Die Wiener Kopisten der Werke Anton Bruckners“ gesammelt. Das Projekt wurde 2021 von der Magistratsabteilung 7 – Kultur, Wissenschafts- und Forschungsförderung der Stadt Wien finanziert.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Identifizierung der Kopisten erfolgte nach den in der Projetbeschreibung (siehe <ref target="100_Introduction/03-Methodology.xml">Methodik</ref>) dargelegten Richtlinien.</p>
+         </editorialDecl>
+      </encodingDesc>
       <revisionDesc>
          <listChange>
             <change who="#cg" status="created">Erstellt und geprüft</change>
@@ -61,11 +78,10 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Der Kopist Anonymus 152 (W) fertigte eine frühe Partiturabschrift des <hi
-                  rend="italic">Intermezzo</hi> (WAB 113) an.</p>
+               <lb/>Der Kopist Anonymus 152 (W) fertigte eine frühe Partiturabschrift des <hi rend="italic">Intermezzo</hi> (WAB 113) an.</p>
             <p decls="desc" xml:lang="eng">
-               <lb/><hi rend="italic">Anonymus</hi> 152 (W) prepared an early score for the <hi
-                  rend="italic">Intermezzo</hi> (WAB 113) for String Quintet.</p>
+               <lb/>
+               <hi rend="italic">Anonymus</hi> 152 (W) prepared an early score for the <hi rend="italic">Intermezzo</hi> (WAB 113) for String Quintet.</p>
             <table>
                <head>Abschriften</head>
                <row xml:lang="de" role="label">
@@ -93,9 +109,7 @@
                      <date when="1879-12-21">21.12.1879</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref
-                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.6036"
-                        >A-WnMus.Hs.6036</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.6036">A-WnMus.Hs.6036</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9143">Intermezzo</ref>
@@ -114,23 +128,20 @@
                </row>
             </table>
             <list>
-               <head xml:lang="de">Beispiele entnommen aus: <ref
-                     target="Anonymus-152_A-WnMus.Hs.6036-01v.jpg">A-WnMus.Hs.6036</ref>
+               <head xml:lang="de">Beispiele entnommen aus: <ref target="Anonymus-152_A-WnMus.Hs.6036-01v.jpg">A-WnMus.Hs.6036</ref>
                </head>
-               <head xml:lang="eng">Examples taken from: <ref
-                     target="Anonymus-152_A-WnMus.Hs.6036-01v.jpg">A-WnMus.Hs.6036</ref>
+               <head xml:lang="eng">Examples taken from: <ref target="Anonymus-152_A-WnMus.Hs.6036-01v.jpg">A-WnMus.Hs.6036</ref>
                </head>
                <item>
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_152/Anonymus-152_A-WnMus.Hs.6036_A-Clefs_C.png"/>
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_152/Anonymus-152_A-WnMus.Hs.6036_A-Clefs_C.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_152/Anonymus-152_A-WnMus.Hs.6036_A-Clefs_F.png"/>
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_152/Anonymus-152_A-WnMus.Hs.6036_A-Clefs_F.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_152/Anonymus-152_A-WnMus.Hs.6036_A-Clefs_G.png"
-                     />
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_152/Anonymus-152_A-WnMus.Hs.6036_A-Clefs_G.png"/>
                   </figure>
                </item>
                <item>
@@ -138,12 +149,11 @@
                   <title xml:lang="eng">Accidentals</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_152/Anonymus-152_A-WnMus.Hs.6036_B-Accidentals_Flat.png"/>
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_152/Anonymus-152_A-WnMus.Hs.6036_B-Accidentals_Flat.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_152/Anonymus-152_A-WnMus.Hs.6036_B-Accidentals_Natural.png"/>
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_152/Anonymus-152_A-WnMus.Hs.6036_B-Accidentals_Natural.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_152/Anonymus-152_A-WnMus.Hs.6036_B-Accidentals_Sharp.png"
-                     />
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_152/Anonymus-152_A-WnMus.Hs.6036_B-Accidentals_Sharp.png"/>
                   </figure>
                </item>
                <item>
@@ -151,8 +161,7 @@
                   <title xml:lang="eng">Time Signatures</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_152/Anonymus-152_A-WnMus.Hs.6036_C-Time-Signatures_3_4.png"
-                     />
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_152/Anonymus-152_A-WnMus.Hs.6036_C-Time-Signatures_3_4.png"/>
                   </figure>
                </item>
                <item>
@@ -160,10 +169,9 @@
                   <title xml:lang="eng">Rests</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_152/Anonymus-152_A-WnMus.Hs.6036_D-Rests_Achtel.png"/>
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_152/Anonymus-152_A-WnMus.Hs.6036_D-Rests_Achtel.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_152/Anonymus-152_A-WnMus.Hs.6036_D-Rests_Viertel.png"
-                     />
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_152/Anonymus-152_A-WnMus.Hs.6036_D-Rests_Viertel.png"/>
                   </figure>
                </item>
                <item>
@@ -171,12 +179,11 @@
                   <title xml:lang="eng">Notes</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_152/Anonymus-152_A-WnMus.Hs.6036_E-Notes_Achtel.png"/>
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_152/Anonymus-152_A-WnMus.Hs.6036_E-Notes_Achtel.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_152/Anonymus-152_A-WnMus.Hs.6036_E-Notes_Halbe.png"/>
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_152/Anonymus-152_A-WnMus.Hs.6036_E-Notes_Halbe.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_152/Anonymus-152_A-WnMus.Hs.6036_E-Notes_Viertel.png"
-                     />
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_152/Anonymus-152_A-WnMus.Hs.6036_E-Notes_Viertel.png"/>
                   </figure>
                </item>
                <item>
@@ -184,20 +191,19 @@
                   <title xml:lang="eng">Dynamics</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_152/Anonymus-152_A-WnMus.Hs.6036_F-Dynamics_Cresc.png"/>
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_152/Anonymus-152_A-WnMus.Hs.6036_F-Dynamics_Cresc.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_152/Anonymus-152_A-WnMus.Hs.6036_F-Dynamics_Crescendo.png"/>
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_152/Anonymus-152_A-WnMus.Hs.6036_F-Dynamics_Crescendo.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_152/Anonymus-152_A-WnMus.Hs.6036_F-Dynamics_Decrescendo.png"/>
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_152/Anonymus-152_A-WnMus.Hs.6036_F-Dynamics_Decrescendo.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_152/Anonymus-152_A-WnMus.Hs.6036_F-Dynamics_Dim.png"/>
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_152/Anonymus-152_A-WnMus.Hs.6036_F-Dynamics_Dim.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_152/Anonymus-152_A-WnMus.Hs.6036_F-Dynamics_Fortissimo.png"/>
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_152/Anonymus-152_A-WnMus.Hs.6036_F-Dynamics_Fortissimo.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_152/Anonymus-152_A-WnMus.Hs.6036_F-Dynamics_Mezzoforte.png"/>
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_152/Anonymus-152_A-WnMus.Hs.6036_F-Dynamics_Mezzoforte.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_152/Anonymus-152_A-WnMus.Hs.6036_F-Dynamics_Pianissimo.png"
-                     />
+                              url="../../101_samples/Anonymus/Anonymus_151-/Anonymus_152/Anonymus-152_A-WnMus.Hs.6036_F-Dynamics_Pianissimo.png"/>
                   </figure>
                </item>
             </list>

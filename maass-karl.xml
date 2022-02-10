@@ -4,28 +4,36 @@
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Maaß, Karl</title>
-            <title level="m">Die Wiener Kopisten der Werke Anton Bruckners</title>
+            <title level="m">Die Kopisten der Werke Anton Bruckners</title>
             <author>
-               <name>Paul Hawkshaw</name>
-               <name>Clemens Gubsch</name>
+               <persName xml:id="PH">Paul Hawkshaw</persName>
             </author>
+            <author>
+               <persName xml:id="CG">Clemens Gubsch</persName>
+            </author>
+            <funder>Magistratsabteilung 7 – Kultur, Wissenschafts- und Forschungsförderung der Stadt Wien</funder>
             <respStmt>
                <resp>Automatische Konvertierung nach TEI P5</resp>
-               <name xml:id="cg">Clemens Gubsch</name>
+               <name corresp="#CG">Clemens Gubsch</name>
             </respStmt>
             <respStmt>
                <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
-               <name corresp="#cg">Clemens Gubsch</name>
+               <name corresp="#CG">Clemens Gubsch</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
             <edition>
-               <date>2020-11-01</date>
+               <date>2021-11-01</date>
             </edition>
          </editionStmt>
          <publicationStmt>
-            <publisher>Die Wiener Kopisten der Werke Anton Bruckners</publisher>
-            <idno type="BrucknerKopisten">d1e30163</idno>
+            <publisher>Österreichische Akademie der Wissenschaften <lb/>Austrian Centre for Digital Humanities, <lb/>Abteilung Musikwissenschaft</publisher>
+            <pubPlace>Wien</pubPlace>
+            <idno type="Bruckner_Kopisten">d1e30163</idno>
+            <date when-iso="2021-10"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
          </publicationStmt>
          <sourceDesc>
             <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
@@ -38,6 +46,15 @@
             </keywords>
          </textClass>
       </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Erfassung aller Kopisten bzw. Schreibprofile innerhalb der überlieferten Abschriften der Werke Anton Bruckners ausgehend vom Forschungsstand des Werkverzeichnisses auf der Forschungsplattform bruckner-online.at</p>
+            <p>Die in dieser Datei erfassten Informationen wurden im Rahmen des Projektes „Die Wiener Kopisten der Werke Anton Bruckners“ gesammelt. Das Projekt wurde 2021 von der Magistratsabteilung 7 – Kultur, Wissenschafts- und Forschungsförderung der Stadt Wien finanziert.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Identifizierung der Kopisten erfolgte nach den in der Projetbeschreibung (siehe <ref target="100_Introduction/03-Methodology.xml">Methodik</ref>) dargelegten Richtlinien.</p>
+         </editorialDecl>
+      </encodingDesc>
       <revisionDesc>
          <listChange>
             <change who="#cg" status="created">Erstellt und geprüft</change>
@@ -63,26 +80,18 @@
             </listPerson>
             <p decls="desc" xml:lang="de">
                <lb/>Karl Maaß war von 1907 bis 1943 als Schuldirektor und Organist in Vöcklabruck
-                  tätig.<ref xml:id="footnote-ref711" target="#footnote711" type="noteAnchor"
-                  >1</ref> Maaß signierte und datierte seine Partiturabschrift von <hi rend="italic"
-                  >Christus factus est</hi> (WAB 010) am 23. April 1923 in Vöcklabruck. Aufgrund
+                  tätig.<ref xml:id="footnote-ref711" target="#footnote711" type="noteAnchor">1</ref> Maaß signierte und datierte seine Partiturabschrift von <hi rend="italic">Christus factus est</hi> (WAB 010) am 23. April 1923 in Vöcklabruck. Aufgrund
                seiner beruflichen und gesellschaftlichen Funktionen ist davon auszugehen, dass er
-               mit Max Auer bekannt war. <note xml:id="footnote711" type="footnote" anchored="true"
-                  n="1">Franz Leitner, Die Organisten der Pfarre, in: Die katholische Gemeinde
-                  Vöcklabruck, p. 12 (<ref
-                     target="https://www.dioezese-linz.at/dl/rsnOJKJmNOklJqx4KLJK/2010_2_Pfarrblatt_B1-10.pdf"
-                     >Diozöse Linz</ref>).</note>
+               mit Max Auer bekannt war. <note xml:id="footnote711" type="footnote" anchored="true" n="1">Franz Leitner, Die Organisten der Pfarre, in: Die katholische Gemeinde
+                  Vöcklabruck, p. 12 (<ref target="https://www.dioezese-linz.at/dl/rsnOJKJmNOklJqx4KLJK/2010_2_Pfarrblatt_B1-10.pdf">Diozöse Linz</ref>).</note>
             </p>
             <p decls="desc" xml:lang="eng">
                <lb/>Karl Maaß was school principal and organist in Vöcklabruck from 1907 to
                   1943.<ref xml:id="footnote-ref712" target="#footnote712" type="noteAnchor">1</ref>
                Maaß signed and dated his score copy of <hi rend="italic">Christus factus est</hi> (WAB 010) on 23 April
                1923 in Vöcklabruck. Due to his professional and social functions, it can be assumed
-               that he was acquainted with Max Auer. <note xml:id="footnote712" type="footnote"
-                  anchored="true" n="1">Franz Leitner, Die Organisten der Pfarre, in: Die
-                  katholische Gemeinde Vöcklabruck, S. 12 (<ref
-                     target="https://www.dioezese-linz.at/dl/rsnOJKJmNOklJqx4KLJK/2010_2_Pfarrblatt_B1-10.pdf"
-                     >Diozöse Linz</ref>).</note>
+               that he was acquainted with Max Auer. <note xml:id="footnote712" type="footnote" anchored="true" n="1">Franz Leitner, Die Organisten der Pfarre, in: Die
+                  katholische Gemeinde Vöcklabruck, S. 12 (<ref target="https://www.dioezese-linz.at/dl/rsnOJKJmNOklJqx4KLJK/2010_2_Pfarrblatt_B1-10.pdf">Diozöse Linz</ref>).</note>
             </p>
             <p decls="link" xml:lang="de"/>
             <p decls="link" xml:lang="eng"/>
@@ -113,9 +122,7 @@
                      <date notAfter="1873-12-08">vor 08.12.1873</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref
-                        target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.33200"
-                        >A-WnMus.Hs.33200</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.33200">A-WnMus.Hs.33200</ref>
                   </cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e8781 d1e8765">Christus
@@ -132,23 +139,20 @@
                </row>
             </table>
             <list>
-               <head xml:lang="de">Beispiele entnommen aus: <ref
-                     target="Maaß_Karl_A-WnMus.Hs.33200-1.jpg">A-WnMus.Hs.33200</ref>
+               <head xml:lang="de">Beispiele entnommen aus: <ref target="Maaß_Karl_A-WnMus.Hs.33200-1.jpg">A-WnMus.Hs.33200</ref>
                </head>
-               <head xml:lang="eng">Examples taken from: <ref
-                     target="Maaß_Karl_A-WnMus.Hs.33200-1.jpg">A-WnMus.Hs.33200</ref>
+               <head xml:lang="eng">Examples taken from: <ref target="Maaß_Karl_A-WnMus.Hs.33200-1.jpg">A-WnMus.Hs.33200</ref>
                </head>
                <item>
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/M/Maaß_Karl/Maaß_Karl_A-WnMus.Hs.33200_A-Clefs_C.png"/>
+                              url="../../101_samples/named/M/Maaß_Karl/Maaß_Karl_A-WnMus.Hs.33200_A-Clefs_C.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/M/Maaß_Karl/Maaß_Karl_A-WnMus.Hs.33200_A-Clefs_F.png"/>
+                              url="../../101_samples/named/M/Maaß_Karl/Maaß_Karl_A-WnMus.Hs.33200_A-Clefs_F.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/M/Maaß_Karl/Maaß_Karl_A-WnMus.Hs.33200_A-Clefs_G.png"
-                     />
+                              url="../../101_samples/named/M/Maaß_Karl/Maaß_Karl_A-WnMus.Hs.33200_A-Clefs_G.png"/>
                   </figure>
                </item>
                <item>
@@ -156,12 +160,11 @@
                   <title xml:lang="eng">Accidentals</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/M/Maaß_Karl/Maaß_Karl_A-WnMus.Hs.33200_B-Accidentals_Flat.png"/>
+                              url="../../101_samples/named/M/Maaß_Karl/Maaß_Karl_A-WnMus.Hs.33200_B-Accidentals_Flat.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/M/Maaß_Karl/Maaß_Karl_A-WnMus.Hs.33200_B-Accidentals_Natural.png"/>
+                              url="../../101_samples/named/M/Maaß_Karl/Maaß_Karl_A-WnMus.Hs.33200_B-Accidentals_Natural.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/M/Maaß_Karl/Maaß_Karl_A-WnMus.Hs.33200_B-Accidentals_Sharp.png"
-                     />
+                              url="../../101_samples/named/M/Maaß_Karl/Maaß_Karl_A-WnMus.Hs.33200_B-Accidentals_Sharp.png"/>
                   </figure>
                </item>
                <item>
@@ -169,8 +172,7 @@
                   <title xml:lang="eng">Time Signatures</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/M/Maaß_Karl/Maaß_Karl_A-WnMus.Hs.33200_C-Time-Signatures_C.png"
-                     />
+                              url="../../101_samples/named/M/Maaß_Karl/Maaß_Karl_A-WnMus.Hs.33200_C-Time-Signatures_C.png"/>
                   </figure>
                </item>
                <item>
@@ -178,8 +180,7 @@
                   <title xml:lang="eng">Rests</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/M/Maaß_Karl/Maaß_Karl_A-WnMus.Hs.33200_D-Rests_Viertel.png"
-                     />
+                              url="../../101_samples/named/M/Maaß_Karl/Maaß_Karl_A-WnMus.Hs.33200_D-Rests_Viertel.png"/>
                   </figure>
                </item>
                <item>
@@ -187,14 +188,13 @@
                   <title xml:lang="eng">Notes</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/M/Maaß_Karl/Maaß_Karl_A-WnMus.Hs.33200_E-Notes_Achtel.png"/>
+                              url="../../101_samples/named/M/Maaß_Karl/Maaß_Karl_A-WnMus.Hs.33200_E-Notes_Achtel.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/M/Maaß_Karl/Maaß_Karl_A-WnMus.Hs.33200_E-Notes_Ganze.png"/>
+                              url="../../101_samples/named/M/Maaß_Karl/Maaß_Karl_A-WnMus.Hs.33200_E-Notes_Ganze.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/M/Maaß_Karl/Maaß_Karl_A-WnMus.Hs.33200_E-Notes_Halbe.png"/>
+                              url="../../101_samples/named/M/Maaß_Karl/Maaß_Karl_A-WnMus.Hs.33200_E-Notes_Halbe.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/M/Maaß_Karl/Maaß_Karl_A-WnMus.Hs.33200_E-Notes_Viertel.png"
-                     />
+                              url="../../101_samples/named/M/Maaß_Karl/Maaß_Karl_A-WnMus.Hs.33200_E-Notes_Viertel.png"/>
                   </figure>
                </item>
                <item>
@@ -202,18 +202,17 @@
                   <title xml:lang="eng">Dynamics</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/M/Maaß_Karl/Maaß_Karl_A-WnMus.Hs.33200_F-Dynamics_Cresc.png"/>
+                              url="../../101_samples/named/M/Maaß_Karl/Maaß_Karl_A-WnMus.Hs.33200_F-Dynamics_Cresc.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/M/Maaß_Karl/Maaß_Karl_A-WnMus.Hs.33200_F-Dynamics_Crescendo_Decrescendo.png"/>
+                              url="../../101_samples/named/M/Maaß_Karl/Maaß_Karl_A-WnMus.Hs.33200_F-Dynamics_Crescendo_Decrescendo.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/M/Maaß_Karl/Maaß_Karl_A-WnMus.Hs.33200_F-Dynamics_Forte.png"/>
+                              url="../../101_samples/named/M/Maaß_Karl/Maaß_Karl_A-WnMus.Hs.33200_F-Dynamics_Forte.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/M/Maaß_Karl/Maaß_Karl_A-WnMus.Hs.33200_F-Dynamics_Fortissimo.png"/>
+                              url="../../101_samples/named/M/Maaß_Karl/Maaß_Karl_A-WnMus.Hs.33200_F-Dynamics_Fortissimo.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/M/Maaß_Karl/Maaß_Karl_A-WnMus.Hs.33200_F-Dynamics_Mezzoforte.png"/>
+                              url="../../101_samples/named/M/Maaß_Karl/Maaß_Karl_A-WnMus.Hs.33200_F-Dynamics_Mezzoforte.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/M/Maaß_Karl/Maaß_Karl_A-WnMus.Hs.33200_F-Dynamics_Piano.png"
-                     />
+                              url="../../101_samples/named/M/Maaß_Karl/Maaß_Karl_A-WnMus.Hs.33200_F-Dynamics_Piano.png"/>
                   </figure>
                </item>
             </list>

@@ -4,18 +4,21 @@
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Kopist F. K.</title>
-            <title level="m">Die Wiener Kopisten der Werke Anton Bruckners</title>
+            <title level="m">Die Kopisten der Werke Anton Bruckners</title>
             <author>
-               <name>Paul Hawkshaw</name>
-               <name>Clemens Gubsch</name>
+               <persName xml:id="PH">Paul Hawkshaw</persName>
             </author>
+            <author>
+               <persName xml:id="CG">Clemens Gubsch</persName>
+            </author>
+            <funder>Magistratsabteilung 7 – Kultur, Wissenschafts- und Forschungsförderung der Stadt Wien</funder>
             <respStmt>
                <resp>Automatische Konvertierung nach TEI P5</resp>
-               <name xml:id="cg">Clemens Gubsch</name>
+               <name corresp="#CG">Clemens Gubsch</name>
             </respStmt>
             <respStmt>
                <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
-               <name corresp="#cg">Clemens Gubsch</name>
+               <name corresp="#CG">Clemens Gubsch</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -24,8 +27,13 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            <publisher>Die Wiener Kopisten der Werke Anton Bruckners</publisher>
-            <idno type="BrucknerKopisten">d1e784512</idno>
+            <publisher>Österreichische Akademie der Wissenschaften <lb/>Austrian Centre for Digital Humanities, <lb/>Abteilung Musikwissenschaft</publisher>
+            <pubPlace>Wien</pubPlace>
+            <idno type="Bruckner_Kopisten">d1e784512</idno>
+            <date when-iso="2021-10"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
          </publicationStmt>
          <sourceDesc>
             <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
@@ -38,6 +46,15 @@
             </keywords>
          </textClass>
       </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Erfassung aller Kopisten bzw. Schreibprofile innerhalb der überlieferten Abschriften der Werke Anton Bruckners ausgehend vom Forschungsstand des Werkverzeichnisses auf der Forschungsplattform bruckner-online.at</p>
+            <p>Die in dieser Datei erfassten Informationen wurden im Rahmen des Projektes „Die Wiener Kopisten der Werke Anton Bruckners“ gesammelt. Das Projekt wurde 2021 von der Magistratsabteilung 7 – Kultur, Wissenschafts- und Forschungsförderung der Stadt Wien finanziert.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Identifizierung der Kopisten erfolgte nach den in der Projetbeschreibung (siehe <ref target="100_Introduction/03-Methodology.xml">Methodik</ref>) dargelegten Richtlinien.</p>
+         </editorialDecl>
+      </encodingDesc>
       <revisionDesc>
          <listChange>
             <change who="#cg" status="created">Erstellt und geprüft</change>
@@ -67,22 +84,18 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Der Kopist F. K. signierte und datierte die Stimmen für das <hi rend="italic"
-                  >Requiem</hi> in den Jahren 1849 und 1850. Dieser Kopist war zu dieser Zeit
+               <lb/>Der Kopist F. K. signierte und datierte die Stimmen für das <hi rend="italic">Requiem</hi> in den Jahren 1849 und 1850. Dieser Kopist war zu dieser Zeit
                wahrscheinlich in St. Florian oder Kremsmünster tätig. <lb/>F. K. wurde aufgrund der
                Nähe des Kompositionsdatums und der von ihm angefertigten Stimmen für das Werk
                vorläufig zu den Kopisten der Primärquelle gezählt. Siehe auch Kopist M. Sch. Der
                Stimmensatz ist nicht foliiert. <lb/>Für weitere Kopisten aus St. Florian und
-               Kremsmünster siehe <ref target="../../100_Introduction/Tabelle_3.xml" type="table"
-                  >Tabelle 3</ref>. </p>
+               Kremsmünster siehe <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>. </p>
             <p decls="desc" xml:lang="eng">
-               <lb/>The copyist F. K. signed and dated his parts for the <hi rend="italic"
-                  >Requiem</hi> in 1849 and 1850. This copyist probably worked at St. Florian or
+               <lb/>The copyist F. K. signed and dated his parts for the <hi rend="italic">Requiem</hi> in 1849 and 1850. This copyist probably worked at St. Florian or
                Kremsmünster at the time. <lb/>F. K. has been tentatively included among the primary
                source copyists due to the proximity of the date of composition and his parts for the
                work. See also M. Sch. The <hi rend="italic">Requiem</hi> parts have not been
-               foliated. <lb/>For more copyists from St. Florian and Kremsmünster, see <ref
-                  target="../../100_Introduction/Tabelle_3.xml" type="table">Table 3</ref>. </p>
+               foliated. <lb/>For more copyists from St. Florian and Kremsmünster, see <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Table 3</ref>. </p>
             <p decls="link" xml:lang="de"/>
             <p decls="link" xml:lang="eng"/>
             <table>
@@ -129,77 +142,106 @@
                </row>
             </table>
             <list>
-               <head xml:lang="de">Beispiele entnommen aus: <ref
-                  target="Kopist_F.K._A-KR-E5-118-Stimmen-01r-01-S_01.jpg">A-KR-E5-118-Stimmen</ref>
+               <head xml:lang="de">Beispiele entnommen aus: <ref target="Kopist_F.K._A-KR-E5-118-Stimmen-01r-01-S_01.jpg">A-KR-E5-118-Stimmen</ref>
                </head>
-               <head xml:lang="eng">Examples taken from: <ref
-                  target="Kopist_F.K._A-KR-E5-118-Stimmen-01r-01-S_01.jpg">A-KR-E5-118-Stimmen</ref>
+               <head xml:lang="eng">Examples taken from: <ref target="Kopist_F.K._A-KR-E5-118-Stimmen-01r-01-S_01.jpg">A-KR-E5-118-Stimmen</ref>
                </head>
                <item>
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_A-Clefs_C.png"/>
-                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_A-Clefs_F.png"/>
-                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_A-Clefs_G.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_A-Clefs_C.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_A-Clefs_F.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_A-Clefs_G.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Akzidentien</title>
                   <title xml:lang="eng">Accidentals</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_B-Accidentals_Flat.png"/>
-                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_B-Accidentals_Flat_2.png"/>
-                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_B-Accidentals_Natural.png"/>
-                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_B-Accidentals_Natural_2.png"/>
-                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_B-Accidentals_Sharp_1.png"/>
-                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_B-Accidentals_Sharp_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_B-Accidentals_Flat.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_B-Accidentals_Flat_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_B-Accidentals_Natural.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_B-Accidentals_Natural_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_B-Accidentals_Sharp_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_B-Accidentals_Sharp_2.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Taktvorzeichnung</title>
                   <title xml:lang="eng">Time Signatures</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_C-Time-Signatures_C.png"/>
-                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_C-Time-Signatures_C_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_C-Time-Signatures_C.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_C-Time-Signatures_C_2.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Pausen</title>
                   <title xml:lang="eng">Rests</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_D-Rests_Achtel.png"/>
-                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_D-Rests_Halbe.png"/>
-                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_D-Rests_Viertel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_D-Rests_Achtel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_D-Rests_Halbe.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_D-Rests_Viertel.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Noten</title>
                   <title xml:lang="eng">Notes</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_E-Notes_Achtel_1.png"/>
-                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_E-Notes_Achtel_2.png"/>
-                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_E-Notes_Achtel_3.png"/>
-                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_E-Notes_Achtel_4.png"/>
-                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_E-Notes_Ganze_1.png"/>
-                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_E-Notes_Halbe_1.png"/>
-                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_E-Notes_Sechzehntel.png"/>
-                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_E-Notes_Viertel_1.png"/>
-                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_E-Notes_Viertel_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_E-Notes_Achtel_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_E-Notes_Achtel_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_E-Notes_Achtel_3.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_E-Notes_Achtel_4.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_E-Notes_Ganze_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_E-Notes_Halbe_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_E-Notes_Sechzehntel.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_E-Notes_Viertel_1.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_E-Notes_Viertel_2.png"/>
                   </figure>
                </item>
                <item>
                   <title xml:lang="de">Dynamik</title>
                   <title xml:lang="eng">Dynamics</title>
                   <figure>
-                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_F-Dynamics_Crescendo.png"/>
-                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_F-Dynamics_Decrescendo.png"/>
-                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_F-Dynamics_Forte.png"/>
-                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_F-Dynamics_Forte_2.png"/>
-                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_F-Dynamics_Fortissimo.png"/>
-                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_F-Dynamics_Mezzoforte.png"/>
-                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_F-Dynamics_Piano.png"/>
-                     <graphic scale="33" url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_F-Dynamics_Piano_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_F-Dynamics_Crescendo.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_F-Dynamics_Decrescendo.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_F-Dynamics_Forte.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_F-Dynamics_Forte_2.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_F-Dynamics_Fortissimo.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_F-Dynamics_Mezzoforte.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_F-Dynamics_Piano.png"/>
+                     <graphic scale="33"
+                              url="../../101_samples/named/K/FK_Kopist/Kopist_F.K._A-KR-E5-118-Stimmen_F-Dynamics_Piano_2.png"/>
                   </figure>
                </item>
             </list>

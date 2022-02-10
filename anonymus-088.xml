@@ -4,28 +4,36 @@
       <fileDesc>
          <titleStmt>
             <title type="main" level="a">Anonymus 088</title>
-            <title level="m">Die Wiener Kopisten der Werke Anton Bruckners</title>
+            <title level="m">Die Kopisten der Werke Anton Bruckners</title>
             <author>
-               <name>Paul Hawkshaw</name>
-               <name>Clemens Gubsch</name>
+               <persName xml:id="PH">Paul Hawkshaw</persName>
             </author>
+            <author>
+               <persName xml:id="CG">Clemens Gubsch</persName>
+            </author>
+            <funder>Magistratsabteilung 7 – Kultur, Wissenschafts- und Forschungsförderung der Stadt Wien</funder>
             <respStmt>
                <resp>Automatische Konvertierung nach TEI P5</resp>
-               <name xml:id="cg">Clemens Gubsch</name>
+               <name corresp="#CG">Clemens Gubsch</name>
             </respStmt>
             <respStmt>
                <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
-               <name corresp="#cg">Clemens Gubsch</name>
+               <name corresp="#CG">Clemens Gubsch</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
             <edition>
-               <date>2020-11-01</date>
+               <date>2021-11-01</date>
             </edition>
          </editionStmt>
          <publicationStmt>
-            <publisher>Die Wiener Kopisten der Werke Anton Bruckners</publisher>
-            <idno type="BrucknerKopisten">d1e12663</idno>
+            <publisher>Österreichische Akademie der Wissenschaften <lb/>Austrian Centre for Digital Humanities, <lb/>Abteilung Musikwissenschaft</publisher>
+            <pubPlace>Wien</pubPlace>
+            <idno type="Bruckner_Kopisten">d1e12663</idno>
+            <date when-iso="2021-10"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
          </publicationStmt>
          <sourceDesc>
             <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
@@ -38,6 +46,15 @@
             </keywords>
          </textClass>
       </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Erfassung aller Kopisten bzw. Schreibprofile innerhalb der überlieferten Abschriften der Werke Anton Bruckners ausgehend vom Forschungsstand des Werkverzeichnisses auf der Forschungsplattform bruckner-online.at</p>
+            <p>Die in dieser Datei erfassten Informationen wurden im Rahmen des Projektes „Die Wiener Kopisten der Werke Anton Bruckners“ gesammelt. Das Projekt wurde 2021 von der Magistratsabteilung 7 – Kultur, Wissenschafts- und Forschungsförderung der Stadt Wien finanziert.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Identifizierung der Kopisten erfolgte nach den in der Projetbeschreibung (siehe <ref target="100_Introduction/03-Methodology.xml">Methodik</ref>) dargelegten Richtlinien.</p>
+         </editorialDecl>
+      </encodingDesc>
       <revisionDesc>
          <listChange>
             <change who="#cg" status="created">Erstellt und geprüft</change>
@@ -65,7 +82,8 @@
                <lb/>Die Kopisten Anonymus 021 (W), 088 (W), 092 (W), Hofmeister und Franz Rossi korrigierten den Stimmensatz der für die Uraufführung der 2. Fassung der <hi rend="italic">Messe in e-Moll</hi> am 4. Oktober 1885 in Linz verwendet wurde und fertigten zusätzliche Stimmen und Stimmeinlagen an. Anonymus 88 (W) fertigte auch die im Domchorarchiv aufbewahrten Stimmensätze zum <hi rend="italic">Ave Maria</hi> (WAB 6)und zum <hi rend="italic">Ecce Sacerdos Magnus</hi> – die beide am gleichen Tag wie die <hi rend="italic">Messe in e-Moll</hi> aufgeführt wurden – an. 
                <lb/>Für weitere Kopisten aus Linz siehe <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>.</p>
             <p decls="desc" xml:lang="eng">
-               <lb/><hi rend="italic">Anonymus</hi> 021 (W), <hi rend="italic">Anonymus</hi> 088 (W), <hi rend="italic">Anonymus</hi> 092 (W), Hofmeister and Franz Rossi corrected and made additional parts for the first performance of the second version of the <hi rend="italic">Mass in E minor</hi> in Linz on 4 October 1885. <hi rend="italic">Anonymus</hi> 88 (W) also contributed to the sets of parts in the Linz Cathedral Archive for the <hi rend="italic">Ave Maria</hi> (WAB 6) and <hi rend="italic">Ecce Sacerdos Magnus</hi>, both of which were performed on the same occasion. 
+               <lb/>
+               <hi rend="italic">Anonymus</hi> 021 (W), <hi rend="italic">Anonymus</hi> 088 (W), <hi rend="italic">Anonymus</hi> 092 (W), Hofmeister and Franz Rossi corrected and made additional parts for the first performance of the second version of the <hi rend="italic">Mass in E minor</hi> in Linz on 4 October 1885. <hi rend="italic">Anonymus</hi> 88 (W) also contributed to the sets of parts in the Linz Cathedral Archive for the <hi rend="italic">Ave Maria</hi> (WAB 6) and <hi rend="italic">Ecce Sacerdos Magnus</hi>, both of which were performed on the same occasion. 
                <lb/>For more copyists from Linz, see <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Table 3</ref>.</p>
             <table>
                <head>Abschriften</head>
