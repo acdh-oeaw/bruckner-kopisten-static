@@ -30,6 +30,7 @@ static-search/stems/42112.json
 static-search/stems/42113.json
 static-search/stems/45468.json
 static-search/stems/55310.json
+static-search/stems/57150.json
 static-search/stems/57583.json
 static-search/stems/6075.json
 static-search/stems/8.5.json

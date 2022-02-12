@@ -248,10 +248,11 @@
       <back>
          <listPlace>
             <place xml:id="place_100">
+               <placeName>Wien</placeName>
                <location>
                   <geo>48.208490000000 16.372080000000</geo>
-                  <idno subtype="geonames" type="URL">https://www.geonames.org/2761369</idno>
                </location>
+               <idno subtype="geonames" type="URL">https://www.geonames.org/2761369</idno>
             </place>
          </listPlace>
       </back>
