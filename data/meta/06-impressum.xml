@@ -77,61 +77,70 @@
             <div xml:id="content-d1e00006">
                 <div xml:lang="de">
                     <head>Impressum</head>
-                        <p><hi rend="bold">Bildnachweise</hi></p>
-                        
-                        <lb/><bibl>Bildausschnitt <hi rend="italic">Copist Hlawaczek</hi>: Autographe
-                            Eintragung in Bruckners Taschenkalender, in: Akademischer Kalender der
-                            Österreichischen Hochschulen für das Studienjahr 1879. Aufbewahrungsort:
-                            Musiksammlung der Österreichischen Nationalbibliothek, Signatur: <ref
-                                target="https://data.onb.ac.at/rec/AC14012099"
-                            >Mus.Hs.3178/a/1</ref>, fol. 13r.</bibl>
-                        <lb/><bibl>Collage <hi rend="italic">Sekundärquellen</hi>: Zusammenstellung der
-                            Verfasser mit den Quellen A-SF20-41a, A-Wn Mus.Hs. 19717, A-Wn Mus.Hs.
-                            33157 und A-Wn Mus.Hs. 41004.</bibl>
-                        <lb/><bibl>Kartenausschnitt <hi rend="italic">Oberösterreich</hi> aus: Karte des
-                            Erzherzogthums Oesterreich ob und unter der Enns. Westlicher Theil.
-                            Entw. u. gez. v. Major Radefeld. 1849, in: Grosser Hand-Atlas über alle
-                            Theile der Erde in 170 Karten. Herausgegeben von J. Meyer.
-                            Hildburghausen Verlag des Bibliographischen Instituts 1860, Reproduktion
-                            von: Stanford University Libraries, David Rumsey Map Collection,
-                            Signatur: <ref target="https://purl.stanford.edu/yv048gy3228">G1019 .M4
-                                1860 F</ref>, S. 67</bibl>
-                        <lb/><bibl>Kalenderblätter: Seiten aus Bruckners Taschenkalender, in: Fromme's
-                            Oesterreichischer Hochschulen-Kalender für Professoren und Studirende
-                            für das Schuljahr 1885/86. Aufbewahrungsort: Musiksammlung der
-                            Österreichischen Nationalbibliothek, Signatur: <ref
-                                target="https://data.onb.ac.at/rec/AC14012108"
-                            >Mus.Hs.3178/b/2</ref>, fol. 528v und 531r.</bibl>
-                        <lb/><bibl>Collage <hi rend="italic">Kopisten-Annoncen</hi>: Zusammenstellung der
-                            Verfasser anhand von Zeitungsausschnitten aus dem virtuellen
-                            Zeitungslesesaal der Österreichischen Nationalbibliothek: <ref
-                                target="https://anno.onb.ac.at/">ANNO</ref>.</bibl>
-                        <lb/><bibl>Kartenausschnitt <hi rend="italic">Wien</hi> aus: Monumental-Plan der
-                            Haupt- und Residenzstadt Wien: Vom Arsenal bis zum Kahlenberg - von der
-                            Sternwarte bis zu den Kaisermühlen, verf. von Ladislaus Eugen Petrovits,
-                            Wien 1887. Reproduktion von: Wienbibliothek im Rathaus, Depot Rathaus,
-                            Signautr: <ref
-                                target="https://resolver.obvsg.at/urn:nbn:at:AT-WBR-46343"
-                                >k-19215</ref>.</bibl>
-                        <lb/><bibl>Werk-Datenbank (Karteikästen): Dreamstime LLC, 1616 Westgate Circle,
-                            Brentwood, TN 37027, United States.</bibl>
-                    
-                    
-                        <p><hi rend="bold">Urheberrechtlicher Hinweis</hi></p>
-                        <p>Die durch die ÖAW auf diesen Seiten erstellten Inhalte und Werke
-                            unterliegen dem österreichischen Urheberrecht. Die Vervielfältigung,
-                            Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der
-                            Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des
-                            jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite
-                            sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.
-                            Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden,
-                            werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte
-                            Dritter als solche gekennzeichnet. Die Bildrechte an den Digitalisaten
-                            (Farbabbildungen) von Musikhandschriften liegen bei den Eigentümern der
-                            originalen Quellen.</p>
-                    
+                    <p><hi rend="bold">Bildnachweise</hi></p>
+                    <p>
+                        <listBibl>
+                            <lb/>
+                            <bibl>Bildausschnitt <hi rend="italic">Copist Hlawaczek</hi>: Autographe
+                                Eintragung in Bruckners Taschenkalender, in: Akademischer Kalender
+                                der Österreichischen Hochschulen für das Studienjahr 1879.
+                                Aufbewahrungsort: Musiksammlung der Österreichischen
+                                Nationalbibliothek, Signatur: <ref
+                                    target="https://data.onb.ac.at/rec/AC14012099"
+                                    >Mus.Hs.3178/a/1</ref>, fol. 13r.</bibl>
+                            <lb/>
+                            <bibl>Collage <hi rend="italic">Sekundärquellen</hi>: Zusammenstellung
+                                der Verfasser mit den Quellen A-SF20-41a, A-Wn Mus.Hs. 19717, A-Wn
+                                Mus.Hs. 33157 und A-Wn Mus.Hs. 41004.</bibl>
+                            <lb/>
+                            <bibl>Kartenausschnitt <hi rend="italic">Oberösterreich</hi> aus: Karte
+                                des Erzherzogthums Oesterreich ob und unter der Enns. Westlicher
+                                Theil. Entw. u. gez. v. Major Radefeld. 1849, in: Grosser Hand-Atlas
+                                über alle Theile der Erde in 170 Karten. Herausgegeben von J. Meyer.
+                                Hildburghausen Verlag des Bibliographischen Instituts 1860,
+                                Reproduktion von: Stanford University Libraries, David Rumsey Map
+                                Collection, Signatur: <ref
+                                    target="https://purl.stanford.edu/yv048gy3228">G1019 .M4 1860
+                                    F</ref>, S. 67</bibl>
+                            <lb/>
+                            <bibl>Kalenderblätter: Seiten aus Bruckners Taschenkalender, in:
+                                Fromme's Oesterreichischer Hochschulen-Kalender für Professoren und
+                                Studirende für das Schuljahr 1885/86. Aufbewahrungsort:
+                                Musiksammlung der Österreichischen Nationalbibliothek, Signatur:
+                                    <ref target="https://data.onb.ac.at/rec/AC14012108"
+                                    >Mus.Hs.3178/b/2</ref>, fol. 528v und 531r.</bibl>
+                            <lb/>
+                            <bibl>Collage <hi rend="italic">Kopisten-Annoncen</hi>: Zusammenstellung
+                                der Verfasser anhand von Zeitungsausschnitten aus dem virtuellen
+                                Zeitungslesesaal der Österreichischen Nationalbibliothek: <ref
+                                    target="https://anno.onb.ac.at/">ANNO</ref>.</bibl>
+                            <lb/>
+                            <bibl>Kartenausschnitt <hi rend="italic">Wien</hi> aus: Monumental-Plan
+                                der Haupt- und Residenzstadt Wien: Vom Arsenal bis zum Kahlenberg -
+                                von der Sternwarte bis zu den Kaisermühlen, verf. von Ladislaus
+                                Eugen Petrovits, Wien 1887. Reproduktion von: Wienbibliothek im
+                                Rathaus, Depot Rathaus, Signautr: <ref
+                                    target="https://resolver.obvsg.at/urn:nbn:at:AT-WBR-46343"
+                                    >k-19215</ref>.</bibl>
+                            <lb/>
+                            <bibl>Werk-Datenbank (Karteikästen): Dreamstime LLC, 1616 Westgate
+                                Circle, Brentwood, TN 37027, United States.</bibl>
+                        </listBibl>
+                    </p>
+                    <p><hi style="bold">Urheberrechtlicher Hinweis</hi></p>
+                    <p>Die durch die ÖAW auf diesen Seiten erstellten Inhalte und Werke unterliegen
+                        dem österreichischen Urheberrecht. Die Vervielfältigung, Bearbeitung,
+                        Verbreitung und jede Art der Verwertung außerhalb der Grenzen des
+                        Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors
+                        bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den
+                        privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf
+                        dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte
+                        Dritter beachtet. Insbesondere werden Inhalte Dritter als solche
+                        gekennzeichnet. Die Bildrechte an den Digitalisaten (Farbabbildungen) von
+                        Musikhandschriften liegen bei den Eigentümern der originalen Quellen.</p>
+
                 </div>
-<!--
+                <!--
                 <div xml:lang="eng">
                     <head>Contact</head>
                     <p>
