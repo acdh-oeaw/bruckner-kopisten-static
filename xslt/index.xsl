@@ -253,7 +253,7 @@
                                     <div class="card index-card">
                                         <div class="card-body" 
                                             style="padding:0;">
-                                            <img src="img/datenbank.jpg" 
+                                            <img src="img/Wien.jpg" 
                                                 class="d-block w-100" 
                                                 alt="..."/>
                                         </div>
@@ -271,7 +271,7 @@
                                     <div class="card index-card">
                                         <div class="card-body" 
                                             style="padding:0;">
-                                            <img src="img/projekt.jpg" 
+                                            <img src="img/datenbank.jpg" 
                                                 class="d-block w-100" 
                                                 alt="..."/>
                                         </div>
