@@ -74,6 +74,9 @@
                                     <li class="nav-item dropdown-submenu">
                                         <a title="Kontakt" href="05-contact.html" class="nav-link">Kontakt</a>
                                     </li>
+                                    <li class="nav-item dropdown-submenu">
+                                        <a title="Impressum" href="06-impressum.html" class="nav-link">Impressum</a>
+                                    </li>
                                 </ul>
                             </li>
                         </ul>                        
