@@ -50,8 +50,8 @@
             <img class="tei-xml-images">                    
                 <xsl:attribute name="src">
                     <xsl:value-of select="concat(
-                        'https://iiif.acdh.oeaw.ac.at/bruckner-kopisten/', 
-                        replace($source[last()], '.png', '/full/full/0/default.jpg'))"/>
+                        'https://bk-img.acdh-dev.oeaw.ac.at/', 
+                        $source[last()])"/>
                 </xsl:attribute>
             </img>
         </div>
@@ -66,8 +66,8 @@
             <a title="{.}" target="_blank">
                 <xsl:attribute name="href">
                     <xsl:value-of select="concat(
-                        'https://iiif.acdh.oeaw.ac.at/bruckner-kopisten/', 
-                        replace(@target, '.jpg', '/full/full/0/default.jpg'))"/>
+                        'https://bk-img.acdh-dev.oeaw.ac.at/', 
+                        @target)"/>
                 </xsl:attribute>
                 <xsl:value-of select="text()"/>
             </a>

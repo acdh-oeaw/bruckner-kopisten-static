@@ -181,6 +181,7 @@ p {
     padding:.2em;
     border-radius:.25rem;
     transition: transform .2s;    
+    margin-bottom: .4em;
 }
 
 .img-notes:hover {
@@ -442,7 +443,7 @@ ul.ssDescCheckboxList li {
 }
 
 .comparison-result ul li {
-    height: 108px;
+    height: 112px;
     overflow-y: scroll;
     margin-bottom: 1em;
 }
