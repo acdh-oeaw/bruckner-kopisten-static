@@ -45,7 +45,7 @@
                     </xsl:otherwise>
                 </xsl:choose>                               
             </xsl:when>
-            <xsl:when test="@target and not(@type)">
+            <xsl:when test="@target and not(@type) and not(@corresp)">
                 <a title="Bild anzeigen / view image" href="{concat(
                     'https://bk-img.acdh-dev.oeaw.ac.at/',
                     @target)}">
