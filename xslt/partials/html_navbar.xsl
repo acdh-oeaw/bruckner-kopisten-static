@@ -26,6 +26,9 @@
                                         <a title="Über das Projekt" href="about.html" class="nav-link">Über das Projekt</a>
                                     </li>-->
                                     <li class="nav-item dropdown-submenu">
+                                        <a title="Über das Projekt" href="index.html" class="nav-link">Über das Projekt</a>
+                                    </li>
+                                    <li class="nav-item dropdown-submenu">
                                         <a title="Einleitung" href="01-introduction.html" class="nav-link">Einleitung</a>
                                     </li>
                                     <li class="nav-item dropdown-submenu">
@@ -84,12 +87,12 @@
                 <div id="k-functional-wrap">
                     <nav class="k-functional-navig">
                         <div class="menu-functional-container">
-                            <ul id="menu-functional" class="list-inline pull-right">
-                                <li>
-                                    <a title="Kontakt" href="05-contact.html" class="nav-link">Kontakt</a>
+                            <ul id="menu-functional" class="pull-right">
+                                <li class="list-inline">
+                                    <a title="Kontakt" href="05-contact.html">Kontakt</a>
                                 </li>
-                                <li>
-                                    <a title="Impressum" href="06-impressum.html" class="nav-link">Impressum</a>
+                                <li class="list-inline">
+                                    <a title="Impressum" href="imprint.html">Impressum</a>
                                 </li>
                             </ul>
                             

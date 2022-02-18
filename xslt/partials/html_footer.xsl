@@ -90,7 +90,7 @@
         </div>
         <!-- #wrapper-footer-full -->
         <div class="footer-imprint-bar" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;" >
-            © Copyright OEAW | <a href="https://www.oeaw.ac.at/die-oeaw/impressum/">Impressum/Imprint</a>
+            © Copyright OEAW | <a href="imprint.html">Impressum/Imprint</a>
         </div>
     </xsl:template>
 </xsl:stylesheet>

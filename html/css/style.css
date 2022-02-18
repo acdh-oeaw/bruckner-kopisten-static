@@ -56,20 +56,24 @@ li {
 
 .k-functional-navig ul {
     padding: 5px 10px;
-    margin: 0 auto;
-    display: block;
-}
-
-.pull-right {
-    float: right!important;
+    margin: 0;
 }
 
 .k-functional-navig ul li {
-    display: inline-block !important;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .k-functional-navig a:link, .k-functional-navig a:visited {
     color: #363636;
+}
+
+.k-functional-navig a {
+    display: block;
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 .dropdown-menu li {

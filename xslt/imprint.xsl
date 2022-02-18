@@ -27,13 +27,13 @@
                         <div class="card">
                             <div class="card-header">
                                 <h1><xsl:value-of select="$doc_title"/></h1>
-                            </div>
+                            </div>                            
                             <div class="card-body">
                                 <xsl:for-each select=".//div">
                                     <xsl:copy>
                                         <xsl:copy-of select="."/>
                                     </xsl:copy>
-                                </xsl:for-each>                          
+                                </xsl:for-each>     
                             </div>
                         </div>
                     </div>
