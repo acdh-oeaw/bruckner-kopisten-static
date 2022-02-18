@@ -553,10 +553,14 @@
                     <div class="col-md-12">
                         <div class="card" style="margin-top:-.5em;border-top:none!important;">
                             <div class="card-header">
-                                <h5><xsl:value-of select="
-                                    ./tei:head[@xml:lang='de']"/>
-                                    | 
-                                    <xsl:value-of select="./tei:head[@xml:lang='eng']"/>
+                                <h5>
+                                    <xsl:for-each select="./tei:head[@xml:lang='de']">
+                                        <xsl:apply-templates/>
+                                    </xsl:for-each>
+                                    |
+                                    <xsl:for-each select="./tei:head[@xml:lang='eng']">
+                                        <xsl:apply-templates/>
+                                    </xsl:for-each>                                    
                                 </h5>  
                             </div>
                             <div class="card-footer">
@@ -614,7 +618,6 @@
         
     </xsl:template>
     <xsl:template match="tei:figure">
-        <!--<xsl:param name="iiif-ext" select="'full/full/0/default.jpg'"/>-->     
         <xsl:for-each select="./tei:graphic">
             <xsl:variable name="source" select="data(tokenize(@url, '/'))"/>
             <div class="img-notes">

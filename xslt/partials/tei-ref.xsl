@@ -45,6 +45,13 @@
                     </xsl:otherwise>
                 </xsl:choose>                               
             </xsl:when>
+            <xsl:when test="@target and not(@type)">
+                <a title="Bild anzeigen / view image" href="{concat(
+                    'https://bk-img.acdh-dev.oeaw.ac.at/',
+                    @target)}">
+                    <xsl:apply-templates/>
+                </a>
+            </xsl:when>
             <xsl:when test="@corresp">
                 <xsl:variable name="cp" select="tokenize(@target, '/')"/>
                 <xsl:apply-templates/>

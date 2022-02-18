@@ -59,11 +59,15 @@
                     
                     <div class="container-fluid">
                         <xsl:if test="//tei:listPlace">
-                            <div class="card" style="margin-bottom:-3em;padding:0!important;">
-                                <div class="card-footer" style="padding:0!important;">
-                                    <xsl:call-template name="add_map_container"/>
-                                </div>
-                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="card" style="margin-bottom:-3em;padding:0!important;">
+                                        <div class="card-footer" style="padding:0!important;">
+                                            <xsl:call-template name="add_map_container"/>
+                                        </div>
+                                    </div>
+                                </div>                                 
+                            </div>                            
                         </xsl:if>                        
                         <xsl:apply-templates select=".//tei:body"/>                 
                     </div>
@@ -82,42 +86,42 @@
         </html>
     </xsl:template>
 
-    <xsl:template match="tei:div">
-        <div class="row">
-            <xsl:apply-templates>
-                <xsl:with-param name="table-id" select="'tabellen-table'"/>
-            </xsl:apply-templates>
-        </div>
+    <xsl:template match="tei:div">        
+        <xsl:apply-templates>
+            <xsl:with-param name="table-id" select="'tabellen-table'"/>
+        </xsl:apply-templates>        
     </xsl:template>   
     
     <xsl:template match="tei:list">
         <xsl:param name="table-id"/>
-        <div class="col-md-12">
-            <div class="card">
-                <div class="card-header">
-                    <h2>
-                        <xsl:value-of select="./tei:head[@xml:lang='de']"/>                        
-                    </h2>
-                    <h3>                       
-                        <xsl:value-of select="./tei:head[@xml:lang='eng']"/>
-                    </h3> 
-                </div>
-                <div class="card-body">
-                    <table class="table table-striped" id="{$table-id}">
-                        <thead>
-                            <tr>
-                                <th>
-                                    Name
-                                </th>
-                                <th>
-                                    Details
-                                </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <xsl:apply-templates select="//tei:item"/>
-                        </tbody>
-                    </table>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>
+                            <xsl:value-of select="./tei:head[@xml:lang='de']"/>                        
+                        </h2>
+                        <h3>                       
+                            <xsl:value-of select="./tei:head[@xml:lang='eng']"/>
+                        </h3> 
+                    </div>
+                    <div class="card-body">
+                        <table class="table table-striped" id="{$table-id}">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        Name
+                                    </th>
+                                    <th>
+                                        Details
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <xsl:apply-templates select="//tei:item"/>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>

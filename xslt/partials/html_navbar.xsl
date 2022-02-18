@@ -8,15 +8,15 @@
         <div class="wrapper-fluid wrapper-navbar sticky-navbar" id="wrapper-navbar" >
             <a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a>
             <nav class="navbar navbar-expand-lg navbar-light" style="margin-right:0!important;">
-                <div class="container">
+                <div class="container">                    
                     <!-- Your site title as branding in the menu -->
-                    <a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="{$project_logo}" class="img-fluid" title="{$project_short_title}" alt="{$project_short_title}" itemprop="logo" /></a><!-- end custom logo -->
-                    <a class="navbar-brand site-title-with-logo" rel="home" href="index.html" title="{$project_short_title}" itemprop="url"><!--<xsl:value-of select="$project_short_title"/>--></a>
-                    <span style="margin-left:-1.7em;" class="badge bg-light text-dark">in development</span>
+                    <a href="http://www.bruckner-online.at" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="{$project_logo}" class="img-fluid" title="{$project_short_title}" alt="{$project_short_title}" itemprop="logo" /></a><!-- end custom logo -->
+                    <a class="navbar-brand site-title-with-logo" rel="home" href="http://www.bruckner-online.at" title="{$project_short_title}" itemprop="url"><!--<xsl:value-of select="$project_short_title"/>--></a>
+                    <span class="badge bg-light text-dark">BETA</span>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <div class="collapse navbar-collapse justify-content-end justify-content-bottom" id="navbarNavDropdown">
                         <!-- Your menu goes here -->
                         <ul id="main-menu" class="navbar-nav" style="margin-right:0!important;">
                             <li class="nav-item dropdown">
@@ -67,17 +67,9 @@
                             </li>
                             <li class="nav-item">
                                 <a title="Vergleich" href="kopist-comparison.html" class="nav-link">Handschriftenvergleich</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a title="Impressum" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Impressum<span class="caret"></span></a>
-                                <ul class=" dropdown-menu" role="menu">
-                                    <li class="nav-item dropdown-submenu">
-                                        <a title="Kontakt" href="05-contact.html" class="nav-link">Kontakt</a>
-                                    </li>
-                                    <li class="nav-item dropdown-submenu">
-                                        <a title="Impressum" href="06-impressum.html" class="nav-link">Impressum</a>
-                                    </li>
-                                </ul>
+                            </li>   
+                            <li class="nav-item">
+                                <a title="Bruckner Online" href="http://www.bruckner-online.at" class="nav-link">Bruckner-Online</a>
                             </li>
                         </ul>                        
                         <!--<form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search">
@@ -87,7 +79,22 @@
                             </button>
                         </form>-->
                     </div>
-                    <!-- .collapse navbar-collapse -->
+                    <!-- .collapse navbar-collapse -->                    
+                </div>
+                <div id="k-functional-wrap">
+                    <nav class="k-functional-navig">
+                        <div class="menu-functional-container">
+                            <ul id="menu-functional" class="list-inline pull-right">
+                                <li>
+                                    <a title="Kontakt" href="05-contact.html" class="nav-link">Kontakt</a>
+                                </li>
+                                <li>
+                                    <a title="Impressum" href="06-impressum.html" class="nav-link">Impressum</a>
+                                </li>
+                            </ul>
+                            
+                        </div>
+                    </nav>    
                 </div>
                 <!-- .container -->
             </nav>
