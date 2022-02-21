@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main" level="a">Anonymus 166</title>
+                <title level="m">Die Kopisten der Werke Anton Bruckners</title>
+                <author>
+                    <persName xml:id="PH">Paul Hawkshaw</persName>
+                </author>
+                <author>
+                    <persName xml:id="CG">Clemens Gubsch</persName>
+                </author>
+                <funder>Magistratsabteilung 7 – Kultur, Wissenschafts- und Forschungsförderung der Stadt Wien</funder>
+                <respStmt>
+                    <resp>Automatische Konvertierung nach TEI P5</resp>
+                    <name corresp="#CG">Clemens Gubsch</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
+                    <name corresp="#CG">Clemens Gubsch</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-11-01</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Österreichische Akademie der Wissenschaften <lb/>Austrian Centre for Digital Humanities, <lb/>Abteilung Musikwissenschaft</publisher>
+                <pubPlace>Wien</pubPlace>
+                <idno type="Bruckner_Kopisten">d1e189995</idno>
+                <date when-iso="2021-10"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term>Anonymus</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Erfassung aller Kopisten bzw. Schreibprofile innerhalb der überlieferten Abschriften der Werke Anton Bruckners ausgehend vom Forschungsstand des Werkverzeichnisses auf der Forschungsplattform bruckner-online.at</p>
+                <p>Die in dieser Datei erfassten Informationen wurden im Rahmen des Projektes „Die Wiener Kopisten der Werke Anton Bruckners“ gesammelt. Das Projekt wurde 2021 von der Magistratsabteilung 7 – Kultur, Wissenschafts- und Forschungsförderung der Stadt Wien finanziert.</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Die Identifizierung der Kopisten erfolgte nach den in der Projetbeschreibung (siehe <ref target="100_Introduction/03-Methodology.xml">Methodik</ref>) dargelegten Richtlinien.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="#cg" status="created">Erstellt und geprüft</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="content-d1e189995">
+                <listPerson>
+                    <person>
+                        <persName type="main">Anonymus 166</persName>
+                        <idno type="alphabetically_sorted">Anonymus 166</idno>
+                        <residence/>
+                        <affiliation xml:lang="de">Wiener Kopisten</affiliation>
+                        <affiliation xml:lang="eng">Vienna copyist</affiliation>
+                        <index>
+                            <term sortKey="2" xml:lang="de">Sekundärquellen</term>
+                            <term sortKey="2" xml:lang="eng">Secondary Sources</term>
+                        </index>
+                    </person>
+                </listPerson>
+                <p decls="desc" xml:lang="de"/>
+                <p decls="desc" xml:lang="eng"/>
+                <p decls="link" xml:lang="de"/>
+                <p decls="link" xml:lang="eng"/>
+                <table>
+                    <head>Abschriften</head>
+                    <row xml:lang="de" role="label">
+                        <cell>Datierung des Werkes</cell>
+                        <cell>Signatur</cell>
+                        <cell>Werktitel</cell>
+                        <cell>WAB-Nummer</cell>
+                        <cell>Art der Kopie</cell>
+                        <cell>erschlossene Datierung der Kopie</cell>
+                        <cell>Folios in der Hand des Kopisten</cell>
+                        <cell>Datierung der Kopie/Unterschrift</cell>
+                    </row>
+                    <row xml:lang="eng" role="label">
+                        <cell>Date of Composition</cell>
+                        <cell>Library Call Number</cell>
+                        <cell>Work Title</cell>
+                        <cell>WAB Number</cell>
+                        <cell>Manuscript Description</cell>
+                        <cell>date conjectural</cell>
+                        <cell>Folios in the Copyist’s Hand</cell>
+                        <cell>Copyist’s Signature or Date</cell>
+                    </row>
+                    <row role="data">
+                        <cell role="Datierung">
+                            <date when="1884-03-07">07.03.1884</date>
+                        </cell>
+                        <cell role="Signatur">A-Wgm I 57150</cell>
+                        <cell role="Werktitel">
+                            <ref target="http://www.bruckner-online.at/ABLO_d1e10043">Te Deum</ref>
+                        </cell>
+                        <cell role="WAB-Nummer">
+                            <ref target="http://www.bruckner-online.at/wab-045">045</ref>
+                        </cell>
+                        <cell role="Art_der_Kopie">Klavierauszug (4hdg., fragmentarisch)</cell>
+                        <cell role="erschlossene_Datierung_der_Kopie"/>
+                        <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                        <cell role="Datierung_der_Kopie/Unterschrift"/>
+                    </row>
+                </table>
+                <list>
+                    <head xml:lang="de">Beispiele entnommen aus: </head>
+                    <head xml:lang="eng">Examples taken from: </head>
+                    <item>
+                        <title xml:lang="de">Notenschlüssel</title>
+                        <title xml:lang="eng">Clefs</title>
+                        <figure/>
+                    </item>
+                    <item>
+                        <title xml:lang="de">Akzidentien</title>
+                        <title xml:lang="eng">Accidentals</title>
+                        <figure/>
+                    </item>
+                    <item>
+                        <title xml:lang="de">Taktvorzeichnung</title>
+                        <title xml:lang="eng">Time Signatures</title>
+                        <figure/>
+                    </item>
+                    <item>
+                        <title xml:lang="de">Pausen</title>
+                        <title xml:lang="eng">Rests</title>
+                        <figure/>
+                    </item>
+                    <item>
+                        <title xml:lang="de">Noten</title>
+                        <title xml:lang="eng">Notes</title>
+                        <figure/>
+                    </item>
+                    <item>
+                        <title xml:lang="de">Dynamik</title>
+                        <title xml:lang="eng">Dynamics</title>
+                        <figure/>
+                    </item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>
