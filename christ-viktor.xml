@@ -149,9 +149,7 @@
                   <cell role="Datierung">
                      <date from="1879-09-24" to="1881-09-03">24.09.1879–03.09.1881</date>
                   </cell>
-                  <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-Wprivatbesitz_08-03">A-Wprivatbesitz_08-03</ref>
-                  </cell>
+                  <cell role="Signatur">A-Wprivatbesitz_08-03</cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9910">6. Symphonie, 1.
                         Satz</ref>
