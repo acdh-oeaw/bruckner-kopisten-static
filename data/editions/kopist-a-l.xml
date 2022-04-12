@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main" level="a">Kopist G. A.</title>
+            <title type="main" level="a">Kopist A. L.</title>
             <title level="m">Die Kopisten der Werke Anton Bruckners</title>
             <author>
                <persName xml:id="PH">Paul Hawkshaw</persName>
@@ -31,7 +31,7 @@
             <publisher>Österreichische Akademie der Wissenschaften <lb/>Austrian Centre for Digital
                Humanities, <lb/>Abteilung Musikwissenschaft</publisher>
             <pubPlace>Wien</pubPlace>
-            <idno type="Bruckner_Kopisten">d1e27401</idno>
+            <idno type="Bruckner_Kopisten">d1e28854</idno>
             <date when-iso="2021-10"/>
             <availability>
                <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
@@ -74,15 +74,15 @@
    </teiHeader>
    <text>
       <body>
-         <div xml:id="content-d1e27401">
+         <div xml:id="content-d1e28854">
             <listPerson>
                <person>
-                  <persName full="abb" type="main">Kopist G. A.</persName>
+                  <persName full="abb" type="main">Kopist A. L.</persName>
                   <persName>
                      <surname>A.</surname>
-                     <forename>G.</forename>
+                     <forename>L.</forename>
                   </persName>
-                  <idno type="alphabetically_sorted">A. G., Kopist</idno>
+                  <idno type="alphabetically_sorted">L. A., Kopist</idno>
                   <idno type="GND"/>
                   <residence>Kremsmünster</residence>
                   <affiliation xml:lang="de">Kremsmünster Kopisten</affiliation>
@@ -94,39 +94,25 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Gemeinsam fertigten die Kopisten G. A., J. K. und Augustin Lehhofer einen
+               <lb/>Gemeinsam fertigten die Kopisten G. A., A. L. und Augustin Lehhofer einen
                Stimmensatz zum Hymnus <hi rend="italic">In Sanctum Angelum custodem</hi> (WAB 018,1)
-               an. Der Kopist G. A. kopierte auch eine Partitur desselben Stückes. Bei allen drei
-               Kopisten handelt es sich wahrscheinlich um Schüler aus dem Stift. Die Partitur wie
-               auch die Stimmen sind auf 14.11.1892 datiert. Darunter weist ein Vermerk den Kopisten
-               als einen Schüler der 5. Klasse aus. Mit Blick auf die Schülerliste des Stifts sowie
-               die Initialen des Kopisten kommt dafür lediglich Gottfried Aichhorn in Frage.<ref
-                  xml:id="footnote-ref1001" target="#footnote1001" type="noteAnchor">1</ref>
-               <lb/>Für weitere Kopisten aus Kremsmünster siehe <ref
-                  target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>. <note
-                     xml:id="footnote1001" type="footnote" anchored="true" n="1">Verzeichnis der
-                     Kremsmünsterer Studenten 1871–1938, hrsg. von der Direktion des Obergymnasiums der
-                     Benediktiner zu Kremsmünster, Wels Welsermühl 1938, S. 6. <ref
-                        target="https://digi.landesbibliothek.at/viewer/resolver?urn=urn:nbn:at:AT-OOeLB-2745521"
-                        >siehe OOeLB</ref>
-                  </note>
-            </p>
+               an. Bei allen drei Kopisten handelt es sich wahrscheinlich um Schüler oder Musiker
+               aus dem Stift. <lb/>Die Unterschrift des Kopisten ist nicht eindeutig zu entziffern,
+               sodass die Benennung vorerst provisorisch bleiben muss. Ebenso fehlt die Zuordnung zu
+               einer Jahrgangstufe, wie sie bei den anderen beiden Kopisten vorliegt. Es kämen
+               mehrere Schüler des Stifts mit den entsprechenden Initialen infrage.<lb/>Für weitere
+               Kopisten aus Kremsmünster siehe <ref target="../../100_Introduction/Tabelle_3.xml"
+                  type="table">Tabelle 3</ref>. </p>
             <p decls="desc" xml:lang="eng">
                <lb/>The copyists G. A., A. L. and Augustin Lehhofer jointly produced a set of voice
-               parts for the hymn <hi rend="italic">In Sanctum Angelum custodem</hi> (WAB 018,1). G.
-               A. also prepared a score of the same piece. All three copyists were probably students at the
-               monastery. G. A.’s score and part are dated 14.11.1892. Below this a note
-               identifies the copyist as student in the fifth class. Looking at the list of students of the
-               monastery as well as the initials of the copyist, only <hi rend="italic">Gottfried
-                  Aichhorn</hi> is possible.<ref xml:id="footnote-ref1002" target="#footnote1002"
-                     type="noteAnchor">1</ref><lb/>For more copyists from Kremsmünster, see <ref
-                        target="../../100_Introduction/Tabelle_3.xml" type="table">Table 3</ref>. <note
-                           xml:id="footnote1002" type="footnote" anchored="true" n="1">Verzeichnis der
-                           Kremsmünsterer Studenten 1871–1938, hrsg. von der Direktion des Obergymnasiums der
-                           Benediktiner zu Kremsmünster, Wels Welsermühl 1938, p. 6. <ref
-                              target="https://digi.landesbibliothek.at/viewer/resolver?urn=urn:nbn:at:AT-OOeLB-2745521"
-                              >siehe OOeLB</ref>
-                        </note></p>
+               parts for the hymn <hi rend="italic">In Sanctum Angelum custodem</hi> (WAB 018,1).
+               All three copyists were probably students at the monastery. <lb/>The signature of the
+               copyist cannot be clearly deciphered, the designation must remain provisional for the
+               time being. Unlike his co-copyists G. A. and Augustin Lehofer, A. L. did not identify
+               himself as a member of a class in Kremsmünster. Several students of the monastery
+               with the corresponding initials would be possible. <lb/>For more copyists from
+               Kremsmünster, see <ref target="../../100_Introduction/Tabelle_3.xml" type="table"
+                  >Table 3</ref>.</p>
             <p decls="link" xml:lang="de"/>
             <p decls="link" xml:lang="eng"/>
             <table>
@@ -155,23 +141,6 @@
                   <cell role="Datierung">
                      <date from="1868-10-01" to="1868-12-31">Winter 1868</date>
                   </cell>
-                  <cell role="Signatur">A-KR-M8.5a</cell>
-                  <cell role="Werktitel">
-                     <ref target="http://www.bruckner-online.at/ABLO_d1e9127">In Sanctum Angelum
-                        custodem</ref>
-                  </cell>
-                  <cell role="WAB-Nummer">
-                     <ref target="http://www.bruckner-online.at/wab-018">018</ref>
-                  </cell>
-                  <cell role="Art_der_Kopie">Partitur</cell>
-                  <cell role="erschlossene_Datierung_der_Kopie"/>
-                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
-                  <cell role="Datierung_der_Kopie/Unterschrift">1r</cell>
-               </row>
-               <row role="data">
-                  <cell role="Datierung">
-                     <date from="1868-10-01" to="1868-12-31">Winter 1868</date>
-                  </cell>
                   <cell role="Signatur">A-KR-M8.5b</cell>
                   <cell role="Werktitel">
                      <ref target="http://www.bruckner-online.at/ABLO_d1e9127">In Sanctum Angelum
@@ -182,26 +151,23 @@
                   </cell>
                   <cell role="Art_der_Kopie">Stimmen</cell>
                   <cell role="erschlossene_Datierung_der_Kopie"/>
-                  <cell role="Folios_in_der_Hand_des_Kopisten">1r (Sop. [Ten. I]), 2r (Alt [Ten.
-                     II]</cell>
-                  <cell role="Datierung_der_Kopie/Unterschrift">1r, 2r</cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">4r (B. [B. II])</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift">4r</cell>
                </row>
             </table>
             <list>
                <head xml:lang="de">Beispiele entnommen aus: <ref
-                  target="GA_Kopist_A-KR-M8.5a-01r.jpg">A-KR-M8.5a</ref>
+                  target="AL_Kopist_A-KR-M8.5b-04r.jpg">A-KR-M8.5b</ref>
                </head>
-               <head xml:lang="eng">Examples taken from: <ref target="GA_Kopist_A-KR-M8.5a-01r.jpg"
-                  >A-KR-M8.5a</ref>
+               <head xml:lang="eng">Examples taken from: <ref target="AL_Kopist_A-KR-M8.5b-04r.jpg"
+                  >A-KR-M8.5b</ref>
                </head>
                <item>
                   <title xml:lang="de">Notenschlüssel</title>
                   <title xml:lang="eng">Clefs</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/A/GA_Kopist/GA_Kopist_A-KR-M8.5a_A-Clefs_F.png"/>
-                     <graphic scale="33"
-                        url="../../101_samples/named/A/GA_Kopist/GA_Kopist_A-KR-M8.5a_A-Clefs_G.png"
+                        url="../../101_samples/named/L/AL_Kopist/AL_Kopist_A-KR-M8.5b_A-Clefs_F.png"
                      />
                   </figure>
                </item>
@@ -210,9 +176,9 @@
                   <title xml:lang="eng">Accidentals</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/A/GA_Kopist/GA_Kopist_A-KR-M8.5a_B-Accidentals_Natural_1.png"/>
+                        url="../../101_samples/named/L/AL_Kopist/AL_Kopist_A-KR-M8.5b_B-Accidentals_Natural_1.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/A/GA_Kopist/GA_Kopist_A-KR-M8.5a_B-Accidentals_Sharp_1.png"
+                        url="../../101_samples/named/L/AL_Kopist/AL_Kopist_A-KR-M8.5b_B-Accidentals_Sharp_1.png"
                      />
                   </figure>
                </item>
@@ -221,7 +187,7 @@
                   <title xml:lang="eng">Time Signatures</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/A/GA_Kopist/GA_Kopist_A-KR-M8.5a_C-Time-Signatures_C.png"
+                        url="../../101_samples/named/L/AL_Kopist/AL_Kopist_A-KR-M8.5b_C-Time-Signatures_C.png"
                      />
                   </figure>
                </item>
@@ -230,7 +196,7 @@
                   <title xml:lang="eng">Rests</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/A/GA_Kopist/GA_Kopist_A-KR-M8.5a_D-Rests_Halbe_1.png"
+                        url="../../101_samples/named/L/AL_Kopist/AL_Kopist_A-KR-M8.5b_D-Rests_Halbe_1.png"
                      />
                   </figure>
                </item>
@@ -239,15 +205,15 @@
                   <title xml:lang="eng">Notes</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/A/GA_Kopist/GA_Kopist_A-KR-M8.5a_E-Notes_Ganze_1.png"/>
+                        url="../../101_samples/named/L/AL_Kopist/AL_Kopist_A-KR-M8.5b_E-Notes_Ganze_1.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/A/GA_Kopist/GA_Kopist_A-KR-M8.5a_E-Notes_Halbe_1.png"/>
+                        url="../../101_samples/named/L/AL_Kopist/AL_Kopist_A-KR-M8.5b_E-Notes_Halbe_1.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/A/GA_Kopist/GA_Kopist_A-KR-M8.5a_E-Notes_Halbe_2.png"/>
+                        url="../../101_samples/named/L/AL_Kopist/AL_Kopist_A-KR-M8.5b_E-Notes_Halbe_2.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/A/GA_Kopist/GA_Kopist_A-KR-M8.5a_E-Notes_Viertel_1.png"/>
+                        url="../../101_samples/named/L/AL_Kopist/AL_Kopist_A-KR-M8.5b_E-Notes_Viertel_1.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/A/GA_Kopist/GA_Kopist_A-KR-M8.5a_E-Notes_Viertel_2.png"
+                        url="../../101_samples/named/L/AL_Kopist/AL_Kopist_A-KR-M8.5b_E-Notes_Viertel_2.png"
                      />
                   </figure>
                </item>
@@ -256,11 +222,15 @@
                   <title xml:lang="eng">Dynamics</title>
                   <figure>
                      <graphic scale="33"
-                        url="../../101_samples/named/A/GA_Kopist/GA_Kopist_A-KR-M8.5a_F-Dynamics_Forte_1.png"/>
+                        url="../../101_samples/named/L/AL_Kopist/AL_Kopist_A-KR-M8.5b_F-Dynamics_Forte.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/A/GA_Kopist/GA_Kopist_A-KR-M8.5a_F-Dynamics_Mezzoforte_1.png"/>
+                        url="../../101_samples/named/L/AL_Kopist/AL_Kopist_A-KR-M8.5b_F-Dynamics_Mezzoforte_1.png"/>
                      <graphic scale="33"
-                        url="../../101_samples/named/A/GA_Kopist/GA_Kopist_A-KR-M8.5a_F-Dynamics_Piano_1.png"
+                        url="../../101_samples/named/L/AL_Kopist/AL_Kopist_A-KR-M8.5b_F-Dynamics_Mezzoforte_2.png"/>
+                     <graphic scale="33"
+                        url="../../101_samples/named/L/AL_Kopist/AL_Kopist_A-KR-M8.5b_F-Dynamics_Piano_1.png"/>
+                     <graphic scale="33"
+                        url="../../101_samples/named/L/AL_Kopist/AL_Kopist_A-KR-M8.5b_F-Dynamics_Piano_2.png"
                      />
                   </figure>
                </item>

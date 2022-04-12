@@ -131,6 +131,26 @@
                      <date when="1879-12-21">21.12.1879</date>
                   </cell>
                   <cell role="Signatur">
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.6036">A-WnMus.Hs.6036</ref>
+                  </cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9143">Intermezzo</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-113">113</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Partiturfragment</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie">
+                     <date when="1880">1880 [?]</date>
+                  </cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+               </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date when="1879-12-21">21.12.1879</date>
+                  </cell>
+                  <cell role="Signatur">
                      <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-WnMus.Hs.19685">A-WnMus.Hs.19685</ref>
                   </cell>
                   <cell role="Werktitel">
