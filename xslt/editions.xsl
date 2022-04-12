@@ -72,13 +72,14 @@
                     
                     <xsl:call-template name="html_footer"/>
                 </div>
-            </body>
-            <script type="text/javascript" src="js/dt.js"></script>
-            <script type="text/javascript">
-                $(document).ready(function () {
-                    createDataTable('editions-table');
-                });
-            </script>            
+                <script type="text/javascript" src="js/dt.js"></script>
+                <script type="text/javascript">
+                    $(document).ready(function () {
+                        createDataTable('editions-table');
+                    });
+                </script> 
+                <script type="text/javascript" src="js/citation-date.js"></script>
+            </body>                       
         </html>
     </xsl:template>
 
@@ -167,7 +168,7 @@
                                 </div>
                                 <div class="card-body">                                
                                     <table class="table info-box">
-                                        <body>
+                                        <tbody>
                                             <xsl:if test="./tei:persName[@type='before']/text()">
                                                 <tr>
                                                     <th>Vorherige Namen</th>
@@ -268,7 +269,7 @@
                                                     '. Hg. ', //tei:author[1]/tei:persName,
                                                     ', ', //tei:author[2]/tei:persName)"/>
                                                 <xsl:variable name="citation-link-de" 
-                                                    select="concat('https://acdh-oeaw.github.io/bruckner-kopisten-static/',
+                                                    select="concat('https://bruckner-kopisten.acdh.oeaw.ac.at/',
                                                     $cp-clean,
                                                     '.html')"/>
                                                 <th>Zitierhinweis</th>
@@ -280,13 +281,13 @@
                                                             select="lower-case($citation-link-de)"/>
                                                     </a>
                                                     <xsl:text>), aufgerufen am </xsl:text>
-                                                    <xsl:value-of select="format-date(
-                                                        current-date(),  
-                                                        '[D].[M].[Y]')"/>
+                                                    <span class="citationDateDe">
+                                                        <xsl:value-of select="format-date(current-date(),  '[D].[M].[Y]')"/>
+                                                    </span>
                                                     <xsl:text>.</xsl:text>
                                                 </td>
                                             </tr>
-                                        </body>
+                                        </tbody>
                                     </table>
                                 </div>
                                 <div class="card-footer">
@@ -369,7 +370,7 @@
                                 </div>
                                 <div class="card-body">
                                     <table class="table info-box">
-                                        <body>
+                                        <tbody>
                                             <xsl:if test="./tei:persName[@type='before']/text()">
                                                 <tr>
                                                     <th>Previous Names</th>
@@ -470,7 +471,7 @@
                                                     '. Hg. ', //tei:author[1]/tei:persName,
                                                     ', ', //tei:author[2]/tei:persName)"/>
                                                 <xsl:variable name="citation-link-en" 
-                                                    select="concat('https://acdh-oeaw.github.io/bruckner-kopisten-static/',
+                                                    select="concat('https://bruckner-kopisten.acdh.oeaw.ac.at/',
                                                     $cp-clean,
                                                     '.html')"/>
                                                 <th>Citation note</th>
@@ -482,11 +483,13 @@
                                                             select="lower-case($citation-link-en)"/>
                                                     </a>
                                                     <xsl:text>), accessed on </xsl:text>
-                                                    <xsl:value-of select="format-date(current-date(),  '[D].[M].[Y]')"/>
+                                                    <span class="citationDateEn">
+                                                        <xsl:value-of select="format-date(current-date(),  '[D].[M].[Y]')"/>
+                                                    </span>
                                                     <xsl:text>.</xsl:text>
                                                 </td>
                                             </tr>
-                                        </body>
+                                        </tbody>
                                     </table>
                                 </div>
                                 <div class="card-footer">
