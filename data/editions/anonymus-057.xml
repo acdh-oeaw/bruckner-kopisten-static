@@ -135,6 +135,24 @@
                   <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
                </row>
+               <row role="data">
+                  <cell role="Datierung">
+                     <date from="1874-01-02" to="1874-11-22">02.01.1874–22.11.1874</date>
+                  </cell>
+                  <cell role="Signatur">A-Wgm XIII 27609/1, Fasz. B</cell>
+                  <cell role="Werktitel">
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9878">4. Symphonie</ref>
+                  </cell>
+                  <cell role="WAB-Nummer">
+                     <ref target="http://www.bruckner-online.at/wab-104">104</ref>
+                  </cell>
+                  <cell role="Art_der_Kopie">Stimmen</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie">
+                     <date from="1880" to="1880">1880</date>
+                  </cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">366r-401v; 408r-428v (Vc.)</cell>
+                  <cell role="Datierung_der_Kopie/Unterschrift"/>
+               </row>
             </table>
             <list>
                <head xml:lang="de">Beispiele entnommen aus: <ref target="Anonymus-057_A-WstMH6781-003r.jpg">A-WstMHc6781</ref>
