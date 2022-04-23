@@ -68,8 +68,8 @@
                <person>
                   <persName subtype="W" type="main">Anonymus 170</persName>
                   <idno type="alphabetically_sorted">Anonymus 170 (W)</idno>
-                  <floruit from="1879" notBefore="1878" xml:lang="de">ca. 1884</floruit>
-                  <floruit from="1879" notBefore="1878" xml:lang="eng">ca. 1884</floruit>
+                  <floruit from="1879" to="1881" notBefore="1878" xml:lang="de">ca. 1881</floruit>
+                  <floruit from="1879" to="1881" notBefore="1878" xml:lang="eng">ca. 1881</floruit>
                   <residence/>
                   <affiliation xml:lang="de"/>
                   <affiliation xml:lang="eng"/>
