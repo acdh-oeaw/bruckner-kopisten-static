@@ -84,20 +84,50 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Die Kopisten Anonymus 21 (W), 88 (W), 92 (W), Hofmeister und Franz Rossi
-               korrigierten den Stimmensatz der für die Uraufführung der 2. Fassung der <hi rend="italic">Messe in e-Moll</hi> am 4. Oktober 1885 in Linz verwendet wurde und
+               <lb/>Franz Xaver Rossi, Sohn eines Postbeamten in Linz geboren, war bereits als Kind
+               Teil des Sängerchores der Votikkapelle in Linz. Nach seiner Schulzeit in Wien folgte
+               die Lehrerausbildung wiederum in Linz. Rossi war zudem Mitglied der Liedertafel
+               »Frohsinn« und wurde anschließend Lehrer in Wien. 1903 wurde er Mitglied der
+               Hofkapelle und ab 1917 Kapellmeister der Kirche „Am Hof“. Seine Kopiertätigkeit
+               dürfte in die Zeit seiner Lehrerausbildung an der Linzer Präparandie zu verorten
+               sein.<ref xml:id="footnote-ref14001" target="#footnote14001" type="noteAnchor"
+                  >1</ref>
+               <lb/>Die Kopisten Anonymus 002 (L), 021 (W), 088 (W), Hofmeister und Franz Rossi
+               korrigierten den Stimmensatz der für die Uraufführung der 2. Fassung der <hi
+                  rend="italic">Messe in e-Moll</hi> am 4. Oktober 1885 in Linz verwendet wurde und
                fertigten zusätzliche Stimmen und Stimmeinlagen an. Rossi fertigte auch den im
                Domchorarchiv aufbewahrten Stimmensatz zum <hi rend="italic">Virga Jesse floruit</hi>
                – das am gleichen Tag wie die <hi rend="italic">Messe in e-Moll</hi> aufgeführt wurde
-               – an. <lb/>Für weitere Kopisten aus Linz siehe <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>. </p>
+               – an. <lb/>Für weitere Kopisten aus Linz siehe <ref
+                  target="../../100_Introduction/Tabelle_3.xml" type="table">Tabelle 3</ref>. <note
+                     xml:id="footnote14001" type="footnote" anchored="true" n="1">Todesanzeige, in:
+                     [Linzer] Tages-Post, 22.04.1920, S. 3 (<ref
+                        target="https://anno.onb.ac.at/cgi-content/anno?aid=tpt&amp;datum=19200422&amp;seite=3"
+                        >ANNO-Link</ref>).</note>
+            </p>
             <p decls="desc" xml:lang="eng">
-               <lb/>
-               <hi rend="italic">Anonymus</hi> 21 (W), <hi rend="italic">Anonymus</hi> 88 (W),
-                  <hi rend="italic">Anonymus</hi> 92 (W), Hofmeister and Franz Rossi corrected and
-               made additional parts for the first performance of the second version of the <hi rend="italic">Mass in
-               E minor</hi> in Linz on 4 October 1885. Rossi also contributed to the set of parts in the
-               Linz Cathedral Archive for <hi rend="italic">Virga Jesse floruit</hi> which was performed on the same day.
-               <lb/>For more copyists from Linz, see <ref target="../../100_Introduction/Tabelle_3.xml" type="table">Table 3</ref>. </p>
+               <lb/>Franz Xaver Rossi, son of a postal official in Linz, was already part of the
+               choir of the Votikkapelle in Linz as a child. After his school years in Vienna,
+               teacher education followed, again in Linz. Rossi was also a member of the <hi
+                  rend="italic">Liedertafel »Frohsinn«</hi> and subsequently became a teacher in
+               Vienna. In 1903 he became a member of the <hi rend="italic">Hofkapelle</hi> and from
+               1917 Kapellmeister of the church <hi rend="italic">“Am Hof”</hi>. His copying
+               activities can probably be dated to the time of his teacher education at the Linz
+               Preparatory School.<ref xml:id="footnote-ref14002" target="#footnote14002"
+                  type="noteAnchor">1</ref>
+               <lb/><hi rend="italic">Anonymus</hi> 002 (W), <hi rend="italic">Anonymus</hi> 021
+               (W), <hi rend="italic">Anonymus</hi> 088 (W), Hofmeister and Franz Rossi corrected
+               and made additional parts for the first performance of the second version of the <hi
+                  rend="italic">Mass in E minor</hi> in Linz on 4 October 1885. Rossi also
+               contributed to the set of parts in the Linz Cathedral Archive for <hi rend="italic"
+                  >Virga Jesse floruit</hi> which was performed on the same day. <lb/>For more
+               copyists from Linz, see <ref target="../../100_Introduction/Tabelle_3.xml"
+                  type="table">Table 3</ref>. <note xml:id="footnote14002" type="footnote"
+                     anchored="true" n="1">Death announcement, see the [Linzer] Tages-Post, 22 April
+                     1920, p. 3 (<ref
+                        target="https://anno.onb.ac.at/cgi-content/anno?aid=tpt&amp;datum=19200422&amp;seite=3"
+                        >ANNO-Link</ref>).</note>
+            </p>
             <p decls="link" xml:lang="de"/>
             <p decls="link" xml:lang="eng"/>
             <table>
