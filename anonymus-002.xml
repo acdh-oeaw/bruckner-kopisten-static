@@ -352,29 +352,24 @@
                   <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
                </row>
-               <!--<row role="data">
+               <row role="data">
                   <cell role="Datierung">
                      <date when="1866-11-25">25.11.1866</date>
                   </cell>
                   <cell role="Signatur">
-                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-LId477_7_29"
-                        >A-LId477_7_29</ref>
+                     <ref target="http://www.bruckner-online.at/mirador.php?Signatur=A-LId477_7_29">A-LId477_7_29</ref>
                   </cell>
                   <cell role="Werktitel">
-                     <ref target="http://www.bruckner-online.at/ABLO_d1e9393">Messe in e-Moll</ref>
+                     <ref target="http://www.bruckner-online.at/ABLO_d1e9393">Messe in E moll</ref>
                   </cell>
                   <cell role="WAB-Nummer">
                      <ref target="http://www.bruckner-online.at/wab-027">027</ref>
                   </cell>
-                  <cell role="Art_der_Kopie">Stimme (Fragment)</cell>
-                  <cell role="erschlossene_Datierung_der_Kopie">
-                     <date from="1866" to="1869">1866–1869</date>
-                  </cell>
-                  <cell role="Folios_in_der_Hand_des_Kopisten">Ten. 1 Stimme 14</cell>
+                  <cell role="Art_der_Kopie">Stimme</cell>
+                  <cell role="erschlossene_Datierung_der_Kopie"/>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">231r–234v (Ten. 1, St. 10, Cadd)</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
-                  <cell role="Kommentar_intern">AVM 3; 459 T 1 cr 1 in B online. These parts have no
-                     foliations</cell>
-               </row>-->
+               </row>
                <row role="data">
                   <cell role="Datierung">
                      <date notAfter="1866-12-11">vor 11.12.1866</date>
