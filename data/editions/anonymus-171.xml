@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main" level="a">Anonymus 171</title>
+                <title level="m">Die Kopisten der Werke Anton Bruckners</title>
+                <author>
+                    <persName xml:id="PH">Paul Hawkshaw</persName>
+                </author>
+                <author>
+                    <persName xml:id="CG">Clemens Gubsch</persName>
+                </author>
+                <funder>Magistratsabteilung 7 – Kultur, Wissenschafts- und Forschungsförderung der Stadt Wien</funder>
+                <respStmt>
+                    <resp>Automatische Konvertierung nach TEI P5</resp>
+                    <name corresp="#CG">Clemens Gubsch</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
+                    <name corresp="#CG">Clemens Gubsch</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-11-01</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Österreichische Akademie der Wissenschaften <lb/>Austrian Centre for Digital Humanities, <lb/>Abteilung Musikwissenschaft</publisher>
+                <pubPlace>Wien</pubPlace>
+                <idno type="Bruckner_Kopisten">d195147</idno>
+                <date when-iso="2021-10"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term>Anonymus</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Erfassung aller Kopisten bzw. Schreibprofile innerhalb der überlieferten Abschriften der Werke Anton Bruckners ausgehend vom Forschungsstand des Werkverzeichnisses auf der Forschungsplattform bruckner-online.at</p>
+                <p>Die in dieser Datei erfassten Informationen wurden im Rahmen des Projektes „Die Wiener Kopisten der Werke Anton Bruckners“ gesammelt. Das Projekt wurde 2021 von der Magistratsabteilung 7 – Kultur, Wissenschafts- und Forschungsförderung der Stadt Wien finanziert.</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Die Identifizierung der Kopisten erfolgte nach den in der Projetbeschreibung (siehe <ref target="100_Introduction/03-Methodology.xml">Methodik</ref>) dargelegten Richtlinien.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="#cg" status="created">Erstellt und geprüft</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="content-d195147">
+                <listPerson>
+                    <person>
+                        <persName subtype="W" type="main">Anonymus 171</persName>
+                        <idno type="alphabetically_sorted">Anonymus 171 (W)</idno>
+                        <floruit from="1880" notBefore="1880" xml:lang="de">ca. 1880</floruit>
+                        <floruit from="1880" notBefore="1880" xml:lang="eng">ca. 1880</floruit>
+                        <residence/>
+                        <affiliation xml:lang="de"/>
+                        <affiliation xml:lang="eng"/>
+                        <index>
+                            <term sortKey="1" xml:lang="de">Primärquellen</term>
+                            <term sortKey="1" xml:lang="eng">Primary Sources</term>
+                        </index>
+                    </person>
+                </listPerson>
+                <p decls="desc" xml:lang="de">
+                    <lb/>
+                </p>
+                <p decls="desc" xml:lang="eng">
+                    <lb/>
+                </p>
+                <table>
+                    <head>Abschriften</head>
+                    <row xml:lang="de" role="label">
+                        <cell>Datierung des Werkes</cell>
+                        <cell>Signatur</cell>
+                        <cell>Werktitel</cell>
+                        <cell>WAB-Nummer</cell>
+                        <cell>Art der Kopie</cell>
+                        <cell>erschlossene Datierung der Kopie</cell>
+                        <cell>Folios in der Hand des Kopisten</cell>
+                        <cell>Datierung der Kopie/Unterschrift</cell>
+                    </row>
+                    <row xml:lang="eng" role="label">
+                        <cell>Date of Composition</cell>
+                        <cell>Library Call Number</cell>
+                        <cell>Work Title</cell>
+                        <cell>WAB Number</cell>
+                        <cell>Manuscript Description</cell>
+                        <cell>date conjectural</cell>
+                        <cell>Folios in the Copyist’s Hand</cell>
+                        <cell>Copyist’s Signature or Date</cell>
+                    </row>
+                    <row role="data">
+                        <cell role="Datierung">
+                            <date from="1874-01-02" to="1874-11-22">02.01.1874–22.11.1874</date>
+                        </cell>
+                        <cell role="Signatur">A-Wgm XIII 27609/1, Fasz. A</cell>
+                        <cell role="Werktitel">
+                            <ref target="http://www.bruckner-online.at/ABLO_d1e9878">4. Symphonie</ref>
+                        </cell>
+                        <cell role="WAB-Nummer">
+                            <ref target="http://www.bruckner-online.at/wab-104">104</ref>
+                        </cell>
+                        <cell role="Art_der_Kopie">Stimmen</cell>
+                        <cell role="erschlossene_Datierung_der_Kopie">
+                            <date from="1880" to="1880">1880</date>
+                        </cell>
+                        <cell role="Folios_in_der_Hand_des_Kopisten">vollständig abgeschrieben</cell>
+                        <cell role="Datierung_der_Kopie/Unterschrift"/>
+                    </row>
+                </table>
+                <list>
+                    <head xml:lang="de">Beispiele entnommen aus: </head>
+                    <head xml:lang="eng">Examples taken from: </head>
+                    <item>
+                        <title xml:lang="de">Notenschlüssel</title>
+                        <title xml:lang="eng">Clefs</title>
+                        <figure/>
+                    </item>
+                    <item>
+                        <title xml:lang="de">Akzidentien</title>
+                        <title xml:lang="eng">Accidentals</title>
+                        <figure/>
+                    </item>
+                    <item>
+                        <title xml:lang="de">Taktvorzeichnung</title>
+                        <title xml:lang="eng">Time Signatures</title>
+                        <figure/>
+                    </item>
+                    <item>
+                        <title xml:lang="de">Pausen</title>
+                        <title xml:lang="eng">Rests</title>
+                        <figure/>
+                    </item>
+                    <item>
+                        <title xml:lang="de">Noten</title>
+                        <title xml:lang="eng">Notes</title>
+                        <figure/>
+                    </item>
+                    <item>
+                        <title xml:lang="de">Dynamik</title>
+                        <title xml:lang="eng">Dynamics</title>
+                        <figure/>
+                    </item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

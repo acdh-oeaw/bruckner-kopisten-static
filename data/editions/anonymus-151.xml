@@ -79,14 +79,9 @@
                </person>
             </listPerson>
             <p decls="desc" xml:lang="de">
-               <lb/>Im Zuge der Umarbeitungen der <hi rend="italic">3. Symphonie</hi> fertigte der
-               Kopist Anonymus 151 (W) Einlageblätter für die neue Coda an, die teilweise in den
-               Stimmensatz geklebt oder aber auf freie Systeme notiert wurde. Diese Arbeiten dürften
-               vor der Aufführung am 16.12.1877 abgeschlossen gewesen sein. </p>
+               <lb/></p>
             <p decls="desc" xml:lang="eng">
-               <lb/>In the course of the revisions of the <hi rend="italic">Third Symphony</hi>, <hi rend="italic">Anonymus</hi> 151 (W) made insert sheets for the new reading of the
-               coda, some of which were pasted into the set of parts or notated on free staves. This
-               work was probably completed before the performance on 16.12.1877. </p>
+               <lb/></p>
             <table>
                <head>Abschriften</head>
                <row xml:lang="de" role="label">
@@ -124,10 +119,7 @@
                   <cell role="erschlossene_Datierung_der_Kopie">
                      <date from="1877" to="1877" notAfter="1877-12-16">1877</date>
                   </cell>
-                  <cell role="Folios_in_der_Hand_des_Kopisten">Coda-Einlage: 53r (Cadd Fl. 2), 71r
-                     (Cadd Kl. 1), 89r (Cadd Kl. 2), 105r (Cadd Fg. 1), 121r (Cadd Fg. 2), 135r
-                     (Cadd Hr. 1), 154r (Cadd Hr. 2), 170r (Cadd Hr. 3), 201r (Cadd Trp. 1), 226r
-                     (Cadd Trp. 3), 239r (Cadd Pos. 1), 252r (Cadd Pos. 2)</cell>
+                  <cell role="Folios_in_der_Hand_des_Kopisten">258r–275v (Vc.)</cell>
                   <cell role="Datierung_der_Kopie/Unterschrift"/>
                </row>
             </table>
