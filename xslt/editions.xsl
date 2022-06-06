@@ -244,9 +244,9 @@
                                             <tr>
                                                 <th>Zeitraum der Kopiertätigkeit</th>
                                                 <xsl:choose>
-                                                    <xsl:when test="./tei:floruit[@xml:lang='eng']/text()">
+                                                    <xsl:when test="./tei:floruit[@xml:lang='de']/text()">
                                                         <td>
-                                                            <xsl:value-of select="./tei:floruit[@xml:lang='eng']"/>
+                                                            <xsl:value-of select="./tei:floruit[@xml:lang='de']"/>
                                                         </td>
                                                     </xsl:when>
                                                     <xsl:otherwise>
