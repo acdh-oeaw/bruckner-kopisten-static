@@ -73,6 +73,8 @@
                   </persName>
                   <idno type="alphabetically_sorted">Rossi, Franz</idno>
                   <idno type="GND"/>
+                  <birth when="1866-09-06">06.09.1866</birth>
+                  <death when="1920-04-16">16.04.1920</death>
                   <floruit from="1884" to="1885">1884–1885</floruit>
                   <residence>Linz</residence>
                   <affiliation xml:lang="de">Linzer Kopisten</affiliation>
