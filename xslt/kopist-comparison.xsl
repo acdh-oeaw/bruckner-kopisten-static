@@ -67,7 +67,7 @@
                                     </div>
                                     <div class="card-body" id="compare-column-one">
                                         <h6 class="compare-placeholder">
-                                            Kopist auswälen und vergleichen
+                                            Kopist auswählen und vergleichen
                                         </h6>
                                     </div>
                                 </div>
@@ -88,7 +88,7 @@
                                     </div>
                                     <div class="card-body" id="compare-column-two">
                                         <h6 class="compare-placeholder">
-                                            Kopist auswälen und vergleichen
+                                            Kopist auswählen und vergleichen
                                         </h6>
                                     </div>
                                 </div>
