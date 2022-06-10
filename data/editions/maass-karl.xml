@@ -73,6 +73,8 @@
                   </persName>
                   <idno type="alphabetically_sorted">Maaß, Karl</idno>
                   <idno type="GND"/>
+                  <birth></birth>
+                  <death when="1943-11-18">18.11.1943</death>
                   <residence>Vöcklabruck</residence>
                   <affiliation xml:lang="de"/>
                   <affiliation xml:lang="eng"/>
