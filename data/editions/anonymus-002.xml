@@ -73,6 +73,9 @@
                      <forename>Johann</forename>
                   </persName>
                   <idno type="alphabetically_sorted">Anonymus 002 (L)</idno>
+                  <birth when="1826-08-13">13.08.1826</birth>
+                  <death when="1903-11-17">17.11.1903</death>
+                  <note>https://data.matricula-online.eu/de/oesterreich/oberoesterreich/linz-stadtpfarre/306%252F1903/?pg=25</note>
                   <floruit from="1862" to="1885" xml:lang="de">1862–1863, 1866–1870 und
                      1878–1885</floruit>
                   <floruit from="1862" to="1885" xml:lang="eng">1862–1863, 1866–1870 and
