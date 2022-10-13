@@ -156,7 +156,7 @@
                         </div>
                     </div>
                     <div class="container" 
-                        style="margin-top:1em;">
+                        style="margin:1em auto 3em auto;">
                         <div class="row">
                             <div class="col-md-6">
                                 <a href="Tabelle_1.html" 
