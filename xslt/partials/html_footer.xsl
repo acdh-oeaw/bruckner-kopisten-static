@@ -7,7 +7,7 @@
     version="2.0">
     <xsl:template match="/" name="html_footer">
         
-        <div class="wrapper fundament-default-footer" id="wrapper-footer-full" style="margin-top: 4em;background-color:#3A3A3A !important;color:#7b7a7a !important;">
+        <div class="wrapper fundament-default-footer" id="wrapper-footer-full" style="margin-top:auto;background-color:#3A3A3A !important;color:#7b7a7a !important;">
             <div class="container" id="footer-full-content" tabindex="-1">
                 <div class="footer-separator" style="border-bottom-color:#7b7a7a !important;">
                     CONTACT
