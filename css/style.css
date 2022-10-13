@@ -296,6 +296,7 @@ legend .img-notes:hover {
 
 .container-fluid {
     max-width: 1024px;
+    margin-bottom: 3em;
 }
 
 /* staticSearch */
