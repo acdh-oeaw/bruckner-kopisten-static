@@ -6,7 +6,7 @@ data/imprint.xml
 /static-search
 html/static-search
 copy-task.xml
-/data/*.xml
+data/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
