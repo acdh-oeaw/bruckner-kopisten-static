@@ -21,7 +21,7 @@
                         <ul id="main-menu" class="navbar-nav" style="margin-right:0!important;">
                             <li class="nav-item dropdown">
                                 <a title="Papers" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Projektbeschreibung <span class="caret"></span></a>
-                                <ul class=" dropdown-menu" role="menu" style="width:270px;">
+                                <ul class=" dropdown-menu" role="menu" style="width:16rem;">
                                     <!--<li class="nav-item dropdown-submenu">
                                         <a title="Über das Projekt" href="about.html" class="nav-link">Über das Projekt</a>
                                     </li>-->
@@ -44,7 +44,13 @@
                             </li>
                             <li class="nav-item dropdown">
                                 <a title="Indexes" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Katalogzugänge<span class="caret"></span></a>
-                                <ul class=" dropdown-menu" role="menu" style="width:540px;">
+                                <ul class=" dropdown-menu" role="menu" style="width:16rem;">
+                                    <li class="nav-item dropdown-submenu">
+                                        <a title="Kopisten gesamt" href="toc.html" class="nav-link">Gesamtbestand aller Kopisten</a>
+                                    </li>
+                                    <li class="nav-item dropdown-submenu">
+                                        <a title="Kopisten nach Werk" href="toc.html" class="nav-link">Kopisten nach Werk</a>
+                                    </li>
                                     <li class="nav-item dropdown-submenu">
                                         <a title="Kopisten der Primärquellen" href="Tabelle_1.html" class="nav-link">Kopisten der Primärquellen</a>
                                     </li>
@@ -60,9 +66,6 @@
                                         <a title="Zeitraum der Kopiertätigkeit der Kopisten zu Bruckners Lebzeiten" 
                                            href="Tabelle_4.html" class="nav-link">Zeitraum der Kopiertätigkeit der Kopisten zu Bruckners Lebzeiten</a>
                                     </li>
-                                    <li class="nav-item dropdown-submenu">
-                                        <a title="Kopisten gesamt" href="toc.html" class="nav-link">Gesamtbestand aller Kopisten</a>
-                                    </li>
                                 </ul>                                
                             </li>                            
                             <li class="nav-item">
@@ -71,9 +74,9 @@
                             <li class="nav-item">
                                 <a title="Vergleich" href="kopist-comparison.html" class="nav-link">Handschriftenvergleich</a>
                             </li>   
-                            <li class="nav-item">
+                            <!--<li class="nav-item">
                                 <a title="Bruckner Online" href="http://www.bruckner-online.at" class="nav-link">Bruckner-Online</a>
-                            </li>
+                            </li>-->
                         </ul>                        
                         <!--<form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search">
                             <input class="form-control navbar-search" id="s" name="q" type="text" placeholder="Search" value="" autocomplete="off" />
@@ -84,7 +87,7 @@
                     </div>
                     <!-- .collapse navbar-collapse -->                    
                 </div>
-                <div id="k-functional-wrap">
+                <!--<div id="k-functional-wrap">
                     <nav class="k-functional-navig">
                         <div class="menu-functional-container">
                             <ul id="menu-functional" class="pull-right">
@@ -98,7 +101,7 @@
                             
                         </div>
                     </nav>    
-                </div>
+                </div>-->
                 <!-- .container -->
             </nav>
             <!-- .site-navigation -->

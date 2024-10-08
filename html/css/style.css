@@ -22,7 +22,12 @@ li {
 }
 
 .navbar {
-    border-bottom: 1px solid #ab1923 !important;
+    border-bottom: 1px solid #ab1924 !important;
+}
+
+.picture-box
+{
+    border-bottom: 1px solid #ab1924 !important;
 }
 
 #navbarNavDropdown {
@@ -35,11 +40,11 @@ li {
 }
 
 #main-menu li a {
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 13px;
+    font-weight: 600;
+    font-size: 1rem;
     border-top: 3px solid rgba(0,0,0,.1);
     padding: 1.5em 0 .5em 0;
+    font-variant-caps: small-caps;
 }
 
 #k-functional-wrap {

@@ -158,11 +158,29 @@
                     <div class="container" 
                         style="margin:1em auto 3em auto;">
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-12">
+                                <a href="toc.html" 
+                                    class="index-link">  
+                                    <div class="card index-card">
+                                        <div class="card-body picture-box" 
+                                            style="padding:0;">
+                                            <img src="img/Kopistenanzeigen.jpg" 
+                                                class="d-block w-100" 
+                                                alt="..."/>
+                                        </div>
+                                        <div class="card-header">                                            
+                                            <h5>
+                                                Gesamtbestand aller Kopisten
+                                            </h5>                                            
+                                        </div>
+                                    </div>                                    
+                                </a>
+                            </div>
+                            <div class="col-md-4">
                                 <a href="Tabelle_1.html" 
                                     class="index-link">                                   
                                     <div class="card index-card">
-                                        <div class="card-body" 
+                                        <div class="card-body picture-box" 
                                             style="padding:0;">
                                             <img src="img/Thumbnail_Primärquellen.jpg" 
                                                 class="d-block w-100" alt="..."/>
@@ -175,11 +193,11 @@
                                     </div>                                     
                                 </a>                                    
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-4">
                                 <a href="Tabelle_2.html" 
                                     class="index-link">                                                     
                                     <div class="card index-card">
-                                        <div class="card-body" 
+                                        <div class="card-body picture-box" 
                                             style="padding:0;">
                                             <img src="img/Sekundärquellen_Thumbnail.jpg" 
                                                 class="d-block w-100" 
@@ -193,11 +211,11 @@
                                     </div>                                 
                                 </a>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-4">
                                 <a href="Tabelle_3.html" 
                                     class="index-link">  
                                     <div class="card index-card">
-                                        <div class="card-body" 
+                                        <div class="card-body picture-box" 
                                             style="padding:0;">
                                             <img src="img/Landkarte.jpg" 
                                                 class="d-block w-100" 
@@ -211,11 +229,11 @@
                                     </div>                                    
                                 </a>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-4">
                                 <a href="Tabelle_4.html" 
                                     class="index-link">  
                                     <div class="card index-card">
-                                        <div class="card-body" 
+                                        <div class="card-body picture-box" 
                                             style="padding:0;">
                                             <img src="img/Chronologie_Thumbnail.jpg" 
                                                 class="d-block w-100" 
@@ -229,29 +247,11 @@
                                     </div>                                    
                                 </a>
                             </div>                            
-                            <div class="col-md-12">
-                                <a href="toc.html" 
-                                    class="index-link">  
-                                    <div class="card index-card">
-                                        <div class="card-body" 
-                                            style="padding:0;">
-                                            <img src="img/Kopistenanzeigen.jpg" 
-                                                class="d-block w-100" 
-                                                alt="..."/>
-                                        </div>
-                                        <div class="card-header">                                            
-                                            <h5>
-                                                Gesamtbestand aller Kopisten
-                                            </h5>                                            
-                                        </div>
-                                    </div>                                    
-                                </a>
-                            </div> 
-                            <div class="col-md-6">
+                            <div class="col-md-4">
                                 <a href="search.html" 
                                     class="index-link">  
                                     <div class="card index-card">
-                                        <div class="card-body" 
+                                        <div class="card-body picture-box" 
                                             style="padding:0;">
                                             <img src="img/Wien.jpg" 
                                                 class="d-block w-100" 
@@ -265,11 +265,11 @@
                                     </div>                                    
                                 </a>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-4">
                                 <a href="kopist-comparison.html" 
                                     class="index-link">  
                                     <div class="card index-card">
-                                        <div class="card-body" 
+                                        <div class="card-body picture-box" 
                                             style="padding:0;">
                                             <img src="img/datenbank.jpg" 
                                                 class="d-block w-100" 
