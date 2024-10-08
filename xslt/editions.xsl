@@ -264,10 +264,7 @@
                                             </tr>
                                             <tr>
                                                 <xsl:variable name="citation-text-de" 
-                                                    select="concat(//tei:title[@level='a'],
-                                                    '. In: ', //tei:title[@level='m'],
-                                                    '. Hg. ', //tei:author[1]/tei:persName,
-                                                    ', ', //tei:author[2]/tei:persName)"/>
+                                                    select="//tei:title[@level='a']"/>
                                                 <xsl:variable name="citation-link-de" 
                                                     select="concat('https://bruckner-kopisten.acdh.oeaw.ac.at/',
                                                     $cp-clean,
@@ -275,12 +272,14 @@
                                                 <th>Zitierhinweis</th>
                                                 <td>
                                                     <xsl:value-of select="$citation-text-de"/>
-                                                    <xsl:text> (</xsl:text>
+                                                    <xsl:text> [Kopistendatensatz], in: </xsl:text>
+                                                    <cite>Die Kopisten der Werke Anton Bruckners</cite>
+                                                    <xsl:text>, hrsg. von Paul Hawkshaw und Clemens Gubsch (</xsl:text>
                                                     <a href="{lower-case($citation-link-de)}">
                                                         <xsl:value-of 
                                                             select="lower-case($citation-link-de)"/>
                                                     </a>
-                                                    <xsl:text>), aufgerufen am </xsl:text>
+                                                    <xsl:text>), abgerufen am </xsl:text>
                                                     <span class="citationDateDe">
                                                         <xsl:value-of select="format-date(current-date(),  '[D].[M].[Y]')"/>
                                                     </span>
@@ -466,10 +465,7 @@
                                             </tr>
                                             <tr>
                                                 <xsl:variable name="citation-text-de" 
-                                                    select="concat(//tei:title[@level='a'],
-                                                    '. In: ', //tei:title[@level='m'],
-                                                    '. Hg. ', //tei:author[1]/tei:persName,
-                                                    ', ', //tei:author[2]/tei:persName)"/>
+                                                    select="//tei:title[@level='a']"/>
                                                 <xsl:variable name="citation-link-en" 
                                                     select="concat('https://bruckner-kopisten.acdh.oeaw.ac.at/',
                                                     $cp-clean,
@@ -477,7 +473,9 @@
                                                 <th>Citation note</th>
                                                 <td>
                                                     <xsl:value-of select="$citation-text-de"/>
-                                                    <xsl:text> (</xsl:text>
+                                                    <xsl:text> [copyist record], in: </xsl:text>
+                                                    <cite>Die Kopisten der Werke Anton Bruckners</cite>
+                                                    <xsl:text>, ed. by Paul Hawkshaw and Clemens Gubsch (</xsl:text>
                                                     <a href="{lower-case($citation-link-en)}">
                                                         <xsl:value-of 
                                                             select="lower-case($citation-link-en)"/>

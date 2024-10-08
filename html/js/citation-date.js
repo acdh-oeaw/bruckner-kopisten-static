@@ -9,7 +9,7 @@ $(function() {
     $('.citationDateDe').each(function() {
         let date = new Date();
         let options = { 
-            weekday: 'long', 
+            /*weekday: 'long', */
             year: 'numeric',
             month: 'long', 
             day: 'numeric'
@@ -21,7 +21,7 @@ $(function() {
     $('.citationDateEn').each(function() {
         let date = new Date();
         let options = { 
-            weekday: 'long', 
+            /*weekday: 'long', */
             year: 'numeric',
             month: 'long', 
             day: 'numeric'
