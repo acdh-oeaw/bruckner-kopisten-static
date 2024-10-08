@@ -111,7 +111,7 @@
             <xsl:variable name="cp-clean" select="translate($cp-cleaning2, '&#xA0;', '-') => lower-case()"/>
             <div class="row">
                 <div class="col-md-12">
-                    <ul class="nav nav-tabs info-box-link" id="dropdown-lang">                                
+                    <ul class="nav nav-tabs info-box-link justify-content-end" id="dropdown-lang">                                
                         <li class="nav-item">                                    
                             <a title="Deutsch" 
                                 href="#info-lang-de" 
