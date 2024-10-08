@@ -117,7 +117,7 @@
                                 href="#info-lang-de" 
                                 data-toggle="tab" 
                                 class="nav-link btn btn-round active">
-                                Deutsch
+                                DE
                             </a>
                         </li>
                         <li class="nav-item">                                    
@@ -125,7 +125,7 @@
                                 href="#info-lang-en"
                                 data-toggle="tab" 
                                 class="nav-link btn btn-round">
-                                English
+                                EN
                             </a>
                         </li>
                     </ul> 

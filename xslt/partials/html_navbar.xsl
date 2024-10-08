@@ -21,7 +21,7 @@
                         <ul id="main-menu" class="navbar-nav" style="margin-right:0!important;">
                             <li class="nav-item dropdown">
                                 <a title="Papers" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Projektbeschreibung <span class="caret"></span></a>
-                                <ul class=" dropdown-menu" role="menu" style="width:16rem;">
+                                <ul class=" dropdown-menu" role="menu" style="width:20rem;">
                                     <!--<li class="nav-item dropdown-submenu">
                                         <a title="Über das Projekt" href="about.html" class="nav-link">Über das Projekt</a>
                                     </li>-->
@@ -44,7 +44,7 @@
                             </li>
                             <li class="nav-item dropdown">
                                 <a title="Indexes" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Katalogzugänge<span class="caret"></span></a>
-                                <ul class=" dropdown-menu" role="menu" style="width:16rem;">
+                                <ul class=" dropdown-menu" role="menu" style="width:20rem;">
                                     <li class="nav-item dropdown-submenu">
                                         <a title="Kopisten gesamt" href="toc.html" class="nav-link">Gesamtbestand aller Kopisten</a>
                                     </li>

@@ -43,14 +43,14 @@
                     <div class="container-fluid">  
                         <div id="navBarLetters" class="container"
                             style="margin-top:4em !important;">
-                            <ul class="nav nav-tabs" 
+                            <ul class="nav nav-tabs justify-content-end" 
                                 id="dropdown-lang">                                
                                 <li class="nav-item">                                    
                                     <a title="Deutsch" 
                                         href="#lang-de" 
                                         data-toggle="tab" 
                                         class="nav-link btn btn-round active">
-                                        Deutsch
+                                        DE
                                     </a>
                                 </li>
                                 <li class="nav-item">                                    
@@ -58,7 +58,7 @@
                                         href="#lang-en" 
                                         data-toggle="tab" 
                                         class="nav-link btn btn-round">
-                                        English
+                                        EN
                                     </a>
                                 </li>
                             </ul>
