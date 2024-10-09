@@ -107,14 +107,14 @@
                             <!-\-</div>
                         </div>-\->                        
                     </div>-->
-                    <div class="container-fluid"
+                    <div class="container-fluid mb-0"
                          style="margin-top:4em;">
                         <xsl:variable name="about" 
                             select="doc('../data/meta/about.xml')//tei:TEI"/>
                         <div class="row">
-                            <div class="col-md-8" 
+                            <div class="col-md-7" 
                                 style="margin: 0 auto;">
-                                <h1 class="text-center" style="margin-bottom:1em;">
+                                <h1 class="text-center mb-4 small-caps fw-399">
                                     <xsl:value-of select="//tei:body/tei:head"/>
                                 </h1>
                                 <xsl:for-each select="//tei:body/tei:p">
@@ -134,7 +134,7 @@
                                         </xsl:otherwise>
                                     </xsl:choose>                                    
                                 </xsl:for-each> 
-                                <p>
+                                <p class="d-flex justify-content-end" style="margin-right: 2rem;">
                                     <a id="show-text" style="cursor:pointer;color:#ab1923;">
                                         mehr anzeigen
                                     </a>
@@ -185,7 +185,7 @@
                                             <img src="img/Thumbnail_Primärquellen.jpg" 
                                                 class="d-block w-100" alt="..."/>
                                         </div>
-                                        <div class="card-header">                                            
+                                        <div class="card-header fw-399">                                            
                                             <h5>
                                                 Kopisten der Primärquellen
                                             </h5>                                            
@@ -203,7 +203,7 @@
                                                 class="d-block w-100" 
                                                 alt="..."/>
                                         </div>
-                                        <div class="card-header">                                            
+                                        <div class="card-header fw-399">                                            
                                             <h5>
                                                 Kopisten der Sekundärquellen
                                             </h5>                                            
@@ -221,7 +221,7 @@
                                                 class="d-block w-100" 
                                                 alt="..."/>
                                         </div>
-                                        <div class="card-header">                                            
+                                        <div class="card-header fw-399">                                            
                                             <h5>
                                                 Kopisten der Werke Bruckners außerhalb Wiens
                                             </h5>                                            
@@ -239,7 +239,7 @@
                                                 class="d-block w-100" 
                                                 alt="..."/>
                                         </div>
-                                        <div class="card-header">                                            
+                                        <div class="card-header fw-399">                                            
                                             <h5>
                                                 Zeitraum der Kopiertätigkeit der Kopisten zu Bruckners Lebzeiten
                                             </h5>                                            
@@ -257,7 +257,7 @@
                                                 class="d-block w-100" 
                                                 alt="..."/>
                                         </div>
-                                        <div class="card-header">                                            
+                                        <div class="card-header fw-399">                                            
                                             <h5>
                                                 Suche
                                             </h5>                                            
@@ -275,7 +275,7 @@
                                                 class="d-block w-100" 
                                                 alt="..."/>
                                         </div>
-                                        <div class="card-header">                                            
+                                        <div class="card-header fw-399">                                            
                                             <h5>
                                                 Handschriftenvergleich
                                             </h5>                                            
