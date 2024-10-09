@@ -177,9 +177,9 @@ div.alphabetInfo {
     box-shadow: 4px 4px 9px 0 rgba(0, 0, 0, .1);
 }
 
-.card-header {
+/*.card-header {
     border-bottom: 1px solid #ab1923; 
-}
+}*/
 
 p.fade {
     display: none;
@@ -236,9 +236,9 @@ a {
     color: #ab1923;
 }
 a[class="index-link"] {
-    color: #ffffff;
+    color: #000000;
 }
-a[class="index-link"]:after {
+a[class="index-link"]:hover {
     color: #ab1923;
 }
 
