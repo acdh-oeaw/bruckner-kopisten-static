@@ -169,7 +169,7 @@
                                                 alt="..."/>
                                         </div>
                                         <div class="card-header">                                            
-                                            <h5>
+                                            <h5 class="fw-399">
                                                 Gesamtbestand aller Kopisten
                                             </h5>                                            
                                         </div>
@@ -185,8 +185,8 @@
                                             <img src="img/Thumbnail_Primärquellen.jpg" 
                                                 class="d-block w-100" alt="..."/>
                                         </div>
-                                        <div class="card-header fw-399">                                            
-                                            <h5>
+                                        <div class="card-header">                                            
+                                            <h5 class="fw-399">
                                                 Kopisten der Primärquellen
                                             </h5>                                            
                                         </div>
@@ -203,8 +203,8 @@
                                                 class="d-block w-100" 
                                                 alt="..."/>
                                         </div>
-                                        <div class="card-header fw-399">                                            
-                                            <h5>
+                                        <div class="card-header">                                            
+                                            <h5 class="fw-399">
                                                 Kopisten der Sekundärquellen
                                             </h5>                                            
                                         </div>
@@ -221,8 +221,8 @@
                                                 class="d-block w-100" 
                                                 alt="..."/>
                                         </div>
-                                        <div class="card-header fw-399">                                            
-                                            <h5>
+                                        <div class="card-header">                                            
+                                            <h5 class="fw-399">
                                                 Kopisten der Werke Bruckners außerhalb Wiens
                                             </h5>                                            
                                         </div>
@@ -239,8 +239,8 @@
                                                 class="d-block w-100" 
                                                 alt="..."/>
                                         </div>
-                                        <div class="card-header fw-399">                                            
-                                            <h5>
+                                        <div class="card-header">                                            
+                                            <h5 class="fw-399">
                                                 Zeitraum der Kopiertätigkeit der Kopisten zu Bruckners Lebzeiten
                                             </h5>                                            
                                         </div>
@@ -257,8 +257,8 @@
                                                 class="d-block w-100" 
                                                 alt="..."/>
                                         </div>
-                                        <div class="card-header fw-399">                                            
-                                            <h5>
+                                        <div class="card-header">                                            
+                                            <h5 class="fw-399">
                                                 Suche
                                             </h5>                                            
                                         </div>
@@ -275,8 +275,8 @@
                                                 class="d-block w-100" 
                                                 alt="..."/>
                                         </div>
-                                        <div class="card-header fw-399">                                            
-                                            <h5>
+                                        <div class="card-header">                                            
+                                            <h5 class="fw-399">
                                                 Handschriftenvergleich
                                             </h5>                                            
                                         </div>
