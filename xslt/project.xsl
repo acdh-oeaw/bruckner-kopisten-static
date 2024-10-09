@@ -181,5 +181,47 @@
     <xsl:template match="tei:note">
         
     </xsl:template>
+    
+    <xsl:template match="tei:table">
+        <table class="table info-box">
+            <thead>
+                <xsl:apply-templates select="tei:row[@role='label']"/>
+            </thead>
+            <tbody>
+                <xsl:apply-templates select="tei:row[@role='data']"/>
+            </tbody>
+        </table>
+    </xsl:template>
+    
+    <xsl:template match="tei:row[@role='label']">
+        <tr>  
+        <xsl:for-each select="tei:cell">
+                <th>
+                    <xsl:value-of select="."/>
+                </th>
+            </xsl:for-each>
+        </tr>  
+    </xsl:template>
+    
+    <xsl:template match="tei:row[@role='data']">
+        <xsl:for-each select=".">
+            <tr>
+                <xsl:for-each select="tei:cell[1]">
+                    <th>
+                        <xsl:apply-templates/>
+                    </th>
+                </xsl:for-each>
+                <xsl:for-each select="tei:cell[2]">
+                    <td>
+                        <xsl:apply-templates/>
+                    </td>
+                </xsl:for-each>
+            </tr>
+        </xsl:for-each>    
+        
+    </xsl:template>
+    
+   
+    
   
 </xsl:stylesheet>

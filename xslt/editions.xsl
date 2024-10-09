@@ -140,7 +140,7 @@
                                     <xsl:choose>
                                         <xsl:when test="./tei:persName[@subtype]">
                                             <div class="row">
-                                                <div class="col-md-7">
+                                                <div class="col">
                                                     <h3 class="text-left">
                                                         <span class="text">
                                                             <xsl:value-of 

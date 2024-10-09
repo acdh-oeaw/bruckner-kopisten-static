@@ -121,14 +121,14 @@
                                     <xsl:choose>
                                         <xsl:when test="position() = 1">
                                             <p id="about-position-{position()}" 
-                                               style="font-size:18px;line-heigth:24px;">
+                                               class="p-index">
                                                 <xsl:apply-templates/>
                                             </p>                                            
                                         </xsl:when>
                                         <xsl:otherwise>
-                                            <p class="fade about-text-hidden" 
+                                            <p class="fade about-text-hidden p-index" 
                                                id="about-text-{position()}" 
-                                               style="font-size:18px;line-heigth:24px;">
+                                               >
                                                 <xsl:apply-templates/>
                                             </p>
                                         </xsl:otherwise>
