@@ -235,6 +235,12 @@ p.active {
 a {
     color: #ab1923;
 }
+a[class="index-link"] {
+    color: #ffffff;
+}
+a[class="index-link"]:after {
+    color: #ab1923;
+}
 
 p {
     display: block;
