@@ -15,7 +15,7 @@
     <xsl:template match="tei:table" name="table">
         <xsl:param name="table-id"/>
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-9">
                 <div class="card">
                     <div class="card-header">
                         <xsl:if test="./tei:head">
