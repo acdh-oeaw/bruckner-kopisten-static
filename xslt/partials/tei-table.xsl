@@ -14,7 +14,7 @@
           
     <xsl:template match="tei:table" name="table">
         <xsl:param name="table-id"/>
-        <div class="row">
+        <div class="row justify-content-center">
             <div class="col-md-9">
                 <div class="card">
                     <div class="card-header">
