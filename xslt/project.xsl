@@ -69,7 +69,7 @@
                                 <div class="card" 
                                     style="margin-top:0;">
                                     <div class="card-header">
-                                        <h1>
+                                        <h1 class="fw-399 small-caps">
                                             <xsl:value-of select="//tei:head[ancestor::tei:div[@xml:lang='de']]"/>
                                         </h1>
                                     </div>
@@ -104,12 +104,12 @@
                                     <div class="card-header">
                                         <xsl:choose>
                                             <xsl:when test="//tei:head[ancestor::tei:div[@xml:lang='eng']]">
-                                                <h1>
+                                                <h1 class="fw-399 small-caps">
                                                     <xsl:value-of select="//tei:head[ancestor::tei:div[@xml:lang='eng']]"/>
                                                 </h1>
                                             </xsl:when>
                                             <xsl:otherwise>
-                                                <h1>Introduction</h1>
+                                                <h1 class="fw-399 small-caps">Introduction</h1>
                                             </xsl:otherwise>
                                         </xsl:choose>                                
                                     </div>
