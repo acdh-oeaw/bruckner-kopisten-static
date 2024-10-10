@@ -109,8 +109,8 @@
                 "/>
             <xsl:variable name="cp-cleaning2" select="data(translate($cp-cleaning1,'.', ''))"/>
             <xsl:variable name="cp-clean" select="translate($cp-cleaning2, '&#xA0;', '-') => lower-case()"/>
-            <div class="row">
-                <div class="col-md-12">
+            <div class="row justify-content-center">
+                <div class="col-md-9">
                     <ul class="nav nav-tabs info-box-link justify-content-end" id="dropdown-lang">                                
                         <li class="nav-item">                                    
                             <a title="Deutsch" 
@@ -133,8 +133,8 @@
             </div>
             <div class="tab-content">
                 <div class="tab-pane active" id="info-lang-de">
-                    <div class="row">
-                        <div class="col-md-4">
+                    <div class="row justify-content-center">
+                        <div class="col-md-3">
                             <div class="card" style="margin-top:0;">
                                 <div class="card-header">
                                     <xsl:choose>
@@ -298,7 +298,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-8">                
+                        <div class="col-md-6">                
                             <xsl:if test="//tei:p[parent::tei:div][@xml:lang='de']/text()">
                                 <div class="card" style="margin-top:0;">
                                     <div class="card-header">
@@ -334,8 +334,8 @@
                     </div>   
                 </div>
                 <div class="tab-pane fade" id="info-lang-en">
-                    <div class="row">
-                        <div class="col-md-4">
+                    <div class="row justify-content-center">
+                        <div class="col-md-3">
                             <div class="card" style="margin-top:0;">
                                 <div class="card-header">
                                     <xsl:choose>
@@ -500,7 +500,7 @@
                                 </div>
                             </div>                        
                         </div>
-                        <div class="col-md-8">
+                        <div class="col-md-6">
                             <xsl:if test="//tei:p[parent::tei:div][@xml:lang='eng']/text()">
                                 <div class="card" style="margin-top:0;">
                                     <div class="card-header">
@@ -550,8 +550,8 @@
                 <ul style="margin-top:.5em;"><xsl:apply-templates/></ul>
             </xsl:when>
             <xsl:otherwise>
-                <div class="row">
-                    <div class="col-md-12">
+                <div class="row justify-content-center">
+                    <div class="col-md-9">
                         <div class="card" style="margin-top:-.5em;border-top:none!important;">
                             <div class="card-header">
                                 <h5>

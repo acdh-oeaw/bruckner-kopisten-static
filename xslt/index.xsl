@@ -155,7 +155,7 @@
                             </div>                          
                         </div>
                     </div>
-                    <div class="container" 
+                    <div class="container col-7" 
                         style="margin:1em auto 3em auto;">
                         <div class="row">
                             <div class="col-md-12">
