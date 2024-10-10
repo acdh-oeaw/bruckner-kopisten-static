@@ -42,7 +42,7 @@
                     <xsl:call-template name="nav_bar"/>
                     
                     <div class="container-fluid">
-                        <div class="row">
+                        <div class="row justify-content-center">
                             <!--<div class="col-md-12">        
                                 <div class="text-center" style="margin-top: 4em;">
                                     <i title="vergleichen" 
@@ -51,7 +51,7 @@
                                     <!-\-<button class="button btn">vergleichen</button>-\->
                                 </div>                                                                
                             </div>-->
-                            <div class="col-md-6">
+                            <div class="col-md-4">
                                 <div class="card">
                                     <div class="card-header">
                                         <select class="custom-select" 
@@ -72,7 +72,7 @@
                                     </div>
                                 </div>
                             </div>                            
-                            <div class="col-md-6">
+                            <div class="col-md-4">
                                 <div class="card">
                                     <div class="card-header">
                                         <select class="custom-select" 

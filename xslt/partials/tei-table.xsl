@@ -31,7 +31,7 @@
                         <xsl:choose>
                             <xsl:when test="./tei:row[@role='label' and @xml:lang='de']">
                                 <div class="table-responsive">
-                                    <table class="table table-striped table-hover" id="{$table-id}" style="width:100%;">                        
+                                    <table class="table table-striped table-hover" id="{$table-id}" style="width:auto">                        
                                         <thead>
                                         <xsl:for-each select="./tei:row[@role='label' and @xml:lang='de']">                                
                                             <tr> 
@@ -100,7 +100,7 @@
                                     <xsl:if test="./tei:head">
                                         <h3><xsl:value-of select="./tei:head"/></h3>
                                     </xsl:if>
-                                    <table class="table table-striped table-hover display" id="{$table-id}" style="width:100%;">                        
+                                    <table class="table table-striped table-hover display" id="{$table-id}" style="width:auto;">                        
                                         <tbody>
                                             <xsl:for-each select="./tei:row">                        
                                                 <tr>
